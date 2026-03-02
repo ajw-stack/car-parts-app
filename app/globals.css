@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* OEM clean dark theme */
+:root {
+  color-scheme: dark;
+  --background: #0b0f14;
+  --foreground: #e7e9ee;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Clean neutral link style */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Force dark native form controls (Windows/Chrome especially) */
+select, option, input {
+  color-scheme: dark;
+}
+
+select {
+  background-color: #0b0f14;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+option {
+  background-color: #0b0f14;
+  color: #ffffff;
+}
