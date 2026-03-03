@@ -69,6 +69,7 @@ export default function Page() {
   const [selectedSeries, setSelectedSeries] = useState("");
   const [selectedEngineKey, setSelectedEngineKey] = useState("");
   const [selectedChassis, setSelectedChassis] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("");
 
   // Quick search
   const [query, setQuery] = useState("");
@@ -367,15 +368,29 @@ export default function Page() {
     setSelectedSeries("");
     setSelectedEngineKey("");
     setSelectedChassis("");
+    setSelectedCategory("");
     setParts([]);
     setPartsError(null);
   }
 
-  const partsCountLabel = useMemo(() => {
-    if (!selectedVehicleId) return "";
-    if (loadingParts) return "Loading…";
-    return `${parts.length} found`;
-  }, [selectedVehicleId, loadingParts, parts.length]);
+  const categories = useMemo(() => {
+  const set = new Set<string>();
+  for (const p of parts) {
+    if (p?.category) set.add(p.category);
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}, [parts]);
+
+const filteredParts = useMemo(() => {
+  if (!selectedCategory) return parts;
+  return parts.filter((p) => p.category === selectedCategory);
+}, [parts, selectedCategory]);
+
+const partsCountLabel = useMemo(() => {
+  if (!selectedVehicleId) return "";
+  if (loadingParts) return "Loading...";
+  return `${filteredParts.length} found`;
+}, [selectedVehicleId, loadingParts, filteredParts.length]);
 
   return (
     <div className="min-h-screen bg-[#0b0f14] text-white">
@@ -519,6 +534,35 @@ export default function Page() {
             <div className="text-sm text-white/60">{partsCountLabel}</div>
           </div>
 
+          {/* Category Filter */}
+<div className="mt-3 flex flex-wrap items-center gap-3">
+  <label className="text-sm text-white/70">Category</label>
+
+  <select
+    value={selectedCategory}
+    onChange={(e) => setSelectedCategory(e.target.value)}
+    className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none"
+    disabled={!selectedVehicleId || loadingParts}
+  >
+    <option value="">All categories</option>
+    {categories.map((c) => (
+      <option key={c} value={c} className="text-black">
+        {c}
+      </option>
+    ))}
+  </select>
+
+  {selectedCategory && (
+    <button
+      type="button"
+      className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white"
+      onClick={() => setSelectedCategory("")}
+    >
+      Clear
+    </button>
+  )}
+</div>
+
           <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-4">
             {!selectedVehicleId ? (
               <div className="text-sm text-white/60">
@@ -534,7 +578,7 @@ export default function Page() {
               <div className="text-sm text-white/60">No parts linked to this vehicle + engine + chassis yet.</div>
             ) : (
               <div className="space-y-3">
-                {parts.map((p) => (
+                {filteredParts.map((p) => (
                   <Link
                     key={p.id}
                     href={`/part/${p.id}`}
