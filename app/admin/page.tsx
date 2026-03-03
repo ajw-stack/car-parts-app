@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
+import { useRouter } from "next/navigation";
 
 type VehicleRow = {
   id: string;
@@ -26,6 +27,31 @@ type PartRow = {
 };
 
 export default function AdminPage() {
+  const router = useRouter();
+  useEffect(() => {
+  let mounted = true;
+
+  async function guard() {
+    const { data } = await supabase.auth.getSession();
+    if (!mounted) return;
+
+    if (!data.session) {
+      router.replace("/login");
+    }
+  }
+
+  guard();
+
+  const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+    if (!session) router.replace("/login");
+  });
+
+  return () => {
+    mounted = false;
+    sub.subscription.unsubscribe();
+  };
+}, [router]);
+
   const [vehicles, setVehicles] = useState<VehicleRow[]>([]);
   const [parts, setParts] = useState<PartRow[]>([]);
   const [loading, setLoading] = useState(true);
