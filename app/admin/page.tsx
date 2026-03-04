@@ -386,11 +386,13 @@ const canAddCategory = useMemo(() => {
       <main className="mx-auto max-w-5xl px-6 py-10">
         <div className="flex items-start justify-between gap-6">
           <div>
+
             <h1 className="text-3xl font-semibold tracking-tight">Admin</h1>
             <p className="mt-2 text-sm text-white/70">
               Add Vehicles, Parts, then link them via Fitments.
             </p>
           </div>
+          
 
           <button
             onClick={refreshAll}
@@ -400,11 +402,11 @@ const canAddCategory = useMemo(() => {
           </button>
         </div>
 
-        {msg && (
-          <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm">
-            {msg}
-          </div>
-        )}
+            {msg && (
+            <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm">
+              {msg}
+            </div>
+            )}
 
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
           {/* Add Vehicle */}
@@ -413,6 +415,7 @@ const canAddCategory = useMemo(() => {
             <p className="mt-1 text-xs text-white/60">
               One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
             </p>
+          
 
             <div className="mt-4 grid grid-cols-2 gap-3">
               <div className="col-span-2 relative">
@@ -523,93 +526,56 @@ const canAddCategory = useMemo(() => {
               Add Vehicle
             </button>
           </section>
-
-          {/* Add Part */}
-          <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <h2 className="text-lg font-semibold">Add Part</h2>
-
-            <div className="mt-4 grid grid-cols-2 gap-3">
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Brand (e.g. Ryco)"
-                value={pBrand}
-                onChange={(e) => setPBrand(e.target.value)}
-              />
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Part # (e.g. R2690P)"
-                value={pNumber}
-                onChange={(e) => setPNumber(e.target.value)}
-              />
-              <input
-                className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Name"
-                value={pName}
-                onChange={(e) => setPName(e.target.value)}
-              />
-             <div className="col-span-2 relative">
-  <input
-    className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-    placeholder="Category (e.g. Oil Filter)"
-    value={pCategory}
-    onChange={(e) => {
-      setPCategory(e.target.value);
-      setCategoryOpen(true);
-    }}
-      onBlur={() => {
-      setTimeout(() => setCategoryOpen(false), 120);
-    }}
-  />
-
- {pCategory.trim() && categoryOpen && (categoryMatches.length > 0 || canAddCategory) && (
-  <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
-    {categoryMatches.map((c) => (
-      <button
-        key={c}
-        type="button"
-        onMouseDown={(e) => e.preventDefault()}
-        onClick={() => {
-          setPCategory(c);
-          setCategoryOpen(false);
-        }}
-        className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
-      >
-        {c}
-      </button>
-    ))}
-
-    {canAddCategory && (
-      <button
-        type="button"
-        onMouseDown={(e) => e.preventDefault()}
-        onClick={() => {
-          setPCategory(pCategory.trim());
-          setCategoryOpen(false);
-        }}
-        className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
-      >
-        Add "{pCategory.trim()}"
-      </button>
-    )}
+    {msg}
   </div>
-)}
-</div>
 
-                
-            </div>
+{/* Add Part */}
+<section className="rounded-2xl border border-white/10 bg-white/5 p-5">
+  <h2 className="text-lg font-semibold">Add Part</h2>
 
-            <button
-              disabled={!canAddPart}
-              onClick={addPart}
-              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
-            >
-              Add Part
-            </button>
-          </section>
-        </div>
+  <div className="mt-4 grid grid-cols-2 gap-3">
+    <TypeaheadInput
+      value={pBrand}
+      onChange={setPBrand}
+      options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
+      placeholder="Brand (e.g. Ryco)"
+    />
 
-        {/* Add Fitment */}
-        <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
+    <input
+      className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+      placeholder="Part # (e.g. R2690P)"
+      value={pNumber}
+      onChange={(e) => setPNumber(e.target.value)}
+    />
+
+    <input
+      className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+      placeholder="Name"
+      value={pName}
+      onChange={(e) => setPName(e.target.value)}
+    />
+
+    <div className="col-span-2">
+      <TypeaheadInput
+        value={pCategory}
+        onChange={setPCategory}
+        options={Array.from(new Set(parts.map((p) => p.category))).sort()}
+        placeholder='Category (e.g. Oil Filter)'
+      />
+    </div>
+  </div>
+
+  <button
+    disabled={!canAddPart}
+    onClick={addPart}
+    className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
+  >
+    Add Part
+  </button>
+</section>
+
+          {/* Add Fitment */}
+            <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
@@ -660,8 +626,7 @@ const canAddCategory = useMemo(() => {
               ? "Loading…"
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
           </div>
-        </section>
-      </main>
-    </div>
-  );
-}
+          </section>
+          </main>
+          </div>
+          )}
