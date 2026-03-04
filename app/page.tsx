@@ -375,16 +375,20 @@ function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
   return;
 }
 
-  if (e.key === "Enter" || e.key === "Tab") {
-    const v = searchMatches[searchActiveIndex];
-    if (!v) return;
+  if (e.key === "Enter") {
+  e.preventDefault();
 
-    if (e.key === "Enter") e.preventDefault();
+  const idx = Math.min(
+    Math.max(searchActiveIndex, 0),
+    searchMatches.length - 1
+  );
+  const v = searchMatches[idx];
+  if (!v) return;
 
-    applyVehicle(v);
-    setQuery("");
-    return;
-  }
+  applyVehicle(v);
+  setQuery("");
+  return;
+}
 
   if (e.key === "Escape") {
     setQuery("");
