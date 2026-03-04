@@ -87,16 +87,6 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
   _setSearchActiveIndex(v);
 }
 
-function setSearchActiveIndex(next: number | ((prev: number) => number)) {
-  const v =
-    typeof next === "function"
-      ? (next as (p: number) => number)(searchActiveIndexRef.current)
-      : next;
-
-  searchActiveIndexRef.current = v;
-  _setSearchActiveIndex(v);
-}
-
   // Results
   const [parts, setParts] = useState<PartRow[]>([]);
   const [loadingParts, setLoadingParts] = useState(false);
