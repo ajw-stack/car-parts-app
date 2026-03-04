@@ -11,8 +11,8 @@ type VehicleRow = {
   model: string;
   year_from: number;
   year_to: number;
-  month_from: number;
-  month_to: number;
+  month_from: number | null;
+  month_to: number | null;
   series: string | null;
   engine_code: string | null;
   engine_litres: number | null;
@@ -148,8 +148,8 @@ export default function AdminPage() {
   const [vModel, setVModel] = useState("");
   const [vYearFrom, setVYearFrom] = useState("");
   const [vYearTo, setVYearTo] = useState("");
-  const [vMonthFrom, setVMonthFrom] = useState(" ");
-  const [vMonthTo, setVMonthTo] = useState("12");
+  const [vMonthFrom, setVMonthFrom] = useState("");
+  const [vMonthTo, setVMonthTo] = useState("");
   const [vSeries, setVSeries] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
@@ -451,16 +451,18 @@ const canAddCategory = useMemo(() => {
             </div>
               <div className="grid grid-cols-2 gap-3 col-span-2">
   <select
-    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-    value={vMonthFrom}
-    onChange={(e) => setVMonthFrom(e.target.value)}
-  >
-    {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
-      <option key={m} value={String(m)}>
-        {String(m).padStart(2, "0")}
-      </option>
-    ))}
-  </select>
+  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+  value={vMonthFrom}
+  onChange={(e) => setVMonthFrom(e.target.value)}
+>
+  <option value="">Month</option>
+
+  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+    <option key={m} value={String(m)}>
+      {String(m).padStart(2, "0")}
+    </option>
+  ))}
+</select>
 
   <input
     className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
@@ -470,16 +472,18 @@ const canAddCategory = useMemo(() => {
   />
 
   <select
-    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-    value={vMonthTo}
-    onChange={(e) => setVMonthTo(e.target.value)}
-  >
-    {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
-      <option key={m} value={String(m)}>
-        {String(m).padStart(2, "0")}
-      </option>
-    ))}
-  </select>
+  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+  value={vMonthTo}
+  onChange={(e) => setVMonthTo(e.target.value)}
+>
+  <option value="">Month</option>
+
+  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+    <option key={m} value={String(m)}>
+      {String(m).padStart(2, "0")}
+    </option>
+  ))}
+</select>
 
   <input
     className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
