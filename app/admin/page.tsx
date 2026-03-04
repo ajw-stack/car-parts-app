@@ -26,6 +26,90 @@ type PartRow = {
   category: string;
 };
 
+type TypeaheadInputProps = {
+  value: string;
+  onChange: (v: string) => void;
+  options: string[];
+  placeholder?: string;
+  disabled?: boolean;
+};
+
+function TypeaheadInput({
+  value,
+  onChange,
+  options,
+  placeholder,
+  disabled,
+}: TypeaheadInputProps) {
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+
+  const filtered = useMemo(() => {
+    const q = value.trim().toLowerCase();
+    if (!q) return options.slice(0, 50);
+    return options.filter((x) => x.toLowerCase().includes(q)).slice(0, 50);
+  }, [value, options]);
+
+  const select = (v: string) => {
+    onChange(v);
+    setOpen(false);
+  };
+
+  return (
+    <div className="relative">
+      <input
+        value={value}
+        disabled={disabled}
+        placeholder={placeholder}
+        onChange={(e) => {
+          onChange(e.target.value);
+          setOpen(true);
+        }}
+        onKeyDown={(e) => {
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            setActive((i) => Math.min(i + 1, filtered.length - 1));
+          }
+
+          if (e.key === "ArrowUp") {
+            e.preventDefault();
+            setActive((i) => Math.max(i - 1, 0));
+          }
+
+          if (e.key === "Enter") {
+            if (filtered[active]) {
+              e.preventDefault();
+              select(filtered[active]);
+            }
+          }
+        }}
+        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white"
+      />
+
+      {open && filtered.length > 0 && (
+        <div className="absolute z-50 mt-2 w-full rounded-xl border border-white/10 bg-[#0b0f14]">
+          {filtered.map((opt, idx) => (
+            <button
+              key={opt}
+              type="button"
+              onMouseEnter={() => setActive(idx)}
+              onMouseDown={(e) => {
+                e.preventDefault();
+                select(opt);
+              }}
+              className={`block w-full px-4 py-2 text-left text-sm ${
+                idx === active ? "bg-white/10" : "hover:bg-white/5"
+              }`}
+            >
+              {opt}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function AdminPage() {
   const router = useRouter();
   useEffect(() => {
@@ -332,40 +416,14 @@ const canAddCategory = useMemo(() => {
 
             <div className="mt-4 grid grid-cols-2 gap-3">
               <div className="col-span-2 relative">
-              <input
-                className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Make (e.g. Ford)"
-                value={vMake}
-                onChange={(e) => {
-                  setVMake(e.target.value);
-                  setMakeOpen(true);
-                }}
-                onFocus={() => {
-                  if (vMake.trim()) setMakeOpen(true);
-                }}
-                onBlur={() => {
-                  setTimeout(() => setMakeOpen(false), 120);
-                }}
-              />
-
-              {vMake.trim() && makeOpen && makeMatches.length > 0 && (
-                <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
-                  {makeMatches.map((m) => (
-                    <button
-                      key={m}
-                      type="button"
-                      onMouseDown={(e) => e.preventDefault()}
-                      onClick={() => {
-                        setVMake(m);
-                        setMakeOpen(false);
-                      }}
-                      className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
-                    >
-                      {m}
-                    </button>
-                  ))}
-                </div>
-              )}
+              
+            <TypeaheadInput
+              value={vMake}
+              onChange={setVMake}
+              options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
+              placeholder="Make (e.g. Ford)"
+            />
+            
             </div>
               <div className="col-span-2 relative">
               <input
