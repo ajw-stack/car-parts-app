@@ -126,6 +126,16 @@ export default function AdminPage() {
   const partLabel = (p: PartRow) =>
     `${p.brand} ${p.part_number} — ${p.name} (${p.category})`;
 
+  // Existing categories (from parts table)
+const categoryOptions = useMemo(() => {
+  const set = new Set<string>();
+  for (const p of parts) {
+    const c = (p.category ?? "").trim();
+    if (c) set.add(c);
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}, [parts]);
+
   const canAddVehicle =
     vMake.trim() &&
     vModel.trim() &&
@@ -356,11 +366,18 @@ export default function AdminPage() {
                 onChange={(e) => setPName(e.target.value)}
               />
               <input
-                className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Category (e.g. Oil Filter)"
-                value={pCategory}
-                onChange={(e) => setPCategory(e.target.value)}
-              />
+  list="category-options"
+  className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+  placeholder="Category (e.g. Oil Filter)"
+  value={pCategory}
+  onChange={(e) => setPCategory(e.target.value)}
+/>
+
+<datalist id="category-options">
+  {categoryOptions.map((c) => (
+    <option key={c} value={c} />
+  ))}
+</datalist>
             </div>
 
             <button
