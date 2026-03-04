@@ -148,7 +148,7 @@ export default function AdminPage() {
   const [vModel, setVModel] = useState("");
   const [vYearFrom, setVYearFrom] = useState("");
   const [vYearTo, setVYearTo] = useState("");
-  const [vMonthFrom, setVMonthFrom] = useState("1");
+  const [vMonthFrom, setVMonthFrom] = useState(" ");
   const [vMonthTo, setVMonthTo] = useState("12");
   const [vSeries, setVSeries] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
