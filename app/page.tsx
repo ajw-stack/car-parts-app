@@ -360,16 +360,20 @@ function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
   }
 
   if (e.key === "ArrowDown") {
-    e.preventDefault();
-    setSearchActiveIndex((i) => Math.min(i + 1, searchMatches.length - 1));
-    return;
-  }
+  e.preventDefault();
+  setSearchActiveIndex((i) =>
+    i + 1 >= searchMatches.length ? 0 : i + 1
+  );
+  return;
+}
 
   if (e.key === "ArrowUp") {
-    e.preventDefault();
-    setSearchActiveIndex((i) => Math.max(i - 1, 0));
-    return;
-  }
+  e.preventDefault();
+  setSearchActiveIndex((i) =>
+    i - 1 < 0 ? searchMatches.length - 1 : i - 1
+  );
+  return;
+}
 
   if (e.key === "Enter" || e.key === "Tab") {
     const v = searchMatches[searchActiveIndex];
