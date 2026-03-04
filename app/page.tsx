@@ -353,8 +353,11 @@ export default function Page() {
 }, [query]);
 
 function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-  const open = query.trim().length > 0 && searchMatches.length > 0;
-  if (!open) return;
+  // If dropdown isn't open, only handle Escape to clear
+  if (!query.trim() || searchMatches.length === 0) {
+    if (e.key === "Escape") setQuery("");
+    return;
+  }
 
   if (e.key === "ArrowDown") {
     e.preventDefault();
@@ -368,26 +371,18 @@ function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     return;
   }
 
-  if (e.key === "Enter") {
-    e.preventDefault();
-    const v = searchMatches[searchActiveIndex] ?? searchMatches[0];
+  if (e.key === "Enter" || e.key === "Tab") {
+    const v = searchMatches[searchActiveIndex];
     if (!v) return;
-    applyVehicle(v);
-    setQuery("");
-    return;
-  }
 
-  if (e.key === "Tab") {
-    // Select suggestion, then allow tab to move focus normally
-    const v = searchMatches[searchActiveIndex] ?? searchMatches[0];
-    if (!v) return;
+    if (e.key === "Enter") e.preventDefault();
+
     applyVehicle(v);
     setQuery("");
     return;
   }
 
   if (e.key === "Escape") {
-    e.preventDefault();
     setQuery("");
     return;
   }
