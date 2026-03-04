@@ -136,7 +136,45 @@ const categoryOptions = useMemo(() => {
   return Array.from(set).sort((a, b) => a.localeCompare(b));
 }, [parts]);
 
+// Existing makes (from vehicles table)
+const makeOptions = useMemo(() => {
+  const set = new Set<string>();
+  for (const v of vehicles) {
+    const m = (v.make ?? "").trim();
+    if (m) set.add(m);
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}, [vehicles]);
+
+// Existing models (from vehicles table)
+const modelOptions = useMemo(() => {
+  const set = new Set<string>();
+  for (const v of vehicles) {
+    const m = (v.model ?? "").trim();
+    if (m) set.add(m);
+  }
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}, [vehicles]);
+
 const [categoryOpen, setCategoryOpen] = useState(false);
+const [makeOpen, setMakeOpen] = useState(false);
+const [modelOpen, setModelOpen] = useState(false);
+
+const makeMatches = useMemo(() => {
+  const q = vMake.trim().toLowerCase();
+  if (!q) return [];
+  return makeOptions
+    .filter((m) => m.toLowerCase().includes(q))
+    .slice(0, 8);
+}, [vMake, makeOptions]);
+
+const modelMatches = useMemo(() => {
+  const q = vModel.trim().toLowerCase();
+  if (!q) return [];
+  return modelOptions
+    .filter((m) => m.toLowerCase().includes(q))
+    .slice(0, 8);
+}, [vModel, modelOptions]);
 
 const categoryMatches = useMemo(() => {
   const q = pCategory.trim().toLowerCase();
@@ -293,18 +331,78 @@ const canAddCategory = useMemo(() => {
             </p>
 
             <div className="mt-4 grid grid-cols-2 gap-3">
+              <div className="col-span-2 relative">
               <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
                 placeholder="Make (e.g. Ford)"
                 value={vMake}
-                onChange={(e) => setVMake(e.target.value)}
+                onChange={(e) => {
+                  setVMake(e.target.value);
+                  setMakeOpen(true);
+                }}
+                onFocus={() => {
+                  if (vMake.trim()) setMakeOpen(true);
+                }}
+                onBlur={() => {
+                  setTimeout(() => setMakeOpen(false), 120);
+                }}
               />
+
+              {vMake.trim() && makeOpen && makeMatches.length > 0 && (
+                <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
+                  {makeMatches.map((m) => (
+                    <button
+                      key={m}
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => {
+                        setVMake(m);
+                        setMakeOpen(false);
+                      }}
+                      className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
+                    >
+                      {m}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+              <div className="col-span-2 relative">
               <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
                 placeholder="Model (e.g. Ranger)"
                 value={vModel}
-                onChange={(e) => setVModel(e.target.value)}
+                onChange={(e) => {
+                  setVModel(e.target.value);
+                  setModelOpen(true);
+                }}
+                onFocus={() => {
+                  if (vModel.trim()) setModelOpen(true);
+                }}
+                onBlur={() => {
+                  setTimeout(() => setModelOpen(false), 120);
+                }}
               />
+
+              {vModel.trim() && modelOpen && modelMatches.length > 0 && (
+                <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
+                  {modelMatches.map((m) => (
+                    <button
+                      key={m}
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => {
+                        setVModel(m);
+                        setModelOpen(false);
+                      }}
+                      className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
+                    >
+                      {m}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
                 placeholder="Year From (e.g. 2016)"
