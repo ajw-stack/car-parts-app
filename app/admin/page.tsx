@@ -526,9 +526,7 @@ const canAddCategory = useMemo(() => {
               Add Vehicle
             </button>
           </section>
-    {msg}
-  </div>
-
+          
 {/* Add Part */}
 <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
   <h2 className="text-lg font-semibold">Add Part</h2>
@@ -573,7 +571,7 @@ const canAddCategory = useMemo(() => {
     Add Part
   </button>
 </section>
-
+</div>
           {/* Add Fitment */}
             <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
