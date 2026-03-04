@@ -146,6 +146,12 @@ const categoryMatches = useMemo(() => {
     .slice(0, 8);
 }, [pCategory, categoryOptions]);
 
+const canAddCategory = useMemo(() => {
+  const v = pCategory.trim();
+  if (!v) return false;
+  return !categoryOptions.some((c) => c.toLowerCase() === v.toLowerCase());
+}, [pCategory, categoryOptions]);
+
   const canAddVehicle =
     vMake.trim() &&
     vModel.trim() &&
@@ -389,24 +395,38 @@ const categoryMatches = useMemo(() => {
     }}
   />
 
-  {pCategory.trim() && categoryOpen && categoryMatches.length > 0 && (
-    <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
-      {categoryMatches.map((c) => (
-        <button
-          key={c}
-          type="button"
-          onMouseDown={(e) => e.preventDefault()}
-          onClick={() => {
-            setPCategory(c);
-            setCategoryOpen(false);
-          }}
-          className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
-        >
-          {c}
-        </button>
-      ))}
-    </div>
-  )}
+ {pCategory.trim() && categoryOpen && (categoryMatches.length > 0 || canAddCategory) && (
+  <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
+    {categoryMatches.map((c) => (
+      <button
+        key={c}
+        type="button"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => {
+          setPCategory(c);
+          setCategoryOpen(false);
+        }}
+        className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
+      >
+        {c}
+      </button>
+    ))}
+
+    {canAddCategory && (
+      <button
+        type="button"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => {
+          setPCategory(pCategory.trim());
+          setCategoryOpen(false);
+        }}
+        className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+      >
+        Add "{pCategory.trim()}"
+      </button>
+    )}
+  </div>
+)}
 </div>
 
                 
