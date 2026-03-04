@@ -73,6 +73,7 @@ export default function Page() {
 
   // Quick search
   const [query, setQuery] = useState("");
+  const [searchActiveIndex, setSearchActiveIndex] = useState(0);
 
   // Results
   const [parts, setParts] = useState<PartRow[]>([]);
@@ -347,6 +348,51 @@ export default function Page() {
     return scored.slice(0, 8).map((x) => x.v);
   }, [vehicles, query]);
 
+  useEffect(() => {
+  setSearchActiveIndex(0);
+}, [query]);
+
+function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+  const open = query.trim().length > 0 && searchMatches.length > 0;
+  if (!open) return;
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    setSearchActiveIndex((i) => Math.min(i + 1, searchMatches.length - 1));
+    return;
+  }
+
+  if (e.key === "ArrowUp") {
+    e.preventDefault();
+    setSearchActiveIndex((i) => Math.max(i - 1, 0));
+    return;
+  }
+
+  if (e.key === "Enter") {
+    e.preventDefault();
+    const v = searchMatches[searchActiveIndex] ?? searchMatches[0];
+    if (!v) return;
+    applyVehicle(v);
+    setQuery("");
+    return;
+  }
+
+  if (e.key === "Tab") {
+    // Select suggestion, then allow tab to move focus normally
+    const v = searchMatches[searchActiveIndex] ?? searchMatches[0];
+    if (!v) return;
+    applyVehicle(v);
+    setQuery("");
+    return;
+  }
+
+  if (e.key === "Escape") {
+    e.preventDefault();
+    setQuery("");
+    return;
+  }
+}
+
   function applyVehicle(v: VehicleRow) {
     setSelectedMake(v.make);
     setSelectedModel(v.model);
@@ -421,20 +467,30 @@ const partsCountLabel = useMemo(() => {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={onQuickSearchKeyDown}
               placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
               className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none focus:border-white/20"
             />
             {query.trim() && searchMatches.length > 0 && (
               <div className="mt-2 overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
-                {searchMatches.map((v) => (
-                  <button
-                    key={v.id}
-                    onClick={() => applyVehicle(v)}
-                    className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
-                  >
-                    {vehicleCardLabel(v)}
-                  </button>
-                ))}
+                {searchMatches.map((v, idx) => (
+              <button
+                key={v.id}
+                type="button"
+                onMouseEnter={() => setSearchActiveIndex(idx)}
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  applyVehicle(v);
+                  setQuery("");
+                }}
+                className={[
+                  "block w-full px-4 py-2 text-left text-sm",
+                  idx === searchActiveIndex ? "bg-white/10" : "hover:bg-white/5",
+                ].join(" ")}
+              >
+                {vehicleCardLabel(v)}
+              </button>
+            ))}
               </div>
             )}
           </div>
