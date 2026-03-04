@@ -526,7 +526,7 @@ const canAddCategory = useMemo(() => {
               Add Vehicle
             </button>
           </section>
-          
+
 {/* Add Part */}
 <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
   <h2 className="text-lg font-semibold">Add Part</h2>
@@ -546,12 +546,14 @@ const canAddCategory = useMemo(() => {
       onChange={(e) => setPNumber(e.target.value)}
     />
 
-    <input
-      className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-      placeholder="Name"
-      value={pName}
-      onChange={(e) => setPName(e.target.value)}
-    />
+ <div className="col-span-2 relative">
+  <TypeaheadInput
+    value={pName}
+    onChange={setPName}
+    options={Array.from(new Set(parts.map((p) => p.name))).filter(Boolean).sort()}
+    placeholder="Name"
+  />
+</div>
 
     <div className="col-span-2">
       <TypeaheadInput
