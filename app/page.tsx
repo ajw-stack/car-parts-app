@@ -71,6 +71,8 @@ export default function Page() {
   const [selectedChassis, setSelectedChassis] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
 
+  const applyingQuickSearchRef = useRef(false);
+
 // Quick search
 const [query, setQuery] = useState("");
 
@@ -123,6 +125,8 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
 
   // --- Cascading resets (downstream clears) ---
   useEffect(() => {
+    if (applyingQuickSearchRef.current) return;
+
     setSelectedModel("");
     setSelectedYear("");
     setSelectedSeries("");
@@ -131,6 +135,8 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
   }, [selectedMake]);
 
   useEffect(() => {
+    if (applyingQuickSearchRef.current) return;
+
     setSelectedYear("");
     setSelectedSeries("");
     setSelectedEngineKey("");
@@ -138,17 +144,23 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
   }, [selectedModel]);
 
   useEffect(() => {
+    if (applyingQuickSearchRef.current) return;
+
     setSelectedSeries("");
     setSelectedEngineKey("");
     setSelectedChassis("");
   }, [selectedYear]);
 
   useEffect(() => {
+    if (applyingQuickSearchRef.current) return;
+
     setSelectedEngineKey("");
     setSelectedChassis("");
   }, [selectedSeries]);
 
   useEffect(() => {
+    if (applyingQuickSearchRef.current) return;
+    
     setSelectedChassis("");
   }, [selectedEngineKey]);
 
@@ -409,17 +421,24 @@ function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
 }
 
   function applyVehicle(v: VehicleRow) {
-    setSelectedMake(v.make);
-    setSelectedModel(v.model);
+  applyingQuickSearchRef.current = true;
 
-    // choose a representative year within range (prefer year_from)
-    const y = v.year_from;
-    setSelectedYear(y);
+  setSelectedMake(v.make ?? "");
+  setSelectedModel(v.model ?? "");
 
-    setSelectedSeries(v.series ?? "");
-    setSelectedEngineKey(engineKey(v));
-    setSelectedChassis(v.chassis ?? "");
-  }
+  // choose a representative year within range (prefer year_from)
+  const y = v.year_from;
+  setSelectedYear(typeof y === "number" ? y : "");
+
+  setSelectedSeries(v.series ?? "");
+  setSelectedEngineKey(engineKey(v));
+  setSelectedChassis(v.chassis ?? "");
+
+  // allow resets again after this update cycle
+  queueMicrotask(() => {
+    applyingQuickSearchRef.current = false;
+  });
+}
 
   function clearAll() {
     setQuery("");
