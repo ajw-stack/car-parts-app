@@ -1,7 +1,7 @@
 // app/page.tsx
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import Header from "./components/Header";
 import { supabase } from "./lib/supabaseClient";
@@ -71,9 +71,31 @@ export default function Page() {
   const [selectedChassis, setSelectedChassis] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
 
-  // Quick search
-  const [query, setQuery] = useState("");
-  const [searchActiveIndex, setSearchActiveIndex] = useState(0);
+// Quick search
+const [query, setQuery] = useState("");
+
+const [searchActiveIndex, _setSearchActiveIndex] = useState(0);
+const searchActiveIndexRef = useRef(0);
+
+function setSearchActiveIndex(next: number | ((prev: number) => number)) {
+  const v =
+    typeof next === "function"
+      ? (next as (p: number) => number)(searchActiveIndexRef.current)
+      : next;
+
+  searchActiveIndexRef.current = v;
+  _setSearchActiveIndex(v);
+}
+
+function setSearchActiveIndex(next: number | ((prev: number) => number)) {
+  const v =
+    typeof next === "function"
+      ? (next as (p: number) => number)(searchActiveIndexRef.current)
+      : next;
+
+  searchActiveIndexRef.current = v;
+  _setSearchActiveIndex(v);
+}
 
   // Results
   const [parts, setParts] = useState<PartRow[]>([]);
