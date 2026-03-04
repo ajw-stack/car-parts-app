@@ -493,8 +493,8 @@ const partsCountLabel = useMemo(() => {
                 key={v.id}
                 type="button"
                 onMouseEnter={() => setSearchActiveIndex(idx)}
-                onMouseDown={(e) => e.preventDefault()}
-                onClick={() => {
+                onMouseDown={(e) => {
+                  e.preventDefault();
                   applyVehicle(v);
                   setQuery("");
                 }}
