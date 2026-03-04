@@ -56,7 +56,7 @@ function TypeaheadInput({
   };
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <input
         value={value}
         disabled={disabled}
@@ -87,7 +87,7 @@ function TypeaheadInput({
       />
 
       {open && filtered.length > 0 && (
-        <div className="absolute z-50 mt-2 w-full rounded-xl border border-white/10 bg-[#0b0f14]">
+        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
           {filtered.map((opt, idx) => (
             <button
               key={opt}
