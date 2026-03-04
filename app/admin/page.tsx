@@ -34,6 +34,10 @@ type TypeaheadInputProps = {
   options: string[];
   placeholder?: string;
   disabled?: boolean;
+
+  allowCreate?: boolean;
+  onCreate?: (v: string) => void;
+  createLabel?: (v: string) => string;
 };
 
 function TypeaheadInput({
@@ -42,6 +46,9 @@ function TypeaheadInput({
   options,
   placeholder,
   disabled,
+  allowCreate,
+  onCreate,
+  createLabel,
 }: TypeaheadInputProps) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
@@ -51,6 +58,10 @@ function TypeaheadInput({
     if (!q) return options.slice(0, 50);
     return options.filter((x) => x.toLowerCase().includes(q)).slice(0, 50);
   }, [value, options]);
+
+  const q = value.trim();
+  const exists = options.some((o) => o.toLowerCase() === q.toLowerCase());
+  const canCreate = !!allowCreate && !!q && !exists;
 
   const select = (v: string) => {
     onChange(v);
@@ -88,26 +99,42 @@ function TypeaheadInput({
         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white"
       />
 
-      {open && filtered.length > 0 && (
-        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
-          {filtered.map((opt, idx) => (
-            <button
-              key={opt}
-              type="button"
-              onMouseEnter={() => setActive(idx)}
-              onMouseDown={(e) => {
-                e.preventDefault();
-                select(opt);
-              }}
-              className={`block w-full px-4 py-2 text-left text-sm ${
-                idx === active ? "bg-white/10" : "hover:bg-white/5"
-              }`}
-            >
-              {opt}
-            </button>
-          ))}
-        </div>
-      )}
+{open && (filtered.length > 0 || canCreate) && (
+  <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
+
+    {filtered.map((opt, idx) => (
+      <button
+        key={opt}
+        type="button"
+        onMouseEnter={() => setActive(idx)}
+        onMouseDown={(e) => {
+          e.preventDefault();
+          select(opt);
+        }}
+        className={`block w-full px-4 py-2 text-left text-sm ${
+          idx === active ? "bg-white/10" : "hover:bg-white/5"
+        }`}
+      >
+        {opt}
+      </button>
+    ))}
+
+    {canCreate && (
+      <button
+        type="button"
+        onMouseDown={(e) => {
+          e.preventDefault();
+          onCreate?.(q);
+          select(q);
+        }}
+        className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+      >
+        {createLabel ? createLabel(q) : `Add "${q}"`}
+      </button>
+    )}
+
+  </div>
+)}
     </div>
   );
 }
