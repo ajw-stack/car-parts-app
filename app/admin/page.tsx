@@ -440,7 +440,7 @@ const canAddCategory = useMemo(() => {
                 placeholder="Model (e.g. Ranger)"
                 disabled={!vMake}
               />
-              
+
             </div>
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
@@ -454,36 +454,65 @@ const canAddCategory = useMemo(() => {
                 value={vYearTo}
                 onChange={(e) => setVYearTo(e.target.value)}
               />
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Series (e.g. PX2)"
-                value={vSeries}
-                onChange={(e) => setVSeries(e.target.value)}
-              />
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Engine Code (e.g. P5AT)"
-                value={vEngineCode}
-                onChange={(e) => setVEngineCode(e.target.value)}
-              />
+
+            <TypeaheadInput
+            value={vSeries}
+            onChange={setVSeries}
+            options={Array.from(
+              new Set(
+                vehicles
+                  .filter(
+                    (v) =>
+                      (!vMake || v.make === vMake) &&
+                      (!vModel || v.model === vModel)
+                  )
+                  .map((v) => v.series ?? "")
+              )
+            )
+              .filter(Boolean)
+              .sort()}
+            placeholder="Series (e.g. PX2)"
+            disabled={!vMake || !vModel}
+          />
+
+             <TypeaheadInput
+            value={vEngineCode}
+            onChange={setVEngineCode}
+            options={Array.from(
+              new Set(
+                vehicles
+                  .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                  .map((v) => v.engine_code ?? "")
+              )
+            ).filter(Boolean).sort()}
+            placeholder="Engine Code (e.g. P5AT)"
+            disabled={!vMake || !vModel}
+          />
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
                 placeholder="Engine Litres (e.g. 3.2)"
                 value={vEngineLitres}
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Fuel (e.g. Diesel)"
+              <TypeaheadInput
                 value={vFuel}
-                onChange={(e) => setVFuel(e.target.value)}
+                onChange={setVFuel}
+                options={Array.from(new Set(vehicles.map((v) => v.fuel_type ?? "")))
+                  .filter(Boolean)
+                  .sort()}
+                placeholder="Fuel (e.g. Diesel)"
               />
-              <input
-                className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Chassis (e.g. Dual Cab 4x4)"
-                value={vChassis}
-                onChange={(e) => setVChassis(e.target.value)}
-              />
+              <TypeaheadInput
+              value={vChassis}
+              onChange={setVChassis}
+              options={Array.from(
+                new Set(
+                  vehicles
+                    .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                    .map((v) => v.chassis ?? "") )  ).filter(Boolean).sort()}
+              placeholder="Chassis (e.g. Dual Cab 4x4)"
+              disabled={!vMake || !vModel}
+            />
             </div>
 
             <button
