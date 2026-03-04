@@ -136,6 +136,16 @@ const categoryOptions = useMemo(() => {
   return Array.from(set).sort((a, b) => a.localeCompare(b));
 }, [parts]);
 
+const [categoryOpen, setCategoryOpen] = useState(false);
+
+const categoryMatches = useMemo(() => {
+  const q = pCategory.trim().toLowerCase();
+  if (!q) return [];
+  return categoryOptions
+    .filter((c) => c.toLowerCase().includes(q))
+    .slice(0, 8);
+}, [pCategory, categoryOptions]);
+
   const canAddVehicle =
     vMake.trim() &&
     vModel.trim() &&
@@ -365,19 +375,41 @@ const categoryOptions = useMemo(() => {
                 value={pName}
                 onChange={(e) => setPName(e.target.value)}
               />
-              <input
-                list="category-options"
-                className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Category (e.g. Oil Filter)"
-                value={pCategory}
-                onChange={(e) => setPCategory(e.target.value)}
-              />
+             <div className="col-span-2 relative">
+  <input
+    className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+    placeholder="Category (e.g. Oil Filter)"
+    value={pCategory}
+    onChange={(e) => {
+      setPCategory(e.target.value);
+      setCategoryOpen(true);
+    }}
+      onBlur={() => {
+      setTimeout(() => setCategoryOpen(false), 120);
+    }}
+  />
 
-                <datalist id="category-options">
-                 {categoryOptions.map((c) => (
-                <option key={c} value={c} />
-                ))}
-              </datalist>
+  {pCategory.trim() && categoryOpen && categoryMatches.length > 0 && (
+    <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
+      {categoryMatches.map((c) => (
+        <button
+          key={c}
+          type="button"
+          onMouseDown={(e) => e.preventDefault()}
+          onClick={() => {
+            setPCategory(c);
+            setCategoryOpen(false);
+          }}
+          className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
+        >
+          {c}
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
+                
             </div>
 
             <button
