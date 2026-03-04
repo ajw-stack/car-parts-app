@@ -11,6 +11,8 @@ type VehicleRow = {
   model: string;
   year_from: number;
   year_to: number;
+  month_from: number;
+  month_to: number;
   series: string | null;
   engine_code: string | null;
   engine_litres: number | null;
@@ -146,6 +148,8 @@ export default function AdminPage() {
   const [vModel, setVModel] = useState("");
   const [vYearFrom, setVYearFrom] = useState("");
   const [vYearTo, setVYearTo] = useState("");
+  const [vMonthFrom, setVMonthFrom] = useState("1");
+  const [vMonthTo, setVMonthTo] = useState("12");
   const [vSeries, setVSeries] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
@@ -445,18 +449,45 @@ const canAddCategory = useMemo(() => {
               />
 
             </div>
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Year From (e.g. 2016)"
-                value={vYearFrom}
-                onChange={(e) => setVYearFrom(e.target.value)}
-              />
-              <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Year To (e.g. 2022)"
-                value={vYearTo}
-                onChange={(e) => setVYearTo(e.target.value)}
-              />
+              <div className="grid grid-cols-2 gap-3 col-span-2">
+  <select
+    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+    value={vMonthFrom}
+    onChange={(e) => setVMonthFrom(e.target.value)}
+  >
+    {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+      <option key={m} value={String(m)}>
+        {String(m).padStart(2, "0")}
+      </option>
+    ))}
+  </select>
+
+  <input
+    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+    placeholder="Year From (e.g. 2016)"
+    value={vYearFrom}
+    onChange={(e) => setVYearFrom(e.target.value)}
+  />
+
+  <select
+    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+    value={vMonthTo}
+    onChange={(e) => setVMonthTo(e.target.value)}
+  >
+    {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+      <option key={m} value={String(m)}>
+        {String(m).padStart(2, "0")}
+      </option>
+    ))}
+  </select>
+
+  <input
+    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+    placeholder="Year To (e.g. 2022)"
+    value={vYearTo}
+    onChange={(e) => setVYearTo(e.target.value)}
+  />
+</div>
 
             <TypeaheadInput
             value={vSeries}
