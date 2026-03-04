@@ -366,18 +366,18 @@ const categoryOptions = useMemo(() => {
                 onChange={(e) => setPName(e.target.value)}
               />
               <input
-  list="category-options"
-  className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-  placeholder="Category (e.g. Oil Filter)"
-  value={pCategory}
-  onChange={(e) => setPCategory(e.target.value)}
-/>
+                list="category-options"
+                className="col-span-2 rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                placeholder="Category (e.g. Oil Filter)"
+                value={pCategory}
+                onChange={(e) => setPCategory(e.target.value)}
+              />
 
-<datalist id="category-options">
-  {categoryOptions.map((c) => (
-    <option key={c} value={c} />
-  ))}
-</datalist>
+                <datalist id="category-options">
+                 {categoryOptions.map((c) => (
+                <option key={c} value={c} />
+                ))}
+              </datalist>
             </div>
 
             <button
