@@ -423,43 +423,24 @@ const canAddCategory = useMemo(() => {
               options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
               placeholder="Make (e.g. Ford)"
             />
-            
+
             </div>
               <div className="col-span-2 relative">
-              <input
-                className="w-full rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-                placeholder="Model (e.g. Ranger)"
-                value={vModel}
-                onChange={(e) => {
-                  setVModel(e.target.value);
-                  setModelOpen(true);
-                }}
-                onFocus={() => {
-                  if (vModel.trim()) setModelOpen(true);
-                }}
-                onBlur={() => {
-                  setTimeout(() => setModelOpen(false), 120);
-                }}
-              />
 
-              {vModel.trim() && modelOpen && modelMatches.length > 0 && (
-                <div className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-white/10 bg-[#0b0f14]">
-                  {modelMatches.map((m) => (
-                    <button
-                      key={m}
-                      type="button"
-                      onMouseDown={(e) => e.preventDefault()}
-                      onClick={() => {
-                        setVModel(m);
-                        setModelOpen(false);
-                      }}
-                      className="block w-full px-4 py-2 text-left text-sm hover:bg-white/5"
-                    >
-                      {m}
-                    </button>
-                  ))}
-                </div>
-              )}
+              <TypeaheadInput
+                value={vModel}
+                onChange={setVModel}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter((v) => !vMake || v.make === vMake)
+                      .map((v) => v.model)
+                  )
+                ).sort()}
+                placeholder="Model (e.g. Ranger)"
+                disabled={!vMake}
+              />
+              
             </div>
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
