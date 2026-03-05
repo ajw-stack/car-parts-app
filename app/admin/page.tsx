@@ -636,13 +636,21 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
   <option value="Other">Other</option>
 </select>
               <TypeaheadInput
-              value={vChassis}
-              onChange={setVChassis}
-              options={Array.from(new Set(vehicles.filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
-                    .map((v) => v.chassis ?? "") )  ).filter(Boolean).sort()}
-              placeholder="Chassis (e.g. Dual Cab 4x4)"
-              disabled={!vMake || !vModel}
-            />
+  value={vChassis}
+  onChange={setVChassis}
+  options={Array.from(
+    new Set(
+      vehicles
+        .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+        .map((v) => (v.chassis ?? "").trim())
+    )
+  )
+    .filter(Boolean)
+    .sort()}
+  placeholder="Chassis (e.g. Dual Cab 4x4)"
+  disabled={!vMake || !vModel}
+  allowCreate
+/>
             </div>
 
             <button
