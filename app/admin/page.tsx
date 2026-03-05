@@ -323,13 +323,27 @@ const canAddCategory = useMemo(() => {
   async function addVehicle() {
     setMsg("");
     const year_from = Number(vYearFrom);
-    const year_to = Number(vYearTo);
-    const engine_litres = vEngineLitres.trim() ? Number(vEngineLitres) : null;
 
-    if (!Number.isFinite(year_from) || !Number.isFinite(year_to)) {
-      setMsg("Year From/To must be numbers.");
-      return;
-    }
+    const engine_litres: number | null =
+  vEngineLitres.trim() === "" ? null : Number(vEngineLitres);
+
+if (engine_litres !== null && !Number.isFinite(engine_litres)) {
+  setMsg("Engine litres must be a number (e.g. 1.5) or blank.");
+  return;
+}
+
+// Allow "Current" (store as null) and allow blank (also null)
+const yearToRaw = vYearTo.trim();
+const year_to =
+  yearToRaw === "" || yearToRaw.toLowerCase() === "current"
+    ? null
+    : Number(yearToRaw);
+
+// Validate: year_from must be a number; year_to can be null OR a number
+if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to))) {
+  setMsg('Year From must be a number, and Year To must be a number or "Current".');
+  return;
+}
 
     const { error } = await supabase.from("vehicles").insert({
       make: vMake.trim(),
