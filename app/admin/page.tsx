@@ -407,6 +407,9 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
     setVFuel("");
     setVChassis("");
     await refreshAll();
+
+    makeRef.current?.focus();
+    
   }
 
   async function addPart() {
@@ -498,12 +501,13 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
             <div className="mt-4 grid grid-cols-2 gap-3">
               <div className="col-span-2 relative">
               
-            <TypeaheadInput
-              value={vMake}
-              onChange={setVMake}
-              options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
-              placeholder="Make (e.g. Ford)"
-            />
+  <TypeaheadInput
+  ref={makeRef}
+  value={vMake}
+  onChange={setVMake}
+  options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
+  placeholder="Make (e.g. Ford)"
+/>
 
             </div>
               <div className="col-span-2 relative">
