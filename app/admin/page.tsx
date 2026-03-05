@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
 import { useRouter } from "next/navigation";
@@ -51,6 +51,7 @@ function TypeaheadInput({
   onCreate,
   createLabel,
 }: TypeaheadInputProps) {
+  const wrapRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
 
@@ -69,15 +70,39 @@ function TypeaheadInput({
     setOpen(false);
   };
 
+  useEffect(() => {
+  const onDown = (e: MouseEvent) => {
+    if (!wrapRef.current) return;
+    if (!wrapRef.current.contains(e.target as Node)) {
+      setOpen(false);
+    }
+  };
+
+  document.addEventListener("mousedown", onDown);
+  return () => document.removeEventListener("mousedown", onDown);
+}, []);
+
   return (
-    <div className="relative w-full">
+  <div ref={wrapRef} className="relative w-full" data-typeahead>
       <input
         value={value}
         disabled={disabled}
         placeholder={placeholder}
+      onFocus={() => {
+        document
+          .querySelectorAll("[data-typeahead-open]")
+          .forEach((el) => el.removeAttribute("data-typeahead-open"));
+
+        wrapRef.current?.setAttribute("data-typeahead-open", "true");
+
+        setOpen(true);
+        setActive(0);
+      }}
+onBlur={() => {
+  setOpen(false);
+}}
         onChange={(e) => {
-          onChange(e.target.value);
-          setOpen(true);
+         onChange(e.target.value);
         }}
         onKeyDown={(e) => {
           if (e.key === "ArrowDown") {
