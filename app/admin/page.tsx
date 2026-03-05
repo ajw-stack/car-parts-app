@@ -378,7 +378,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
       model: vModel.trim(),
       year_from,
       year_to,
-      series: vSeries.trim(),
+      series: vSeries.trim() || null,
       trim_code: vTrimCode.trim() || null,
       engine_code: vEngineCode.trim(),
       engine_litres,
