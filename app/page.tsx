@@ -11,7 +11,7 @@ type VehicleRow = {
   make: string;
   model: string;
   year_from: number;
-  year_to: number;
+  year_to: number | null;
   series: string | null;
   engine_code: string | null;
   engine_litres: number | null;
@@ -180,27 +180,37 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
     return Array.from(set).sort((a, b) => a.localeCompare(b));
   }, [vehicles, selectedMake]);
 
-  const yearOptions = useMemo(() => {
-    if (!selectedMake || !selectedModel) return [];
-    const set = new Set<number>();
-    for (const v of vehicles) {
-      if (v.make === selectedMake && v.model === selectedModel) {
-        for (let y = v.year_from; y <= v.year_to; y++) set.add(y);
-      }
+const yearOptions = useMemo(() => {
+  if (!selectedMake || !selectedModel) return [];
+
+  const currentYear = new Date().getFullYear();
+  const set = new Set<number>();
+
+  for (const v of vehicles) {
+    if (v.make === selectedMake && v.model === selectedModel) {
+      const start = v.year_from;
+      const end = v.year_to ?? currentYear; // ✅ null = Current
+
+      if (!Number.isFinite(start) || !Number.isFinite(end)) continue;
+      if (end < start) continue;
+
+      for (let y = start; y <= end; y++) set.add(y);
     }
-    return Array.from(set).sort((a, b) => a - b);
-  }, [vehicles, selectedMake, selectedModel]);
+  }
+
+  return Array.from(set).sort((a, b) => a - b);
+}, [vehicles, selectedMake, selectedModel]);
 
   const seriesOptions = useMemo(() => {
     if (!selectedMake || !selectedModel || selectedYear === "") return [];
     const set = new Set<string>();
     for (const v of vehicles) {
       if (
-        v.make === selectedMake &&
-        v.model === selectedModel &&
-        selectedYear >= v.year_from &&
-        selectedYear <= v.year_to
-      ) {
+  v.make === selectedMake &&
+  v.model === selectedModel &&
+  selectedYear >= v.year_from &&
+  (v.year_to === null || selectedYear <= v.year_to)
+) {
         if (v.series) set.add(v.series);
         else set.add(""); // allow blank series group
       }
@@ -220,7 +230,7 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
         v.make === selectedMake &&
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
-        selectedYear <= v.year_to &&
+        (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries
       ) {
         set.add(engineKey(v));
@@ -248,7 +258,7 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
         v.make === selectedMake &&
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
-        selectedYear <= v.year_to &&
+        (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
         engineKey(v) === selectedEngineKey
       ) {
@@ -277,7 +287,7 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
         v.make === selectedMake &&
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
-        selectedYear <= v.year_to &&
+        (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
         engineKey(v) === selectedEngineKey &&
         chassisVal === selectedChassis
