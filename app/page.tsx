@@ -58,6 +58,67 @@ function vehicleCardLabel(v: VehicleRow) {
   return `${v.make} ${v.model} ${yr}${series} • ${eng}${chassis}`;
 }
 
+type TypeaheadInputProps = {
+  value: string;
+  onChange: (v: string) => void;
+  options: string[];
+  placeholder?: string;
+  disabled?: boolean;
+};
+
+function TypeaheadInput({
+  value,
+  onChange,
+  options,
+  placeholder,
+  disabled
+}: TypeaheadInputProps) {
+
+  const [open, setOpen] = useState(false);
+
+  const filtered = useMemo(() => {
+    const q = value.trim().toLowerCase();
+    if (!q) return options.slice(0, 50);
+    return options.filter(o => o.toLowerCase().includes(q)).slice(0, 50);
+  }, [value, options]);
+
+  const select = (v: string) => {
+    onChange(v);
+    setOpen(false);
+  };
+
+  return (
+    <div className="relative w-full">
+      <input
+        value={value}
+        disabled={disabled}
+        placeholder={placeholder}
+        onChange={(e) => {
+          onChange(e.target.value);
+          setOpen(true);
+        }}
+        onFocus={() => setOpen(true)}
+        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
+      />
+
+      {open && filtered.length > 0 && (
+        <div className="absolute z-20 mt-1 max-h-60 w-full overflow-auto rounded-xl border border-white/10 bg-black">
+          {filtered.map((o) => (
+            <button
+              key={o}
+              type="button"
+              onClick={() => select(o)}
+              className="block w-full px-4 py-2 text-left hover:bg-white/10"
+            >
+              {o}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function Page() {
   const [vehicles, setVehicles] = useState<VehicleRow[]>([]);
   const [loadingVehicles, setLoadingVehicles] = useState(true);
@@ -542,19 +603,19 @@ const partsCountLabel = useMemo(() => {
 
         {/* Dropdowns */}
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-6">
-          <select
-            value={selectedMake}
-            onChange={(e) => setSelectedMake(e.target.value)}
-            disabled={loadingVehicles}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">{loadingVehicles ? "Loading…" : "Select Make"}</option>
-            {makeOptions.map((m) => (
-              <option key={m} value={m}>
-                {m}
-              </option>
-            ))}
-          </select>
+    <TypeaheadInput
+  value={selectedMake}
+  onChange={(v) => {
+    setSelectedMake(v);
+    setSelectedModel("");
+    setSelectedYear("");
+    setSelectedSeries("");
+    setSelectedEngineKey("");
+  }}
+  options={makeOptions}
+  placeholder={loadingVehicles ? "Loading..." : "Select Make"}
+  disabled={loadingVehicles}
+/>
 
           <select
             value={selectedModel}
