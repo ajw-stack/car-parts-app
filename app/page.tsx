@@ -93,10 +93,7 @@ function TypeaheadInput({
         value={value}
         disabled={disabled}
         placeholder={placeholder}
-        onChange={(e) => {
-          onChange(e.target.value);
-          setOpen(true);
-        }}
+        readOnly
         onFocus={() => setOpen(true)}
         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
       />
