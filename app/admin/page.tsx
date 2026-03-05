@@ -609,7 +609,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
               )
             ).filter(Boolean).sort()}
             placeholder="Engine Code (e.g. P5AT)"
-            disabled={!vMake || !vModel}
+            disabled={false}
           />
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
