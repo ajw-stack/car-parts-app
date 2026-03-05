@@ -577,7 +577,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
                   .map((v) => v.series ?? "")
               )
             )
-              .filter(Boolean)
+
               .sort()}
             placeholder="Series (e.g. PX2)"
             disabled={!vMake || !vModel}
@@ -593,7 +593,6 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
         .map((v) => (v.trim_code ?? "").trim())
     )
   )
-    .filter(Boolean)
     .sort()}
   placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
   disabled={!vMake || !vModel}
