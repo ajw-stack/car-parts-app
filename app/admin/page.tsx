@@ -625,7 +625,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
 >
   <option value="">Fuel (select)</option>
   <option value="Petrol">Petrol</option>
-  <option value="Carbureted">Carbureted</option>
+  <option value="Carbureted">Petrol Carb</option>
   <option value="Diesel">Diesel</option>
   <option value="LPG">LPG</option>
   <option value="Hybrid">Hybrid</option>
