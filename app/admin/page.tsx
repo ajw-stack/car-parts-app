@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, forwardRef } from "react";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
 import { useRouter } from "next/navigation";
@@ -41,7 +41,7 @@ type TypeaheadInputProps = {
   createLabel?: (v: string) => string;
 };
 
-function TypeaheadInput({
+const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(function TypeaheadInput({
   value,
   onChange,
   options,
@@ -50,7 +50,7 @@ function TypeaheadInput({
   allowCreate,
   onCreate,
   createLabel,
-}: TypeaheadInputProps) {
+}: TypeaheadInputProps, ref) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
@@ -84,10 +84,11 @@ function TypeaheadInput({
 
   return (
   <div ref={wrapRef} className="relative w-full" data-typeahead>
-      <input
-        value={value}
-        disabled={disabled}
-        placeholder={placeholder}
+<input
+  ref={ref}
+  value={value}
+  disabled={disabled}
+  placeholder={placeholder}
       onFocus={() => {
         document
           .querySelectorAll("[data-typeahead-open]")
@@ -163,7 +164,7 @@ onBlur={() => {
 )}
     </div>
   );
-}
+});
 
 export default function AdminPage() {
   const router = useRouter();
@@ -210,12 +211,15 @@ export default function AdminPage() {
   const [vFuel, setVFuel] = useState("");
   const [vChassis, setVChassis] = useState("");
   
+  const makeRef = useRef<HTMLInputElement>(null);
 
   // --- Part form ---
   const [pBrand, setPBrand] = useState("");
   const [pNumber, setPNumber] = useState("");
   const [pName, setPName] = useState("");
   const [pCategory, setPCategory] = useState("");
+
+  const brandRef = useRef<HTMLInputElement>(null);
 
   // --- Fitment form ---
   const [fVehicleId, setFVehicleId] = useState("");
@@ -667,6 +671,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
 
   <div className="mt-4 grid grid-cols-2 gap-3">
     <TypeaheadInput
+  ref={brandRef}
       value={pBrand}
       onChange={setPBrand}
       options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
