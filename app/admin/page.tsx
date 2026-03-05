@@ -573,21 +573,26 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
                 value={vEngineLitres}
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
-              <TypeaheadInput
-                value={vFuel}
-                onChange={setVFuel}
-                options={Array.from(new Set(vehicles.map((v) => v.fuel_type ?? "")))
-                  .filter(Boolean)
-                  .sort()}
-                placeholder="Fuel (e.g. Diesel)"
-              />
+              <select
+  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2"
+  value={vFuel}
+  onChange={(e) => setVFuel(e.target.value)}
+>
+  <option value="">Fuel (select)</option>
+  <option value="Petrol">Petrol</option>
+  <option value="Diesel">Diesel</option>
+  <option value="LPG">LPG</option>
+  <option value="Hybrid">Hybrid</option>
+  <option value="Electric">Electric</option>
+  <option value="CNG">CNG</option>
+  <option value="E85">E85</option>
+  <option value="Hydrogen">Hydrogen</option>
+  <option value="Other">Other</option>
+</select>
               <TypeaheadInput
               value={vChassis}
               onChange={setVChassis}
-              options={Array.from(
-                new Set(
-                  vehicles
-                    .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+              options={Array.from(new Set(vehicles.filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
                     .map((v) => v.chassis ?? "") )  ).filter(Boolean).sort()}
               placeholder="Chassis (e.g. Dual Cab 4x4)"
               disabled={!vMake || !vModel}
