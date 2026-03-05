@@ -18,6 +18,7 @@ type VehicleRow = {
   engine_litres: number | null;
   fuel_type: string | null;
   chassis: string | null;
+  trim_code: string | null;
 };
 
 type PartRow = {
@@ -178,10 +179,12 @@ export default function AdminPage() {
   const [vMonthFrom, setVMonthFrom] = useState("");
   const [vMonthTo, setVMonthTo] = useState("");
   const [vSeries, setVSeries] = useState("");
+  const [vTrimCode, setVTrimCode] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
   const [vFuel, setVFuel] = useState("");
   const [vChassis, setVChassis] = useState("");
+  
 
   // --- Part form ---
   const [pBrand, setPBrand] = useState("");
@@ -351,6 +354,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
       year_from,
       year_to,
       series: vSeries.trim(),
+      trim_code: vTrimCode.trim() || null,
       engine_code: vEngineCode.trim(),
       engine_litres,
       fuel_type: vFuel.trim(),
@@ -553,6 +557,22 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
             placeholder="Series (e.g. PX2)"
             disabled={!vMake || !vModel}
           />
+
+          <TypeaheadInput
+  value={vTrimCode}
+  onChange={setVTrimCode}
+  options={Array.from(
+    new Set(
+      vehicles
+        .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+        .map((v) => (v.trim_code ?? "").trim())
+    )
+  )
+    .filter(Boolean)
+    .sort()}
+  placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
+  disabled={!vMake || !vModel}
+/>
 
              <TypeaheadInput
             value={vEngineCode}
