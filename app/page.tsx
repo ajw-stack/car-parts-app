@@ -231,7 +231,7 @@ const yearOptions = useMemo(() => {
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
-        seriesVal === selectedSeries
+        (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === ""))
       ) {
         set.add(engineKey(v));
       }
