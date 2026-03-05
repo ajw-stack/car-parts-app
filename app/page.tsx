@@ -617,75 +617,58 @@ const partsCountLabel = useMemo(() => {
   disabled={loadingVehicles}
 />
 
-          <select
-            value={selectedModel}
-            onChange={(e) => setSelectedModel(e.target.value)}
-            disabled={!selectedMake}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">Select Model</option>
-            {modelOptions.map((m) => (
-              <option key={m} value={m}>
-                {m}
-              </option>
-            ))}
-          </select>
+          <TypeaheadInput
+  value={selectedModel}
+  onChange={(v) => {
+    setSelectedModel(v);
+    setSelectedYear("");
+    setSelectedSeries("");
+    setSelectedEngineKey("");
+  }}
+  options={modelOptions}
+  placeholder="Select Model"
+  disabled={!selectedMake}
+/>
 
-          <select
-            value={selectedYear === "" ? "" : String(selectedYear)}
-            onChange={(e) => setSelectedYear(e.target.value ? Number(e.target.value) : "")}
-            disabled={!selectedMake || !selectedModel}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">Select Year</option>
-            {yearOptions.map((y) => (
-              <option key={y} value={y}>
-                {yearLabel(y)}
-              </option>
-            ))}
-          </select>
+          <TypeaheadInput
+  value={selectedYear === "" ? "" : String(selectedYear)}
+  onChange={(v) => {
+    const n = v ? Number(v) : "";
+    setSelectedYear(Number.isFinite(n as number) ? (n as number) : "");
+    setSelectedSeries("");
+    setSelectedEngineKey("");
+  }}
+  options={yearOptions.map(String)}
+  placeholder="Select Year"
+  disabled={!selectedMake || !selectedModel}
+/>
 
-          <select
-            value={selectedSeries}
-            onChange={(e) => setSelectedSeries(e.target.value)}
-            disabled={!selectedMake || !selectedModel || selectedYear === ""}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">Select Series</option>
-            {seriesOptions.map((s) => (
-              <option key={s || "__blank__"} value={s}>
-                {s || "—"}
-              </option>
-            ))}
-          </select>
+          <TypeaheadInput
+  value={selectedSeries}
+  onChange={(v) => {
+    setSelectedSeries(v);
+    setSelectedEngineKey("");
+  }}
+  options={seriesOptions}
+  placeholder="Select Series"
+  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+/>
 
-          <select
-            value={selectedEngineKey}
-            onChange={(e) => setSelectedEngineKey(e.target.value)}
-            disabled={!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === ""}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">Select Engine</option>
-            {engineOptions.map((k) => (
-              <option key={k} value={k}>
-                {engineLabelFromKey(k)}
-              </option>
-            ))}
-          </select>
+          <TypeaheadInput
+  value={selectedEngineKey}
+  onChange={(v) => setSelectedEngineKey(v)}
+  options={engineOptions}
+  placeholder="Select Engine"
+  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+/>
 
-          <select
-            value={selectedChassis}
-            onChange={(e) => setSelectedChassis(e.target.value)}
-            disabled={!selectedEngineKey}
-            className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm outline-none disabled:opacity-50"
-          >
-            <option value="">Select Chassis</option>
-            {chassisOptions.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
+          <TypeaheadInput
+  value={selectedChassis}
+  onChange={(v) => setSelectedChassis(v)}
+  options={chassisOptions}
+  placeholder="Select Chassis"
+  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+/>
         </div>
 
         {/* Parts */}
