@@ -128,7 +128,8 @@ export default function Page() {
   const [selectedEngineKey, setSelectedEngineKey] = useState("");
   const [selectedChassis, setSelectedChassis] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
-
+  const [selectedTrim, setSelectedTrim] = useState(""); 
+  
   const applyingQuickSearchRef = useRef(false);
 
 // Quick search
@@ -185,35 +186,39 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
   useEffect(() => {
     if (applyingQuickSearchRef.current) return;
 
-    setSelectedModel("");
-    setSelectedYear("");
-    setSelectedSeries("");
-    setSelectedEngineKey("");
-    setSelectedChassis("");
+setSelectedModel("");
+setSelectedYear("");
+setSelectedSeries("");
+setSelectedTrim("");
+setSelectedEngineKey("");
+setSelectedChassis("");
   }, [selectedMake]);
 
   useEffect(() => {
     if (applyingQuickSearchRef.current) return;
 
-    setSelectedYear("");
-    setSelectedSeries("");
-    setSelectedEngineKey("");
-    setSelectedChassis("");
+setSelectedYear("");
+setSelectedSeries("");
+setSelectedTrim("");
+setSelectedEngineKey("");
+setSelectedChassis("");
   }, [selectedModel]);
 
   useEffect(() => {
     if (applyingQuickSearchRef.current) return;
 
-    setSelectedSeries("");
-    setSelectedEngineKey("");
-    setSelectedChassis("");
+setSelectedSeries("");
+setSelectedTrim("");
+setSelectedEngineKey("");
+setSelectedChassis("");
   }, [selectedYear]);
 
   useEffect(() => {
     if (applyingQuickSearchRef.current) return;
 
-    setSelectedEngineKey("");
-    setSelectedChassis("");
+setSelectedTrim("");
+setSelectedEngineKey("");
+setSelectedChassis("");
   }, [selectedSeries]);
 
   useEffect(() => {
@@ -344,6 +349,14 @@ if ((v as any).trim_code) set.add((v as any).trim_code);
     }
     return Array.from(set).sort((a, b) => a.localeCompare(b));
   }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
+
+  useEffect(() => {
+  if (trimOptions.length === 1) {
+    setSelectedTrim(trimOptions[0]);
+  } else if (trimOptions.length === 0) {
+    setSelectedTrim("");
+  }
+}, [trimOptions]);
 
   // --- Final selected vehicle id (after ALL 6 dropdowns chosen) ---
   const selectedVehicleId = useMemo(() => {
@@ -667,6 +680,17 @@ const partsCountLabel = useMemo(() => {
   }}
   options={seriesOptions}
   placeholder="Select Series"
+  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+/>
+
+<TypeaheadInput
+  value={selectedTrim}
+  onChange={(v) => {
+    setSelectedTrim(v);
+    setSelectedEngineKey("");
+  }}
+  options={trimOptions}
+  placeholder="Select Trim"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
