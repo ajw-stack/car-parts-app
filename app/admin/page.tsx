@@ -35,10 +35,18 @@ type TypeaheadInputProps = {
   options: string[];
   placeholder?: string;
   disabled?: boolean;
-
   allowCreate?: boolean;
   onCreate?: (v: string) => void;
   createLabel?: (v: string) => string;
+};
+
+type MultiTypeaheadInputProps = {
+  values: string[];
+  onChange: (v: string[]) => void;
+  options: string[];
+  placeholder?: string;
+  disabled?: boolean;
+  allowCreate?: boolean;
 };
 
 const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(function TypeaheadInput({
@@ -71,39 +79,39 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
   };
 
   useEffect(() => {
-  const onDown = (e: MouseEvent) => {
-    if (!wrapRef.current) return;
-    if (!wrapRef.current.contains(e.target as Node)) {
-      setOpen(false);
-    }
-  };
+    const onDown = (e: MouseEvent) => {
+      if (!wrapRef.current) return;
+      if (!wrapRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
 
-  document.addEventListener("mousedown", onDown);
-  return () => document.removeEventListener("mousedown", onDown);
-}, []);
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, []);
 
   return (
-  <div ref={wrapRef} className="relative w-full" data-typeahead>
-<input
-  ref={ref}
-  value={value}
-  disabled={disabled}
-  placeholder={placeholder}
-      onFocus={() => {
-        document
-          .querySelectorAll("[data-typeahead-open]")
-          .forEach((el) => el.removeAttribute("data-typeahead-open"));
+    <div ref={wrapRef} className="relative w-full" data-typeahead>
+      <input
+        ref={ref}
+        value={value}
+        disabled={disabled}
+        placeholder={placeholder}
+        onFocus={() => {
+          document
+            .querySelectorAll("[data-typeahead-open]")
+            .forEach((el) => el.removeAttribute("data-typeahead-open"));
 
-        wrapRef.current?.setAttribute("data-typeahead-open", "true");
+          wrapRef.current?.setAttribute("data-typeahead-open", "true");
 
-        setOpen(true);
-        setActive(0);
-      }}
-onBlur={() => {
-  setOpen(false);
-}}
+          setOpen(true);
+          setActive(0);
+        }}
+        onBlur={() => {
+          setOpen(false);
+        }}
         onChange={(e) => {
-         onChange(e.target.value);
+          onChange(e.target.value);
         }}
         onKeyDown={(e) => {
           if (e.key === "ArrowDown") {
@@ -126,42 +134,210 @@ onBlur={() => {
         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white"
       />
 
-{open && (filtered.length > 0 || canCreate) && (
-  <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
+      {open && (filtered.length > 0 || canCreate) && (
+        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
 
-    {filtered.map((opt, idx) => (
-      <button
-        key={opt}
-        type="button"
-        onMouseEnter={() => setActive(idx)}
-        onMouseDown={(e) => {
-          e.preventDefault();
-          select(opt);
-        }}
-        className={`block w-full px-4 py-2 text-left text-sm ${
-          idx === active ? "bg-white/10" : "hover:bg-white/5"
-        }`}
-      >
-        {opt}
-      </button>
-    ))}
+          {filtered.map((opt, idx) => (
+            <button
+              key={opt}
+              type="button"
+              onMouseEnter={() => setActive(idx)}
+              onMouseDown={(e) => {
+                e.preventDefault();
+                select(opt);
+              }}
+              className={`block w-full px-4 py-2 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
+                }`}
+            >
+              {opt}
+            </button>
+          ))}
 
-    {canCreate && (
-      <button
-        type="button"
-        onMouseDown={(e) => {
-          e.preventDefault();
-          onCreate?.(q);
-          select(q);
-        }}
-        className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
-      >
-        {createLabel ? createLabel(q) : `Add "${q}"`}
-      </button>
-    )}
+          {canCreate && (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                onCreate?.(q);
+                select(q);
+              }}
+              className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+            >
+              {createLabel ? createLabel(q) : `Add "${q}"`}
+            </button>
+          )}
 
-  </div>
-)}
+        </div>
+      )}
+    </div>
+  );
+});
+
+const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProps>(function MultiTypeaheadInput({
+  values,
+  onChange,
+  options,
+  placeholder,
+  disabled,
+  allowCreate,
+}: MultiTypeaheadInputProps, ref) {
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const [inputValue, setInputValue] = useState("");
+
+  const q = inputValue.trim();
+
+  const filtered = options
+    .filter((o) => o.toLowerCase().includes(q.toLowerCase()))
+    .filter((o) => !values.includes(o))
+    .slice(0, 12);
+
+  const exists = options.some((o) => o.toLowerCase() === q.toLowerCase());
+  const alreadyAdded = values.some((v) => v.toLowerCase() === q.toLowerCase());
+  const canCreate = !!allowCreate && !!q && !exists && !alreadyAdded;
+
+  const addValue = (v: string) => {
+    const clean = v.trim();
+    if (!clean) return;
+    if (values.some((x) => x.toLowerCase() === clean.toLowerCase())) {
+      setInputValue("");
+      setOpen(false);
+      return;
+    }
+    onChange([...values, clean]);
+    setInputValue("");
+    setOpen(false);
+    setActive(0);
+  };
+
+  const removeValue = (idx: number) => {
+    onChange(values.filter((_, i) => i !== idx));
+  };
+
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (!wrapRef.current) return;
+      if (!wrapRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, []);
+
+  return (
+    <div ref={wrapRef} className="relative w-full" data-typeahead>
+      <div className="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+        {values.length > 0 && (
+          <div className="mb-2 flex flex-wrap gap-2">
+            {values.map((item, idx) => (
+              <button
+                key={`${item}-${idx}`}
+                type="button"
+                onClick={() => removeValue(idx)}
+                className="rounded-lg bg-white/10 px-2 py-1 text-sm hover:bg-white/15"
+                title="Remove"
+              >
+                {item} ×
+              </button>
+            ))}
+          </div>
+        )}
+
+        <input
+          ref={ref}
+          value={inputValue}
+          disabled={disabled}
+          placeholder={placeholder}
+          onFocus={() => {
+            document
+              .querySelectorAll("[data-typeahead-open]")
+              .forEach((el) => el.removeAttribute("data-typeahead-open"));
+
+            wrapRef.current?.setAttribute("data-typeahead-open", "true");
+            setOpen(true);
+            setActive(0);
+          }}
+          onBlur={() => {
+            setOpen(false);
+          }}
+          onChange={(e) => {
+            setInputValue(e.target.value);
+            setOpen(true);
+            setActive(0);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "ArrowDown") {
+              e.preventDefault();
+              setOpen(true);
+              setActive((i) => Math.min(i + 1, filtered.length - 1));
+            }
+
+            if (e.key === "ArrowUp") {
+              e.preventDefault();
+              setActive((i) => Math.max(i - 1, 0));
+            }
+
+            if (e.key === "Enter") {
+              if (filtered[active]) {
+                e.preventDefault();
+                addValue(filtered[active]);
+                return;
+              }
+
+              if (q) {
+                e.preventDefault();
+                addValue(q);
+              }
+            }
+
+            if (e.key === "Backspace" && !inputValue && values.length > 0) {
+              e.preventDefault();
+              removeValue(values.length - 1);
+            }
+
+            if (e.key === "Escape") {
+              setOpen(false);
+            }
+          }}
+          className="w-full bg-transparent text-sm outline-none"
+        />
+      </div>
+
+      {open && ((filtered.length > 0) || canCreate) && (
+        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#111] shadow-2xl">
+          {filtered.map((opt, idx) => (
+            <button
+              key={opt}
+              type="button"
+              onMouseEnter={() => setActive(idx)}
+              onMouseDown={(e) => {
+                e.preventDefault();
+                addValue(opt);
+              }}
+              className={`block w-full px-4 py-2 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
+                }`}
+            >
+              {opt}
+            </button>
+          ))}
+
+          {canCreate && (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                addValue(q);
+              }}
+              className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+            >
+              Add "{q}"
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 });
@@ -169,28 +345,28 @@ onBlur={() => {
 export default function AdminPage() {
   const router = useRouter();
   useEffect(() => {
-  let mounted = true;
+    let mounted = true;
 
-  async function guard() {
-    const { data } = await supabase.auth.getSession();
-    if (!mounted) return;
+    async function guard() {
+      const { data } = await supabase.auth.getSession();
+      if (!mounted) return;
 
-    if (!data.session) {
-      router.replace("/login");
+      if (!data.session) {
+        router.replace("/login");
+      }
     }
-  }
 
-  guard();
+    guard();
 
-  const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-    if (!session) router.replace("/login");
-  });
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!session) router.replace("/login");
+    });
 
-  return () => {
-    mounted = false;
-    sub.subscription.unsubscribe();
-  };
-}, [router]);
+    return () => {
+      mounted = false;
+      sub.subscription.unsubscribe();
+    };
+  }, [router]);
 
   const [vehicles, setVehicles] = useState<VehicleRow[]>([]);
   const [parts, setParts] = useState<PartRow[]>([]);
@@ -209,8 +385,8 @@ export default function AdminPage() {
   const [vEngineCode, setVEngineCode] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
   const [vFuel, setVFuel] = useState("");
-  const [vChassis, setVChassis] = useState("");
-  
+  const [vChassis, setVChassis] = useState<string[]>([]);
+
   const makeRef = useRef<HTMLInputElement>(null);
 
   // --- Part form ---
@@ -274,68 +450,68 @@ export default function AdminPage() {
     `${p.brand} ${p.part_number} — ${p.name} (${p.category})`;
 
   // Existing categories (from parts table)
-const categoryOptions = useMemo(() => {
-  const set = new Set<string>();
-  for (const p of parts) {
-    const c = (p.category ?? "").trim();
-    if (c) set.add(c);
-  }
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [parts]);
+  const categoryOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const p of parts) {
+      const c = (p.category ?? "").trim();
+      if (c) set.add(c);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [parts]);
 
-// Existing makes (from vehicles table)
-const makeOptions = useMemo(() => {
-  const set = new Set<string>();
-  for (const v of vehicles) {
-    const m = (v.make ?? "").trim();
-    if (m) set.add(m);
-  }
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [vehicles]);
+  // Existing makes (from vehicles table)
+  const makeOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const v of vehicles) {
+      const m = (v.make ?? "").trim();
+      if (m) set.add(m);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [vehicles]);
 
-// Existing models (from vehicles table)
-const modelOptions = useMemo(() => {
-  const set = new Set<string>();
-  for (const v of vehicles) {
-    const m = (v.model ?? "").trim();
-    if (m) set.add(m);
-  }
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [vehicles]);
+  // Existing models (from vehicles table)
+  const modelOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const v of vehicles) {
+      const m = (v.model ?? "").trim();
+      if (m) set.add(m);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [vehicles]);
 
-const [categoryOpen, setCategoryOpen] = useState(false);
-const [makeOpen, setMakeOpen] = useState(false);
-const [modelOpen, setModelOpen] = useState(false);
+  const [categoryOpen, setCategoryOpen] = useState(false);
+  const [makeOpen, setMakeOpen] = useState(false);
+  const [modelOpen, setModelOpen] = useState(false);
 
-const makeMatches = useMemo(() => {
-  const q = vMake.trim().toLowerCase();
-  if (!q) return [];
-  return makeOptions
-    .filter((m) => m.toLowerCase().includes(q))
-    .slice(0, 8);
-}, [vMake, makeOptions]);
+  const makeMatches = useMemo(() => {
+    const q = vMake.trim().toLowerCase();
+    if (!q) return [];
+    return makeOptions
+      .filter((m) => m.toLowerCase().includes(q))
+      .slice(0, 8);
+  }, [vMake, makeOptions]);
 
-const modelMatches = useMemo(() => {
-  const q = vModel.trim().toLowerCase();
-  if (!q) return [];
-  return modelOptions
-    .filter((m) => m.toLowerCase().includes(q))
-    .slice(0, 8);
-}, [vModel, modelOptions]);
+  const modelMatches = useMemo(() => {
+    const q = vModel.trim().toLowerCase();
+    if (!q) return [];
+    return modelOptions
+      .filter((m) => m.toLowerCase().includes(q))
+      .slice(0, 8);
+  }, [vModel, modelOptions]);
 
-const categoryMatches = useMemo(() => {
-  const q = pCategory.trim().toLowerCase();
-  if (!q) return [];
-  return categoryOptions
-    .filter((c) => c.toLowerCase().includes(q))
-    .slice(0, 8);
-}, [pCategory, categoryOptions]);
+  const categoryMatches = useMemo(() => {
+    const q = pCategory.trim().toLowerCase();
+    if (!q) return [];
+    return categoryOptions
+      .filter((c) => c.toLowerCase().includes(q))
+      .slice(0, 8);
+  }, [pCategory, categoryOptions]);
 
-const canAddCategory = useMemo(() => {
-  const v = pCategory.trim();
-  if (!v) return false;
-  return !categoryOptions.some((c) => c.toLowerCase() === v.toLowerCase());
-}, [pCategory, categoryOptions]);
+  const canAddCategory = useMemo(() => {
+    const v = pCategory.trim();
+    if (!v) return false;
+    return !categoryOptions.some((c) => c.toLowerCase() === v.toLowerCase());
+  }, [pCategory, categoryOptions]);
 
   const canAddVehicle =
     vMake.trim() &&
@@ -345,7 +521,7 @@ const canAddCategory = useMemo(() => {
     vSeries.trim() &&
     vEngineCode.trim() &&
     vFuel.trim() &&
-    vChassis.trim();
+    vChassis.length > 0;
 
   const canAddPart =
     pBrand.trim() && pNumber.trim() && pName.trim() && pCategory.trim();
@@ -357,38 +533,40 @@ const canAddCategory = useMemo(() => {
     const year_from = Number(vYearFrom);
 
     const engine_litres: number | null =
-  vEngineLitres.trim() === "" ? null : Number(vEngineLitres);
+      vEngineLitres.trim() === "" ? null : Number(vEngineLitres);
 
-if (engine_litres !== null && !Number.isFinite(engine_litres)) {
-  setMsg("Engine litres must be a number (e.g. 1.5) or blank.");
-  return;
-}
+    if (engine_litres !== null && !Number.isFinite(engine_litres)) {
+      setMsg("Engine litres must be a number (e.g. 1.5) or blank.");
+      return;
+    }
 
-// Allow "Current" (store as null) and allow blank (also null)
-const yearToRaw = vYearTo.trim();
-const year_to =
-  yearToRaw === "" || yearToRaw.toLowerCase() === "current"
-    ? null
-    : Number(yearToRaw);
+    // Allow "Current" (store as null) and allow blank (also null)
+    const yearToRaw = vYearTo.trim();
+    const year_to =
+      yearToRaw === "" || yearToRaw.toLowerCase() === "current"
+        ? null
+        : Number(yearToRaw);
 
-// Validate: year_from must be a number; year_to can be null OR a number
-if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to))) {
-  setMsg('Year From must be a number, and Year To must be a number or "Current".');
-  return;
-}
+    // Validate: year_from must be a number; year_to can be null OR a number
+    if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to))) {
+      setMsg('Year From must be a number, and Year To must be a number or "Current".');
+      return;
+    }
 
-    const { error } = await supabase.from("vehicles").insert({
-      make: vMake.trim(),
-      model: vModel.trim(),
-      year_from,
-      year_to,
-      series: vSeries.trim() || null,
-      trim_code: vTrimCode.trim() || null,
-      engine_code: vEngineCode.trim(),
-      engine_litres,
-      fuel_type: vFuel.trim(),
-      chassis: vChassis.trim(),
-    });
+const rows = vChassis.map((chassis) => ({
+  make: vMake.trim(),
+  model: vModel.trim(),
+  year_from,
+  year_to,
+  series: vSeries.trim() || null,
+  trim_code: vTrimCode.trim() || null,
+  engine_code: vEngineCode.trim(),
+  engine_litres,
+  fuel_type: vFuel.trim(),
+  chassis: chassis.trim(),
+}));
+
+const { error } = await supabase.from("vehicles").insert(rows);
 
     if (error) {
       console.error(error);
@@ -405,11 +583,11 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
     setVEngineCode("");
     setVEngineLitres("");
     setVFuel("");
-    setVChassis("");
+    setVChassis([])
     await refreshAll();
 
     makeRef.current?.focus();
-    
+
   }
 
   async function addPart() {
@@ -473,7 +651,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
               Add Vehicles, Parts, then link them via Fitments.
             </p>
           </div>
-          
+
 
           <button
             onClick={refreshAll}
@@ -483,11 +661,11 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
           </button>
         </div>
 
-            {msg && (
-            <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm">
-              {msg}
-            </div>
-            )}
+        {msg && (
+          <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm">
+            {msg}
+          </div>
+        )}
 
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
           {/* Add Vehicle */}
@@ -496,129 +674,129 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
             <p className="mt-1 text-xs text-white/60">
               One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
             </p>
-          
+
 
             <div className="mt-4 grid grid-cols-2 gap-3">
               <div className="col-span-2 relative">
-              
-  <TypeaheadInput
-  ref={makeRef}
-  value={vMake}
-  onChange={setVMake}
-  options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
-  placeholder="Make (e.g. Ford)"
-/>
 
-            </div>
+                <TypeaheadInput
+                  ref={makeRef}
+                  value={vMake}
+                  onChange={setVMake}
+                  options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
+                  placeholder="Make (e.g. Ford)"
+                />
+
+              </div>
               <div className="col-span-2 relative">
 
+                <TypeaheadInput
+                  value={vModel}
+                  onChange={setVModel}
+                  options={Array.from(
+                    new Set(
+                      vehicles
+                        .filter((v) => !vMake || v.make === vMake)
+                        .map((v) => v.model)
+                    )
+                  ).sort()}
+                  placeholder="Model (e.g. Ranger)"
+                  disabled={!vMake}
+                />
+
+              </div>
+              <div className="grid grid-cols-2 gap-3 col-span-2">
+                <select
+                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  value={vMonthFrom}
+                  onChange={(e) => setVMonthFrom(e.target.value)}
+                >
+                  <option value="">Month</option>
+
+                  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+                    <option key={m} value={String(m)}>
+                      {String(m).padStart(2, "0")}
+                    </option>
+                  ))}
+                </select>
+
+                <input
+                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  placeholder="Year From (e.g. 2016)"
+                  value={vYearFrom}
+                  onChange={(e) => setVYearFrom(e.target.value)}
+                />
+
+                <select
+                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  value={vMonthTo}
+                  onChange={(e) => setVMonthTo(e.target.value)}
+                >
+                  <option value="">Month</option>
+
+                  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+                    <option key={m} value={String(m)}>
+                      {String(m).padStart(2, "0")}
+                    </option>
+                  ))}
+                </select>
+
+                <input
+                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  placeholder="Year To (e.g. 2022)"
+                  value={vYearTo}
+                  onChange={(e) => setVYearTo(e.target.value)}
+                />
+              </div>
+
               <TypeaheadInput
-                value={vModel}
-                onChange={setVModel}
+                value={vSeries}
+                onChange={setVSeries}
                 options={Array.from(
                   new Set(
                     vehicles
-                      .filter((v) => !vMake || v.make === vMake)
-                      .map((v) => v.model)
+                      .filter(
+                        (v) =>
+                          (!vMake || v.make === vMake) &&
+                          (!vModel || v.model === vModel)
+                      )
+                      .map((v) => v.series ?? "")
                   )
-                ).sort()}
-                placeholder="Model (e.g. Ranger)"
-                disabled={!vMake}
+                )
+
+                  .sort()}
+                placeholder="Series (e.g. PX2)"
+                disabled={!vMake || !vModel}
               />
 
-            </div>
-              <div className="grid grid-cols-2 gap-3 col-span-2">
-  <select
-  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-  value={vMonthFrom}
-  onChange={(e) => setVMonthFrom(e.target.value)}
->
-  <option value="">Month</option>
-
-  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
-    <option key={m} value={String(m)}>
-      {String(m).padStart(2, "0")}
-    </option>
-  ))}
-</select>
-
-  <input
-    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-    placeholder="Year From (e.g. 2016)"
-    value={vYearFrom}
-    onChange={(e) => setVYearFrom(e.target.value)}
-  />
-
-  <select
-  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-  value={vMonthTo}
-  onChange={(e) => setVMonthTo(e.target.value)}
->
-  <option value="">Month</option>
-
-  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
-    <option key={m} value={String(m)}>
-      {String(m).padStart(2, "0")}
-    </option>
-  ))}
-</select>
-
-  <input
-    className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-    placeholder="Year To (e.g. 2022)"
-    value={vYearTo}
-    onChange={(e) => setVYearTo(e.target.value)}
-  />
-</div>
-
-            <TypeaheadInput
-            value={vSeries}
-            onChange={setVSeries}
-            options={Array.from(
-              new Set(
-                vehicles
-                  .filter(
-                    (v) =>
-                      (!vMake || v.make === vMake) &&
-                      (!vModel || v.model === vModel)
+              <TypeaheadInput
+                value={vTrimCode}
+                onChange={setVTrimCode}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                      .map((v) => (v.trim_code ?? "").trim())
                   )
-                  .map((v) => v.series ?? "")
-              )
-            )
+                )
+                  .sort()}
+                placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
+                disabled={!vMake || !vModel}
+              />
 
-              .sort()}
-            placeholder="Series (e.g. PX2)"
-            disabled={!vMake || !vModel}
-          />
-
-          <TypeaheadInput
-  value={vTrimCode}
-  onChange={setVTrimCode}
-  options={Array.from(
-    new Set(
-      vehicles
-        .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
-        .map((v) => (v.trim_code ?? "").trim())
-    )
-  )
-    .sort()}
-  placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
-  disabled={!vMake || !vModel}
-/>
-
-             <TypeaheadInput
-            value={vEngineCode}
-            onChange={setVEngineCode}
-            options={Array.from(
-              new Set(
-                vehicles
-                  .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
-                  .map((v) => v.engine_code ?? "")
-              )
-            ).filter(Boolean).sort()}
-            placeholder="Engine Code (e.g. P5AT)"
-            disabled={false}
-          />
+              <TypeaheadInput
+                value={vEngineCode}
+                onChange={setVEngineCode}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                      .map((v) => v.engine_code ?? "")
+                  )
+                ).filter(Boolean).sort()}
+                placeholder="Engine Code (e.g. P5AT)"
+                disabled={false}
+              />
               <input
                 className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
                 placeholder="Engine Litres (e.g. 3.2)"
@@ -626,24 +804,24 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
               <select
-  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2"
-  value={vFuel}
-  onChange={(e) => setVFuel(e.target.value)}
->
-  <option value="">Fuel (select)</option>
-  <option value="Petrol">Petrol</option>
-  <option value="Carbureted">Petrol Carbureted</option>
-  <option value="Diesel">Diesel</option>
-  <option value="LPG">LPG</option>
-  <option value="Hybrid">Hybrid</option>
-  <option value="Electric">Electric</option>
-  <option value="CNG">CNG</option>
-  <option value="E85">E85</option>
-  <option value="Hydrogen">Hydrogen</option>
-  <option value="Other">Other</option>
-</select>
-              <TypeaheadInput
-  value={vChassis}
+                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2"
+                value={vFuel}
+                onChange={(e) => setVFuel(e.target.value)}
+              >
+                <option value="">Fuel (select)</option>
+                <option value="Petrol">Petrol</option>
+                <option value="Carbureted">Petrol Carbureted</option>
+                <option value="Diesel">Diesel</option>
+                <option value="LPG">LPG</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Electric">Electric</option>
+                <option value="CNG">CNG</option>
+                <option value="E85">E85</option>
+                <option value="Hydrogen">Hydrogen</option>
+                <option value="Other">Other</option>
+              </select>
+              <MultiTypeaheadInput
+  values={vChassis}
   onChange={setVChassis}
   options={Array.from(
     new Set(
@@ -654,7 +832,7 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
   )
     .filter(Boolean)
     .sort()}
-  placeholder="Chassis (e.g. Dual Cab 4x4)"
+  placeholder="Chassis (press Enter to add)"
   disabled={!vMake || !vModel}
   allowCreate
 />
@@ -669,56 +847,56 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
             </button>
           </section>
 
-{/* Add Part */}
-<section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-  <h2 className="text-lg font-semibold">Add Part</h2>
+          {/* Add Part */}
+          <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <h2 className="text-lg font-semibold">Add Part</h2>
 
-  <div className="mt-4 grid grid-cols-2 gap-3">
-    <TypeaheadInput
-  ref={brandRef}
-      value={pBrand}
-      onChange={setPBrand}
-      options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
-      placeholder="Brand (e.g. Ryco)"
-    />
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <TypeaheadInput
+                ref={brandRef}
+                value={pBrand}
+                onChange={setPBrand}
+                options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
+                placeholder="Brand (e.g. Ryco)"
+              />
 
-    <input
-      className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
-      placeholder="Part # (e.g. R2690P)"
-      value={pNumber}
-      onChange={(e) => setPNumber(e.target.value)}
-    />
+              <input
+                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                placeholder="Part # (e.g. R2690P)"
+                value={pNumber}
+                onChange={(e) => setPNumber(e.target.value)}
+              />
 
- <div className="col-span-2 relative">
-  <TypeaheadInput
-    value={pName}
-    onChange={setPName}
-    options={Array.from(new Set(parts.map((p) => p.name))).filter(Boolean).sort()}
-    placeholder="Name"
-  />
-</div>
+              <div className="col-span-2 relative">
+                <TypeaheadInput
+                  value={pName}
+                  onChange={setPName}
+                  options={Array.from(new Set(parts.map((p) => p.name))).filter(Boolean).sort()}
+                  placeholder="Name"
+                />
+              </div>
 
-    <div className="col-span-2">
-      <TypeaheadInput
-        value={pCategory}
-        onChange={setPCategory}
-        options={Array.from(new Set(parts.map((p) => p.category))).sort()}
-        placeholder='Category (e.g. Oil Filter)'
-      />
-    </div>
-  </div>
+              <div className="col-span-2">
+                <TypeaheadInput
+                  value={pCategory}
+                  onChange={setPCategory}
+                  options={Array.from(new Set(parts.map((p) => p.category))).sort()}
+                  placeholder='Category (e.g. Oil Filter)'
+                />
+              </div>
+            </div>
 
-  <button
-    disabled={!canAddPart}
-    onClick={addPart}
-    className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
-  >
-    Add Part
-  </button>
-</section>
-</div>
-          {/* Add Fitment */}
-            <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
+            <button
+              disabled={!canAddPart}
+              onClick={addPart}
+              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
+            >
+              Add Part
+            </button>
+          </section>
+        </div>
+        {/* Add Fitment */}
+        <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
@@ -769,7 +947,8 @@ if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to
               ? "Loading…"
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
           </div>
-          </section>
-          </main>
-          </div>
-          )}
+        </section>
+      </main>
+    </div>
+  )
+}
