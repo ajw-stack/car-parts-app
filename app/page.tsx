@@ -89,12 +89,13 @@ function TypeaheadInput({
 
   return (
     <div className="relative w-full">
-      <input
-        value={value}
-        disabled={disabled}
-        placeholder={placeholder}
-        readOnly
-        onFocus={() => setOpen(true)}
+<input
+  value={value}
+  disabled={disabled}
+  placeholder={placeholder}
+  readOnly
+  onFocus={() => setOpen(true)}
+  onBlur={() => setOpen(false)}
         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
       />
 
