@@ -38,18 +38,19 @@ function yearLabel(y: number) {
 
 function engineKey(v: VehicleRow) {
   // Key used for the Engine dropdown selection (does NOT include series/chassis)
-return `${v.engine_code ?? ""} ${v.engine_config ?? ""} ${v.engine_litres ?? ""} ${v.fuel_type ?? ""}`;
+return `${v.engine_code ?? ""}|${v.engine_config ?? ""}|${v.engine_litres ?? ""}|${v.fuel_type ?? ""}`;
 }
 
 function engineLabelFromKey(key: string) {
-  const [code, config, litres, fuel] = key.split(" ");
+  const [code, config, litres, fuel] = key.split("|");
+
   const litresLabel = litres ? `${Number(litres).toFixed(1)}L` : "";
   const fuelLabel = fuel ?? "";
 
   const left = [code, config].filter(Boolean).join(" ");
   const parts = [left, litresLabel, fuelLabel].filter(Boolean);
 
-  return parts.length ? parts.join("  ") : "Unknown engine";
+  return parts.length ? parts.join(" ") : "Unknown engine";
 }
 
 function vehicleCardLabel(v: VehicleRow) {
