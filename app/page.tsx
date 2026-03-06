@@ -94,7 +94,7 @@ function TypeaheadInput({
   disabled={disabled}
   placeholder={placeholder}
   readOnly
-  onFocus={() => setOpen(true)}
+  onClick={() => setOpen(true)}
   onBlur={() => setOpen(false)}
         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
       />
