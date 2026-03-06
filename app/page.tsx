@@ -14,6 +14,7 @@ type VehicleRow = {
   year_to: number | null;
   series: string | null;
   engine_code: string | null;
+  engine_config: string | null;
   engine_litres: number | null;
   fuel_type: string | null;
   chassis: string | null;
@@ -37,23 +38,30 @@ function yearLabel(y: number) {
 
 function engineKey(v: VehicleRow) {
   // Key used for the Engine dropdown selection (does NOT include series/chassis)
-  return `${v.engine_code ?? ""}|${v.engine_litres ?? ""}|${v.fuel_type ?? ""}`;
+return `${v.engine_code ?? ""}|${v.engine_config ?? ""}|${v.engine_litres ?? ""}|${v.fuel_type ?? ""}`;
 }
 
 function engineLabelFromKey(key: string) {
-  const [code, litres, fuel] = key.split("|");
-  const litresLabel = litres ? `${litres}L` : "";
-  const fuelLabel = fuel ? `${fuel}` : "";
-  const parts = [code, litresLabel, fuelLabel].filter(Boolean);
-  return parts.length ? parts.join(" • ") : "Unknown engine";
+  const [code, config, litres, fuel] = key.split("|");
+  const litresLabel = litres ? `${Number(litres).toFixed(1)}L` : "";
+  const fuelLabel = fuel ?? "";
+
+  const left = [code, config].filter(Boolean).join(" ");
+  const parts = [left, litresLabel, fuelLabel].filter(Boolean);
+
+  return parts.length ? parts.join(" | ") : "Unknown engine";
 }
 
 function vehicleCardLabel(v: VehicleRow) {
   const yr = v.year_from === v.year_to ? `${v.year_from}` : `${v.year_from}-${v.year_to}`;
   const series = v.series ? ` ${v.series}` : "";
-  const eng = [v.engine_code, v.engine_litres != null ? `${v.engine_litres}L` : "", v.fuel_type ?? ""]
-    .filter(Boolean)
-    .join(" ");
+const eng = [
+  [v.engine_code, (v as any).engine_config].filter(Boolean).join(" "),
+  v.engine_litres != null ? `${Number(v.engine_litres).toFixed(1)}L` : "",
+  v.fuel_type,
+]
+  .filter(Boolean)
+  .join(" | ");
   const chassis = v.chassis ? ` • ${v.chassis}` : "";
   return `${v.make} ${v.model} ${yr}${series} • ${eng}${chassis}`;
 }
