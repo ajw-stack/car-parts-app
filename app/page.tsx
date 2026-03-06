@@ -103,11 +103,14 @@ function TypeaheadInput({
         <div className="absolute z-20 mt-1 max-h-60 w-full overflow-auto rounded-xl border border-white/10 bg-black">
           {filtered.map((o) => (
             <button
-              key={o}
-              type="button"
-              onClick={() => select(o)}
-              className="block w-full px-4 py-2 text-left hover:bg-white/10"
-            >
+  key={o}
+  type="button"
+  onMouseDown={(e) => {
+    e.preventDefault();
+    select(o);
+  }}
+  className="block w-full px-4 py-2 text-left hover:bg-white/10"
+>
               {o}
             </button>
           ))}
