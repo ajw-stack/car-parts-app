@@ -49,7 +49,7 @@ function engineLabelFromKey(key: string) {
   const left = [code, config].filter(Boolean).join(" ");
   const parts = [left, litresLabel, fuelLabel].filter(Boolean);
 
-  return parts.length ? parts.join(" | ") : "Unknown engine";
+  return parts.length ? parts.join("  ") : "Unknown engine";
 }
 
 function vehicleCardLabel(v: VehicleRow) {
