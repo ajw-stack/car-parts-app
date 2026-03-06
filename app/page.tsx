@@ -279,6 +279,25 @@ const yearOptions = useMemo(() => {
     return arr;
   }, [vehicles, selectedMake, selectedModel, selectedYear]);
 
+  const trimOptions = useMemo(() => {
+  if (!selectedMake || !selectedModel || selectedYear === "") return [];
+
+  const set = new Set<string>();
+
+  for (const v of vehicles) {
+    if (
+      v.make === selectedMake &&
+      v.model === selectedModel &&
+      selectedYear >= v.year_from &&
+      (v.year_to === null || selectedYear <= v.year_to)
+    ) {
+if ((v as any).trim_code) set.add((v as any).trim_code);
+    }
+  }
+
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}, [vehicles, selectedMake, selectedModel, selectedYear]);
+
   const engineOptions = useMemo(() => {
     if (!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === "") return [];
     const set = new Set<string>();
