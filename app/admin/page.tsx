@@ -293,6 +293,32 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
               }
             }
 
+            if (e.key === "Tab") {
+  if (filtered[active]) {
+    e.preventDefault();
+    addValue(filtered[active]);
+  } else if (q) {
+    e.preventDefault();
+    addValue(q);
+  }
+
+  // move focus to next field
+  requestAnimationFrame(() => {
+    const focusables = Array.from(
+      document.querySelectorAll<HTMLElement>(
+        'input, select, button, textarea, [tabindex]:not([tabindex="-1"])'
+      )
+    ).filter((el) => !el.hasAttribute("disabled"));
+
+    const index = focusables.indexOf(e.currentTarget as HTMLElement);
+    if (index >= 0 && focusables[index + 1]) {
+      focusables[index + 1].focus();
+    }
+  });
+
+  return;
+}
+
             if (e.key === "Backspace" && !inputValue && values.length > 0) {
               e.preventDefault();
               removeValue(values.length - 1);
@@ -823,15 +849,13 @@ const { error } = await supabase.from("vehicles").insert(rows);
               <MultiTypeaheadInput
   values={vChassis}
   onChange={setVChassis}
-  options={Array.from(
-    new Set(
-      vehicles
-        .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
-        .map((v) => (v.chassis ?? "").trim())
-    )
+options={Array.from(
+  new Set(
+    vehicles
+      .map((v) => (v.chassis ?? "").trim())
+      .filter(Boolean)
   )
-    .filter(Boolean)
-    .sort()}
+).sort()}
   placeholder="Chassis (press Enter to add)"
   disabled={!vMake || !vModel}
   allowCreate
