@@ -690,8 +690,15 @@ const partsCountLabel = useMemo(() => {
     setSelectedTrim(v);
     setSelectedEngineKey("");
   }}
-  options={trimOptions}
- placeholder={trimOptions.length === 0 ? "-" : "Select Trim"}
+options={
+  !selectedMake || !selectedModel || selectedYear === ""
+    ? []
+    : trimOptions.length === 0
+    ? ["-"]
+    : trimOptions
+}
+
+placeholder="Select Trim"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
