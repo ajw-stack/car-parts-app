@@ -547,7 +547,6 @@ export default function AdminPage() {
     vModel.trim() &&
     vYearFrom.trim() &&
     vYearTo.trim() &&
-    vSeries.trim() &&
     vEngineCode.trim() &&
     vFuel.trim() &&
     vChassis.length > 0;
@@ -603,19 +602,29 @@ const { error } = await supabase.from("vehicles").insert(rows);
       return;
     }
 
-    setMsg("Vehicle added.");
-    setVMake("");
-    setVModel("");
-    setVYearFrom("");
-    setVYearTo("");
-    setVSeries("");
-    setVEngineCode("");
-    setVEngineLitres("");
-    setVFuel("");
-    setVChassis([])
-    await refreshAll();
+setMsg("Vehicle added.");
 
-    makeRef.current?.focus();
+setVMake("");
+setVModel("");
+setVYearFrom("");
+setVYearTo("");
+setVSeries("");
+setVEngineCode("");
+setVEngineLitres("");
+setVFuel("");
+setVChassis([]);
+
+// reload only vehicles so chassis suggestions update
+const { data: vehiclesData } = await supabase
+  .from("vehicles")
+  .select("*")
+  .order("make");
+
+if (vehiclesData) {
+  setVehicles(vehiclesData);
+}
+
+makeRef.current?.focus();
 
   }
 
