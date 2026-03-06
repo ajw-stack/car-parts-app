@@ -643,12 +643,24 @@ makeRef.current?.focus();
       return;
     }
 
-    setMsg("Part added.");
-    setPBrand("");
-    setPNumber("");
-    setPName("");
-    setPCategory("");
-    await refreshAll();
+setMsg("Part added.");
+
+setPBrand("");
+setPNumber("");
+setPName("");
+setPCategory("");
+
+// reload only parts so dropdowns update
+const { data: partsData } = await supabase
+  .from("parts")
+  .select("*")
+  .order("brand");
+
+if (partsData) {
+  setParts(partsData);
+}
+
+brandRef.current?.focus();
   }
 
   async function addFitment() {
@@ -931,6 +943,7 @@ options={Array.from(
             </button>
           </section>
         </div>
+
         {/* Add Fitment */}
         <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
