@@ -326,7 +326,7 @@ if ((v as any).trim_code) set.add((v as any).trim_code);
         (v.year_to === null || selectedYear <= v.year_to) &&
         (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === ""))
       ) {
-        set.add(engineKey(v));
+  set.add(engineLabelFromKey(engineKey(v)));
       }
     }
     const arr = Array.from(set);
@@ -353,7 +353,7 @@ if ((v as any).trim_code) set.add((v as any).trim_code);
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
-        engineKey(v) === selectedEngineKey
+  engineLabelFromKey(engineKey(v)) === selectedEngineKey
       ) {
         if (v.chassis) set.add(v.chassis);
       }
@@ -390,7 +390,7 @@ if ((v as any).trim_code) set.add((v as any).trim_code);
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
-        engineKey(v) === selectedEngineKey &&
+  engineLabelFromKey(engineKey(v)) === selectedEngineKey &&
         chassisVal === selectedChassis
       );
     });
