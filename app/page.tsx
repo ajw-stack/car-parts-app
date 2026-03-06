@@ -685,20 +685,13 @@ const partsCountLabel = useMemo(() => {
 />
 
 <TypeaheadInput
-  value={selectedTrim}
+  value={trimOptions.length === 0 ? "-" : selectedTrim}
   onChange={(v) => {
     setSelectedTrim(v);
     setSelectedEngineKey("");
   }}
-options={
-  !selectedMake || !selectedModel || selectedYear === ""
-    ? []
-    : trimOptions.length === 0
-    ? ["-"]
-    : trimOptions
-}
-
-placeholder="Select Trim"
+  options={trimOptions}
+  placeholder="Select Trim"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
