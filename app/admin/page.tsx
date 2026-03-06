@@ -293,30 +293,33 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
               }
             }
 
-            if (e.key === "Tab") {
-  if (filtered[active]) {
-    e.preventDefault();
-    addValue(filtered[active]);
-  } else if (q) {
-    e.preventDefault();
-    addValue(q);
+if (e.key === "Tab") {
+  if (q) {
+    if (filtered[active]) {
+      e.preventDefault();
+      addValue(filtered[active]);
+    } else {
+      e.preventDefault();
+      addValue(q);
+    }
+
+    requestAnimationFrame(() => {
+      const focusables = Array.from(
+        document.querySelectorAll<HTMLElement>(
+          'input, select, button, textarea, [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((el) => !el.hasAttribute("disabled"));
+
+      const index = focusables.indexOf(e.currentTarget as HTMLElement);
+      if (index >= 0 && focusables[index + 1]) {
+        focusables[index + 1].focus();
+      }
+    });
+
+    return;
   }
 
-  // move focus to next field
-  requestAnimationFrame(() => {
-    const focusables = Array.from(
-      document.querySelectorAll<HTMLElement>(
-        'input, select, button, textarea, [tabindex]:not([tabindex="-1"])'
-      )
-    ).filter((el) => !el.hasAttribute("disabled"));
-
-    const index = focusables.indexOf(e.currentTarget as HTMLElement);
-    if (index >= 0 && focusables[index + 1]) {
-      focusables[index + 1].focus();
-    }
-  });
-
-  return;
+  setOpen(false);
 }
 
             if (e.key === "Backspace" && !inputValue && values.length > 0) {
