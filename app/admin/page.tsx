@@ -861,7 +861,9 @@ brandRef.current?.focus();
                 <option value="">Fuel (select)</option>
                 <option value="Petrol">Petrol</option>
                 <option value="Supercharged V6">Petrol Supercharged V6</option>
-                <option value="Carbureted">Petrol Carbureted</option>
+                <option value="Turbo Petrol">Turbo Petrol</option>
+                <option value="Turbo Diesel">Turbo Diesel</option>
+                <option value="Carbureted">Carbureted Petrol</option>
                 <option value="Diesel">Diesel</option>
                 <option value="LPG">LPG</option>
                 <option value="Hybrid">Hybrid</option>
