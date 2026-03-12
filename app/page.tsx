@@ -12,7 +12,10 @@ type VehicleRow = {
   model: string;
   year_from: number;
   year_to: number | null;
+  month_from: number | null;
+  month_to: number | null;
   series: string | null;
+  trim_code: string | null;
   engine_code: string | null;
   engine_config: string | null;
   engine_litres: number | null;
@@ -170,11 +173,11 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
 
     async function load() {
       setLoadingVehicles(true);
-      const { data, error } = await supabase
-        .from("vehicles")
-        .select(
-          "id, make, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, chassis"
-        );
+const { data, error } = await supabase
+  .from("vehicles")
+  .select(
+    "id, make, model, year_from, year_to, month_from, month_to, series, trim_code, engine_code, engine_config, engine_litres, fuel_type, chassis"
+  );
 
       if (cancelled) return;
 
@@ -300,19 +303,20 @@ const yearOptions = useMemo(() => {
 
   const set = new Set<string>();
 
-  for (const v of vehicles) {
-    if (
-      v.make === selectedMake &&
-      v.model === selectedModel &&
-      selectedYear >= v.year_from &&
-      (v.year_to === null || selectedYear <= v.year_to)
-    ) {
-if ((v as any).trim_code) set.add((v as any).trim_code);
-    }
+for (const v of vehicles) {
+  if (
+    v.make === selectedMake &&
+    v.model === selectedModel &&
+    v.series === selectedSeries &&
+    selectedYear >= v.year_from &&
+    (v.year_to === null || selectedYear <= v.year_to)
+  ) {
+    if (v.trim_code) set.add(v.trim_code);
   }
+}
 
   return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [vehicles, selectedMake, selectedModel, selectedYear]);
+}, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries]);
 
   const engineOptions = useMemo(() => {
     if (!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === "") return [];
