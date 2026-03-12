@@ -275,7 +275,7 @@ const yearOptions = useMemo(() => {
     }
   }
 
-  return Array.from(set).sort((a, b) => a - b);
+ return Array.from(set).sort((a,b) => b - a);
 }, [vehicles, selectedMake, selectedModel]);
 
   const seriesOptions = useMemo(() => {
