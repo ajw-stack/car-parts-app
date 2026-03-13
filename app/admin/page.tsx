@@ -584,7 +584,9 @@ export default function AdminPage() {
 const rows = vChassis.map((chassis) => ({
   make: vMake.trim(),
   model: vModel.trim(),
+  month_from: vMonthFrom ? Number(vMonthFrom) : null,
   year_from,
+  month_to: vMonthTo ? Number(vMonthTo) : null,
   year_to,
   series: vSeries.trim() || null,
   trim_code: vTrimCode.trim() || null,
@@ -606,7 +608,9 @@ setMsg("Vehicle added.");
 
 setVMake("");
 setVModel("");
+setVMonthFrom("");
 setVYearFrom("");
+setVMonthTo("");
 setVYearTo("");
 setVSeries("");
 setVEngineCode("");
