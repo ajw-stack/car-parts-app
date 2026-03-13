@@ -110,7 +110,7 @@ const filtered = useMemo(() => {
       />
 
       {open && filtered.length > 0 && (
-        <div className="absolute z-20 mt-1 max-h-60 w-full overflow-auto rounded-xl border border-white/10 bg-black">
+ <div className="absolute z-10 mt-1 w-max min-w-full">
           {filtered.map((o) => (
             <button
   key={o}
@@ -119,7 +119,7 @@ const filtered = useMemo(() => {
     e.preventDefault();
     select(o);
   }}
-  className="block w-full px-4 py-2 text-left hover:bg-white/10"
+className="block w-full px-4 py-2 text-left hover:bg-white/10 whitespace-nowrap"
 >
               {o}
             </button>
@@ -777,7 +777,7 @@ const partsCountLabel = useMemo(() => {
           </div>
 
           {/* Category Filter */}
-<div className="mt-3 flex flex-wrap items-center gap-3">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full">
   <label className="text-sm text-white/70">Category</label>
 
   <select
