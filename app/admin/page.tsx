@@ -872,6 +872,7 @@ brandRef.current?.focus();
                 <option value="Carbureted">Carbureted Petrol</option>
                 <option value="Diesel">Diesel</option>
                 <option value="LPG">LPG</option>
+                <option value="Petrol/LPG">Petrol/LPG</option>
                 <option value="Hybrid">Hybrid</option>
                 <option value="Electric">Electric</option>
                 <option value="CNG">CNG</option>
