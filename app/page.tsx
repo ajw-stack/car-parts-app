@@ -338,32 +338,59 @@ for (const v of vehicles) {
     return arr;
   }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries]);
 
-  const chassisOptions = useMemo(() => {
-    if (
-      !selectedMake ||
-      !selectedModel ||
-      selectedYear === "" ||
-      selectedSeries === "" ||
-      !selectedEngineKey
-    )
-      return [];
+const chassisOptions = useMemo(() => {
+  if (
+    !selectedMake ||
+    !selectedModel ||
+    selectedYear === "" ||
+    selectedSeries === "" ||
+    !selectedEngineKey
+  ) {
+    return [];
+  }
 
-    const set = new Set<string>();
-    for (const v of vehicles) {
-      const seriesVal = v.series ?? "";
-      if (
-        v.make === selectedMake &&
-        v.model === selectedModel &&
-        selectedYear >= v.year_from &&
-        (v.year_to === null || selectedYear <= v.year_to) &&
-        seriesVal === selectedSeries &&
-  engineLabelFromKey(engineKey(v)) === selectedEngineKey
-      ) {
-        if (v.chassis) set.add(v.chassis);
+  const map = new Map<
+    string,
+    {
+      chassis: string;
+      month_from: number | null;
+      year_from: number;
+      month_to: number | null;
+      year_to: number | null;
+    }
+  >();
+
+  for (const v of vehicles) {
+    const seriesVal = v.series ?? "";
+    if (
+      v.make === selectedMake &&
+      v.model === selectedModel &&
+      selectedYear >= v.year_from &&
+      (v.year_to === null || selectedYear <= v.year_to) &&
+      seriesVal === selectedSeries &&
+      engineLabelFromKey(engineKey(v)) === selectedEngineKey
+    ) {
+      if (v.chassis) {
+        const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
+        map.set(labelKey, {
+          chassis: v.chassis,
+          month_from: v.month_from,
+          year_from: v.year_from,
+          month_to: v.month_to,
+          year_to: v.year_to,
+        });
       }
     }
-    return Array.from(set).sort((a, b) => a.localeCompare(b));
-  }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
+  }
+
+  const arr = Array.from(map.values());
+  arr.sort((a, b) => {
+    if (a.year_from !== b.year_from) return b.year_from - a.year_from;
+    if ((a.month_from ?? 0) !== (b.month_from ?? 0)) return (b.month_from ?? 0) - (a.month_from ?? 0);
+    return a.chassis.localeCompare(b.chassis);
+  });
+  return arr;
+}, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
 
   useEffect(() => {
   if (trimOptions.length === 1) {
@@ -721,10 +748,22 @@ const partsCountLabel = useMemo(() => {
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
-          <TypeaheadInput
+<TypeaheadInput
   value={selectedChassis}
   onChange={(v) => setSelectedChassis(v)}
-  options={chassisOptions}
+  options={chassisOptions.map((c) => {
+    const from =
+      (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
+      String(c.year_from).slice(-2);
+
+    const to =
+      c.year_to === null
+        ? "Current"
+        : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
+          String(c.year_to).slice(-2);
+
+    return `${from}-${to} • ${c.chassis}`;
+  })}
   placeholder="Select Chassis"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
