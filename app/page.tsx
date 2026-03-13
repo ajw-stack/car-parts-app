@@ -97,37 +97,37 @@ const filtered = useMemo(() => {
     setOpen(false);
   };
 
-  return (
-    <div className="relative w-full">
-<input
-  value={value}
-  disabled={disabled}
-  placeholder={placeholder}
-  readOnly
-  onClick={() => setOpen(true)}
-  onBlur={() => setOpen(false)}
-        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
-      />
+return (
+  <div className="relative w-full">
+    <input
+      value={value}
+      disabled={disabled}
+      placeholder={placeholder}
+      readOnly
+      onClick={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+      className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3"
+    />
 
-      {open && filtered.length > 0 && (
- <div className="absolute z-10 mt-1 w-max min-w-full">
-          {filtered.map((o) => (
-            <button
-  key={o}
-  type="button"
-  onMouseDown={(e) => {
-    e.preventDefault();
-    select(o);
-  }}
-className="block w-full px-4 py-2 text-left hover:bg-white/10 whitespace-nowrap"
->
-              {o}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
+    {open && filtered.length > 0 && (
+      <div className="absolute z-10 mt-1 w-max min-w-full rounded-xl border border-white/10 bg-neutral-900 shadow-lg">
+        {filtered.map((o) => (
+          <button
+            key={o}
+            type="button"
+            onMouseDown={(e) => {
+              e.preventDefault();
+              select(o);
+            }}
+            className="block w-full px-4 py-2 text-left hover:bg-white/10 whitespace-nowrap"
+          >
+            {o}
+          </button>
+        ))}
+      </div>
+    )}
+  </div>
+);
 }
 
 export default function Page() {
@@ -836,8 +836,8 @@ const partsCountLabel = useMemo(() => {
               </div>
             )}
           </div>
-        </div>
-      </main>
     </div>
-  );
+  </main>
+</div>
+);
 }
