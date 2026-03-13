@@ -110,7 +110,7 @@ return (
     />
 
     {open && filtered.length > 0 && (
-      <div className="absolute z-10 mt-1 w-max min-w-full rounded-xl border border-white/10 bg-neutral-900 shadow-lg">
+     <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-white/10 bg-neutral-900 shadow-lg">
         {filtered.map((o) => (
           <button
             key={o}
