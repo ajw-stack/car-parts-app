@@ -596,6 +596,8 @@ const rows = vChassis.map((chassis) => ({
   chassis: chassis.trim(),
 }));
 
+console.log("vMonthFrom:", vMonthFrom, "vMonthTo:", vMonthTo);
+console.log("rows being inserted:", rows);
 const { error } = await supabase.from("vehicles").insert(rows);
 
     if (error) {
@@ -765,13 +767,13 @@ brandRef.current?.focus();
                   value={vMonthFrom}
                   onChange={(e) => setVMonthFrom(e.target.value)}
                 >
-                  <option value="">Month</option>
+<option value="">Month</option>
 
-                  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
-                    <option key={m} value={String(m)}>
-                      {String(m).padStart(2, "0")}
-                    </option>
-                  ))}
+{Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+  <option key={m} value={String(m).padStart(2, "0")}>
+    {String(m).padStart(2, "0")}
+  </option>
+))}
                 </select>
 
                 <input
