@@ -16,7 +16,7 @@ return (
         {/* Left - menu */}
 <button
   onClick={() => setMenuOpen(true)}
- className="text-white hover:text-[#F97316] text-xl"
+ className="text-white hover:text-[##e10600] text-xl"
 >
   ☰
 </button>

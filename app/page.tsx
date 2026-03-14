@@ -631,7 +631,7 @@ const partsCountLabel = useMemo(() => {
 
           <button
             onClick={clearAll}
-   className="rounded-xl border border-[#334155] bg-[#0F172A] px-4 py-2 text-sm font-medium text-white hover:border-[#F97316] hover:bg-[#F97316]"
+   className="rounded-xl border border-[#334155] bg-[#0F172A] px-4 py-2 text-sm font-medium text-white hover:border-[#e10600] hover:bg-[#e10600]"
           >
             Clear Search
           </button>

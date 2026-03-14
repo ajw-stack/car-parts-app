@@ -44,6 +44,6 @@ select:focus,
 input:focus,
 button:focus {
   outline: none;
-  border-color: #F97316;
+  border-color: #e10600;
   box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.35);
 }

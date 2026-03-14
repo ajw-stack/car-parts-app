@@ -38,9 +38,7 @@ className={`fixed left-0 top-0 h-full w-80 bg-[#0B0F14] shadow-lg z-50 transform
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-     <div className="p-6 border-b border-[#1E293B] font-bold text-xl text-[#F97316]">
-  Global Parts Catalogue
-</div>
+ <div className="h-6" />
 
         <nav className="flex flex-col">
           <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Home</a>
