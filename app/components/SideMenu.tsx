@@ -29,7 +29,7 @@ export default function SideMenu() {
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="p-6 border-b font-bold text-xl">GCat</div>
+        <div className="p-6 border-b font-bold text-xl">Global Parts Catalogue</div>
 
         <nav className="flex flex-col">
           <a className="p-4 border-b hover:bg-gray-100">Home</a>
