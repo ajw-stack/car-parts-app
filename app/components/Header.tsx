@@ -1,22 +1,26 @@
-export default function header() {
+"use client";
+
+export default function Header() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-900/40">
-<div className="mx-auto flex max-w-5xl items-center gap-3 px-6 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+
+        {/* Left - menu */}
+        <button className="text-zinc-300 hover:text-white text-xl">
+          ☰
+        </button>
+
+        {/* Center - title */}
         <a
           href="/"
-          className="text-lg font-extrabold tracking-tight text-zinc-100 hover:text-white"
+          className="text-lg font-bold tracking-tight text-zinc-100"
         >
           Global Parts Catalogue
         </a>
 
-        <nav className="flex items-center gap-6 text-sm text-zinc-400">
-          <a href="/" className="hover:text-zinc-200">
-            Home
-          </a>
-          <a href="/admin" className="hover:text-zinc-200">
-            Admin
-          </a>
-        </nav>
+        {/* Right placeholder */}
+        <div className="w-6"></div>
+
       </div>
     </header>
   );
