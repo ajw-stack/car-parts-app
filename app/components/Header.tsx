@@ -26,8 +26,8 @@ return (
   <Image
     src="/gpc_logo_transparent_clean_crop.png"
     alt="Global Parts Catalogue"
-    width={180}
-    height={70}
+    width={220}
+    height={85}
   />
 </a>
 
