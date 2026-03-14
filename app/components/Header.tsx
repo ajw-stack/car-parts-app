@@ -9,13 +9,13 @@ return (
   <>
     <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
-    <header className="border-b border-zinc-800 bg-zinc-900/40">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+    <header className="border-b border-[#1E293B] bg-[#0B0F14]">
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3">
 
         {/* Left - menu */}
 <button
   onClick={() => setMenuOpen(true)}
-  className="text-zinc-300 hover:text-white text-xl"
+ className="text-white hover:text-[#F97316] text-xl"
 >
   ☰
 </button>
@@ -23,7 +23,7 @@ return (
         {/* Center - title */}
         <a
           href="/"
-          className="text-lg font-bold tracking-tight text-zinc-100"
+         className="text-lg font-bold tracking-tight text-white"
         >
           Global Parts Catalogue
         </a>

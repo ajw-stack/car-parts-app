@@ -20,7 +20,7 @@ export default function SideMenu({
       {open && (
         <div
           onClick={() => setOpen(false)}
-          className="fixed inset-0 bg-black/40 z-40"
+          className="fixed inset-0 bg-black/60 z-40"
         />
       )}
 
@@ -43,14 +43,14 @@ className={`fixed left-0 top-0 h-full w-80 bg-[#0B0F14] shadow-lg z-50 transform
 </div>
 
         <nav className="flex flex-col">
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Home</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Saved Lists</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">New Products</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Vehicles</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Parts</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Brands</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Settings</a>
-          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Contact</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Home</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Saved Lists</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">New Products</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Vehicles</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Parts</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Brands</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Settings</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#0F172A]">Contact</a>
         </nav>
       </div>
     </>

@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* Force dark native form controls (Windows/Chrome especially) */
 select, option, input {
@@ -40,19 +40,10 @@ option {
 
 /* Accent UI elements */
 
-button,
 select:focus,
-input:focus {
+input:focus,
+button:focus {
   outline: none;
   border-color: #F97316;
   box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.35);
-}
-
-button {
-  background: #334155;
-  color: #0B0F14;
-}
-
-button:hover {
-  background: #F97316;
 }
