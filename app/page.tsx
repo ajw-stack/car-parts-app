@@ -1,6 +1,7 @@
 // app/page.tsx
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import Header from "./components/Header";

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import SideMenu from "./SideMenu";
 
 export default function Header() {
@@ -21,12 +22,14 @@ return (
 </button>
 
         {/* Center - title */}
-        <a
-          href="/"
-         className="text-lg font-bold tracking-tight text-white"
-        >
-          Global Parts Catalogue
-        </a>
+<a href="/" className="flex items-center">
+  <Image
+    src="/gpc-full-logo.png"
+    alt="Global Parts Catalogue"
+    width={180}
+    height={70}
+  />
+</a>
 
         {/* Right placeholder */}
         <div className="w-6"></div>
