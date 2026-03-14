@@ -34,23 +34,23 @@ export default function SideMenu({
       startX.current = null;
     }
   }}
-className={`fixed left-0 top-0 h-full w-80 bg-[#0F172A] shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+className={`fixed left-0 top-0 h-full w-80 bg-[#0B0F14] shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-     <div className="p-6 border-b border-[#334155] font-bold text-xl text-[#F97316]">
+     <div className="p-6 border-b border-[#1E293B] font-bold text-xl text-[#F97316]">
   Global Parts Catalogue
 </div>
 
         <nav className="flex flex-col">
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Home</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Saved Lists</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">New Products</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Vehicles</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Parts</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Brands</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Settings</a>
-          <a className="p-4 border-b border-[#334155] text-[#F8FAFC] hover:bg-[#334155]">Contact</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Home</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Saved Lists</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">New Products</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Vehicles</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Parts</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Brands</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Settings</a>
+          <a className="p-4 border-b border-[#1E293B] text-[#F8FAFC] hover:bg-[#334155]">Contact</a>
         </nav>
       </div>
     </>

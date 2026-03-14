@@ -3,8 +3,8 @@
 /* OEM clean dark theme */
 :root {
   color-scheme: dark;
---background: #F8FAFC;
---foreground: #0F172A;
+--background: #0B0F14;
+--foreground: #FFFFFF;
 }
 
 body {
@@ -50,7 +50,7 @@ input:focus {
 
 button {
   background: #334155;
-  color: #F8FAFC;
+  color: #0B0F14;
 }
 
 button:hover {
