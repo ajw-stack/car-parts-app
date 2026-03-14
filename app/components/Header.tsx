@@ -1,14 +1,24 @@
 "use client";
 
+import { useState } from "react";
+import SideMenu from "./SideMenu";
+
 export default function Header() {
-  return (
+  const [menuOpen, setMenuOpen] = useState(false);
+return (
+  <>
+    <SideMenu open={menuOpen} setOpen={setMenuOpen} />
+
     <header className="border-b border-zinc-800 bg-zinc-900/40">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
 
         {/* Left - menu */}
-        <button className="text-zinc-300 hover:text-white text-xl">
-          ☰
-        </button>
+<button
+  onClick={() => setMenuOpen(true)}
+  className="text-zinc-300 hover:text-white text-xl"
+>
+  ☰
+</button>
 
         {/* Center - title */}
         <a
@@ -22,6 +32,7 @@ export default function Header() {
         <div className="w-6"></div>
 
       </div>
-    </header>
-  );
+</header>
+</>
+);
 }
