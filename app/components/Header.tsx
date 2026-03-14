@@ -24,7 +24,7 @@ return (
         {/* Center - title */}
 <a href="/" className="flex items-center">
   <Image
-    src="/gpc-logo-transparent_clean.png"
+    src="/gpc_logo_transparent_clean.png"
     alt="Global Parts Catalogue"
     width={180}
     height={70}
