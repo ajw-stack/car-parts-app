@@ -4,7 +4,7 @@ export default function SideMenu() {
   return (
     <div className="fixed left-0 top-0 h-full w-80 bg-white shadow-lg z-50">
       <div className="p-6 border-b font-bold text-xl">
-        GCat
+        Global Parts Catalogue
       </div>
 
       <nav className="flex flex-col">
