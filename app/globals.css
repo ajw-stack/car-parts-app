@@ -3,8 +3,8 @@
 /* OEM clean dark theme */
 :root {
   color-scheme: dark;
-  --background: #0b0f14;
-  --foreground: #e7e9ee;
+--background: #F8FAFC;
+--foreground: #0F172A;
 }
 
 body {
@@ -28,12 +28,31 @@ select, option, input {
 }
 
 select {
-  background-color: #0b0f14;
+  background-color: #0F172A;
   color: #ffffff;
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid #334155;
 }
 
 option {
-  background-color: #0b0f14;
+  background-color: #0F172A;
   color: #ffffff;
+}
+
+/* Accent UI elements */
+
+button,
+select:focus,
+input:focus {
+  outline: none;
+  border-color: #F97316;
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.35);
+}
+
+button {
+  background: #334155;
+  color: #F8FAFC;
+}
+
+button:hover {
+  background: #F97316;
 }

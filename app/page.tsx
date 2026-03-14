@@ -615,14 +615,14 @@ const partsCountLabel = useMemo(() => {
 }, [selectedVehicleId, loadingParts, filteredParts.length]);
 
   return (
-    <div className="min-h-screen bg-[#0b0f14] text-white">
+    <div className="min-h-screen bg-[#F8FAFC] text-[#0F172A]">
       <Header />
 
       <main className="mx-auto max-w-5xl px-6 py-10">
         <div className="flex items-start justify-between gap-6">
           <div>
             <h1 className="text-4xl font-semibold tracking-tight">Vehicle Parts Catalogue</h1>
-            <p className="mt-2 text-sm text-white/70">
+            <p className="mt-2 text-sm text-[#334155]">
               Select <span className="font-medium text-white/90">Make → Model → Year → Series → Engine → Chassis</span>{" "}
               to view compatible parts.
             </p>
@@ -630,7 +630,7 @@ const partsCountLabel = useMemo(() => {
 
           <button
             onClick={clearAll}
-            className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium hover:bg-white/10"
+          className="rounded-xl border border-[#334155] bg-[#334155] px-4 py-2 text-sm font-medium text-[#F8FAFC] hover:bg-[#F97316]"
           >
             Clear Search
           </button>
