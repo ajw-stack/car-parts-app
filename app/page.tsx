@@ -324,20 +324,21 @@ for (const v of vehicles) {
     const set = new Set<string>();
     for (const v of vehicles) {
       const seriesVal = v.series ?? "";
-      if (
-        v.make === selectedMake &&
-        v.model === selectedModel &&
-        selectedYear >= v.year_from &&
-        (v.year_to === null || selectedYear <= v.year_to) &&
-        (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === ""))
-      ) {
+if (
+  v.make === selectedMake &&
+  v.model === selectedModel &&
+  selectedYear >= v.year_from &&
+  (v.year_to === null || selectedYear <= v.year_to) &&
+  (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
+  (!selectedTrim || v.trim_code === selectedTrim)
+) {
   set.add(engineLabelFromKey(engineKey(v)));
-      }
+}
     }
     const arr = Array.from(set);
     arr.sort((a, b) => engineLabelFromKey(a).localeCompare(engineLabelFromKey(b)));
     return arr;
-  }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries]);
+ }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedTrim]);
 
 const chassisOptions = useMemo(() => {
   if (
@@ -733,11 +734,7 @@ const partsCountLabel = useMemo(() => {
     setSelectedEngineKey("");
   }}
   options={trimOptions}
-  placeholder={
-    selectedMake && selectedModel && selectedYear !== "" && trimOptions.length === 0
-      ? "-"
-      : "Select Trim"
-  }
+  placeholder="All Trims (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
