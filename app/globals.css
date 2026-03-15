@@ -42,10 +42,16 @@ option {
 }
 
 /* Accent UI elements */
+select:hover,
+input:hover,
+button:hover {
+  border-color: #222222;
+}
+
 select:focus,
 input:focus,
 button:focus {
   outline: none;
-  border-color: #E10600;
-  box-shadow: 0 0 0 2px rgba(225, 6, 0, 0.35);
+  border-color: #222222;
+  box-shadow: none;
 }
