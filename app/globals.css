@@ -57,3 +57,140 @@ button:focus {
   border-color: #222222;
   box-shadow: none;
 }
+
+/* Loading Spinner */
+
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: rgba(15,15,15,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loading-spinner {
+  width: 42px;
+  height: 42px;
+  border: 3px solid rgba(255,255,255,0.15);
+  border-top: 3px solid #E5E5E5;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Loading Screen */
+
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: rgba(15,15,15,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Wheel spinner */
+
+.wheel {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.wheel-bar {
+  position: absolute;
+  width: 4px;
+  height: 14px;
+  background: #E5E5E5;
+  border-radius: 4px;
+  top: 3px;
+  left: 50%;
+  transform-origin: center 22px;
+  transform: rotate(calc(var(--i) * 30deg)) translateX(-50%);
+  opacity: 0.15;
+  animation: fade 1s linear infinite;
+  animation-delay: calc(var(--i) * 0.08s);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.15;
+  }
+}
+
+/* Loading screen */
+
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: #0F0F0F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Spinner wheel */
+
+.wheel {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+/* Bars */
+
+.wheel-bar {
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  background: #E5E5E5;
+  border-radius: 4px;
+  top: 6px;
+  left: 50%;
+  transform-origin: center 26px;
+  transform: rotate(calc(var(--i) * 30deg)) translateX(-50%);
+  opacity: 0.15;
+  animation: fade 1s linear infinite;
+  animation-delay: calc(var(--i) * 0.08s);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.15;
+  }
+}
+
+/* Logo in center */
+
+.wheel-logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: logoPulse 2s ease-in-out infinite;
+}
+
+@keyframes logoPulse {
+  0%,100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
