@@ -733,8 +733,8 @@ const partsCountLabel = useMemo(() => {
     setSelectedTrim(v);
     setSelectedEngineKey("");
   }}
-  options={trimOptions}
-  placeholder="All Trims (Optional)"
+  options={["Show All", ...trimOptions]}
+  placeholder="Trim"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
