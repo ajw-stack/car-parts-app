@@ -803,6 +803,14 @@ onClick={() => setSelectedChassis("")}
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
+          <TypeaheadInput
+  value={selectedEngineKey}
+  onChange={(v) => setSelectedEngineKey(v)}
+  options={engineOptions}
+  placeholder="Engine"
+  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+/>
+
 <TypeaheadInput
   value={selectedTrim}
   onChange={(v) => {
@@ -811,14 +819,6 @@ onClick={() => setSelectedChassis("")}
   }}
   options={["Show All", ...trimOptions]}
   placeholder="Trim (Optional)"
-  disabled={!selectedMake || !selectedModel || selectedYear === ""}
-/>
-
-          <TypeaheadInput
-  value={selectedEngineKey}
-  onChange={(v) => setSelectedEngineKey(v)}
-  options={engineOptions}
-  placeholder="Engine"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
