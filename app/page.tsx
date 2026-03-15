@@ -725,14 +725,33 @@ onClick={() => setSelectedSeries("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedEngineKey("")}
 >
-Engine ✕
+{engineLabelFromKey(selectedEngineKey)} ×
+</button>
+)}
+
+{selectedTrim && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedTrim("")}
+>
+{selectedTrim} ×
+</button>
+)}
+
+{selectedChassis && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedChassis("")}
+>
+{selectedChassis} ×
 </button>
 )}
 
 </div>
 
+
         {/* Dropdowns */}
-        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-6">
+      <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-5">
     <TypeaheadInput
   value={selectedMake}
   onChange={(v) => {
@@ -791,7 +810,7 @@ Engine ✕
     setSelectedEngineKey("");
   }}
   options={["Show All", ...trimOptions]}
-  placeholder="All Trims (Optional)"
+  placeholder="Trim (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
@@ -819,7 +838,7 @@ Engine ✕
 
     return `${from}-${to} • ${c.chassis}`;
   })}
- placeholder="All Chassis (Optional)"
+ placeholder="Chassis (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
         </div>
@@ -840,6 +859,7 @@ Engine ✕
     )}
   </div>
 )}
+
 
 {/* Parts */}
         <div className="mt-10">
