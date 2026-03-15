@@ -107,11 +107,11 @@ return (
       readOnly
       onClick={() => setOpen(true)}
       onBlur={() => setOpen(false)}
-      className="w-full rounded-xl border border-[#334155] bg-[#141414]/5 px-4 py-3"
+      className="w-full rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 text-[#F8FAFC] hover:bg-[#1F1F1F] cursor-pointer"
     />
 
     {open && filtered.length > 0 && (
-     <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#1A1A1A] bg-neutral-900 shadow-lg">
+      <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#1A1A1A] bg-[#141414] shadow-lg">
         {filtered.map((o) => (
           <button
             key={o}
@@ -120,7 +120,7 @@ return (
               e.preventDefault();
               select(o);
             }}
-            className="block w-full px-4 py-2 text-left hover:bg-[#1F1F1F]/10 whitespace-nowrap"
+            className="block w-full px-4 py-2 text-left hover:bg-[#1F1F1F] cursor-pointer whitespace-nowrap"
           >
             {o}
           </button>
@@ -825,7 +825,7 @@ const partsCountLabel = useMemo(() => {
                   <Link
                     key={p.id}
                     href={`/part/${p.id}`}
-                    className="block rounded-xl border border-[#1A1A1A] bg-black/20 px-4 py-3 hover:bg-black/30"
+                   className="block rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 hover:bg-[#1F1F1F] cursor-pointer"
                   >
                     <div className="text-xs text-white/60">{p.category}</div>
                     <div className="mt-1 font-semibold">

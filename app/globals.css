@@ -45,7 +45,9 @@ option {
 select:hover,
 input:hover,
 button:hover {
+  background-color: #1F1F1F;
   border-color: #222222;
+  cursor: pointer;
 }
 
 select:focus,
