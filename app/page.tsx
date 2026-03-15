@@ -674,7 +674,7 @@ const partsCountLabel = useMemo(() => {
           </div>
         </div>
 
-<div className="flex flex-wrap gap-2 mb-4">
+<div className="flex flex-wrap gap-2 mt-3 mb-6">
 
 {selectedMake && (
 <button
@@ -689,7 +689,7 @@ setSelectedTrim("")
 setSelectedChassis("")
 }}
 >
-{selectedMake} ✕
+{selectedMake} 
 </button>
 )}
 
@@ -698,7 +698,7 @@ setSelectedChassis("")
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedModel("")}
 >
-{selectedModel} ✕
+{selectedModel}
 </button>
 )}
 
@@ -707,7 +707,7 @@ onClick={() => setSelectedModel("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedYear("")}
 >
-{selectedYear} ✕
+{selectedYear} 
 </button>
 )}
 
@@ -716,7 +716,7 @@ onClick={() => setSelectedYear("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedSeries("")}
 >
-{selectedSeries} ✕
+{selectedSeries} 
 </button>
 )}
 
@@ -725,7 +725,7 @@ onClick={() => setSelectedSeries("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedEngineKey("")}
 >
-{engineLabelFromKey(selectedEngineKey)} ×
+{engineLabelFromKey(selectedEngineKey)}
 </button>
 )}
 
