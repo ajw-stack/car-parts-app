@@ -674,6 +674,63 @@ const partsCountLabel = useMemo(() => {
           </div>
         </div>
 
+<div className="flex flex-wrap gap-2 mb-4">
+
+{selectedMake && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => {
+setSelectedMake("")
+setSelectedModel("")
+setSelectedYear("")
+setSelectedSeries("")
+setSelectedEngineKey("")
+setSelectedTrim("")
+setSelectedChassis("")
+}}
+>
+{selectedMake} ✕
+</button>
+)}
+
+{selectedModel && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedModel("")}
+>
+{selectedModel} ✕
+</button>
+)}
+
+{selectedYear && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedYear("")}
+>
+{selectedYear} ✕
+</button>
+)}
+
+{selectedSeries && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedSeries("")}
+>
+{selectedSeries} ✕
+</button>
+)}
+
+{selectedEngineKey && (
+<button
+className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+onClick={() => setSelectedEngineKey("")}
+>
+Engine ✕
+</button>
+)}
+
+</div>
+
         {/* Dropdowns */}
         <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-6">
     <TypeaheadInput
@@ -734,7 +791,7 @@ const partsCountLabel = useMemo(() => {
     setSelectedEngineKey("");
   }}
   options={["Show All", ...trimOptions]}
-  placeholder="Trim"
+  placeholder="All Trims (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
@@ -742,7 +799,7 @@ const partsCountLabel = useMemo(() => {
   value={selectedEngineKey}
   onChange={(v) => setSelectedEngineKey(v)}
   options={engineOptions}
-  placeholder="Select Engine"
+  placeholder="Engine"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
@@ -762,12 +819,29 @@ const partsCountLabel = useMemo(() => {
 
     return `${from}-${to} • ${c.chassis}`;
   })}
-  placeholder="Select Chassis"
+ placeholder="All Chassis (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
         </div>
 
         {/* Parts */}
+        {selectedMake && selectedModel && selectedYear && (
+<div className="sticky top-0 z-20 mt-6 rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 backdrop-blur">
+    <div className="text-sm text-white/60">Selected Vehicle</div>
+    <div className="text-lg font-semibold">
+   {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
+{selectedTrim && ` • ${selectedTrim}`}
+{selectedChassis && ` • ${selectedChassis}`}
+    </div>
+    {selectedEngineKey && (
+      <div className="text-sm text-white/70 mt-1">
+        {engineLabelFromKey(selectedEngineKey)}
+      </div>
+    )}
+  </div>
+)}
+
+{/* Parts */}
         <div className="mt-10">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-semibold">Compatible Parts</h2>
@@ -806,7 +880,7 @@ const partsCountLabel = useMemo(() => {
           <div className="mt-4 rounded-2xl border border-[#1A1A1A] bg-[#141414]/5 p-4">
             {!selectedVehicleId ? (
               <div className="text-sm text-white/60">
-                Select all dropdowns (Make, Model, Year, Series, Engine, Chassis) to view parts.
+              Select Make, Model, Year, Series and Engine to view parts. Trim and Chassis are optional.
               </div>
             ) : loadingParts ? (
               <div className="text-sm text-white/60">Loading parts…</div>
