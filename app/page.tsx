@@ -814,8 +814,28 @@ onClick={() => setSelectedChassis("")}
 <TypeaheadInput
   value={selectedTrim}
   onChange={(v) => {
-    setSelectedTrim(v === "Show All" ? "" : v);
-    setSelectedEngineKey("");
+    const nextTrim = v === "Show All" ? "" : v;
+    setSelectedTrim(nextTrim);
+
+    const yearNum = Number(selectedYear);
+
+    const engineStillValid = vehicles.some((row) => {
+      const seriesVal = row.series ?? "";
+
+      return (
+        row.make === selectedMake &&
+        row.model === selectedModel &&
+        yearNum >= row.year_from &&
+        (row.year_to === null || yearNum <= row.year_to) &&
+        (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
+        (!nextTrim || row.trim_code === nextTrim) &&
+        engineLabelFromKey(engineKey(row)) === selectedEngineKey
+      );
+    });
+
+    if (!engineStillValid) {
+      setSelectedEngineKey("");
+    }
   }}
   options={["Show All", ...trimOptions]}
   placeholder="Trim (Optional)"
