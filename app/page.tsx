@@ -107,11 +107,11 @@ return (
       readOnly
       onClick={() => setOpen(true)}
       onBlur={() => setOpen(false)}
-      className="w-full rounded-xl border border-[#334155] bg-[#0F172A]/5 px-4 py-3"
+      className="w-full rounded-xl border border-[#334155] bg-[#141414]/5 px-4 py-3"
     />
 
     {open && filtered.length > 0 && (
-     <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#334155] bg-neutral-900 shadow-lg">
+     <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#1A1A1A] bg-neutral-900 shadow-lg">
         {filtered.map((o) => (
           <button
             key={o}
@@ -120,7 +120,7 @@ return (
               e.preventDefault();
               select(o);
             }}
-            className="block w-full px-4 py-2 text-left hover:bg-[#0F172A]/10 whitespace-nowrap"
+            className="block w-full px-4 py-2 text-left hover:bg-[#1F1F1F]/10 whitespace-nowrap"
           >
             {o}
           </button>
@@ -631,7 +631,7 @@ const partsCountLabel = useMemo(() => {
 
           <button
             onClick={clearAll}
-   className="rounded-xl border border-[#334155] bg-[#0F172A] px-4 py-2 text-sm font-medium text-white hover:border-[#e10600] hover:bg-[#e10600]"
+   className="rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-2 text-sm font-medium text-white hover:border-[#1A1A1A] hover:bg-[#1F1F1F]"
           >
             Clear Search
           </button>
@@ -646,10 +646,10 @@ const partsCountLabel = useMemo(() => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onQuickSearchKeyDown}
               placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-              className="w-full rounded-xl border border-[#334155] bg-[#0F172A]/5 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none focus:border-white/20"
+              className="w-full rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none focus:border-white/20"
             />
             {query.trim() && searchMatches.length > 0 && (
-              <div className="mt-2 overflow-hidden rounded-xl border border-[#334155] bg-[#0b0f14]">
+              <div className="mt-2 overflow-hidden rounded-xl border border-[#1A1A1A] bg-[#141414]">
                 {searchMatches.map((v, idx) => (
               <button
                 key={v.id}
@@ -662,7 +662,7 @@ const partsCountLabel = useMemo(() => {
                 }}
                 className={[
                   "block w-full px-4 py-2 text-left text-sm",
-                  idx === searchActiveIndex ? "bg-[#0F172A]/10" : "hover:bg-[#0F172A]/5",
+                  idx === searchActiveIndex ? "bg-[#141414]/10" : "hover:bg-[#1F1F1F]/5",
                 ].join(" ")}
               >
                 {vehicleCardLabel(v)}
@@ -784,7 +784,7 @@ const partsCountLabel = useMemo(() => {
   <select
     value={selectedCategory}
     onChange={(e) => setSelectedCategory(e.target.value)}
-    className="rounded-xl border border-[#334155] bg-[#0F172A]/5 px-4 py-3 text-sm text-white outline-none"
+    className="rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white outline-none"
     disabled={!selectedVehicleId || loadingParts}
   >
     <option value="">All categories</option>
@@ -798,7 +798,7 @@ const partsCountLabel = useMemo(() => {
   {selectedCategory && (
     <button
       type="button"
-      className="rounded-xl border border-[#334155] bg-[#0F172A]/5 px-4 py-3 text-sm text-white"
+      className="rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white"
       onClick={() => setSelectedCategory("")}
     >
       Clear
@@ -806,7 +806,7 @@ const partsCountLabel = useMemo(() => {
   )}
 </div>
 
-          <div className="mt-4 rounded-2xl border border-[#334155] bg-[#0F172A]/5 p-4">
+          <div className="mt-4 rounded-2xl border border-[#1A1A1A] bg-[#141414]/5 p-4">
             {!selectedVehicleId ? (
               <div className="text-sm text-white/60">
                 Select all dropdowns (Make, Model, Year, Series, Engine, Chassis) to view parts.
@@ -825,7 +825,7 @@ const partsCountLabel = useMemo(() => {
                   <Link
                     key={p.id}
                     href={`/part/${p.id}`}
-                    className="block rounded-xl border border-[#334155] bg-black/20 px-4 py-3 hover:bg-black/30"
+                    className="block rounded-xl border border-[#1A1A1A] bg-black/20 px-4 py-3 hover:bg-black/30"
                   >
                     <div className="text-xs text-white/60">{p.category}</div>
                     <div className="mt-1 font-semibold">

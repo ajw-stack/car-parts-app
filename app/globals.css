@@ -3,8 +3,8 @@
 /* OEM clean dark theme */
 :root {
   color-scheme: dark;
---background: #0F0F0F;
---foreground: #FFFFFF;
+  --background: #0F0F0F;
+  --foreground: #F8FAFC;
 }
 
 body {
@@ -22,28 +22,30 @@ a {
 a:hover {
   text-decoration: none;
 }
+
 /* Force dark native form controls (Windows/Chrome especially) */
-select, option, input {
+select,
+option,
+input {
   color-scheme: dark;
 }
 
 select {
-  background-color: #0F172A;
-  color: #ffffff;
-  border: 1px solid #334155;
+  background-color: #141414;
+  color: #F8FAFC;
+  border: 1px solid #1A1A1A;
 }
 
 option {
-  background-color: #0F172A;
-  color: #ffffff;
+  background-color: #141414;
+  color: #F8FAFC;
 }
 
 /* Accent UI elements */
-
 select:focus,
 input:focus,
 button:focus {
   outline: none;
-  border-color: #e10600;
-  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.35);
+  border-color: #E10600;
+  box-shadow: 0 0 0 2px rgba(225, 6, 0, 0.35);
 }
