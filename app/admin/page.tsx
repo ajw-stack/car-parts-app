@@ -711,23 +711,23 @@ brandRef.current?.focus();
 
           <button
             onClick={refreshAll}
-            className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium hover:bg-white/10"
+           className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-2 text-sm hover:bg-[#222]"
           >
             Refresh
           </button>
         </div>
 
-        {msg && (
-          <div className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm">
-            {msg}
-          </div>
-        )}
+{msg && (
+  <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-[#141414] px-4 py-3 text-sm">
+    {msg}
+  </div>
+)}
 
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
           {/* Add Vehicle */}
-          <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
+        <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
             <h2 className="text-lg font-semibold">Add Vehicle Variant</h2>
-            <p className="mt-1 text-xs text-white/60">
+           <p className="mt-1 text-xs text-zinc-400">
               One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
             </p>
 
@@ -763,7 +763,7 @@ brandRef.current?.focus();
               </div>
               <div className="grid grid-cols-2 gap-3 col-span-2">
                 <select
-                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                   value={vMonthFrom}
                   onChange={(e) => setVMonthFrom(e.target.value)}
                 >
@@ -777,14 +777,14 @@ brandRef.current?.focus();
                 </select>
 
                 <input
-                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                   placeholder="Year From (e.g. 2016)"
                   value={vYearFrom}
                   onChange={(e) => setVYearFrom(e.target.value)}
                 />
 
                 <select
-                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                   value={vMonthTo}
                   onChange={(e) => setVMonthTo(e.target.value)}
                 >
@@ -798,7 +798,7 @@ brandRef.current?.focus();
                 </select>
 
                 <input
-                  className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                   placeholder="Year To (e.g. 2022)"
                   value={vYearTo}
                   onChange={(e) => setVYearTo(e.target.value)}
@@ -854,13 +854,13 @@ brandRef.current?.focus();
                 disabled={false}
               />
               <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                 placeholder="Engine Litres (e.g. 3.2)"
                 value={vEngineLitres}
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
               <select
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2"
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2"
                 value={vFuel}
                 onChange={(e) => setVFuel(e.target.value)}
               >
@@ -919,7 +919,7 @@ options={Array.from(
               />
 
               <input
-                className="rounded-xl border border-white/10 bg-black/20 px-3 py-2 text-sm outline-none"
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
                 placeholder="Part # (e.g. R2690P)"
                 value={pNumber}
                 onChange={(e) => setPNumber(e.target.value)}
@@ -962,7 +962,7 @@ options={Array.from(
             <select
               value={fVehicleId}
               onChange={(e) => setFVehicleId(e.target.value)}
-              className="rounded-xl border border-white/10 bg-black/20 px-3 py-3 text-sm outline-none"
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
             >
               <option value="">Select Vehicle</option>
               {vehicles.map((v) => (
@@ -975,7 +975,7 @@ options={Array.from(
             <select
               value={fPartId}
               onChange={(e) => setFPartId(e.target.value)}
-              className="rounded-xl border border-white/10 bg-black/20 px-3 py-3 text-sm outline-none"
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
             >
               <option value="">Select Part</option>
               {parts.map((p) => (
@@ -986,7 +986,7 @@ options={Array.from(
             </select>
 
             <input
-              className="rounded-xl border border-white/10 bg-black/20 px-3 py-3 text-sm outline-none"
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
               placeholder="Notes (optional)"
               value={fNotes}
               onChange={(e) => setFNotes(e.target.value)}
@@ -1001,7 +1001,7 @@ options={Array.from(
             Add Fitment
           </button>
 
-          <div className="mt-3 text-xs text-white/60">
+          <div className="mt-3 text-xs text-zinc-400">
             {loading
               ? "Loading…"
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
