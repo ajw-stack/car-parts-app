@@ -730,7 +730,7 @@ const partsCountLabel = useMemo(() => {
 <TypeaheadInput
   value={selectedTrim}
   onChange={(v) => {
-    setSelectedTrim(v);
+    setSelectedTrim(v === "Show All" ? "" : v);
     setSelectedEngineKey("");
   }}
   options={["Show All", ...trimOptions]}
