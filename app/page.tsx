@@ -734,7 +734,7 @@ onClick={() => setSelectedEngineKey("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedTrim("")}
 >
-{selectedTrim} ×
+{selectedTrim}
 </button>
 )}
 
@@ -743,7 +743,7 @@ onClick={() => setSelectedTrim("")}
 className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
 onClick={() => setSelectedChassis("")}
 >
-{selectedChassis} ×
+{selectedChassis}
 </button>
 )}
 
