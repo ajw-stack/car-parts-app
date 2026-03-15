@@ -616,7 +616,7 @@ const partsCountLabel = useMemo(() => {
 }, [selectedVehicleId, loadingParts, filteredParts.length]);
 
   return (
-    <div className="min-h-screen bg-[#0B0F14] text-white">
+    <div className="min-h-screen bg-[#0F0F0F] text-white">
       <Header />
 
       <main className="mx-auto max-w-5xl px-6 py-10">

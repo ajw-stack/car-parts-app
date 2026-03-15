@@ -10,7 +10,7 @@ return (
   <>
     <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
-    <header className="border-b border-[#1E293B] bg-[#0B0F14]">
+    <header className="border-b border-[#1E293B] bg-[#0F0F0F]">
     <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-2">
 
         {/* Left - menu */}
