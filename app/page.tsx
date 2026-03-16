@@ -686,7 +686,7 @@ return (
 
 {selectedMake && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => {
 setSelectedMake("")
 setSelectedModel("")
@@ -703,7 +703,7 @@ setSelectedChassis("")
 
 {selectedModel && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedModel("")}
 >
 {selectedModel}
@@ -712,7 +712,7 @@ onClick={() => setSelectedModel("")}
 
 {selectedYear && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedYear("")}
 >
 {selectedYear} 
@@ -721,7 +721,7 @@ onClick={() => setSelectedYear("")}
 
 {selectedSeries && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedSeries("")}
 >
 {selectedSeries} 
@@ -730,7 +730,7 @@ onClick={() => setSelectedSeries("")}
 
 {selectedEngineKey && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedEngineKey("")}
 >
 {engineLabelFromKey(selectedEngineKey)}
@@ -739,7 +739,7 @@ onClick={() => setSelectedEngineKey("")}
 
 {selectedTrim && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedTrim("")}
 >
 {selectedTrim}
@@ -748,7 +748,7 @@ onClick={() => setSelectedTrim("")}
 
 {selectedChassis && (
 <button
-className="px-3 py-1 rounded-lg bg-[#1A1A1A] border border-[#2A2A2A] text-sm"
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedChassis("")}
 >
 {selectedChassis}
