@@ -107,11 +107,11 @@ return (
       readOnly
       onClick={() => setOpen(true)}
       onBlur={() => setOpen(false)}
-      className="w-full rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 text-[#F8FAFC] hover:bg-[#1F1F1F] cursor-pointer"
+      className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
     />
 
     {open && filtered.length > 0 && (
-      <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#1A1A1A] bg-[#141414] shadow-lg">
+      <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
         {filtered.map((o) => (
           <button
             key={o}
@@ -120,7 +120,7 @@ return (
               e.preventDefault();
               select(o);
             }}
-            className="block w-full px-4 py-2 text-left hover:bg-[#1F1F1F] cursor-pointer whitespace-nowrap"
+            className="block w-full px-4 py-2 text-left text-[#0F0F0F] hover:bg-[#F5F5F5] cursor-pointer whitespace-nowrap"
           >
             {o}
           </button>
@@ -616,63 +616,64 @@ const partsCountLabel = useMemo(() => {
   return `${filteredParts.length} found`;
 }, [selectedVehicleId, loadingParts, filteredParts.length]);
 
-  return (
-    <div className="min-h-screen bg-[#0F0F0F] text-white">
-      <Header />
+return (
+ <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F0F0F]">
+    <Header />
 
-      <main className="mx-auto max-w-5xl px-6 py-10">
-        <div className="flex items-start justify-between gap-6">
-          <div>
-            <h1 className="text-4xl font-semibold tracking-tight">Vehicle Parts Catalogue</h1>
-            <p className="mt-2 text-sm text-white/70">
-              Select <span className="font-medium text-white">Make → Model → Year → Series → Engine → Chassis</span>{" "}
-              to view compatible parts.
-            </p>
-          </div>
-
-          <button
-            onClick={clearAll}
-   className="rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-2 text-sm font-medium text-white hover:border-[#1A1A1A] hover:bg-[#1F1F1F]"
-          >
-            Clear Search
-          </button>
+ <main className="flex-1 w-full bg-[#F8FAFC]">
+  <div className="mx-auto max-w-5xl px-6 py-10">
+      <div className="flex items-start justify-between gap-6">
+        <div>
+          <h1 className="text-4xl font-semibold tracking-tight">Vehicle Parts Catalogue</h1>
+          <p className="mt-2 text-sm text-[#6A6A6A]">
+            Select <span className="font-medium text-[#0F0F0F]">Make → Model → Year → Series → Engine → Chassis</span>{" "}
+            to view compatible parts.
+          </p>
         </div>
 
-        {/* Quick search */}
-        <div className="mt-10">
-          <label className="text-sm font-semibold text-white/90">Quick search (optional)</label>
-          <div className="mt-3">
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={onQuickSearchKeyDown}
-              placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-              className="w-full rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none focus:border-white/20"
-            />
-            {query.trim() && searchMatches.length > 0 && (
-              <div className="mt-2 overflow-hidden rounded-xl border border-[#1A1A1A] bg-[#141414]">
-                {searchMatches.map((v, idx) => (
-              <button
-                key={v.id}
-                type="button"
-                onMouseEnter={() => setSearchActiveIndex(idx)}
-                onMouseDown={(e) => {
-                  e.preventDefault();
-                  applyVehicle(v);
-                  setQuery("");
-                }}
-                className={[
-                  "block w-full px-4 py-2 text-left text-sm",
-                  idx === searchActiveIndex ? "bg-[#141414]/10" : "hover:bg-[#1F1F1F]/5",
-                ].join(" ")}
-              >
-                {vehicleCardLabel(v)}
-              </button>
-            ))}
-              </div>
-            )}
-          </div>
+        <button
+          onClick={clearAll}
+          className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
+        >
+          Clear Search
+        </button>
+      </div>
+
+      {/* Quick search */}
+      <div className="mt-10">
+        <label className="text-sm font-semibold text-[#0F0F0F]">Quick search (optional)</label>
+        <div className="mt-3">
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={onQuickSearchKeyDown}
+            placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
+            className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
+          />
+          {query.trim() && searchMatches.length > 0 && (
+            <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
+              {searchMatches.map((v, idx) => (
+                <button
+                  key={v.id}
+                  type="button"
+                  onMouseEnter={() => setSearchActiveIndex(idx)}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                    applyVehicle(v);
+                    setQuery("");
+                  }}
+                  className={[
+                    "block w-full px-4 py-2 text-left text-sm text-[#0F0F0F]",
+                    idx === searchActiveIndex ? "bg-[#F5F5F5]" : "hover:bg-[#F5F5F5]",
+                  ].join(" ")}
+                >
+                  {vehicleCardLabel(v)}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
+      </div>
 
 <div className="flex flex-wrap gap-2 mt-3 mb-6">
 
@@ -865,15 +866,15 @@ onClick={() => setSelectedChassis("")}
 
         {/* Parts */}
         {selectedMake && selectedModel && selectedYear && (
-<div className="sticky top-0 z-20 mt-6 rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 backdrop-blur">
-    <div className="text-sm text-white/60">Selected Vehicle</div>
+<div className="sticky top-0 z-20 mt-6 rounded-xl border border-[#DCDCDC] bg-[#FCFCFC] px-4 py-3 backdrop-blur">
+    <div className="text-sm text-[#6A6A6A]">Selected Vehicle</div>
     <div className="text-lg font-semibold">
    {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
 {selectedTrim && ` • ${selectedTrim}`}
 {selectedChassis && ` • ${selectedChassis}`}
     </div>
     {selectedEngineKey && (
-      <div className="text-sm text-white/70 mt-1">
+   <div className="text-sm text-[#6A6A6A] mt-1">
         {engineLabelFromKey(selectedEngineKey)}
       </div>
     )}
@@ -885,12 +886,12 @@ onClick={() => setSelectedChassis("")}
         <div className="mt-10">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-semibold">Compatible Parts</h2>
-            <div className="text-sm text-white/60">{partsCountLabel}</div>
+ <div className="text-sm text-[#6A6A6A]">{partsCountLabel}</div>
           </div>
 
           {/* Category Filter */}
 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full">
-  <label className="text-sm text-white/70">Category</label>
+  <label className="text-sm text-[#6A6A6A]">Category</label>
 
   <select
     value={selectedCategory}
@@ -917,39 +918,46 @@ onClick={() => setSelectedChassis("")}
   )}
 </div>
 
-          <div className="mt-4 rounded-2xl border border-[#1A1A1A] bg-[#141414]/5 p-4">
+          <div className="mt-4 rounded-2xl border border-[#DCDCDC] bg-white p-4">
             {!selectedVehicleId ? (
-              <div className="text-sm text-white/60">
+              <div className="text-sm text-[#6A6A6A]">
               Select Make, Model, Year, Series and Engine to view parts. Trim and Chassis are optional.
               </div>
             ) : loadingParts ? (
-              <div className="text-sm text-white/60">Loading parts…</div>
+              <div className="text-sm text-[#6A6A6A]">Loading parts…</div>
             ) : partsError ? (
               <div className="text-sm text-red-300">
                 Error loading parts: <span className="font-mono">{partsError}</span>
               </div>
             ) : parts.length === 0 ? (
-              <div className="text-sm text-white/60">No parts linked to this vehicle + engine + chassis yet.</div>
+              <div className="text-sm text-[#6A6A6A]">No parts linked to this vehicle + engine + chassis yet.</div>
             ) : (
               <div className="space-y-3">
                 {filteredParts.map((p) => (
                   <Link
                     key={p.id}
                     href={`/part/${p.id}`}
-                   className="block rounded-xl border border-[#1A1A1A] bg-[#141414] px-4 py-3 hover:bg-[#1F1F1F] cursor-pointer"
+   className="block rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 hover:bg-[#F5F5F5] cursor-pointer"
                   >
-                    <div className="text-xs text-white/60">{p.category}</div>
+                    <div className="text-xs text-[#6A6A6A]">{p.category}</div>
                     <div className="mt-1 font-semibold">
                       {p.brand} {p.part_number}
                     </div>
-                    <div className="text-sm text-white/70">{p.name}</div>
+                    <div className="text-sm text-[#6A6A6A]">{p.name}</div>
                   </Link>
                 ))}
               </div>
             )}
           </div>
-    </div>
-  </main>
-</div>
+        </div>
+      </div>
+    </main>
+
+    <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
+      <div className="mx-auto max-w-5xl">
+        © 2026 GPC — Global Parts Catalogue
+      </div>
+    </footer>
+  </div>
 );
 }

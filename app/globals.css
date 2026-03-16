@@ -2,9 +2,9 @@
 
 /* OEM clean dark theme */
 :root {
-  color-scheme: dark;
---background: #F8FAFC;
---foreground: #0F0F0F;
+  color-scheme: light;
+  --background: #F8FAFC;
+  --foreground: #0F0F0F;
 }
 
 body {
@@ -59,7 +59,7 @@ select:focus,
 input:focus,
 button:focus {
   outline: none;
-  border-color: #222222;
+  border-color: #BDBDBD;
   box-shadow: none;
 }
 
