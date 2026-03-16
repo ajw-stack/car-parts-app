@@ -625,13 +625,6 @@ return (
  <main className="flex-1 w-full bg-[#F8FAFC]">
   <div className="mx-auto max-w-5xl px-6 py-10">
       <div className="flex items-start justify-between gap-6">
-        <div>
-          <h1 className="text-4xl font-semibold tracking-tight">Vehicle Parts Catalogue</h1>
-          <p className="mt-2 text-sm text-[#6A6A6A]">
-            Select <span className="font-medium text-[#0F0F0F]">Make → Model → Year → Series → Engine → Chassis</span>{" "}
-            to view compatible parts.
-          </p>
-        </div>
 
         <button
           onClick={clearAll}
