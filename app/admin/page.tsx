@@ -694,50 +694,212 @@ brandRef.current?.focus();
     if (!fPartId && parts.length === 1) setFPartId(parts[0].id);
   }, [vehicles, parts, fVehicleId, fPartId]);
 
-return (
-  <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F0F0F]">
-    <Header />
+  return (
+    <div className="min-h-screen bg-[#0b0f14] text-white">
+      <Header />
 
-    <main className="flex-1 w-full">
-      <div className="mx-auto max-w-5xl px-6 py-10">
-
+      <main className="mx-auto max-w-5xl px-6 py-10">
         <div className="flex items-start justify-between gap-6">
           <div>
+
             <h1 className="text-3xl font-semibold tracking-tight">Admin</h1>
-            <p className="mt-2 text-sm text-[#6A6A6A]">
+            <p className="mt-2 text-sm text-white/70">
               Add Vehicles, Parts, then link them via Fitments.
             </p>
           </div>
 
+
           <button
             onClick={refreshAll}
-            className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-2 text-sm hover:bg-[#222]"
+           className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-2 text-sm hover:bg-[#222]"
           >
             Refresh
           </button>
         </div>
 
-        {msg && (
-          <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-white px-4 py-3 text-sm">
-            {msg}
-          </div>
-        )}
+{msg && (
+  <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-[#141414] px-4 py-3 text-sm">
+    {msg}
+  </div>
+)}
 
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
-
           {/* Add Vehicle */}
-          <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
-            <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>
-            <p className="mt-1 text-xs text-zinc-400">
+        <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+            <h2 className="text-lg font-semibold">Add Vehicle Variant</h2>
+           <p className="mt-1 text-xs text-zinc-400">
               One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
             </p>
 
-            {/* Your existing vehicle form stays here exactly as you wrote it */}
+
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <div className="col-span-2 relative">
+
+                <TypeaheadInput
+                  ref={makeRef}
+                  value={vMake}
+                  onChange={setVMake}
+                  options={Array.from(new Set(vehicles.map((v) => v.make))).sort()}
+                  placeholder="Make (e.g. Ford)"
+                />
+
+              </div>
+              <div className="col-span-2 relative">
+
+                <TypeaheadInput
+                  value={vModel}
+                  onChange={setVModel}
+                  options={Array.from(
+                    new Set(
+                      vehicles
+                        .filter((v) => !vMake || v.make === vMake)
+                        .map((v) => v.model)
+                    )
+                  ).sort()}
+                  placeholder="Model (e.g. Ranger)"
+                  disabled={!vMake}
+                />
+
+              </div>
+              <div className="grid grid-cols-2 gap-3 col-span-2">
+                <select
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                  value={vMonthFrom}
+                  onChange={(e) => setVMonthFrom(e.target.value)}
+                >
+<option value="">Month</option>
+
+{Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+  <option key={m} value={String(m).padStart(2, "0")}>
+    {String(m).padStart(2, "0")}
+  </option>
+))}
+                </select>
+
+                <input
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                  placeholder="Year From (e.g. 2016)"
+                  value={vYearFrom}
+                  onChange={(e) => setVYearFrom(e.target.value)}
+                />
+
+                <select
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                  value={vMonthTo}
+                  onChange={(e) => setVMonthTo(e.target.value)}
+                >
+                  <option value="">Month</option>
+
+                  {Array.from({ length: 12 }, (_, i) => i + 1).map((m) => (
+                    <option key={m} value={String(m)}>
+                      {String(m).padStart(2, "0")}
+                    </option>
+                  ))}
+                </select>
+
+                <input
+                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                  placeholder="Year To (e.g. 2022)"
+                  value={vYearTo}
+                  onChange={(e) => setVYearTo(e.target.value)}
+                />
+              </div>
+
+              <TypeaheadInput
+                value={vSeries}
+                onChange={setVSeries}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter(
+                        (v) =>
+                          (!vMake || v.make === vMake) &&
+                          (!vModel || v.model === vModel)
+                      )
+                      .map((v) => v.series ?? "")
+                  )
+                )
+
+                  .sort()}
+                placeholder="Series (e.g. PX2)"
+                disabled={!vMake || !vModel}
+              />
+
+              <TypeaheadInput
+                value={vTrimCode}
+                onChange={setVTrimCode}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                      .map((v) => (v.trim_code ?? "").trim())
+                  )
+                )
+                  .sort()}
+                placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
+                disabled={!vMake || !vModel}
+              />
+
+              <TypeaheadInput
+                value={vEngineCode}
+                onChange={setVEngineCode}
+                options={Array.from(
+                  new Set(
+                    vehicles
+                      .filter((v) => (!vMake || v.make === vMake) && (!vModel || v.model === vModel))
+                      .map((v) => v.engine_code ?? "")
+                  )
+                ).filter(Boolean).sort()}
+                placeholder="Engine Code (e.g. P5AT)"
+                disabled={false}
+              />
+              <input
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                placeholder="Engine Litres (e.g. 3.2)"
+                value={vEngineLitres}
+                onChange={(e) => setVEngineLitres(e.target.value)}
+              />
+              <select
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2"
+                value={vFuel}
+                onChange={(e) => setVFuel(e.target.value)}
+              >
+                <option value="">Fuel (select)</option>
+                <option value="Petrol">Petrol</option>
+                <option value="Supercharged V6">Petrol Supercharged V6</option>
+                <option value="Turbo Petrol">Turbo Petrol</option>
+                <option value="Turbo Diesel">Turbo Diesel</option>
+                <option value="Carbureted">Carbureted Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="LPG">LPG</option>
+                <option value="Petrol/LPG">Petrol/LPG</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Electric">Electric</option>
+                <option value="CNG">CNG</option>
+                <option value="E85">E85</option>
+                <option value="Hydrogen">Hydrogen</option>
+                <option value="Other">Other</option>
+              </select>
+              <MultiTypeaheadInput
+  values={vChassis}
+  onChange={setVChassis}
+options={Array.from(
+  new Set(
+    vehicles
+      .map((v) => (v.chassis ?? "").trim())
+      .filter(Boolean)
+  )
+).sort()}
+  placeholder="Chassis (press Enter to add)"
+  disabled={!vMake || !vModel}
+  allowCreate
+/>
+            </div>
 
             <button
               disabled={!canAddVehicle}
               onClick={addVehicle}
-              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
+              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
             >
               Add Vehicle
             </button>
@@ -747,7 +909,40 @@ return (
           <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
             <h2 className="text-lg font-semibold">Add Part</h2>
 
-            {/* Your existing part form stays here exactly as you wrote it */}
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <TypeaheadInput
+                ref={brandRef}
+                value={pBrand}
+                onChange={setPBrand}
+                options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
+                placeholder="Brand (e.g. Ryco)"
+              />
+
+              <input
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+                placeholder="Part # (e.g. R2690P)"
+                value={pNumber}
+                onChange={(e) => setPNumber(e.target.value)}
+              />
+
+              <div className="col-span-2 relative">
+                <TypeaheadInput
+                  value={pName}
+                  onChange={setPName}
+                  options={Array.from(new Set(parts.map((p) => p.name))).filter(Boolean).sort()}
+                  placeholder="Name"
+                />
+              </div>
+
+              <div className="col-span-2">
+                <TypeaheadInput
+                  value={pCategory}
+                  onChange={setPCategory}
+                  options={Array.from(new Set(parts.map((p) => p.category))).sort()}
+                  placeholder='Category (e.g. Oil Filter)'
+                />
+              </div>
+            </div>
 
             <button
               disabled={!canAddPart}
@@ -759,11 +954,44 @@ return (
           </section>
         </div>
 
-        {/* Fitments */}
+        {/* Add Fitment */}
         <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
 
-          {/* Your existing fitment inputs stay here exactly as they are */}
+          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
+            <select
+              value={fVehicleId}
+              onChange={(e) => setFVehicleId(e.target.value)}
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+            >
+              <option value="">Select Vehicle</option>
+              {vehicles.map((v) => (
+                <option key={v.id} value={v.id}>
+                  {vehicleLabel(v)}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={fPartId}
+              onChange={(e) => setFPartId(e.target.value)}
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+            >
+              <option value="">Select Part</option>
+              {parts.map((p) => (
+                <option key={p.id} value={p.id}>
+                  {partLabel(p)}
+                </option>
+              ))}
+            </select>
+
+            <input
+              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+              placeholder="Notes (optional)"
+              value={fNotes}
+              onChange={(e) => setFNotes(e.target.value)}
+            />
+          </div>
 
           <button
             disabled={!canAddFitment}
@@ -779,15 +1007,7 @@ return (
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
           </div>
         </section>
-
-      </div>
-    </main>
-
-    <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
-      <div className="mx-auto max-w-5xl text-center">
-        © 2026 GPC — Global Parts Catalogue
-      </div>
-    </footer>
-  </div>
-);
+      </main>
+    </div>
+  )
 }
