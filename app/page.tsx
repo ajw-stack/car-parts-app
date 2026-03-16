@@ -101,15 +101,16 @@ const filtered = useMemo(() => {
 return (
   <div className="relative w-full">
     <input
-      value={value}
-      disabled={disabled}
-      placeholder={placeholder}
-      readOnly
-      autoComplete="off"
-      onClick={() => setOpen(true)}
-      onBlur={() => setOpen(false)}
-      className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
-    />
+  name="no-autocomplete-make"
+  autoComplete="nope"
+  value={value}
+  disabled={disabled}
+  placeholder={placeholder}
+  readOnly
+  onClick={() => setOpen(true)}
+  onBlur={() => setOpen(false)}
+  className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
+/>
 
     {open && filtered.length > 0 && (
       <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
