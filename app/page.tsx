@@ -105,6 +105,7 @@ return (
       disabled={disabled}
       placeholder={placeholder}
       readOnly
+      autoComplete="off"
       onClick={() => setOpen(true)}
       onBlur={() => setOpen(false)}
       className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
@@ -644,11 +645,15 @@ return (
         <label className="text-sm font-semibold text-[#0F0F0F]">Quick search (optional)</label>
         <div className="mt-3">
 <input
+  name="vehicle-search"
   value={query}
   onChange={(e) => setQuery(e.target.value)}
   onKeyDown={onQuickSearchKeyDown}
   placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-  autoComplete="new-password"
+  autoComplete="off"
+  autoCorrect="off"
+  autoCapitalize="off"
+  spellCheck="false"
   className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
 />
           {query.trim() && searchMatches.length > 0 && (
