@@ -896,7 +896,7 @@ onClick={() => setSelectedChassis("")}
   <select
     value={selectedCategory}
     onChange={(e) => setSelectedCategory(e.target.value)}
-    className="rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white outline-none"
+  className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] outline-none"
     disabled={!selectedVehicleId || loadingParts}
   >
     <option value="">All categories</option>
@@ -910,7 +910,7 @@ onClick={() => setSelectedChassis("")}
   {selectedCategory && (
     <button
       type="button"
-      className="rounded-xl border border-[#1A1A1A] bg-[#141414]/5 px-4 py-3 text-sm text-white"
+   className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
       onClick={() => setSelectedCategory("")}
     >
       Clear
@@ -954,7 +954,7 @@ onClick={() => setSelectedChassis("")}
     </main>
 
     <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
-      <div className="mx-auto max-w-5xl">
+  <div className="mx-auto max-w-5xl text-center">
         © 2026 GPC — Global Parts Catalogue
       </div>
     </footer>
