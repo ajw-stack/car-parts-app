@@ -48,10 +48,9 @@ option {
 
 /* Accent UI elements */
 select:hover,
-input:hover,
-button:hover {
-background-color: #F5F5F5;
-border-color: #CCCCCC;
+input:hover {
+  background-color: #F5F5F5;
+  border-color: #CCCCCC;
   cursor: pointer;
 }
 
