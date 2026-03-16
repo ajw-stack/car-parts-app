@@ -643,13 +643,14 @@ return (
       <div className="mt-10">
         <label className="text-sm font-semibold text-[#0F0F0F]">Quick search (optional)</label>
         <div className="mt-3">
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={onQuickSearchKeyDown}
-            placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-            className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
-          />
+<input
+  value={query}
+  onChange={(e) => setQuery(e.target.value)}
+  onKeyDown={onQuickSearchKeyDown}
+  placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
+  autoComplete="off"
+  className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
+/>
           {query.trim() && searchMatches.length > 0 && (
             <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
               {searchMatches.map((v, idx) => (
