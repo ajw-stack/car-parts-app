@@ -16,9 +16,9 @@ return (
         {/* Left - menu */}
 <button
   onClick={() => setMenuOpen(true)}
-  className="text-white text-xl hover:text-[#ff1060] hover:bg-transparent outline-none"
+  className="text-white text-xl bg-transparent hover:bg-transparent focus:bg-transparent outline-none focus:outline-none border-none"
 >
-  ☰
+  ≡
 </button>
 
         {/* Center - title */}
