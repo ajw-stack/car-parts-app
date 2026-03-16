@@ -3,8 +3,8 @@
 /* OEM clean dark theme */
 :root {
   color-scheme: dark;
-  --background: #0F0F0F;
-  --foreground: #F8FAFC;
+--background: #F8FAFC;
+--foreground: #0F0F0F;
 }
 
 body {
@@ -27,7 +27,7 @@ a:hover {
 select,
 option,
 input {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 select {
