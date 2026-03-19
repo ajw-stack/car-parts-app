@@ -107,10 +107,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
   setOpen(true);
   setActive(0);
 }}
-onClick={() => {
-  setOpen(true);
-  setActive(0);
-}}
+
         onBlur={() => {
           setOpen(false);
         }}
@@ -367,11 +364,11 @@ if (e.key === "Tab") {
       e.preventDefault();
       addValue(opt);
     }}
-    className={`block w-full px-4 py-2 text-left text-sm font-medium ${
-      idx === active
-        ? "bg-[#2563EB] text-white"
-        : "text-[#111827] hover:bg-[#F9FAFB]"
-    }`}
+className={`block w-full px-4 py-2 text-left text-sm font-medium ${
+  idx === active
+    ? "bg-[#2563EB] text-white"
+    : "text-[#111827] hover:bg-[#F3F4F6]"
+}`}
   >
     {opt}
   </button>
