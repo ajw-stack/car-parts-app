@@ -744,7 +744,7 @@ className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm tex
         </div>
 
 {msg && (
-  <div className="mt-6 rounded-xl border border-[#D1D5DB] bg-white px-4 py-3 text-sm text-white">
+  <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-[#141414] px-4 py-3 text-sm text-white">
     {msg}
   </div>
 )}
