@@ -228,7 +228,7 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
   }, []);
 
   return (
-    <div ref={wrapRef} className="relative w-full" data-typeahead>
+  <div className="w-full flex flex-wrap items-center gap-2 rounded-xl border border-[#D1D5DB] bg-white px-4 py-3">
       <div className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3">
         {values.length > 0 && (
           <div className="mb-2 flex flex-wrap gap-2">
@@ -246,9 +246,10 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
           </div>
         )}
 
-        <input
-          ref={ref}
-          value={inputValue}
+<input
+  ref={ref}
+  className="flex-1 bg-transparent text-[#111827] placeholder:text-[#6B7280] text-sm outline-none"
+  value={inputValue}
           disabled={disabled}
           placeholder={placeholder}
           onFocus={() => {
@@ -861,11 +862,11 @@ return (
                 value={vEngineLitres}
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
-              <select
-                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-4 py-3"
-                value={vFuel}
-                onChange={(e) => setVFuel(e.target.value)}
-              >
+<select
+  className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+  value={vFuel}
+  onChange={(e) => setVFuel(e.target.value)}
+>
                 <option value="">Fuel (select)</option>
                 <option value="Petrol">Petrol</option>
                 <option value="Supercharged V6">Petrol Supercharged V6</option>
