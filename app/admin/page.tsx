@@ -97,16 +97,20 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
         value={value}
         disabled={disabled}
         placeholder={placeholder}
-        onFocus={() => {
-          document
-            .querySelectorAll("[data-typeahead-open]")
-            .forEach((el) => el.removeAttribute("data-typeahead-open"));
+       onFocus={() => {
+  document
+    .querySelectorAll("[data-typeahead-open]")
+    .forEach((el) => el.removeAttribute("data-typeahead-open"));
 
-          wrapRef.current?.setAttribute("data-typeahead-open", "true");
+  wrapRef.current?.setAttribute("data-typeahead-open", "true");
 
-          setOpen(true);
-          setActive(0);
-        }}
+  setOpen(true);
+  setActive(0);
+}}
+onClick={() => {
+  setOpen(true);
+  setActive(0);
+}}
         onBlur={() => {
           setOpen(false);
         }}
@@ -298,14 +302,29 @@ return (
             }
 
 if (e.key === "Tab") {
+  if (open && filtered[active]) {
+    e.preventDefault();
+    addValue(filtered[active]);
+
+    requestAnimationFrame(() => {
+      const focusables = Array.from(
+        document.querySelectorAll<HTMLElement>(
+          'input, select, button, textarea, [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((el) => !el.hasAttribute("disabled"));
+
+      const index = focusables.indexOf(e.currentTarget as HTMLElement);
+      if (index >= 0 && focusables[index + 1]) {
+        focusables[index + 1].focus();
+      }
+    });
+
+    return;
+  }
+
   if (q) {
-    if (filtered[active]) {
-      e.preventDefault();
-      addValue(filtered[active]);
-    } else {
-      e.preventDefault();
-      addValue(q);
-    }
+    e.preventDefault();
+    addValue(q);
 
     requestAnimationFrame(() => {
       const focusables = Array.from(
@@ -339,20 +358,24 @@ if (e.key === "Tab") {
 
     {open && ((filtered.length > 0) || canCreate) && (
     <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-[#D1D5DB] bg-white shadow-lg">
-        {filtered.map((opt, idx) => (
-          <button
-            key={opt}
-            type="button"
-            onMouseEnter={() => setActive(idx)}
-            onMouseDown={(e) => {
-              e.preventDefault();
-              addValue(opt);
-            }}
-            className="block w-full px-4 py-3 text-left text-sm font-medium hover:bg-white/5"
-          >
-            {opt}
-          </button>
-        ))}
+{filtered.map((opt, idx) => (
+  <button
+    key={opt}
+    type="button"
+    onMouseEnter={() => setActive(idx)}
+    onMouseDown={(e) => {
+      e.preventDefault();
+      addValue(opt);
+    }}
+    className={`block w-full px-4 py-2 text-left text-sm font-medium ${
+      idx === active
+        ? "bg-[#2563EB] text-white"
+        : "text-[#111827] hover:bg-[#F9FAFB]"
+    }`}
+  >
+    {opt}
+  </button>
+))}
 
         {canCreate && (
           <button
