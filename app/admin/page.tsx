@@ -148,7 +148,9 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
                 select(opt);
               }}
 className={`block w-full px-4 py-2 text-left text-sm text-[#111827] ${
-  idx === active ? "bg-[#2563EB] text-white" : "hover:bg-[#F9FAFB]"
+ idx === active
+  ? "bg-[#2563EB] text-white"
+  : "text-[#111827] hover:bg-[#F9FAFB]"
 }`}
             >
               {opt}
@@ -365,9 +367,9 @@ if (e.key === "Tab") {
       addValue(opt);
     }}
 className={`block w-full px-4 py-2 text-left text-sm font-medium ${
-  idx === active
-    ? "bg-[#2563EB] text-white"
-    : "text-[#111827] hover:bg-[#F3F4F6]"
+idx === active
+  ? "bg-[#2563EB] text-white"
+  : "text-[#111827] hover:bg-[#F9FAFB]"
 }`}
   >
     {opt}
