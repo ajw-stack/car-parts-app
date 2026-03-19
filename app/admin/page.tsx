@@ -131,7 +131,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
             }
           }
         }}
-        className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white"
+      className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3"
       />
 
       {open && (filtered.length > 0 || canCreate) && (
@@ -229,7 +229,7 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
 
   return (
     <div ref={wrapRef} className="relative w-full" data-typeahead>
-      <div className="w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+      <div className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3">
         {values.length > 0 && (
           <div className="mb-2 flex flex-wrap gap-2">
             {values.map((item, idx) => (
@@ -331,7 +331,7 @@ if (e.key === "Tab") {
               setOpen(false);
             }
           }}
-          className="w-full bg-transparent text-sm outline-none"
+     className="w-full bg-white text-[#111827] text-sm px-4 py-3 rounded-xl border border-[#D1D5DB] outline-none"
         />
       </div>
 
@@ -765,7 +765,7 @@ return (
               </div>
               <div className="grid grid-cols-2 gap-3 col-span-2">
                 <select
-                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+        className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                   value={vMonthFrom}
                   onChange={(e) => setVMonthFrom(e.target.value)}
                 >
@@ -779,14 +779,14 @@ return (
                 </select>
 
                 <input
-                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+         className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                   placeholder="Year From (e.g. 2016)"
                   value={vYearFrom}
                   onChange={(e) => setVYearFrom(e.target.value)}
                 />
 
                 <select
-                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+        className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                   value={vMonthTo}
                   onChange={(e) => setVMonthTo(e.target.value)}
                 >
@@ -800,7 +800,7 @@ return (
                 </select>
 
                 <input
-                  className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+       className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                   placeholder="Year To (e.g. 2022)"
                   value={vYearTo}
                   onChange={(e) => setVYearTo(e.target.value)}
@@ -856,13 +856,13 @@ return (
                 disabled={false}
               />
               <input
-                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+           className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                 placeholder="Engine Litres (e.g. 3.2)"
                 value={vEngineLitres}
                 onChange={(e) => setVEngineLitres(e.target.value)}
               />
               <select
-                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2"
+                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-4 py-3"
                 value={vFuel}
                 onChange={(e) => setVFuel(e.target.value)}
               >
@@ -921,7 +921,7 @@ options={Array.from(
               />
 
               <input
-                className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-2 text-sm outline-none"
+        className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
                 placeholder="Part # (e.g. R2690P)"
                 value={pNumber}
                 onChange={(e) => setPNumber(e.target.value)}
@@ -964,7 +964,7 @@ options={Array.from(
             <select
               value={fVehicleId}
               onChange={(e) => setFVehicleId(e.target.value)}
-              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+       className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
             >
               <option value="">Select Vehicle</option>
               {vehicles.map((v) => (
@@ -977,7 +977,7 @@ options={Array.from(
             <select
               value={fPartId}
               onChange={(e) => setFPartId(e.target.value)}
-              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+      className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
             >
               <option value="">Select Part</option>
               {parts.map((p) => (
@@ -988,7 +988,7 @@ options={Array.from(
             </select>
 
             <input
-              className="rounded-xl border border-[#0C0C0C] bg-[#181818] px-3 py-3 text-sm outline-none"
+       className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
               placeholder="Notes (optional)"
               value={fNotes}
               onChange={(e) => setFNotes(e.target.value)}
