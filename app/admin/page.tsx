@@ -135,7 +135,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
       />
 
       {open && (filtered.length > 0 || canCreate) && (
-        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#0b0f14]">
+    <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-[#D1D5DB] bg-white shadow-lg">
 
           {filtered.map((opt, idx) => (
             <button
@@ -146,8 +146,9 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
                 e.preventDefault();
                 select(opt);
               }}
-              className={`block w-full px-4 py-3 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
-                }`}
+             className={`block w-full px-4 py-2 text-left text-sm text-[#111827] ${
+  idx === active ? "bg-[#F3F4F6]" : "hover:bg-[#F9FAFB]"
+}`}
             >
               {opt}
             </button>
