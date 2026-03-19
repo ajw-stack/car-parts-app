@@ -147,7 +147,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
                 select(opt);
               }}
 className={`block w-full px-4 py-2 text-left text-sm text-[#111827] ${
-  idx === active ? "bg-[#E5E7EB]" : "hover:bg-[#F9FAFB]"
+  idx === active ? "bg-[#2563EB] text-white" : "hover:bg-[#F9FAFB]"
 }`}
             >
               {opt}
