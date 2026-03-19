@@ -146,7 +146,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
                 e.preventDefault();
                 select(opt);
               }}
-              className={`block w-full px-4 py-2 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
+              className={`block w-full px-4 py-3 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
                 }`}
             >
               {opt}
@@ -161,7 +161,7 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
                 onCreate?.(q);
                 select(q);
               }}
-              className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+              className="block w-full px-4 py-3 text-left text-sm font-medium hover:bg-white/5"
             >
               {createLabel ? createLabel(q) : `Add "${q}"`}
             </button>
@@ -239,7 +239,7 @@ return (
             key={`${item}-${idx}`}
             type="button"
             onClick={() => removeValue(idx)}
-            className="rounded-lg bg-white/10 px-2 py-1 text-sm hover:bg-white/15"
+            className="rounded-lg bg-white/5 hover:bg-white/10 px-2 py-1 text-sm hover:bg-white/15"
             title="Remove"
           >
             {item} ×
@@ -347,7 +347,7 @@ if (e.key === "Tab") {
               e.preventDefault();
               addValue(opt);
             }}
-            className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+            className="block w-full px-4 py-3 text-left text-sm font-medium hover:bg-white/5"
           >
             {opt}
           </button>
@@ -360,7 +360,7 @@ if (e.key === "Tab") {
               e.preventDefault();
               addValue(q);
             }}
-            className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+            className="block w-full px-4 py-3 text-left text-sm font-medium hover:bg-white/5"
           >
             Add "{q}"
           </button>
@@ -713,7 +713,7 @@ return (
 
           <button
             onClick={refreshAll}
-           className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-2 text-sm hover:bg-[#222]"
+className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm text-white hover:bg-[#222]"
           >
             Refresh
           </button>
@@ -901,7 +901,7 @@ options={Array.from(
             <button
               disabled={!canAddVehicle}
               onClick={addVehicle}
-              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
+           className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
             >
               Add Vehicle
             </button>
@@ -949,7 +949,7 @@ options={Array.from(
             <button
               disabled={!canAddPart}
               onClick={addPart}
-              className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
+           className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
             >
               Add Part
             </button>
@@ -998,7 +998,7 @@ options={Array.from(
           <button
             disabled={!canAddFitment}
             onClick={addFitment}
-            className="mt-4 w-full rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold hover:bg-white/15 disabled:opacity-40"
+    className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
           >
             Add Fitment
           </button>
