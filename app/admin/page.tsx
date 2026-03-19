@@ -694,16 +694,18 @@ brandRef.current?.focus();
     if (!fPartId && parts.length === 1) setFPartId(parts[0].id);
   }, [vehicles, parts, fVehicleId, fPartId]);
 
-  return (
-    <div className="min-h-screen bg-[#0b0f14] text-white">
-      <Header />
+return (
+  <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
+    <Header />
 
-      <main className="mx-auto max-w-5xl px-6 py-10">
+    <main className="flex-1 w-full bg-[#F3F4F6]">
+      <div className="mx-auto max-w-5xl px-6 py-10">
         <div className="flex items-start justify-between gap-6">
           <div>
-
-            <h1 className="text-3xl font-semibold tracking-tight">Admin</h1>
-            <p className="mt-2 text-sm text-white/70">
+            <h1 className="text-3xl font-semibold tracking-tight text-[#6B7280]">
+              Admin
+            </h1>
+            <p className="mt-2 text-sm text-[#6B7280]">
               Add Vehicles, Parts, then link them via Fitments.
             </p>
           </div>
@@ -1001,13 +1003,20 @@ options={Array.from(
             Add Fitment
           </button>
 
-          <div className="mt-3 text-xs text-zinc-400">
+          <div className="mt-3 text-xs text-[#6B7280]">
             {loading
               ? "Loading…"
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
           </div>
         </section>
-      </main>
-    </div>
-  )
+      </div>
+    </main>
+
+    <footer className="bg-[#0F0F0F] text-white text-center py-6 mt-auto">
+      <p className="text-sm">
+        © 2026 Global Parts Catalogue. All rights reserved.
+      </p>
+    </footer>
+  </div>
+)
 }
