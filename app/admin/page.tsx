@@ -908,17 +908,17 @@ options={Array.from(
           </section>
 
           {/* Add Part */}
-          <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <h2 className="text-lg font-semibold">Add Part</h2>
+<section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+  <h2 className="text-lg font-semibold text-white">Add Part</h2>
 
-            <div className="mt-4 grid grid-cols-2 gap-3">
-              <TypeaheadInput
-                ref={brandRef}
-                value={pBrand}
-                onChange={setPBrand}
-                options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
-                placeholder="Brand (e.g. Ryco)"
-              />
+  <div className="mt-4 grid grid-cols-2 gap-3">
+    <TypeaheadInput
+      ref={brandRef}
+      value={pBrand}
+      onChange={setPBrand}
+      options={Array.from(new Set(parts.map((p) => p.brand))).sort()}
+      placeholder="Brand (e.g. Ryco)"
+    />
 
               <input
         className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
@@ -957,8 +957,8 @@ options={Array.from(
         </div>
 
         {/* Add Fitment */}
-        <section className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-5">
-          <h2 className="text-lg font-semibold">Add Fitment (Link Vehicle ↔ Part)</h2>
+        <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+          <h2 className="text-lg font-semibold text-white">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
             <select
