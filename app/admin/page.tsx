@@ -227,31 +227,33 @@ const MultiTypeaheadInput = forwardRef<HTMLInputElement, MultiTypeaheadInputProp
     return () => document.removeEventListener("mousedown", onDown);
   }, []);
 
-  return (
-  <div className="w-full flex flex-wrap items-center gap-2 rounded-xl border border-[#D1D5DB] bg-white px-4 py-3">
-      <div className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-        {values.length > 0 && (
-          <div className="mb-2 flex flex-wrap gap-2">
-            {values.map((item, idx) => (
-              <button
-                key={`${item}-${idx}`}
-                type="button"
-                onClick={() => removeValue(idx)}
-                className="rounded-lg bg-white/10 px-2 py-1 text-sm hover:bg-white/15"
-                title="Remove"
-              >
-                {item} ×
-              </button>
-            ))}
-          </div>
-        )}
+return (
+  <div
+    ref={wrapRef}
+    className="relative w-full flex flex-wrap items-center gap-2 rounded-xl border border-[#D1D5DB] bg-white px-4 py-3"
+  >
+    {values.length > 0 && (
+      <div className="mb-2 flex flex-wrap gap-2">
+        {values.map((item, idx) => (
+          <button
+            key={`${item}-${idx}`}
+            type="button"
+            onClick={() => removeValue(idx)}
+            className="rounded-lg bg-white/10 px-2 py-1 text-sm hover:bg-white/15"
+            title="Remove"
+          >
+            {item} ×
+          </button>
+        ))}
+      </div>
+    )}
 
-<input
-  ref={ref}
-  className="flex-1 bg-transparent text-[#111827] placeholder:text-[#6B7280] text-sm outline-none"
-  value={inputValue}
-          disabled={disabled}
-          placeholder={placeholder}
+    <input
+      ref={ref}
+      className="flex-1 bg-transparent text-[#111827] placeholder:text-[#6B7280] text-sm outline-none"
+      value={inputValue}
+      disabled={disabled}
+      placeholder={placeholder}
           onFocus={() => {
             document
               .querySelectorAll("[data-typeahead-open]")
@@ -332,44 +334,41 @@ if (e.key === "Tab") {
               setOpen(false);
             }
           }}
-     className="w-full bg-white text-[#111827] text-sm px-4 py-3 rounded-xl border border-[#D1D5DB] outline-none"
         />
+
+    {open && ((filtered.length > 0) || canCreate) && (
+      <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-[#0C0C0C] bg-[#141414] shadow-lg">
+        {filtered.map((opt, idx) => (
+          <button
+            key={opt}
+            type="button"
+            onMouseEnter={() => setActive(idx)}
+            onMouseDown={(e) => {
+              e.preventDefault();
+              addValue(opt);
+            }}
+            className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+          >
+            {opt}
+          </button>
+        ))}
+
+        {canCreate && (
+          <button
+            type="button"
+            onMouseDown={(e) => {
+              e.preventDefault();
+              addValue(q);
+            }}
+            className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
+          >
+            Add "{q}"
+          </button>
+        )}
       </div>
-
-      {open && ((filtered.length > 0) || canCreate) && (
-        <div className="absolute left-0 right-0 z-50 mt-2 max-h-64 overflow-auto rounded-xl border border-white/10 bg-[#111] shadow-2xl">
-          {filtered.map((opt, idx) => (
-            <button
-              key={opt}
-              type="button"
-              onMouseEnter={() => setActive(idx)}
-              onMouseDown={(e) => {
-                e.preventDefault();
-                addValue(opt);
-              }}
-              className={`block w-full px-4 py-2 text-left text-sm ${idx === active ? "bg-white/10" : "hover:bg-white/5"
-                }`}
-            >
-              {opt}
-            </button>
-          ))}
-
-          {canCreate && (
-            <button
-              type="button"
-              onMouseDown={(e) => {
-                e.preventDefault();
-                addValue(q);
-              }}
-              className="block w-full px-4 py-2 text-left text-sm font-medium hover:bg-white/5"
-            >
-              Add "{q}"
-            </button>
-          )}
-        </div>
-      )}
-    </div>
-  );
+    )}
+  </div>
+);
 });
 
 export default function AdminPage() {
@@ -721,7 +720,7 @@ return (
         </div>
 
 {msg && (
-  <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-[#141414] px-4 py-3 text-sm">
+  <div className="mt-6 rounded-xl border border-[#0C0C0C] bg-[#141414] px-4 py-3 text-sm text-white">
     {msg}
   </div>
 )}
@@ -729,7 +728,7 @@ return (
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
           {/* Add Vehicle */}
         <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
-            <h2 className="text-lg font-semibold">Add Vehicle Variant</h2>
+           <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>
            <p className="mt-1 text-xs text-zinc-400">
               One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
             </p>
