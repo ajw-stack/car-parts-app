@@ -702,12 +702,13 @@ return (
       <div className="mx-auto max-w-5xl px-6 py-10">
         <div className="flex items-start justify-between gap-6">
           <div>
-            <h1 className="text-3xl font-semibold tracking-tight text-[#6B7280]">
-              Admin
-            </h1>
-            <p className="mt-2 text-sm text-[#6B7280]">
-              Add Vehicles, Parts, then link them via Fitments.
-            </p>
+<h1 className="text-3xl font-semibold tracking-tight text-[#1F2937]">
+  Admin
+</h1>
+
+<p className="mt-2 text-sm text-[#374151]">
+  Add Vehicles, Parts, then link them via Fitments.
+</p>
           </div>
 
 
@@ -729,9 +730,9 @@ className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm tex
           {/* Add Vehicle */}
         <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
            <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>
-           <p className="mt-1 text-xs text-zinc-400">
-              One row per unique Make/Model/Year/Series/Engine/Chassis (Oscar-style).
-            </p>
+<p className="mt-1 text-xs text-zinc-400">
+  Each entry represents a distinct vehicle configuration.
+</p>
 
 
             <div className="mt-4 grid grid-cols-2 gap-3">
@@ -901,7 +902,7 @@ options={Array.from(
             <button
               disabled={!canAddVehicle}
               onClick={addVehicle}
-           className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
+    className="mt-4 w-full rounded-xl bg-white/5 px-4 py-3 text-sm font-semibold text-white hover:bg-white/10 disabled:opacity-40 cursor-pointer"
             >
               Add Vehicle
             </button>
@@ -949,7 +950,7 @@ options={Array.from(
             <button
               disabled={!canAddPart}
               onClick={addPart}
-           className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
+        className="mt-4 w-full rounded-xl bg-white/5 px-4 py-3 text-sm font-semibold text-white hover:bg-white/10 disabled:opacity-40 cursor-pointer"
             >
               Add Part
             </button>
@@ -998,7 +999,7 @@ options={Array.from(
           <button
             disabled={!canAddFitment}
             onClick={addFitment}
-    className="mt-4 w-full rounded-xl bg-white/5 hover:bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15 disabled:opacity-40"
+  className="mt-4 w-full rounded-xl bg-white/5 px-4 py-3 text-sm font-semibold text-white hover:bg-white/10 disabled:opacity-40 cursor-pointer"
           >
             Add Fitment
           </button>
