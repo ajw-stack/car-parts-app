@@ -340,7 +340,7 @@ const label = engineLabelFromKey(engineKey(v));
 const match = label.match(/^(.+?)\s+(\d+)kW\s+(\d+(\.\d+)?)L\s+(.+)$/);
 
 if (match) {
-  const code = match[1];
+  const code = match[1].replace(/\s*\d+kW$/, "");
   const kw = match[2];
   const litres = match[3];
   const fuel = match[5];
