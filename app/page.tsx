@@ -335,9 +335,9 @@ if (
   (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
   (!selectedTrim || v.trim_code === selectedTrim)
 ) {
-  const label = engineLabelFromKey(engineKey(v));
+const label = engineLabelFromKey(engineKey(v));
 
-const match = label.match(/(\w+)\s+(\d+)kW\s+(\d+(\.\d+)?)L\s+(.+)/);
+const match = label.match(/^(.+?)\s+(\d+)kW\s+(\d+(\.\d+)?)L\s+(.+)$/);
 
 if (match) {
   const code = match[1];
