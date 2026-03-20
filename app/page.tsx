@@ -335,7 +335,20 @@ if (
   (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
   (!selectedTrim || v.trim_code === selectedTrim)
 ) {
-  set.add(engineLabelFromKey(engineKey(v)));
+  const label = engineLabelFromKey(engineKey(v));
+
+const match = label.match(/(\w+)\s+(\d+)kW\s+(\d+(\.\d+)?)L\s+(.+)/);
+
+if (match) {
+  const code = match[1];
+  const kw = match[2];
+  const litres = match[3];
+  const fuel = match[5];
+
+  set.add(`${litres}L • ${code} • ${kw}kW ${fuel}`);
+} else {
+  set.add(label);
+}
 }
     }
     const arr = Array.from(set);
