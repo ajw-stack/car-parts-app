@@ -847,18 +847,18 @@ onClick={() => setSelectedChassis("")}
   value={selectedChassis}
   onChange={(v) => setSelectedChassis(v)}
   options={chassisOptions.map((c) => {
-    const from =
-      (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
-      String(c.year_from).slice(-2);
+  const from =
+    (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
+    String(c.year_from); // ✅ full year
 
-    const to =
-      c.year_to === null
-        ? "Current"
-        : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
-          String(c.year_to).slice(-2);
+  const to =
+    c.year_to === null
+      ? "Current"
+      : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
+        String(c.year_to); // ✅ full year
 
-    return `${from}-${to} • ${c.chassis}`;
-  })}
+  return `${from} – ${to} • ${c.chassis}`;
+})}
  placeholder="Chassis (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
