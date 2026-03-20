@@ -238,11 +238,11 @@ setSelectedEngineKey("");
 setSelectedChassis("");
   }, [selectedSeries]);
 
-  useEffect(() => {
-    if (applyingQuickSearchRef.current) return;
-    
-    setSelectedChassis("");
-  }, [selectedEngineKey]);
+useEffect(() => {
+  if (applyingQuickSearchRef.current) return;
+}, [selectedEngineKey]);
+
+
 
   // --- Options ---
   const makeOptions = useMemo(() => {
@@ -396,6 +396,28 @@ const chassisOptions = useMemo(() => {
   });
   return arr;
 }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
+
+useEffect(() => {
+  if (!selectedChassis) return;
+
+  const stillValid = chassisOptions.some((c) => {
+    const from =
+      (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
+      String(c.year_from);
+
+    const to =
+      c.year_to === null
+        ? "Current"
+        : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
+          String(c.year_to);
+
+    return `${from}-${to} • ${c.chassis}` === selectedChassis;
+  });
+
+  if (!stillValid) {
+    setSelectedChassis("");
+  }
+}, [chassisOptions, selectedChassis]);
 
   useEffect(() => {
 if (selectedTrim && !trimOptions.includes(selectedTrim)) {
