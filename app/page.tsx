@@ -339,7 +339,17 @@ if (
 }
     }
     const arr = Array.from(set);
-    arr.sort((a, b) => engineLabelFromKey(a).localeCompare(engineLabelFromKey(b)));
+    arr.sort((a, b) => {
+  const getL = (label: string) => {
+    const match = label.match(/(\d+(\.\d+)?)L/);
+    return match ? parseFloat(match[1]) : 0;
+  };
+
+  const aLabel = engineLabelFromKey(a);
+  const bLabel = engineLabelFromKey(b);
+
+  return getL(aLabel) - getL(bLabel);
+});
     return arr;
  }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedTrim]);
 
