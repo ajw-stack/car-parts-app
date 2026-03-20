@@ -862,6 +862,20 @@ onClick={() => setSelectedChassis("")}
  placeholder="Chassis (Optional)"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
+
+{selectedChassis && (
+  <div className="mt-2">
+    <span className="inline-flex items-center gap-2 px-3 py-1 text-sm rounded-full bg-[#1a1a1a] text-white border border-[#2a2a2a]">
+      {selectedChassis}
+      <button
+        onClick={() => setSelectedChassis("")}
+        className="text-gray-400 hover:text-white cursor-pointer"
+      >
+        ✕
+      </button>
+    </span>
+  </div>
+)}
         </div>
 
         {/* Parts */}
