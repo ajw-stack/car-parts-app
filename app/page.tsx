@@ -400,19 +400,9 @@ const chassisOptions = useMemo(() => {
 useEffect(() => {
   if (!selectedChassis) return;
 
-  const stillValid = chassisOptions.some((c) => {
-    const from =
-      (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
-      String(c.year_from);
-
-    const to =
-      c.year_to === null
-        ? "Current"
-        : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
-          String(c.year_to);
-
-    return `${from}-${to} • ${c.chassis}` === selectedChassis;
-  });
+const stillValid = chassisOptions.some((c) =>
+  selectedChassis.includes(c.chassis)
+);
 
   if (!stillValid) {
     setSelectedChassis("");
