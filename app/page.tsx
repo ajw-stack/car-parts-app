@@ -313,7 +313,7 @@ if (
   v.series === selectedSeries &&
   selectedYear >= v.year_from &&
   (v.year_to === null || selectedYear <= v.year_to) &&
-(!selectedEngineKey || formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey)
+(!selectedEngineKey || formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey))
 ) {
   if (v.trim_code) set.add(v.trim_code);
 }
@@ -322,7 +322,9 @@ if (
   return Array.from(set).sort((a, b) => a.localeCompare(b));
 }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
 
-const formatEngineLabel = (label: string) => {
+const formatEngineLabel = (label: any) => {
+  if (!label || typeof label !== "string") return "";
+
   const match = label.match(/^(.+?)\s+(?:(\d+)kW\s+)?(\d+(\.\d+)?)L\s+(.+)$/);
   if (!match) return label;
 
@@ -399,7 +401,7 @@ const chassisOptions = useMemo(() => {
       selectedYear >= v.year_from &&
       (v.year_to === null || selectedYear <= v.year_to) &&
       (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
-     formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey
+     formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey)
     ) {
       if (v.chassis) {
         const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
@@ -462,7 +464,7 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
-  formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey &&
+  formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey) &&
         chassisVal === selectedChassis
       );
     });
