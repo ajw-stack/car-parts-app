@@ -313,7 +313,7 @@ if (
   v.series === selectedSeries &&
   selectedYear >= v.year_from &&
   (v.year_to === null || selectedYear <= v.year_to) &&
-(!selectedEngineKey || formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey))
+(!selectedEngineKey || engineLabelFromKey(engineKey(v)) === selectedEngineKey)
 ) {
   if (v.trim_code) set.add(v.trim_code);
 }
@@ -352,7 +352,7 @@ if (
   (!selectedTrim || v.trim_code === selectedTrim)
 ) {
 
-  set.add(formatEngineLabel(engineLabelFromKey(engineKey(v))));
+  set.add(engineLabelFromKey(engineKey(v)));
 
 }
     }
@@ -401,7 +401,8 @@ const chassisOptions = useMemo(() => {
       selectedYear >= v.year_from &&
       (v.year_to === null || selectedYear <= v.year_to) &&
       (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
-     formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey)
+!selectedEngineKey ||
+engineLabelFromKey(engineKey(v)) === selectedEngineKey
     ) {
       if (v.chassis) {
         const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
@@ -464,8 +465,11 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
-  formatEngineLabel(engineLabelFromKey(engineKey(v))) === formatEngineLabel(selectedEngineKey) &&
-        chassisVal === selectedChassis
+(
+  !selectedEngineKey ||
+  engineLabelFromKey(engineKey(v)) === selectedEngineKey
+) &&
+chassisVal === selectedChassis
       );
     });
 
