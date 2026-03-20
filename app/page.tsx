@@ -313,7 +313,7 @@ if (
   v.series === selectedSeries &&
   selectedYear >= v.year_from &&
   (v.year_to === null || selectedYear <= v.year_to) &&
-(!selectedEngineKey || engineLabelFromKey(engineKey(v)) === selectedEngineKey)
+(!selectedEngineKey || formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey)
 ) {
   if (v.trim_code) set.add(v.trim_code);
 }
@@ -321,6 +321,20 @@ if (
 
   return Array.from(set).sort((a, b) => a.localeCompare(b));
 }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
+
+const formatEngineLabel = (label: string) => {
+  const match = label.match(/^(.+?)\s+(?:(\d+)kW\s+)?(\d+(\.\d+)?)L\s+(.+)$/);
+  if (!match) return label;
+
+  const code = match[1].replace(/\s*\d+kW$/, "");
+  const kw = match[2];
+  const litres = match[3];
+  const fuel = match[5];
+
+  return kw
+    ? `${litres}L • ${code} • ${kw}kW ${fuel}`
+    : `${litres}L • ${code} • ${fuel}`;
+};
 
   const engineOptions = useMemo(() => {
     if (!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === "") return [];
@@ -335,24 +349,9 @@ if (
   (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
   (!selectedTrim || v.trim_code === selectedTrim)
 ) {
-const label = engineLabelFromKey(engineKey(v));
 
-const match = label.match(/^(.+?)\s+(?:(\d+)kW\s+)?(\d+(\.\d+)?)L\s+(.+)$/);
+  set.add(formatEngineLabel(engineLabelFromKey(engineKey(v))));
 
-if (match) {
-const code = match[1].replace(/\s*\d+kW$/, "");
-const kw = match[2];
-const litres = match[3];
-const fuel = match[5];
-
-if (kw) {
-  set.add(`${litres}L • ${code} • ${kw}kW ${fuel}`);
-} else {
-  set.add(`${litres}L • ${code} • ${fuel}`);
-}
-} else {
-  set.add(label);
-}
 }
     }
     const arr = Array.from(set);
@@ -400,7 +399,7 @@ const chassisOptions = useMemo(() => {
       selectedYear >= v.year_from &&
       (v.year_to === null || selectedYear <= v.year_to) &&
       (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
-     engineLabelFromKey(engineKey(v)) === selectedEngineKey
+     formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey
     ) {
       if (v.chassis) {
         const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
@@ -463,7 +462,7 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         seriesVal === selectedSeries &&
-  engineLabelFromKey(engineKey(v)) === selectedEngineKey &&
+  formatEngineLabel(engineLabelFromKey(engineKey(v))) === selectedEngineKey &&
         chassisVal === selectedChassis
       );
     });
