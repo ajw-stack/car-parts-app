@@ -307,19 +307,20 @@ const yearOptions = useMemo(() => {
   const set = new Set<string>();
 
 for (const v of vehicles) {
-  if (
-    v.make === selectedMake &&
-    v.model === selectedModel &&
-    v.series === selectedSeries &&
-    selectedYear >= v.year_from &&
-    (v.year_to === null || selectedYear <= v.year_to)
-  ) {
-    if (v.trim_code) set.add(v.trim_code);
-  }
+if (
+  v.make === selectedMake &&
+  v.model === selectedModel &&
+  v.series === selectedSeries &&
+  selectedYear >= v.year_from &&
+  (v.year_to === null || selectedYear <= v.year_to) &&
+  (!selectedEngineKey || engineKey(v) === selectedEngineKey)
+) {
+  if (v.trim_code) set.add(v.trim_code);
+}
 }
 
   return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries]);
+}, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
 
   const engineOptions = useMemo(() => {
     if (!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === "") return [];
@@ -371,8 +372,8 @@ const chassisOptions = useMemo(() => {
       v.model === selectedModel &&
       selectedYear >= v.year_from &&
       (v.year_to === null || selectedYear <= v.year_to) &&
-      seriesVal === selectedSeries &&
-      engineLabelFromKey(engineKey(v)) === selectedEngineKey
+      (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
+     engineLabelFromKey(engineKey(v)) === selectedEngineKey
     ) {
       if (v.chassis) {
         const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
@@ -397,11 +398,9 @@ const chassisOptions = useMemo(() => {
 }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedEngineKey]);
 
   useEffect(() => {
-  if (trimOptions.length === 1) {
-    setSelectedTrim(trimOptions[0]);
-  } else if (trimOptions.length === 0) {
-    setSelectedTrim("");
-  }
+if (selectedTrim && !trimOptions.includes(selectedTrim)) {
+  setSelectedTrim("");
+}
 }, [trimOptions]);
 
   // --- Final selected vehicle id (after ALL 6 dropdowns chosen) ---
