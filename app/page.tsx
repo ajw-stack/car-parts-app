@@ -313,7 +313,7 @@ if (
   v.series === selectedSeries &&
   selectedYear >= v.year_from &&
   (v.year_to === null || selectedYear <= v.year_to) &&
-  (!selectedEngineKey || engineKey(v) === selectedEngineKey)
+(!selectedEngineKey || engineLabelFromKey(engineKey(v)) === selectedEngineKey)
 ) {
   if (v.trim_code) set.add(v.trim_code);
 }
