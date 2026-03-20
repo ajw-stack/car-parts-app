@@ -850,7 +850,7 @@ onClick={() => setSelectedChassis("")}
           <TypeaheadInput
   value={selectedEngineKey}
   onChange={(v) => setSelectedEngineKey(v)}
-  options={engineOptions.map(formatEngineLabel)}
+ options={engineOptions}
   placeholder="Engine"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
