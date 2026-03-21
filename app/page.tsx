@@ -807,30 +807,7 @@ onClick={() => setSelectedSeries("")}
 className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedEngineKey("")}
 >
-{(() => {
-  const o = engineLabelFromKey(selectedEngineKey);
-  const parts = o.split(" ");
-
-  const litre = parts.find(p => p.includes("L"));
-  const kw = parts.find(p => p.includes("kW"));
-  const carb = parts.find(p => p.toLowerCase().includes("carb"));
-  const rest = parts.filter(
-    p =>
-      !p.includes("L") &&
-      !p.includes("kW") &&
-      !p.toLowerCase().includes("carb")
-  );
-
-  const ordered = [litre, ...rest, kw, carb].filter(Boolean) as string[];
-
-  return ordered.map((part, i) =>
-    part.includes("kW") ? (
-      <span key={i} className="kw">{part} </span>
-    ) : (
-      part + " "
-    )
-  );
-})()}
+{formatEngineLabel(engineLabelFromKey(selectedEngineKey))}
 </button>
 )}
 
@@ -985,24 +962,7 @@ onClick={() => setSelectedChassis("")}
     </div>
 {selectedEngineKey && (
   <div className="text-sm text-[#6A6A6A] mt-1">
-{(() => {
-  const o = engineLabelFromKey(selectedEngineKey);
-  const parts = o.split(" ");
-
-  const litre = parts.find(p => p.includes("L"));
-  const kw = parts.find(p => p.includes("kW"));
-  const carb = parts.find(p => p.toLowerCase().includes("carb"));
-  const rest = parts.filter(
-    p =>
-      !p.includes("L") &&
-      !p.includes("kW") &&
-      !p.toLowerCase().includes("carb")
-  );
-
-  const ordered = [litre, ...rest, kw, carb].filter(Boolean) as string[];
-
-  return ordered.join(" ");
-})()}
+{formatEngineLabel(engineLabelFromKey(selectedEngineKey))}
   </div>
 )}
   </div>
