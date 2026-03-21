@@ -80,6 +80,7 @@ type TypeaheadInputProps = {
   options: string[];
   placeholder?: string;
   disabled?: boolean;
+  renderOption?: (option: string) => React.ReactNode;
 };
 
 function TypeaheadInput({
@@ -87,7 +88,8 @@ function TypeaheadInput({
   onChange,
   options,
   placeholder,
-  disabled
+  disabled,
+  renderOption
 }: TypeaheadInputProps) {
 
   const [open, setOpen] = useState(false);
@@ -127,7 +129,13 @@ return (
             }}
             className="block w-full px-4 py-2 text-left text-[#0F0F0F] hover:bg-[#F5F5F5] cursor-pointer whitespace-nowrap"
           >
-            {o}
+{o.split(" ").map((part, i) =>
+  part.includes("kW") ? (
+    <span key={i} className="kw">{part} </span>
+  ) : (
+    part + " "
+  )
+)}
           </button>
         ))}
       </div>
@@ -773,13 +781,7 @@ onClick={() => setSelectedSeries("")}
 className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedEngineKey("")}
 >
-{engineLabelFromKey(selectedEngineKey).split(" ").map((part, i) =>
-  part.includes("kW") ? (
-    <span key={i} className="kw">{part} </span>
-  ) : (
-    part + " "
-  )
-)}
+{engineLabelFromKey(selectedEngineKey)}
 </button>
 )}
 
