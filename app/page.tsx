@@ -74,8 +74,38 @@ const eng = [
   return `${v.make} ${v.model} ${yr}${series} • ${eng}${chassis}`;
 }
 
+function formatEngineLabel(label: string): string {
+  const parts = label.trim().split(/\s+/).filter(Boolean);
+
+  const litre = parts.find((p) => /^\d+(\.\d+)?L$/i.test(p));
+  const kw = parts.find((p) => /^\d+kW$/i.test(p));
+  const carb = parts.find((p) => /carb/i.test(p));
+
+  const rest = parts.filter(
+    (p) => p !== litre && p !== kw && p !== carb
+  );
+
+  return [litre, ...rest, kw, carb].filter(Boolean).join(" ");
+}
+
+function renderEngineLabel(label: string, blueKw = false) {
+  const ordered = formatEngineLabel(label).split(" ");
+
+  return ordered.map((part, i) => (
+    <span key={`${part}-${i}`}>
+      {i > 0 ? " " : ""}
+      {blueKw && part.includes("kW") ? (
+        <span className="kw">{part}</span>
+      ) : (
+        part
+      )}
+    </span>
+  ));
+}
+
 type TypeaheadInputProps = {
   value: string;
+  displayValue?: string;
   onChange: (v: string) => void;
   options: string[];
   placeholder?: string;
@@ -85,6 +115,7 @@ type TypeaheadInputProps = {
 
 function TypeaheadInput({
   value,
+  displayValue,
   onChange,
   options,
   placeholder,
@@ -108,7 +139,7 @@ return (
     <input
   name="no-autocomplete-make"
   autoComplete="nope"
-  value={value}
+  value={displayValue ?? value}
   disabled={disabled}
   placeholder={placeholder}
   readOnly
@@ -129,29 +160,7 @@ return (
             }}
             className="block w-full px-4 py-2 text-left text-[#0F0F0F] hover:bg-[#F5F5F5] cursor-pointer whitespace-nowrap"
           >
-{(() => {
-  const parts = o.split(" ");
-
-  const litre = parts.find(p => p.includes("L"));
-  const kw = parts.find(p => p.includes("kW"));
-  const carb = parts.find(p => p.toLowerCase().includes("carb"));
-  const rest = parts.filter(
-    p =>
-      !p.includes("L") &&
-      !p.includes("kW") &&
-      !p.toLowerCase().includes("carb")
-  );
-
-const ordered = [litre, ...rest, kw, carb].filter(Boolean) as string[];
-
-return ordered.map((part, i) =>
-  part.includes("kW") ? (
-    <span key={i} className="kw">{part} </span>
-  ) : (
-    part + " "
-  )
-);
-})()}
+{renderOption ? renderOption(o) : o}
 
           </button>
         ))}
@@ -899,12 +908,18 @@ onClick={() => setSelectedChassis("")}
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
 
-          <TypeaheadInput
+<TypeaheadInput
   value={selectedEngineKey}
+  displayValue={
+    selectedEngineKey
+      ? formatEngineLabel(engineLabelFromKey(selectedEngineKey))
+      : ""
+  }
   onChange={(v) => setSelectedEngineKey(v)}
- options={engineOptions}
+  options={engineOptions}
   placeholder="Engine"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
+  renderOption={(o) => renderEngineLabel(o, true)}
 />
 
 <TypeaheadInput
