@@ -89,11 +89,14 @@ function formatEngineLabel(label: string): string {
 }
 
 function renderEngineLabel(label: string, blueKw = false) {
-  const ordered = formatEngineLabel(label).split(" ");
+  const parts = formatEngineLabel(label)
+    .split(" • ")
+    .map((part) => part.trim())
+    .filter(Boolean);
 
-  return ordered.map((part, i) => (
+  return parts.map((part, i) => (
     <span key={`${part}-${i}`}>
-      {i > 0 ? " " : ""}
+      {i > 0 ? " • " : ""}
       {blueKw && part.includes("kW") ? (
         <span className="kw">{part}</span>
       ) : (
