@@ -15,6 +15,7 @@ type VehicleRow = {
   month_to: number | null;
   series: string | null;
   engine_code: string | null;
+  engine_config: string | null;
   engine_kw: number | null;
   engine_litres: number | null;
   fuel_type: string | null;
@@ -463,15 +464,17 @@ export default function AdminPage() {
 
     const [{ data: vData, error: vErr }, { data: pData, error: pErr }] =
       await Promise.all([
-        supabase
-          .from("vehicles")
-          .select(
-            "id, make, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, chassis"
-          )
-          .order("make")
-          .order("model")
-          .order("year_from"),
-        supabase
+supabase
+  .from("vehicles")
+  .select(
+    "id, make, model, year_from, year_to, series, engine_code, engine_kw, engine_litres, fuel_type, engine_config, chassis"
+  )
+  .order("make")
+  .order("model")
+.order("year_from"),
+
+supabase
+
           .from("parts")
           .select("id, brand, part_number, name, category")
           .order("brand")
