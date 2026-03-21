@@ -922,7 +922,13 @@ onClick={() => setSelectedChassis("")}
     </div>
     {selectedEngineKey && (
    <div className="text-sm text-[#6A6A6A] mt-1">
-        {engineLabelFromKey(selectedEngineKey)}
+ {engineLabelFromKey(selectedEngineKey).split(" ").map((part, i) =>
+  part.includes("kW") ? (
+    <span key={i} className="kw">{part} </span>
+  ) : (
+    part + " "
+  )
+)}
       </div>
     )}
   </div>

@@ -205,3 +205,8 @@ input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #FFFFFF inset !important;
   -webkit-text-fill-color: #0F0F0F !important;
 }
+
+.kw {
+  color: #00205B;
+  font-weight: 500;
+}
