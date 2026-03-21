@@ -970,24 +970,24 @@ onClick={() => setSelectedChassis("")}
     </div>
 {selectedEngineKey && (
   <div className="text-sm text-[#6A6A6A] mt-1">
-    {(() => {
-      const o = engineLabelFromKey(selectedEngineKey);
-      const parts = o.split(" ");
+{(() => {
+  const o = engineLabelFromKey(selectedEngineKey);
+  const parts = o.split(" ");
 
-      const litre = parts.find(p => p.includes("L"));
-      const kw = parts.find(p => p.includes("kW"));
-      const carb = parts.find(p => p.toLowerCase().includes("carb"));
-      const rest = parts.filter(
-        p =>
-          !p.includes("L") &&
-          !p.includes("kW") &&
-          !p.toLowerCase().includes("carb")
-      );
+  const litre = parts.find(p => p.includes("L"));
+  const kw = parts.find(p => p.includes("kW"));
+  const carb = parts.find(p => p.toLowerCase().includes("carb"));
+  const rest = parts.filter(
+    p =>
+      !p.includes("L") &&
+      !p.includes("kW") &&
+      !p.toLowerCase().includes("carb")
+  );
 
-      const ordered = [litre, ...rest, kw, carb].filter(Boolean) as string[];
+  const ordered = [litre, ...rest, kw, carb].filter(Boolean) as string[];
 
-      return ordered.join(" ");
-    })()}
+  return ordered.join(" ");
+})()}
   </div>
 )}
   </div>
