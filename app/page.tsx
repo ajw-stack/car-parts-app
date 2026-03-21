@@ -773,7 +773,13 @@ onClick={() => setSelectedSeries("")}
 className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
 onClick={() => setSelectedEngineKey("")}
 >
-{engineLabelFromKey(selectedEngineKey)}
+{engineLabelFromKey(selectedEngineKey).split(" ").map((part, i) =>
+  part.includes("kW") ? (
+    <span key={i} className="kw">{part} </span>
+  ) : (
+    part + " "
+  )
+)}
 </button>
 )}
 
