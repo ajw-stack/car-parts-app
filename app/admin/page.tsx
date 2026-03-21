@@ -15,6 +15,7 @@ type VehicleRow = {
   month_to: number | null;
   series: string | null;
   engine_code: string | null;
+  engine_kw: number | null;
   engine_litres: number | null;
   fuel_type: string | null;
   chassis: string | null;
@@ -496,8 +497,9 @@ export default function AdminPage() {
     const litres = v.engine_litres != null ? ` • ${v.engine_litres}L` : "";
     const fuel = v.fuel_type ? ` • ${v.fuel_type}` : "";
     const code = v.engine_code ? ` • ${v.engine_code}` : "";
+    const kw = v.engine_kw != null ? ` • ${v.engine_kw}kW` : "";
     const chassis = v.chassis ? ` • ${v.chassis}` : "";
-    return `${v.make} ${v.model} (${yr})${series}${litres}${fuel}${code}${chassis}`;
+    return `${v.make} ${v.model} (${yr})${series}${litres}${code}${kw}${fuel}${chassis}`;
   };
 
   const partLabel = (p: PartRow) =>
