@@ -190,9 +190,10 @@ const { data, error } = await supabase
       if (error) {
         console.error(error);
         setVehicles([]);
-      } else {
-        setVehicles((data ?? []) as VehicleRow[]);
-      }
+} else {
+  setVehicles((data ?? []) as VehicleRow[]);
+  console.log("vehicles sample:", (data ?? [])[0]);
+}
       setLoadingVehicles(false);
     }
 
