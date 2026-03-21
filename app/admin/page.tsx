@@ -435,8 +435,10 @@ export default function AdminPage() {
   const [vSeries, setVSeries] = useState("");
   const [vTrimCode, setVTrimCode] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
+  const [vEngineKw, setVEngineKw] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
   const [vFuel, setVFuel] = useState("");
+  const [vEngineConfig, setVEngineConfig] = useState("");
   const [vChassis, setVChassis] = useState<string[]>([]);
 
   const makeRef = useRef<HTMLInputElement>(null);
@@ -613,9 +615,11 @@ const rows = vChassis.map((chassis) => ({
   year_to,
   series: vSeries.trim() || null,
   trim_code: vTrimCode.trim() || null,
-  engine_code: vEngineCode.trim(),
-  engine_litres,
-  fuel_type: vFuel.trim(),
+engine_code: vEngineCode.trim(),
+engine_kw: vEngineKw === "" ? null : Number(vEngineKw),
+engine_litres: vEngineLitres === "" ? null : Number(vEngineLitres),
+fuel_type: vFuel.trim(),
+engine_config: vEngineConfig || null,
   chassis: chassis.trim(),
 }));
 
@@ -879,12 +883,21 @@ className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm tex
                 placeholder="Engine Code (e.g. P5AT)"
                 disabled={false}
               />
-              <input
-           className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
-                placeholder="Engine Litres (e.g. 3.2)"
-                value={vEngineLitres}
-                onChange={(e) => setVEngineLitres(e.target.value)}
-              />
+
+  <input
+  className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none"
+  type="number"
+  value={vEngineKw}
+  onChange={(e) => setVEngineKw(e.target.value)}
+  placeholder="Engine kW"
+/>
+
+  <input
+  className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+  placeholder="Engine Litres (e.g. 3.2)"
+  value={vEngineLitres}
+  onChange={(e) => setVEngineLitres(e.target.value)}
+/>
 <select
   className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
   value={vFuel}
@@ -906,6 +919,14 @@ className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm tex
                 <option value="Hydrogen">Hydrogen</option>
                 <option value="Other">Other</option>
               </select>
+
+<input
+  className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none"
+  value={vEngineConfig}
+  onChange={(e) => setVEngineConfig(e.target.value)}
+  placeholder="Engine config (e.g. V6, V8, Inline-4)"
+/>
+
               <MultiTypeaheadInput
   values={vChassis}
   onChange={setVChassis}
