@@ -181,9 +181,9 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
       setLoadingVehicles(true);
 const { data, error } = await supabase
   .from("vehicles")
-  .select(
-    "id, make, model, year_from, year_to, month_from, month_to, series, trim_code, engine_code, engine_config, engine_litres, fuel_type, chassis"
-  );
+.select(
+  "id, make, model, year_from, year_to, month_from, month_to, series, trim_code, engine_code, engine_config, engine_kw, engine_litres, fuel_type, chassis"
+)
 
       if (cancelled) return;
 
