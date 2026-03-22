@@ -220,7 +220,7 @@ function setSearchActiveIndex(next: number | ((prev: number) => number)) {
 const { data, error } = await supabase
   .from("vehicles")
 .select(
-  "id, make, model, year_from, year_to, month_from, month_to, series, trim_code, engine_code, engine_config, engine_kw, engine_litres, fuel_type, chassis"
+  "id, make, model, year_from, year_to, month_from, month_to, series, trim_code, engine_code, engine_config, engine_kw, engine_litres, fuel_type, chassis, notes"
 )
 
       if (cancelled) return;
@@ -448,7 +448,7 @@ const map = new Map<
 engineLabelFromKey(engineKey(v)) === selectedEngineKey
     ) {
       if (v.chassis) {
-        const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
+    const labelKey = `${v.chassis}|${v.notes ?? ""}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
         map.set(labelKey, {
           chassis: v.chassis,
           notes: v.notes ?? null,
