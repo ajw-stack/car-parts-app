@@ -23,6 +23,7 @@ type VehicleRow = {
   engine_litres: number | null;
   fuel_type: string | null;
   chassis: string | null;
+  notes: string | null;
 };
 
 type PartRow = {
@@ -423,16 +424,17 @@ const chassisOptions = useMemo(() => {
     return [];
   }
 
-  const map = new Map<
-    string,
-    {
-      chassis: string;
-      month_from: number | null;
-      year_from: number;
-      month_to: number | null;
-      year_to: number | null;
-    }
-  >();
+const map = new Map<
+  string,
+  {
+    chassis: string;
+    notes: string | null;
+    month_from: number | null;
+    year_from: number;
+    month_to: number | null;
+    year_to: number | null;
+  }
+>();
 
   for (const v of vehicles) {
     const seriesVal = v.series ?? "";
@@ -449,6 +451,7 @@ engineLabelFromKey(engineKey(v)) === selectedEngineKey
         const labelKey = `${v.chassis}|${v.month_from ?? ""}|${v.year_from}|${v.month_to ?? ""}|${v.year_to ?? ""}`;
         map.set(labelKey, {
           chassis: v.chassis,
+          notes: v.notes ?? null,
           month_from: v.month_from,
           year_from: v.year_from,
           month_to: v.month_to,
