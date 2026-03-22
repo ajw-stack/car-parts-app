@@ -950,7 +950,7 @@ onClick={() => setSelectedChassis("")}
       : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
         String(c.year_to); // ✅ full year
 
-return `${from} → ${to} • ${[c.chassis?.trim(), c.notes?.trim()].filter(Boolean).join(" — ")}`;
+return `${from} → ${to} • ${[c.chassis?.trim(), (c as any).notes?.trim()].filter(Boolean).join(" — ")}`;
 })}
 placeholder="Chassis / Variant"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
