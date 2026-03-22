@@ -21,6 +21,7 @@ type VehicleRow = {
   fuel_type: string | null;
   chassis: string | null;
   trim_code: string | null;
+  notes: string | null;
 };
 
 type PartRow = {
@@ -436,6 +437,7 @@ export default function AdminPage() {
   const [vMonthTo, setVMonthTo] = useState("");
   const [vSeries, setVSeries] = useState("");
   const [vTrimCode, setVTrimCode] = useState("");
+  const [vNotes, setVNotes] = useState("");
   const [vEngineCode, setVEngineCode] = useState("");
   const [vEngineKw, setVEngineKw] = useState("");
   const [vEngineLitres, setVEngineLitres] = useState("");
@@ -620,6 +622,7 @@ const rows = vChassis.map((chassis) => ({
   year_to,
   series: vSeries.trim() || null,
   trim_code: vTrimCode.trim() || null,
+  notes: vNotes.trim() || null,
 engine_code: vEngineCode.trim(),
 engine_kw: vEngineKw === "" ? null : Number(vEngineKw),
 engine_litres: vEngineLitres === "" ? null : Number(vEngineLitres),
@@ -874,6 +877,14 @@ className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm tex
                 placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
                 disabled={!vMake || !vModel}
               />
+
+              <input
+  className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-2"
+  type="text"
+  value={vNotes}
+  onChange={(e) => setVNotes(e.target.value)}
+  placeholder="Notes (e.g. Pre-facelift, Facelift)"
+/>
 
               <TypeaheadInput
                 value={vEngineCode}
