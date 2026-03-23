@@ -423,6 +423,11 @@ export default function AdminPage() {
     };
   }, [router]);
 
+  async function handleLogout() {
+    await supabase.auth.signOut();
+    router.replace("/login");
+  }
+
   const [vehicles, setVehicles] = useState<VehicleRow[]>([]);
   const [parts, setParts] = useState<PartRow[]>([]);
   const [loading, setLoading] = useState(true);
@@ -747,12 +752,20 @@ return (
           </div>
 
 
-          <button
-            onClick={refreshAll}
-className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm text-white hover:bg-[#222]"
-          >
-            Refresh
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={refreshAll}
+              className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm text-white hover:bg-[#222]"
+            >
+              Refresh
+            </button>
+            <button
+              onClick={handleLogout}
+              className="rounded-xl border border-[#b40102] bg-[#1A1A1A] px-4 py-3 text-sm text-[#b40102] hover:bg-[#b40102] hover:text-white"
+            >
+              Log Out
+            </button>
+          </div>
         </div>
 
 {msg && (
