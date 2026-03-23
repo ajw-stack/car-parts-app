@@ -761,7 +761,7 @@ return (
             </button>
             <button
               onClick={handleLogout}
-              className="rounded-xl border border-[#b40102] bg-[#1A1A1A] px-4 py-3 text-sm text-[#b40102] hover:bg-[#b40102] hover:text-white"
+              className="rounded-xl border border-[#0C0C0C] bg-[#1A1A1A] px-4 py-3 text-sm text-white hover:bg-[#222]"
             >
               Log Out
             </button>
@@ -975,7 +975,7 @@ options={Array.from(
             <button
               disabled={!canAddVehicle}
               onClick={addVehicle}
-    className="mt-4 w-full rounded-xl bg-white/5 px-4 py-3 text-sm font-semibold text-white hover:bg-white/10 disabled:opacity-40 cursor-pointer"
+    className="mt-4 w-full rounded-xl bg-[#3A3A3A] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
             >
               Add Vehicle
             </button>
@@ -1023,7 +1023,7 @@ options={Array.from(
             <button
               disabled={!canAddPart}
               onClick={addPart}
-        className="mt-4 w-full rounded-xl bg-white/5 px-4 py-3 text-sm font-semibold text-white hover:bg-white/10 disabled:opacity-40 cursor-pointer"
+        className="mt-4 w-full rounded-xl bg-[#3A3A3A] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
             >
               Add Part
             </button>
