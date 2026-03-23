@@ -22,11 +22,12 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-export default async function VehicleDetailPage({ params }: { params: { id: string } }) {
+export default async function VehicleDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const { data: v, error } = await supabaseServer
     .from("vehicles")
     .select("*")
-    .eq("id", params.id)
+    .eq("id", id)
     .single();
 
   if (error || !v) {
@@ -40,7 +41,7 @@ export default async function VehicleDetailPage({ params }: { params: { id: stri
     );
   }
 
-  const specs = v.specs ?? {};
+  const specs = (v.specs as Record<string, any>) ?? {};
   const makeSlug = v.make?.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   return (

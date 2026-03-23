@@ -15,7 +15,8 @@
       "WebFetch(domain:www.oilfilter-crossreference.com)",
       "WebFetch(domain:www.mcleodaccessories.com.au)",
       "WebFetch(domain:automotivesuperstore.com.au)",
-      "WebFetch(domain:dba.com.au)"
+      "WebFetch(domain:dba.com.au)",
+      "Bash(node -e \":*)"
     ]
   }
 }
