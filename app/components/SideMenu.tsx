@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 const MAKES = [
   "Abarth", "Alfa Romeo", "Aston Martin", "Audi", "BMW", "BYD", "Chery",
   "Chevrolet", "Citroen", "Cupra", "Denza", "Deepal", "Ferrari", "Fiat",
-  "Ford", "Genesis", "GWM", "Haval", "Honda", "Hyundai", "INEOS",
+  "Ford", "Genesis", "GWM", "Haval", "Holden", "Honda", "Hyundai", "INEOS",
   "Isuzu Ute", "Jaguar", "Jeep", "Kia", "Lamborghini", "Land Rover", "LDV",
   "Lexus", "Lotus", "Maserati", "Mazda", "McLaren", "Mercedes-Benz", "MG",
   "Mini", "Mitsubishi", "Nissan", "Omoda", "Jaecoo", "Peugeot", "Polestar",
