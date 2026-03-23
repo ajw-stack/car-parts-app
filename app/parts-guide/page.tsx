@@ -91,13 +91,24 @@ export default function PartsGuidePage() {
     const source = parts[0];
     setXrefSource(source);
 
-    const { data: matches } = await supabase
-      .from("parts")
-      .select("id, brand, part_number, name, category")
-      .eq("name", source.name)
-      .neq("id", source.id);
+    // Query cross_references in both directions
+    const [{ data: asPartA }, { data: asPartB }] = await Promise.all([
+      supabase
+        .from("cross_references")
+        .select("cross_parts:cross_part_id (id, brand, part_number, name, category)")
+        .eq("part_id", source.id),
+      supabase
+        .from("cross_references")
+        .select("cross_parts:part_id (id, brand, part_number, name, category)")
+        .eq("cross_part_id", source.id),
+    ]);
 
-    if (!matches || matches.length === 0) {
+    const matches: Part[] = [
+      ...((asPartA ?? []).map((r: any) => r.cross_parts).filter(Boolean)),
+      ...((asPartB ?? []).map((r: any) => r.cross_parts).filter(Boolean)),
+    ];
+
+    if (matches.length === 0) {
       setXrefError("No cross-reference matches found for this part.");
     } else {
       setXrefResults(matches);

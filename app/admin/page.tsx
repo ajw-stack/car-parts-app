@@ -465,6 +465,32 @@ export default function AdminPage() {
   const [fPartId, setFPartId] = useState("");
   const [fNotes, setFNotes] = useState("");
 
+  // --- Cross Reference form ---
+  const [xPartA, setXPartA] = useState("");
+  const [xPartB, setXPartB] = useState("");
+
+  const canAddXref = xPartA && xPartB && xPartA !== xPartB;
+
+  async function addXref() {
+    setMsg("");
+    const partA = parts.find((p) => partLabel(p) === xPartA);
+    const partB = parts.find((p) => partLabel(p) === xPartB);
+    if (!partA || !partB) { setMsg("Could not find one or both parts."); return; }
+
+    const { error } = await supabase.from("cross_references").insert({
+      part_id: partA.id,
+      cross_part_id: partB.id,
+    });
+
+    if (error) {
+      setMsg(error.code === "23505" ? "That cross-reference already exists." : `Error: ${error.message}`);
+      return;
+    }
+    setMsg(`Cross-reference added: ${xPartA} ↔ ${xPartB}`);
+    setXPartA("");
+    setXPartB("");
+  }
+
   async function refreshAll() {
     setLoading(true);
     setMsg("");
@@ -1082,6 +1108,35 @@ options={Array.from(
               ? "Loading…"
               : `Vehicles: ${vehicles.length} • Parts: ${parts.length}`}
           </div>
+        </section>
+
+        {/* Cross Reference */}
+        <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+          <h2 className="text-lg font-semibold text-white">Add Cross Reference</h2>
+          <p className="mt-1 text-xs text-zinc-400">Link two equivalent parts from different brands.</p>
+
+          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
+            <TypeaheadInput
+              value={xPartA}
+              onChange={setXPartA}
+              options={parts.map(partLabel).sort()}
+              placeholder="Part A"
+            />
+            <TypeaheadInput
+              value={xPartB}
+              onChange={setXPartB}
+              options={parts.map(partLabel).sort()}
+              placeholder="Part B"
+            />
+          </div>
+
+          <button
+            disabled={!canAddXref}
+            onClick={addXref}
+            className="mt-4 w-full rounded-xl bg-[#3A3A3A] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
+          >
+            Add Cross Reference
+          </button>
         </section>
       </div>
     </main>

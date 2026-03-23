@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.rycofilters.com.au)",
+      "WebFetch(domain:rycofilters.com.au)",
+      "WebFetch(domain:www.alexisfilters.co.uk)",
+      "WebFetch(domain:www.repco.com.au)",
+      "WebFetch(domain:issuu.com)",
+      "WebFetch(domain:www.supercheapauto.com.au)",
+      "WebFetch(domain:www.knfilters.com)",
+      "WebFetch(domain:mclaccessories.azurewebsites.net)",
+      "WebFetch(domain:www.oilfiltersuppliers.com)",
+      "WebFetch(domain:ryco.co.nz)",
+      "WebFetch(domain:www.oilfilter-crossreference.com)",
+      "WebFetch(domain:www.mcleodaccessories.com.au)",
+      "WebFetch(domain:automotivesuperstore.com.au)"
+    ]
+  }
+}
