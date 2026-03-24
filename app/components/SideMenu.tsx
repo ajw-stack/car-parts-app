@@ -1,21 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-
-const MAKES = [
-  "Abarth", "Alfa Romeo", "Aston Martin", "Audi", "BMW", "BYD", "Chery",
-  "Chevrolet", "Citroen", "Cupra", "Denza", "Deepal", "Ferrari", "Fiat",
-  "Ford", "Genesis", "GWM", "Haval", "Holden", "Honda", "Hyundai", "INEOS",
-  "Isuzu Ute", "Jaguar", "Jeep", "Kia", "Lamborghini", "Land Rover", "LDV",
-  "Lexus", "Lotus", "Maserati", "Mazda", "McLaren", "Mercedes-Benz", "MG",
-  "Mini", "Mitsubishi", "Nissan", "Omoda", "Jaecoo", "Peugeot", "Polestar",
-  "Porsche", "RAM", "Renault", "Rolls-Royce", "Skoda", "Smart",
-  "SsangYong (KGM)", "Subaru", "Suzuki", "Tesla", "Toyota", "Volkswagen", "Volvo",
-];
-
-function makeSlug(make: string) {
-  return make.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-}
+import { MAKES, makeSlug } from "../lib/makes";
 
 export default function SideMenu({
   open,
