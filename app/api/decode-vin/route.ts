@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { lookupWMI } from "../../lib/wmi";
 
 export const dynamic = "force-dynamic";
 
@@ -80,10 +81,17 @@ export async function GET(req: NextRequest) {
   // Only surface a warning if NHTSA had real decode issues beyond EU formatting
   const hasWarning = errorCodes.some((c: number) => c !== 0) && !isEuropean;
 
+  // WMI-derived make: strip qualifiers like "(post 2002)" and "/ alternate"
+  const rawWmi = lookupWMI(vin);
+  const wmiMake = rawWmi
+    ? rawWmi.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "").trim()
+    : null;
+
   return NextResponse.json({
     vin,
     year,
     make: val("Make"),
+    wmiMake,
     model: val("Model"),
     series: val("Series"),
     trim: val("Trim"),

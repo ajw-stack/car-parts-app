@@ -19,7 +19,15 @@
       "Bash(node -e \":*)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:vpic.nhtsa.dot.gov)"
+      "WebFetch(domain:vpic.nhtsa.dot.gov)",
+      "WebFetch(domain:api.redbookdirect.com)",
+      "Bash(curl -s https://api.redbookdirect.com/swagger/v1/swagger.json)",
+      "Bash(curl -s -L \"https://api.redbookdirect.com/swagger/v1/swagger.json\" -o /tmp/redbook.json)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \":*)",
+      "Bash(node scripts/import-parts-csv.js scripts/bendix-brake-pads.csv --dry-run)",
+      "Bash(node scripts/import-parts-csv.js scripts/bendix-brake-pads.csv)",
+      "Bash(node scripts/import-cross-references.js scripts/bendix-cross-refs.csv)"
     ]
   }
 }

@@ -168,6 +168,27 @@ function Card({ title, children }: { title: string; children: React.ReactNode })
   );
 }
 
+// ─── Redbook vehicle summary (from /api/redbook-rego or /api/redbook-vin) ─────
+type RegoVehicle = {
+  rbc:          string | null;
+  make:         string | null;
+  family:       string | null;
+  year:         number | null;
+  badge:        string | null;
+  series:       string | null;
+  bodyStyle:    string | null;
+  doors:        number | null;
+  transmission: string | null;
+  engine:       string | null;
+  engineSize:   string | null;
+  cylinders:    number | null;
+  fuelType:     string | null;
+  driveType:    string | null;
+  colour:       string | null;
+  vin:          string | null;
+  compliance:   string | null;
+};
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 export default function DecodePage() {
   const [tab, setTab]         = useState<"vin" | "rego">("vin");
@@ -176,12 +197,27 @@ export default function DecodePage() {
   const [error, setError]     = useState<string | null>(null);
   const [vinResult, setVinResult] = useState<VinResult | null>(null);
   const [regoState, setRegoState] = useState<StateInfo[] | null>(null);
+  const [regoVehicle, setRegoVehicle] = useState<RegoVehicle | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   function reset() {
     setError(null);
     setVinResult(null);
     setRegoState(null);
+    setRegoVehicle(null);
+  }
+
+  async function lookupRegoWithState(state: StateInfo, rego: string) {
+    setLoading(true);
+    setRegoVehicle(null);
+    try {
+      const res = await fetch(`/api/redbook-rego?state=${state.abbr}&rego=${encodeURIComponent(rego)}`);
+      if (res.ok) setRegoVehicle(await res.json());
+    } catch {
+      // silently fail — state links still available
+    } finally {
+      setLoading(false);
+    }
   }
 
   function switchTab(t: "vin" | "rego") {
@@ -210,7 +246,11 @@ export default function DecodePage() {
         setLoading(false);
       }
     } else {
-      setRegoState(detectState(val));
+      const states = detectState(val);
+      setRegoState(states);
+      if (states.length === 1) {
+        await lookupRegoWithState(states[0], val);
+      }
     }
   }
 
@@ -408,20 +448,79 @@ export default function DecodePage() {
 
           {/* Rego — single match */}
           {regoState && regoState.length === 1 && (
-            <Card title="Registration Plate Detected">
-              <div className="py-4">
-                <div className="flex items-center gap-4">
-                  <div className="rounded-lg border-2 border-[#141414] bg-white px-5 py-3 font-mono text-2xl font-bold tracking-widest text-[#111827] shadow-inner">
-                    {input.toUpperCase()}
+            <>
+              {/* Vehicle details from Redbook */}
+              {regoVehicle && (
+                <>
+                  <Card title="Vehicle">
+                    <InfoRow label="Year"         value={regoVehicle.year ? String(regoVehicle.year) : null} />
+                    <InfoRow label="Make"         value={regoVehicle.make} />
+                    <InfoRow label="Model"        value={regoVehicle.family} />
+                    <InfoRow label="Badge"        value={regoVehicle.badge} />
+                    <InfoRow label="Series"       value={regoVehicle.series} />
+                    <InfoRow label="Body"         value={regoVehicle.bodyStyle} />
+                    <InfoRow label="Doors"        value={regoVehicle.doors ? String(regoVehicle.doors) : null} />
+                    <InfoRow label="Colour"       value={regoVehicle.colour} />
+                    <InfoRow label="Compliance"   value={regoVehicle.compliance} />
+                    <InfoRow label="VIN"          value={regoVehicle.vin} />
+                  </Card>
+
+                  {(regoVehicle.engine || regoVehicle.engineSize || regoVehicle.fuelType || regoVehicle.cylinders) && (
+                    <Card title="Engine">
+                      <InfoRow label="Engine"      value={regoVehicle.engine} />
+                      <InfoRow label="Size"        value={regoVehicle.engineSize} />
+                      <InfoRow label="Cylinders"   value={regoVehicle.cylinders ? String(regoVehicle.cylinders) : null} />
+                      <InfoRow label="Fuel Type"   value={regoVehicle.fuelType} />
+                    </Card>
+                  )}
+
+                  {(regoVehicle.transmission || regoVehicle.driveType) && (
+                    <Card title="Drivetrain">
+                      <InfoRow label="Transmission" value={regoVehicle.transmission} />
+                      <InfoRow label="Drive Type"   value={regoVehicle.driveType} />
+                    </Card>
+                  )}
+
+                  <div className="rounded-xl bg-[#141414] px-6 py-5 flex items-center justify-between gap-4">
+                    <div>
+                      <p className="font-semibold text-white">Find compatible parts</p>
+                      <p className="mt-0.5 text-sm text-white/50">
+                        {[regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" ")}
+                      </p>
+                    </div>
+                    <a
+                      href={`/?q=${encodeURIComponent([regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" "))}`}
+                      className="shrink-0 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                    >
+                      Search Parts →
+                    </a>
                   </div>
-                  <div>
-                    <p className="font-semibold text-[#111827]">{regoState[0].name}</p>
-                    <p className="text-sm text-gray-500">{regoState[0].abbr} plate format detected</p>
-                  </div>
+                </>
+              )}
+
+              {/* Loading state */}
+              {loading && (
+                <div className="rounded-xl border border-gray-200 bg-gray-50 px-6 py-8 text-center text-sm text-gray-500">
+                  Looking up vehicle…
                 </div>
-                <div className="mt-5 border-t border-gray-100 pt-4">
+              )}
+
+              {/* State link fallback */}
+              <Card title={regoVehicle ? "Official Registration Check" : "Registration Plate Detected"}>
+                <div className="py-4">
+                  {!regoVehicle && (
+                    <div className="flex items-center gap-4 mb-5">
+                      <div className="rounded-lg border-2 border-[#141414] bg-white px-5 py-3 font-mono text-2xl font-bold tracking-widest text-[#111827] shadow-inner">
+                        {input.toUpperCase()}
+                      </div>
+                      <div>
+                        <p className="font-semibold text-[#111827]">{regoState[0].name}</p>
+                        <p className="text-sm text-gray-500">{regoState[0].abbr} plate format detected</p>
+                      </div>
+                    </div>
+                  )}
                   <p className="mb-3 text-sm text-gray-500">
-                    For full registration details, check the official {regoState[0].abbr} government portal:
+                    For full registration status, check the official {regoState[0].abbr} government portal:
                   </p>
                   <a
                     href={regoState[0].checkUrl}
@@ -432,35 +531,66 @@ export default function DecodePage() {
                     Check {regoState[0].abbr} Rego →
                   </a>
                 </div>
-              </div>
-            </Card>
+              </Card>
+            </>
           )}
 
-          {/* Rego — ambiguous */}
+          {/* Rego — ambiguous (select state to look up) */}
           {regoState && regoState.length > 1 && (
-            <Card title="Registration Plate Detected">
-              <div className="py-4">
-                <div className="flex items-center gap-4 mb-5">
-                  <div className="rounded-lg border-2 border-[#141414] bg-white px-5 py-3 font-mono text-2xl font-bold tracking-widest text-[#111827] shadow-inner">
-                    {input.toUpperCase()}
+            <>
+              {regoVehicle && (
+                <>
+                  <Card title="Vehicle">
+                    <InfoRow label="Year"   value={regoVehicle.year ? String(regoVehicle.year) : null} />
+                    <InfoRow label="Make"   value={regoVehicle.make} />
+                    <InfoRow label="Model"  value={regoVehicle.family} />
+                    <InfoRow label="Badge"  value={regoVehicle.badge} />
+                    <InfoRow label="Body"   value={regoVehicle.bodyStyle} />
+                    <InfoRow label="Colour" value={regoVehicle.colour} />
+                    <InfoRow label="VIN"    value={regoVehicle.vin} />
+                  </Card>
+                  <div className="rounded-xl bg-[#141414] px-6 py-5 flex items-center justify-between gap-4">
+                    <div>
+                      <p className="font-semibold text-white">Find compatible parts</p>
+                      <p className="mt-0.5 text-sm text-white/50">
+                        {[regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" ")}
+                      </p>
+                    </div>
+                    <a
+                      href={`/?q=${encodeURIComponent([regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" "))}`}
+                      className="shrink-0 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                    >
+                      Search Parts →
+                    </a>
                   </div>
-                  <div>
-                    <p className="font-semibold text-[#111827]">{regoState.map(s => s.abbr).join(" or ")}</p>
+                </>
+              )}
+
+              <Card title="Select Your State">
+                <div className="py-4">
+                  <div className="flex items-center gap-4 mb-5">
+                    <div className="rounded-lg border-2 border-[#141414] bg-white px-5 py-3 font-mono text-2xl font-bold tracking-widest text-[#111827] shadow-inner">
+                      {input.toUpperCase()}
+                    </div>
                     <p className="text-sm text-gray-500">
-                      This older format is used in multiple states — select yours:
+                      This format is used in multiple states — select yours to look up:
                     </p>
                   </div>
+                  <div className="border-t border-gray-100 pt-4 flex flex-wrap gap-2">
+                    {regoState.map((s) => (
+                      <button
+                        key={s.abbr}
+                        onClick={() => lookupRegoWithState(s, input.trim().toUpperCase())}
+                        disabled={loading}
+                        className="rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-50"
+                      >
+                        {loading ? "…" : `Look up ${s.abbr}`}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-                <div className="border-t border-gray-100 pt-4 flex flex-wrap gap-2">
-                  {regoState.map((s) => (
-                    <a key={s.abbr} href={s.checkUrl} target="_blank" rel="noopener noreferrer"
-                      className="rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]">
-                      Check {s.abbr} Rego →
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </Card>
+              </Card>
+            </>
           )}
 
           {/* Rego — unrecognised */}

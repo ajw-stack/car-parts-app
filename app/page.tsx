@@ -1,7 +1,6 @@
 // app/page.tsx
 "use client";
 
-import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import Header from "./components/Header";
@@ -38,9 +37,6 @@ function norm(s: unknown) {
   return String(s ?? "").trim().toLowerCase();
 }
 
-function yearLabel(y: number) {
-  return String(y);
-}
 
 function engineKey(v: VehicleRow) {
   // Key used for the Engine dropdown selection (does NOT include series/chassis)
@@ -189,34 +185,6 @@ export default function Page() {
   const [selectedTrim, setSelectedTrim] = useState(""); 
   
   const applyingQuickSearchRef = useRef(false);
-
-// VIN search
-const [vinInput, setVinInput] = useState("");
-const [vinLoading, setVinLoading] = useState(false);
-const [vinError, setVinError] = useState<string | null>(null);
-
-async function handleVinSearch() {
-  const vin = vinInput.trim().toUpperCase();
-  if (vin.length !== 17) { setVinError("VIN must be 17 characters."); return; }
-  setVinLoading(true);
-  setVinError(null);
-  try {
-    const res = await fetch(`/api/decode-vin?vin=${vin}`);
-    const data = await res.json();
-    if (!res.ok) { setVinError(data.error ?? "Could not decode VIN."); return; }
-    const make = (data.make ?? "").trim();
-    const model = (data.model ?? "").trim();
-    const year = data.year ? parseInt(data.year, 10) : null;
-    if (!make) { setVinError("Make not found for this VIN."); return; }
-    setSelectedMake(make);
-    if (model) setSelectedModel(model);
-    if (year) setSelectedYear(year);
-  } catch {
-    setVinError("Network error. Please try again.");
-  } finally {
-    setVinLoading(false);
-  }
-}
 
 // Quick search
 const [query, setQuery] = useState("");
@@ -786,30 +754,6 @@ return (
         </div>
       </div>
 
-      {/* VIN search */}
-      <div className="mt-6">
-        <label className="text-sm font-semibold text-[#0F0F0F]">Search by VIN</label>
-        <div className="mt-3 flex gap-2">
-          <input
-            value={vinInput}
-            onChange={(e) => { setVinInput(e.target.value.toUpperCase()); setVinError(null); }}
-            onKeyDown={(e) => e.key === "Enter" && handleVinSearch()}
-            placeholder="Enter 17-character VIN…"
-            maxLength={17}
-            autoComplete="off"
-            spellCheck={false}
-            className="flex-1 rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
-          />
-          <button
-            onClick={handleVinSearch}
-            disabled={vinLoading || vinInput.trim().length !== 17}
-            className="rounded-xl bg-[#b40102] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#2a2a2a] disabled:opacity-40"
-          >
-            {vinLoading ? "…" : "Search"}
-          </button>
-        </div>
-        {vinError && <p className="mt-2 text-xs text-red-600">{vinError}</p>}
-      </div>
 
 <div className="flex flex-wrap gap-2 mt-3 mb-6">
 
