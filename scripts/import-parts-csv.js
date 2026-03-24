@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 // Generic parts CSV importer
-// CSV format: part_number,brand,category,position,make,model,series,year_from,year_to,body,notes
+// CSV format: brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+// All columns except brand,make,model,part_number,category are optional.
+// Blank lines in the CSV are ignored (can be used as visual separators).
 //
 // Usage:
 //   node scripts/import-parts-csv.js <file.csv> [--dry-run]
-//
-// Blank lines in the CSV are ignored (can be used as visual separators).
 
 const fs   = require('fs');
 const path = require('path');
@@ -141,11 +141,13 @@ function parseCSV(filePath) {
     const yearTo     = parseInt(get('year_to'),   10) || null;
     const engine     = get('engine').trim() || null;
     const trim       = get('trim').trim() || null;
+    const drivetrain = get('drivetrain').trim() || null;
+    const body       = get('body').trim() || null;
     const notes      = get('notes').trim() || null;
 
     if (!partNumber || !make || !model) continue;
 
-    rows.push({ partNumber, brand, category, position, make, model, series, engine, trim, yearFrom, yearTo, notes });
+    rows.push({ partNumber, brand, category, position, make, model, series, engine, trim, drivetrain, body, yearFrom, yearTo, notes });
   }
 
   return rows;
@@ -174,15 +176,25 @@ function findMatchingVehicles(row, vehiclesByMake) {
   const isDiesel  = row.engine && /\bD$/i.test(row.engine.trim().split(' ')[0]);
   const trimUp   = row.trim ? row.trim.toUpperCase() : null;
 
-  // Base filter: make + model + series + year + trim
+  // Base filter: make + model + series + year
   const base = dbVehicles.filter(v => {
     if ((v.model ?? '').toUpperCase() !== modelUp) return false;
     if (seriesUp && (v.series ?? '').toUpperCase() !== seriesUp) return false;
-    if (trimUp && (v.trim_code ?? '').toUpperCase() !== trimUp) return false;
     return yearsOverlap(v.year_from, v.year_to, row.yearFrom, row.yearTo);
   });
 
-  if (base.length === 0 || csvLitres === null) return base;
+  if (base.length === 0) return base;
+
+  // Narrow by trim — only apply when at least one DB row actually has that trim_code.
+  // Falls back to full base set when trim is used as an engine description (e.g. "i V6")
+  // rather than a customer-visible variant stored in the DB.
+  if (trimUp) {
+    const trimMatched = base.filter(v => (v.trim_code ?? '').toUpperCase() === trimUp);
+    if (trimMatched.length > 0) return trimMatched;
+    // No DB rows have this trim_code — treat as informational and continue with base set
+  }
+
+  if (csvLitres === null) return base;
 
   // Try to narrow by engine litres (±0.15L tolerance)
   const engineMatched = base.filter(v => {
@@ -255,10 +267,10 @@ async function main() {
   }
   console.log(`Fetched ${partIdByNumber.size} parts from DB`);
 
-  // 5. Load vehicles
+  // 5. Load vehicles (include all backfillable fields)
   const dbVehicles = await sbSelect(
     'vehicles',
-    'select=id,make,model,series,trim_code,year_from,year_to,engine_litres,fuel_type'
+    'select=id,make,model,series,trim_code,year_from,year_to,engine_litres,engine_code,engine_config,engine_kw,fuel_type,chassis,grade,notes'
   );
   console.log(`Loaded ${dbVehicles.length} vehicles`);
 
@@ -282,10 +294,17 @@ async function main() {
   }
   console.log(`Existing fitments for these parts: ${existingFitments.size}`);
 
-  // 7. Match vehicles and collect fitments
+  // 7. Match vehicles, collect fitments, and queue backfill patches
   const fitmentsToInsert = [];
   const unmatchedRows    = [];
+  const vehiclePatches   = new Map(); // vehicle id → fields to patch
   let matchCount = 0, skipCount = 0;
+
+  // CSV columns that map directly to vehicle table fields (only backfill when currently null)
+  const BACKFILL_FIELDS = [
+    { csv: 'engine',     dbField: 'engine_code',   transform: v => v.split(/\s/)[0] || null },
+    { csv: 'drivetrain', dbField: 'grade',          transform: v => v },
+  ];
 
   for (const row of csvRows) {
     const partId = partIdByNumber.get(row.partNumber);
@@ -302,17 +321,28 @@ async function main() {
     }
 
     for (const v of matched) {
+      // Queue fitment
       const key = `${v.id}:${partId}:${row.position ?? ''}`;
-      if (existingFitments.has(key)) { skipCount++; continue; }
-      existingFitments.add(key);
-      fitmentsToInsert.push({
-        vehicle_id: v.id,
-        part_id:    partId,
-        position:   row.position ?? null,
-        qty:        1,
-        notes:      row.notes ?? null,
-      });
-      matchCount++;
+      if (existingFitments.has(key)) { skipCount++; } else {
+        existingFitments.add(key);
+        fitmentsToInsert.push({
+          vehicle_id: v.id,
+          part_id:    partId,
+          position:   row.position ?? null,
+          qty:        1,
+          notes:      row.notes ?? null,
+        });
+        matchCount++;
+      }
+
+      // Queue backfill: only patch fields that are currently null on the DB row
+      const patch = vehiclePatches.get(v.id) ?? {};
+      if (row.engine_litres != null && v.engine_litres == null) patch.engine_litres = row.engine_litres;
+      if (row.engine       != null && v.engine_code   == null) {
+        const code = row.engine.split(/\s/)[0];
+        if (code) patch.engine_code = code;
+      }
+      if (Object.keys(patch).length > 0) vehiclePatches.set(v.id, patch);
     }
   }
 
@@ -326,18 +356,35 @@ async function main() {
     console.log('Done.');
   }
 
+  // 8b. Backfill null vehicle fields
+  if (vehiclePatches.size > 0) {
+    console.log(`\nBackfilling ${vehiclePatches.size} vehicle records with new data...`);
+    let patchCount = 0;
+    for (const [vehicleId, patch] of vehiclePatches) {
+      if (DRY_RUN) { console.log(`  [dry] PATCH ${vehicleId}: ${JSON.stringify(patch)}`); continue; }
+      const res = await fetch(
+        `${SUPABASE_URL}/rest/v1/vehicles?id=eq.${vehicleId}`,
+        { method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' }, body: JSON.stringify(patch) }
+      );
+      if (!res.ok) console.warn(`  PATCH ${vehicleId} failed: ${res.status} ${await res.text()}`);
+      else patchCount++;
+    }
+    if (!DRY_RUN) console.log(`  Updated ${patchCount} vehicles.`);
+  }
+
   // 9. Report unmatched
   if (unmatchedRows.length > 0) {
     const seen = new Set();
     const unique = unmatchedRows.filter(r => {
-      const k = `${r.make}|${r.model}|${r.series}|${r.yearFrom}-${r.yearTo}`;
+      const k = `${r.make}|${r.model}|${r.series}|${r.engine ?? ''}|${r.trim ?? ''}|${r.drivetrain ?? ''}|${r.body ?? ''}|${r.yearFrom}-${r.yearTo}`;
       if (seen.has(k)) return false;
       seen.add(k);
       return true;
     });
-    console.log(`\nUnmatched (${unique.length} unique):`);
+    console.log(`\nUnmatched vehicles (${unique.length} unique) — add these to the DB then re-run:`);
     for (const r of unique) {
-      console.log(`  [${r.make}] ${r.model} ${r.series} ${r.yearFrom ?? '?'}-${r.yearTo ?? 'ON'}`);
+      const extra = [r.engine, r.trim, r.drivetrain, r.body].filter(Boolean).join(' | ');
+      console.log(`  [${r.make}] ${r.model} ${r.series} ${r.yearFrom ?? '?'}-${r.yearTo ?? 'ON'}${extra ? '  (' + extra + ')' : ''}`);
     }
   }
 

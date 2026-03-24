@@ -1,0 +1,48 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+BENDIX,HOLDEN,ACADIA,AC,3.6,,FWD,SUV,2018,2019,Brake Pad Set,Front,DB2367,FWD SUV
+BENDIX,HOLDEN,ACADIA,AC,3.6,,AWD,SUV,2018,2019,Brake Pad Set,Front,DB2367,AWD SUV
+BENDIX,HOLDEN,ACADIA,AC,3.6,,FWD,SUV,2018,2019,Brake Pad Set,Rear,DB2600,FWD SUV
+BENDIX,HOLDEN,ACADIA,AC,3.6,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2600,AWD SUV
+
+BENDIX,HOLDEN,APOLLO,JK,2.0,i,,,1989,1991,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JL,2.0,i,,,1991,1993,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JK,2.0,,,,1989,1991,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JM,2.2,i,,,1993,1995,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JP,2.2,i,,,1995,1997,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JM,3.0,i,,,1993,1995,Brake Pad Set,Front,DB1110,With front disc
+BENDIX,HOLDEN,APOLLO,JP,3.0,i,,,1995,1997,Brake Pad Set,Front,DB1110,With front disc
+
+BENDIX,HOLDEN,APOLLO,JK,2.0,i,,,1989,1991,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JL,2.0,i,,,1991,1993,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JK,2.0,,,,1989,1991,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JM,2.2,i,,,1993,1995,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JP,2.2,i,,,1995,1997,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JM,3.0,i,,,1993,1995,Brake Pad Set,Rear,DB422,Rear axle
+BENDIX,HOLDEN,APOLLO,JP,3.0,i,,,1995,1997,Brake Pad Set,Rear,DB422,Rear axle
+
+BENDIX,HOLDEN,APOLLO,JK,2.0,i,,,1989,1991,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JL,2.0,i,,,1991,1993,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JK,2.0,,,,1989,1991,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JM,2.2,i,,,1993,1995,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JP,2.2,i,,,1995,1997,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JM,3.0,i,,,1993,1995,Brake Shoe Set,Rear,BS1659,Rear axle
+BENDIX,HOLDEN,APOLLO,JP,3.0,i,,,1995,1997,Brake Shoe Set,Rear,BS1659,Rear axle
+
+BENDIX,HOLDEN,APOLLO,JK,2.0,i,,,1989,1991,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JL,2.0,i,,,1991,1993,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JK,2.0,,,,1989,1991,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JM,2.2,i,,,1993,1995,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JP,2.2,i,,,1995,1997,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JM,3.0,i,,,1993,1995,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+BENDIX,HOLDEN,APOLLO,JP,3.0,i,,,1995,1997,Brake Shoe Set,Parking Brake,BS1751,Parking brake shoe
+
+BENDIX,HOLDEN,ASTRA,BK,1.4,,,Hatchback,2016,2020,Brake Pad Set,Front,DB2685,Hatchback
+BENDIX,HOLDEN,ASTRA,BK,1.4,,,Hatchback,2016,2020,Brake Pad Set,Rear,DB2488,With acoustic wear sensors
+BENDIX,HOLDEN,ASTRA,BL,1.4,,,Sedan,2017,2018,Brake Pad Set,Front,DB2685,Sedan
+BENDIX,HOLDEN,ASTRA,BL,1.4,,,Sedan,2017,2018,Brake Pad Set,Rear,DB2488,With acoustic wear sensors
+
+BENDIX,HOLDEN,ASTRA,BK,1.6,,,Hatchback,2016,2020,Brake Pad Set,Front,DB2685,Hatchback
+BENDIX,HOLDEN,ASTRA,BK,1.6,,,Hatchback,2016,2020,Brake Pad Set,Rear,DB2488,With acoustic wear sensors
+
+BENDIX,HOLDEN,ASTRA,LD,1.6,CD,,Hatchback/Sedan,1987,1989,Brake Pad Set,Front,DB1117,Hatchback/Sedan
+BENDIX,HOLDEN,ASTRA,LD,1.6,CD,,Hatchback/Sedan,1987,1989,Brake Shoe Set,Rear,BS1598,Hatchback/Sedan
