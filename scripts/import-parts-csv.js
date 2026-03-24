@@ -140,11 +140,12 @@ function parseCSV(filePath) {
     const yearFrom   = parseInt(get('year_from'), 10) || null;
     const yearTo     = parseInt(get('year_to'),   10) || null;
     const engine     = get('engine').trim() || null;
+    const trim       = get('trim').trim() || null;
     const notes      = get('notes').trim() || null;
 
     if (!partNumber || !make || !model) continue;
 
-    rows.push({ partNumber, brand, category, position, make, model, series, engine, yearFrom, yearTo, notes });
+    rows.push({ partNumber, brand, category, position, make, model, series, engine, trim, yearFrom, yearTo, notes });
   }
 
   return rows;
@@ -171,11 +172,13 @@ function findMatchingVehicles(row, vehiclesByMake) {
   const seriesUp = row.series.toUpperCase();
   const csvLitres = parseEngineLitres(row.engine);
   const isDiesel  = row.engine && /\bD$/i.test(row.engine.trim().split(' ')[0]);
+  const trimUp   = row.trim ? row.trim.toUpperCase() : null;
 
-  // Base filter: make + model + series + year
+  // Base filter: make + model + series + year + trim
   const base = dbVehicles.filter(v => {
     if ((v.model ?? '').toUpperCase() !== modelUp) return false;
     if (seriesUp && (v.series ?? '').toUpperCase() !== seriesUp) return false;
+    if (trimUp && (v.trim_code ?? '').toUpperCase() !== trimUp) return false;
     return yearsOverlap(v.year_from, v.year_to, row.yearFrom, row.yearTo);
   });
 
@@ -255,7 +258,7 @@ async function main() {
   // 5. Load vehicles
   const dbVehicles = await sbSelect(
     'vehicles',
-    'select=id,make,model,series,year_from,year_to'
+    'select=id,make,model,series,trim_code,year_from,year_to,engine_litres,fuel_type'
   );
   console.log(`Loaded ${dbVehicles.length} vehicles`);
 
