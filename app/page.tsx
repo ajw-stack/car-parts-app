@@ -266,7 +266,6 @@ setSelectedChassis("");
   useEffect(() => {
     if (applyingQuickSearchRef.current) return;
 
-setSelectedSeries("");
 setSelectedTrim("");
 setSelectedEngineKey("");
 setSelectedChassis("");
@@ -324,24 +323,24 @@ const yearOptions = useMemo(() => {
 }, [vehicles, selectedMake, selectedModel]);
 
   const seriesOptions = useMemo(() => {
-    if (!selectedMake || !selectedModel || selectedYear === "") return [];
+    if (!selectedMake || !selectedModel) return [];
     const set = new Set<string>();
     for (const v of vehicles) {
-      if (
-  v.make === selectedMake &&
-  v.model === selectedModel &&
-  selectedYear >= v.year_from &&
-  (v.year_to === null || selectedYear <= v.year_to)
-) {
+      if (v.make === selectedMake && v.model === selectedModel) {
         if (v.series) set.add(v.series);
-        else set.add(""); // allow blank series group
       }
     }
-    // Put blank series last (or first? your call)
-    const arr = Array.from(set);
-    arr.sort((a, b) => a.localeCompare(b));
-    return arr;
-  }, [vehicles, selectedMake, selectedModel, selectedYear]);
+    const arr = Array.from(set).sort((a, b) => a.localeCompare(b));
+    return ["All", ...arr];
+  }, [vehicles, selectedMake, selectedModel]);
+
+  // Auto-select "All" when the model has no series variants
+  useEffect(() => {
+    if (!selectedMake || !selectedModel) return;
+    if (seriesOptions.length === 1 && seriesOptions[0] === "All") {
+      setSelectedSeries("All");
+    }
+  }, [seriesOptions, selectedMake, selectedModel]);
 
   const trimOptions = useMemo(() => {
   if (!selectedMake || !selectedModel || selectedYear === "") return [];
@@ -381,37 +380,35 @@ const formatEngineLabel = (label: any) => {
 };
 
   const engineOptions = useMemo(() => {
-    if (!selectedMake || !selectedModel || selectedYear === "" || selectedSeries === "") return [];
+    if (!selectedMake || !selectedModel) return [];
     const set = new Set<string>();
     for (const v of vehicles) {
       const seriesVal = v.series ?? "";
-if (
-  v.make === selectedMake &&
-  v.model === selectedModel &&
-  selectedYear >= v.year_from &&
-  (v.year_to === null || selectedYear <= v.year_to) &&
-  (seriesVal === selectedSeries || (seriesVal === "" && selectedSeries === "")) &&
-  (!selectedTrim || v.trim_code === selectedTrim)
-) {
-
-  set.add(engineLabelFromKey(engineKey(v)));
-
-}
+      const seriesMatch =
+        !selectedSeries || selectedSeries === "All" || seriesVal === selectedSeries;
+      const yearMatch =
+        selectedYear === "" ||
+        (selectedYear >= v.year_from && (v.year_to === null || selectedYear <= v.year_to));
+      if (
+        v.make === selectedMake &&
+        v.model === selectedModel &&
+        yearMatch &&
+        seriesMatch &&
+        (!selectedTrim || v.trim_code === selectedTrim)
+      ) {
+        set.add(engineLabelFromKey(engineKey(v)));
+      }
     }
     const arr = Array.from(set);
     arr.sort((a, b) => {
-  const getL = (label: string) => {
-    const match = label.match(/(\d+(\.\d+)?)L/);
-    return match ? parseFloat(match[1]) : 0;
-  };
-
-  const aLabel = engineLabelFromKey(a);
-  const bLabel = engineLabelFromKey(b);
-
-  return getL(aLabel) - getL(bLabel);
-});
+      const getL = (label: string) => {
+        const match = label.match(/(\d+(\.\d+)?)L/);
+        return match ? parseFloat(match[1]) : 0;
+      };
+      return getL(a) - getL(b);
+    });
     return arr;
- }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedTrim]);
+  }, [vehicles, selectedMake, selectedModel, selectedYear, selectedSeries, selectedTrim]);
 
 const chassisOptions = useMemo(() => {
   if (
@@ -508,7 +505,7 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
-        seriesVal === selectedSeries &&
+        (selectedSeries === "All" || seriesVal === selectedSeries) &&
 (
   !selectedEngineKey ||
   engineLabelFromKey(engineKey(v)) === selectedEngineKey
@@ -536,9 +533,8 @@ chassisVal === selectedChassis
       setLoadingParts(true);
       setPartsError(null);
 
-      // Pull parts via fitments join (requires FK: fitments.part_id -> parts.id)
       const { data, error } = await supabase
-        .from("fitments")
+        .from("vehicle_part_fitments")
         .select("part:part_id(id, brand, part_number, name, category)")
         .eq("vehicle_id", vehicleId);
 
@@ -872,7 +868,6 @@ onClick={() => setSelectedChassis("")}
   onChange={(v) => {
     const n = v ? Number(v) : "";
     setSelectedYear(Number.isFinite(n as number) ? (n as number) : "");
-    setSelectedSeries("");
     setSelectedEngineKey("");
   }}
   options={yearOptions.map(String)}
@@ -888,7 +883,7 @@ onClick={() => setSelectedChassis("")}
   }}
   options={seriesOptions}
   placeholder="Select Series"
-  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+  disabled={!selectedMake || !selectedModel}
 />
 
 <TypeaheadInput
@@ -901,7 +896,7 @@ onClick={() => setSelectedChassis("")}
   onChange={(v) => setSelectedEngineKey(v)}
   options={engineOptions}
   placeholder="Engine"
-  disabled={!selectedMake || !selectedModel || selectedYear === ""}
+  disabled={!selectedMake || !selectedModel}
   renderOption={(o) => renderEngineLabel(o, true)}
 />
 

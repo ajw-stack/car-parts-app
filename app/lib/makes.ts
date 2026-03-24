@@ -15,7 +15,7 @@ export const MAKES_CONFIG: Record<string, string[]> = {
   "Bertone": ["X1/9"],
   "Blade": ["Electron"],
   "BMC": ["Gipsy"],
-  "BMW": ["3", "1600", "1602", "1800", "2000", "2002", "2500", "2800", "1 Series", "1 Series M", "2 Series", "3 Series", "3.3L", "4 Series", "5 Series", "6 Series", "7 Series", "8 Series", "i3", "i8", "M", "M2", "M3", "M4", "M5", "M6", "X1", "X2", "X3", "X3 M", "X4", "X4 M", "X5", "X5 M", "X6", "X6 M", "X7", "Z3", "Z4", "Z4 M"],
+  "BMW": ["3", "1600", "1602", "1800", "2000", "2002", "2500", "2800", "518", "525", "528", "1 Series", "1 Series M", "2 Series", "3 Series", "3.3L", "4 Series", "5 Series", "6 Series", "7 Series", "8 Series", "i3", "i8", "M", "M2", "M3", "M4", "M5", "M6", "X1", "X2", "X3", "X3 M", "X4", "X4 M", "X5", "X5 M", "X6", "X6 M", "X7", "Z3", "Z4", "Z4 M"],
   "Bolwell": ["Mk VII", "Nagari"],
   "Bufori": ["MK I", "MK II"],
   "Bugatti": ["EB110"],
