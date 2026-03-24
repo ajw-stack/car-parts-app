@@ -488,8 +488,7 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
       !selectedModel ||
       selectedYear === "" ||
       selectedSeries === "" ||
-      !selectedEngineKey ||
-      !selectedChassis
+      !selectedEngineKey
     )
       return null;
 
@@ -502,11 +501,8 @@ if (selectedTrim && !trimOptions.includes(selectedTrim)) {
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         (selectedSeries === "All" || seriesVal === selectedSeries) &&
-(
-  !selectedEngineKey ||
-  engineLabelFromKey(engineKey(v)) === selectedEngineKey
-) &&
-chassisVal === selectedChassis
+        (!selectedEngineKey || engineLabelFromKey(engineKey(v)) === selectedEngineKey) &&
+        (!selectedChassis || chassisVal === selectedChassis)
       );
     });
 
