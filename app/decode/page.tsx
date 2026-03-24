@@ -261,7 +261,7 @@ export default function DecodePage() {
           <button
             onClick={handleDecode}
             disabled={loading || !input.trim()}
-            className="rounded-xl bg-[#b40102] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-40"
+            className="rounded-xl bg-[#b40102] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#2a2a2a] disabled:opacity-40"
           >
             {loading ? "…" : "Decode"}
           </button>
