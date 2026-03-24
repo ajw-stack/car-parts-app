@@ -71,14 +71,13 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: r.ErrorText || "VIN could not be decoded." }, { status: 422 });
   }
 
-  // European VINs (Z check digit, ZZZ padding) cause NHTSA to mis-decode the
-  // model year. Always recalculate from position 10 and prefer our value.
-  const ourYear = decodeModelYear(vin);
+  // European VINs (Z check digit or ZZZ padding) cause NHTSA to mis-decode the
+  // model year. For those, use our own decoder. For all other VINs, trust NHTSA.
+  const isEuropean = vin[8] === "Z" || vin.substring(3, 9).includes("Z");
   const nhtsaYear = val("ModelYear");
-  const year = ourYear ?? nhtsaYear;
+  const year = isEuropean ? (decodeModelYear(vin) ?? nhtsaYear) : (nhtsaYear ?? decodeModelYear(vin));
 
   // Only surface a warning if NHTSA had real decode issues beyond EU formatting
-  const isEuropean = vin[8] === "Z" || vin.substring(3, 9).includes("Z");
   const hasWarning = errorCodes.some((c: number) => c !== 0) && !isEuropean;
 
   return NextResponse.json({
