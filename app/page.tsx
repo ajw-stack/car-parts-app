@@ -322,19 +322,27 @@ const yearOptions = useMemo(() => {
     if (!selectedMake || !selectedModel) return [];
     const set = new Set<string>();
     for (const v of vehicles) {
-      if (v.make === selectedMake && v.model === selectedModel) {
-        if (v.series) set.add(v.series);
-      }
+      if (v.make !== selectedMake || v.model !== selectedModel) continue;
+      if (
+        selectedYear !== "" &&
+        !(selectedYear >= v.year_from && (v.year_to === null || selectedYear <= v.year_to))
+      ) continue;
+      if (v.series) set.add(v.series);
     }
     const arr = Array.from(set).sort((a, b) => a.localeCompare(b));
     return ["All", ...arr];
-  }, [vehicles, selectedMake, selectedModel]);
+  }, [vehicles, selectedMake, selectedModel, selectedYear]);
 
-  // Auto-select "All" when the model has no series variants
+  // Auto-select "All" when the model has no series variants; reset if current series no longer valid for year
   useEffect(() => {
     if (!selectedMake || !selectedModel) return;
     if (seriesOptions.length === 1 && seriesOptions[0] === "All") {
       setSelectedSeries("All");
+      return;
+    }
+    if (selectedSeries && selectedSeries !== "All" && !seriesOptions.includes(selectedSeries)) {
+      setSelectedSeries("");
+      setSelectedEngineKey("");
     }
   }, [seriesOptions, selectedMake, selectedModel]);
 

@@ -18,9 +18,10 @@ export const CATEGORIES: Category[] = [
   { name: "Ignition Leads", slug: "ignition-leads", group: "Ignition" },
   { name: "Coil Packs", slug: "coil-packs", group: "Ignition" },
   // Brakes
-  { name: "Brake Pads", slug: "brake-pads", group: "Brakes" },
-  { name: "Brake Rotors", slug: "brake-rotors", group: "Brakes" },
-  { name: "Brake Drums", slug: "brake-drums", group: "Brakes" },
+  { name: "Brake Pads", slug: "brake-pads", group: "Brakes", dbNames: ["Brake Pads", "Brake Pad Set"] },
+  { name: "Brake Shoe Sets", slug: "brake-shoe-sets", group: "Brakes", dbNames: ["Brake Shoe Sets", "Brake Shoe Set"] },
+  { name: "Brake Rotors", slug: "brake-rotors", group: "Brakes", dbNames: ["Brake Rotors", "Brake Rotor"] },
+  { name: "Brake Drums", slug: "brake-drums", group: "Brakes", dbNames: ["Brake Drums", "Brake Drum"] },
   { name: "Brake Calipers", slug: "brake-calipers", group: "Brakes" },
   { name: "Brake Lines & Hoses", slug: "brake-lines-hoses", group: "Brakes" },
   // Suspension & Steering
