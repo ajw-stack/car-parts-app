@@ -15,7 +15,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
 
   const { data: vehicles } = await supabaseServer
     .from("vehicles")
-    .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade")
+    .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, specs")
     .eq("make", canonicalMake)
     .order("model")
     .order("year_from");
@@ -76,10 +76,16 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
                             <div className="mt-0.5 text-sm text-gray-500">
                               {v.year_from}
                               {v.year_to && v.year_to !== v.year_from ? `–${v.year_to}` : ""}
+                              {v.engine_code ? ` • ${v.engine_code}` : ""}
                               {v.engine_litres ? ` • ${v.engine_litres}L` : ""}
                               {v.engine_config ? ` • ${v.engine_config}` : ""}
                               {v.fuel_type ? ` • ${v.fuel_type}` : ""}
                             </div>
+                            {(v.specs as any)?.engine_description && (
+                              <div className="mt-0.5 text-xs text-gray-400">
+                                {(v.specs as any).engine_description}
+                              </div>
+                            )}
                           </div>
                           <span className="text-gray-300 text-lg">›</span>
                         </a>
@@ -120,6 +126,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
                           <div className="mt-0.5 text-sm text-gray-500">
                             {v.year_from}
                             {v.year_to && v.year_to !== v.year_from ? `–${v.year_to}` : ""}
+                            {v.engine_code ? ` • ${v.engine_code}` : ""}
                             {v.engine_litres ? ` • ${v.engine_litres}L` : ""}
                             {v.engine_config ? ` • ${v.engine_config}` : ""}
                             {v.fuel_type ? ` • ${v.fuel_type}` : ""}

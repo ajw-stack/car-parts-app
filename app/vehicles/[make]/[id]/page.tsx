@@ -55,12 +55,20 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             ← Back to {v.make}
           </a>
 
-          {/* Title */}
-          <div className="mt-3">
-            <h1 className="text-2xl font-bold text-[#111827]">
-              {v.make} {v.series} {v.model}
-            </h1>
-            {v.grade && <p className="mt-0.5 text-gray-500">{v.grade}</p>}
+          {/* Title + View Parts button */}
+          <div className="mt-3 flex items-start justify-between gap-4">
+            <div>
+              <h1 className="text-2xl font-bold text-[#111827]">
+                {v.make} {v.series} {v.model}
+              </h1>
+              {v.grade && <p className="mt-0.5 text-gray-500">{v.grade}</p>}
+            </div>
+            <a
+              href={`/vehicles/${makeSlug}/${id}/parts`}
+              className="shrink-0 rounded-xl bg-[#b40102] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#9a0101] transition-colors"
+            >
+              View Parts
+            </a>
           </div>
 
           {/* Core specs */}
@@ -75,7 +83,8 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Country of Origin" value={specs.country_of_origin} />
             <Row label="VIN Sample" value={specs.vin_sample} />
             <Row label="Warranty" value={specs.warranty} />
-            <Row label="RRP" value={specs.rrp} />
+            <Row label="Seats" value={specs.seats} />
+            <Row label="RON Rating" value={specs.ron_rating} />
           </Section>
 
           <Section title="Body">
@@ -84,11 +93,20 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Market Segment" value={specs.market_segment} />
             <Row label="Doors" value={specs.doors} />
             <Row label="Length (mm)" value={specs.length_mm} />
+            <Row label="Length with Spare (mm)" value={specs.length_with_spare_mm} />
             <Row label="Width (mm)" value={specs.width_mm} />
             <Row label="Height (mm)" value={specs.height_mm} />
+            <Row label="Wheelbase (mm)" value={specs.wheelbase_mm} />
             <Row label="Ground Clearance (mm)" value={specs.ground_clearance_mm} />
             <Row label="Kerb Mass (kg)" value={specs.kerb_mass_kg} />
+            <Row label="Curb Mass MT (kg)" value={specs.curb_mass_min_kg ? `${specs.curb_mass_min_kg}–${specs.curb_mass_max_kg}` : null} />
+            <Row label="Curb Mass AT (kg)" value={specs.curb_mass_at_min_kg ? `${specs.curb_mass_at_min_kg}–${specs.curb_mass_at_max_kg}` : null} />
             <Row label="GVM (kg)" value={specs.gvm_kg} />
+            <Row label="Max Axle Load Front (kg)" value={specs.max_axle_front_kg} />
+            <Row label="Max Axle Load Rear (kg)" value={specs.max_axle_rear_kg} />
+            <Row label="Boot Space (L)" value={specs.boot_space_litres} />
+            <Row label="Airbags" value={specs.airbags} />
+            <Row label="Spare Tyre" value={specs.spare_tyre} />
           </Section>
 
           <Section title="Engine">
@@ -96,21 +114,36 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Description" value={specs.engine_description} />
             <Row label="Configuration" value={v.engine_config} />
             <Row label="Cylinders" value={specs.cylinders} />
+            <Row label="Displacement (cc)" value={specs.displacement_cc} />
             <Row label="Capacity (L)" value={v.engine_litres} />
+            <Row label="Bore (mm)" value={specs.bore_mm} />
+            <Row label="Stroke (mm)" value={specs.stroke_mm} />
+            <Row label="Bore (in)" value={specs.bore_in} />
+            <Row label="Stroke (in)" value={specs.stroke_in} />
+            <Row label="Compression Ratio" value={specs.compression_ratio} />
             <Row label="Max Power" value={specs.max_power} />
             <Row label="Power (kW)" value={v.engine_kw} />
             <Row label="Max Torque" value={specs.max_torque} />
             <Row label="Torque (Nm)" value={specs.torque_nm} />
+            <Row label="Firing Order" value={specs.firing_order} />
             <Row label="Fuel Type" value={v.fuel_type} />
           </Section>
 
           <Section title="Transmission & Drive">
-            <Row label="Transmission" value={specs.transmission_description} />
+            <Row label="Transmission" value={specs.transmission ?? specs.transmission_description} />
             <Row label="Transmission Type" value={specs.transmission_type} />
             <Row label="Transmission Info" value={specs.transmission_info} />
+            <Row label="Drivetrain" value={specs.drivetrain} />
             <Row label="Transfer Box" value={specs.transfer_box} />
             <Row label="4WD System" value={specs.awd_description} />
             <Row label="Final Drive" value={specs.final_drive} />
+          </Section>
+
+          <Section title="Performance">
+            <Row label="0–100 km/h" value={specs["0_100_kmh"]} />
+            <Row label="Top Speed (km/h)" value={specs.top_speed_kmh} />
+            <Row label="Fuel Consumption (L/100km)" value={specs.consumption_l100km} />
+            <Row label="CO₂ Emissions (g/km)" value={specs.co2_g_km} />
           </Section>
 
           <Section title="Brakes">
@@ -121,7 +154,10 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           </Section>
 
           <Section title="Wheels & Tyres">
+            <Row label="Tyre" value={specs.tyre} />
             <Row label="Stud Pattern (PCD)" value={specs.wheel_pcd} />
+            <Row label="Rim (Steel)" value={specs.rim_steel} />
+            <Row label="Rim (Alloy)" value={specs.rim_alloy} />
             <Row label="Rim Material" value={specs.rim_material} />
             <Row label="Front Rim" value={specs.front_rim_desc} />
             <Row label="Front Rim Offset" value={specs.front_rim_offset} />
@@ -154,6 +190,35 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
               {specs.plus_size_rear_3 && <Row label="Plus Size Option 3 Rear" value={specs.plus_size_rear_3} />}
             </Section>
           )}
+
+          <Section title="Electrical">
+            <Row label="Battery" value={specs.battery} />
+            <Row label="Spark Plug" value={specs.spark_plug} />
+            <Row label="Spark Plug Gap" value={specs.spark_plug_gap_in} />
+            <Row label="Distributor Point Opening" value={specs.distributor_point_opening_in} />
+            <Row label="Cam Angle Dwell" value={specs.cam_angle_dwell} />
+            <Row label="Headlight" value={specs.headlight} />
+          </Section>
+
+          <Section title="Fluids & Capacities">
+            <Row label="Fuel Tank (L)" value={specs.fuel_tank_litres} />
+            <Row label="Engine Oil (L)" value={specs.engine_oil_litres} />
+            <Row label="Engine Oil Spec" value={specs.engine_oil_spec} />
+            <Row label="Engine Oil Service Refill (pints)" value={specs.oil_capacity_service_pints} />
+            <Row label="Oil Filter Add (pints)" value={specs.oil_filter_add_pints} />
+            <Row label="Coolant (L)" value={specs.coolant_litres} />
+            <Row label="Cooling System (pints)" value={specs.cooling_capacity_pints} />
+            <Row label="Manual Trans Oil (L)" value={specs.manual_trans_oil_litres} />
+            <Row label="Manual Trans Oil Spec" value={specs.manual_trans_oil_spec} />
+            <Row label="Auto Trans Oil (L)" value={specs.auto_trans_oil_litres} />
+            <Row label="Auto Trans Oil Spec" value={specs.auto_trans_oil_spec} />
+            <Row label="Front Diff Oil (L)" value={specs.front_diff_oil_litres} />
+            <Row label="Rear Diff Oil (L)" value={specs.rear_diff_oil_litres} />
+            <Row label="Transfer Oil (L)" value={specs.transfer_oil_litres} />
+            <Row label="Transfer Oil Spec" value={specs.transfer_oil_spec} />
+            <Row label="Rear Axle (pints)" value={specs.rear_axle_capacity_pints} />
+            <Row label="Brake Fluid Spec" value={specs.brake_fluid_spec} />
+          </Section>
 
           <Section title="Service">
             <Row label="Minor Service Interval (km)" value={specs.service_interval_km} />
