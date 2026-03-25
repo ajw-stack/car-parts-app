@@ -22,6 +22,22 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
+function TagRow({ label, tags }: { label: string; tags: string[] }) {
+  if (!tags || tags.length === 0) return null;
+  return (
+    <div className="flex py-2.5 border-b border-gray-100 last:border-0 items-start">
+      <span className="w-56 shrink-0 text-sm text-gray-500">{label}</span>
+      <div className="flex flex-wrap gap-1.5">
+        {tags.map(tag => (
+          <span key={tag} className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-700">
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default async function VehicleDetailPage({ params }: { params: Promise<{ make: string; id: string }> }) {
   const { make: makeSlug, id } = await params;
 
@@ -77,6 +93,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Model" value={v.model} />
             <Row label="Series" value={v.series} />
             <Row label="Grade" value={v.grade} />
+            <TagRow label="Grades" tags={Array.isArray(specs.grades) ? specs.grades : []} />
             <Row label="Year From" value={v.year_from} />
             <Row label="Year To" value={v.year_to} />
             <Row label="Notes" value={v.notes} />
@@ -130,6 +147,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           </Section>
 
           <Section title="Transmission & Drive">
+            <TagRow label="Transmissions" tags={Array.isArray(specs.transmissions) ? specs.transmissions : []} />
             <Row label="Transmission" value={specs.transmission ?? specs.transmission_description} />
             <Row label="Transmission Type" value={specs.transmission_type} />
             <Row label="Transmission Info" value={specs.transmission_info} />
