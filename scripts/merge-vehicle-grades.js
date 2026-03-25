@@ -67,10 +67,10 @@ async function main() {
   }
 
   for (const group of toMerge) {
-    // Sort: non-null trims first, then alphabetically; primary = first
+    // Sort: null-trim first (becomes primary, avoids unique constraint conflict), then alphabetically
     group.sort((a, b) => {
-      if (a.trim_code && !b.trim_code) return -1;
-      if (!a.trim_code && b.trim_code) return 1;
+      if (!a.trim_code && b.trim_code) return -1;
+      if (a.trim_code && !b.trim_code) return 1;
       return (a.trim_code ?? '').localeCompare(b.trim_code ?? '');
     });
 
