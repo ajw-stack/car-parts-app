@@ -18,7 +18,9 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
     .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, specs")
     .eq("make", canonicalMake)
     .order("model")
-    .order("year_from");
+    .order("year_from", { nullsFirst: false })
+    .order("year_to", { nullsFirst: false })
+    .order("engine_litres", { nullsFirst: false });
 
   // Group DB vehicles by model
   const dbByModel: Record<string, typeof vehicles> = {};
