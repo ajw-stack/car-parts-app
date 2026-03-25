@@ -111,6 +111,29 @@ function normMake(raw) {
 }
 
 // ─── CSV parsing ──────────────────────────────────────────────────────────────
+function splitCSVLine(line) {
+  const fields = [];
+  let cur = '';
+  let inQuote = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuote) {
+      if (ch === '"') {
+        if (line[i + 1] === '"') { cur += '"'; i++; } // escaped ""
+        else inQuote = false;
+      } else {
+        cur += ch;
+      }
+    } else {
+      if (ch === '"') { inQuote = true; }
+      else if (ch === ',') { fields.push(cur.trim()); cur = ''; }
+      else { cur += ch; }
+    }
+  }
+  fields.push(cur.trim());
+  return fields;
+}
+
 function parseCSV(filePath) {
   const lines = fs.readFileSync(filePath, 'utf8').split(/\r?\n/);
   const rows  = [];
@@ -120,7 +143,7 @@ function parseCSV(filePath) {
     const line = rawLine.trim();
     if (!line) continue;
 
-    const cols = line.split(',').map(c => c.trim());
+    const cols = splitCSVLine(line);
 
     // First non-blank line = header
     if (!headers) {
