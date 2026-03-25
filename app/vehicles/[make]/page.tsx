@@ -15,7 +15,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
 
   const { data: vehicles } = await supabaseServer
     .from("vehicles")
-    .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, specs")
+    .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, trim_code, specs")
     .eq("make", canonicalMake)
     .order("model")
     .order("year_from", { nullsFirst: false })
@@ -73,7 +73,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
                           <div>
                             <div className="font-medium text-[#111827]">
                               {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
-                              {v.grade ?? model}
+                              {v.trim_code ?? v.grade ?? model}
                             </div>
                             <div className="mt-0.5 text-sm text-gray-500">
                               {v.year_from}
@@ -83,11 +83,6 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
                               {v.engine_config ? ` • ${v.engine_config}` : ""}
                               {v.fuel_type ? ` • ${v.fuel_type}` : ""}
                             </div>
-                            {(v.specs as any)?.engine_description && (
-                              <div className="mt-0.5 text-xs text-gray-400">
-                                {(v.specs as any).engine_description}
-                              </div>
-                            )}
                           </div>
                           <span className="text-gray-300 text-lg">›</span>
                         </a>
@@ -123,7 +118,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
                         <div>
                           <div className="font-medium text-[#111827]">
                             {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
-                            {v.grade ?? model}
+                            {v.trim_code ?? v.grade ?? model}
                           </div>
                           <div className="mt-0.5 text-sm text-gray-500">
                             {v.year_from}

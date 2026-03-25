@@ -10,7 +10,7 @@ export default async function VehiclePartsPage({
 
   const { data: vehicle } = await supabaseServer
     .from("vehicles")
-    .select("id, make, model, series, grade, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type")
+    .select("id, make, model, series, grade, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type")
     .eq("id", id)
     .single();
 
@@ -92,7 +92,7 @@ export default async function VehiclePartsPage({
   );
 
   const vehicleTitle = vehicle
-    ? `${vehicle.make} ${vehicle.series ?? ""} ${vehicle.model} ${vehicle.grade ?? ""}`.trim()
+    ? `${vehicle.make} ${vehicle.series ?? ""} ${vehicle.model} ${vehicle.trim_code ?? vehicle.grade ?? ""}`.trim()
     : "Vehicle";
 
   const vehicleSubtitle = vehicle

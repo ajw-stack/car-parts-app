@@ -57,7 +57,7 @@ export default async function PartPage({
       engine_restriction,
       notes,
       vehicles:vehicle_id (
-        id, make, model, series, grade, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type
+        id, make, model, series, grade, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type
       )
     `)
     .eq("part_id", partId);
@@ -179,7 +179,7 @@ export default async function PartPage({
                             <div className="font-medium text-[#111827]">
                               {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
                               {v.model}
-                              {v.grade && <span className="ml-2 text-gray-500">{v.grade}</span>}
+                              {(v.trim_code ?? v.grade) && <span className="ml-2 text-gray-500">{v.trim_code ?? v.grade}</span>}
                             </div>
                             <div className="mt-0.5 text-sm text-gray-500">
                               {v.year_from}

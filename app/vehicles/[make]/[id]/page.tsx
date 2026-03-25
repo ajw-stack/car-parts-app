@@ -77,7 +77,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
               <h1 className="text-2xl font-bold text-[#111827]">
                 {v.make} {v.series} {v.model}
               </h1>
-              {v.grade && <p className="mt-0.5 text-gray-500">{v.grade}</p>}
+              {(v.trim_code ?? v.grade) && <p className="mt-0.5 text-gray-500">{v.trim_code ?? v.grade}</p>}
             </div>
             <a
               href={`/vehicles/${makeSlug}/${id}/parts`}
@@ -92,8 +92,8 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Make" value={v.make} />
             <Row label="Model" value={v.model} />
             <Row label="Series" value={v.series} />
-            <Row label="Grade" value={v.grade} />
-            <TagRow label="Grades" tags={Array.isArray(specs.grades) ? specs.grades : []} />
+            <Row label="Trim" value={v.trim_code ?? v.grade} />
+            <TagRow label="Trims" tags={Array.isArray(specs.grades) ? specs.grades : []} />
             <Row label="Year From" value={v.year_from} />
             <Row label="Year To" value={v.year_to} />
             <Row label="Notes" value={v.notes} />
@@ -128,7 +128,6 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
 
           <Section title="Engine">
             <Row label="Engine Code" value={v.engine_code} />
-            <Row label="Description" value={specs.engine_description} />
             <Row label="Configuration" value={v.engine_config} />
             <Row label="Cylinders" value={specs.cylinders} />
             <Row label="Displacement (cc)" value={specs.displacement_cc} />
@@ -147,7 +146,9 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           </Section>
 
           <Section title="Transmission & Drive">
-            <TagRow label="Transmissions" tags={Array.isArray(specs.transmissions) ? specs.transmissions : []} />
+            {Array.isArray(specs.transmissions) && specs.transmissions.length > 0 && (
+              <Row label="Transmissions" value={specs.transmissions.join(' / ')} />
+            )}
             <Row label="Transmission" value={specs.transmission ?? specs.transmission_description} />
             <Row label="Transmission Type" value={specs.transmission_type} />
             <Row label="Transmission Info" value={specs.transmission_info} />
