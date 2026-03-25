@@ -2,6 +2,7 @@ import { supabaseServer } from "../../lib/supabaseServer";
 import Header from "../../components/Header";
 import { MAKES_CONFIG, slugToMake } from "../../lib/makes";
 import { notFound } from "next/navigation";
+import VehicleModelList from "./VehicleModelList";
 
 export default async function MakePage({ params }: { params: Promise<{ make: string }> }) {
   const { make: makeSlugParam } = await params;
@@ -45,97 +46,23 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
             </p>
           </div>
 
-          <div className="space-y-3">
-            {configModels.map((model) => {
-              const variants = dbByModel[model] ?? [];
-              const hasData = variants.length > 0;
-
-              return (
-                <div key={model} className="rounded-xl border border-gray-200 overflow-hidden">
-                  {/* Model header */}
-                  <div className="bg-[#141414] px-5 py-3 flex items-center justify-between">
-                    <h2 className="text-base font-semibold text-white">{model}</h2>
-                    {hasData && (
-                      <span className="ml-3 inline-flex items-center rounded-full bg-[#b40102] px-2.5 py-0.5 text-xs font-medium text-white">
-                        {variants.length}
-                      </span>
-                    )}
-                  </div>
-
-                  {hasData ? (
-                    <div className="divide-y divide-gray-100">
-                      {variants.map((v) => (
-                        <a
-                          key={v.id}
-                          href={`/vehicles/${makeSlugParam}/${v.id}`}
-                          className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
-                        >
-                          <div>
-                            <div className="font-medium text-[#111827]">
-                              {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
-                              {v.trim_code ?? v.grade ?? model}
-                            </div>
-                            <div className="mt-0.5 text-sm text-gray-500">
-                              {v.year_from}
-                              {v.year_to && v.year_to !== v.year_from ? `–${v.year_to}` : ""}
-                              {v.engine_code ? ` • ${v.engine_code}` : ""}
-                              {v.engine_litres ? ` • ${v.engine_litres}L` : ""}
-                              {v.engine_config ? ` • ${v.engine_config}` : ""}
-                              {v.fuel_type ? ` • ${v.fuel_type}` : ""}
-                            </div>
-                          </div>
-                          <span className="text-gray-300 text-lg">›</span>
-                        </a>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="px-5 py-3 text-sm text-gray-400 italic">
-                      Coming soon
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-
-            {/* Show any DB models not in the config list */}
-            {Object.entries(dbByModel)
-              .filter(([model]) => !configModels.includes(model))
-              .map(([model, variants]) => (
-                <div key={model} className="rounded-xl border border-gray-200 overflow-hidden">
-                  <div className="bg-[#141414] px-5 py-3 flex items-center justify-between">
-                    <h2 className="text-base font-semibold text-white">{model}</h2>
-                    <span className="ml-3 inline-flex items-center rounded-full bg-[#b40102] px-2.5 py-0.5 text-xs font-medium text-white">
-                      {variants!.length}
-                    </span>
-                  </div>
-                  <div className="divide-y divide-gray-100">
-                    {variants!.map((v) => (
-                      <a
-                        key={v.id}
-                        href={`/vehicles/${makeSlugParam}/${v.id}`}
-                        className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
-                      >
-                        <div>
-                          <div className="font-medium text-[#111827]">
-                            {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
-                            {v.trim_code ?? v.grade ?? model}
-                          </div>
-                          <div className="mt-0.5 text-sm text-gray-500">
-                            {v.year_from}
-                            {v.year_to && v.year_to !== v.year_from ? `–${v.year_to}` : ""}
-                            {v.engine_code ? ` • ${v.engine_code}` : ""}
-                            {v.engine_litres ? ` • ${v.engine_litres}L` : ""}
-                            {v.engine_config ? ` • ${v.engine_config}` : ""}
-                            {v.fuel_type ? ` • ${v.fuel_type}` : ""}
-                          </div>
-                        </div>
-                        <span className="text-gray-300 text-lg">›</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              ))}
-          </div>
+          <VehicleModelList
+            makeSlug={makeSlugParam}
+            models={[
+              ...configModels.map((model) => ({
+                model,
+                variants: (dbByModel[model] ?? []) as any[],
+                hasData: (dbByModel[model] ?? []).length > 0,
+              })),
+              ...Object.entries(dbByModel)
+                .filter(([model]) => !configModels.includes(model))
+                .map(([model, variants]) => ({
+                  model,
+                  variants: (variants ?? []) as any[],
+                  hasData: true,
+                })),
+            ]}
+          />
         </div>
       </main>
 
