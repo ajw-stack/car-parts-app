@@ -38,8 +38,7 @@ export default function SideMenu({
         <div className="h-full flex flex-col overflow-y-auto">
           <nav className="flex flex-col">
             <a href="/" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Home</a>
-            <a href="/saved-lists" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Saved Lists</a>
-            <a href="/new-products" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">New Products</a>
+            <a href="/saved-lists" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">My Garage</a>
 
             {/* Vehicles collapsible */}
             <button
@@ -51,6 +50,23 @@ export default function SideMenu({
             </button>
             {vehiclesOpen && (
               <div className="border-b border-[#1A1A1A]">
+                {/* Popular makes */}
+                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider">
+                  Popular
+                </div>
+                {["Toyota", "Mazda", "Ford", "Holden", "Hyundai"].map((make) => (
+                  <a
+                    key={`popular-${make}`}
+                    href={`/vehicles/${makeSlug(make)}`}
+                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1F1F1F] border-b border-[#1A1A1A]/50"
+                  >
+                    {make}
+                  </a>
+                ))}
+                {/* All makes */}
+                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider border-t border-[#1A1A1A]">
+                  All Makes
+                </div>
                 {MAKES.map((make) => (
                   <a
                     key={make}
@@ -64,11 +80,8 @@ export default function SideMenu({
             )}
 
             <a href="/decode" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">VIN &amp; Rego Decoder</a>
-            <a href="/parts" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Parts</a>
-            <a href="/brands" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Brands</a>
-            <a href="/settings" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Settings</a>
             <a href="/categories" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Categories</a>
-            <a href="/parts-guide" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Parts Guide</a>
+            <a href="/parts-guide" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Parts Search</a>
             <a href="/contact" className="p-4 border-b border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]">Contact</a>
           </nav>
 

@@ -181,7 +181,6 @@ export default function Page() {
   const [selectedSeries, setSelectedSeries] = useState("");
   const [selectedEngineKey, setSelectedEngineKey] = useState("");
   const [selectedChassis, setSelectedChassis] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedTrim, setSelectedTrim] = useState(""); 
   
   const applyingQuickSearchRef = useRef(false);
@@ -677,23 +676,11 @@ function onQuickSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     setSelectedSeries("");
     setSelectedEngineKey("");
     setSelectedChassis("");
-    setSelectedCategory("");
     setParts([]);
     setPartsError(null);
   }
 
-  const categories = useMemo(() => {
-  const set = new Set<string>();
-  for (const p of parts) {
-    if (p?.category) set.add(p.category);
-  }
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
-}, [parts]);
-
-const filteredParts = useMemo(() => {
-  if (!selectedCategory) return parts;
-  return parts.filter((p) => p.category === selectedCategory);
-}, [parts, selectedCategory]);
+const filteredParts = parts;
 
 const partsCountLabel = useMemo(() => {
   if (!selectedVehicleId) return "";
@@ -707,136 +694,10 @@ return (
 
  <main className="flex-1 w-full bg-[#F8FAFC]">
   <div className="mx-auto max-w-5xl px-6 py-10">
-      <div className="flex items-start justify-between gap-6">
-
-        <button
-          onClick={clearAll}
-          className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
-        >
-          Clear Search
-        </button>
-      </div>
-
-      {/* Quick search */}
-      <div className="mt-10">
-        <label className="text-sm font-semibold text-[#0F0F0F]">Quick search (optional)</label>
-        <div className="mt-3">
-<input
-  name="vehicle-search"
-  value={query}
-  onChange={(e) => setQuery(e.target.value)}
-  onKeyDown={onQuickSearchKeyDown}
-  placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-  autoComplete="off"
-  autoCorrect="off"
-  autoCapitalize="off"
-  spellCheck="false"
-  className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
-/>
-          {query.trim() && searchMatches.length > 0 && (
-            <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
-              {searchMatches.map((v, idx) => (
-                <button
-                  key={v.id}
-                  type="button"
-                  onMouseEnter={() => setSearchActiveIndex(idx)}
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                    applyVehicle(v);
-                    setQuery("");
-                  }}
-                  className={[
-                    "block w-full px-4 py-2 text-left text-sm text-[#0F0F0F]",
-                    idx === searchActiveIndex ? "bg-[#F5F5F5]" : "hover:bg-[#F5F5F5]",
-                  ].join(" ")}
-                >
-                  {vehicleCardLabel(v)}
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-
-
-<div className="flex flex-wrap gap-2 mt-3 mb-6">
-
-{selectedMake && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => {
-setSelectedMake("")
-setSelectedModel("")
-setSelectedYear("")
-setSelectedSeries("")
-setSelectedEngineKey("")
-setSelectedTrim("")
-setSelectedChassis("")
-}}
->
-{selectedMake} 
-</button>
-)}
-
-{selectedModel && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedModel("")}
->
-{selectedModel}
-</button>
-)}
-
-{selectedYear && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedYear("")}
->
-{selectedYear} 
-</button>
-)}
-
-{selectedSeries && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedSeries("")}
->
-{selectedSeries} 
-</button>
-)}
-
-{selectedEngineKey && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedEngineKey("")}
->
-{formatEngineLabel(engineLabelFromKey(selectedEngineKey))}
-</button>
-)}
-
-{selectedTrim && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedTrim("")}
->
-{selectedTrim}
-</button>
-)}
-
-{selectedChassis && (
-<button
-className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-onClick={() => setSelectedChassis("")}
->
-{selectedChassis}
-</button>
-)}
-
-</div>
-
-
-        {/* Dropdowns */}
-      <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-5">
+      {/* Dropdowns */}
+      <div className="mt-4">
+        <label className="text-sm font-semibold text-[#0F0F0F]">Vehicle selector</label>
+      <div className="mt-3 grid grid-cols-1 gap-4 md:grid-cols-5">
     <TypeaheadInput
   value={selectedMake}
   onChange={(v) => {
@@ -938,13 +799,13 @@ onClick={() => setSelectedChassis("")}
   options={chassisOptions.map((c) => {
   const from =
     (c.month_from ? String(c.month_from).padStart(2, "0") + "/" : "") +
-    String(c.year_from); // ✅ full year
+    String(c.year_from);
 
   const to =
     c.year_to === null
       ? "Current"
       : (c.month_to ? String(c.month_to).padStart(2, "0") + "/" : "") +
-        String(c.year_to); // ✅ full year
+        String(c.year_to);
 
 return `${from} → ${to} • ${[c.chassis?.trim(), (c as any).notes?.trim()].filter(Boolean).join(" — ")}`;
 })}
@@ -952,6 +813,132 @@ placeholder="Chassis / Variant"
   disabled={!selectedMake || !selectedModel || selectedYear === ""}
 />
         </div>
+      </div>
+
+<div className="flex flex-wrap gap-2 mt-3 mb-6">
+
+{selectedMake && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => {
+setSelectedMake("")
+setSelectedModel("")
+setSelectedYear("")
+setSelectedSeries("")
+setSelectedEngineKey("")
+setSelectedTrim("")
+setSelectedChassis("")
+}}
+>
+{selectedMake} 
+</button>
+)}
+
+{selectedModel && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedModel("")}
+>
+{selectedModel}
+</button>
+)}
+
+{selectedYear && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedYear("")}
+>
+{selectedYear} 
+</button>
+)}
+
+{selectedSeries && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedSeries("")}
+>
+{selectedSeries} 
+</button>
+)}
+
+{selectedEngineKey && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedEngineKey("")}
+>
+{formatEngineLabel(engineLabelFromKey(selectedEngineKey))}
+</button>
+)}
+
+{selectedTrim && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedTrim("")}
+>
+{selectedTrim}
+</button>
+)}
+
+{selectedChassis && (
+<button
+className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+onClick={() => setSelectedChassis("")}
+>
+{selectedChassis}
+</button>
+)}
+
+</div>
+
+
+      {/* Quick search */}
+      <div className="mt-6">
+        <div className="flex items-center justify-between mb-3">
+          <label className="text-sm font-semibold text-[#0F0F0F]">Quick search</label>
+          <button
+            onClick={clearAll}
+            className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
+          >
+            Clear Search
+          </button>
+        </div>
+        <div>
+          <input
+            name="vehicle-search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={onQuickSearchKeyDown}
+            placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="off"
+            spellCheck="false"
+            className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
+          />
+          {query.trim() && searchMatches.length > 0 && (
+            <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
+              {searchMatches.map((v, idx) => (
+                <button
+                  key={v.id}
+                  type="button"
+                  onMouseEnter={() => setSearchActiveIndex(idx)}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                    applyVehicle(v);
+                    setQuery("");
+                  }}
+                  className={[
+                    "block w-full px-4 py-2 text-left text-sm text-[#0F0F0F]",
+                    idx === searchActiveIndex ? "bg-[#F5F5F5]" : "hover:bg-[#F5F5F5]",
+                  ].join(" ")}
+                >
+                  {vehicleCardLabel(v)}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
 
         {/* Parts */}
         {selectedMake && selectedModel && selectedYear && (
@@ -974,38 +961,10 @@ placeholder="Chassis / Variant"
 {/* Parts */}
         <div className="mt-10">
           <div className="flex items-center justify-between">
-            <h2 className="text-2xl font-semibold">Compatible Parts</h2>
+            <h2 className="text-sm font-semibold text-[#0F0F0F]">Compatible Parts</h2>
  <div className="text-sm text-[#6A6A6A]">{partsCountLabel}</div>
           </div>
 
-          {/* Category Filter */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full">
-  <label className="text-sm text-[#6A6A6A]">Category</label>
-
-  <select
-    value={selectedCategory}
-    onChange={(e) => setSelectedCategory(e.target.value)}
-  className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] outline-none"
-    disabled={!selectedVehicleId || loadingParts}
-  >
-    <option value="">All categories</option>
-    {categories.map((c) => (
-      <option key={c} value={c} className="text-black">
-        {c}
-      </option>
-    ))}
-  </select>
-
-  {selectedCategory && (
-    <button
-      type="button"
-   className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
-      onClick={() => setSelectedCategory("")}
-    >
-      Clear
-    </button>
-  )}
-</div>
 
           <div className="mt-4 rounded-2xl border border-[#DCDCDC] bg-white p-4">
             {!selectedVehicleId ? (
