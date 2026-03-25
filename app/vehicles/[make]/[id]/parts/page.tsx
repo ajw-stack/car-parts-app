@@ -52,6 +52,32 @@ export default async function VehiclePartsPage({
       return (a.brand + a.part_number).localeCompare(b.brand + b.part_number);
     });
 
+  // Fetch cross-references for all parts on this page
+  const partIds = [...new Set(parts.map((p: any) => p.id))];
+  let crossRefMap: Record<string, Array<{ id: string; brand: string; part_number: string; name: string }>> = {};
+
+  if (partIds.length > 0) {
+    const { data: crossRefs } = await supabaseServer
+      .from("cross_references")
+      .select(`
+        part_id,
+        cross_part:cross_part_id (
+          id,
+          brand,
+          part_number,
+          name
+        )
+      `)
+      .in("part_id", partIds);
+
+    for (const row of crossRefs ?? []) {
+      const pid = (row as any).part_id;
+      if (!crossRefMap[pid]) crossRefMap[pid] = [];
+      const cp = (row as any).cross_part;
+      if (cp) crossRefMap[pid].push(cp);
+    }
+  }
+
   // Group by category, preserving sort order
   const byCategory: Record<string, { sort_order: number; parts: typeof parts }> = {};
   for (const p of parts) {
@@ -128,45 +154,79 @@ export default async function VehiclePartsPage({
                       <span className="text-xs text-white/50">{categoryParts.length}</span>
                     </div>
                     <div className="divide-y divide-gray-100">
-                      {categoryParts.map((p: any) => (
-                        <a
-                          key={`${p.id}-${p.position ?? "none"}`}
-                          href={`/part/${p.id}`}
-                          className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
-                        >
-                          <div>
-                            <div className="font-medium text-[#111827]">
-                              {p.brand} {p.part_number}
-                              {p.position && (
-                                <span className="ml-2 text-xs font-normal text-gray-400 uppercase tracking-wide">
-                                  {p.position}
-                                </span>
+                      {categoryParts.map((p: any) => {
+                        const refs = crossRefMap[p.id] ?? [];
+                        const oemRefs = refs.filter((r) =>
+                          ["holden", "toyota", "ford", "mitsubishi", "mazda", "honda", "nissan", "subaru",
+                           "hyundai", "kia", "volkswagen", "bmw", "mercedes", "audi", "gm", "chrysler",
+                           "jeep", "dodge", "ram", "fiat", "peugeot", "renault", "volvo", "land rover",
+                           "jaguar", "lexus", "infiniti", "acura", "isuzu", "suzuki", "daihatsu",
+                           "ssangyong", "great wall", "chery"].includes(r.brand.toLowerCase())
+                        );
+                        const aftermarketRefs = refs.filter((r) => !oemRefs.includes(r));
+
+                        return (
+                          <a
+                            key={`${p.id}-${p.position ?? "none"}`}
+                            href={`/part/${p.id}`}
+                            className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
+                          >
+                            <div className="min-w-0 flex-1">
+                              <div className="font-medium text-[#111827]">
+                                {p.brand} {p.part_number}
+                                {p.position && (
+                                  <span className="ml-2 text-xs font-normal text-gray-400 uppercase tracking-wide">
+                                    {p.position}
+                                  </span>
+                                )}
+                                {p.qty > 1 && (
+                                  <span className="ml-2 text-xs font-normal text-gray-400">
+                                    ×{p.qty}
+                                  </span>
+                                )}
+                              </div>
+                              {(p.description || p.name) && (
+                                <div className="mt-0.5 text-sm text-gray-500">
+                                  {p.description ?? p.name}
+                                </div>
                               )}
-                              {p.qty > 1 && (
-                                <span className="ml-2 text-xs font-normal text-gray-400">
-                                  ×{p.qty}
-                                </span>
+                              {p.engine_restriction && (
+                                <div className="mt-0.5 text-xs text-gray-400">
+                                  {p.engine_restriction}
+                                </div>
+                              )}
+
+                              {/* Cross-references */}
+                              {(oemRefs.length > 0 || aftermarketRefs.length > 0 || p.oem_number) && (
+                                <div className="mt-1.5 flex flex-wrap gap-1.5">
+                                  {p.oem_number && (
+                                    <span className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-2 py-0.5 text-xs text-blue-700">
+                                      OEM {p.oem_number}
+                                    </span>
+                                  )}
+                                  {oemRefs.map((r) => (
+                                    <span
+                                      key={r.id}
+                                      className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-2 py-0.5 text-xs text-blue-700"
+                                    >
+                                      {r.brand} {r.part_number}
+                                    </span>
+                                  ))}
+                                  {aftermarketRefs.map((r) => (
+                                    <span
+                                      key={r.id}
+                                      className="inline-flex items-center rounded-full border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs text-gray-600"
+                                    >
+                                      {r.brand} {r.part_number}
+                                    </span>
+                                  ))}
+                                </div>
                               )}
                             </div>
-                            {(p.description || p.name) && (
-                              <div className="mt-0.5 text-sm text-gray-500">
-                                {p.description ?? p.name}
-                              </div>
-                            )}
-                            {p.oem_number && (
-                              <div className="mt-0.5 text-xs text-gray-400">
-                                OEM: {p.oem_number}
-                              </div>
-                            )}
-                            {p.engine_restriction && (
-                              <div className="mt-0.5 text-xs text-gray-400">
-                                {p.engine_restriction}
-                              </div>
-                            )}
-                          </div>
-                          <span className="text-gray-300 text-lg">›</span>
-                        </a>
-                      ))}
+                            <span className="ml-4 text-gray-300 text-lg shrink-0">›</span>
+                          </a>
+                        );
+                      })}
                     </div>
                   </div>
                 ))}
