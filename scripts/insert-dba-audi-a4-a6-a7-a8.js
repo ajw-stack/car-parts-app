@@ -51,7 +51,7 @@ const PARTS = [
   // ─── A4 B8/B9 / A5 8T / A6 C7 / A7 rears ─────────────────────────────────────
   { part_number: 'DBA2823',    pos: 'Rear',  description: dim({ type:'Solid',  a:300,   b:36.2, c:12,  d:10,   e:68, f:5 }) },
   { part_number: 'DBA2847E',   pos: 'Rear',  description: dim({ type:'Solid',  a:330,   b:36.2, c:22,  d:20,   e:68, f:5 }) },
-  { part_number: 'DBA2849E',   pos: 'Rear',  description: dim({ type:'Vented', a:355,   b:36.3, c:22,  d:20,   e:68, f:5 }) },
+  { part_number: 'DBA2849E',   pos: 'Rear',  description: dim({ type:'Vented', a:356,   b:36.3, c:22,  d:20,   e:68, f:5 }) },
   { part_number: 'DBA3012E',   pos: 'Rear',  description: dim({ type:'Solid',  a:300,   b:36.2, c:12,  d:10,   e:68, f:5 }) }, // *estimated
   // ─── S4 / A4-S4 range ─────────────────────────────────────────────────────────
   { part_number: 'DBA4569',    pos: 'Front', description: dim({ type:'Vented', a:345,   b:51,   c:30,  d:28,   e:68, f:5 }) }, // *estimated
