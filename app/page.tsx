@@ -145,7 +145,7 @@ return (
   readOnly
   onClick={() => setOpen(true)}
   onBlur={() => setOpen(false)}
-  className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
+  className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
 />
 
     {open && filtered.length > 0 && (
@@ -694,6 +694,55 @@ return (
 
  <main className="flex-1 w-full bg-[#F8FAFC]">
   <div className="mx-auto max-w-5xl px-6 py-10">
+      {/* Quick search */}
+      <div className="mt-4">
+        <div className="flex items-center justify-between mb-3">
+          <label className="text-sm font-semibold text-[#0F0F0F]">Quick search</label>
+          <button
+            onClick={clearAll}
+            className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
+          >
+            Clear Search
+          </button>
+        </div>
+        <div>
+          <input
+            name="vehicle-search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={onQuickSearchKeyDown}
+            placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="off"
+            spellCheck="false"
+            className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
+          />
+          {query.trim() && searchMatches.length > 0 && (
+            <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
+              {searchMatches.map((v, idx) => (
+                <button
+                  key={v.id}
+                  type="button"
+                  onMouseEnter={() => setSearchActiveIndex(idx)}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                    applyVehicle(v);
+                    setQuery("");
+                  }}
+                  className={[
+                    "block w-full px-4 py-2 text-left text-sm text-[#0F0F0F]",
+                    idx === searchActiveIndex ? "bg-[#F5F5F5]" : "hover:bg-[#F5F5F5]",
+                  ].join(" ")}
+                >
+                  {vehicleCardLabel(v)}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
       {/* Dropdowns */}
       <div className="mt-4">
         <label className="text-sm font-semibold text-[#0F0F0F]">Vehicle selector</label>
@@ -890,55 +939,6 @@ onClick={() => setSelectedChassis("")}
 
 </div>
 
-
-      {/* Quick search */}
-      <div className="mt-6">
-        <div className="flex items-center justify-between mb-3">
-          <label className="text-sm font-semibold text-[#0F0F0F]">Quick search</label>
-          <button
-            onClick={clearAll}
-            className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
-          >
-            Clear Search
-          </button>
-        </div>
-        <div>
-          <input
-            name="vehicle-search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={onQuickSearchKeyDown}
-            placeholder="Type: Hilux 1GD, Ranger 2018 3.2, Corolla…"
-            autoComplete="off"
-            autoCorrect="off"
-            autoCapitalize="off"
-            spellCheck="false"
-            className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 text-sm text-[#0F0F0F] placeholder:text-[#6A6A6A] outline-none focus:border-[#BDBDBD]"
-          />
-          {query.trim() && searchMatches.length > 0 && (
-            <div className="mt-2 overflow-hidden rounded-xl border border-[#DCDCDC] bg-white">
-              {searchMatches.map((v, idx) => (
-                <button
-                  key={v.id}
-                  type="button"
-                  onMouseEnter={() => setSearchActiveIndex(idx)}
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                    applyVehicle(v);
-                    setQuery("");
-                  }}
-                  className={[
-                    "block w-full px-4 py-2 text-left text-sm text-[#0F0F0F]",
-                    idx === searchActiveIndex ? "bg-[#F5F5F5]" : "hover:bg-[#F5F5F5]",
-                  ].join(" ")}
-                >
-                  {vehicleCardLabel(v)}
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
 
         {/* Parts */}
         {selectedMake && selectedModel && selectedYear && (
