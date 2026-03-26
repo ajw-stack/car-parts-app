@@ -328,7 +328,7 @@ export default function Page() {
       if (
         v.make === selectedMake &&
         v.model === selectedModel &&
-        v.series === selectedSeries &&
+        (selectedSeries === "All" || v.series === selectedSeries) &&
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
         (!selectedEngineKey ||
@@ -431,7 +431,8 @@ export default function Page() {
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
         (v.year_to === null || selectedYear <= v.year_to) &&
-        (seriesVal === selectedSeries ||
+        (selectedSeries === "All" ||
+          seriesVal === selectedSeries ||
           (seriesVal === "" && selectedSeries === "")) &&
         (!selectedEngineKey ||
           engineLabelFromKey(engineKey(v)) === selectedEngineKey)
@@ -689,7 +690,8 @@ export default function Page() {
                       row.model === selectedModel &&
                       yearNum >= row.year_from &&
                       (row.year_to === null || yearNum <= row.year_to) &&
-                      (seriesVal === selectedSeries ||
+                      (selectedSeries === "All" ||
+                        seriesVal === selectedSeries ||
                         (seriesVal === "" && selectedSeries === "")) &&
                       (!nextTrim || row.trim_code === nextTrim) &&
                       engineLabelFromKey(engineKey(row)) === selectedEngineKey
