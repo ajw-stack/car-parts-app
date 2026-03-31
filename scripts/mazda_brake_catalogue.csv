@@ -1,0 +1,285 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Mazda,121,DA,Hatchback,1987,1991,,1.3,44,,FWD,DB442,,,Std. Front Disc / Rear Drum Brake
+Mazda,121 Metro,DW,Hatchback,1996,2000,16V i,1.3,53,,FWD,DB1335,,,Std. Brake System
+Mazda,121,DB,Sedan,1994,1997,i,1.5,62,,FWD,DB1158,,,Std. Front Disc / Rear Drum Brake
+Mazda,121,DB,Sedan,1990,1997,16V i,1.3,53,,FWD,DB1158,,,Std. Front Disc / Rear Drum Brake
+Mazda,121 Metro,DW,Hatchback,1996,2002,16V i,1.5,64,,FWD,DB1335,,,Std. Brake System
+Mazda,2,"DE, DH",Hatchback,2007,2014,,1.5,76,,FWD,DB1941,,,Std. Front Disc / Rear Drum Brake
+Mazda,2,"DL, DJ",Hatchback,2014,2019,,1.5,79,,FWD,DB2334,,,Std. Front Disc / Rear Drum Brake
+Mazda,2,"DL, DJ",Hatchback,2014,,,1.5,81,,FWD,DB2334,,,Std. Front Disc / Rear Drum Brake
+Mazda,2,DE,Sedan,2010,2014,i,1.5,76,,FWD,DB1941,,,Std. Front Disc / Rear Drum Brake
+Mazda,2,DY,Hatchback,2003,2007,,1.5,82,,FWD,DB1724,,,Std. Front Disc / Rear Drum Brake
+Mazda,2,DL,Sedan,2015,2019,,1.5,79,,FWD,DB2334,,,Std. Brake System
+Mazda,2,DL,Sedan,2015,,,1.5,81,,FWD,DB2334,,,Std. Brake System
+Mazda,323 Astina,BG,Hatchback,1991,1994,16V,1.6,65,,FWD,DB1158,DB1159,,Std. 4-Wheel Disc
+Mazda,323 Astina,BJ,Hatchback,1998,2002,Astina,1.6,78,Astina,FWD,DB1255,DB1359,,Other Products
+Mazda,323 Astina,BA,Hatchback,1994,1998,16V,1.8,92,,FWD,DB1177,DB1291,,Std. 4-Wheel Disc
+Mazda,323 Astina,BG,Hatchback,1989,1991,,1.6,62,,FWD,DB1158,DB1159,,Std. 4-Wheel Disc
+Mazda,323 Astina,BJ,Hatchback,1998,2002,,1.6,72,,FWD,DB1358,DB417,,Std. Brake System
+Mazda,323 Astina,BA,Hatchback,1994,1998,24V,2,106,,FWD,DB1177,,,Other Products
+Mazda,323 Astina,BJ,Hatchback,1998,2004,Astina,1.8,92,Astina,FWD,DB1362,DB1359,,Std. 4-Wheel Disc
+Mazda,323 Astina,BA,Coupe,1994,1998,,1.8,92,,FWD,DB1177,DB1291,,Std. 4-Wheel Disc
+Mazda,323 Astina,BG,Hatchback,1989,1994,16V,1.8,76,,FWD,DB1158,DB1159,,Std. 4-Wheel Disc
+Mazda,323 Astina,BG,Hatchback,1989,1994,16V,1.8,94,GT,FWD,DB1158,DB1159,,Std. 4-Wheel Disc
+Mazda,323 Protege,BJ,Sedan,1998,2003,,1.6,78,,FWD,DB1358,DB1359,,Other Products
+Mazda,323 Protege,BA,Sedan,1994,1998,,1.8,92,,FWD,DB1177,DB1291,,Std. 4-Wheel Disc
+Mazda,323 Astina,BJ,Hatchback,2000,2004,SP20,2,98,,FWD,DB1362,DB1359,,Std. 4-Wheel Disc
+Mazda,323 Protege,BJ,Sedan,1998,2004,,1.8,92,,FWD,DB1362,DB1359,,Std. 4-Wheel Disc
+Mazda,323 Protege,BJ,Sedan,2001,2004,SP20,2,98,,FWD,DB1255,DB1359,,Other Products
+Mazda,323,FA,Hatchback,1977,1980,,1.3,44,,RWD,DB153,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,BD,Hatchback,1981,1985,,1.5,55,,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,BD,Sedan,1981,1985,,1.5,55,,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,BD,Hatchback,1980,1985,,1.5,59,,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,FA,Wagon,1982,1985,,1.5,50,,RWD,DB153,,,Std. Brake System
+Mazda,323,BF,Sedan,1985,1989,,1.5,54,,FWD,DB406,DB1159,,Std. 4-Wheel Disc
+Mazda,323,FA,Hatchback,1978,1981,,1.4,51,,RWD,DB153,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,FA,Wagon,1978,1982,,1.4,51,,RWD,DB153,,,Std. Brake System
+Mazda,323,BF,Hatchback,1985,1989,,1.6,54,,FWD,DB406,DB1159,,Std. 4-Wheel Disc
+Mazda,323,BG,Sedan,1989,1991,,1.6,64,,FWD,DB1158,DB1159,,Other Products
+Mazda,323,BF,Sedan,1985,1989,GLX,1.6,54,GLX,FWD,DB406,DB1159,,Std. 4-Wheel Disc
+Mazda,323,BG,Sedan,1989,1996,16V,1.6,65,,FWD,DB1158,DB1159,,Std. Brake System
+Mazda,323,BW,Wagon,1986,1989,,1.6,63,,FWD,DB406,DB1159,,Std. Brake System
+Mazda,3,BK,Hatchback,2003,2006,,2,104,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BK,Sedan,2003,2006,,2,104,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BK,Hatchback,2006,2009,,2,110,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BK,Sedan,2006,2009,,2,110,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,323,BF,Hatchback,1987,1989,Turbo,1.6,103,GT,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,BF,Hatchback,1987,1989,Turbo,1.6,103,GT,AWD,DB406,DB1159,,Std. 4-Wheel Disc
+Mazda,323,BG,Sedan,1989,1994,16V,1.8,76,,FWD,DB1158,DB1159,,Std. Brake System
+Mazda,323,BG,Sedan,1989,1991,16V,1.8,77,,FWD,DB1158,DB1159,,Other Products
+Mazda,323,BF,Hatchback,1987,1989,,1.6,63,GT,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,323,BF,Sedan,1985,1989,,1.6,63,GT,FWD,DB241,,,Std. Front Disc / Rear Drum Brake
+Mazda,3,"BM, BN",Sedan,2014,2019,Hybrid,2,100,,FWD,DB2330,DB2331,,Other Products
+Mazda,3,BP,Hatchback,2018,,SKYACTIV-G,2,114,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,3,BP,Sedan,2018,,SKYACTIV-G,2,114,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,3,"BM, BN",Hatchback,2013,2019,,2,114,,FWD,DB2330,DB2331,,Std. 4-Wheel Disc
+Mazda,3,"BM, BN",Sedan,2013,2019,,2,114,,FWD,DB2330,DB2331,,Std. 4-Wheel Disc
+Mazda,3,BK,Hatchback,2006,2009,MZR-CD,2,105,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BK,Sedan,2006,2009,MZR-CD,2,105,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2009,2013,MZR,2,108,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Sedan,2009,2013,MZR,2,108,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BP,Sedan,2019,,SKYACTIV-X Hybrid,2,132,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,3,"BM, BN",Hatchback,2014,2019,D,2.2,129,,FWD,DB2330,DB2331,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2011,2013,SP20,2,113,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Sedan,2011,2013,SP20,2,113,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BP,Hatchback,2019,,SKYACTIV-G,2.5,139,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,3,BP,Sedan,2019,,SKYACTIV-G,2.5,139,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2009,2013,MZR,2.2,110,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Sedan,2009,2013,MZR,2.2,110,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,"BM, BN",Hatchback,2013,2019,SP25,2.5,138,,FWD,DB2330,DB2331,,Std. 4-Wheel Disc
+Mazda,3,"BM, BN",Sedan,2013,2019,SP25,2.5,138,,FWD,DB2330,DB2331,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2008,2013,,2.3,191,,FWD,DB2176,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2009,2013,Turbo,2.3,194,,FWD,DB2176,DB1665,,Other Products
+Mazda,3,BK,Hatchback,2006,2009,,2.3,191,,FWD,DB2176,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Hatchback,2009,2013,SP25,2.5,122,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BL,Sedan,2009,2013,SP25,2.5,122,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,626,CB,Sedan,1979,1982,,2,66,,RWD,DB1057,,,Std. Front Disc / Rear Drum Brake
+Mazda,5,CR,MPV,2005,2010,,2,107,,FWD,DB1679,DB1763,,Other Products
+Mazda,3,BK,Hatchback,2003,2009,,2.3,115,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BK,Sedan,2003,2009,,2.3,115,,FWD,DB1679,DB1763,,Std. 4-Wheel Disc
+Mazda,3,BP,Hatchback,2019,,SKYACTIV-X Hybrid,2,132,,FWD,DB2538,DB2539,,Std. 4-Wheel Disc
+Mazda,626,GC,Sedan,1983,1987,D,2,46,,FWD,DB304,,,Std. Brake System
+Mazda,626,GC,Coupe,1986,1987,i Turbo,2,87,,FWD,DB414,,,Std. Brake System
+Mazda,626,GC,Hatchback,1986,1987,i Turbo,2,87,,FWD,DB414,,,Std. Front Disc / Rear Drum Brake
+Mazda,626,GC,Sedan,1986,1987,i Turbo,2,87,,FWD,DB414,,,Std. Brake System
+Mazda,626,GW,Wagon,1998,2002,,2,93,,FWD,DB1255,DB1115,,Std. Brake System
+Mazda,626,GE,Hatchback,1992,1997,i,2,85,,FWD,DB1255,DB1254,,Std. 4-Wheel Disc
+Mazda,626,GE,Sedan,1992,1997,i,2,85,,FWD,DB1255,DB1254,,Std. Brake System
+Mazda,626,GF,Hatchback,1998,2002,,2,93,,FWD,DB1255,DB1254,,Std. Brake System
+Mazda,626,GF,Sedan,1997,2002,,2,93,,FWD,DB1255,DB1254,,Std. Brake System
+Mazda,626,GC,Hatchback,1985,1987,,2,68,,FWD,DB304,,,Other Products
+Mazda,626,GC,Coupe,1983,1987,,2,70,,FWD,DB304,,,Std. Brake System
+Mazda,626,GC,Hatchback,1983,1987,,2,74,,FWD,DB304,,,Std. Front Disc / Rear Drum Brake
+Mazda,626,GC,Sedan,1983,1987,,2,74,,FWD,DB304,,,Std. Brake System
+Mazda,6,GG,Hatchback,2006,2008,DI,2,105,,FWD,DB1682,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GG,Sedan,2006,2008,DI,2,105,,FWD,DB1682,DB1760,,Std. 4-Wheel Disc
+Mazda,626,GD,Hatchback,1987,1991,i Turbo,2.2,100,,FWD,DB1114,DB1115,,Std. 4-Wheel Disc
+Mazda,626,GE,Hatchback,1992,1997,24V,2.5,121,,FWD,DB1255,DB1254,,Std. Brake System
+Mazda,626,GE,Sedan,1992,1997,24V,2.5,121,,FWD,DB1255,DB1254,,Std. Brake System
+Mazda,626,GV,Wagon,1988,1997,12V,2.2,85,,FWD,DB1114,DB1115,,Std. 4-Wheel Disc
+Mazda,626,GD,Hatchback,1988,1991,12V,2.2,85,,FWD,DB1114,DB1115,,Std. Brake System
+Mazda,626,GD,Sedan,1987,1991,12V,2.2,85,,FWD,DB1114,DB1115,,Std. Brake System
+Mazda,6,GH,Hatchback,2010,2012,MZR-CD,2.2,132,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GH,Hatchback,2009,2011,MZR-CD,2.2,136,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GH,Wagon,2008,2011,MZR-CD,2.2,136,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GY,Wagon,2006,2008,DI,2,105,,FWD,DB1484,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GY,Wagon,2002,2008,,2.3,122,,FWD,DB1484,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GG,Hatchback,2002,2008,,2.3,122,,FWD,DB1682,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GG,Sedan,2002,2008,,2.3,122,,FWD,DB1682,DB1760,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Sedan,2012,2018,D,2.2,129,,FWD,DB2293,DB2294,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Wagon,2012,2018,D,2.2,129,,FWD,DB2293,DB2294,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Sedan,2018,2019,D,2.2,140,,FWD,DB2293,DB2425,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Wagon,2018,2019,D,2.2,140,,FWD,DB2293,DB2425,,Std. 4-Wheel Disc
+Mazda,929,HB,Sedan,1982,1984,,2,66,,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,929,HB,Coupe,1984,1985,,2,74,,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,929,HB,Sedan,1984,1986,,2,74,,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,6,GG,Sedan,2005,2008,Turbo,2.3,191,,AWD,DB1445,DB2418,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Wagon,2018,,Turbo,2.5,170,,FWD,DB2293,DB2425,,Other Products
+Mazda,6,GH,Hatchback,2008,2012,MZR,2.5,125,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GH,Sedan,2008,2012,MZR,2.5,125,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,GH,Wagon,2008,2012,MZR,2.5,125,,FWD,DB1942,DB1760,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Sedan,2012,2018,,2.5,138,,FWD,DB2293,DB2294,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Wagon,2012,2018,,2.5,138,,FWD,DB2293,DB2294,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Sedan,2018,,,2.5,140,,FWD,DB2293,DB2425,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Wagon,2018,,,2.5,140,,FWD,DB2293,DB2425,,Std. 4-Wheel Disc
+Mazda,6,"GJ, GL",Sedan,2018,,,2.5,170,,FWD,DB2293,DB2425,,Std. 4-Wheel Disc
+Mazda,929,HE,Sedan,1996,1998,,3,138,,RWD,,DB1222,,
+Mazda,929,LA,Sedan,1979,1982,,2,66,,RWD,DB138,,,Std. Brake System
+Mazda,929,HB,Coupe,1984,1987,i Turbo,2,88,,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,929,HB,Coupe,1984,1987,i Turbo,2,89,,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,929,HB,Sedan,1985,1987,i,2,88,GLX,RWD,DB278,,,Std. 4-Wheel Disc
+Mazda,929,HC,Sedan,1987,1989,i,3,123,,RWD,,DB1112,,
+Mazda,B-Series,PE,Ute,1977,1982,B1800,1.8,60,,RWD,DB40,,,Std. Brake System
+Mazda,B-Series,UF,Platform/Chassis,1988,1991,B2200 i,2.2,68,,RWD,DB409,,,Other Products
+Mazda,B-Series,UF,Ute,1988,1991,B2200 i,2.2,68,,RWD,DB409,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1996,1999,B2500,2.5,64,,AWD,DB1326,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Platform/Chassis,1988,1996,B2200 D,2.2,47,,RWD,DB409,,,Other Products
+Mazda,B-Series,UF,Ute,1985,1996,B2200 D,2.2,47,,RWD,DB409,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1985,1988,B2000,2,62,,RWD,DB409,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1990,1999,12V,2.6,90,,AWD,DB1326,,,Other Products
+Mazda,B-Series,UN,Ute,1999,2005,B2500,2.5,86,,AWD,DB1366,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Platform/Chassis,1999,2005,B2500,2.5,86,,AWD,DB1681,,,Other Products
+Mazda,B-Series,UF,Platform/Chassis,1996,1999,B2500,2.5,64,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1996,1999,B2500,2.5,64,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Platform/Chassis,1999,2005,B2500,2.5,86,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Ute,1999,2006,B2500,2.5,86,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Platform/Chassis,1991,1999,B2600 i,2.6,92,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Ute,1999,2006,B2600 i,2.6,90,,AWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Ute,1999,2006,B2600 i,2.6,92,,AWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1987,1991,B2600,2.6,73,,AWD,DB409,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1987,1991,B2600,2.6,92,,AWD,DB409,,,Other Products
+Mazda,B-Series,UF,Platform/Chassis,1990,1999,B2600 i,2.6,92,,AWD,DB1326,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Platform/Chassis,1999,2006,B2600 i,2.6,90,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UN,Platform/Chassis,1999,2006,B2600 i,2.6,92,,RWD,DB1366,,,Other Products
+Mazda,B-Series,UN,Ute,1999,2006,B2600 i,2.6,92,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1990,1999,B2600 i,2.6,92,,AWD,DB1326,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1990,1999,B2600 i,2.6,92,,RWD,DB1322,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,MJ,Ute,2005,2006,B4000 i,4,154,,AWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,MJ,Platform/Chassis,2005,2006,B4000 i,4,154,,RWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,MJ,Ute,2005,2006,B4000 i,4,154,,RWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,B-Series,UF,Ute,1989,1991,,2.6,91,,RWD,DB409,,,Other Products
+Mazda,BT-50,TF,Platform/Chassis,2021,2025,TDi,1.9,110,,AWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Ute,2021,2025,TDi,1.9,110,,AWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Platform/Chassis,2021,2025,TDi,1.9,110,,RWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Ute,2021,2025,TDi,1.9,110,,RWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Platform/Chassis,2006,2011,CDVi,2.5,105,,RWD,DB1366,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"B22, B32, UP, UR",Platform/Chassis,2011,2020,,2.2,110,,RWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"B22, B32, UP, UR",Ute,2011,2015,,2.2,110,,RWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Platform/Chassis,2006,2011,CDVi,3,115,,RWD,DB1366,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Ute,2006,2011,CDVi,3,115,,RWD,DB1366,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Ute,2006,2013,,2.5,105,,RWD,DB1366,,,Other Products
+Mazda,BT-50,TF,Platform/Chassis,2020,,,3,140,,AWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Ute,2020,,,3,140,,AWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Platform/Chassis,2006,2011,CDVi,3,115,,AWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"CD, UN",Ute,2006,2011,CDVi,3,115,,AWD,DB1681,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Platform/Chassis,2020,,,3,140,,RWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,TF,Ute,2020,,,3,140,,RWD,DB2533,,,Std. Front Disc / Rear Drum Brake
+Mazda,CX-30,"DM, DT, ED",SUV,2019,,SKYACTIV-G,2,114,,FWD,DB2330,DB2539,,Std. 4-Wheel Disc
+Mazda,BT-50,"B22, B32, UP, UR",Platform/Chassis,2011,2020,,3.2,147,,RWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"B22, B32, UP, UR",Ute,2011,2020,,3.2,147,,RWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,CX-30,"DM, DT, ED",SUV,2019,,SKYACTIV-G,2.5,139,,FWD,DB2330,DB2539,,Std. 4-Wheel Disc
+Mazda,CX-30,"DM, DT, ED",SUV,2019,,SKYACTIV-G,2.5,139,,AWD,DB2330,DB2539,,Std. 4-Wheel Disc
+Mazda,BT-50,"B22, B32, UP, UR",Platform/Chassis,2011,2020,,3.2,147,,AWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,BT-50,"B22, B32, UP, UR",Ute,2011,2020,,3.2,147,,AWD,DB2074,,,Std. Front Disc / Rear Drum Brake
+Mazda,CX-3,DK,SUV,2015,2018,SKYACTIV-D,1.5,77,,AWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2018,2019,SKYACTIV-D,1.8,85,,AWD,DB2330,DB2495,,Std. 4-Wheel Disc
+Mazda,CX-30,"DM, DT, ED",SUV,2019,,SKYACTIV-X Hybrid,2,132,,AWD,DB2330,DB2539,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2015,2018,SKYACTIV-D,1.5,77,,FWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2018,2019,SKYACTIV-D,1.8,85,,FWD,DB2330,DB2495,,Std. 4-Wheel Disc
+Mazda,CX-5,"KE, KF",SUV,2012,2017,,2,113,,AWD,DB2226,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2016,,,2,114,,FWD,DB1916,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2015,2018,SKYACTIV-G,2,109,,AWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2015,,SKYACTIV-G,2,110,,AWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2015,2018,SKYACTIV-G,2,109,,FWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-3,DK,SUV,2018,,SKYACTIV-G,2,110,,FWD,DB2330,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-5,"KE, KF",SUV,2012,2017,,2,114,,FWD,DB2226,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2017,2018,D,2.2,129,,AWD,DB1916,DB2414,,Std. 4-Wheel Disc
+Mazda,CX-5,"KE, KF",SUV,2013,2017,,2.5,138,,AWD,DB2226,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-5,"KE, KF",SUV,2012,2017,D,2.2,129,,AWD,DB1916,DB2227,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2018,,D,2.2,140,,AWD,DB1916,DB2414,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2016,,,2.5,140,,AWD,DB1916,DB2414,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2018,,,2.5,170,,AWD,DB1916,DB2414,,Std. 4-Wheel Disc
+Mazda,CX-7,ER,SUV,2009,2013,MZR-CD,2.2,136,,AWD,DB1916,DB1917,,Std. 4-Wheel Disc
+Mazda,CX-60,KH,SUV,2022,,e-SKYACTIV-D MHEV,3.3,187,,AWD,DB2765,DB2886,,Std. 4-Wheel Disc
+Mazda,CX-60,KH,SUV,2022,,SKYACTIV,2.5,241,,AWD,DB2765,DB2886,,Std. 4-Wheel Disc
+Mazda,CX-5,"KF, KE",SUV,2022,,,2.5,140,,FWD,DB1916,DB2414,,Std. 4-Wheel Disc
+Mazda,CX-60,KH,SUV,2023,,e-SKYACTIV-G MHEV,3.3,209,,AWD,DB2765,DB2886,,Std. 4-Wheel Disc
+Mazda,CX-8,"KG, ZV",SUV,2017,,D,2.2,140,,AWD,DB1916,DB2485,,Std. 4-Wheel Disc
+Mazda,CX-7,ER,SUV,2009,2013,MZR,2.5,120,,FWD,DB1916,DB1917,,Std. 4-Wheel Disc
+Mazda,CX-8,"KG, ZV",SUV,2018,,SKYACTIV-G,2.5,140,,FWD,DB1916,DB2485,,Std. 4-Wheel Disc
+Mazda,CX-7,ER,SUV,2006,2014,MZR Turbo,2.3,175,,AWD,DB1916,DB1917,,Std. 4-Wheel Disc
+Mazda,CX-8,"KG, ZV",SUV,2017,,D,2.2,140,,FWD,DB1916,DB2485,,Std. 4-Wheel Disc
+Mazda,CX-90,KK,SUV,2023,,e-SKYACTIV-D MHEV,3.3,187,,AWD,DB2764,DB2875,,Std. 4-Wheel Disc
+Mazda,CX-9,TC,SUV,2016,,,2.5,170,,AWD,DB1916,DB2485,,Std. 4-Wheel Disc
+Mazda,CX-9,TC,SUV,2016,,,2.5,170,,FWD,DB1916,DB2485,,Std. 4-Wheel Disc
+Mazda,CX-90,KK,SUV,2023,,e-SKYACTIV-G MHEV,3.3,254,,AWD,DB2764,DB2875,,Std. 4-Wheel Disc
+Mazda,CX-9,TB,SUV,2007,2016,,3.7,204,,AWD,DB1916,DB1917,,Std. 4-Wheel Disc
+Mazda,E-Series,SG,Bus,1997,1999,12V i,2,74,,RWD,DB1274,DB1222,,Std. 4-Wheel Disc
+Mazda,CX-9,TB,SUV,2007,2016,,3.7,204,,FWD,DB1916,DB1917,,Std. 4-Wheel Disc
+Mazda,E-Series,SG,Bus,1995,1999,,2.5,92,,AWD,DB1274,DB1222,,Std. 4-Wheel Disc
+Mazda,E-Series,SG,Bus,1995,1999,i,2.5,117,,RWD,DB1274,DB1222,,Std. 4-Wheel Disc
+Mazda,E-Series,SG,Bus,1995,1999,,2.5,92,,RWD,DB1274,DB1222,,Std. 4-Wheel Disc
+Mazda,E-Series,SR2,Van,1984,1988,E1800,1.8,58,,RWD,DB388,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,,Van,1978,1984,E1400,1.4,50,,RWD,DB292,,,Std. Brake System
+Mazda,E-Series,"SG, SK",Van,2004,2006,E2000,2,71,,RWD,DB1274,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,SR2,Van,1984,1988,E1400,1.5,47,,RWD,DB388,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,"SG, SK",Van,2003,2006,E1800i,1.8,67,,RWD,DB1385,,,Std. Front Disc / Rear Drum Brake
+Mazda,Familia,BG,Hatchback,1989,1994,16V,1.8,132,,AWD,DB1210,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,SR2,Van,1988,2003,E2200 D,2.2,47,,RWD,DB1385,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,SR,Platform/Chassis,1981,1984,E2200 D,2.2,46,,RWD,DB292,,,Std. Brake System
+Mazda,E-Series,SR2,Van,1997,2003,E2500,2.5,61,,RWD,DB1385,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,SR2,Van,1991,2003,E2000,2,60,,RWD,DB388,,,Std. Front Disc / Rear Drum Brake
+Mazda,E-Series,SR2,Van,1984,1990,E2000,2,65,,RWD,DB388,,,Std. Front Disc / Rear Drum Brake
+Mazda,Millenia,TA,Sedan,2000,2002,24V,2.3,155,,FWD,DB1326,,,Std. Brake System
+Mazda,MPV,LW,MPV,1999,2002,V6,2.5,125,,FWD,DB1388,,,Std. Front Disc / Rear Drum Brake
+Mazda,MPV,LW,MPV,1999,2002,V6,2.5,129,,FWD,DB1274,,,Other Products
+Mazda,Familia,BG,Hatchback,1992,1994,,1.8,154,GT,AWD,DB1177,DB1180,,Other Products
+Mazda,MPV,LV,MPV,1996,1999,i,3,113,,RWD,DB1274,DB1222,,Std. Brake System
+Mazda,Familia,BG,Hatchback,1990,1992,16V Turbo,1.8,120,,AWD,DB1158,DB1159,,Std. Brake System
+Mazda,Familia,BG,Hatchback,1993,1994,16V Turbo,1.8,136,,AWD,DB1158,DB1159,,Std. Brake System
+Mazda,MX-30,DR,SUV,2020,,G20E,2,114,,FWD,DB2613,,,Std. 4-Wheel Disc
+Mazda,MX-5 RF,ND,Targa,2016,2018,,2,118,,RWD,DB2441,DB2064,,Std. 4-Wheel Disc
+Mazda,MX-5 RF,ND,Targa,2018,,,2,135,,RWD,DB2441,DB2064,,Std. 4-Wheel Disc
+Mazda,MX-30,DR,SUV,2020,,SKYACTIV,,107,,FWD,DB2613,DB2539,,Std. 4-Wheel Disc
+Mazda,MPV,LW,MPV,2002,2006,,3,152,,FWD,DB1274,DB1729,,Other Products
+Mazda,MPV,LW,MPV,2002,2006,i,3,147,,FWD,DB1274,DB1729,,Std. 4-Wheel Disc
+Mazda,MX-5,ND,Convertible,2015,2018,,1.5,96,,RWD,DB2441,DB2064,,Std. Brake System
+Mazda,MX-5,ND,Convertible,2018,,,1.5,97,,RWD,DB2441,DB2064,,Std. 4-Wheel Disc
+Mazda,MX-5,NA,Convertible,1989,1993,,1.6,85,,RWD,DB1178,DB1180,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,2002,2005,i Turbo,1.8,136,,RWD,DB1386,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,2002,2002,i Turbo,1.8,157,,RWD,DB1386,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,2002,2005,i,1.8,113,,RWD,DB1386,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,2000,2005,16V,1.8,102,,RWD,DB1386,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,1998,2005,16V,1.8,103,,RWD,DB1282,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-5,NB,Convertible,2000,2005,16V,1.8,107,,RWD,DB1386,DB1508,,Std. 4-Wheel Disc
+Mazda,MX-6,GD,Coupe,1987,1991,i Turbo,2.2,100,,FWD,DB1114,DB1115,,Std. 4-Wheel Disc
+Mazda,MX-6,GE,Coupe,1991,1997,24V,2.5,121,,FWD,DB1255,DB1254,,Std. 4-Wheel Disc
+Mazda,MX-5,NC,Convertible,2005,2014,,2,118,,RWD,DB2063,DB2064,,Std. 4-Wheel Disc
+Mazda,MX-5,NA,Convertible,1993,1998,,1.8,96,,RWD,DB1282,DB1283,,Std. 4-Wheel Disc
+Mazda,MX-5,ND,Convertible,2015,2018,,2,118,,RWD,DB2441,DB2064,,Std. Brake System
+Mazda,MX-5,ND,Convertible,2018,,,2,135,,RWD,DB2441,DB2064,,Std. 4-Wheel Disc
+Mazda,RX-2,,Coupe,1970,1976,,1.1,97,,RWD,DB40,,,Other Products
+Mazda,Premacy,CP,MPV,2001,2002,,1.9,84,,FWD,DB1362,,,Std. Brake System
+Mazda,Premacy,CP,MPV,1999,2002,,1.9,96,,FWD,DB1255,,,Other Products
+Mazda,RX-5,,Coupe,1975,1979,,1.1,92,,RWD,DB138,,,Std. 4-Wheel Disc
+Mazda,RX-4,,Coupe,1974,1978,,1.3,101,,RWD,DB40,,,Std. Front Disc / Rear Drum Brake
+Mazda,RX-4,,Sedan,1974,1978,,1.3,93,,RWD,DB40,,,Std. Front Disc / Rear Drum Brake
+Mazda,Premacy,CP,MPV,2002,2003,,2,96,,FWD,DB1412,DB417,,Std. 4-Wheel Disc
+Mazda,RX-7,SA,Coupe,1979,1981,,1,77,,RWD,DB40,,,Std. Brake System
+Mazda,RX-7,FC,Coupe,1985,1989,,1.3,110,,RWD,DB416,DB417,,Std. 4-Wheel Disc
+Mazda,RX-5,,Coupe,1976,1979,,1.3,92,,RWD,DB138,,,Std. Brake System
+Mazda,RX-7,SA,Coupe,1984,1986,,1.1,83,,RWD,DB138,DB417,,Std. 4-Wheel Disc
+Mazda,RX-7,SA,Coupe,1979,1984,,1.1,85,,RWD,DB138,DB417,,Std. Brake System
+Mazda,RX-7,FC,Coupe,1987,1989,Turbo,1.3,133,,RWD,DB416,DB417,,Std. 4-Wheel Disc
+Mazda,RX-7,FC,Coupe,1989,1991,Turbo,1.3,147,,RWD,DB416,DB417,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2001,2004,,2,91,,AWD,DB1821,,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2000,2004,,2,97,,AWD,DB1821,,,Std. 4-Wheel Disc
+Mazda,RX-8,"SE, FE",Coupe,2003,2012,,1.3,158,,RWD,DB1513,DB1671,,Std. 4-Wheel Disc
+Mazda,RX-7,FD,Coupe,1992,2002,Turbo,1.3,176,,RWD,DB416,DB417,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2006,2008,,2.3,109,,AWD,DB1426,,,Std. 4-Wheel Disc
+Mazda,RX-8,SE17,Coupe,2003,2012,,1.3,141,,RWD,DB1513,DB1671,,Std. 4-Wheel Disc
+Mazda,RX-8,SE17,Coupe,2003,2012,,1.3,170,,RWD,DB1513,DB1671,,Std. 4-Wheel Disc
+Mazda,RX-8,SE17,Coupe,2003,2012,,1.3,177,,RWD,DB1513,DB1671,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2001,2004,V6,3,149,,AWD,DB1821,,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2004,2008,V6,3,152,,AWD,DB1821,,,Std. 4-Wheel Disc
+Mazda,Tribute,EP,SUV,2004,2008,,2.3,110,,AWD,DB1426,,,Std. 4-Wheel Disc

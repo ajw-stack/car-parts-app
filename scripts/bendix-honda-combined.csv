@@ -1,0 +1,781 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1391,Suits 260mm disc rotors
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,Suits 260mm disc rotors
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1391,Suits 260mm disc rotors
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,Suits 260mm disc rotors
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1481,Suits 282mm disc rotors
+Bendix,Honda,Accord Euro,CL,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,Suits 282mm disc rotors
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1481,Suits 282mm disc rotors
+Bendix,Honda,Accord Euro,CN,2.4,,FWD,Sedan,2003,2008,Brake Pad Set,Rear,DB1265,Suits 282mm disc rotors
+Bendix,Honda,Accord Euro,CL,2,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Accord Euro,CN,2,,FWD,Sedan,2003,2008,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Accord,CV,1.5,,FWD,Sedan,2019,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Front,DB2118,
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Front,DB2304,From 2013 on
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Rear,DB1728,From 2013 on
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Front,DB2308,From 2013 on suits 296mm disc
+Bendix,Honda,Accord Euro,CU,2.4,,FWD,Sedan,2008,2015,Brake Pad Set,Rear,DB1728,From 2013 on suits 296mm disc
+Bendix,Honda,Accord,CV,1.5,,FWD,Sedan,2017,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB198,With Front Sumitomo Disc
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB198,With Front Sumitomo Disc
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB198,With Front Sumitomo Disc
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB280,USA Models; With Front Disc
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB280,USA Models; With Front Disc
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB280,USA Models; With Front Disc
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB300,New Zealand Models With Front Disc
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB300,New Zealand Models With Front Disc
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB300,New Zealand Models With Front Disc
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB358,With Front Wear Indicator
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB358,With Front Wear Indicator
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB358,With Front Wear Indicator
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB384,2 & 4 Door Models
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB384,2 & 4 Door Models
+Bendix,Honda,Accord,SM,1.6,L/EX,FWD,Sedan,1978,1983,Brake Pad Set,Front,DB384,2 & 4 Door Models
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB358,With Front Wear Indicator
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB358,With Front Wear Indicator
+Bendix,Honda,Accord,SJ,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB384,2 & 4 Door Models
+Bendix,Honda,Accord,SY,1.6,L/EX,FWD,Hatchback,1979,1983,Brake Pad Set,Front,DB384,2 & 4 Door Models
+Bendix,Honda,Accord,CA,2,,FWD,Sedan,1987,1989,Brake Pad Set,Front,DB1133,Suits models from 1987 on
+Bendix,Honda,Accord,CA,2,,FWD,Sedan,1987,1989,Brake Pad Set,Rear,DB430,Suits models from 1987 on
+Bendix,Honda,Accord,CA,2,EX,FWD,Sedan,1986,1987,Brake Pad Set,Front,DB429,2 & 3 Door Models; With Front Disc With Front Disc
+Bendix,Honda,Accord,CA,2,EX,FWD,Sedan,1986,1987,Brake Pad Set,Rear,DB430,2 & 3 Door Models; With Front Disc With Front Disc
+Bendix,Honda,Accord,CA,2,EX,FWD,Wagon,1986,1987,Brake Pad Set,Front,DB429,2 & 3 Door Models; With Front Disc
+Bendix,Honda,Accord,CA,2,EX,FWD,Wagon,1986,1987,Brake Pad Set,Rear,DB430,2 & 3 Door Models; With Front Disc
+Bendix,Honda,Accord,AC,1.8,EX,FWD,Hatchback,1985,1985,Brake Pad Set,Front,DB300,With Front Disc; Australian Japan New Zealand Models
+Bendix,Honda,Accord,AD,1.8,EX,FWD,Hatchback,1985,1985,Brake Pad Set,Front,DB300,With Front Disc; Australian Japan New Zealand Models
+Bendix,Honda,Accord,AC,1.8,EX,FWD,Hatchback,1985,1985,Brake Pad Set,Front,DB390,Suits European and USA Models
+Bendix,Honda,Accord,AD,1.8,EX,FWD,Hatchback,1985,1985,Brake Pad Set,Front,DB390,Suits European and USA Models
+Bendix,Honda,Accord,AC,1.8,EX,FWD,Sedan,1984,1985,Brake Pad Set,Front,DB300,With Front Disc; Australian Japan New Zealand Models
+Bendix,Honda,Accord,AD,1.8,EX,FWD,Sedan,1984,1985,Brake Pad Set,Front,DB300,With Front Disc; Australian Japan New Zealand Models
+Bendix,Honda,Accord,CV,2,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord,CV,2,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB1953,
+Bendix,Honda,Accord,CA,2,EXi,FWD,Sedan,1987,1989,Brake Pad Set,Front,DB1133,2 & 3 Door Models; With Front Disc and Rear Drum
+Bendix,Honda,Accord,CA,2,EXi,FWD,Sedan,1987,1989,Brake Pad Set,Front,DB429,2 & 3 Door Models; With Front and Rear Disc
+Bendix,Honda,Accord,CA,2,EXi,FWD,Sedan,1987,1989,Brake Pad Set,Rear,DB430,2 & 3 Door Models; With Front and Rear Disc
+Bendix,Honda,Accord,CA,2,EXi,FWD,Wagon,1987,1989,Brake Pad Set,Front,DB1133,2 & 3 Door Models; With Front Disc and Rear Drum
+Bendix,Honda,Accord,CA,2,EXi,FWD,Wagon,1987,1989,Brake Pad Set,Front,DB429,2 & 3 Door Models; With Front and Rear Disc
+Bendix,Honda,Accord,CA,2,EXi,FWD,Wagon,1987,1989,Brake Pad Set,Rear,DB430,2 & 3 Door Models; With Front and Rear Disc
+Bendix,Honda,Accord,CR,2,,FWD,Sedan,2013,2016,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord,CR,2,,FWD,Sedan,2013,2016,Brake Pad Set,Rear,DB1953,
+Bendix,Honda,Accord,CU,2,,FWD,Sedan,2013,2016,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord,CU,2,,FWD,Sedan,2013,2016,Brake Pad Set,Rear,DB1953,
+Bendix,Honda,Accord,CB,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Front,DB1172,With Front 260mm Disc
+Bendix,Honda,Accord,CB,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CC,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Front,DB1172,With Front 260mm Disc
+Bendix,Honda,Accord,CC,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CB,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Front,DB1206,Aerodeck; With Front 282mm Disc
+Bendix,Honda,Accord,CB,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Rear,DB1265,Aerodeck; With Front 282mm Disc
+Bendix,Honda,Accord,CC,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Front,DB1206,Aerodeck; With Front 282mm Disc
+Bendix,Honda,Accord,CC,2.2,,FWD,Wagon,1992,1993,Brake Pad Set,Rear,DB1265,Aerodeck; With Front 282mm Disc
+Bendix,Honda,Accord,CV,2,,FWD,Sedan,2019,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Accord,CV,2,,FWD,Sedan,2019,,Brake Pad Set,Rear,DB1953,
+Bendix,Honda,Accord,CB,2.2,,FWD,Sedan,1989,1990,Brake Pad Set,Front,DB1172,With Front 260mm Disc
+Bendix,Honda,Accord,CB,2.2,,FWD,Sedan,1989,1990,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CB,2.2,,FWD,Sedan,1989,1990,Brake Pad Set,Front,DB1279,Suits VTEC models with 282mm disc rotors
+Bendix,Honda,Accord,CB,2.2,,FWD,Sedan,1989,1990,Brake Pad Set,Rear,DB1265,Suits VTEC models with 282mm disc rotors
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1172,With Front Disc
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,With Front Disc
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1172,With Front Disc
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,With Front Disc
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CC,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CD,2.2,VTi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CE,2.2,,FWD,Wagon,1993,1997,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CE,2.2,,FWD,Wagon,1993,1997,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CE,2.2,,FWD,Wagon,1993,1997,Brake Pad Set,Front,DB1206,Suits front 282mm disc rotors
+Bendix,Honda,Accord,CE,2.2,,FWD,Wagon,1993,1997,Brake Pad Set,Rear,DB1265,Suits front 282mm disc rotors
+Bendix,Honda,Accord,CC,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1172,With Front Disc
+Bendix,Honda,Accord,CC,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1265,With Front Disc
+Bendix,Honda,Accord,CD,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1172,With Front Disc
+Bendix,Honda,Accord,CD,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1265,With Front Disc
+Bendix,Honda,Accord,CC,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CC,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CD,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CD,2.2,EXi,FWD,Sedan,1993,1997,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CE,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1191,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CE,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CF,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1191,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CF,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CD,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1191,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CD,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,Suits models with 260mm disc rotors
+Bendix,Honda,Accord,CE,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CE,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CF,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CF,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CD,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CD,2.2,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CE,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CE,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Accord,CD,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CD,2.3,,FWD,Sedan,1997,1998,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Accord,CP,2.4,,FWD,Sedan,2008,2013,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Accord,CK,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CK,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CG,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CG,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CH,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CH,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CF,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CF,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CL,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1191,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CL,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 260mm disc rotors
+Bendix,Honda,Accord,CK,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1206,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CK,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CG,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1206,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CG,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CH,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1206,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CH,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CF,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1206,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CF,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CL,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Front,DB1206,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CL,2.4,,FWD,Sedan,1999,1999,Brake Pad Set,Rear,DB1265,Suits models with front 282mm disc rotors
+Bendix,Honda,Accord,CK,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CK,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CG,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CG,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CH,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CH,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CL,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Front,DB1191,
+Bendix,Honda,Accord,CL,2.3,,FWD,Sedan,1997,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CK,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CK,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CG,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CG,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CH,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CH,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CF,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CL,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Accord,CL,2.3,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Accord,CR,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2118,Suits models with 320mm disc rotors
+Bendix,Honda,Accord,CR,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB1953,Suits models with 320mm disc rotors
+Bendix,Honda,Accord,CU,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2118,Suits models with 320mm disc rotors
+Bendix,Honda,Accord,CU,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB1953,Suits models with 320mm disc rotors
+Bendix,Honda,Accord,CR,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2304,Suit Models with 293mm Rotor
+Bendix,Honda,Accord,CR,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB1953,Suit Models with 293mm Rotor
+Bendix,Honda,Accord,CU,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2304,Suit Models with 293mm Rotor
+Bendix,Honda,Accord,CU,2.4,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB1953,Suit Models with 293mm Rotor
+Bendix,Honda,Accord,CM,2.4,,FWD,Sedan,2002,2005,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Accord,CM,2.4,,FWD,Sedan,2006,2008,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Accord,CM,2.4,,FWD,Sedan,2006,2008,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CM,3,,FWD,Sedan,2003,2007,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Accord,CM,3,,FWD,Sedan,2003,2007,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1191,With Front 260mm Disc
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1191,With Front 260mm Disc
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1191,With Front 260mm Disc
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1191,With Front 260mm Disc
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1191,With Front 260mm Disc
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 260mm Disc
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1206,With Front 282mm Disc
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,With Front 282mm Disc
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1268,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CK,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1268,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CG,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1268,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CH,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1268,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CF,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Front,DB1268,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CL,3,,FWD,Sedan,1997,2003,Brake Pad Set,Rear,DB1265,Suits Nissin brake Caliper
+Bendix,Honda,Accord,CR,3.5,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB1728,
+Bendix,Honda,Accord,CU,3.5,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB1728,
+Bendix,Honda,Accord,CP,3.5,,FWD,Sedan,2007,2012,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Accord,CP,3.5,,FWD,Sedan,2007,2012,Brake Pad Set,Front,DB2118,Suits 320mm disc
+Bendix,Honda,Beat,PP,0.7,,RWD,Convertible,1991,1996,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,City,VF,1.2,,FWD,Van,1984,1986,Brake Pad Set,Front,DB305,
+Bendix,Honda,City,GM65,1.5,,FWD,Sedan,2014,2020,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM65,1.5,,FWD,Sedan,2014,2020,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,City,GM26,1.5,,FWD,Sedan,2009,2014,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM26,1.5,,FWD,Sedan,2009,2014,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,City,GM4,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM5,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM6,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM9,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM7,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,City,GM,1.5,,FWD,Sedan,2014,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Civic,ES,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ES,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,ET,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ET,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,ES,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Front,DB1662,Length 137mm
+Bendix,Honda,Civic,ES,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Rear,DB1142,Length 137mm
+Bendix,Honda,Civic,ET,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Front,DB1662,Length 137mm
+Bendix,Honda,Civic,ET,1.3,,FWD,Sedan,2004,2005,Brake Pad Set,Rear,DB1142,Length 137mm
+Bendix,Honda,Civic,EG,1.3,,FWD,Hatchback,1991,1993,Brake Pad Set,Front,DB1259,Breeze; 3 Door Models
+Bendix,Honda,Civic,EG,1.3,,FWD,Hatchback,1991,1993,Brake Pad Set,Rear,DB1163,Breeze; 3 Door Models
+Bendix,Honda,Civic,EH,1.3,,FWD,Hatchback,1991,1993,Brake Pad Set,Front,DB1259,Breeze; 3 Door Models
+Bendix,Honda,Civic,EH,1.3,,FWD,Hatchback,1991,1993,Brake Pad Set,Rear,DB1163,Breeze; 3 Door Models
+Bendix,Honda,Civic,AN,1.5,,FWD,Wagon,1984,1987,Brake Pad Set,Front,DB122,Length 64mm
+Bendix,Honda,Civic,AR,1.5,,FWD,Wagon,1984,1987,Brake Pad Set,Front,DB122,Length 64mm
+Bendix,Honda,Civic,AN,1.5,,FWD,Wagon,1984,1987,Brake Pad Set,Front,DB300,Length 116mm
+Bendix,Honda,Civic,AR,1.5,,FWD,Wagon,1984,1987,Brake Pad Set,Front,DB300,Length 116mm
+Bendix,Honda,Civic,FD,1.3,,FWD,Sedan,2006,2010,Brake Pad Set,Front,DB1662,
+Bendix,Honda,Civic,FD,1.3,,FWD,Sedan,2006,2010,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,FA,1.3,,FWD,Sedan,2006,2010,Brake Pad Set,Front,DB1662,
+Bendix,Honda,Civic,FA,1.3,,FWD,Sedan,2006,2010,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,FD,1.3,,FWD,Sedan,2010,2012,Brake Pad Set,Front,DB1662,
+Bendix,Honda,Civic,FD,1.3,,FWD,Sedan,2010,2012,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,FA,1.3,,FWD,Sedan,2010,2012,Brake Pad Set,Front,DB1662,
+Bendix,Honda,Civic,FA,1.3,,FWD,Sedan,2010,2012,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,AM,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB1408,Length 107mm
+Bendix,Honda,Civic,AK,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB1408,Length 107mm
+Bendix,Honda,Civic,AU,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB1408,Length 107mm
+Bendix,Honda,Civic,SC,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB1408,Length 107mm
+Bendix,Honda,Civic,AM,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB300,
+Bendix,Honda,Civic,AK,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB300,
+Bendix,Honda,Civic,AU,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB300,
+Bendix,Honda,Civic,SC,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB300,
+Bendix,Honda,Civic,AM,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB408,Length 107mm
+Bendix,Honda,Civic,AK,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB408,Length 107mm
+Bendix,Honda,Civic,AU,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB408,Length 107mm
+Bendix,Honda,Civic,SC,1.5,,FWD,Sedan,1983,1984,Brake Pad Set,Front,DB408,Length 107mm
+Bendix,Honda,Civic,EC,1.5,,FWD,Hatchback,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,ED,1.5,,FWD,Hatchback,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,EE,1.5,,FWD,Hatchback,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,EF,1.5,,FWD,Hatchback,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1259,
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1262,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1286,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,New Zealand Models; With Front Disc
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EG,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,EH,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB300,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,SR,1.5,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1163,Manual Transmission; New Zealand Models
+Bendix,Honda,Civic,AL,1.5,GL,FWD,Hatchback,1984,1987,Brake Pad Set,Front,DB300,New Zealand Models
+Bendix,Honda,Civic,AJ,1.5,GL,FWD,Hatchback,1984,1987,Brake Pad Set,Front,DB300,New Zealand Models
+Bendix,Honda,Civic,AG,1.5,GL,FWD,Hatchback,1984,1987,Brake Pad Set,Front,DB300,New Zealand Models
+Bendix,Honda,Civic,AH,1.5,GL,FWD,Hatchback,1984,1987,Brake Pad Set,Front,DB300,New Zealand Models
+Bendix,Honda,Civic,EE,1.5,,AWD,Wagon,1988,1989,Brake Pad Set,Front,DB1259,Length 128mm
+Bendix,Honda,Civic,EF,1.5,,AWD,Wagon,1988,1989,Brake Pad Set,Front,DB1259,Length 128mm
+Bendix,Honda,Civic,EE,1.5,,AWD,Wagon,1988,1989,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,EF,1.5,,AWD,Wagon,1988,1989,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1123,Length 132 x 49mm
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 132 x 49mm
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1123,Length 132 x 49mm
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 132 x 49mm
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1123,Length 132 x 49mm
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 132 x 49mm
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1133,Length 129 x 52mm
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 129 x 52mm
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1133,Length 129 x 52mm
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 129 x 52mm
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB1133,Length 129 x 52mm
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,Length 129 x 52mm
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,ED,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,EF,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Front,DB390,
+Bendix,Honda,Civic,SH,1.5,,FWD,Sedan,1987,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1259,Length 128mm
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 128mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1259,Length 128mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 128mm
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1262,Length 131mm
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 131mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1262,Length 131mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 131mm
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1286,Length 136mm
+Bendix,Honda,Civic,EG,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 136mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Front,DB1286,Length 136mm
+Bendix,Honda,Civic,EH,1.5,,FWD,Hatchback,1991,1995,Brake Pad Set,Rear,DB1163,Length 136mm
+Bendix,Honda,Civic,FB,1.5,,FWD,Sedan,2014,2014,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Civic,FB,1.5,,FWD,Sedan,2014,2014,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FB,1.5,,FWD,Sedan,2012,2014,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Civic,FB,1.5,,FWD,Sedan,2012,2014,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FL,1.5,,FWD,Hatchback,2021,,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FL,1.5,,FWD,Hatchback,2021,,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FC,1.5,,FWD,Hatchback,2017,2019,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FC,1.5,,FWD,Hatchback,2017,2019,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FK,1.5,,FWD,Hatchback,2017,2019,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FK,1.5,,FWD,Hatchback,2017,2019,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FC,1.5,RS,FWD,Sedan,2016,2019,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FC,1.5,RS,FWD,Sedan,2016,2019,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,EG,1.6,,FWD,Hatchback,1993,1995,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EG,1.6,,FWD,Hatchback,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.6,,FWD,Hatchback,1993,1995,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EH,1.6,,FWD,Hatchback,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EG,1.6,EX,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EH,1.6,EX,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,SR,1.6,EX,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EG,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,Length 131mm
+Bendix,Honda,Civic,EG,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Length 131mm
+Bendix,Honda,Civic,EH,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,Length 131mm
+Bendix,Honda,Civic,EH,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Length 131mm
+Bendix,Honda,Civic,SR,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1262,Length 131mm
+Bendix,Honda,Civic,SR,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,Length 131mm
+Bendix,Honda,Civic,EG,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EG,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EH,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,SR,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,SR,1.6,,FWD,Sedan,1993,1995,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1262,For Rotor 240
+Bendix,Honda,Civic,EK,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1262,For Rotor 240
+Bendix,Honda,Civic,EJ,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1286,For Rotor 262
+Bendix,Honda,Civic,EK,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1286,For Rotor 262
+Bendix,Honda,Civic,EJ,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EK,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,SO,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,FK,1.6,,FWD,Hatchback,2013,2015,Brake Pad Set,Front,DB2308,
+Bendix,Honda,Civic,FK,1.6,,FWD,Hatchback,2013,2015,Brake Pad Set,Rear,DB2309,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,4 Door Models
+Bendix,Honda,Civic,EK,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,4 Door Models
+Bendix,Honda,Civic,SO,1.6,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1286,4 Door Models
+Bendix,Honda,Civic,EG,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EG,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,EH,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,SR,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Civic,SR,1.6,Si,FWD,Sedan,1991,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EK,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EK,1.6,,FWD,Hatchback,1995,2000,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Coupe,1999,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Coupe,1999,2000,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EM1,1.6,,FWD,Coupe,1999,2000,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EM1,1.6,,FWD,Coupe,1999,2000,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Coupe,1996,1999,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EJ,1.6,,FWD,Coupe,1996,1999,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EM1,1.6,,FWD,Coupe,1996,1999,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EM1,1.6,,FWD,Coupe,1996,1999,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EG,1.6,Si,FWD,Hatchback,1991,1993,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EG,1.6,Si,FWD,Hatchback,1991,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EH,1.6,Si,FWD,Hatchback,1991,1993,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EH,1.6,Si,FWD,Hatchback,1991,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Civic,EJ,1.6,VTi,FWD,Hatchback,1995,1998,Brake Pad Set,Front,DB1259,Suits CXi models
+Bendix,Honda,Civic,EK,1.6,VTi,FWD,Hatchback,1995,1998,Brake Pad Set,Front,DB1259,Suits CXi models
+Bendix,Honda,Civic,EJ,1.6,VTi,FWD,Hatchback,1995,1998,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,EK,1.6,VTi,FWD,Hatchback,1995,1998,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Civic,FB,1.8,,FWD,Sedan,2012,2016,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Civic,FB,1.8,,FWD,Sedan,2012,2016,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FB,1.8,,FWD,Sedan,2012,2016,Brake Pad Set,Front,DB2047,Not Type R
+Bendix,Honda,Civic,FB,1.8,,FWD,Sedan,2012,2016,Brake Pad Set,Rear,DB1265,Not Type R
+Bendix,Honda,Civic,ES,1.7,,FWD,Sedan,2000,2006,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ES,1.7,,FWD,Sedan,2000,2006,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,ET,1.7,,FWD,Sedan,2000,2006,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ET,1.7,,FWD,Sedan,2000,2006,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,ES,1.7,,FWD,Sedan,2000,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ES,1.7,,FWD,Sedan,2000,2005,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,ET,1.7,,FWD,Sedan,2000,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,ET,1.7,,FWD,Sedan,2000,2005,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FC,1.8,,FWD,Sedan,2016,2019,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FC,1.8,,FWD,Sedan,2016,2019,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FD,1.8,,FWD,Sedan,2005,2012,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Civic,FD,1.8,,FWD,Sedan,2005,2012,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FA,1.8,,FWD,Sedan,2005,2012,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Civic,FA,1.8,,FWD,Sedan,2005,2012,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FC,1.8,,FWD,Hatchback,2017,2021,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FC,1.8,,FWD,Hatchback,2017,2021,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2017,2021,Brake Pad Set,Front,DB1481,
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2017,2021,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FN,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Front,DB1515,Suits models from 2006 - 2009
+Bendix,Honda,Civic,FN,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Rear,DB2177,Suits models from 2006 - 2009
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Front,DB1515,Suits models from 2006 - 2009
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Rear,DB2177,Suits models from 2006 - 2009
+Bendix,Honda,Civic,FN,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Front,DB2212,Suits models from 2009 - 2012
+Bendix,Honda,Civic,FN,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Rear,DB2177,Suits models from 2009 - 2012
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Front,DB2212,Suits models from 2009 - 2012
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2005,2011,Brake Pad Set,Rear,DB2177,Suits models from 2009 - 2012
+Bendix,Honda,Civic,SB,1.2,,FWD,Hatchback,1972,1977,Brake Pad Set,Front,DB39,
+Bendix,Honda,Civic,SB,1.2,,FWD,Hatchback,1977,1980,Brake Pad Set,Front,DB39,
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2012,2016,Brake Pad Set,Front,DB2308,
+Bendix,Honda,Civic,FK,1.8,,FWD,Hatchback,2012,2016,Brake Pad Set,Rear,DB2309,
+Bendix,Honda,Civic,WC,1.3,,FWD,Wagon,1979,1983,Brake Pad Set,Front,DB152,
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB1191,Front pads 138mm
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Front pads 138mm
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB1191,Front pads 138mm
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Front pads 138mm
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB1515,Front pads 149mm
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Front pads 149mm
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB1515,Front pads 149mm
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Front pads 149mm
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB2047,Not Type R
+Bendix,Honda,Civic,FD,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Not Type R
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Front,DB2047,Not Type R
+Bendix,Honda,Civic,FA,2,,FWD,Sedan,2006,2012,Brake Pad Set,Rear,DB1265,Not Type R
+Bendix,Honda,Civic,FB,2,,FWD,Sedan,2013,2016,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,FB,2,,FWD,Sedan,2013,2016,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Civic,FB,2,,FWD,Sedan,2013,2016,Brake Pad Set,Front,DB2047,Not Type R
+Bendix,Honda,Civic,FB,2,,FWD,Sedan,2013,2016,Brake Pad Set,Rear,DB1265,Not Type R
+Bendix,Honda,Civic,FC,2,Type-R,FWD,Hatchback,2017,2022,Brake Pad Set,Front,DB1678,
+Bendix,Honda,Civic,FC,2,Type-R,FWD,Hatchback,2017,2022,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FK,2,Type-R,FWD,Hatchback,2017,2022,Brake Pad Set,Front,DB1678,
+Bendix,Honda,Civic,FK,2,Type-R,FWD,Hatchback,2017,2022,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,EU,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,EU,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EP,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,EP,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,EV,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Front,DB1515,
+Bendix,Honda,Civic,EV,2,Type-R,FWD,Hatchback,2001,2005,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Civic,FL,2,Type-R,FWD,Hatchback,2022,,Brake Pad Set,Front,DB1678,
+Bendix,Honda,Civic,FL,2,Type-R,FWD,Hatchback,2022,,Brake Pad Set,Rear,DB2429,
+Bendix,Honda,Civic,FN,2,Type R,FWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1452,
+Bendix,Honda,Civic,FN,2,Type R,FWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB2177,
+Bendix,Honda,Civic,FK,2,Type R,FWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1452,
+Bendix,Honda,Civic,FK,2,Type R,FWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB2177,
+Bendix,Honda,CR-V,RW,1.5,,AWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RT,1.5,,AWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,
+Bendix,Honda,Concerto,HW,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Front,DB1123,
+Bendix,Honda,Concerto,HW,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Concerto,MA,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Front,DB1123,
+Bendix,Honda,Concerto,MA,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,CR-V,RW,1.5,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,Suit Akebono Brake System
+Bendix,Honda,CR-V,RT,1.5,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,Suit Akebono Brake System
+Bendix,Honda,CR-V,RS,1.5,,AWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RS,1.5,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2450,
+Bendix,Honda,CR-V,RY,1.5,,AWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RY,1.5,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2450,
+Bendix,Honda,CR-V,RM,1.6,,AWD,SUV,2015,2015,Brake Pad Set,Front,DB1843,Suit Akebono Caliper
+Bendix,Honda,CR-V,RM,1.6,,AWD,SUV,2015,2015,Brake Pad Set,Front,DB2271,Suit Bosch Caliper
+Bendix,Honda,CR-V,RS,1.5,,FWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RS,1.5,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2450,
+Bendix,Honda,CR-V,RY,1.5,,FWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RY,1.5,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2450,
+Bendix,Honda,CR-V,RW,2,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,Suit Akebono Brake System
+Bendix,Honda,CR-V,RT,2,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1843,Suit Akebono Brake System
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1999,2002,Brake Pad Set,Front,DB1191,Automatic Transmission
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1999,2002,Brake Pad Set,Front,DB1206,
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1999,2002,Brake Pad Set,Front,DB1286,Manual Transmission
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1997,2000,Brake Pad Set,Front,DB1191,Automatic Transmission
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1997,2000,Brake Pad Set,Front,DB1206,
+Bendix,Honda,CR-V,RD,2,,AWD,SUV,1997,2000,Brake Pad Set,Front,DB1286,Manual Transmission
+Bendix,Honda,CR-V,RM,2,,FWD,SUV,2012,2017,Brake Pad Set,Front,DB1843,Suit Akebono Caliper
+Bendix,Honda,CR-V,RM,2,,FWD,SUV,2012,2017,Brake Pad Set,Front,DB2271,Suit Bosch Caliper
+Bendix,Honda,CR-V,RM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB1843,Suit Akebono Caliper
+Bendix,Honda,CR-V,RM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB2271,Suit Bosch Caliper
+Bendix,Honda,CR-V,RE,2.4,,AWD,SUV,2007,2012,Brake Pad Set,Front,DB1843,
+Bendix,Honda,CR-V,RE,2.4,,AWD,SUV,2007,2012,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,CR-V,RE,2.2,,AWD,SUV,2012,2015,Brake Pad Set,Front,DB1843,Suit Akebono Caliper
+Bendix,Honda,CR-V,RE,2.2,,AWD,SUV,2012,2015,Brake Pad Set,Rear,DB1728,Suit Akebono Caliper
+Bendix,Honda,CR-V,RE,2.2,,AWD,SUV,2012,2015,Brake Pad Set,Front,DB2271,Suit Bosch Caliper
+Bendix,Honda,CR-V,RE,2.2,,AWD,SUV,2012,2015,Brake Pad Set,Rear,DB2256,Suit Bosch Caliper
+Bendix,Honda,CR-V,RD,2.4,,AWD,SUV,2001,2006,Brake Pad Set,Front,DB1481,
+Bendix,Honda,CR-V,RD,2.4,,AWD,SUV,2001,2006,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,CR-Z,ZF,1.5,,FWD,Coupe,2010,2013,Brake Pad Set,Front,DB1991,
+Bendix,Honda,CR-Z,ZF,1.5,,FWD,Coupe,2010,2013,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,HR-V,RV,1.5,,FWD,SUV,2021,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,HR-V,RV,1.5,,FWD,SUV,2021,,Brake Pad Set,Rear,DB2355,
+Bendix,Honda,CRX,EH,1.6,VTi,FWD,Targa,1992,1998,Brake Pad Set,Front,DB1286,With Front 262mm Disc
+Bendix,Honda,CRX,EH,1.6,VTi,FWD,Targa,1992,1998,Brake Pad Set,Rear,DB1163,With Front 262mm Disc
+Bendix,Honda,CRX,EG,1.6,VTi,FWD,Targa,1992,1998,Brake Pad Set,Front,DB1286,With Front 262mm Disc
+Bendix,Honda,CRX,EG,1.6,VTi,FWD,Targa,1992,1998,Brake Pad Set,Rear,DB1163,With Front 262mm Disc
+Bendix,Honda,HR-V,GH,1.6,,AWD,SUV,1999,2002,Brake Pad Set,Front,DB1206,
+Bendix,Honda,HR-V,RV,1.5,,FWD,SUV,2022,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,HR-V,RV,1.5,,FWD,SUV,2022,,Brake Pad Set,Rear,DB2355,
+Bendix,Honda,HR-V,RU,1.8,,FWD,SUV,2015,2021,Brake Pad Set,Front,DB2304,
+Bendix,Honda,HR-V,RU,1.8,,FWD,SUV,2015,2021,Brake Pad Set,Rear,DB2355,
+Bendix,Honda,Insight,ZE,1.3,,FWD,Hatchback,2009,2013,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Insight,ZE,1.3,,FWD,Hatchback,2009,2013,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1989,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1986,1989,Brake Pad Set,Front,DB300,AV to Chassis 130000
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1986,1989,Brake Pad Set,Rear,DB1195,AV to Chassis 130000
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1986,1989,Brake Pad Set,Front,DB429,With Front Disc
+Bendix,Honda,Integra,DA,1.6,,FWD,Hatchback,1986,1989,Brake Pad Set,Rear,DB1195,With Front Disc
+Bendix,Honda,Integra,DA,1.8,,FWD,Hatchback,1989,1993,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Integra,DA,1.8,,FWD,Hatchback,1989,1993,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Front,DB1292,With Front Disc
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Rear,DB1163,With Front Disc
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Front,DB1292,With Front Disc
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Rear,DB1163,With Front Disc
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Integra,DC,1.8,,FWD,Coupe,1993,2001,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Integra,DC,1.8,VTi-R,FWD,Coupe,1993,1999,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Integra,DC,1.8,VTi-R,FWD,Coupe,1993,1999,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Integra,DC,1.8,VTi-R,FWD,Coupe,1993,1999,Brake Pad Set,Front,DB1292,Suits front 129mm wide disc
+Bendix,Honda,Integra,DC,1.8,VTi-R,FWD,Coupe,1993,1999,Brake Pad Set,Rear,DB1265,Suits front 129mm wide disc
+Bendix,Honda,Integra,DC,1.8,Type-R,FWD,Coupe,1999,2001,Brake Pad Set,Front,DB1206,Type R
+Bendix,Honda,Integra,DC,1.8,Type-R,FWD,Coupe,1999,2001,Brake Pad Set,Front,DB1292,Suits Type-R models with Front 129mm disc rotors
+Bendix,Honda,Integra,DC5,2,Type-R,FWD,Coupe,2002,2006,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Integra,DC5,2,Type-S,FWD,Coupe,2004,2007,Brake Pad Set,Front,DB1452,
+Bendix,Honda,Integra,DC5,2,Type-S,FWD,Coupe,2004,2007,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Integra,DC5,2,,FWD,Coupe,2001,2006,Brake Pad Set,Front,DB1206,Length 149mm
+Bendix,Honda,Integra,DC5,2,,FWD,Coupe,2001,2006,Brake Pad Set,Rear,DB1265,Length 149mm
+Bendix,Honda,Integra,DC5,2,,FWD,Coupe,2001,2006,Brake Pad Set,Front,DB1286,Length 136mm
+Bendix,Honda,Integra,DC5,2,,FWD,Coupe,2001,2006,Brake Pad Set,Rear,DB1265,Length 136mm
+Bendix,Honda,Integra,DC5,2,,FWD,Coupe,2001,2004,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1286,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1286,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1286,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1286,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,Length 136mm - suits models from 2013 on
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2011,2014,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GE,1.3,,FWD,Hatchback,2008,2011,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Jazz,GG,1.3,,FWD,Hatchback,2008,2011,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Jazz,GP,1.3,,FWD,Hatchback,2008,2011,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Jazz,ZA,1.3,,FWD,Hatchback,2008,2011,Brake Pad Set,Front,DB1286,
+Bendix,Honda,Jazz,GD,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Jazz,GD,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GE3,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Jazz,GE3,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GE2,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,
+Bendix,Honda,Jazz,GE2,1.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Jazz,GR,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GS,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GK,1.5,,FWD,Hatchback,2014,2021,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GP,1.5,,FWD,Hatchback,2014,2021,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GF,1.5,,FWD,Hatchback,2014,2021,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GK,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GK,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Jazz,GP,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GP,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Jazz,GF,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GF,1.5,,FWD,Hatchback,2013,2020,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Jazz,GK,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GK,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Jazz,GP,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GP,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Jazz,GF,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Front,DB1991,
+Bendix,Honda,Jazz,GF,1.5,,AWD,Hatchback,2013,,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Jazz,GD,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GD,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE3,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE3,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE2,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1262,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE2,1.5,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1230,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Front,DB1286,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GE,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Rear,DB1163,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GG,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Front,DB1286,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GG,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Rear,DB1163,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GP,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Front,DB1286,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,GP,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Rear,DB1163,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,ZA,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Front,DB1286,5 Door Models; With Front Disc
+Bendix,Honda,Jazz,ZA,1.5,,FWD,Hatchback,2008,2014,Brake Pad Set,Rear,DB1163,5 Door Models; With Front Disc
+Bendix,Honda,Legend,HS,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Legend,HS,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Rear,DB1197,
+Bendix,Honda,Legend,KA,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Legend,KA,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Rear,DB1197,
+Bendix,Honda,Legend,HS,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Legend,KA,2.5,,FWD,Sedan,1986,1987,Brake Pad Set,Rear,DB1142,
+Bendix,Honda,Legend,HS,2.5,,FWD,Sedan,1987,1988,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Legend,HS,2.5,,FWD,Sedan,1987,1988,Brake Pad Set,Rear,DB1197,
+Bendix,Honda,Legend,KA,2.5,,FWD,Sedan,1987,1988,Brake Pad Set,Front,DB1133,
+Bendix,Honda,Legend,KA,2.5,,FWD,Sedan,1987,1988,Brake Pad Set,Rear,DB1197,
+Bendix,Honda,Legend,HS,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Front,DB1133,2 Door Models
+Bendix,Honda,Legend,HS,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Rear,DB1142,2 Door Models
+Bendix,Honda,Legend,KA,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Front,DB1133,2 Door Models
+Bendix,Honda,Legend,KA,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Rear,DB1142,2 Door Models
+Bendix,Honda,Legend,HS,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Legend,KA,2.7,,FWD,Sedan,1987,1991,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1393,Please check profile - small tabs on top-middle of pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1230,Please check profile - small tabs on top-middle of pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Shoe Set,Park Brake,BS5256,Please check profile - small tabs on top-middle of pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Legend,KA,3.2,,FWD,Coupe,1991,1996,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Front,DB1393,Please check profile - two small tabs the top-middle pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Rear,DB1230,Please check profile - two small tabs the top-middle pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Shoe Set,Park Brake,BS5256,Please check profile - two small tabs the top-middle pad profile
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Legend,KA,3.2,,FWD,Sedan,1991,1996,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Legend,KA,3.5,,FWD,Sedan,1996,2001,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Legend,KA,3.5,,FWD,Sedan,1996,2001,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Legend,KA,3.5,,FWD,Sedan,1996,2001,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Legend,KB,3.5,,AWD,Sedan,2006,2013,Brake Pad Set,Front,DB1735,
+Bendix,Honda,Legend,KB,3.5,,AWD,Sedan,2006,2013,Brake Pad Set,Rear,DB1736,
+Bendix,Honda,Legend,KA,2.7,,FWD,Coupe,1987,1991,Brake Pad Set,Front,DB1133,2 Door Models
+Bendix,Honda,Legend,KA,2.7,,FWD,Coupe,1987,1991,Brake Pad Set,Rear,DB1142,2 Door Models
+Bendix,Honda,Legend,KA,2.7,,FWD,Coupe,1987,1991,Brake Pad Set,Front,DB1265,
+Bendix,Honda,NSX,NA,3,Automatic,RWD,Convertible,1995,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3,Automatic,RWD,Convertible,1995,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,NSX,NA,3,,RWD,Convertible,1995,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3,,RWD,Convertible,1995,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,NSX,NA,3,,RWD,Coupe,1990,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3,,RWD,Coupe,1990,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,Legend,KB,3.7,,AWD,Sedan,2008,2013,Brake Pad Set,Front,DB1735,
+Bendix,Honda,Legend,KB,3.7,,AWD,Sedan,2008,2013,Brake Pad Set,Rear,DB1736,
+Bendix,Honda,Legend,KB,3.7,,AWD,Sedan,2008,2013,Brake Pad Set,Front,DB1735,
+Bendix,Honda,Legend,KB,3.7,,AWD,Sedan,2008,2013,Brake Pad Set,Rear,DB1736,
+Bendix,Honda,MDX,YD,3.5,,AWD,SUV,2003,2007,Brake Pad Set,Front,DB1333,
+Bendix,Honda,NSX,NA,3,Automatic,RWD,Coupe,1990,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3,Automatic,RWD,Coupe,1990,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,Odyssey,RC1,2,,FWD,MPV,2016,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC1,2,,FWD,MPV,2016,,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Odyssey,RC2,2,,FWD,MPV,2016,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC2,2,,FWD,MPV,2016,,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Odyssey,RC4,2,,FWD,MPV,2016,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC4,2,,FWD,MPV,2016,,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,NSX,NA,3.2,,RWD,Convertible,1997,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3.2,,RWD,Convertible,1997,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,NSX,NA,3.2,,RWD,Coupe,1997,2005,Brake Pad Set,Front,DB1206,
+Bendix,Honda,NSX,NA,3.2,,RWD,Coupe,1997,2005,Brake Pad Set,Rear,DB1207,
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Pad Set,Front,DB1206,5 Door Models
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Pad Set,Rear,DB1230,5 Door Models
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Shoe Set,Park Brake,BS5256,5 Door Models
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Odyssey,RA,2.2,,FWD,MPV,1995,1997,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,1998,2004,Brake Pad Set,Front,DB1206,New Zealand Models
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,1998,2004,Brake Pad Set,Rear,DB1230,New Zealand Models
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,1998,2004,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,1998,2004,Brake Pad Set,Front,DB1410,5 Door Models
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,1997,1999,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Odyssey,RL1,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RL1,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Odyssey,RA6,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA6,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA,2.3,,FWD,MPV,2002,2003,Brake Pad Set,Rear,DB1230,
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Pad Set,Front,DB1206,Suits NZ models
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Shoe Set,Park Brake,BS5256,Suits NZ models
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Pad Set,Front,DB1265,
+Bendix,Honda,Odyssey,RA,3,,FWD,MPV,2000,2004,Brake Shoe Set,Park Brake,BS5256,
+Bendix,Honda,Odyssey,RC1,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC1,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Odyssey,RC2,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC2,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Odyssey,RC4,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Odyssey,RC4,2.4,,FWD,MPV,2013,2021,Brake Pad Set,Rear,DB1728,
+Bendix,Honda,Odyssey,RL1,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA6,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RL1,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1843,
+Bendix,Honda,Odyssey,RA6,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1843,
+Bendix,Honda,Odyssey,RA,2.4,,FWD,MPV,2004,2009,Brake Pad Set,Front,DB1843,
+Bendix,Honda,Odyssey,RL1,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RL1,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Rear,DB1847,
+Bendix,Honda,Odyssey,RA6,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA6,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Rear,DB1847,
+Bendix,Honda,Odyssey,RA,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Front,DB1393,
+Bendix,Honda,Odyssey,RA,2.4,,FWD,MPV,2009,2013,Brake Pad Set,Rear,DB1847,
+Bendix,Honda,Prelude,SN,1.6,,FWD,Coupe,1978,1982,Brake Pad Set,Front,DB198,
+Bendix,Honda,Prelude,SN,1.6,,FWD,Coupe,1978,1982,Brake Pad Set,Front,DB300,New Zealand and Japan Models
+Bendix,Honda,Prelude,AB,1.8,EX,FWD,Coupe,1983,1985,Brake Pad Set,Front,DB300,
+Bendix,Honda,Prelude,AB,1.8,EX,FWD,Coupe,1983,1985,Brake Pad Set,Front,DB300,
+Bendix,Honda,Prelude,AB,2,,FWD,Coupe,1986,1987,Brake Pad Set,Front,DB1123,Length 134mm
+Bendix,Honda,Prelude,AB,2,,FWD,Coupe,1986,1987,Brake Pad Set,Rear,DB430,Length 134mm
+Bendix,Honda,Prelude,AB,2,,FWD,Coupe,1986,1987,Brake Pad Set,Front,DB429,
+Bendix,Honda,Prelude,AB,2,,FWD,Coupe,1986,1987,Brake Pad Set,Rear,DB430,
+Bendix,Honda,Prelude,BA,2,EX,FWD,Coupe,1987,1991,Brake Pad Set,Front,DB1123,
+Bendix,Honda,Prelude,BA,2,EX,FWD,Coupe,1987,1991,Brake Pad Set,Rear,DB1163,
+Bendix,Honda,Prelude,BA,2,EX,FWD,Coupe,1987,1991,Brake Pad Set,Front,DB1133,PGM_FI
+Bendix,Honda,Prelude,BA,2,EX,FWD,Coupe,1987,1991,Brake Pad Set,Rear,DB1163,PGM_FI
+Bendix,Honda,Prelude,BB,2.2,S,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1268,
+Bendix,Honda,Prelude,BB,2.2,S,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Prelude,BB,2.2,Si,FWD,Coupe,1997,2001,Brake Pad Set,Front,DB1268,
+Bendix,Honda,Prelude,BB,2.2,Si,FWD,Coupe,1997,2001,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1994,1997,Brake Pad Set,Front,DB1206,Suits 282mm disc rotors
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1994,1997,Brake Pad Set,Rear,DB1265,Suits 282mm disc rotors
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1994,1997,Brake Pad Set,Front,DB1268,Suits 260mm disc rotors
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1994,1997,Brake Pad Set,Rear,DB1265,Suits 260mm disc rotors
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1997,1998,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1997,1998,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1998,2001,Brake Pad Set,Front,DB1206,
+Bendix,Honda,Prelude,BB,2.2,VTi-R,FWD,Coupe,1998,2001,Brake Pad Set,Rear,DB1265,
+Bendix,Honda,S800,AS800,0.8,,RWD,Convertible,1966,1970,Brake Pad Set,Front,DB39,
+Bendix,Honda,S2000,AP,2,,RWD,Convertible,1999,2009,Brake Pad Set,Front,DB1452,2 Door Models
+Bendix,Honda,S2000,AP,2,,RWD,Convertible,1999,2009,Brake Pad Set,Rear,DB1265,2 Door Models
+Bendix,Honda,Prelude,BB,2.3,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1206,Suits 282mm disc rotors
+Bendix,Honda,Prelude,BB,2.3,,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1265,Suits 282mm disc rotors
+Bendix,Honda,Prelude,BB,2.3,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1268,Suits 260mm disc rotors
+Bendix,Honda,Prelude,BB,2.3,,FWD,Coupe,1991,1996,Brake Pad Set,Rear,DB1265,Suits 260mm disc rotors
+Bendix,Honda,S800,AS8800C,0.8,,RWD,Coupe,1966,1970,Brake Pad Set,Front,DB39,
+Bendix,Honda,Vezel,RU,1.5,,FWD,SUV,2013,2021,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Vezel,RU,1.5,,FWD,SUV,2013,2021,Brake Pad Set,Rear,DB2355,
+Bendix,Honda,Vezel,RU,1.5,,AWD,SUV,2013,,Brake Pad Set,Front,DB2304,
+Bendix,Honda,Vezel,RU,1.5,,AWD,SUV,2013,,Brake Pad Set,Rear,DB2355,
+Bendix,Honda,ZR-V,,2,,FWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,ZR-V,,2,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2450,
+Bendix,Honda,ZR-V,,1.5,,FWD,SUV,2023,,Brake Pad Set,Front,DB1843,
+Bendix,Honda,ZR-V,,1.5,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2450,

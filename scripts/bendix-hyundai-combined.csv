@@ -1,0 +1,791 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Front,BR2893,Other Products
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Hatchback,2015,2019,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Sedan,2010,2017,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Sedan,2010,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Sedan,2010,2017,Brake Pad Set,Front,BR2893,Other Products
+Bendix,Hyundai,Accent,RB,1.4,,FWD,Sedan,2010,2017,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,LC,1.5,,FWD,Hatchback,2000,2003,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,LC,1.5,,FWD,Hatchback,2000,2003,Brake Shoe Set,Park Brake,BS1779,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,LC,1.5,,FWD,Hatchback,2000,2002,Brake Pad Set,Front,DB1252,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2012,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2012,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2012,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2017,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2017,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2019,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2011,2019,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Pad Set,Rear,BR2453,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Shoe Set,Park Brake,BS1779,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Hatchback,2006,2009,Brake Shoe Set,Park Brake,BS1779,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1943,Std. Brake System
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Shoe Set,Park Brake,BS1779,Std. Brake System
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,Accent,MC,1.6,GLS,FWD,Sedan,2006,2009,Brake Shoe Set,Park Brake,BS1779,Other Products
+Bendix,Hyundai,Accent,LC,1.6,,FWD,Hatchback,2003,2006,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,LC,1.6,,FWD,Hatchback,2003,2006,Brake Shoe Set,Park Brake,BS1779,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Accent,LC,1.6,,FWD,Sedan,2003,2006,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Accent,LC,1.6,,FWD,Sedan,2003,2006,Brake Pad Set,Rear,DB1943,Std. Brake System
+Bendix,Hyundai,Accent,LC,1.6,,FWD,Sedan,2003,2006,Brake Shoe Set,Park Brake,BS1779,Std. Brake System
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2015,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2015,Brake Pad Set,Front,BR2893,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2010,2015,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2010,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Hatchback,2010,2015,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Front,DB2272,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Front,BR2893,Other Products
+Bendix,Hyundai,Accent,RB,1.6,,FWD,Sedan,2010,2019,Brake Pad Set,Rear,BR2477,Other Products
+Bendix,Hyundai,Coupe,RD,1.8,SX,FWD,Coupe,1996,2002,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Coupe,RD,1.8,SX,FWD,Coupe,1996,2002,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Coupe,RD,2.0,,FWD,Coupe,1996,2002,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Coupe,RD,2.0,,FWD,Coupe,1996,2002,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Coupe,RD,2.0,,FWD,Coupe,1996,2002,Brake Pad Set,Front,DB1355,Std. 4-Wheel Disc - Harrop Caliper
+Bendix,Hyundai,Coupe,RD,2.0,,FWD,Coupe,1996,2002,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc - Harrop Caliper
+Bendix,Hyundai,Elantra Lavita,FC,1.8,,FWD,MPV,2001,2004,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra Lavita,FC,1.8,,FWD,MPV,2001,2004,Brake Pad Set,Rear,DB1174,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,AD,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,ADA,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,AD,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Front,DB2424,Other Products
+Bendix,Hyundai,Elantra,AD,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,ADA,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Front,DB2424,Other Products
+Bendix,Hyundai,Elantra,ADA,1.6,SR,FWD,Sedan,2016,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,MD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,UD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,MD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,Elantra,MD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,UD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,Elantra,UD,1.8,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,XD,1.8,,FWD,Hatchback,2000,2003,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,1.8,,FWD,Hatchback,2000,2003,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,1.8,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,1.8,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,AD,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,ADA,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,AD,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Front,DB2443,Std. Brake System
+Bendix,Hyundai,Elantra,AD,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2076,Std. Brake System
+Bendix,Hyundai,Elantra,ADA,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Front,DB2443,Std. Brake System
+Bendix,Hyundai,Elantra,ADA,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2076,Std. Brake System
+Bendix,Hyundai,Elantra,AD,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Elantra,AD,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,ADA,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Elantra,ADA,2.0,,FWD,Sedan,2015,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Elantra,HD,2.0,,FWD,Sedan,2006,2011,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,HD,2.0,,FWD,Sedan,2006,2011,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2000,2003,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2000,2003,Brake Shoe Set,Park Brake,BS1702,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2000,2003,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2000,2003,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2000,2003,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2000,2003,Brake Shoe Set,Park Brake,BS1702,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2000,2003,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2000,2003,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2000,2003,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2003,2006,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2003,2006,Brake Shoe Set,Park Brake,BS1702,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2003,2006,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2003,2006,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Hatchback,2003,2006,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2003,2006,Brake Pad Set,Rear,BR2873,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2003,2006,Brake Shoe Set,Park Brake,BS1702,Std. 4-Wheel Disc
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2003,2006,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2003,2006,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Elantra,XD,2.0,,FWD,Sedan,2003,2006,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Hatchback,1994,2000,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Sedan,1994,1998,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Sedan,1994,1998,Brake Shoe Set,Park Brake,BS1739,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Hatchback,1995,2000,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Sedan,1998,2000,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-3,1.5,,FWD,Sedan,1998,2000,Brake Shoe Set,Park Brake,BS1739,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-2,1.5,,FWD,Hatchback,1990,1994,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-2,1.5,,FWD,Hatchback,1990,1994,Brake Shoe Set,Park Brake,BS1739,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-2,1.5,,FWD,Sedan,1990,1995,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-2,1.5,,FWD,Sedan,1990,1995,Brake Shoe Set,Park Brake,BS1739,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-1,1.5,,FWD,Hatchback,1986,1989,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-1,1.5,,FWD,Hatchback,1986,1989,Brake Shoe Set,Park Brake,BS1398,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-1,1.5,,FWD,Sedan,1985,1989,Brake Pad Set,Front,DB1252,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-1,1.5,,FWD,Sedan,1985,1989,Brake Shoe Set,Park Brake,BS1398,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Excel,X-2,1.5,,FWD,Hatchback Van,1991,1994,Brake Pad Set,Front,DB1252,Other Products
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Front,BR2451,Other Products
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Shoe Set,Park Brake,BS1780,Other Products
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Rear,DB1451,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Shoe Set,Park Brake,BS1780,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Front,DB1252,Other Products
+Bendix,Hyundai,Getz,TB,1.3,,FWD,Hatchback,2003,2005,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Getz,TB,1.4,,FWD,Hatchback,2005,2010,Brake Pad Set,Front,BR2451,Other Products
+Bendix,Hyundai,Getz,TB,1.4,,FWD,Hatchback,2005,2010,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Getz,TB,1.4,,FWD,Hatchback,2005,2010,Brake Pad Set,Front,DB1252,Std. 4-Wheel Disc
+Bendix,Hyundai,Getz,TB,1.4,,FWD,Hatchback,2005,2010,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Pad Set,Front,BR2451,Other Products
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Shoe Set,Park Brake,BS1780,Other Products
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Pad Set,Rear,DB1451,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.5,,FWD,Hatchback,2002,2005,Brake Shoe Set,Park Brake,BS1780,Std. Brake System
+Bendix,Hyundai,Getz,TB,1.6,,FWD,Hatchback,2005,2009,Brake Pad Set,Front,BR2451,Other Products
+Bendix,Hyundai,Getz,TB,1.6,,FWD,Hatchback,2005,2009,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,Getz,TB,1.6,,FWD,Hatchback,2005,2009,Brake Pad Set,Front,DB1252,Std. 4-Wheel Disc
+Bendix,Hyundai,Getz,TB,1.6,,FWD,Hatchback,2005,2009,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur,TG,2.2,,FWD,Sedan,2006,2010,Brake Pad Set,Front,DB1924,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur,TG,2.2,,FWD,Sedan,2006,2010,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur,TG,3.8,,FWD,Sedan,2005,2011,Brake Pad Set,Front,DB1924,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur,TG,3.8,,FWD,Sedan,2005,2011,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur 30,XG,3,,FWD,Sedan,1999,2004,Brake Pad Set,Front,DB1450,Std. 4-Wheel Disc
+Bendix,Hyundai,Grandeur 30,XG,3,,FWD,Sedan,1999,2004,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PB,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Front,DB1787,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PB,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PBT,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Front,DB1787,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PBT,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PB,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,i20,PB,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,i20,PBT,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,i20,PBT,1.4,,FWD,Hatchback,2008,2015,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,i20,PB,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1787,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PB,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PBT,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1787,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PBT,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i20,PB,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,i20,PB,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,i20,PBT,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Front,BR6022,Other Products
+Bendix,Hyundai,i20,PBT,1.6,,FWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2453,Other Products
+Bendix,Hyundai,i30,PDE,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDE,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PD,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PD,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDEN,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDEN,1.5,,FWD,Hatchback,2020,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2017,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2011,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2014,2016,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2014,2016,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2014,2016,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2014,2016,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Front,BR2456,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2011,2015,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2011,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2015,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2015,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2015,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,2020,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2012,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,1.6,,FWD,Hatchback,2007,2012,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2011,2016,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Hatchback,2011,2016,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,GD,1.6,,FWD,Wagon,2012,2016,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,,1.6,,FWD,Coupe,2013,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,,1.6,,FWD,Coupe,2013,2015,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,i30,,1.6,,FWD,Coupe,2013,2015,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,CN7,1.6,,FWD,Sedan,2020,,Brake Pad Set,Front,DB2664,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,CN7,1.6,,FWD,Sedan,2020,,Brake Pad Set,Rear,DB2665,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDE,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PD,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDEN,1.6,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2013,2017,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2013,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2013,2017,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2013,2017,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2012,2017,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2012,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2012,2017,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,GD,1.8,,FWD,Hatchback,2012,2017,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,CN7,2.0,,FWD,Sedan,2020,,Brake Pad Set,Front,DB2663,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,CN7,2.0,,FWD,Sedan,2020,,Brake Pad Set,Rear,DB2665,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,2.0,,FWD,Hatchback,2007,2012,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,2.0,,FWD,Hatchback,2007,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,2.0,,FWD,Hatchback,2007,2012,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,FD,2.0,,FWD,Wagon,2008,2012,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,2.0,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,FD,2.0,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2014,2017,Brake Pad Set,Front,BR2456,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2014,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2014,2017,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2014,2017,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2013,2014,Brake Pad Set,Front,BR2456,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2013,2014,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2013,2014,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,i30,GD,2.0,,FWD,Hatchback,2013,2014,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,CN7,2.0,N,FWD,Sedan,2021,,Brake Pad Set,Front,BR6017,Other Products
+Bendix,Hyundai,i30,CN7,2.0,N,FWD,Sedan,2021,,Brake Pad Set,Rear,BR6019,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6017,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR6019,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6017,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR6019,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6017,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR6019,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2017,2020,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDE,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PD,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Front,BR6016,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,N,FWD,Hatchback,2021,,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,i30,PDE,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PD,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDEN,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i30,PDE,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDE,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PD,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PD,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,i30,PDEN,2.0,,FWD,Hatchback,2016,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,i40,VF,1.7,,FWD,Sedan,2015,2018,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Sedan,2015,2018,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Sedan,2012,2014,Brake Pad Set,Front,DB2089,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Sedan,2012,2014,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Wagon,2011,2015,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Wagon,2011,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Wagon,2015,2018,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,1.7,,FWD,Wagon,2015,2018,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2011,2015,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2011,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Sedan,2012,2015,Brake Pad Set,Front,DB2089,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Sedan,2012,2015,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Sedan,2014,2018,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Sedan,2014,2018,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2014,2018,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2014,2018,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2015,2018,Brake Pad Set,Front,BR2456,Std. 4-Wheel Disc
+Bendix,Hyundai,i40,VF,2.0,,FWD,Wagon,2015,2018,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.0,,FWD,Sedan,2011,2014,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.0,,FWD,Sedan,2011,2014,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.0,,FWD,Sedan,2010,2015,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.0,,FWD,Sedan,2010,2015,Brake Pad Set,Rear,BR2459,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.4,,FWD,Sedan,2009,2014,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.4,,FWD,Sedan,2009,2014,Brake Pad Set,Rear,DB2175,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.4,,FWD,Sedan,2011,2014,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,i45,YF,2.4,,FWD,Sedan,2011,2014,Brake Pad Set,Rear,BR2459,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.4,,RWD,Van,2008,2016,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.4,,RWD,Van,2008,2016,Brake Pad Set,Rear,DB1957,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.4,,RWD,Van,2008,2016,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2012,2021,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2012,2021,Brake Pad Set,Rear,DB1957,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2012,2021,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2008,2021,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2008,2021,Brake Pad Set,Rear,DB1957,Std. 4-Wheel Disc
+Bendix,Hyundai,iLoad / H-1,TQ,2.5,,RWD,Van,2008,2021,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.4,,RWD,Bus,2008,2016,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.4,,RWD,Bus,2008,2016,Brake Pad Set,Rear,DB1957,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.4,,RWD,Bus,2008,2016,Brake Pad Set,Front,BR2460,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.4,,RWD,Bus,2008,2016,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2012,2021,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2012,2021,Brake Pad Set,Rear,DB1957,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2012,2021,Brake Pad Set,Front,BR2460,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2012,2021,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2008,2021,Brake Pad Set,Front,DB1940,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2008,2021,Brake Pad Set,Rear,DB2447,Std. 4-Wheel Disc
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2008,2021,Brake Pad Set,Front,BR2460,Other Products
+Bendix,Hyundai,iMax / H-1,TQ,2.5,,RWD,Bus,2008,2021,Brake Pad Set,Rear,BR2461,Other Products
+Bendix,Hyundai,Ioniq 5,NE,,,AWD,Hatchback,2021,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,AWD,Hatchback,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,AWD,Hatchback,2021,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,AWD,Hatchback,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 5,NE,,,RWD,Hatchback,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,AWD,Hatchback,2022,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,AWD,Hatchback,2022,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,RWD,Hatchback,2022,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,RWD,Hatchback,2022,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,RWD,Hatchback,2022,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq 6,CE,,,RWD,Hatchback,2022,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,1.6,,FWD,Hatchback,2016,2022,Brake Pad Set,Front,DB2443,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,1.6,,FWD,Hatchback,2016,2022,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,1.6,,FWD,Hatchback,2016,2022,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2019,2022,Brake Pad Set,Front,DB2443,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2019,2022,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2019,2022,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2016,2019,Brake Pad Set,Front,DB2443,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2016,2019,Brake Pad Set,Rear,BR2489,Std. 4-Wheel Disc
+Bendix,Hyundai,Ioniq,AE,,,FWD,Hatchback,2016,2019,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,ix35,LM,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2013,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,EL,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,ELH,2.0,,FWD,SUV,2010,2015,Brake Pad Set,Rear,BR2459,Other Products
+Bendix,Hyundai,ix35,LM,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.4,,AWD,SUV,2010,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,LM,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,EL,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Front,DB2072,Std. 4-Wheel Disc
+Bendix,Hyundai,ix35,ELH,2.4,,AWD,SUV,2013,2015,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,1.6,,AWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,1.6,,AWD,SUV,2020,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,1.6,,AWD,SUV,2023,,Brake Pad Set,Front,DB2874,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,1.6,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2762,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,1.6,,FWD,SUV,2023,,Brake Pad Set,Front,DB2874,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,1.6,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2762,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,2.0,,FWD,SUV,2023,,Brake Pad Set,Front,DB2874,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,2.0,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2762,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Other Products
+Bendix,Hyundai,Kona,OS,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB1943,Other Products
+Bendix,Hyundai,Kona,OSE,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Other Products
+Bendix,Hyundai,Kona,OSE,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB1943,Other Products
+Bendix,Hyundai,Kona,OSI,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Other Products
+Bendix,Hyundai,Kona,OSI,2.0,N,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB1943,Other Products
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2017,2023,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Front,DB1754,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,2.0,,FWD,SUV,2021,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OS,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSE,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,,,FWD,SUV,2018,2023,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,OSI,,,FWD,SUV,2018,2023,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,,,FWD,SUV,2023,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2665,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,,,FWD,SUV,2023,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Kona,SX2,,,FWD,SUV,2023,,Brake Pad Set,Rear,DB2665,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-1,1.6,,FWD,Sedan,1991,1995,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Lantra,J-1,1.6,,FWD,Sedan,1991,1995,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Lantra,J-1,1.6,,FWD,Sedan,1991,1995,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Lantra,J-2,1.8,,FWD,Sedan,1995,2000,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,1.8,,FWD,Sedan,1995,2000,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,1.8,,FWD,Wagon,1996,2000,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,1.8,,FWD,Wagon,1996,2000,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-1,1.8,,FWD,Sedan,1992,1995,Brake Pad Set,Front,DB1167,Std. Brake System
+Bendix,Hyundai,Lantra,J-1,1.8,,FWD,Sedan,1992,1995,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,Lantra,J-1,1.8,,FWD,Sedan,1992,1995,Brake Shoe Set,Park Brake,BS1702,Std. Brake System
+Bendix,Hyundai,Lantra,J-2,2.0,,FWD,Sedan,1999,2000,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,2.0,,FWD,Sedan,1999,2000,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,2.0,,FWD,Wagon,1995,2000,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Lantra,J-2,2.0,,FWD,Wagon,1995,2000,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,2.2,,AWD,SUV,2018,2025,Brake Pad Set,Front,DB2631,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,2.2,,AWD,SUV,2018,2025,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,2.2,,AWD,SUV,2021,2025,Brake Pad Set,Front,DB2631,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,2.2,,AWD,SUV,2021,2025,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,3.8,,FWD,SUV,2018,2025,Brake Pad Set,Front,DB2631,Std. 4-Wheel Disc
+Bendix,Hyundai,Palisade,LX2,3.8,,FWD,SUV,2018,2025,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1990,1991,Brake Pad Set,Front,DB1252,Std. Brake System
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1990,1991,Brake Pad Set,Rear,DB1166,Std. Brake System
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1991,1996,Brake Pad Set,Front,DB1298,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1991,1996,Brake Shoe Set,Park Brake,BS1701,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1992,1996,Brake Pad Set,Front,DB1298,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,S Coupe,SLC,1.5,,FWD,Coupe,1992,1996,Brake Shoe Set,Park Brake,BS1701,Std. Front Disc / Rear Drum Brake
+Bendix,Hyundai,Santa Fe,TM,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Other Products
+Bendix,Hyundai,Santa Fe,TMA,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,1.6,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2012,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.2,,AWD,SUV,2015,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2006,2009,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2006,2009,Brake Pad Set,Rear,DB2035,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2006,2009,Brake Shoe Set,Park Brake,BS5260,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2006,2009,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2006,2009,Brake Shoe Set,Park Brake,BS5260,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2009,2012,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2009,2012,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2009,2012,Brake Shoe Set,Park Brake,BS5260,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2009,2012,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,AWD,SUV,2009,2012,Brake Shoe Set,Park Brake,BS5260,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,FWD,SUV,2009,2012,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,FWD,SUV,2009,2012,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,FWD,SUV,2009,2012,Brake Shoe Set,Park Brake,BS5260,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.2,,FWD,SUV,2009,2012,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.2,,FWD,SUV,2009,2012,Brake Shoe Set,Park Brake,BS5260,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Rear,BR6040,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.2,,AWD,SUV,2020,2024,Brake Pad Set,Rear,BR6040,Other Products
+Bendix,Hyundai,Santa Fe,SM,2.4,,AWD,SUV,2001,2003,Brake Pad Set,Front,DB1745,Std. Brake System
+Bendix,Hyundai,Santa Fe,SM,2.4,,AWD,SUV,2001,2003,Brake Pad Set,Rear,DB1451,Std. Brake System
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2012,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DM,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DMA,2.4,,AWD,SUV,2015,2017,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,2.4,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Santa Fe,SM,2.7,,AWD,SUV,2000,2006,Brake Pad Set,Front,DB1745,Std. Brake System
+Bendix,Hyundai,Santa Fe,SM,2.7,,AWD,SUV,2000,2006,Brake Pad Set,Rear,DB1451,Std. Brake System
+Bendix,Hyundai,Santa Fe,CM,2.7,GLS,AWD,SUV,2006,2009,Brake Pad Set,Front,DB1745,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.7,GLS,AWD,SUV,2006,2009,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.7,GLS,AWD,SUV,2006,2009,Brake Shoe Set,Park Brake,BS5260,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,2.7,GLS,AWD,SUV,2006,2009,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,2.7,GLS,AWD,SUV,2006,2009,Brake Shoe Set,Park Brake,BS5260,Other Products
+Bendix,Hyundai,Santa Fe,CM,3.3,,FWD,SUV,2007,2009,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,3.3,,FWD,SUV,2007,2009,Brake Pad Set,Rear,DB2035,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,3.3,,FWD,SUV,2007,2009,Brake Shoe Set,Park Brake,BS5260,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Front,DB2034,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DMA,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Rear,DB2178,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,DM,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DM,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,DMA,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Front,BR2474,Other Products
+Bendix,Hyundai,Santa Fe,DMA,3.3,,FWD,SUV,2014,2018,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,CM,3.5,,FWD,SUV,2011,2012,Brake Pad Set,Front,BR2462,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,3.5,,FWD,SUV,2011,2012,Brake Pad Set,Rear,BR2475,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,CM,3.5,,FWD,SUV,2011,2012,Brake Pad Set,Rear,BR2475,Other Products
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Front,DB2641,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Rear,DB2643,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Rear,BR6040,Other Products
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2020,2024,Brake Pad Set,Rear,BR6040,Other Products
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Front,DB2593,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Std. 4-Wheel Disc
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TM,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Front,BR6039,Other Products
+Bendix,Hyundai,Santa Fe,TMA,3.5,,FWD,SUV,2018,2020,Brake Pad Set,Rear,DB2614,Other Products
+Bendix,Hyundai,Sonata,Y-2,1.8,,FWD,Sedan,1989,1991,Brake Pad Set,Front,DB1167,Other Products
+Bendix,Hyundai,Sonata,Y-2,1.8,,FWD,Sedan,1989,1991,Brake Pad Set,Rear,DB1369,Other Products
+Bendix,Hyundai,Sonata,EF,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.0,,FWD,Sedan,2009,2010,Brake Pad Set,Front,DB2089,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.0,,FWD,Sedan,2009,2010,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.0,,FWD,Sedan,2009,2010,Brake Pad Set,Rear,DB2088,Other Products
+Bendix,Hyundai,Sonata,Y-3,2.0,,FWD,Sedan,1993,1998,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-3,2.0,,FWD,Sedan,1993,1998,Brake Pad Set,Rear,DB1369,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.0,,FWD,Sedan,2014,2019,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.0,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.0,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,Sonata,EF,2.4,,FWD,Sedan,2001,2005,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.4,,FWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-2,2.4,,FWD,Sedan,1989,1992,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-2,2.4,,FWD,Sedan,1989,1992,Brake Pad Set,Rear,DB437,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.4,,FWD,Sedan,2014,2019,Brake Pad Set,Front,DB2174,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.4,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,LF,2.4,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,BR2489,Other Products
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2005,2008,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2005,2008,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2005,2008,Brake Pad Set,Rear,DB2088,Other Products
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2008,2010,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2008,2010,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,2.4,,FWD,Sedan,2008,2010,Brake Pad Set,Rear,DB2088,Other Products
+Bendix,Hyundai,Sonata,DN8,2.5,,FWD,Sedan,2020,,Brake Pad Set,Front,DB2728,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.5,,FWD,Sedan,1998,2000,Brake Pad Set,Front,DB1263,Other Products
+Bendix,Hyundai,Sonata,EF,2.5,,FWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Sonata,EF,2.7,,FWD,Sedan,2001,2005,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.7,,FWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.7,,FWD,Sedan,2001,2004,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,EF,2.7,,FWD,Sedan,2001,2004,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-2,3.0,,FWD,Sedan,1990,1993,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-2,3.0,,FWD,Sedan,1990,1993,Brake Pad Set,Rear,DB1369,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-3,3.0,,FWD,Sedan,1993,1998,Brake Pad Set,Front,DB1167,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,Y-3,3.0,,FWD,Sedan,1993,1998,Brake Pad Set,Rear,DB1369,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,3.3,,FWD,Sedan,2005,2010,Brake Pad Set,Front,BR2456,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,3.3,,FWD,Sedan,2005,2010,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Sonata,NF,3.3,,FWD,Sedan,2005,2010,Brake Pad Set,Front,DB1924,Other Products
+Bendix,Hyundai,Sonata,NF,3.3,,FWD,Sedan,2005,2010,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Staria Load,US4,2.2,,FWD,Van,2021,,Brake Pad Set,Front,DB2650,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria Load,US4,2.2,,FWD,Van,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria Load,US4,2.2,,FWD,Van,2021,,Brake Pad Set,Front,BR3584,Other Products
+Bendix,Hyundai,Staria Load,US4,2.2,,FWD,Van,2021,,Brake Pad Set,Rear,BR6053,Other Products
+Bendix,Hyundai,Staria,US4,2.2,,AWD,Bus,2021,,Brake Pad Set,Front,DB2650,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria,US4,2.2,,AWD,Bus,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria,US4,2.2,,AWD,Bus,2021,,Brake Pad Set,Front,BR3584,Other Products
+Bendix,Hyundai,Staria,US4,2.2,,AWD,Bus,2021,,Brake Pad Set,Rear,BR6053,Other Products
+Bendix,Hyundai,Staria,US4,3.5,,FWD,Bus,2021,,Brake Pad Set,Front,DB2650,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria,US4,3.5,,FWD,Bus,2021,,Brake Pad Set,Rear,DB2651,Std. 4-Wheel Disc
+Bendix,Hyundai,Staria,US4,3.5,,FWD,Bus,2021,,Brake Pad Set,Front,BR3584,Other Products
+Bendix,Hyundai,Staria,US4,3.5,,FWD,Bus,2021,,Brake Pad Set,Rear,BR6053,Other Products
+Bendix,Hyundai,Terracan,HP,2.9,,AWD,SUV,2005,2007,Brake Shoe Set,Park Brake,BS5253,Std. Brake System
+Bendix,Hyundai,Terracan,HP,2.9,,AWD,SUV,2005,2007,Brake Pad Set,Front,DB1450,Std. 4-Wheel Disc
+Bendix,Hyundai,Terracan,HP,2.9,,AWD,SUV,2005,2007,Brake Shoe Set,Park Brake,BS5253,Std. 4-Wheel Disc
+Bendix,Hyundai,Terracan,HP,3.5,,AWD,SUV,2001,2007,Brake Pad Set,Front,DB1450,Std. Brake System
+Bendix,Hyundai,Terracan,HP,3.5,,AWD,SUV,2001,2007,Brake Pad Set,Rear,DB1451,Std. Brake System
+Bendix,Hyundai,Terracan,HP,3.5,,AWD,SUV,2001,2007,Brake Shoe Set,Park Brake,BS5253,Std. Brake System
+Bendix,Hyundai,Tiburon,GK,2.0,,FWD,Coupe,2002,2004,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Tiburon,GK,2.0,,FWD,Coupe,2002,2004,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Tiburon,GK,2.7,,FWD,Coupe,2001,2009,Brake Pad Set,Front,DB1504,Other Products
+Bendix,Hyundai,Tiburon,GK,2.7,,FWD,Coupe,2001,2009,Brake Pad Set,Rear,DB1166,Other Products
+Bendix,Hyundai,Tiburon,GK,2.7,,FWD,Coupe,2002,2007,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Tiburon,GK,2.7,,FWD,Coupe,2002,2007,Brake Pad Set,Rear,DB1166,Std. 4-Wheel Disc
+Bendix,Hyundai,Trajet,FO,2.7,,FWD,MPV,2000,2004,Brake Pad Set,Front,DB1450,Other Products
+Bendix,Hyundai,Trajet,FO,2.7,,FWD,MPV,2000,2004,Brake Pad Set,Rear,DB1451,Other Products
+Bendix,Hyundai,Tucson,TL,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,1.6,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2021,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2021,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2021,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2021,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2021,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2021,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,AWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,AWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,FWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,FWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,FWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,FWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,FWD,SUV,2021,,Brake Pad Set,Front,DB2611,Other Products
+Bendix,Hyundai,Tucson,NX4E,1.6,,FWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,FWD,SUV,2021,,Brake Pad Set,Front,DB2611,Other Products
+Bendix,Hyundai,Tucson,NX4A,1.6,,FWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Other Products
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,NX4E,2.0,,AWD,SUV,2020,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,2.0,,AWD,SUV,2020,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,2.0,,AWD,SUV,2020,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,2.0,,AWD,SUV,2020,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,2.0,,AWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4E,2.0,,AWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4A,2.0,,AWD,SUV,2020,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4A,2.0,,AWD,SUV,2020,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,2.0,,AWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2020,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,JM,2.0,,FWD,SUV,2004,2010,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,JM,2.0,,FWD,SUV,2004,2010,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,2.0,,FWD,SUV,2021,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,2.0,,FWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,2.0,,FWD,SUV,2021,,Brake Pad Set,Front,DB2611,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4A,2.0,,FWD,SUV,2021,,Brake Pad Set,Rear,DB2612,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,NX4E,2.0,,FWD,SUV,2021,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4E,2.0,,FWD,SUV,2021,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,NX4A,2.0,,FWD,SUV,2021,,Brake Pad Set,Front,BR6037,Other Products
+Bendix,Hyundai,Tucson,NX4A,2.0,,FWD,SUV,2021,,Brake Pad Set,Rear,BR6038,Other Products
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Front,DB2424,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Rear,DB1943,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,TL,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,TLE,2.0,,FWD,SUV,2015,2017,Brake Pad Set,Rear,BR2491,Other Products
+Bendix,Hyundai,Tucson,JM,2.7,,AWD,SUV,2004,2010,Brake Pad Set,Front,DB1504,Std. 4-Wheel Disc
+Bendix,Hyundai,Tucson,JM,2.7,,AWD,SUV,2004,2010,Brake Pad Set,Rear,DB1451,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2011,2017,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2011,2017,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2011,2017,Brake Pad Set,Front,BR2456,Other Products
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2011,2017,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2012,2017,Brake Pad Set,Front,DB2240,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2012,2017,Brake Pad Set,Rear,BR2479,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2012,2017,Brake Pad Set,Front,BR2456,Other Products
+Bendix,Hyundai,Veloster,FS,1.6,,FWD,Coupe,2012,2017,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Veloster,JS,1.6,,FWD,Coupe,2018,,Brake Pad Set,Front,BR2490,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JS,1.6,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JSN,1.6,,FWD,Coupe,2018,,Brake Pad Set,Front,BR2490,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JSN,1.6,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JS,2.0,,FWD,Coupe,2018,,Brake Pad Set,Front,BR2478,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JS,2.0,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JSN,2.0,,FWD,Coupe,2018,,Brake Pad Set,Front,BR2478,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JSN,2.0,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Std. 4-Wheel Disc
+Bendix,Hyundai,Veloster,JS,2.0,,FWD,Coupe,2018,,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,Veloster,JS,2.0,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Other Products
+Bendix,Hyundai,Veloster,JSN,2.0,,FWD,Coupe,2018,,Brake Pad Set,Front,DB2240,Other Products
+Bendix,Hyundai,Veloster,JSN,2.0,,FWD,Coupe,2018,,Brake Pad Set,Rear,DB2076,Other Products
+Bendix,Hyundai,Venue,QX,1.6,,FWD,SUV,2019,,Brake Pad Set,Front,DB2670,Std. 4-Wheel Disc
+Bendix,Hyundai,Venue,QX,1.6,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2088,Std. 4-Wheel Disc
+Bendix,Hyundai,Venue,QXI,1.6,,FWD,SUV,2019,,Brake Pad Set,Front,DB2670,Std. 4-Wheel Disc
+Bendix,Hyundai,Venue,QXI,1.6,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2088,Std. 4-Wheel Disc
+Bendix,Hyundai,Venue,QX,1.6,,FWD,SUV,2019,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Venue,QX,1.6,,FWD,SUV,2019,,Brake Pad Set,Rear,BR2479,Other Products
+Bendix,Hyundai,Venue,QXI,1.6,,FWD,SUV,2019,,Brake Pad Set,Front,BR2478,Other Products
+Bendix,Hyundai,Venue,QXI,1.6,,FWD,SUV,2019,,Brake Pad Set,Rear,BR2479,Other Products

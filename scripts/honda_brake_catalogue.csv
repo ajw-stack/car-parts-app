@@ -1,0 +1,257 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Honda,Accord Euro,"CL,CN",Sedan,2003,2008,,2.4,140,,FWD,DB1391,DB1265,,Suits 260mm disc rotors
+Honda,Accord Euro,"CL,CN",Sedan,2003,2008,,2.4,140,,FWD,DB1393,DB1265,,
+Honda,Accord Euro,"CL,CN",Sedan,2003,2008,,2.4,140,,FWD,DB1481,DB1265,,Suits 282mm disc rotors
+Honda,Accord Euro,"CL,CN",Sedan,2003,2008,,2,114,,FWD,DB1265,,,
+Honda,Accord,CV,Sedan,2019,,VTEC,1.5,140,,FWD,DB2304,,,
+Honda,Accord Euro,CU,Sedan,2008,2015,i,2.4,148,,FWD,DB2118,DB1728,,
+Honda,Accord Euro,CU,Sedan,2008,2015,i,2.4,148,,FWD,DB2304,DB1728,,From 2013 on
+Honda,Accord Euro,CU,Sedan,2008,2015,i,2.4,148,,FWD,DB2308,DB1728,,From 2013 on suits 296mm disc
+Honda,Accord,CV,Sedan,2017,,iVTEC,1.5,138,,FWD,DB2304,,,
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB152,,,
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB198,,,With Front Sumitomo Disc
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB280,,,USA Models; With Front Disc
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB300,,,New Zealand Models With Front Disc
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB358,,,With Front Wear Indicator
+Honda,Accord,"SJ,SY,SM",Sedan,1978,1983,,1.6,59,L/EX,FWD,DB384,,,2 & 4 Door Models
+Honda,Accord,"SJ,SY",Hatchback,1979,1983,,1.6,59,L/EX,FWD,DB152,,,
+Honda,Accord,"SJ,SY",Hatchback,1979,1983,,1.6,59,L/EX,FWD,DB358,,,With Front Wear Indicator
+Honda,Accord,"SJ,SY",Hatchback,1979,1983,,1.6,59,L/EX,FWD,DB384,,,2 & 4 Door Models
+Honda,Accord,CA,Sedan,1987,1989,12V,2,85,,FWD,DB1133,DB430,,Suits models from 1987 on
+Honda,Accord,CA,Sedan,1986,1987,,2,78,EX,FWD,DB429,DB430,,2 & 3 Door Models; With Front Disc With Front Disc
+Honda,Accord,CA,Wagon,1986,1987,,2,78,EX,FWD,DB429,DB430,,2 & 3 Door Models; With Front Disc
+Honda,Accord,"AC,AD",Hatchback,1985,1985,,1.8,74,EX,FWD,DB300,,,With Front Disc; Australian Japan New Zealand Models
+Honda,Accord,"AC,AD",Hatchback,1985,1985,,1.8,74,EX,FWD,DB390,,,Suits European and USA Models
+Honda,Accord,"AC,AD",Sedan,1984,1985,,1.8,74,EX,FWD,DB300,,,With Front Disc; Australian Japan New Zealand Models
+Honda,Accord,CV,Sedan,2018,,Hybrid,2,158,,FWD,DB2304,DB1953,,
+Honda,Accord,CA,Sedan,1987,1989,,2,85,EXi,FWD,DB1133,,,2 & 3 Door Models; With Front Disc and Rear Drum
+Honda,Accord,CA,Sedan,1987,1989,,2,85,EXi,FWD,DB429,DB430,,2 & 3 Door Models; With Front and Rear Disc
+Honda,Accord,CA,Wagon,1987,1989,,2,85,EXi,FWD,DB1133,,,2 & 3 Door Models; With Front Disc and Rear Drum
+Honda,Accord,CA,Wagon,1987,1989,,2,85,EXi,FWD,DB429,DB430,,2 & 3 Door Models; With Front and Rear Disc
+Honda,Accord,"CR,CU",Sedan,2013,2016,Hybrid,2,146,,FWD,DB2304,DB1953,,
+Honda,Accord,"CB,CC",Wagon,1992,1993,,2.2,103,,FWD,DB1172,DB1265,,With Front 260mm Disc
+Honda,Accord,"CB,CC",Wagon,1992,1993,,2.2,103,,FWD,DB1206,DB1265,,Aerodeck; With Front 282mm Disc
+Honda,Accord,CV,Sedan,2019,,iVTEC Hybrid Flex,2,107,,FWD,DB2304,DB1953,,
+Honda,Accord,CB,Sedan,1989,1990,,2.2,103,,FWD,DB1172,DB1265,,With Front 260mm Disc
+Honda,Accord,CB,Sedan,1989,1990,,2.2,103,,FWD,DB1279,DB1265,,Suits VTEC models with 282mm disc rotors
+Honda,Accord,"CC,CD",Sedan,1993,1997,,2.2,107,VTi,FWD,DB1172,DB1230,,With Front Disc
+Honda,Accord,"CC,CD",Sedan,1993,1997,,2.2,107,VTi,FWD,DB1191,DB1230,,
+Honda,Accord,"CC,CD",Sedan,1993,1997,,2.2,107,VTi,FWD,DB1206,DB1230,,
+Honda,Accord,CE,Wagon,1993,1997,,2.2,107,,FWD,DB1191,DB1265,,Suits models with front 260mm disc rotors
+Honda,Accord,CE,Wagon,1993,1997,,2.2,107,,FWD,DB1206,DB1265,,Suits front 282mm disc rotors
+Honda,Accord,"CC,CD",Sedan,1993,1997,,2.2,103,EXi,FWD,DB1172,DB1265,,With Front Disc
+Honda,Accord,"CC,CD",Sedan,1993,1997,,2.2,103,EXi,FWD,DB1191,DB1265,,
+Honda,Accord,"CE,CF,CD",Sedan,1995,1996,,2.2,107,,FWD,DB1191,DB1265,,Suits models with 260mm disc rotors
+Honda,Accord,"CE,CF,CD",Sedan,1995,1996,,2.2,107,,FWD,DB1206,DB1265,,With Front 282mm Disc
+Honda,Accord,"CE,CF,CD",Sedan,1997,1998,i-VTEC,2.3,110,,FWD,DB1191,DB1142,,
+Honda,Accord,CP,Sedan,2008,2013,,2.4,136,,FWD,DB1515,,,
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1999,1999,,2.4,118,,FWD,DB1191,DB1265,,Suits models with front 260mm disc rotors
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1999,1999,,2.4,118,,FWD,DB1206,DB1265,,Suits models with front 282mm disc rotors
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1997,1999,,2.3,110,,FWD,DB1191,DB1265,,
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,2000,2003,,2.3,113,,FWD,DB1206,DB1265,,
+Honda,Accord,"CR,CU",Sedan,2013,2019,,2.4,129,,FWD,DB2118,DB1953,,Suits models with 320mm disc rotors
+Honda,Accord,"CR,CU",Sedan,2013,2019,,2.4,129,,FWD,DB2304,DB1953,,Suit Models with 293mm Rotor
+Honda,Accord,CM,Sedan,2002,2005,VTEC E,2.4,118,,FWD,DB1393,,,
+Honda,Accord,CM,Sedan,2006,2008,VTEC E,2.4,125,,FWD,DB1393,DB1230,,
+Honda,Accord,CM,Sedan,2003,2007,,3,177,,FWD,DB1393,DB1230,,
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1997,2003,VTEC,3,147,,FWD,DB1191,DB1265,,With Front 260mm Disc
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1997,2003,VTEC,3,147,,FWD,DB1206,DB1265,,With Front 282mm Disc
+Honda,Accord,"CK,CG,CH,CF,CL",Sedan,1997,2003,VTEC,3,147,,FWD,DB1268,DB1265,,Suits Nissin brake Caliper
+Honda,Accord,"CR,CU",Sedan,2013,2019,,3.5,206,,FWD,DB1728,,,
+Honda,Accord,CP,Sedan,2007,2012,V6,3.5,202,,FWD,DB1515,,,
+Honda,Accord,CP,Sedan,2007,2012,V6,3.5,202,,FWD,DB2118,,,Suits 320mm disc
+Honda,Beat,PP,Convertible,1991,1996,,0.7,47,,RWD,,DB1163,,
+Honda,City,VF,Van,1984,1986,,1.2,56,,FWD,DB305,,,
+Honda,City,GM65,Sedan,2014,2020,i-VTEC,1.5,88,,FWD,DB1991,DB1163,,
+Honda,City,GM26,Sedan,2009,2014,i-VTEC,1.5,88,,FWD,DB1991,DB1163,,
+Honda,City,"GM4,GM5,GM6,GM9,GM7,GM",Sedan,2014,,Hybrid,1.5,81,,FWD,DB1991,,,
+Honda,Civic,"ES,ET",Sedan,2004,2005,IMA,1.3,61,,FWD,DB1515,DB1142,,
+Honda,Civic,"ES,ET",Sedan,2004,2005,IMA,1.3,61,,FWD,DB1662,DB1142,,Length 137mm
+Honda,Civic,"EG,EH",Hatchback,1991,1993,16V,1.3,55,,FWD,DB1259,DB1163,,Breeze; 3 Door Models
+Honda,Civic,"AN,AR",Wagon,1984,1987,,1.5,63,,FWD,DB122,,,Length 64mm
+Honda,Civic,"AN,AR",Wagon,1984,1987,,1.5,63,,FWD,DB300,,,Length 116mm
+Honda,Civic,"FD,FA",Sedan,2006,2010,IMA,1.3,70,,FWD,DB1662,DB1142,,
+Honda,Civic,"FD,FA",Sedan,2010,2012,IMA,1.3,85,,FWD,DB1662,DB1142,,
+Honda,Civic,"AM,AK,AU,SC",Sedan,1983,1984,,1.5,63,,FWD,DB1408,,,Length 107mm
+Honda,Civic,"AM,AK,AU,SC",Sedan,1983,1984,,1.5,63,,FWD,DB300,,,
+Honda,Civic,"AM,AK,AU,SC",Sedan,1983,1984,,1.5,63,,FWD,DB408,,,Length 107mm
+Honda,Civic,"EC,ED,EE,EF",Hatchback,1987,1993,i 16V,1.5,72,,FWD,DB390,,,
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.5,67,,FWD,DB1259,DB1163,,
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.5,67,,FWD,DB1262,DB1163,,New Zealand Models; With Front Disc
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.5,67,,FWD,DB1286,DB1163,,New Zealand Models; With Front Disc
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.5,67,,FWD,DB300,DB1163,,Manual Transmission; New Zealand Models
+Honda,Civic,"EG,EH,SR",Sedan,1991,1995,,1.5,74,,FWD,DB1259,DB1163,,
+Honda,Civic,"EG,EH,SR",Sedan,1991,1995,,1.5,74,,FWD,DB1262,DB1163,,New Zealand Models; With Front Disc
+Honda,Civic,"EG,EH,SR",Sedan,1991,1995,,1.5,74,,FWD,DB1286,DB1163,,New Zealand Models; With Front Disc
+Honda,Civic,"EG,EH,SR",Sedan,1991,1995,,1.5,74,,FWD,DB300,DB1163,,Manual Transmission; New Zealand Models
+Honda,Civic,"AL,AJ,AG,AH",Hatchback,1984,1987,,1.5,63,GL,FWD,DB300,,,New Zealand Models
+Honda,Civic,"EE,EF",Wagon,1988,1989,i 16V,1.5,72,,AWD,DB1259,,,Length 128mm
+Honda,Civic,"EE,EF",Wagon,1988,1989,i 16V,1.5,72,,AWD,DB390,,,
+Honda,Civic,"ED,EF,SH",Sedan,1987,1993,i 16V,1.5,72,,FWD,DB1123,DB1163,,Length 132 x 49mm
+Honda,Civic,"ED,EF,SH",Sedan,1987,1993,i 16V,1.5,72,,FWD,DB1133,DB1163,,Length 129 x 52mm
+Honda,Civic,"ED,EF,SH",Sedan,1987,1993,i 16V,1.5,72,,FWD,DB390,DB1163,,
+Honda,Civic,"EG,EH",Hatchback,1991,1995,i 16V,1.5,66,,FWD,DB1259,DB1163,,Length 128mm
+Honda,Civic,"EG,EH",Hatchback,1991,1995,i 16V,1.5,66,,FWD,DB1262,DB1163,,Length 131mm
+Honda,Civic,"EG,EH",Hatchback,1991,1995,i 16V,1.5,66,,FWD,DB1286,DB1163,,Length 136mm
+Honda,Civic,FB,Sedan,2014,2014,IMA,1.5,67,,FWD,DB1393,DB1265,,
+Honda,Civic,FB,Sedan,2012,2014,IMA,1.5,82,,FWD,DB1393,DB1265,,
+Honda,Civic,FL,Hatchback,2021,,VTEC,1.5,131,,FWD,DB1481,DB2429,,
+Honda,Civic,"FC,FK",Hatchback,2017,2019,VTEC,1.5,127,,FWD,DB1481,DB2429,,
+Honda,Civic,FC,Sedan,2016,2019,Turbo,1.5,127,RS,FWD,DB1481,DB2429,,
+Honda,Civic,"EG,EH",Hatchback,1993,1995,,1.6,96,,FWD,DB1262,DB1163,,
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.6,88,EX,FWD,DB1262,,,
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.6,96,,FWD,DB1262,DB1163,,Length 131mm
+Honda,Civic,"EG,EH,SR",Sedan,1993,1995,,1.6,96,,FWD,DB1286,DB1163,,
+Honda,Civic,"EJ,EK",Hatchback,1995,2000,,1.6,88,,FWD,DB1262,,,For Rotor 240
+Honda,Civic,"EJ,EK",Hatchback,1995,2000,,1.6,88,,FWD,DB1286,,,For Rotor 262
+Honda,Civic,"EJ,EK,SO",Sedan,1995,2000,,1.6,88,,FWD,DB1286,,,
+Honda,Civic,FK,Hatchback,2013,2015,i-DTEC,1.6,88,,FWD,DB2308,DB2309,,
+Honda,Civic,"EJ,EK,SO",Sedan,1995,2000,i-VTEC,1.6,92,,FWD,DB1286,,,4 Door Models
+Honda,Civic,"EG,EH,SR",Sedan,1991,1993,16V,1.6,90,Si,FWD,DB1262,DB1163,,
+Honda,Civic,"EJ,EK",Hatchback,1995,2000,i,1.6,84,,FWD,DB1286,DB1163,,
+Honda,Civic,"EJ,EM1",Coupe,1999,2000,i-VTEC,1.6,118,,FWD,DB1286,DB1142,,
+Honda,Civic,"EJ,EM1",Coupe,1996,1999,i-VTEC,1.6,92,,FWD,DB1286,DB1142,,
+Honda,Civic,"EG,EH",Hatchback,1991,1993,16V,1.6,90,Si,FWD,DB1286,DB1163,,
+Honda,Civic,"EJ,EK",Hatchback,1995,1998,,1.6,118,VTi,FWD,DB1259,,,Suits CXi models
+Honda,Civic,"EJ,EK",Hatchback,1995,1998,,1.6,118,VTi,FWD,DB1286,,,
+Honda,Civic,FB,Sedan,2012,2016,,1.8,104,,FWD,DB1393,DB1265,,
+Honda,Civic,FB,Sedan,2012,2016,,1.8,104,,FWD,DB2047,DB1265,,Not Type R
+Honda,Civic,"ES,ET",Sedan,2000,2006,,1.7,85,,FWD,DB1515,DB1142,,
+Honda,Civic,"ES,ET",Sedan,2000,2005,,1.7,88,,FWD,DB1515,DB1265,,
+Honda,Civic,FC,Sedan,2016,2019,,1.8,104,,FWD,DB1481,DB2429,,
+Honda,Civic,"FD,FA",Sedan,2005,2012,,1.8,103,,FWD,DB1393,DB1265,,
+Honda,Civic,"FC,FK",Hatchback,2017,2021,iVTEC,1.8,104,,FWD,DB1481,DB2429,,
+Honda,Civic,"FN,FK",Hatchback,2005,2011,,1.8,103,,FWD,DB1515,DB2177,,Suits models from 2006 - 2009
+Honda,Civic,"FN,FK",Hatchback,2005,2011,,1.8,103,,FWD,DB2212,DB2177,,Suits models from 2009 - 2012
+Honda,Civic,SB,Hatchback,1972,1977,,1.2,40,,FWD,DB39,,,
+Honda,Civic,SB,Hatchback,1977,1980,,1.2,40,,FWD,DB39,,,
+Honda,Civic,FK,Hatchback,2012,2016,i-VTEC,1.8,104,,FWD,DB2308,DB2309,,
+Honda,Civic,WC,Wagon,1979,1983,,1.3,44,,FWD,DB152,,,
+Honda,Civic,"FD,FA",Sedan,2006,2012,,2,114,,FWD,DB1191,DB1265,,Front pads 138mm
+Honda,Civic,"FD,FA",Sedan,2006,2012,,2,114,,FWD,DB1515,DB1265,,Front pads 149mm
+Honda,Civic,"FD,FA",Sedan,2006,2012,,2,114,,FWD,DB2047,DB1265,,Not Type R
+Honda,Civic,FB,Sedan,2013,2016,,2,114,,FWD,DB1515,DB1265,,
+Honda,Civic,FB,Sedan,2013,2016,,2,114,,FWD,DB2047,DB1265,,Not Type R
+Honda,Civic,"FC,FK",Hatchback,2017,2022,,2,228,Type-R,FWD,DB1678,DB2429,,
+Honda,Civic,"EU,EP,EV",Hatchback,2001,2005,,2,147,Type-R,FWD,DB1515,DB1142,,
+Honda,Civic,FL,Hatchback,2022,,,2,235,Type-R,FWD,DB1678,DB2429,,
+Honda,Civic,"FN,FK",Hatchback,2007,2011,,2,148,Type R,FWD,DB1452,DB2177,,
+Honda,CR-V,"RW,RT",SUV,2017,2023,,1.5,140,,AWD,DB1843,,,
+Honda,Concerto,"HW,MA",Hatchback,1989,1993,i 16V,1.6,90,,FWD,DB1123,DB1163,,
+Honda,CR-V,"RW,RT",SUV,2017,2023,,1.5,140,,FWD,DB1843,,,Suit Akebono Brake System
+Honda,CR-V,"RS,RY",SUV,2023,,VTEC TURBO,1.5,140,,AWD,DB1843,DB2450,,
+Honda,CR-V,RM,SUV,2015,2015,i-DTEC,1.6,118,,AWD,DB1843,,,Suit Akebono Caliper
+Honda,CR-V,RM,SUV,2015,2015,i-DTEC,1.6,118,,AWD,DB2271,,,Suit Bosch Caliper
+Honda,CR-V,"RS,RY",SUV,2023,,VTEC TURBO,1.5,140,,FWD,DB1843,DB2450,,
+Honda,CR-V,"RW,RT",SUV,2017,2023,i-VTEC,2,113,,FWD,DB1843,,,Suit Akebono Brake System
+Honda,CR-V,RD,SUV,1999,2002,16V,2,108,,AWD,DB1191,,,Automatic Transmission
+Honda,CR-V,RD,SUV,1999,2002,16V,2,108,,AWD,DB1206,,,
+Honda,CR-V,RD,SUV,1999,2002,16V,2,108,,AWD,DB1286,,,Manual Transmission
+Honda,CR-V,RD,SUV,1997,2000,16V,2,94,,AWD,DB1191,,,Automatic Transmission
+Honda,CR-V,RD,SUV,1997,2000,16V,2,94,,AWD,DB1206,,,
+Honda,CR-V,RD,SUV,1997,2000,16V,2,94,,AWD,DB1286,,,Manual Transmission
+Honda,CR-V,RM,SUV,2012,2017,iVTEC,2,114,,FWD,DB1843,,,Suit Akebono Caliper
+Honda,CR-V,RM,SUV,2012,2017,iVTEC,2,114,,FWD,DB2271,,,Suit Bosch Caliper
+Honda,CR-V,RM,SUV,2012,2018,,2.4,140,,AWD,DB1843,,,Suit Akebono Caliper
+Honda,CR-V,RM,SUV,2012,2018,,2.4,140,,AWD,DB2271,,,Suit Bosch Caliper
+Honda,CR-V,RE,SUV,2007,2012,i-VTEC,2.4,125,,AWD,DB1843,DB1728,,
+Honda,CR-V,RE,SUV,2012,2015,i-DTEC,2.2,110,,AWD,DB1843,DB1728,,Suit Akebono Caliper
+Honda,CR-V,RE,SUV,2012,2015,i-DTEC,2.2,110,,AWD,DB2271,DB2256,,Suit Bosch Caliper
+Honda,CR-V,RD,SUV,2001,2006,VTEC,2.4,118,,AWD,DB1481,,BS5256,
+Honda,CR-Z,ZF,Coupe,2010,2013,IMA,1.5,91,,FWD,DB1991,DB1265,,
+Honda,HR-V,RV,SUV,2021,,e:HEV,1.5,96,,FWD,DB2304,DB2355,,
+Honda,CRX,"EH,EG",Targa,1992,1998,i,1.6,118,VTi,FWD,DB1286,DB1163,,With Front 262mm Disc
+Honda,HR-V,GH,SUV,1999,2002,16V,1.6,77,,AWD,DB1206,,,
+Honda,HR-V,RV,SUV,2022,,,1.5,87,,FWD,DB2304,DB2355,,
+Honda,HR-V,RU,SUV,2015,2021,,1.8,105,,FWD,DB2304,DB2355,,
+Honda,Insight,ZE,Hatchback,2009,2013,IMA,1.3,65,,FWD,DB1991,DB1265,,
+Honda,Integra,DA,Hatchback,1989,1993,,1.6,125,,FWD,DB1133,DB1163,,
+Honda,Integra,DA,Hatchback,1986,1989,,1.6,88,,FWD,DB300,DB1195,,AV to Chassis 130000
+Honda,Integra,DA,Hatchback,1986,1989,,1.6,88,,FWD,DB429,DB1195,,With Front Disc
+Honda,Integra,DA,Hatchback,1989,1993,,1.8,96,,FWD,DB1133,DB1163,,
+Honda,Integra,DC,Coupe,1993,2001,,1.8,101,,FWD,DB1292,DB1163,,With Front Disc
+Honda,Integra,DC,Coupe,1993,2001,,1.8,107,,FWD,DB1292,DB1163,,With Front Disc
+Honda,Integra,DC,Coupe,1993,2001,,1.8,107,,FWD,DB1265,DB1163,,
+Honda,Integra,DC,Coupe,1993,1999,,1.8,125,VTi-R,FWD,DB1206,DB1265,,
+Honda,Integra,DC,Coupe,1993,1999,,1.8,125,VTi-R,FWD,DB1292,DB1265,,Suits front 129mm wide disc
+Honda,Integra,DC,Coupe,1999,2001,,1.8,140,Type-R,FWD,DB1206,,,Type R
+Honda,Integra,DC,Coupe,1999,2001,,1.8,140,Type-R,FWD,DB1292,,,Suits Type-R models with Front 129mm disc rotors
+Honda,Integra,DC5,Coupe,2002,2006,16V,2,162,Type-R,FWD,DB1265,,,
+Honda,Integra,DC5,Coupe,2004,2007,,2,154,Type-S,FWD,DB1452,DB1265,,
+Honda,Integra,DC5,Coupe,2001,2006,,2,118,,FWD,DB1206,DB1265,,Length 149mm
+Honda,Integra,DC5,Coupe,2001,2006,,2,118,,FWD,DB1286,DB1265,,Length 136mm
+Honda,Integra,DC5,Coupe,2001,2004,,2,147,,FWD,,DB1265,,
+Honda,Jazz,"GE,GG,GP,ZA",Hatchback,2011,2014,Hybrid,1.3,75,,FWD,DB1262,DB1230,,5 Door Models; With Front Disc
+Honda,Jazz,"GE,GG,GP,ZA",Hatchback,2011,2014,Hybrid,1.3,75,,FWD,DB1286,DB1230,,Length 136mm - suits models from 2013 on
+Honda,Jazz,"GE,GG,GP,ZA",Hatchback,2011,2014,Hybrid,1.3,75,,FWD,DB1265,DB1230,,
+Honda,Jazz,"GE,GG,GP,ZA",Hatchback,2008,2011,i,1.3,73,,FWD,DB1286,,,
+Honda,Jazz,"GD,GE3,GE2",Hatchback,2002,2008,iDSi,1.3,61,,FWD,DB1262,DB1230,,
+Honda,Jazz,"GR,GS",Hatchback,2020,,e:HEV,1.5,80,,FWD,DB1991,,,
+Honda,Jazz,"GK,GP,GF",Hatchback,2014,2021,,1.5,88,,FWD,DB1991,,,
+Honda,Jazz,"GK,GP,GF",Hatchback,2013,2020,Hybrid,1.5,101,,FWD,DB1991,DB1163,,
+Honda,Jazz,"GK,GP,GF",Hatchback,2013,,Hybrid,1.5,101,,AWD,DB1991,DB1142,,
+Honda,Jazz,"GD,GE3,GE2",Hatchback,2002,2008,VTEC,1.5,81,,FWD,DB1262,DB1230,,5 Door Models; With Front Disc
+Honda,Jazz,"GE,GG,GP,ZA",Hatchback,2008,2014,i-VTEC,1.5,88,,FWD,DB1286,DB1163,,5 Door Models; With Front Disc
+Honda,Legend,"HS,KA",Sedan,1986,1987,i,2.5,110,,FWD,DB1133,DB1197,,
+Honda,Legend,"HS,KA",Sedan,1986,1987,i,2.5,120,,FWD,,DB1142,,
+Honda,Legend,"HS,KA",Sedan,1987,1988,i,2.5,127,,FWD,DB1133,DB1197,,
+Honda,Legend,"HS,KA",Sedan,1987,1991,i 24V,2.7,124,,FWD,DB1133,DB1142,,2 Door Models
+Honda,Legend,"HS,KA",Sedan,1987,1991,i 24V,2.7,124,,FWD,DB1265,,,
+Honda,Legend,KA,Coupe,1991,1996,i 24V,3.2,151,,FWD,DB1206,DB1230,BS5256,
+Honda,Legend,KA,Coupe,1991,1996,i 24V,3.2,151,,FWD,DB1393,DB1230,BS5256,Please check profile - small tabs on top-middle of pad profile
+Honda,Legend,KA,Coupe,1991,1996,i 24V,3.2,151,,FWD,DB1265,DB1230,BS5256,
+Honda,Legend,KA,Sedan,1991,1996,i 24V,3.2,151,,FWD,DB1206,DB1230,BS5256,
+Honda,Legend,KA,Sedan,1991,1996,i 24V,3.2,151,,FWD,DB1393,DB1230,BS5256,Please check profile - two small tabs the top-middle pad profile
+Honda,Legend,KA,Sedan,1991,1996,i 24V,3.2,151,,FWD,DB1265,DB1230,BS5256,
+Honda,Legend,KA,Sedan,1996,2001,i 24V,3.5,151,,FWD,DB1206,DB1230,BS5256,
+Honda,Legend,KB,Sedan,2006,2013,V6,3.5,217,,AWD,DB1735,DB1736,,
+Honda,Legend,KA,Coupe,1987,1991,i 24V,2.7,124,,FWD,DB1133,DB1142,,2 Door Models
+Honda,Legend,KA,Coupe,1987,1991,i 24V,2.7,124,,FWD,DB1265,,,
+Honda,NSX,NA,Convertible,1995,2005,24V VTEC,3,188,Automatic,RWD,DB1206,DB1207,,
+Honda,NSX,NA,Convertible,1995,2005,24V VTEC,3,201,,RWD,DB1206,DB1207,,
+Honda,NSX,NA,Coupe,1990,2005,24V VTEC,3,201,,RWD,DB1206,DB1207,,
+Honda,Legend,KB,Sedan,2008,2013,VTEC V6,3.7,217,,AWD,DB1735,DB1736,,
+Honda,Legend,KB,Sedan,2008,2013,VTEC V6,3.7,226,,AWD,DB1735,DB1736,,
+Honda,MDX,YD,SUV,2003,2007,,3.5,191,,AWD,DB1333,,,
+Honda,NSX,NA,Coupe,1990,2005,24V VTEC,3,188,Automatic,RWD,DB1206,DB1207,,
+Honda,Odyssey,"RC1,RC2,RC4",MPV,2016,,Hybrid,2,107,,FWD,DB2304,DB1728,,
+Honda,NSX,NA,Convertible,1997,2005,24V VTEC,3.2,206,,RWD,DB1206,DB1207,,
+Honda,NSX,NA,Coupe,1997,2005,24V VTEC,3.2,206,,RWD,DB1206,DB1207,,
+Honda,Odyssey,RA,MPV,1995,1997,,2.2,104,,FWD,,DB1265,,
+Honda,Odyssey,RA,MPV,1995,1997,16V,2.2,110,,FWD,DB1206,DB1230,BS5256,5 Door Models
+Honda,Odyssey,RA,MPV,1995,1997,16V,2.2,110,,FWD,DB1265,,BS5256,
+Honda,Odyssey,RA,MPV,1998,2004,16V,2.3,110,,FWD,DB1206,DB1230,,New Zealand Models
+Honda,Odyssey,RA,MPV,1998,2004,16V,2.3,110,,FWD,DB1393,,,
+Honda,Odyssey,RA,MPV,1998,2004,16V,2.3,110,,FWD,DB1410,,,5 Door Models
+Honda,Odyssey,RA,MPV,1997,1999,,2.3,110,,FWD,DB1265,,,
+Honda,Odyssey,"RL1,RA6,RA",MPV,2002,2003,,2.3,110,,FWD,DB1393,DB1230,,
+Honda,Odyssey,RA,MPV,2000,2004,,3,154,,FWD,DB1206,,BS5256,Suits NZ models
+Honda,Odyssey,RA,MPV,2000,2004,,3,154,,FWD,DB1393,,BS5256,
+Honda,Odyssey,RA,MPV,2000,2004,,3,154,,FWD,DB1265,,BS5256,
+Honda,Odyssey,"RC1,RC2,RC4",MPV,2013,2021,i-VTEC,2.4,129,,FWD,DB2304,DB1728,,
+Honda,Odyssey,"RL1,RA6,RA",MPV,2004,2009,,2.4,118,,FWD,DB1393,,,
+Honda,Odyssey,"RL1,RA6,RA",MPV,2004,2009,,2.4,118,,FWD,DB1843,,,
+Honda,Odyssey,"RL1,RA6,RA",MPV,2009,2013,,2.4,132,,FWD,DB1393,DB1847,,
+Honda,Prelude,SN,Coupe,1978,1982,,1.6,59,,FWD,DB198,,,
+Honda,Prelude,SN,Coupe,1978,1982,,1.6,59,,FWD,DB300,,,New Zealand and Japan Models
+Honda,Prelude,AB,Coupe,1983,1985,,1.8,74,EX,FWD,DB300,,,
+Honda,Prelude,AB,Coupe,1983,1985,,1.8,77,EX,FWD,DB300,,,
+Honda,Prelude,AB,Coupe,1986,1987,i,2,85,,FWD,DB1123,DB430,,Length 134mm
+Honda,Prelude,AB,Coupe,1986,1987,i,2,85,,FWD,DB429,DB430,,
+Honda,Prelude,BA,Coupe,1987,1991,i 16V,2,106,EX,FWD,DB1123,DB1163,,
+Honda,Prelude,BA,Coupe,1987,1991,i 16V,2,106,EX,FWD,DB1133,DB1163,,PGM_FI
+Honda,Prelude,BB,Coupe,1991,1996,,2.2,96,S,FWD,DB1268,DB1265,,
+Honda,Prelude,BB,Coupe,1997,2001,,2.2,118,Si,FWD,DB1268,DB1265,,
+Honda,Prelude,BB,Coupe,1994,1997,,2.2,142,VTi-R,FWD,DB1206,DB1265,,Suits 282mm disc rotors
+Honda,Prelude,BB,Coupe,1994,1997,,2.2,142,VTi-R,FWD,DB1268,DB1265,,Suits 260mm disc rotors
+Honda,Prelude,BB,Coupe,1997,1998,,2.2,142,VTi-R,FWD,DB1206,DB1265,,
+Honda,Prelude,BB,Coupe,1998,2001,,2.2,147,VTi-R,FWD,DB1206,DB1265,,
+Honda,S800,AS800,Convertible,1966,1970,,0.8,52,,RWD,DB39,,,
+Honda,S2000,AP,Convertible,1999,2009,,2,177,,RWD,DB1452,DB1265,,2 Door Models
+Honda,Prelude,BB,Coupe,1991,1996,i 16V,2.3,118,,FWD,DB1206,DB1265,,Suits 282mm disc rotors
+Honda,Prelude,BB,Coupe,1991,1996,i 16V,2.3,118,,FWD,DB1268,DB1265,,Suits 260mm disc rotors
+Honda,S800,AS8800C,Coupe,1966,1970,,0.8,52,,RWD,DB39,,,
+Honda,Vezel,RU,SUV,2013,2021,Hybrid,1.5,112,,FWD,DB2304,DB2355,,
+Honda,Vezel,RU,SUV,2013,,Hybrid,1.5,112,,AWD,DB2304,DB2355,,
+Honda,ZR-V,,SUV,2023,,e:HEV,2,104,,FWD,DB1843,DB2450,,
+Honda,ZR-V,,SUV,2023,,VTEC,1.5,131,,FWD,DB1843,DB2450,,

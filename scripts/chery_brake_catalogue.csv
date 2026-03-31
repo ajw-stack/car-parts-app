@@ -1,0 +1,7 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Chery,Omoda 5,,SUV,2022,,,1.6,137,GT,AWD,DB2769,DB2771,,Std. 4-Wheel Disc
+Chery,J11,,SUV,2011,2014,,1.6,93,,FWD,DB1327,,,Std. 4-Wheel Disc
+Chery,J11,,SUV,2010,2014,,2,101,,FWD,DB2069,,,Std. Brake System
+Chery,Omoda 5,,SUV,2023,,,1.5,108,,FWD,DB2769,DB2771,,Std. 4-Wheel Disc
+Chery,Omoda 5,,SUV,2024,,EV,,150,,FWD,DB2769,DB2771,,Std. 4-Wheel Disc
+Chery,Omoda 5,,SUV,2022,,,1.6,137,,FWD,DB2769,DB2771,,Std. 4-Wheel Disc

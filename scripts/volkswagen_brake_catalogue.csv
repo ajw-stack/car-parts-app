@@ -1,0 +1,491 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Volkswagen,"1500,1600",31,Hatchback,1968,1973,,1.5,33,,RWD,DB2,,,Other Products
+Volkswagen,"1500,1600",31,Sedan,1964,1973,,1.6,37,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,"1500,1600",31,Hatchback,1965,1973,,1.6,40,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,"1500,1600",31,Sedan,1965,1973,,1.6,40,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,"1500,1600",31,Sedan,1965,1973,,1.6,40,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,"1500,1600",36,Wagon,1965,1973,,1.6,40,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2010,2012,BiTDI,2,120,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2011,2019,BiTDI,2,132,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2019,BiTDI 4motion,2,132,,AWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2012,2016,BiTDI,2,132,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2010,2012,BiTDI 4motion,2,120,,AWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2011,2022,BiTDI 4motion,2,132,,AWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2012,2013,TDI 4motion,2,90,,AWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2012,TDI 4motion,2,120,,AWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2012,2016,TDI,2,103,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2010,2013,TDI,2,90,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2016,TDI,2,103,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2012,TDI,2,120,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2013,TDI,2,90,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2016,2022,TDI 4motion,3,165,,AWD,DB2595,DB2596,,Std. 4-Wheel Disc
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2018,2022,TDI 4motion,3,190,,AWD,DB2595,DB2596,,Std. 4-Wheel Disc
+Volkswagen,Amarok,"2HA, 2HB, S1B, S6B, S7A, S7B, AGD",Ute,2010,2016,TSI,2,118,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Amarok,"S1B, S6B, S7B",Platform/Chassis,2011,2016,TSI,2,118,,RWD,DB1915,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Arteon,"3H7, 3H8",Hatchback,2017,2021,TSI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Beetle,"5C1, 5C2",Hatchback,2011,2016,TSI,1.4,118,,FWD,DB1405,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Arteon,3H9,Wagon,2021,,TSI 4motion,2,206,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Arteon,"3H7, 3H8",Hatchback,2017,2023,TSI 4motion,2,206,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Arteon,3H9,Wagon,2020,2021,TSI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Beetle,"1302,1303/15",Convertible,1970,1979,,1.6,37,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1303,Sedan,1972,1976,,1.2,25,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1300,Sedan,1965,1975,,1.3,29,,RWD,DB23,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1300,Sedan,1970,1973,,1.3,32,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1303/15,Convertible,1970,1981,,1.3,32,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1Y7,Convertible,2003,2010,,1.6,75,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Beetle,"1303 LS, S",Sedan,1972,1979,,1.6,37,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1500,Sedan,1966,1973,,1.5,32,,RWD,DB23,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1303,Sedan,1972,1979,,1.6,35,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1303,Sedan,1972,1975,,1.3,32,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1303/15,Convertible,1970,1974,,1.6,35,,RWD,DB103,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Bora,"1J2, 9M2",Sedan,1998,2005,,1.6,74,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Bora,"1J2, 9M2",Sedan,1999,2005,,2,85,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Bora,"1J2, 9M2",Sedan,2000,2005,TDI,1.9,110,,FWD,DB1405,,,Std. 4-Wheel Disc
+Volkswagen,Beetle,1500,Sedan,1970,1973,,1.6,37,,RWD,DB23,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Beetle,1Y7,Convertible,2002,2010,,2,85,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2010,2015,TSI,1.2,63,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2010,2015,TSI,1.2,77,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Bora,"1J2, 9M2",Sedan,2001,2005,V6 4motion,2.8,150,,AWD,DB1492,,,Std. 4-Wheel Disc
+Volkswagen,Bora,"1J2, 9M2",Sedan,1999,2005,,2.3,110,,FWD,DB1387,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Bora,"1J2, 9M2",Sedan,2000,2005,,2.3,125,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SAA, SAH",Box Body/MPV,2015,2021,TSI,1.2,62,,FWD,DB2383,DB2626,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SAA, SAH",Box Body/MPV,2015,2021,TSI,1.4,92,,FWD,DB2383,DB2626,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SAB, SAJ",MPV,2015,2021,TSI,1.4,92,,FWD,DB2383,DB2626,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2004,2015,,1.6,75,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2005,2015,,1.6,75,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBA, SBH",Box Body/MPV,2021,2024,TSI,1.5,84,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBB, SBJ",MPV,2021,2024,TSI,1.5,84,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2010,2015,TDI,1.6,75,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2004,2010,TDI,1.9,77,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2004,2010,SDI,2,51,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2010,2015,TDI,1.6,75,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2005,2010,TDI,1.9,77,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2010,2015,TDI 16V 4motion,2,103,,AWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2010,2015,TDI 16V 4motion,2,103,,AWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2010,2015,TDI 16V,2,103,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KA, 2KH, 2CA, 2CH",Box Body/MPV,2010,2015,TDI 16V,2,103,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"2KB, 2KJ, 2CB, 2CJ",MPV,2010,2015,TDI 4motion,2,81,,AWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,California,"7EC, 7EF, 7EG, 7HF, 7HC",Bus,2007,2009,TDI,1.9,75,,FWD,,,BS5099,
+Volkswagen,California,"SGC, SGG, SHC",Bus,2015,2024,TDI 4motion,2,110,,AWD,,DB1956,,
+Volkswagen,California,"SGC, SGG, SHC",Bus,2018,2024,TDI 4motion,2,146,,AWD,,DB1956,,
+Volkswagen,Caddy,"SAA, SAH",Box Body/MPV,2015,2020,TDI,2,75,,FWD,DB2383,DB2626,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBB, SBJ",MPV,2020,,TDI,2,55,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBB, SBJ",MPV,2020,,TDI,2,90,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBA, SBH",Box Body/MPV,2020,,TDI,2,75,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Caddy,"SBA, SBH",Box Body/MPV,2020,,TDI,2,90,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,CC,357,Coupe,2008,2012,TDI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,California,"SGC, SGG, SHC",Bus,2015,2024,TDI,2,110,,FWD,,DB1956,,
+Volkswagen,CC,357,Coupe,2008,2011,FSI 4motion,3.6,220,,AWD,DB2513,DB1865,,Std. 4-Wheel Disc
+Volkswagen,CC,358,Coupe,2011,2016,FSI 4motion,3.6,220,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,CC,358,Coupe,2011,2016,TDI,2,125,,FWD,DB1849,DB1865,,Std. Brake System
+Volkswagen,CC,358,Coupe,2012,2016,TDI,2,130,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2011,2016,TDI,2,105,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2011,2016,TDI,2,120,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2011,2016,TDI,2,80,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SY, SX",Van,2017,,TDI 4motion,2,130,,AWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2011,2016,TDI,2,105,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2011,2016,TDI,2,120,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2011,2016,TDI,2,80,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2006,2013,TDI,2.5,100,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2006,2011,TDI,2.5,120,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2F,Platform/Chassis,2006,2013,TDI,2.5,80,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2006,2013,TDI,2.5,100,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2006,2011,TDI,2.5,120,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter 30-50,2E,Van,2006,2013,TDI,2.5,80,,RWD,DB1973,DB1972,,Std. 4-Wheel Disc
+Volkswagen,Crafter,SZ,Platform/Chassis,2017,,TDI 4motion,2,130,,AWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SYI, SYJ",Bus,2016,,TDI,2,130,,FWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SYI, SYJ",Bus,2017,,TDI 4motion,2,130,,AWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,SZ,Platform/Chassis,2016,,TDI,2,103,,FWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,SZ,Platform/Chassis,2016,,TDI,2,130,,FWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SY, SX",Van,2016,,TDI,2,103,,FWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SY, SX",Van,2016,,TDI,2,130,,FWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Eos,"1F7, 1F8",Convertible,2008,2015,TDI 16V,2,103,,FWD,DB1849,DB2211,,Std. Brake System
+Volkswagen,Crafter,SZ,Platform/Chassis,2017,2024,TDI,2,130,,RWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Eos,"1F7, 1F8",Convertible,2007,2015,TFSI,2,147,,FWD,DB1849,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Crafter,"SY, SX",Van,2017,2024,TDI,2,130,,RWD,DB2681,DB2684,,Std. 4-Wheel Disc
+Volkswagen,Eos,"1F7, 1F8",Convertible,2007,2008,TDI,2,103,,FWD,DB1849,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Golf Alltrack,"MKVII, BA5, BV5",Wagon,2014,2020,TSI 4motion,1.8,132,,AWD,DB2657,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKI, 17",Hatchback,1974,1983,,1.1,37,,FWD,DB105,,,Std. Brake System
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2008,2012,TSI,1.2,77,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Eos,"1F7, 1F8",Convertible,2006,2009,V6,3.2,184,,FWD,DB1849,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Eos,"1F7, 1F8",Convertible,2009,2015,TSI,2,155,,FWD,DB1849,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Golf,"BA5, BV5, BX5, BX6",Wagon,2013,2020,TSI,1.4,103,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 517",Convertible,2011,2016,TSI,1.4,118,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2007,2008,TSI,1.4,90,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2005,2008,TSI,1.4,125,Sport,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2008,2012,TSI,1.4,118,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2008,2012,TSI,1.4,90,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVIII, CD1",Hatchback,2021,,TSI,1.4,110,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5, BX5, BX6",Wagon,2013,2017,TSI,1.4,90,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5",Wagon,2014,2020,TSI,1.4,110,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5",Wagon,2014,2020,TSI,1.4,92,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, AJ5",Wagon,2009,2013,TSI,1.4,118,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, AJ5",Wagon,2009,2013,TSI,1.4,90,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2012,2015,TSI,1.4,103,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2014,2020,TSI,1.4,110,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2012,2017,TSI,1.4,90,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2014,2020,TSI,1.4,92,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKI, 17",Hatchback,1978,1982,,1.5,37,,FWD,DB105,,,Std. Brake System
+Volkswagen,Golf,"MKI, 155",Convertible,1979,1983,,1.5,51,,FWD,DB128,,,Std. Brake System
+Volkswagen,Golf,"MKVIII, CG5",Wagon,2021,2023,TSI,1.4,110,,FWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKI, 17",Hatchback,1977,1983,,1.5,51,,FWD,DB128,,,Std. Brake System
+Volkswagen,Golf,"MKII, 19E, 1G1",Hatchback,1983,1991,,1.6,40,,FWD,DB400,,,Std. Brake System
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2003,2008,FSI,1.6,85,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1E7",Convertible,1998,2002,,1.6,74,,FWD,DB1327,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKI, 17",Hatchback,1976,1980,,1.6,55,,FWD,DB128,,,Std. Brake System
+Volkswagen,Golf,"MKI, 17",Hatchback,1976,1982,GTI,1.6,81,,FWD,DB105,,,Std. Brake System
+Volkswagen,Golf,"MKI, 155",Convertible,1979,1982,,1.6,81,,FWD,DB105,,,Std. Brake System
+Volkswagen,Golf,"1E7, 1V7",Convertible,1998,2002,,1.8,66,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1998,2001,,1.6,74,,FWD,DB1405,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,2000,2004,,1.6,75,,FWD,DB1405,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2004,2008,,1.6,75,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2009,2012,TDI,1.6,77,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, AJ5",Wagon,2009,2013,TDI,1.6,77,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKII, 19E, 1G1",Hatchback,1990,1992,GTI,1.8,79,,FWD,DB399,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1998,2005,4motion,1.8,92,,AWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKI, 17",Hatchback,1982,1983,GTI,1.8,82,,FWD,DB399,,,Std. Brake System
+Volkswagen,Golf,"MKII, 19E, 1G1",Hatchback,1985,1985,GTI,1.8,77,,FWD,DB399,,,Other Products
+Volkswagen,Golf,"MKII, 19E, 1G1",Hatchback,1986,1990,GTI 16V,1.8,102,,FWD,DB1325,,,Other Products
+Volkswagen,Golf,"MKI, 155",Convertible,1983,1993,,1.8,70,,FWD,DB399,,,Std. Brake System
+Volkswagen,Golf,"MKIII, 1H1",Hatchback,1991,1997,,1.8,66,,FWD,DB1327,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKII, 19E, 1G1",Hatchback,1984,1991,,1.8,66,,FWD,DB399,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIII, 1E7",Convertible,1993,1998,,1.8,66,,FWD,DB1327,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1998,1999,,1.8,92,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1999,2004,,1.8,110,,FWD,DB1405,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2004,2008,FSI,2,110,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIII, 1H1",Hatchback,1995,1997,TDI,1.9,66,,FWD,DB1327,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2004,2008,TDI,1.9,77,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,2000,2005,TDI,1.9,74,,FWD,DB1405,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1997,2004,TDI,1.9,81,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2016,2017,GTI,2,195,,FWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2005,2008,TDI,2,125,Sport,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2009,2012,GTD,2,125,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2005,2009,GTI,2,147,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2006,2008,GTI,2,169,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2009,2012,GTI,2,155,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2011,2012,GTI,2,173,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIII, 1H1",Hatchback,1994,1997,,2,85,,FWD,DB1310,DB1192,,Other Products
+Volkswagen,Golf,"MKIII, 1E7",Convertible,1993,1998,,2,85,,FWD,DB1327,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVIII, CD1",Hatchback,2020,2024,GTI,2,180,,FWD,DB2513,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"5G1, BQ1, BE1, BE2, AU1, BC2, AU2, BC1",Hatchback,2018,2020,GTI,2,213,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2013,2017,GTI,2,162,,FWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2013,2018,GTI,2,169,,FWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2017,2020,GTI,2,180,,FWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2013,2017,4motion,2,206,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2016,2020,4motion,2,213,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J5",Wagon,1999,2006,,2,85,,FWD,DB1405,,,Other Products
+Volkswagen,Golf,"MKIV, 1E7",Convertible,1998,2002,,2,85,,FWD,DB1327,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1997,2004,,2,85,,FWD,DB1405,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2009,2013,4motion,2,188,R,AWD,DB1405,DB1865,,Other Products
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2003,2008,TDI 16V,2,103,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, AJ5",Wagon,2009,2013,TDI,2,103,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVI, 5K1",Hatchback,2008,2013,TDI,2,103,,FWD,DB1405,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2004,2008,TDI,2,103,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5",Wagon,2015,2017,4motion,2,206,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5",Wagon,2016,2020,4motion,2,213,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,2000,2005,,2.3,125,,FWD,DB1492,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"CG5, DB5",Wagon,2021,2023,TSI 4motion,2,235,R,AWD,DB2513,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"CD1, DA1",Hatchback,2020,2024,TSI 4motion,2,235,R,AWD,DB2513,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, 5G1, BQ1, BE1, BE2",Hatchback,2012,2018,TDI,2,110,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKVII, BA5, BV5",Wagon,2013,2018,TDI,2,110,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Jetta,"162, 163, AV3, AV2",Sedan,2011,2017,TSI,1.4,118,,FWD,DB1405,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKV, 1K1",Hatchback,2006,2010,4motion,3.2,184,,AWD,DB2210,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,2002,2005,4motion,3.2,177,,AWD,DB1408,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIV, 1J1",Hatchback,1999,2005,4motion,2.8,150,,AWD,DB1492,,,Std. 4-Wheel Disc
+Volkswagen,Golf,"MKIII, 1H1",Hatchback,1994,1997,,2.8,128,,FWD,DB1327,DB1449,,Other Products
+Volkswagen,Jetta,1K2,Sedan,2008,2010,TSI,1.4,118,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,"162, 163, AV3, AV2",Sedan,2010,2015,TDI,1.6,77,,FWD,DB1405,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2006,2010,FSI,1.6,85,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2006,2010,,1.6,75,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2009,2010,TDI,1.6,77,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2005,2010,TDI,2,103,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2006,2010,TDI,2,125,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,"162, 163, AV3, AV2",Sedan,2010,2015,TDI,2,103,,FWD,DB1492,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2005,2010,FSI,2,110,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2005,2010,TDI 16V,2,103,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,1K2,Sedan,2005,2010,TDI,1.9,77,,FWD,DB1405,DB1865,,Std. 4-Wheel Disc
+Volkswagen,LT 28-35,"2DB, 2DE, 2DK",Bus,2001,2006,TDI,2.5,61,,RWD,DB1959,DB1961,,Std. 4-Wheel Disc
+Volkswagen,LT 28-35,"2DB, 2DE, 2DK",Bus,2001,2006,TDI,2.5,70,,RWD,DB1959,DB1961,,Std. 4-Wheel Disc
+Volkswagen,LT 28-35,"2DB, 2DE, 2DK",Bus,1999,2006,TDI,2.5,80,,RWD,DB1959,DB1961,,Std. 4-Wheel Disc
+Volkswagen,Karmann Ghia,"14, 34",Coupe,1970,1973,,1.6,37,,RWD,DB2,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Jetta,1K2,Sedan,2005,2010,TFSI,2,147,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Jetta,"162, 163, AV3, AV2",Sedan,2012,2017,TSI,2,155,,FWD,DB1405,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Jetta,"162, 163, AV3, AV2",Sedan,2010,2013,TFSI,2,147,,FWD,DB1405,DB2211,,Std. 4-Wheel Disc
+Volkswagen,LT 28-46,"2DA, 2DD, 2DH",Van,2001,2006,TDI,2.5,61,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,LT 28-46,"2DA, 2DD, 2DH",Van,1999,2006,TDI,2.5,80,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2009,2015,BiTDI 4motion,2,132,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,LT 28-46,"2DC, 2DF, 2DG, 2DL, 2DM",Platform/Chassis,2002,2006,TDI,2.8,116,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,LT 28-46,"2DA, 2DD, 2DH",Van,2002,2006,TDI,2.8,116,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,LT 28-46,"2DC, 2DF, 2DG, 2DL, 2DM",Platform/Chassis,2001,2006,TDI,2.5,61,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,LT 28-46,"2DC, 2DF, 2DG, 2DL, 2DM",Platform/Chassis,2001,2006,TDI,2.5,70,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,LT 28-46,"2DC, 2DF, 2DG, 2DL, 2DM",Platform/Chassis,1999,2006,TDI,2.5,80,,RWD,DB1969,DB1961,,Other Products
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2020,2024,TDI 4motion,2,110,,AWD,,DB1956,,
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2020,2024,TDI 4motion,2,146,,AWD,,DB1956,,
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2015,2020,TDI 4motion,2,150,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2009,2015,BiTDI,2,132,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2009,2015,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2011,2015,TSI,2,150,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2015,2020,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2020,2024,TDI,2,110,,FWD,,DB1956,,
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2020,2024,TDI,2,146,,FWD,,DB1956,,
+Volkswagen,Multivan,"SGF, SGM, SGN, SHM, SHN",Bus,2015,2020,TDI,2,150,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,New Beetle,"9C1, 1C1",Hatchback,1998,2010,,2,85,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2004,2009,VR6 4motion,3.2,173,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2003,2009,TDI 4motion,2.5,128,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2005,2009,TDI,2.5,128,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Multivan,"7HM, 7HN, 7HF, 7EF, 7EM, 7EN",Bus,2005,2009,VR6,3.2,173,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Passat,32,Hatchback,1973,1978,,1.3,40,,FWD,DB105,,,Std. Brake System
+Volkswagen,Passat Alltrack,3C(365),Wagon,2012,2014,TDI 4motion,2,125,,AWD,,DB1865,,
+Volkswagen,Passat Alltrack,3C(365),Wagon,2013,2014,TDI 4motion,2,130,,AWD,,DB1865,,
+Volkswagen,Passat,33,Wagon,1973,1978,,1.3,44,,FWD,DB105,,,Other Products
+Volkswagen,Passat Alltrack,3G5(B8),Wagon,2015,2024,TSI 4motion,2,162,,AWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Passat Alltrack,3G5(B8),Wagon,2015,2018,TDI 4motion,2,140,,AWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B2,Sedan,1998,2000,,1.8,92,,FWD,DB2193,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Passat,32,Hatchback,1973,1975,,1.5,55,,FWD,DB128,,,Std. Brake System
+Volkswagen,Passat,32,Hatchback,1973,1975,,1.5,63,,FWD,DB128,,,Std. Brake System
+Volkswagen,Passat,32,Hatchback,1975,1980,,1.6,63,,FWD,DB105,,,Std. Brake System
+Volkswagen,Passat,32,Hatchback,1977,1980,,1.5,37,,FWD,DB105,,,Std. Brake System
+Volkswagen,Passat,3B2,Sedan,1996,2000,,1.6,74,,FWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B6,Wagon,2000,2005,20V,1.8,110,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B5,Wagon,1997,2000,,1.8,110,,FWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B2,Sedan,1998,2000,,1.8,110,,FWD,DB1492,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B3,Sedan,2000,2005,20V,1.8,110,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,362,Sedan,2010,2014,TSI,1.8,118,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C(365),Wagon,2010,2014,TSI,1.8,118,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2015,2019,TSI,1.8,132,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G2(B8),Sedan,2015,2019,TSI,1.8,132,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2007,2011,TSI,1.8,118,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2007,2010,TSI,1.8,118,,FWD,DB1351,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B6,Wagon,2000,2005,TDI,1.9,96,,FWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2005,2010,TDI 16V,2,103,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,"3A2, 35I",Sedan,1990,1996,,2,85,,FWD,DB1492,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,TDI,1.9,77,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2005,2010,FSI,2,110,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2007,2010,FSI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,TDI 16V 4motion,2,103,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C(365),Wagon,2010,2014,TDI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C(365),Wagon,2012,2014,TDI,2,130,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,TDI 16V,2,103,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2005,2010,TDI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C(362),Sedan,2010,2014,TDI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C(362),Sedan,2012,2014,TDI,2,130,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2005,2010,TFSI,2,147,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G2(B8),Sedan,2014,2018,TDI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2009,TDI,2,103,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,TDI,2,125,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2014,2018,TDI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2014,2018,TDI 4motion,2,140,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2018,2020,TSI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2014,2024,TSI,2,162,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G5(B8),Wagon,2016,2019,TSI 4motion,2,206,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,TFSI,2,147,,FWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G2(B8),Sedan,2016,2019,TSI 4motion,2,206,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G2(B8),Sedan,2018,2024,TSI,2,140,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3G2(B8),Sedan,2020,2024,TSI,2,162,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B3,Sedan,2000,2005,,2.8,140,,FWD,DB1427,,,Other Products
+Volkswagen,Passat,3B2,Sedan,1996,2000,,2.3,110,,FWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B6,Wagon,2000,2005,,2.3,125,,FWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B3,Sedan,2000,2005,,2.3,125,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B3,Sedan,2000,2005,TDI,2.5,110,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B2,Sedan,1998,2000,V6,2.8,142,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B2,Sedan,1996,2000,V6 4motion Syncro,2.8,142,,AWD,DB1492,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B5,Wagon,1997,2000,V6,2.8,142,,FWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B6,Wagon,2000,2005,,2.8,140,,FWD,DB1427,,,Other Products
+Volkswagen,Passat,3B3,Sedan,2000,2005,4motion,2.8,142,,AWD,DB1404,,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2005,2010,FSI 4motion,3.2,184,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,"3A2, 35I",Sedan,1991,1996,,2.8,128,,FWD,DB1310,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2005,2010,FSI 4motion,3.2,184,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B5,Wagon,2000,2000,V6 4motion Syncro,2.8,142,,AWD,DB1427,,,Std. 4-Wheel Disc
+Volkswagen,Passat,362,Sedan,2011,2014,FSI 4motion,3.6,220,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Polo,"AW1, BZ1, AE1",Hatchback,2017,,TSI,1,70,,FWD,DB1387,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Polo,"AW1, BZ1, AE1",Hatchback,2017,,TSI,1,85,,FWD,DB1387,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Passat,3B3,Sedan,2003,2004,4motion,4,202,,AWD,DB1427,,,Other Products
+Volkswagen,Passat,3C(365),Wagon,2011,2014,FSI 4motion,3.6,220,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C2,Sedan,2007,2010,4motion,3.6,220,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Passat,3C5,Wagon,2007,2010,4motion,3.6,220,,AWD,DB1849,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2009,2014,TSI,1.2,77,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2014,2017,TSI,1.2,81,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,6N2,Hatchback,2000,2001,16V,1.4,55,,FWD,DB1407,,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2014,2017,TSI 16V,1.2,66,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2009,2014,,1.4,63,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N, 9A",Hatchback,2001,2008,16V,1.4,55,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N, 9A",Hatchback,2006,2009,16V,1.4,59,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N, 9A",Hatchback,2001,2008,16V,1.4,74,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,6N2,Hatchback,1999,2001,GTI 16V,1.6,92,,FWD,DB1407,,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9A4, 9A2, 9N2, 9A6",Sedan,2004,2010,,1.6,74,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N2, 9N4",Sedan,2004,2006,,1.6,74,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N, 9A",Hatchback,2006,2009,16V,1.6,77,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2010,2014,GTI,1.4,132,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"AW1, BZ1, AE1",Hatchback,2017,,GTI,2,147,,FWD,DB2383,DB2626,,Std. 4-Wheel Disc
+Volkswagen,Polo,6N1,Hatchback,1996,1999,,1.6,55,75,FWD,DB1407,,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2009,2014,TDI,1.6,66,,FWD,DB1387,,,Std. 4-Wheel Disc
+Volkswagen,Polo,"6R1, 6C1, 601, 603",Hatchback,2014,2017,GTI,1.8,141,,FWD,DB1387,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Polo,"9N, 9A",Hatchback,2005,2009,GTI,1.8,110,,FWD,DB1407,DB1449,,Std. 4-Wheel Disc
+Volkswagen,T-Cross,"C11, D31, BF1, BF3",SUV,2018,,TSI,1,85,,FWD,DB2622,DB1449,,Std. 4-Wheel Disc
+Volkswagen,Scirocco,"137, 138",Coupe,2009,2017,,2,188,R,FWD,DB2402,DB2211,,Other Products
+Volkswagen,T-Roc,"A11, D11",SUV,2020,,TSI,1.4,110,,FWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,T-Roc,"A11, D11",SUV,2019,,4motion,2,221,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,T-Roc,"A11, D11",SUV,2017,,TSI 4motion,2,140,,AWD,DB2383,DB2384,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2008,2018,TSI,1.4,110,,FWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2011,2018,TSI,1.4,118,,FWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2017,,TSI,1.4,110,,FWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2016,2023,TSI,1.4,110,,FWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2017,,TSI 4motion,2,132,,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2017,,TSI 4motion,2,162,,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2017,,TDI 4motion,2,110,,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2017,2021,TDI 4motion,2,140,,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan Allspace,"BW2, BJ2",SUV,2020,2023,TDI 4motion,2,147,,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2007,2018,TDI 4motion,2,103,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2012,2018,TDI 4motion,2,130,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2016,2023,TSI 4motion,2,132,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2016,2023,TSI 4motion,2,162,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2007,2018,TFSI 4motion,2,125,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2007,2011,TFSI 4motion,2,147,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2016,2024,TDI 4motion,2,110,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2016,2020,TDI 4motion,2,140,,AWD,DB2383,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2020,2023,TDI 4motion,2,147,,AWD,DB2383,,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2011,2016,TSI 4motion,2,132,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,5N,SUV,2011,2016,TSI 4motion,2,155,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Tiguan,,Van,2011,2018,TSI 4motion,,,,AWD,DB2232,DB1865,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2004,2010,R5 TDI,2.5,128,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Tiguan,"AD1, AX1, BT1, BT2",SUV,2022,2024,TSI 4motion,2,235,R,AWD,DB2513,DB2415,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"CR7, RC8",SUV,2020,,TDI 4motion,3,170,,AWD,DB2504,DB2505,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"CR7, RC8",SUV,2017,2020,TDI 4motion,3,190,,AWD,DB2504,DB2505,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"CR7, RC8",SUV,2020,,TDI 4motion,3,210,,AWD,DB2504,DB2505,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7P5, 7P6",SUV,2011,2018,V6 TDI,3,150,,AWD,DB2228,DB2229,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7P5, 7P6",SUV,2011,2018,V6 TDI,3,176,,AWD,DB2228,DB2229,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7P5, 7P6",SUV,2011,2018,V6 TDI,3,180,,AWD,DB2228,DB2229,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2004,2010,V6 TDI,3,165,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2007,2010,V6 TDI,3,176,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"CR7, RC8",SUV,2020,2021,V8 TDI 4motion,4,310,,AWD,DB2504,DB2505,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2003,2006,V8,4.2,228,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7P5, 7P6",SUV,2011,2018,V6 FSI,3.6,206,,AWD,DB2228,DB2229,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2005,2010,V6 FSI,3.6,206,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2003,2006,V6,3.2,162,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2004,2006,V6,3.2,177,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touran,"1T1, 1T2",Box Body/MPV,2004,2007,FSI,2,110,,FWD,,DB2211,,
+Volkswagen,Touran,"1T1, 1T2",MPV,2003,2007,FSI,2,110,,FWD,DB1849,DB2211,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,25,Bus,1979,1982,,1.6,37,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2004,2010,V10 TDI,5,230,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7P5, 7P6",SUV,2010,2018,V8 TDI,4.2,250,,AWD,DB2228,DB2229,,Std. 4-Wheel Disc
+Volkswagen,Touareg,"7LA, 7L6, 7L7",SUV,2007,2010,R5 TDI,5,257,,AWD,DB1676,DB1677,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,25,Bus,1984,1986,,1.9,61,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1982,1983,,2,51,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1981,1987,,1.6,37,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1993,2003,,2,62,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2006,2009,TDI,1.9,75,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2003,2009,TDI,1.9,77,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2009,2015,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,25,Bus,1985,1992,Syncro,2.1,70,,AWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1986,1992,Syncro,2.1,82,,AWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1985,1992,,2.1,70,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1984,1992,,2.1,82,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,25,Bus,1989,1992,,2.1,70,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2003,2010,,2,85,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1990,1998,,2.4,57,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1995,1999,Syncro,2.4,57,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2004,2009,TDI 4motion,2.5,128,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1995,2003,Syncro,2.5,85,,AWD,DB1290,DB2055,,Std. Brake System
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1994,1997,,2.5,81,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1997,2003,,2.5,85,,FWD,DB1290,DB2055,,Std. Brake System
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1999,2003,TDI,2.5,75,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,1999,2003,TDI Syncro,2.5,75,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2003,2009,TDI,2.5,128,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2003,2009,TDI,2.5,96,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ",Bus,2000,2003,,2.8,150,,FWD,DB1290,,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Caravelle,"7HB, 7HJ, 7EB, 7EJ",Bus,2004,2009,,3.2,173,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"21, 23",Van,1959,1966,,1.2,26,,RWD,DB2,,,Other Products
+Volkswagen,Transporter / Kombi,"24, 25",Van,1981,1987,,1.6,37,,RWD,DB1139,,,Std. Brake System
+Volkswagen,Transporter / Kombi,"21, 23",Van,1971,1973,,1.7,49,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"24, 25",Van,1979,1982,,1.6,37,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"21, 23",Van,1973,1975,,1.8,50,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1992,2003,,1.9,50,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"24, 25",Van,1984,1986,,1.9,61,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"21, 23",Van,1976,1979,,2,51,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2006,2009,TDI,1.9,62,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2009,TDI,1.9,63,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2006,2009,TDI,1.9,75,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2009,TDI,1.9,77,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"24, 25",Van,1982,1983,,2,51,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1993,2003,,2,62,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2015,,2,85,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2009,2015,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2009,2015,TDI,2,75,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2009,2015,BiTDI 4motion,2,132,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2009,2015,BiTDI,2,132,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1999,2003,,2.4,55,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1994,1999,,2.4,57,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"24, 25",Van,1988,1992,Syncro,2.1,70,,AWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"24, 25",Van,1986,1992,,2.1,70,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1995,1999,Syncro,2.4,57,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1994,1997,,2.5,81,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1997,2003,,2.5,85,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1995,2003,TDI,2.5,75,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2004,2009,TDI 4motion,2.5,128,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2004,2009,TDI 4motion,2.5,96,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2009,TDI,2.5,128,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2009,TDI,2.5,96,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1999,2003,TDI Syncro,2.5,75,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1992,2001,Syncro,2.5,81,,AWD,DB1349,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,1995,2003,Syncro,2.5,85,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Micro Bus,"22, 23, 24",Bus,1967,1970,,1.6,34,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Micro Bus,"22, 23, 24",Bus,1970,1979,,1.6,37,,RWD,DB11,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2004,2009,,3.2,173,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"70A, 70H, 7DA, 7DH, 70J",Van,2000,2003,,2.8,150,,FWD,DB1290,,,Std. 4-Wheel Disc
+Volkswagen,Transporter / Kombi,"7HA, 7HH, 7EA, 7EH",Van,2003,2009,4motion,3.2,173,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter / Micro Bus,"22, 23, 24",Bus,1971,1973,,1.7,49,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter,"21, 26",Platform/Chassis,1968,1979,,1.6,37,,RWD,DB11,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter T6 / Caravelle,"SGB, SGJ, SHB, SHJ",Bus,2020,2024,TDI 4motion,2,110,,AWD,,DB1956,,
+Volkswagen,Transporter T6 / Caravelle,"SGB, SGJ, SHB, SHJ",Bus,2020,2024,TDI 4motion,2,146,,AWD,,DB1956,,
+Volkswagen,Transporter / Micro Bus,"22, 23, 24",Bus,1973,1975,,1.8,50,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter / Micro Bus,"22, 23, 24",Bus,1975,1979,,2,51,,RWD,DB84,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter T6 / Caravelle,"SGB, SGJ, SHB, SHJ",Bus,2015,2019,TDI,2,103,,FWD,DB2200,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter T6 / Caravelle,"SGB, SGJ, SHB, SHJ",Bus,2020,2024,TDI,2,110,,FWD,,DB1956,,
+Volkswagen,Transporter T6 / Caravelle,"SGB, SGJ, SHB, SHJ",Bus,2019,2024,TDI,2,81,,FWD,,DB1956,,
+Volkswagen,Transporter,24,Platform/Chassis,1984,1986,,1.9,61,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1993,2003,,2,62,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,24,Platform/Chassis,1982,1983,,2,51,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2003,2013,,2,85,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2006,2009,TDI,1.9,75,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2003,2009,TDI,1.9,77,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2009,2015,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2009,2015,BiTDI,2,132,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2009,2015,BiTDI 4motion,2,132,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2015,2019,TDI 4motion,2,132,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2019,2024,TDI 4motion,2,146,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2016,2024,TDI 4motion,2,150,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2024,TDI 4motion,2,110,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2019,TDI 4motion,2,132,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2018,2024,TDI 4motion,2,146,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2024,TDI 4motion,2,150,,AWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2015,2019,TSI,2,110,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,24,Platform/Chassis,1986,1992,,2.1,70,,RWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter,24,Platform/Chassis,1988,1992,Syncro,2.1,70,,AWD,DB1139,,,Std. Front Disc / Rear Drum Brake
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2015,2019,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2015,2019,TDI,2,132,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2019,2024,TDI,2,146,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SFD, SFE, SFL, SFZ, SJD, SJE, SJL, SJZ",Platform/Chassis,2016,2024,TDI,2,150,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2019,TDI,2,103,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2024,TDI,2,110,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2019,TDI,2,132,,FWD,DB2200,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2019,2024,TDI,2,146,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2024,TDI,2,150,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2015,2019,TDI,2,75,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"SGA, SGH, SHA, SHH",Van,2019,2024,TDI,2,81,,FWD,DB1947,DB1956,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1995,1999,Syncro,2.4,57,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1999,2003,,2.4,55,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1994,1999,,2.4,57,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2004,2009,TDI 4motion,2.5,128,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2004,2009,TDI 4motion,2.5,96,,AWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1994,1997,,2.5,81,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1997,2003,,2.5,85,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1992,2001,Syncro,2.5,81,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1995,2003,Syncro,2.5,85,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Up!,"121, 122, BL1, BL2, BL3, 123, 6A1, 6A5, 6A6",Hatchback,2011,2014,,1,55,,FWD,DB1387,,,Std. Brake System
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1999,2003,TDI,2.5,75,,FWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2003,2009,VR6,3.2,173,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"70E, 70L, 70M, 7DE, 7DL, 7DM",Platform/Chassis,1999,2003,TDI Syncro,2.5,75,,AWD,DB1290,DB2055,,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2003,2009,TDI,2.5,128,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Transporter,"7JD, 7JE, 7JL, 7JY, 7JZ, 7FD, 7FE, 7FL, 7FY, 7FZ",Platform/Chassis,2003,2009,TDI,2.5,96,,FWD,DB1947,DB1956,BS5099,Std. 4-Wheel Disc
+Volkswagen,Vento,1H2,Sedan,1991,1998,,1.8,66,,FWD,DB1310,DB1192,,Std. 4-Wheel Disc
+Volkswagen,Vento,1H2,Sedan,1995,1997,,2,85,,FWD,DB1327,DB1192,,Std. 4-Wheel Disc

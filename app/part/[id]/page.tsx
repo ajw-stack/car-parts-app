@@ -48,11 +48,19 @@ export default async function PartPage({
   const oemRefs = refs.filter((r: any) => isOemBrand(r.brand));
   const aftermarketRefs = refs.filter((r: any) => !isOemBrand(r.brand));
 
-  // Group aftermarket refs by brand
-  // Vehicle fitments
+  // Build lookup: cross-ref part id → part label (e.g. "Bendix DB1234")
+  const crossRefLabel: Record<string, string> = {};
+  for (const r of refs) {
+    crossRefLabel[r.id] = `${r.brand} ${r.part_number}`;
+  }
+  const crossRefIds = refs.map((r: any) => r.id);
+  const allPartIds = [partId, ...crossRefIds];
+
+  // Vehicle fitments — include direct fitments + those from cross-referenced parts
   const { data: fitments } = await supabaseServer
     .from("vehicle_part_fitments")
     .select(`
+      part_id,
       position,
       engine_restriction,
       notes,
@@ -60,7 +68,7 @@ export default async function PartPage({
         id, make, model, series, grade, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type
       )
     `)
-    .eq("part_id", partId);
+    .in("part_id", allPartIds);
 
   // Group fitments by make for display
   const fitsByMake: Record<string, typeof fitments> = {};
@@ -169,9 +177,10 @@ export default async function PartPage({
                     </div>
                     {makeFitments!.map((f: any, i: number) => {
                       const v = f.vehicles;
+                      const isInherited = f.part_id !== partId;
                       return (
                         <a
-                          key={`${v.id}-${i}`}
+                          key={`${v.id}-${f.part_id}-${i}`}
                           href={`/vehicles/${make.toLowerCase()}/${v.id}`}
                           className="flex items-center justify-between px-5 py-3.5 hover:bg-gray-50 transition-colors"
                         >
@@ -191,6 +200,11 @@ export default async function PartPage({
                               {f.position ? ` • ${f.position}` : ""}
                               {f.engine_restriction ? ` • ${f.engine_restriction}` : ""}
                             </div>
+                            {isInherited && (
+                              <div className="mt-1 text-xs text-blue-500">
+                                via {crossRefLabel[f.part_id]}
+                              </div>
+                            )}
                           </div>
                           <span className="text-gray-300 text-lg">›</span>
                         </a>

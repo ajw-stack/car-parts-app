@@ -87,23 +87,144 @@ export async function GET(req: NextRequest) {
     ? rawWmi.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "").trim()
     : null;
 
+  // ── Holden VIN decoder (6G1 prefix) ─────────────────────────────────────────
+  // Digit 4 = model series, digit 5 = variant/luxury level
+  const HOLDEN_MODEL_CODES: Record<string, string> = {
+    E: "VE", F: "VF", Y: "VY", Z: "VZ",
+    K: "Statesman/Caprice WK", L: "Statesman/Caprice WL",
+    M: "Statesman/Caprice WM", N: "Caprice WN",
+  };
+  // Digit 5 variant — K has model-dependent meaning on Commodores
+  const HOLDEN_VARIANT_CODES: Record<string, string | Record<string, string>> = {
+    K: { Y: "Executive", Z: "SV6 / SV6000", E: "SV6 / SV8 / SS", F: "Executive / SS", default: "Executive" },
+    L: "Berlina",
+    X: "Calais",
+    Z: "Caprice",
+    Y: "Statesman",
+    P: "SSV",
+    C: "SS",
+    B: "SV6",
+    J: "Calais V",
+    E: "SS V Redline",
+    F: "HSV Maloo",
+    A: "International",
+  };
+  // Only decode digit 5 variant for Commodore model codes (not Statesman/Caprice LWB)
+  const COMMODORE_CHARS = new Set(["E", "F", "Y", "Z"]);
+  // Digit 6 = body style
+  const HOLDEN_BODY_CODES: Record<string, string> = {
+    "0": "Cab Chassis / 1 Tonne Ute",
+    "1": "2 Door Coupe",
+    "3": "4 Door Ute (Crewman)",
+    "4": "Ute",
+    "5": "4 Door Sedan",
+    "8": "Wagon",
+  };
+  // Digit 11 = assembly plant
+  const HOLDEN_PLANT_CODES: Record<string, { city: string; country: string }> = {
+    L: { city: "Elizabeth", country: "Australia" },
+  };
+  // Digit 8 = engine code
+  const HOLDEN_ENGINE_CODES: Record<string, string> = {
+    A: "3.8L V6 Ecotec",
+    B: "3.6L V6 Alloytec 175kW Dual Fuel LY7",
+    "7": "3.6L V6 Alloytec 190 195kW LY7",
+    R: "3.8L V6 Supercharged Ecotec (L67)",
+    "5": "3.0L V6 SIDI LF1 190kW",
+    "3": "3.6L V6 210kW LLT Petrol",
+    V: "3.6L V6 210kW LFX Petrol/E85",
+    F: "5.7L V8 Gen III",
+    S: "5.7L V8 (CV8 Monaro)",
+    "2": "6.0L V8 LS2 / L76 / L77",
+    U: "6.0L V8 LS2 307kW",
+    H: "6.0L V8 L98 270kW",
+    Y: "6.0L V8 L77 270kW",
+    W: "6.2L V8 LS3",
+    P: "6.2L V8 Supercharged (HSV)",
+  };
+  // Digit 7 = restraint system
+  const HOLDEN_RESTRAINT_CODES: Record<string, string> = {
+    "1": "Active seat belts",
+    "2": "Active belts with driver & passenger airbags",
+    "3": "Active belts with driver airbag",
+    "4": "Active belts with driver, passenger & side airbags",
+    "5": "Active belts with driver, passenger & side airbags (HSV GTS)",
+    "E": "Active belts with load limiters — driver, passenger & side airbags",
+  };
+
+  // VIN prefix overrides for other makes (longest match wins)
+  const VIN_PREFIX_OVERRIDES: Record<string, { make?: string; model?: string }> = {
+    "6G1": { make: "Holden" },
+  };
+
+  let resolvedMake       = val("Make");
+  let resolvedModel      = val("Model");
+  let resolvedSeries     = val("Series");
+  let resolvedBody       = val("BodyClass");
+  let resolvedRestraints = null as string | null;
+  let resolvedEngine     = val("EngineModel");
+  let resolvedPlantCity    = val("PlantCity");
+  let resolvedPlantCountry = val("PlantCountry");
+
+  if (vin.startsWith("6G1")) {
+    resolvedMake = "Holden";
+    const modelChar     = vin[3];
+    const variantChar   = vin[4];
+    const bodyChar      = vin[5];
+    const restraintChar = vin[6];
+    const engineChar    = vin[7];
+    const plantChar     = vin[10];
+    if (modelChar && HOLDEN_MODEL_CODES[modelChar]) {
+      resolvedModel = HOLDEN_MODEL_CODES[modelChar];
+    }
+    if (variantChar && modelChar && COMMODORE_CHARS.has(modelChar)) {
+      const entry = HOLDEN_VARIANT_CODES[variantChar];
+      if (entry) {
+        resolvedSeries = typeof entry === "string"
+          ? entry
+          : (entry[modelChar] ?? entry.default ?? resolvedSeries);
+      }
+    }
+    if (bodyChar && HOLDEN_BODY_CODES[bodyChar]) {
+      resolvedBody = HOLDEN_BODY_CODES[bodyChar];
+    }
+    if (restraintChar && HOLDEN_RESTRAINT_CODES[restraintChar]) {
+      resolvedRestraints = HOLDEN_RESTRAINT_CODES[restraintChar];
+    }
+    if (engineChar && HOLDEN_ENGINE_CODES[engineChar]) {
+      resolvedEngine = HOLDEN_ENGINE_CODES[engineChar];
+    }
+    if (plantChar && HOLDEN_PLANT_CODES[plantChar]) {
+      resolvedPlantCity    = HOLDEN_PLANT_CODES[plantChar].city;
+      resolvedPlantCountry = HOLDEN_PLANT_CODES[plantChar].country;
+    }
+  } else {
+    const prefixMatch =
+      VIN_PREFIX_OVERRIDES[vin.substring(0, 4)] ??
+      VIN_PREFIX_OVERRIDES[vin.substring(0, 3)] ??
+      {};
+    resolvedMake  = prefixMatch.make  ?? resolvedMake;
+    resolvedModel = prefixMatch.model ?? resolvedModel;
+  }
+
   return NextResponse.json({
     vin,
     year,
-    make: val("Make"),
+    make: resolvedMake,
     wmiMake,
-    model: val("Model"),
-    series: val("Series"),
+    model: resolvedModel,
+    series: resolvedSeries,
     trim: val("Trim"),
-    bodyClass: val("BodyClass"),
+    bodyClass: resolvedBody,
+    restraints: resolvedRestraints,
     doors: val("Doors"),
     vehicleType: val("VehicleType"),
     manufacturer: val("Manufacturer"),
-    plantCountry: val("PlantCountry"),
-    plantCity: val("PlantCity"),
+    plantCountry: resolvedPlantCountry,
+    plantCity: resolvedPlantCity,
     displacementL: val("DisplacementL"),
     cylinders: val("EngineCylinders"),
-    engineModel: val("EngineModel"),
+    engineModel: resolvedEngine,
     fuelType: val("FuelTypePrimary"),
     driveType: val("DriveType"),
     transmissionStyle: val("TransmissionStyle"),

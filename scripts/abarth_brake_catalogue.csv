@@ -1,0 +1,13 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Abarth,124,,Convertible,2016,2019,,1.4,125,,RWD,,DB2064,,
+Abarth,500C / 595C / 695C,,Convertible,2009,2016,,1.4,103,,FWD,DB2219,DB2381,,Std. 4-Wheel Disc
+Abarth,500C / 595C / 695C,,Convertible,2014,2016,,1.4,118,,FWD,DB2386,DB2381,,Std. 4-Wheel Disc
+Abarth,500C / 595C / 695C,,Convertible,2013,2020,,1.4,132,,FWD,DB2386,DB2381,,Std. 4-Wheel Disc
+Abarth,500C / 595C / 695C,,Convertible,2008,2011,,1.4,99,,FWD,,DB2381,,
+Abarth,500 / 595 / 695,,Hatchback,2010,2016,,1.4,103,,FWD,,DB2381,,
+Abarth,500 / 595 / 695,,Hatchback,2016,2021,,1.4,107,,FWD,,DB2381,,
+Abarth,500 / 595 / 695,,Hatchback,2011,2016,,1.4,118,,FWD,DB2386,DB2381,,Std. 4-Wheel Disc
+Abarth,500 / 595 / 695,,Hatchback,2016,2021,,1.4,121,,FWD,,DB2381,,
+Abarth,500 / 595 / 695,,Hatchback,2014,,,1.4,132,,FWD,DB2386,DB2381,,Std. 4-Wheel Disc
+Abarth,500 / 595 / 695,,Hatchback,2008,2016,,1.4,140,,FWD,DB2386,DB2381,,Std. 4-Wheel Disc
+Abarth,500 / 595 / 695,,Hatchback,2008,2016,,1.4,99,,FWD,DB2219,DB2381,,Std. 4-Wheel Disc

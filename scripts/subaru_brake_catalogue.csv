@@ -1,0 +1,320 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Subaru,BRZ,Z1,Coupe,2012,2021,,2.0,147,,RWD,DB1491,DB1521,,Std. 4-Wheel Disc
+Subaru,BRZ,Z1,Coupe,2012,2021,,2.0,147,,RWD,BR650,,,Other Products
+Subaru,BRZ,Z1,Coupe,2012,2021,,2.0,147,,RWD,,DB1521,,Bendix Brake Upgrade Kits
+Subaru,BRZ,Z1,Coupe,2016,2021,,2.0,152,,RWD,,DB1521,,Bendix Brake Upgrade Kits
+Subaru,BRZ,Z1,Coupe,2016,2021,,2.0,152,,RWD,DB1678,DB1521,,Std. 4-Wheel Disc
+Subaru,Crosstrek,GU,SUV,2023,,i,2.0,115,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Crosstrek,GU,SUV,2023,,i e-BOXER,2.0,110,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Fiori,,Hatchback,1989,1992,,0.8,31,,FWD,DB1160,,,Std. Front Disc / Rear Drum Brake
+Subaru,Forester,SF,SUV,1997,2000,,2.0,90,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SF,SUV,1997,2000,,2.0,90,,AWD,BR648,DB1379,,Other Products
+Subaru,Forester,SF,SUV,2000,2002,,2.0,92,,AWD,DB1170,DB1379,,Std. 4-Wheel Disc - Subaru Caliper
+Subaru,Forester,SF,SUV,2000,2002,,2.0,92,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SF,SUV,2000,2002,,2.0,92,,AWD,BR648,DB1379,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2002,2008,,2.0,92,,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SH,SUV,2008,2013,D,2.0,108,,AWD,BR650,BR2659,,Other Products
+Subaru,Forester,SH,SUV,2008,2013,D,2.0,108,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2013,2018,D,2.0,108,,AWD,DB1491,DB1789,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2013,2018,D,2.0,108,,AWD,BR2650,BR2667,,Other Products
+Subaru,Forester,SK,SUV,2018,,e-Boxer Hybrid,2.0,110,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Forester,SK,SUV,2018,,e-Boxer Hybrid,2.0,110,,AWD,BR6049,DB2398,,Other Products
+Subaru,Forester,SJ,SUV,2013,2018,i,2.0,110,,AWD,BR650,BR2667,,Other Products
+Subaru,Forester,SJ,SUV,2013,2018,i,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SF,SUV,1998,2000,Turbo,2.0,125,S,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SF,SUV,1998,2000,Turbo,2.0,125,S,AWD,BR648,DB1379,,Other Products
+Subaru,Forester,SF,SUV,2000,2002,Turbo,2.0,130,S,AWD,DB1170,DB1379,,Std. 4-Wheel Disc - Subaru Caliper
+Subaru,Forester,SF,SUV,2000,2002,Turbo,2.0,130,S,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SF,SUV,2000,2002,Turbo,2.0,130,S,AWD,BR648,DB1379,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2002,2008,Turbo,2.0,130,S,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2013,2018,,2.0,177,XT,AWD,DB1491,DB1789,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2013,2018,,2.0,177,XT,AWD,DB1678,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Subaru,Forester,SJ,SUV,2013,2018,,2.0,177,XT,AWD,BR650,BR2667,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2002,2005,,2.5,112,,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Forester,"SG, S11SG",SUV,2002,2005,,2.5,112,,AWD,BR650,DB1379,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2005,2008,,2.5,121,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Forester,"SG, S11SG",SUV,2005,2008,,2.5,121,,AWD,BR650,DB1672,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2003,2005,,2.5,155,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Forester,"SG, S11SG",SUV,2003,2005,,2.5,155,,AWD,BR650,DB1672,,Other Products
+Subaru,Forester,"SG, S11SG",SUV,2005,2008,,2.5,169,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Forester,"SG, S11SG",SUV,2005,2008,,2.5,169,,AWD,BR650,DB1672,,Other Products
+Subaru,Forester,SH,SUV,2009,2013,,2.5,126,,AWD,BR650,BR2659,,Other Products
+Subaru,Forester,SH,SUV,2009,2013,,2.5,126,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SH,SUV,2011,2013,,2.5,126,,AWD,BR650,BR2659,,Other Products
+Subaru,Forester,SH,SUV,2011,2013,,2.5,126,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SH,SUV,2008,2013,,2.5,169,,AWD,BR650,BR2659,,Other Products
+Subaru,Forester,SH,SUV,2008,2013,,2.5,169,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2012,2018,,2.5,126,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Forester,SJ,SUV,2012,2018,,2.5,126,,AWD,BR650,BR2667,,Other Products
+Subaru,Forester,SK,SUV,2018,,,2.5,136,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Forester,SK,SUV,2018,,,2.5,136,,AWD,BR6047,BR6048,,Other Products
+Subaru,Forester,SH,SUV,2011,2013,Turbo,2.5,193,,AWD,BR650,BR2659,,Other Products
+Subaru,Forester,SH,SUV,2011,2013,Turbo,2.5,193,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2001,2007,,1.5,74,,AWD,BR649,,,Other Products
+Subaru,Impreza,GD,Sedan,2001,2007,,1.5,74,,FWD,BR649,,,Other Products
+Subaru,Impreza,GC,Sedan,1998,1998,,1.6,88,,FWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1998,1998,,1.6,88,,FWD,DB1185,BR644,,Other Products
+Subaru,Impreza,GF,Wagon,1993,1998,i,1.6,66,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1993,1998,i,1.6,66,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GC,Sedan,1993,1998,i,1.6,66,,FWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1993,1998,i,1.6,66,,FWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GC,Sedan,1993,1998,i,1.6,66,,FWD,BR649,BR644,BS1730,Other Products
+Subaru,Impreza,GC,Sedan,1997,2000,i,1.6,70,,FWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1997,2000,i,1.6,70,,FWD,BR649,DB1379,,Other Products
+Subaru,Impreza,GF,Wagon,1997,2000,i,1.6,70,,FWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1993,1996,i,1.8,76,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1993,1996,i,1.8,76,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GC,Sedan,1993,1996,i,1.8,76,,AWD,BR649,BR644,BS1730,Other Products
+Subaru,Impreza,GF,Wagon,1993,1996,i,1.8,76,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1993,1996,i,1.8,76,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GC,Sedan,1995,1996,i,1.8,76,,FWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1995,1996,i,1.8,76,,FWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GC,Sedan,1995,1996,i,1.8,76,,FWD,BR649,BR644,BS1730,Other Products
+Subaru,Impreza,GF,Wagon,1995,1996,i,1.8,76,,FWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1995,1996,i,1.8,76,,FWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Impreza,GD,Sedan,2005,2007,,2.0,184,,AWD,BR650,,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,,2.0,206,,AWD,,DB1672,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GD,Sedan,2005,2007,,2.0,206,,AWD,BR650,DB1672,,Other Products
+Subaru,Impreza,GJ,Sedan,2011,2016,,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,GJ,Sedan,2011,2016,,2.0,110,,AWD,BR648,BR2667,,Other Products
+Subaru,Impreza,GP,Hatchback,2012,2016,,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,GP,Hatchback,2012,2016,,2.0,110,,AWD,BR648,BR2667,,Other Products
+Subaru,Impreza,"GR, GH, G3, GE",Hatchback,2007,2010,,2.0,227,,AWD,BR648,BR2659,,Other Products
+Subaru,Impreza,GF,Wagon,1998,2000,i 16V,2.0,92,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1998,2000,i 16V,2.0,92,,AWD,BR649,DB1379,,Other Products
+Subaru,Impreza,"G5, GK7",Sedan,2016,2023,i,2.0,115,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Impreza,"G5, GK7",Sedan,2016,2023,i,2.0,115,,AWD,BR3052,BR3053,,Other Products
+Subaru,Impreza,"G5, GT7",Hatchback,2016,2023,i,2.0,115,,AWD,,DB2398,,Std. 4-Wheel Disc
+Subaru,Impreza,"G5, GT7",Hatchback,2016,2023,i,2.0,115,,AWD,DB2480,BR3053,,Other Products
+Subaru,Impreza,GC,Sedan,1996,1998,i,2.0,85,,AWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1996,1998,i,2.0,85,,AWD,BR649,DB1186,,Other Products
+Subaru,Impreza,GC,Sedan,1999,2000,i,2.0,92,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1999,2000,i,2.0,92,,AWD,BR649,DB1379,,Other Products
+Subaru,Impreza,GD,Sedan,2001,2002,i,2.0,150,,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2001,2002,i,2.0,150,,AWD,BR650,DB1379,,Other Products
+Subaru,Impreza,GD,Sedan,1999,2007,i,2.0,92,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,1999,2007,i,2.0,92,,AWD,BR648,DB1672,,Other Products
+Subaru,Impreza,GF,Wagon,1996,1998,i,2.0,85,,AWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1996,1998,i,2.0,85,,AWD,BR649,DB1186,,Other Products
+Subaru,Impreza,GG,Wagon,2000,2007,i,2.0,118,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Impreza,GG,Wagon,2000,2007,i,2.0,92,,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GK,Sedan,2016,2023,i,2.0,113,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Impreza,GK,Sedan,2016,2023,i,2.0,113,,AWD,BR3052,BR3053,,Other Products
+Subaru,Impreza,"GR, GE7",Sedan,2008,2016,i,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GR, GE7",Sedan,2008,2016,i,2.0,110,,AWD,BR648,BR2659,,Other Products
+Subaru,Impreza,GC,Sedan,1996,1998,i,2.0,85,,FWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1996,1998,i,2.0,85,,FWD,BR649,DB1186,,Other Products
+Subaru,Impreza,GC,Sedan,1998,2000,i,2.0,92,,FWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1998,2000,i,2.0,92,,FWD,BR649,DB1379,,Other Products
+Subaru,Impreza,GFC,Coupe,1995,2000,i,2.0,85,,FWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GFC,Coupe,1995,2000,i,2.0,85,,FWD,BR649,DB1186,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,i,2.0,118,R,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2005,2007,i,2.0,118,R,AWD,BR648,DB1672,,Other Products
+Subaru,Impreza,GC,Sedan,1992,1998,i,2.0,155,WRX,AWD,DB1219,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GC,Sedan,1992,1998,i,2.0,155,WRX,AWD,BR648,DB1186,,Other Products
+Subaru,Impreza,GC,Sedan,1998,2000,i,2.0,160,WRX,AWD,,DB1379,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GC,Sedan,1998,2000,i,2.0,160,WRX,AWD,BR650,DB1379,,Other Products
+Subaru,Impreza,GD,Sedan,2002,2005,i,2.0,168,WRX,AWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1994,1998,i,2.0,155,WRX,AWD,DB1219,DB1186,,Std. 4-Wheel Disc
+Subaru,Impreza,GF,Wagon,1998,2000,i,2.0,160,WRX,AWD,DB1170,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GG,Wagon,2000,2005,i,2.0,160,WRX,AWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Subaru,Impreza,GG,Wagon,2000,2005,i,2.0,160,WRX,AWD,,DB1220,,Bendix Brake Upgrade Kits
+Subaru,Impreza,"GE, GH, GR, GH7",Hatchback,2008,2012,,2.0,110,R,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GE, GH, GR, GH7",Hatchback,2008,2012,,2.0,110,R,AWD,BR648,BR2659,,Other Products
+Subaru,Impreza,GG,Wagon,2005,2006,,2.0,169,WRX,AWD,BR650,BR644,,Std. 4-Wheel Disc
+Subaru,Impreza,GG,Wagon,2005,2006,,2.0,169,WRX,AWD,,BR644,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GG,Wagon,2005,2006,,2.0,169,WRX,AWD,DB1491,DB1379,,Other Products
+Subaru,Impreza,GC,Sedan,1999,2000,,2.0,206,WRX STi,AWD,,DB1379,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GC,Sedan,1999,2000,,2.0,206,WRX STi,AWD,BR650,DB1379,,Other Products
+Subaru,Impreza,GD,Sedan,2001,2005,,2.0,195,WRX STi,AWD,DB1678,DB1521,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2001,2005,,2.0,195,WRX STi,AWD,,DB1521,,Bendix Brake Upgrade Kits
+Subaru,Impreza,"GE, GV",Sedan,2010,2015,,2.0,227,WRX STI,AWD,DB1678,DB1521,,Other Products
+Subaru,Impreza,GFC,Coupe,1998,2000,,2.0,206,WRX STi,AWD,,DB1379,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GFC,Coupe,1998,2000,,2.0,206,WRX STi,AWD,BR650,DB1379,,Other Products
+Subaru,Impreza,GD,Sedan,2000,2002,Turbo,2.0,160,WRX,AWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2000,2002,Turbo,2.0,160,WRX,AWD,BR650,,,Other Products
+Subaru,Impreza,GD,Sedan,2000,2002,Turbo,2.0,160,WRX,AWD,,DB1220,,Bendix Brake Upgrade Kits
+Subaru,Impreza,GD,Sedan,2002,2007,Turbo,2.0,165,WRX,AWD,BR650,,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,,2.5,221,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2001,2005,i,2.5,112,,AWD,BR648,DB1672,,Other Products
+Subaru,Impreza,GD,Sedan,2001,2005,i,2.5,112,,AWD,DB1491,DB1672,,Std. 4-Wheel Disc
+Subaru,Impreza,"GDA, GGA",Wagon,2002,2005,i,2.5,112,,AWD,DB1491,DB1379,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2005,2007,i,2.5,169,WRX,AWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2005,2007,i,2.5,169,WRX,AWD,DB1170,DB1220,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,i,2.5,169,WRX,AWD,,BR644,,Bendix Brake Upgrade Kits
+Subaru,Impreza,"GE, GH, GR, GHE",Hatchback,2007,2011,i,2.5,169,WRX,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GE, GH, GR, GHE",Hatchback,2007,2011,i,2.5,169,WRX,AWD,BR650,BR2659,,Other Products
+Subaru,Impreza,"GE, GH, GR, G3",Hatchback,2010,2013,,2.5,195,WRX,AWD,,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GE, GH, GR, G3",Hatchback,2010,2013,,2.5,195,WRX,AWD,BR650,BR2659,,Other Products
+Subaru,Impreza,GG,Wagon,2005,2008,,2.5,169,WRX,AWD,BR650,,,Std. 4-Wheel Disc
+Subaru,Impreza,GG,Wagon,2005,2008,,2.5,169,WRX,AWD,,DB1220,,Other Products
+Subaru,Impreza,"GR, GVE",Sedan,2008,2016,,2.5,195,WRX,AWD,,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GR, GVE",Sedan,2008,2016,,2.5,195,WRX,AWD,BR650,BR2659,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,,2.5,195,WRX STi,AWD,DB1678,DB1521,,Std. 4-Wheel Disc
+Subaru,Impreza,GD,Sedan,2005,2007,,2.5,195,WRX STi,AWD,BR650,DB1521,,Other Products
+Subaru,Impreza,GD,Sedan,2005,2007,,2.5,206,WRX STi,AWD,DB1678,DB1521,,Std. 4-Wheel Disc
+Subaru,Impreza,"GE, GH, GR, GRF",Hatchback,2008,2013,,2.5,221,WRX STi,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Impreza,"GR, GVF",Sedan,2011,2013,,2.5,221,WRX STi,AWD,BR654-10,BR2656,,Std. 4-Wheel Disc
+Subaru,Impreza,"GR, GVF",Sedan,2011,2013,,2.5,221,WRX STi,AWD,DB1678,DB1521,,Other Products
+Subaru,Leone 1800,,Wagon,1980,1984,,1.8,59,,AWD,DB392,,,Std. Brake System
+Subaru,Leone 1800 Super,,Wagon,1980,1984,,1.8,60,,AWD,DB392,,,Std. Brake System
+Subaru,Levorg,EK(V1),Wagon,2015,2020,,1.6,125,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Levorg,EK(V1),Wagon,2015,2020,,1.6,125,,AWD,BR6015,DB2398,,Other Products
+Subaru,Levorg,EK(V1),Wagon,2016,2020,,2.0,197,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2003,2006,,2.0,101,,AWD,BR648,BR2661,,Other Products
+Subaru,Liberty,"B13, BP, BP5",Wagon,2003,2006,,2.0,101,,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2005,2007,,2.0,121,,AWD,DB1722,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2005,2007,,2.0,121,,AWD,BR648,BR2661,,Other Products
+Subaru,Liberty,BE,Sedan,2002,2003,,2.0,176,,AWD,DB1342,DB1379,,Other Products
+Subaru,Liberty,BE,Sedan,2002,2003,,2.0,190,,AWD,DB1342,DB1379,,Other Products
+Subaru,Liberty,BE,Sedan,2002,2003,,2.0,206,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BE,Sedan,2002,2003,,2.0,206,,AWD,BR650,DB1379,,Other Products
+Subaru,Liberty,BE,Sedan,1998,2003,,2.0,92,,AWD,BR648,DB1379,,Other Products
+Subaru,Liberty,BE,Sedan,1998,2003,,2.0,92,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2003,2005,,2.0,101,,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2005,2009,,2.0,121,,AWD,DB1722,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2004,2009,,2.0,190,GT,AWD,,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2006,2009,,2.0,200,GT,AWD,,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2006,2009,,2.0,200,GT,AWD,BR2650,DB1379,,Other Products
+Subaru,Liberty,BH,Wagon,1998,2003,,2.0,191,GT,AWD,BR650,,,Other Products
+Subaru,Liberty,BL,Sedan,2004,2009,Tuned By,2.0,190,GT STI,AWD,BR654-10,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2004,2009,Tuned By,2.0,200,GT STI,AWD,BR654-10,,,Std. 4-Wheel Disc
+Subaru,Liberty,BH,Wagon,1998,2003,i,2.0,92,GX,AWD,BR648,DB1379,,Other Products
+Subaru,Liberty,BH,Wagon,1998,2003,i,2.0,92,GX,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BE,Sedan,1998,2003,RSK,2.0,191,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BE,Sedan,1998,2003,RSK,2.0,191,,AWD,BR650,DB1379,,Other Products
+Subaru,Liberty,"B13, BP, BP5",Wagon,2003,2009,Turbo,2.0,180,,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP5",Wagon,2003,2009,Turbo,2.0,180,,AWD,BR2650,DB1379,,Other Products
+Subaru,Liberty,BL,Sedan,2003,2006,Turbo,2.0,180,,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1995,1998,,2.2,100,,AWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1995,1998,,2.2,100,,AWD,DB1363,DB1186,,Std. 4-Wheel Disc - Akebono Caliper
+Subaru,Liberty,BD,Sedan,1995,1998,,2.2,100,,AWD,BR649,DB1186,,Other Products
+Subaru,Liberty,BC,Sedan,1989,1994,,2.2,100,,FWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Liberty,BC,Sedan,1989,1994,,2.2,100,,FWD,DB1185,DB1186,,Other Products
+Subaru,Liberty,BD,Sedan,1994,1998,,2.2,98,"GX, LX",AWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1994,1998,,2.2,98,"GX, LX",AWD,DB1185,BR644,,Other Products
+Subaru,Liberty,BG,Wagon,1994,1998,i,2.2,100,,AWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BG,Wagon,1994,1998,i,2.2,100,,AWD,DB1363,DB1186,,Std. 4-Wheel Disc - Akebono Caliper
+Subaru,Liberty,BG,Wagon,1994,1996,i,2.2,94,,AWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BG,Wagon,1994,1996,i,2.2,94,,AWD,DB1363,DB1186,,Std. 4-Wheel Disc - Akebono Caliper
+Subaru,Liberty,BG,Wagon,1994,1996,i,2.2,94,,FWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Liberty,"BC, BF, BJ",Wagon,1989,1994,i,2.2,100,"DX, GX, LX",FWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,Liberty,"BC, BF, BJ",Wagon,1989,1994,i,2.2,100,"DX, GX, LX",FWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Liberty,"BC, BF, BJ",Wagon,1989,1994,i,2.2,100,"DX, GX, LX",FWD,BR649,BR644,BS1730,Other Products
+Subaru,Liberty,BD,Sedan,1994,1999,i Heritage,2.2,94,"GX, LX",AWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1994,1999,i Heritage,2.2,94,"GX, LX",AWD,DB1363,DB1186,,Std. 4-Wheel Disc - Akebono Caliper
+Subaru,Liberty,BD,Sedan,1994,1999,i Heritage,2.2,94,"GX, LX",AWD,BR649,DB1186,,Other Products
+Subaru,Liberty,BD,Sedan,1994,1995,i Heritage,2.2,94,"GX, LX",FWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1994,1995,i Heritage,2.2,94,"GX, LX",FWD,BR649,DB1186,,Other Products
+Subaru,Liberty,BG,Wagon,1994,1998,,2.2,98,LX,AWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Liberty,BG,Wagon,1994,1998,,2.2,98,LX,AWD,DB1185,BR644,,Other Products
+Subaru,Liberty,BG,Wagon,1994,1998,,2.2,98,LX,FWD,,BR644,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP9",Wagon,2003,2006,,2.5,121,,AWD,BR648,BR2661,,Other Products
+Subaru,Liberty,"B13, BP, BP9",Wagon,2003,2006,,2.5,121,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BE,Sedan,1998,2003,,2.5,115,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BE,Sedan,1998,2003,,2.5,115,,AWD,BR650,DB1379,,Other Products
+Subaru,Liberty,BL,Sedan,2003,2007,,2.5,121,,AWD,BR648,BR2661,,Other Products
+Subaru,Liberty,BL,Sedan,2003,2007,,2.5,121,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BM,Sedan,2014,2017,,2.5,129,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Liberty,BM,Sedan,2010,2014,,2.5,195,GT,AWD,DB1678,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Subaru,Liberty,BM,Sedan,2010,2014,,2.5,195,GT,AWD,BR2650,DB1521,,Other Products
+Subaru,Liberty,BR,Wagon,2010,2014,,2.5,195,GT,AWD,DB1678,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Subaru,Liberty,BR,Wagon,2010,2014,,2.5,195,GT,AWD,BR2650,DB1521,,Other Products
+Subaru,Liberty,BD,Sedan,1996,1999,i,2.5,110,,AWD,DB1342,DB1186,,Other Products
+Subaru,Liberty,BG,Wagon,1996,1998,i,2.5,115,,AWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2007,2009,i,2.5,127,,AWD,BR648,BR2661,,Other Products
+Subaru,Liberty,BL,Sedan,2007,2009,i,2.5,127,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BM,Sedan,2009,2014,i,2.5,123,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BM,Sedan,2009,2014,i,2.5,123,,AWD,BR650,BR2659,,Other Products
+Subaru,Liberty,BM,Sedan,2012,2014,i,2.5,127,,AWD,BR648,BR2659,,Other Products
+Subaru,Liberty,BM,Sedan,2012,2014,i,2.5,127,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BN,Sedan,2015,2020,i,2.5,129,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Liberty,BN,Sedan,2015,2020,i,2.5,129,,AWD,BR6015,DB2398,,Other Products
+Subaru,Liberty,BP,Wagon,2008,2009,i,2.5,127,,AWD,,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BP,Wagon,2008,2009,i,2.5,127,,AWD,DB1491,BR2661,,Other Products
+Subaru,Liberty,BR,Wagon,2009,2014,i,2.5,123,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BR,Wagon,2009,2014,i,2.5,123,,AWD,BR650,BR2659,,Other Products
+Subaru,Liberty,BR,Wagon,2012,2014,i,2.5,127,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BR,Wagon,2012,2014,i,2.5,127,,AWD,BR648,BR2659,,Other Products
+Subaru,Liberty,BD,Sedan,1996,1998,i Heritage,2.5,115,RX,AWD,DB1342,DB1186,,Std. 4-Wheel Disc
+Subaru,Liberty,BD,Sedan,1996,1998,i Heritage,2.5,115,RX,AWD,BR648,DB1186,,Other Products
+Subaru,Liberty,BH,Wagon,1998,2003,i Heritage,2.5,115,RX,AWD,BR648,DB1379,,Other Products
+Subaru,Liberty,BH,Wagon,1998,2003,i Heritage,2.5,115,RX,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP9",Wagon,2006,2009,,2.5,194,STI,AWD,DB1678,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Subaru,Liberty,"B13, BP, BP9",Wagon,2006,2009,,2.5,194,STI,AWD,BR2650,DB1521,,Other Products
+Subaru,Liberty,BL,Sedan,2006,2009,,2.5,194,STI,AWD,DB1678,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Subaru,Liberty,BL,Sedan,2006,2009,,2.5,194,STI,AWD,BR2650,DB1521,,Other Products
+Subaru,Liberty,"B13, BP, BP9",Wagon,2006,2009,,2.5,184,T,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BP9",Wagon,2006,2009,,2.5,184,T,AWD,BR2650,DB1803,,Other Products
+Subaru,Liberty,BL,Sedan,2006,2009,,2.5,184,T,AWD,DB1722,DB1803,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2006,2009,,2.5,184,T,AWD,BR2650,DB1803,,Other Products
+Subaru,Liberty,"B13, BP, BPE",Wagon,2004,2009,,3.0,180,R,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,"B13, BP, BPE",Wagon,2004,2009,,3.0,180,R,AWD,BR2650,DB1379,,Other Products
+Subaru,Liberty,BL,Sedan,2004,2009,,3.0,180,R,AWD,DB1722,DB1379,,Std. 4-Wheel Disc
+Subaru,Liberty,BL,Sedan,2004,2009,,3.0,180,R,AWD,BR2650,DB1379,,Other Products
+Subaru,Liberty,BL,Sedan,2007,2009,,3.0,184,R,AWD,DB1491,DB1379,,Other Products
+Subaru,Liberty,BM,Sedan,2009,2014,,3.6,191,,AWD,DB1722,DB1789,,Other Products
+Subaru,Liberty,BN,Sedan,2015,2020,i,3.6,191,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Liberty,BN,Sedan,2015,2020,i,3.6,191,,AWD,BR6015,DB2398,,Other Products
+Subaru,"Liberty GS Rally, Heritage",BC,Sedan,1990,1994,,2.2,100,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,"Liberty GS Rally, Heritage",BC,Sedan,1990,1994,,2.2,100,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,"Liberty GS Rally, Heritage",BC,Sedan,1990,1994,,2.2,100,,AWD,BR649,BR644,BS1730,Other Products
+Subaru,"Liberty I GX","BC, BF, BJ",Wagon,1989,1994,,2.2,100,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,"Liberty I GX","BC, BF, BJ",Wagon,1989,1994,,2.2,100,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,"Liberty I GX","BC, BF, BJ",Wagon,1989,1994,,2.2,100,,AWD,BR649,BR644,BS1730,Other Products
+Subaru,"Liberty RS","BC, BF, BJ",Wagon,1991,1994,,2,147,,AWD,,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,"Liberty RS","BC, BF, BJ",Wagon,1991,1994,,2,147,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,"Liberty RS",BC,Sedan,1991,1994,,2,147,,AWD,BR648,BR644,BS1730,Std. 4-Wheel Disc
+Subaru,"Liberty RS",BC,Sedan,1991,1994,,2,147,,AWD,DB1185,DB1186,BS1730,Std. Brake System
+Subaru,Outback,BR,Wagon,2009,2015,D,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BR,Wagon,2009,2015,D,2.0,110,,AWD,BR650,BR2659,,Other Products
+Subaru,Outback,BS,Wagon,2014,2020,D,2.0,110,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Outback,BS,Wagon,2014,2020,D,2.0,110,,AWD,BR6015,DB2398,,Other Products
+Subaru,Outback,BT,Wagon,2023,,,2.4,183,,AWD,,BR2662,,Std. 4-Wheel Disc
+Subaru,Outback,BT,Wagon,2019,,,2.4,194,,AWD,DB2480,BR2662,,Std. 4-Wheel Disc
+Subaru,Outback,BH,Wagon,2000,2003,,2.5,115,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Outback,BH,Wagon,2000,2003,,2.5,115,,AWD,BR650,DB1379,,Other Products
+Subaru,Outback,BP,Wagon,2003,2007,,2.5,121,,AWD,BR650,BR2661,,Other Products
+Subaru,Outback,BP,Wagon,2003,2007,,2.5,121,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BP,Wagon,2008,2009,,2.5,127,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BP,Wagon,2008,2009,,2.5,127,,AWD,BR650,BR2661,,Other Products
+Subaru,Outback,BS,Wagon,2014,2020,,2.5,129,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Outback,BS,Wagon,2014,2020,,2.5,129,,AWD,BR6015,DB2398,,Other Products
+Subaru,Outback,BT,Wagon,2020,2023,,2.5,136,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,Outback,BT,Wagon,2023,,,2.5,138,,AWD,,BR2662,,Std. 4-Wheel Disc
+Subaru,Outback,BT,Wagon,2023,,,2.5,138,,AWD,DB2480,BR2662,,Other Products
+Subaru,Outback,BG,Wagon,1996,1999,,2.5,110,,AWD,DB1185,DB1186,,Std. 4-Wheel Disc
+Subaru,Outback,BR,Wagon,2009,2015,i,2.5,123,,AWD,BR650,BR2659,,Other Products
+Subaru,Outback,BR,Wagon,2009,2015,i,2.5,123,,AWD,DB1722,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BR,Wagon,2012,2015,i,2.5,127,,AWD,DB1722,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BR,Wagon,2013,2015,i,2.5,127,,AWD,DB1491,DB1803,,Other Products
+Subaru,Outback,BP,Wagon,2003,2009,,3.0,180,,AWD,BR650,BR2661,,Other Products
+Subaru,Outback,BP,Wagon,2003,2009,,3.0,180,,AWD,DB1342,DB1803,,Std. 4-Wheel Disc
+Subaru,Outback,BH,Wagon,2000,2003,H6,3.0,154,,AWD,DB1342,DB1379,,Std. 4-Wheel Disc
+Subaru,Outback,BH,Wagon,2000,2003,H6,3.0,154,,AWD,BR650,DB1379,,Other Products
+Subaru,Outback,BS,Wagon,2014,2020,,3.6,191,,AWD,DB1722,DB2398,,Std. 4-Wheel Disc
+Subaru,Outback,BS,Wagon,2014,2020,,3.6,191,,AWD,BR6015,DB2398,,Other Products
+Subaru,Outback,BR,Wagon,2009,2015,,3.6,191,R,AWD,DB1722,DB1789,,Std. 4-Wheel Disc
+Subaru,Outback,BR,Wagon,2009,2015,,3.6,191,R,AWD,BR2650,DB1789,,Other Products
+Subaru,Sherpa 700,,Hatchback,1982,1989,,0.7,27,,FWD,DB1160,,,Std. Brake System
+Subaru,Solterra,,SUV,2022,,EV,,160,,AWD,DB2004,DB2529,,Std. 4-Wheel Disc
+Subaru,SVX,CX,Coupe,1994,1997,i 24V,3.3,162,,AWD,DB438,DB1186,,Std. 4-Wheel Disc
+Subaru,SVX,CX,Coupe,1992,1994,i 24V,3.3,169,,AWD,DB438,DB1186,,Std. 4-Wheel Disc
+Subaru,Tribeca,B9,SUV,2006,2007,,3.0,180,,AWD,DB1722,DB1789,,Std. 4-Wheel Disc
+Subaru,Tribeca,B9,SUV,2007,2013,,3.6,190,,AWD,DB1722,DB1789,,Std. 4-Wheel Disc
+Subaru,Vortex,XT,Coupe,1984,1990,Turbo,1.8,100,,AWD,,DB419,,Std. 4-Wheel Disc
+Subaru,Vortex,XT,Coupe,1988,1990,Turbo,1.8,88,,AWD,,DB419,,Std. 4-Wheel Disc
+Subaru,WRX,VA,Sedan,2013,2022,,2.0,197,,AWD,DB1722,DB1803,,Other Products
+Subaru,WRX,VB,Sedan,2022,,,2.4,202,,AWD,DB2480,DB1789,,Std. 4-Wheel Disc
+Subaru,WRX,VB,Sedan,2022,,,2.4,202,,AWD,BR6049,DB1789,,Other Products
+Subaru,WRX,VN,Wagon,2022,,,2.4,202,,AWD,,BR2662,,Std. 4-Wheel Disc
+Subaru,WRX,VN,Wagon,2022,,,2.4,202,,AWD,BR6049,BR2662,,Other Products
+Subaru,WRX Sti,VA,Sedan,2013,2022,,2.5,221,,AWD,,DB1521,,Other Products
+Subaru,XV,GP,SUV,2014,2017,Hybrid,2.0,110,,AWD,DB1491,DB1803,,Other Products
+Subaru,XV,GP,SUV,2014,2022,Hybrid,2.0,120,,AWD,DB1491,DB1803,,Other Products
+Subaru,XV,G5X,SUV,2017,2022,i,2.0,115,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,XV,G5X,SUV,2017,2022,i,2.0,115,,AWD,BR3054,BR3053,,Other Products
+Subaru,XV,GP,SUV,2011,2017,i,2.0,110,,AWD,BR650,BR2667,,Other Products
+Subaru,XV,GP,SUV,2011,2017,i,2.0,110,,AWD,DB1491,DB1803,,Std. 4-Wheel Disc
+Subaru,XV,"GT, G24",SUV,2019,,i e-BOXER,2.0,110,,AWD,DB2480,DB2398,,Std. 4-Wheel Disc
+Subaru,XV,"GT, G24",SUV,2019,,i e-BOXER,2.0,110,,AWD,BR3054,BR3053,,Other Products

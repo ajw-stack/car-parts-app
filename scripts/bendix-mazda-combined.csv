@@ -1,0 +1,555 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+Bendix,Mazda,121,DA,1.3,,FWD,Hatchback,1987,1991,Brake Pad Set,Front,DB442,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,121 Metro,DW,1.3,,FWD,Hatchback,1996,2000,Brake Pad Set,Front,DB1335,Std. Brake System
+Bendix,Mazda,121,DB,1.5,,FWD,Sedan,1994,1997,Brake Pad Set,Front,DB1158,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,121,DB,1.3,,FWD,Sedan,1990,1997,Brake Pad Set,Front,DB1158,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,121 Metro,DW,1.5,,FWD,Hatchback,1996,2002,Brake Pad Set,Front,DB1335,Std. Brake System
+Bendix,Mazda,2,DE,1.5,,FWD,Hatchback,2007,2014,Brake Pad Set,Front,DB1941,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DH,1.5,,FWD,Hatchback,2007,2014,Brake Pad Set,Front,DB1941,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DL,1.5,,FWD,Hatchback,2014,2019,Brake Pad Set,Front,DB2334,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DJ,1.5,,FWD,Hatchback,2014,2019,Brake Pad Set,Front,DB2334,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DL,1.5,,FWD,Hatchback,2014,,Brake Pad Set,Front,DB2334,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DJ,1.5,,FWD,Hatchback,2014,,Brake Pad Set,Front,DB2334,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DE,1.5,,FWD,Sedan,2010,2014,Brake Pad Set,Front,DB1941,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DY,1.5,,FWD,Hatchback,2003,2007,Brake Pad Set,Front,DB1724,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,2,DL,1.5,,FWD,Sedan,2015,2019,Brake Pad Set,Front,DB2334,Std. Brake System
+Bendix,Mazda,2,DL,1.5,,FWD,Sedan,2015,,Brake Pad Set,Front,DB2334,Std. Brake System
+Bendix,Mazda,323 Astina,BG,1.6,,FWD,Hatchback,1991,1994,Brake Pad Set,Front,DB1158,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.6,,FWD,Hatchback,1991,1994,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BJ,1.6,Astina,FWD,Hatchback,1998,2002,Brake Pad Set,Front,DB1255,Other Products
+Bendix,Mazda,323 Astina,BJ,1.6,Astina,FWD,Hatchback,1998,2002,Brake Pad Set,Rear,DB1359,Other Products
+Bendix,Mazda,323 Astina,BA,1.8,,FWD,Hatchback,1994,1998,Brake Pad Set,Front,DB1177,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BA,1.8,,FWD,Hatchback,1994,1998,Brake Pad Set,Rear,DB1291,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.6,,FWD,Hatchback,1989,1991,Brake Pad Set,Front,DB1158,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.6,,FWD,Hatchback,1989,1991,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BJ,1.6,,FWD,Hatchback,1998,2002,Brake Pad Set,Front,DB1358,Std. Brake System
+Bendix,Mazda,323 Astina,BJ,1.6,,FWD,Hatchback,1998,2002,Brake Pad Set,Rear,DB417,Std. Brake System
+Bendix,Mazda,323 Astina,BA,2,,FWD,Hatchback,1994,1998,Brake Pad Set,Front,DB1177,Other Products
+Bendix,Mazda,323 Astina,BJ,1.8,Astina,FWD,Hatchback,1998,2004,Brake Pad Set,Front,DB1362,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BJ,1.8,Astina,FWD,Hatchback,1998,2004,Brake Pad Set,Rear,DB1359,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BA,1.8,,FWD,Coupe,1994,1998,Brake Pad Set,Front,DB1177,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BA,1.8,,FWD,Coupe,1994,1998,Brake Pad Set,Rear,DB1291,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.8,,FWD,Hatchback,1989,1994,Brake Pad Set,Front,DB1158,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.8,,FWD,Hatchback,1989,1994,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.8,GT,FWD,Hatchback,1989,1994,Brake Pad Set,Front,DB1158,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BG,1.8,GT,FWD,Hatchback,1989,1994,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323 Protege,BJ,1.6,,FWD,Sedan,1998,2003,Brake Pad Set,Front,DB1358,Other Products
+Bendix,Mazda,323 Protege,BJ,1.6,,FWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1359,Other Products
+Bendix,Mazda,323 Protege,BA,1.8,,FWD,Sedan,1994,1998,Brake Pad Set,Front,DB1177,Std. 4-Wheel Disc
+Bendix,Mazda,323 Protege,BA,1.8,,FWD,Sedan,1994,1998,Brake Pad Set,Rear,DB1291,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BJ,2,,FWD,Hatchback,2000,2004,Brake Pad Set,Front,DB1362,Std. 4-Wheel Disc
+Bendix,Mazda,323 Astina,BJ,2,,FWD,Hatchback,2000,2004,Brake Pad Set,Rear,DB1359,Std. 4-Wheel Disc
+Bendix,Mazda,323 Protege,BJ,1.8,,FWD,Sedan,1998,2004,Brake Pad Set,Front,DB1362,Std. 4-Wheel Disc
+Bendix,Mazda,323 Protege,BJ,1.8,,FWD,Sedan,1998,2004,Brake Pad Set,Rear,DB1359,Std. 4-Wheel Disc
+Bendix,Mazda,323 Protege,BJ,2,,FWD,Sedan,2001,2004,Brake Pad Set,Front,DB1255,Other Products
+Bendix,Mazda,323 Protege,BJ,2,,FWD,Sedan,2001,2004,Brake Pad Set,Rear,DB1359,Other Products
+Bendix,Mazda,323,FA,1.3,,RWD,Hatchback,1977,1980,Brake Pad Set,Front,DB153,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,BD,1.5,,FWD,Hatchback,1981,1985,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,BD,1.5,,FWD,Sedan,1981,1985,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,BD,1.5,,FWD,Hatchback,1980,1985,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,FA,1.5,,RWD,Wagon,1982,1985,Brake Pad Set,Front,DB153,Std. Brake System
+Bendix,Mazda,323,BF,1.5,,FWD,Sedan,1985,1989,Brake Pad Set,Front,DB406,Std. 4-Wheel Disc
+Bendix,Mazda,323,BF,1.5,,FWD,Sedan,1985,1989,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323,FA,1.4,,RWD,Hatchback,1978,1981,Brake Pad Set,Front,DB153,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,FA,1.4,,RWD,Wagon,1978,1982,Brake Pad Set,Front,DB153,Std. Brake System
+Bendix,Mazda,323,BF,1.6,,FWD,Hatchback,1985,1989,Brake Pad Set,Front,DB406,Std. 4-Wheel Disc
+Bendix,Mazda,323,BF,1.6,,FWD,Hatchback,1985,1989,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323,BG,1.6,,FWD,Sedan,1989,1991,Brake Pad Set,Front,DB1158,Other Products
+Bendix,Mazda,323,BG,1.6,,FWD,Sedan,1989,1991,Brake Pad Set,Rear,DB1159,Other Products
+Bendix,Mazda,323,BF,1.6,GLX,FWD,Sedan,1985,1989,Brake Pad Set,Front,DB406,Std. 4-Wheel Disc
+Bendix,Mazda,323,BF,1.6,GLX,FWD,Sedan,1985,1989,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323,BG,1.6,,FWD,Sedan,1989,1996,Brake Pad Set,Front,DB1158,Std. Brake System
+Bendix,Mazda,323,BG,1.6,,FWD,Sedan,1989,1996,Brake Pad Set,Rear,DB1159,Std. Brake System
+Bendix,Mazda,323,BW,1.6,,FWD,Wagon,1986,1989,Brake Pad Set,Front,DB406,Std. Brake System
+Bendix,Mazda,323,BW,1.6,,FWD,Wagon,1986,1989,Brake Pad Set,Rear,DB1159,Std. Brake System
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2003,2006,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2003,2006,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2003,2006,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2003,2006,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2006,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2006,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2006,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,323,BF,1.6,GT,FWD,Hatchback,1987,1989,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,BF,1.6,GT,AWD,Hatchback,1987,1989,Brake Pad Set,Front,DB406,Std. 4-Wheel Disc
+Bendix,Mazda,323,BF,1.6,GT,AWD,Hatchback,1987,1989,Brake Pad Set,Rear,DB1159,Std. 4-Wheel Disc
+Bendix,Mazda,323,BG,1.8,,FWD,Sedan,1989,1994,Brake Pad Set,Front,DB1158,Std. Brake System
+Bendix,Mazda,323,BG,1.8,,FWD,Sedan,1989,1994,Brake Pad Set,Rear,DB1159,Std. Brake System
+Bendix,Mazda,323,BG,1.8,,FWD,Sedan,1989,1991,Brake Pad Set,Front,DB1158,Other Products
+Bendix,Mazda,323,BG,1.8,,FWD,Sedan,1989,1991,Brake Pad Set,Rear,DB1159,Other Products
+Bendix,Mazda,323,BF,1.6,GT,FWD,Hatchback,1987,1989,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,323,BF,1.6,GT,FWD,Sedan,1985,1989,Brake Pad Set,Front,DB241,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,3,BM,2,,FWD,Sedan,2014,2019,Brake Pad Set,Front,DB2330,Other Products
+Bendix,Mazda,3,BM,2,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,DB2331,Other Products
+Bendix,Mazda,3,BN,2,,FWD,Sedan,2014,2019,Brake Pad Set,Front,DB2330,Other Products
+Bendix,Mazda,3,BN,2,,FWD,Sedan,2014,2019,Brake Pad Set,Rear,DB2331,Other Products
+Bendix,Mazda,3,BP,2,,FWD,Hatchback,2018,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Hatchback,2018,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2,,FWD,Hatchback,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2,,FWD,Hatchback,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2,,FWD,Hatchback,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2,,FWD,Hatchback,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2006,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Hatchback,2006,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2006,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2,,FWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Hatchback,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Hatchback,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Sedan,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Sedan,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Sedan,2019,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Sedan,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.2,,FWD,Hatchback,2014,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.2,,FWD,Hatchback,2014,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.2,,FWD,Hatchback,2014,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.2,,FWD,Hatchback,2014,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Hatchback,2011,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Hatchback,2011,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Sedan,2011,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2,,FWD,Sedan,2011,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2.5,,FWD,Hatchback,2019,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2.5,,FWD,Hatchback,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2.5,,FWD,Sedan,2019,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2.5,,FWD,Sedan,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.2,,FWD,Hatchback,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.2,,FWD,Hatchback,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.2,,FWD,Sedan,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.2,,FWD,Sedan,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.5,,FWD,Hatchback,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.5,,FWD,Hatchback,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.5,,FWD,Hatchback,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.5,,FWD,Hatchback,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.5,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BM,2.5,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.5,,FWD,Sedan,2013,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,3,BN,2.5,,FWD,Sedan,2013,2019,Brake Pad Set,Rear,DB2331,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.3,,FWD,Hatchback,2008,2013,Brake Pad Set,Front,DB2176,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.3,,FWD,Hatchback,2008,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.3,,FWD,Hatchback,2009,2013,Brake Pad Set,Front,DB2176,Other Products
+Bendix,Mazda,3,BL,2.3,,FWD,Hatchback,2009,2013,Brake Pad Set,Rear,DB1665,Other Products
+Bendix,Mazda,3,BK,2.3,,FWD,Hatchback,2006,2009,Brake Pad Set,Front,DB2176,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2.3,,FWD,Hatchback,2006,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.5,,FWD,Hatchback,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.5,,FWD,Hatchback,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.5,,FWD,Sedan,2009,2013,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BL,2.5,,FWD,Sedan,2009,2013,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,626,CB,2,,RWD,Sedan,1979,1982,Brake Pad Set,Front,DB1057,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,5,CR,2,,FWD,MPV,2005,2010,Brake Pad Set,Front,DB1679,Other Products
+Bendix,Mazda,5,CR,2,,FWD,MPV,2005,2010,Brake Pad Set,Rear,DB1763,Other Products
+Bendix,Mazda,3,BK,2.3,,FWD,Hatchback,2003,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2.3,,FWD,Hatchback,2003,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2.3,,FWD,Sedan,2003,2009,Brake Pad Set,Front,DB1679,Std. 4-Wheel Disc
+Bendix,Mazda,3,BK,2.3,,FWD,Sedan,2003,2009,Brake Pad Set,Rear,DB1763,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Hatchback,2019,,Brake Pad Set,Front,DB2538,Std. 4-Wheel Disc
+Bendix,Mazda,3,BP,2,,FWD,Hatchback,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,626,GC,2,,FWD,Sedan,1983,1987,Brake Pad Set,Front,DB304,Std. Brake System
+Bendix,Mazda,626,GC,2,,FWD,Coupe,1986,1987,Brake Pad Set,Front,DB414,Std. Brake System
+Bendix,Mazda,626,GC,2,,FWD,Hatchback,1986,1987,Brake Pad Set,Front,DB414,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,626,GC,2,,FWD,Sedan,1986,1987,Brake Pad Set,Front,DB414,Std. Brake System
+Bendix,Mazda,626,GW,2,,FWD,Wagon,1998,2002,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GW,2,,FWD,Wagon,1998,2002,Brake Pad Set,Rear,DB1115,Std. Brake System
+Bendix,Mazda,626,GE,2,,FWD,Hatchback,1992,1997,Brake Pad Set,Front,DB1255,Std. 4-Wheel Disc
+Bendix,Mazda,626,GE,2,,FWD,Hatchback,1992,1997,Brake Pad Set,Rear,DB1254,Std. 4-Wheel Disc
+Bendix,Mazda,626,GE,2,,FWD,Sedan,1992,1997,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GE,2,,FWD,Sedan,1992,1997,Brake Pad Set,Rear,DB1254,Std. Brake System
+Bendix,Mazda,626,GF,2,,FWD,Hatchback,1998,2002,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GF,2,,FWD,Hatchback,1998,2002,Brake Pad Set,Rear,DB1254,Std. Brake System
+Bendix,Mazda,626,GF,2,,FWD,Sedan,1997,2002,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GF,2,,FWD,Sedan,1997,2002,Brake Pad Set,Rear,DB1254,Std. Brake System
+Bendix,Mazda,626,GC,2,,FWD,Hatchback,1985,1987,Brake Pad Set,Front,DB304,Other Products
+Bendix,Mazda,626,GC,2,,FWD,Coupe,1983,1987,Brake Pad Set,Front,DB304,Std. Brake System
+Bendix,Mazda,626,GC,2,,FWD,Hatchback,1983,1987,Brake Pad Set,Front,DB304,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,626,GC,2,,FWD,Sedan,1983,1987,Brake Pad Set,Front,DB304,Std. Brake System
+Bendix,Mazda,6,GG,2,,FWD,Hatchback,2006,2008,Brake Pad Set,Front,DB1682,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2,,FWD,Hatchback,2006,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2,,FWD,Sedan,2006,2008,Brake Pad Set,Front,DB1682,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2,,FWD,Sedan,2006,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,626,GD,2.2,,FWD,Hatchback,1987,1991,Brake Pad Set,Front,DB1114,Std. 4-Wheel Disc
+Bendix,Mazda,626,GD,2.2,,FWD,Hatchback,1987,1991,Brake Pad Set,Rear,DB1115,Std. 4-Wheel Disc
+Bendix,Mazda,626,GE,2.5,,FWD,Hatchback,1992,1997,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GE,2.5,,FWD,Hatchback,1992,1997,Brake Pad Set,Rear,DB1254,Std. Brake System
+Bendix,Mazda,626,GE,2.5,,FWD,Sedan,1992,1997,Brake Pad Set,Front,DB1255,Std. Brake System
+Bendix,Mazda,626,GE,2.5,,FWD,Sedan,1992,1997,Brake Pad Set,Rear,DB1254,Std. Brake System
+Bendix,Mazda,626,GV,2.2,,FWD,Wagon,1988,1997,Brake Pad Set,Front,DB1114,Std. 4-Wheel Disc
+Bendix,Mazda,626,GV,2.2,,FWD,Wagon,1988,1997,Brake Pad Set,Rear,DB1115,Std. 4-Wheel Disc
+Bendix,Mazda,626,GD,2.2,,FWD,Hatchback,1988,1991,Brake Pad Set,Front,DB1114,Std. Brake System
+Bendix,Mazda,626,GD,2.2,,FWD,Hatchback,1988,1991,Brake Pad Set,Rear,DB1115,Std. Brake System
+Bendix,Mazda,626,GD,2.2,,FWD,Sedan,1987,1991,Brake Pad Set,Front,DB1114,Std. Brake System
+Bendix,Mazda,626,GD,2.2,,FWD,Sedan,1987,1991,Brake Pad Set,Rear,DB1115,Std. Brake System
+Bendix,Mazda,6,GH,2.2,,FWD,Hatchback,2010,2012,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.2,,FWD,Hatchback,2010,2012,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.2,,FWD,Hatchback,2009,2011,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.2,,FWD,Hatchback,2009,2011,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.2,,FWD,Wagon,2008,2011,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.2,,FWD,Wagon,2008,2011,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GY,2,,FWD,Wagon,2006,2008,Brake Pad Set,Front,DB1484,Std. 4-Wheel Disc
+Bendix,Mazda,6,GY,2,,FWD,Wagon,2006,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GY,2.3,,FWD,Wagon,2002,2008,Brake Pad Set,Front,DB1484,Std. 4-Wheel Disc
+Bendix,Mazda,6,GY,2.3,,FWD,Wagon,2002,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Front,DB1682,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,FWD,Hatchback,2002,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,FWD,Sedan,2002,2008,Brake Pad Set,Front,DB1682,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,FWD,Sedan,2002,2008,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Sedan,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Sedan,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Sedan,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Sedan,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Wagon,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Wagon,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Wagon,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Wagon,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Sedan,2018,2019,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Sedan,2018,2019,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Sedan,2018,2019,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Sedan,2018,2019,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Wagon,2018,2019,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.2,,FWD,Wagon,2018,2019,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Wagon,2018,2019,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.2,,FWD,Wagon,2018,2019,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,929,HB,2,,RWD,Sedan,1982,1984,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,929,HB,2,,RWD,Coupe,1984,1985,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,929,HB,2,,RWD,Sedan,1984,1986,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,AWD,Sedan,2005,2008,Brake Pad Set,Front,DB1445,Std. 4-Wheel Disc
+Bendix,Mazda,6,GG,2.3,,AWD,Sedan,2005,2008,Brake Pad Set,Rear,DB2418,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2018,,Brake Pad Set,Front,DB2293,Other Products
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2018,,Brake Pad Set,Rear,DB2425,Other Products
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2018,,Brake Pad Set,Front,DB2293,Other Products
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2018,,Brake Pad Set,Rear,DB2425,Other Products
+Bendix,Mazda,6,GH,2.5,,FWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.5,,FWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.5,,FWD,Sedan,2008,2012,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.5,,FWD,Sedan,2008,2012,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.5,,FWD,Wagon,2008,2012,Brake Pad Set,Front,DB1942,Std. 4-Wheel Disc
+Bendix,Mazda,6,GH,2.5,,FWD,Wagon,2008,2012,Brake Pad Set,Rear,DB1760,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2012,2018,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2012,2018,Brake Pad Set,Rear,DB2294,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Wagon,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Wagon,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GJ,2.5,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2018,,Brake Pad Set,Front,DB2293,Std. 4-Wheel Disc
+Bendix,Mazda,6,GL,2.5,,FWD,Sedan,2018,,Brake Pad Set,Rear,DB2425,Std. 4-Wheel Disc
+Bendix,Mazda,929,HE,3,,RWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1222,
+Bendix,Mazda,929,LA,2,,RWD,Sedan,1979,1982,Brake Pad Set,Front,DB138,Std. Brake System
+Bendix,Mazda,929,HB,2,,RWD,Coupe,1984,1987,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,929,HB,2,,RWD,Coupe,1984,1987,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,929,HB,2,GLX,RWD,Sedan,1985,1987,Brake Pad Set,Front,DB278,Std. 4-Wheel Disc
+Bendix,Mazda,929,HC,3,,RWD,Sedan,1987,1989,Brake Pad Set,Rear,DB1112,
+Bendix,Mazda,B-Series,PE,1.8,,RWD,Ute,1977,1982,Brake Pad Set,Front,DB40,Std. Brake System
+Bendix,Mazda,B-Series,UF,2.2,,RWD,Platform/Chassis,1988,1991,Brake Pad Set,Front,DB409,Other Products
+Bendix,Mazda,B-Series,UF,2.2,,RWD,Ute,1988,1991,Brake Pad Set,Front,DB409,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.5,,AWD,Ute,1996,1999,Brake Pad Set,Front,DB1326,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.2,,RWD,Platform/Chassis,1988,1996,Brake Pad Set,Front,DB409,Other Products
+Bendix,Mazda,B-Series,UF,2.2,,RWD,Ute,1985,1996,Brake Pad Set,Front,DB409,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2,,RWD,Ute,1985,1988,Brake Pad Set,Front,DB409,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,AWD,Ute,1990,1999,Brake Pad Set,Front,DB1326,Other Products
+Bendix,Mazda,B-Series,UN,2.5,,AWD,Ute,1999,2005,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.5,,AWD,Platform/Chassis,1999,2005,Brake Pad Set,Front,DB1681,Other Products
+Bendix,Mazda,B-Series,UF,2.5,,RWD,Platform/Chassis,1996,1999,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.5,,RWD,Ute,1996,1999,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.5,,RWD,Platform/Chassis,1999,2005,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.5,,RWD,Ute,1999,2006,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,RWD,Platform/Chassis,1991,1999,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.6,,AWD,Ute,1999,2006,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.6,,AWD,Ute,1999,2006,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,AWD,Ute,1987,1991,Brake Pad Set,Front,DB409,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,AWD,Ute,1987,1991,Brake Pad Set,Front,DB409,Other Products
+Bendix,Mazda,B-Series,UF,2.6,,AWD,Platform/Chassis,1990,1999,Brake Pad Set,Front,DB1326,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.6,,RWD,Platform/Chassis,1999,2006,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UN,2.6,,RWD,Platform/Chassis,1999,2006,Brake Pad Set,Front,DB1366,Other Products
+Bendix,Mazda,B-Series,UN,2.6,,RWD,Ute,1999,2006,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,AWD,Ute,1990,1999,Brake Pad Set,Front,DB1326,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,RWD,Ute,1990,1999,Brake Pad Set,Front,DB1322,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,MJ,4,,AWD,Ute,2005,2006,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,MJ,4,,RWD,Platform/Chassis,2005,2006,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,MJ,4,,RWD,Ute,2005,2006,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,B-Series,UF,2.6,,RWD,Ute,1989,1991,Brake Pad Set,Front,DB409,Other Products
+Bendix,Mazda,BT-50,TF,1.9,,AWD,Platform/Chassis,2021,2025,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,1.9,,AWD,Ute,2021,2025,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,1.9,,RWD,Platform/Chassis,2021,2025,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,1.9,,RWD,Ute,2021,2025,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,2.5,,RWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UN,2.5,,RWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B22,2.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,2.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,2.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,2.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B22,2.2,,RWD,Ute,2011,2015,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,2.2,,RWD,Ute,2011,2015,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,2.2,,RWD,Ute,2011,2015,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,2.2,,RWD,Ute,2011,2015,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,3,,RWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UN,3,,RWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,3,,RWD,Ute,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UN,3,,RWD,Ute,2006,2011,Brake Pad Set,Front,DB1366,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,2.5,,RWD,Ute,2006,2013,Brake Pad Set,Front,DB1366,Other Products
+Bendix,Mazda,BT-50,UN,2.5,,RWD,Ute,2006,2013,Brake Pad Set,Front,DB1366,Other Products
+Bendix,Mazda,BT-50,TF,3,,AWD,Platform/Chassis,2020,,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,3,,AWD,Ute,2020,,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,3,,AWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UN,3,,AWD,Platform/Chassis,2006,2011,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,CD,3,,AWD,Ute,2006,2011,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UN,3,,AWD,Ute,2006,2011,Brake Pad Set,Front,DB1681,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,3,,RWD,Platform/Chassis,2020,,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,TF,3,,RWD,Ute,2020,,Brake Pad Set,Front,DB2533,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,CX-30,DM,2,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,BT-50,B22,3.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,3.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,3.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,3.2,,RWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B22,3.2,,RWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,3.2,,RWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,3.2,,RWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,3.2,,RWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,CX-30,DM,2.5,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2.5,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2.5,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2.5,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2.5,,FWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2.5,,FWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2.5,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2.5,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2.5,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2.5,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2.5,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2.5,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,BT-50,B22,3.2,,AWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,3.2,,AWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,3.2,,AWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,3.2,,AWD,Platform/Chassis,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B22,3.2,,AWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,B32,3.2,,AWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UP,3.2,,AWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,BT-50,UR,3.2,,AWD,Ute,2011,2020,Brake Pad Set,Front,DB2074,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,CX-3,DK,1.5,,AWD,SUV,2015,2018,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.5,,AWD,SUV,2015,2018,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.8,,AWD,SUV,2018,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.8,,AWD,SUV,2018,2019,Brake Pad Set,Rear,DB2495,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DM,2,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,DT,2,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2,,AWD,SUV,2019,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-30,ED,2,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.5,,FWD,SUV,2015,2018,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.5,,FWD,SUV,2015,2018,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.8,,FWD,SUV,2018,2019,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,1.8,,FWD,SUV,2018,2019,Brake Pad Set,Rear,DB2495,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,AWD,SUV,2012,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,AWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,AWD,SUV,2012,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,AWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,FWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,FWD,SUV,2016,,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,FWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,FWD,SUV,2016,,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,AWD,SUV,2015,2018,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,AWD,SUV,2015,2018,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,AWD,SUV,2015,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,AWD,SUV,2015,,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,FWD,SUV,2015,2018,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,FWD,SUV,2015,2018,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,FWD,SUV,2018,,Brake Pad Set,Front,DB2330,Std. 4-Wheel Disc
+Bendix,Mazda,CX-3,DK,2,,FWD,SUV,2018,,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,FWD,SUV,2012,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2,,FWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,FWD,SUV,2012,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2,,FWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2017,2018,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2017,2018,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2017,2018,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2017,2018,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2013,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2013,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2013,2017,Brake Pad Set,Front,DB2226,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2013,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2012,2017,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2012,2017,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2012,2017,Brake Pad Set,Rear,DB2227,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.2,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.2,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2016,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2016,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.2,,AWD,SUV,2009,2013,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.2,,AWD,SUV,2009,2013,Brake Pad Set,Rear,DB1917,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,3.3,,AWD,SUV,2022,,Brake Pad Set,Front,DB2765,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,3.3,,AWD,SUV,2022,,Brake Pad Set,Rear,DB2886,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,2.5,,AWD,SUV,2022,,Brake Pad Set,Front,DB2765,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,2.5,,AWD,SUV,2022,,Brake Pad Set,Rear,DB2886,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,FWD,SUV,2022,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KF,2.5,,FWD,SUV,2022,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,FWD,SUV,2022,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-5,KE,2.5,,FWD,SUV,2022,,Brake Pad Set,Rear,DB2414,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,3.3,,AWD,SUV,2023,,Brake Pad Set,Front,DB2765,Std. 4-Wheel Disc
+Bendix,Mazda,CX-60,KH,3.3,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2886,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.2,,AWD,SUV,2017,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.2,,AWD,SUV,2017,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.2,,AWD,SUV,2017,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.2,,AWD,SUV,2017,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.5,,FWD,SUV,2009,2013,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.5,,FWD,SUV,2009,2013,Brake Pad Set,Rear,DB1917,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.5,,FWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.5,,FWD,SUV,2018,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.5,,FWD,SUV,2018,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.5,,FWD,SUV,2018,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.3,,AWD,SUV,2006,2014,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-7,ER,2.3,,AWD,SUV,2006,2014,Brake Pad Set,Rear,DB1917,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.2,,FWD,SUV,2017,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,KG,2.2,,FWD,SUV,2017,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.2,,FWD,SUV,2017,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-8,ZV,2.2,,FWD,SUV,2017,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-90,KK,3.3,,AWD,SUV,2023,,Brake Pad Set,Front,DB2764,Std. 4-Wheel Disc
+Bendix,Mazda,CX-90,KK,3.3,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2875,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TC,2.5,,AWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TC,2.5,,AWD,SUV,2016,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TC,2.5,,FWD,SUV,2016,,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TC,2.5,,FWD,SUV,2016,,Brake Pad Set,Rear,DB2485,Std. 4-Wheel Disc
+Bendix,Mazda,CX-90,KK,3.3,,AWD,SUV,2023,,Brake Pad Set,Front,DB2764,Std. 4-Wheel Disc
+Bendix,Mazda,CX-90,KK,3.3,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2875,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TB,3.7,,AWD,SUV,2007,2016,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TB,3.7,,AWD,SUV,2007,2016,Brake Pad Set,Rear,DB1917,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2,,RWD,Bus,1997,1999,Brake Pad Set,Front,DB1274,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2,,RWD,Bus,1997,1999,Brake Pad Set,Rear,DB1222,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TB,3.7,,FWD,SUV,2007,2016,Brake Pad Set,Front,DB1916,Std. 4-Wheel Disc
+Bendix,Mazda,CX-9,TB,3.7,,FWD,SUV,2007,2016,Brake Pad Set,Rear,DB1917,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,AWD,Bus,1995,1999,Brake Pad Set,Front,DB1274,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,AWD,Bus,1995,1999,Brake Pad Set,Rear,DB1222,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,RWD,Bus,1995,1999,Brake Pad Set,Front,DB1274,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,RWD,Bus,1995,1999,Brake Pad Set,Rear,DB1222,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,RWD,Bus,1995,1999,Brake Pad Set,Front,DB1274,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SG,2.5,,RWD,Bus,1995,1999,Brake Pad Set,Rear,DB1222,Std. 4-Wheel Disc
+Bendix,Mazda,E-Series,SR2,1.8,,RWD,Van,1984,1988,Brake Pad Set,Front,DB388,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,,1.4,,RWD,Van,1978,1984,Brake Pad Set,Front,DB292,Std. Brake System
+Bendix,Mazda,E-Series,SG,2,,RWD,Van,2004,2006,Brake Pad Set,Front,DB1274,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SK,2,,RWD,Van,2004,2006,Brake Pad Set,Front,DB1274,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SR2,1.5,,RWD,Van,1984,1988,Brake Pad Set,Front,DB388,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SG,1.8,,RWD,Van,2003,2006,Brake Pad Set,Front,DB1385,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SK,1.8,,RWD,Van,2003,2006,Brake Pad Set,Front,DB1385,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,Familia,BG,1.8,,AWD,Hatchback,1989,1994,Brake Pad Set,Front,DB1210,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SR2,2.2,,RWD,Van,1988,2003,Brake Pad Set,Front,DB1385,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SR,2.2,,RWD,Platform/Chassis,1981,1984,Brake Pad Set,Front,DB292,Std. Brake System
+Bendix,Mazda,E-Series,SR2,2.5,,RWD,Van,1997,2003,Brake Pad Set,Front,DB1385,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SR2,2,,RWD,Van,1991,2003,Brake Pad Set,Front,DB388,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,E-Series,SR2,2,,RWD,Van,1984,1990,Brake Pad Set,Front,DB388,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,Millenia,TA,2.3,,FWD,Sedan,2000,2002,Brake Pad Set,Front,DB1326,Std. Brake System
+Bendix,Mazda,MPV,LW,2.5,,FWD,MPV,1999,2002,Brake Pad Set,Front,DB1388,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,MPV,LW,2.5,,FWD,MPV,1999,2002,Brake Pad Set,Front,DB1274,Other Products
+Bendix,Mazda,Familia,BG,1.8,GT,AWD,Hatchback,1992,1994,Brake Pad Set,Front,DB1177,Other Products
+Bendix,Mazda,Familia,BG,1.8,GT,AWD,Hatchback,1992,1994,Brake Pad Set,Rear,DB1180,Other Products
+Bendix,Mazda,MPV,LV,3,,RWD,MPV,1996,1999,Brake Pad Set,Front,DB1274,Std. Brake System
+Bendix,Mazda,MPV,LV,3,,RWD,MPV,1996,1999,Brake Pad Set,Rear,DB1222,Std. Brake System
+Bendix,Mazda,Familia,BG,1.8,,AWD,Hatchback,1990,1992,Brake Pad Set,Front,DB1158,Std. Brake System
+Bendix,Mazda,Familia,BG,1.8,,AWD,Hatchback,1990,1992,Brake Pad Set,Rear,DB1159,Std. Brake System
+Bendix,Mazda,Familia,BG,1.8,,AWD,Hatchback,1993,1994,Brake Pad Set,Front,DB1158,Std. Brake System
+Bendix,Mazda,Familia,BG,1.8,,AWD,Hatchback,1993,1994,Brake Pad Set,Rear,DB1159,Std. Brake System
+Bendix,Mazda,MX-30,DR,2,,FWD,SUV,2020,,Brake Pad Set,Front,DB2613,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5 RF,ND,2,,RWD,Targa,2016,2018,Brake Pad Set,Front,DB2441,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5 RF,ND,2,,RWD,Targa,2016,2018,Brake Pad Set,Rear,DB2064,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5 RF,ND,2,,RWD,Targa,2018,,Brake Pad Set,Front,DB2441,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5 RF,ND,2,,RWD,Targa,2018,,Brake Pad Set,Rear,DB2064,Std. 4-Wheel Disc
+Bendix,Mazda,MX-30,DR,,,FWD,SUV,2020,,Brake Pad Set,Front,DB2613,Std. 4-Wheel Disc
+Bendix,Mazda,MX-30,DR,,,FWD,SUV,2020,,Brake Pad Set,Rear,DB2539,Std. 4-Wheel Disc
+Bendix,Mazda,MPV,LW,3,,FWD,MPV,2002,2006,Brake Pad Set,Front,DB1274,Other Products
+Bendix,Mazda,MPV,LW,3,,FWD,MPV,2002,2006,Brake Pad Set,Rear,DB1729,Other Products
+Bendix,Mazda,MPV,LW,3,,FWD,MPV,2002,2006,Brake Pad Set,Front,DB1274,Std. 4-Wheel Disc
+Bendix,Mazda,MPV,LW,3,,FWD,MPV,2002,2006,Brake Pad Set,Rear,DB1729,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,ND,1.5,,RWD,Convertible,2015,2018,Brake Pad Set,Front,DB2441,Std. Brake System
+Bendix,Mazda,MX-5,ND,1.5,,RWD,Convertible,2015,2018,Brake Pad Set,Rear,DB2064,Std. Brake System
+Bendix,Mazda,MX-5,ND,1.5,,RWD,Convertible,2018,,Brake Pad Set,Front,DB2441,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,ND,1.5,,RWD,Convertible,2018,,Brake Pad Set,Rear,DB2064,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NA,1.6,,RWD,Convertible,1989,1993,Brake Pad Set,Front,DB1178,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NA,1.6,,RWD,Convertible,1989,1993,Brake Pad Set,Rear,DB1180,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2005,Brake Pad Set,Front,DB1386,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2005,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2002,Brake Pad Set,Front,DB1386,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2002,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2005,Brake Pad Set,Front,DB1386,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2002,2005,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2000,2005,Brake Pad Set,Front,DB1386,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2000,2005,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,1998,2005,Brake Pad Set,Front,DB1282,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,1998,2005,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2000,2005,Brake Pad Set,Front,DB1386,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NB,1.8,,RWD,Convertible,2000,2005,Brake Pad Set,Rear,DB1508,Std. 4-Wheel Disc
+Bendix,Mazda,MX-6,GD,2.2,,FWD,Coupe,1987,1991,Brake Pad Set,Front,DB1114,Std. 4-Wheel Disc
+Bendix,Mazda,MX-6,GD,2.2,,FWD,Coupe,1987,1991,Brake Pad Set,Rear,DB1115,Std. 4-Wheel Disc
+Bendix,Mazda,MX-6,GE,2.5,,FWD,Coupe,1991,1997,Brake Pad Set,Front,DB1255,Std. 4-Wheel Disc
+Bendix,Mazda,MX-6,GE,2.5,,FWD,Coupe,1991,1997,Brake Pad Set,Rear,DB1254,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NC,2,,RWD,Convertible,2005,2014,Brake Pad Set,Front,DB2063,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NC,2,,RWD,Convertible,2005,2014,Brake Pad Set,Rear,DB2064,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NA,1.8,,RWD,Convertible,1993,1998,Brake Pad Set,Front,DB1282,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,NA,1.8,,RWD,Convertible,1993,1998,Brake Pad Set,Rear,DB1283,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,ND,2,,RWD,Convertible,2015,2018,Brake Pad Set,Front,DB2441,Std. Brake System
+Bendix,Mazda,MX-5,ND,2,,RWD,Convertible,2015,2018,Brake Pad Set,Rear,DB2064,Std. Brake System
+Bendix,Mazda,MX-5,ND,2,,RWD,Convertible,2018,,Brake Pad Set,Front,DB2441,Std. 4-Wheel Disc
+Bendix,Mazda,MX-5,ND,2,,RWD,Convertible,2018,,Brake Pad Set,Rear,DB2064,Std. 4-Wheel Disc
+Bendix,Mazda,RX-2,,1.1,,RWD,Coupe,1970,1976,Brake Pad Set,Front,DB40,Other Products
+Bendix,Mazda,Premacy,CP,1.9,,FWD,MPV,2001,2002,Brake Pad Set,Front,DB1362,Std. Brake System
+Bendix,Mazda,Premacy,CP,1.9,,FWD,MPV,1999,2002,Brake Pad Set,Front,DB1255,Other Products
+Bendix,Mazda,RX-5,,1.1,,RWD,Coupe,1975,1979,Brake Pad Set,Front,DB138,Std. 4-Wheel Disc
+Bendix,Mazda,RX-4,,1.3,,RWD,Coupe,1974,1978,Brake Pad Set,Front,DB40,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,RX-4,,1.3,,RWD,Sedan,1974,1978,Brake Pad Set,Front,DB40,Std. Front Disc / Rear Drum Brake
+Bendix,Mazda,Premacy,CP,2,,FWD,MPV,2002,2003,Brake Pad Set,Front,DB1412,Std. 4-Wheel Disc
+Bendix,Mazda,Premacy,CP,2,,FWD,MPV,2002,2003,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,SA,1,,RWD,Coupe,1979,1981,Brake Pad Set,Front,DB40,Std. Brake System
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1985,1989,Brake Pad Set,Front,DB416,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1985,1989,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,RX-5,,1.3,,RWD,Coupe,1976,1979,Brake Pad Set,Front,DB138,Std. Brake System
+Bendix,Mazda,RX-7,SA,1.1,,RWD,Coupe,1984,1986,Brake Pad Set,Front,DB138,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,SA,1.1,,RWD,Coupe,1984,1986,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,SA,1.1,,RWD,Coupe,1979,1984,Brake Pad Set,Front,DB138,Std. Brake System
+Bendix,Mazda,RX-7,SA,1.1,,RWD,Coupe,1979,1984,Brake Pad Set,Rear,DB417,Std. Brake System
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1987,1989,Brake Pad Set,Front,DB416,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1987,1989,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1989,1991,Brake Pad Set,Front,DB416,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FC,1.3,,RWD,Coupe,1989,1991,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,2,,AWD,SUV,2001,2004,Brake Pad Set,Front,DB1821,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,2,,AWD,SUV,2000,2004,Brake Pad Set,Front,DB1821,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Front,DB1513,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Rear,DB1671,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,FE,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Front,DB1513,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,FE,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Rear,DB1671,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FD,1.3,,RWD,Coupe,1992,2002,Brake Pad Set,Front,DB416,Std. 4-Wheel Disc
+Bendix,Mazda,RX-7,FD,1.3,,RWD,Coupe,1992,2002,Brake Pad Set,Rear,DB417,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,2.3,,AWD,SUV,2006,2008,Brake Pad Set,Front,DB1426,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Front,DB1513,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Rear,DB1671,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Front,DB1513,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Rear,DB1671,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Front,DB1513,Std. 4-Wheel Disc
+Bendix,Mazda,RX-8,SE17,1.3,,RWD,Coupe,2003,2012,Brake Pad Set,Rear,DB1671,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,3,,AWD,SUV,2001,2004,Brake Pad Set,Front,DB1821,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,3,,AWD,SUV,2004,2008,Brake Pad Set,Front,DB1821,Std. 4-Wheel Disc
+Bendix,Mazda,Tribute,EP,2.3,,AWD,SUV,2004,2008,Brake Pad Set,Front,DB1426,Std. 4-Wheel Disc

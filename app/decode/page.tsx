@@ -27,6 +27,7 @@ type VinResult = {
   transmissionSpeeds: string | null;
   brakeSystem: string | null;
   steeringType: string | null;
+  restraints: string | null;
   errorText: string | null;
 };
 
@@ -397,6 +398,7 @@ export default function DecodePage() {
                 <InfoRow label="Series"       value={vinResult.series} />
                 <InfoRow label="Trim"         value={vinResult.trim} />
                 <InfoRow label="Body"         value={vinResult.bodyClass} />
+                <InfoRow label="Restraints"   value={vinResult.restraints} />
                 <InfoRow label="Doors"        value={vinResult.doors} />
                 <InfoRow label="Vehicle Type" value={vinResult.vehicleType} />
               </Card>

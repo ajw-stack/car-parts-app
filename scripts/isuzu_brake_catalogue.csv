@@ -1,0 +1,158 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Isuzu,D-MAX,"TFR,TFS",Ute,2019,2025,DDi,1.9,110,,AWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2019,2025,DDi,1.9,110,,AWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2021,2025,DDi,1.9,110,,RWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2021,2025,DDi,1.9,110,,RWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2019,2025,DDi,1.9,110,,RWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2019,2025,DDi,1.9,110,,RWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,DB1841,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,,,BS5010,Std. 4-Wheel Disc
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,AWD,BR2060,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,DB1841,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,,,BS5010,Std. 4-Wheel Disc
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,AWD,BR2060,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,RWD,DB1841,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2012,2020,CRDi,3.0,130,,RWD,BR2060,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,RWD,DB1841,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,RWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Ute,2012,2020,CRDi,3.0,130,,RWD,BR2060,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,AWD,DB1468,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,AWD,,,BS1793,"Brake Hoses - Front, Std. Suspension and 2in (50mm) Lift"
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,AWD,,,BS5010,Std. 4-Wheel Disc
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,AWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,RWD,DB1468,,BS5010,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,RWD,,,BS1793,"Brake Hoses - Front, Std. Suspension and 2in (50mm) Lift"
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2007,2012,D,3.0,120,,RWD,,,BS5010,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,AWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,AWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,AWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,AWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,AWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,RWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Ute,2020,,DDi,3.0,140,,RWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,RWD,DB2533,,BS5018,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Drum to Disc Conversion Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Big Brake Upgrade Kit
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,RWD,,,BS5018,Bendix Brake Upgrade Kits
+Isuzu,D-MAX,"TFR,TFS",Platform/Chassis,2020,,DDi,3.0,140,,RWD,,,BS5018,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,AWD,,,BS1793,"Brake Hoses - Front, Std. Suspension and 2in (50mm) Lift"
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,AWD,,,BS5010,Std. 4-Wheel Disc
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,AWD,DB1468,,BS1793,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,AWD,BR2840,,BS1793,Other Products
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,RWD,,,BS1793,"Brake Hoses - Front, Std. Suspension and 2in (50mm) Lift"
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,RWD,DB1468,,BS5010,Std. Front Disc / Rear Drum Brake
+Isuzu,D-MAX,"TFR,TFS",Ute,2007,2012,DiTD,3.0,120,,RWD,BR2840,,BS1793,Other Products
+Isuzu,F RD 500,FRR90,Platform/Chassis,2007,2010,,,,,,,,CBS5071,Other Products
+Isuzu,F RR 525,FRR34,Platform/Chassis,2003,2007,,,,,,,,CBS5069,Other Products
+Isuzu,F RR 550,FRR32,Platform/Chassis,1996,2003,,,,,,,,CBS5069,Other Products
+Isuzu,F RR 550,FRR34,Platform/Chassis,2003,2007,,,,,,,,CBS5069,Other Products
+Isuzu,F RR 550S,FRR33,Platform/Chassis,1996,2003,,,,,,,,CBS5069,Other Products
+Isuzu,F SR 500,,Platform/Chassis,1986,1992,,,,,,,,CBS5069,Other Products
+Isuzu,F SR 500,,Platform/Chassis,1992,1995,,,,,,,,CBS5069,Other Products
+Isuzu,F SR 700,FSR32,Platform/Chassis,1996,2002,,,,,,,,CBS5069,Other Products
+Isuzu,F SR450,,Platform/Chassis,1988,1993,,,,,,,,CBS5069,Other Products
+Isuzu,F SR450,,Platform/Chassis,1988,1996,,,,,,,,CBS5069,Other Products
+Isuzu,F SR500,,Platform/Chassis,1992,1996,,,,,,,,CBS5069,Other Products
+Isuzu,FORWARD F 110-210,,Platform/Chassis,2006,,,,,,,CVP305,,,Other Products
+Isuzu,"FORWARD F SR 11 Ha, SR 11 A",FSR11,Platform/Chassis,1986,1990,,,,,,,,CBS5069,Other Products
+Isuzu,FORWARD F SR 11 KTRA,FSR11,Platform/Chassis,1986,1990,,,,,,,,CBS5069,Other Products
+Isuzu,"FORWARD F SR 12 Ra, SR 12 Hra, SR 12 KRA",FSR12,Platform/Chassis,1986,1990,,,,,,,,CBS5069,Other Products
+Isuzu,"FORWARD F SR 12ha, SR 12LA",FSR12,Platform/Chassis,1986,1990,,,,,,,,CBS5069,Other Products
+Isuzu,FX D 1000,FXD77,Platform/Chassis,2008,2010,,,,,,,,B4720,Other Products
+Isuzu,FX D 1000,FXD77,Platform/Chassis,2010,,,,,,,,,B4720,Other Products
+Isuzu,FX L 1500,FXL77,Platform/Chassis,2009,2010,,,,,,,,B4720,Other Products
+Isuzu,FX L 1500,FXL77,Platform/Chassis,2010,,,,,,,,,B4720,Other Products
+Isuzu,FX R 1000,FXR77,Platform/Chassis,2008,2010,,,,,,,,B4720,Other Products
+Isuzu,FX R 1000,FXR77,Platform/Chassis,2010,,,,,,,,,B4720,Other Products
+Isuzu,FX Y 1500,FXY77,Platform/Chassis,2009,2010,,,,,,,,B4720,Other Products
+Isuzu,FX Y 1500,FXY77,Platform/Chassis,2010,,,,,,,,,B4720,Other Products
+Isuzu,FX Z 1500,FXZ77,Platform/Chassis,2008,2010,,,,,,,,B4720,Other Products
+Isuzu,FX Z 1500,FXZ77,Platform/Chassis,2009,2010,,,,,,,,B4720,Other Products
+Isuzu,FX Z 1500,FXZ77,Platform/Chassis,2010,,,,,,,,,B4720,Other Products
+Isuzu,FY H 2000,FYH77,Platform/Chassis,2012,,,,,,,,,B4720,Other Products
+Isuzu,FY J 2000,FYJ77,Platform/Chassis,2012,,,,,,,,,B4720,Other Products
+Isuzu,FY X 2500,FYX77,Concrete Mixer,2012,2017,,,,,,,,B4720,Other Products
+Isuzu,FY X 2500,FYX77,Platform/Chassis,2012,,,,,,,,,B4720,Other Products
+Isuzu,GIGA CXY 385,CXY51,Platform/Chassis,2001,2008,,,,,,,,B4707,Other Products
+Isuzu,GIGA CXY 385,CXY51,Truck Tractor,2001,2008,,,,,,,,B4707,Other Products
+Isuzu,MU-X,TFS/TFR,SUV,2023,2025,DDi,1.9,110,,AWD,DB1841,DB2368,,Other Products
+Isuzu,MU-X,TFS/TFR,SUV,2023,2025,DDi,1.9,110,,RWD,DB1841,DB2368,,Other Products
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,AWD,,DB2368,,Std. 4-Wheel Disc
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,AWD,,DB2368,,Bendix Big Brake Upgrade Kit
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,AWD,DB1841,DB2368,,Std. Front Disc / Rear Drum Brake
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,AWD,,DB2368,,Bendix Brake Upgrade Kits
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,AWD,BR2060,,,Other Products
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,RWD,,DB2368,,Std. 4-Wheel Disc
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,RWD,,DB2368,,Bendix Big Brake Upgrade Kit
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,RWD,DB1841,DB2368,,Std. Front Disc / Rear Drum Brake
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,RWD,,DB2368,,Bendix Brake Upgrade Kits
+Isuzu,MU-X,LS,SUV,2013,2021,CRDi,3.0,130,,RWD,BR2060,,,Other Products
+Isuzu,MU-X,TFS/TFR,SUV,2021,,DDi,3.0,140,,AWD,DB2533,DB2608,,Std. Front Disc / Rear Drum Brake
+Isuzu,MU-X,TFS/TFR,SUV,2021,,DDi,3.0,140,,AWD,,DB2608,,Std. 4-Wheel Disc
+Isuzu,MU-X,TFS/TFR,SUV,2021,,DDi,3.0,140,,RWD,DB2533,DB2608,,Std. Front Disc / Rear Drum Brake
+Isuzu,MU-X,TFS/TFR,SUV,2021,,DDi,3.0,140,,RWD,,DB2608,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1989,1993,,2.6,89,,AWD,DB1116,DB1161,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1989,1994,,2.6,89,,AWD,DB1116,DB1161,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1990,1993,TD,2.8,81,,AWD,DB1116,DB1161,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1998,2002,D,3.0,107,,AWD,DB1270,DB1280,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1993,1998,TD,3.1,88,,AWD,DB1270,DB1280,,Std. 4-Wheel Disc
+Isuzu,MU,U,Wagon,1998,2002,,3.2,158,,AWD,DB1270,DB1280,BS1757,Std. Brake System
+Isuzu,N KR,NKR200,Truck Tractor,2003,2008,,,,,,CVP1992,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N KR200,,Platform/Chassis,2003,2007,,,,,,CVP1992,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N LR55/45-150,,Platform/Chassis,2015,,,,,,,,DB2432,,Std. 4-Wheel Disc
+Isuzu,N LR55/45-150,,Platform/Chassis,2018,,,,,,,,DB2432,,Std. 4-Wheel Disc
+Isuzu,N PR 200/275,,Platform/Chassis,2007,2013,,,,,,CVP1994,,,Other Products
+Isuzu,N PR 200/275,,Platform/Chassis,2007,2019,,,,,,CVP1994,,,Other Products
+Isuzu,N PR 200/275,,Platform/Chassis,2013,2015,,,,,,CVP1994,,,Other Products
+Isuzu,N PR200,,Platform/Chassis,2005,2007,,,,,,CVP1994,,,Other Products
+Isuzu,N PR250,,Platform/Chassis,1994,1994,,,,,,DB1993,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR250,,Platform/Chassis,2000,2002,,,,,,CVP1992,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR250,,Platform/Chassis,2002,2005,,,,,,CVP1994,,,Other Products
+Isuzu,N PR250,,Platform/Chassis,2005,2005,,,,,,CVP1992,,CBS5015,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR250,,Platform/Chassis,2005,2005,,,,,,CVP1994,,CBS5015,Other Products
+Isuzu,N PR250,,Platform/Chassis,2005,2007,,,,,,CVP1992,,CBS5015,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR250,,Platform/Chassis,2005,2007,,,,,,CVP1994,,CBS5015,Other Products
+Isuzu,N PR250,,Truck Tractor,2002,2005,,,,,,CVP1994,,,Other Products
+Isuzu,N PR250,,Truck Tractor,2005,2005,,,,,,CVP1992,,CBS5015,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR250,,Truck Tractor,2005,2005,,,,,,CVP1994,,CBS5015,Other Products
+Isuzu,N PR300 CG,,Platform/Chassis,2014,2015,,,,,,CVP1994,,,Other Products
+Isuzu,N PR300,,Platform/Chassis,1994,1999,,,,,,DB1993,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR300,,Platform/Chassis,1996,1996,,,,,,DB1993,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR300,,Platform/Chassis,2005,2005,,,,,,,,CBS5015,Std. 4-Wheel Drum
+Isuzu,N PR300,,Platform/Chassis,2005,2005,,,,,,CVP1994,,CBS5015,Other Products
+Isuzu,N PR300,,Platform/Chassis,2005,2007,,,,,,CVP1994,,,Other Products
+Isuzu,N PR300,,Truck Tractor,1994,1999,,,,,,DB1993,,,Std. Front Disc / Rear Drum Brake
+Isuzu,N PR400,,Platform/Chassis,2002,2005,,,,,,CVP1994,,,Other Products
+Isuzu,N PR400,,Platform/Chassis,2002,2017,,,,,,CVP1994,,,Other Products
+Isuzu,N PR400,,Platform/Chassis,2005,2006,,,,,,CVP1994,,,Other Products
+Isuzu,N PS,NPS75,Platform/Chassis,2005,,,,,,,CVP1994,,,Other Products
+Isuzu,N PS250,,Platform/Chassis,2005,2007,,,,,,,,CBS1663,Std. 4-Wheel Drum
+Isuzu,N PS250,,Platform/Chassis,2005,2007,,,,,,CVP1994,,CBS1663,Other Products
+Isuzu,N PS300,,Platform/Chassis,2005,2007,,,,,,CVP1994,,,Other Products
+Isuzu,N QR450,,Platform/Chassis,2005,2015,,,,,,,CVP1992,,Std. 4-Wheel Disc
+Isuzu,N QR450,,Platform/Chassis,2005,2015,,,,,,CVP1995,CVP1992,,Other Products
+Isuzu,N R200,NNR85,Platform/Chassis,2007,2015,,,,,,,DB2432,CBS1733,Std. Front Disc / Rear Drum Brake
+Isuzu,N R200,NNR85,Platform/Chassis,2007,2015,,,,,,CVP1992,DB2432,CBS1733,Std. 4-Wheel Disc
+Isuzu,N R200,NNR85,Truck Tractor,2007,2015,,,,,,,DB2432,CBS1733,Std. Front Disc / Rear Drum Brake
+Isuzu,N R200,NNR85,Truck Tractor,2007,2015,,,,,,CVP1992,DB2432,CBS1733,Std. 4-Wheel Disc
+Isuzu,N R55/45-150,,Platform/Chassis,2016,,,,,,,,,CBS1733,Std. Front Disc / Rear Drum Brake
+Isuzu,N R55/45-150,,Truck Tractor,2016,,,,,,,,,CBS1733,Std. Front Disc / Rear Drum Brake

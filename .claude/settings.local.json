@@ -27,7 +27,25 @@
       "Bash(python3 -c \":*)",
       "Bash(node scripts/import-parts-csv.js scripts/bendix-brake-pads.csv --dry-run)",
       "Bash(node scripts/import-parts-csv.js scripts/bendix-brake-pads.csv)",
-      "Bash(node scripts/import-cross-references.js scripts/bendix-cross-refs.csv)"
+      "Bash(node scripts/import-cross-references.js scripts/bendix-cross-refs.csv)",
+      "Bash(node scripts/analysis/check-vehicle-models.js)",
+      "Bash(node scripts/analysis/check-bad-models.js)",
+      "Bash(node scripts/importers/insert-mercedes-benz-vehicles.js scripts/mercedes-benz_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/utils/preprocess-honda-bendix.js scripts/mercedes-benz_brake_catalogue.csv scripts/bendix-mercedes-benz-combined.csv)",
+      "Bash(node scripts/importers/insert-mercedes-benz-vehicles.js scripts/mercedes-benz_brake_catalogue.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-mercedes-benz-combined.csv)",
+      "Bash(node scripts/importers/insert-mazda-vehicles.js scripts/mazda_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/utils/preprocess-honda-bendix.js scripts/mazda_brake_catalogue.csv scripts/bendix-mazda-combined.csv)",
+      "Bash(node scripts/importers/insert-mazda-vehicles.js scripts/mazda_brake_catalogue.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-mazda-combined.csv)",
+      "Bash(node scripts/importers/insert-chery-vehicles.js scripts/chery_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/utils/preprocess-honda-bendix.js scripts/chery_brake_catalogue.csv scripts/bendix-chery-combined.csv)",
+      "Bash(node scripts/importers/insert-chery-vehicles.js scripts/chery_brake_catalogue.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-chery-combined.csv)",
+      "Bash(node scripts/importers/insert-abarth-vehicles.js scripts/abarth_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/utils/preprocess-honda-bendix.js scripts/abarth_brake_catalogue.csv scripts/bendix-abarth-combined.csv)",
+      "Bash(node scripts/importers/insert-abarth-vehicles.js scripts/abarth_brake_catalogue.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-abarth-combined.csv)"
     ]
   }
 }

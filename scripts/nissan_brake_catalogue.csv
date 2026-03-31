@@ -1,0 +1,406 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+Nissan,180SX,S13,Coupe,1988,1992,,1.8,97,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,180SX,S13,Coupe,1988,1992,Turbo,1.8,124,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,180SX,S13,Coupe,1988,1992,Turbo,1.8,130,,RWD,DB1117,,,Other Products
+Nissan,180SX,S13,Coupe,1989,1992,Turbo,1.8,148,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,180SX,S13,Coupe,1991,1994,,2.0,119,,RWD,DB1232,DB325,,Std. 4-Wheel Disc
+Nissan,180SX,S13,Coupe,1991,1994,Turbo,2.0,147,,RWD,DB1232,DB325,,Std. 4-Wheel Disc
+Nissan,280ZX,HGS130,Coupe,1978,1984,,2.8,103,,RWD,DB215,DB228,,Std. 4-Wheel Disc
+Nissan,300ZX,Z31,Targa,1987,1990,Turbo,3.0,149,,RWD,,DB325,,Std. 4-Wheel Disc
+Nissan,300ZX,Z32,Coupe,1990,1997,Twin Turbo,3.0,197,,RWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,300ZX,Z32,Coupe,1989,1997,Twin Turbo,3.0,208,,RWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,300ZX,Z31,Targa,1984,1987,,3.0,125,,RWD,DB382,DB325,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Convertible,2003,2007,,3.5,206,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Convertible,2003,2007,,3.5,206,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,350Z,Z33,Convertible,2003,2007,,3.5,206,,RWD,,DB2340,,Other Products
+Nissan,350Z,Z33,Coupe,2002,2007,,3.5,206,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Coupe,2002,2007,,3.5,206,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,350Z,Z33,Coupe,2002,2007,,3.5,206,,RWD,,DB2340,,Other Products
+Nissan,350Z,Z33,Convertible,2005,2007,,3.5,221,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Convertible,2005,2007,,3.5,221,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,350Z,Z33,Coupe,2005,2007,,3.5,221,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Coupe,2005,2007,,3.5,221,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,350Z,Z33,Convertible,2007,2009,,3.5,230,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Convertible,2007,2009,,3.5,230,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,350Z,Z33,Coupe,2007,2009,,3.5,230,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,350Z,Z33,Coupe,2007,2009,,3.5,230,,RWD,DB1520,DB1509,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,370Z,Z34,Coupe,2009,2013,V6 VVEL,3.7,243,,RWD,DB2400,DB2401,,Std. 4-Wheel Disc
+Nissan,370Z,Z34,Convertible,2009,2013,,3.7,243,,RWD,DB2400,DB2401,,Std. 4-Wheel Disc
+Nissan,370Z,Z34,Convertible,2013,2020,,3.7,245,,RWD,DB2400,DB2401,,Std. 4-Wheel Disc
+Nissan,370Z,Z34,Coupe,2013,2021,,3.7,245,,RWD,DB2400,DB2401,,Std. 4-Wheel Disc
+Nissan,370Z,Z34,Coupe,2013,2021,,3.7,253,NISMO,RWD,BR2314,BR2315,,Std. 4-Wheel Disc
+Nissan,370Z,Z34,Coupe,2013,2021,,3.7,253,NISMO,RWD,,DB2401,,Other Products
+Nissan,Almera,N17,Sedan,2012,2013,i,1.5,75,,FWD,,,BS5261,Std. Front Disc / Rear Drum Brake
+Nissan,Almera,N17,Sedan,2012,2013,i,1.5,75,,FWD,DB1830,,BS5261,Other Products
+Nissan,Altima,L33,Sedan,2013,2017,,2.5,127,,FWD,DB2336,DB1509,,Std. 4-Wheel Disc
+Nissan,Altima,L33,Sedan,2013,2017,,2.5,127,,FWD,,BR2331,,Other Products
+Nissan,Altima,L33,Sedan,2013,2017,,3.5,183,,FWD,DB2336,DB1509,,Std. 4-Wheel Disc
+Nissan,Bluebird,910,Sedan,1981,1985,,2.0,72,,RWD,DB1091,DB1094,,Std. 4-Wheel Disc - Girlock Caliper
+Nissan,Bluebird,910,Sedan,1981,1985,,2.0,72,,RWD,DB225,DB1094,,Std. 4-Wheel Disc
+Nissan,Bluebird,W910,Wagon,1981,1985,i,2.0,72,,RWD,DB1091,DB1094,,Std. 4-Wheel Disc - Girlock Caliper
+Nissan,Bluebird,W910,Wagon,1981,1985,i,2.0,72,,RWD,DB225,DB1094,,Std. 4-Wheel Disc
+Nissan,Bluebird,W910,Wagon,1985,1986,,2.0,74,,RWD,DB1091,DB1094,,Std. 4-Wheel Disc - Girlock Caliper
+Nissan,Bluebird,W910,Wagon,1985,1986,,2.0,74,,RWD,DB225,DB1094,,Std. 4-Wheel Disc
+Nissan,Bluebird,"U13,U14",Sedan,1992,1997,i,2.4,112,,FWD,DB1232,DB1247,,Std. 4-Wheel Disc
+Nissan,Bluebird 2000,"U13,U14",Sedan,1991,1996,Turbo,2.0,154,SSS,AWD,DB1167,DB1247,,Other Products
+Nissan,Cabstar,"F22,H40",Platform/Chassis,1982,1987,,2.0,93,,RWD,DB424,,,Std. Brake System
+Nissan,Cabstar,"F22,H40",Platform/Chassis,1987,1992,TD,2.7,66,,RWD,DB340,,,Other Products
+Nissan,Caravan,E25,Bus,2000,2007,i,2.0,88,,RWD,DB1769,,,Other Products
+Nissan,Caravan,E25,Van,2000,2007,i,2.0,88,,RWD,DB1769,,,Other Products
+Nissan,Caravan,E25,Van,2001,2012,i,2.4,103,,RWD,DB1769,,,Other Products
+Nissan,Caravan,E25,Van,2004,2012,TDi,3.0,96,,RWD,DB1769,,,Other Products
+Nissan,Cefiro,A31,Sedan,1988,1994,,2.0,114,,RWD,DB1167,,,Other Products
+Nissan,Cefiro,A31,Sedan,1988,1994,,2.0,151,,RWD,DB1232,,,Other Products
+Nissan,Cima,F50,Sedan,2001,2010,,3.0,206,,RWD,DB1696,,,Other Products
+Nissan,Cima,F50,Sedan,2001,2010,,4.5,250,,AWD,DB1696,,,Other Products
+Nissan,Cima,F50,Sedan,2001,2010,,4.5,250,,RWD,DB1696,,,Other Products
+Nissan,Cube,Z11,Hatchback,2003,2008,,1.4,72,,AWD,,,BS5116,Std. Front Disc / Rear 229mm Drum
+Nissan,Cube,Z11,Hatchback,2003,2008,,1.4,72,,AWD,BR2326,,BS5116,Other Products
+Nissan,Cube,Z11,Hatchback,2003,2008,,1.4,72,,FWD,BR2326,DB2340,,Other Products
+Nissan,Cube,Z11,Hatchback,2003,2005,,1.5,80,,AWD,,,BS5116,Std. Front Disc / Rear 229mm Drum
+Nissan,Cube,Z11,Hatchback,2003,2005,,1.5,80,,AWD,BR2326,,BS5116,Other Products
+Nissan,Cube,Z12,Hatchback,2009,2014,dCi,1.5,78,,FWD,,DB2340,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Cube,Z12,Hatchback,2009,2014,dCi,1.5,78,,FWD,,DB2340,BS5257,Other Products
+Nissan,Cube,Z11,Hatchback,2003,2008,,1.5,80,,FWD,BR2326,DB2340,,Other Products
+Datsun,1000,B10,Coupe,1969,1970,,1.0,46,,RWD,,,BS1043,Other Products
+Datsun,1000,B10,Sedan,1967,1970,,1.0,46,,RWD,,,BS1043,Other Products
+Datsun,1000,VB10,Wagon,1967,1970,,1.0,46,,RWD,,,BS1043,Other Products
+Datsun,1200,B110,Sedan,1970,1974,,1.2,51,,RWD,,,BS1043,Std. Brake System
+Datsun,1200,B110,Wagon,1970,1974,,1.2,51,,RWD,,,BS1043,Std. Brake System
+Datsun,1200,KB110,Coupe,1970,1974,,1.2,51,,RWD,DB39,,BS1043,Std. Brake System
+Datsun,1600,510,Sedan,1968,1972,,1.6,72,,RWD,DB33,,,Std. Brake System
+Datsun,240Z,S30,Coupe,1970,1974,,2.4,110,,RWD,DB86,,,Std. Brake System
+Datsun,260C,330,Coupe,1975,1978,,2.6,103,,RWD,DB86,,,Std. Brake System
+Datsun,260C,330,Wagon,1975,1978,,2.6,103,,RWD,DB86,,,Std. Brake System
+Datsun,260Z,S30,Coupe,1974,1979,,2.6,119,2+2,RWD,DB86,,,Other Products
+Datsun,280C,330,Sedan,1977,1979,,2.8,108,,RWD,DB215,DB263,,Std. 4-Wheel Disc
+Datsun,280C,330,Wagon,1977,1979,,2.8,99,,RWD,DB86,,,Std. Brake System
+Datsun,Skyline,C210,Sedan,1978,1980,,2.4,96,,RWD,DB86,,,Std. Brake System
+Datsun,Stanza,"710,A10",Sedan,1978,1983,,1.6,65,i.e.,RWD,DB1091,,BS1384,Std. Front Disc / Rear Drum Brake - Girlock Caliper
+Datsun,Stanza,"710,A10",Sedan,1978,1983,,1.6,65,i.e.,RWD,DB122,,BS1384,Std. Front Disc / Rear Drum Brake
+Datsun,Stanza,"710,A10",Sedan,1978,1983,,1.6,65,i.e.,RWD,DB180,,BS1384,Std. Front Disc / Rear Drum Brake - Sumitomo Caliper
+Datsun,Stanza,"710,A10",Sedan,1978,1983,,1.6,65,i.e.,RWD,DB225,,BS1384,Std. Front Disc / Rear Drum Brake - Akebono Caliper
+Datsun,Sunny,"140Y,150Y",Sedan,1973,1982,,1.2,38,,RWD,DB39,,,Std. Brake System
+Datsun,Sunny,"140Y,150Y",Wagon,1979,1982,,1.4,48,,RWD,DB122,,,Std. Brake System
+Nissan,Dualis,"J10,NJ10",SUV,2007,2013,,2.0,102,,AWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Dualis,"J10,NJ10",SUV,2007,2013,,2.0,102,,AWD,BR2186,DB2340,BS5257,Other Products
+Nissan,Dualis,"J10,NJ10",SUV,2009,2013,,2.0,102,,FWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Dualis,"J10,NJ10",SUV,2009,2013,,2.0,102,,FWD,BR2186,DB2340,BS5257,Other Products
+Nissan,Dualis,"J10,NJ10",SUV,2011,2013,dCi,1.6,96,,FWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Dualis,"J10,NJ10",SUV,2011,2013,dCi,1.6,96,,FWD,BR2186,DB2340,BS5257,Other Products
+Nissan,Elgrand,"E51,E52",MPV,2004,2010,,2.5,137,,AWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E51,E52",MPV,2004,2010,,2.5,137,,AWD,,DB2340,,Other Products
+Nissan,Elgrand,"E52",MPV,2010,,,2.5,125,,AWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E52",MPV,2010,,,2.5,125,,AWD,,BR2313,,Other Products
+Nissan,Elgrand,"E51,E52",MPV,2004,2010,,2.5,137,,RWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E51,E52",MPV,2004,2010,,2.5,137,,RWD,,DB2340,,Other Products
+Nissan,Elgrand,"E52",MPV,2010,2021,,2.5,125,,FWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E52",MPV,2010,2021,,2.5,125,,FWD,,BR2313,,Other Products
+Nissan,Elgrand,"E51,E52",MPV,2002,2010,,3.5,177,,AWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E51,E52",MPV,2002,2010,,3.5,177,,AWD,,DB2340,,Other Products
+Nissan,Elgrand,"E52",MPV,2010,,,3.5,206,,AWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E52",MPV,2010,,,3.5,206,,AWD,,BR2313,,Other Products
+Nissan,Elgrand,"E51,E52",MPV,2000,2002,,3.5,177,,RWD,DB1333,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E51,E52",MPV,2000,2002,,3.5,177,,RWD,,DB2340,,Other Products
+Nissan,Elgrand,"E52",MPV,2010,,,3.5,206,,FWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Elgrand,"E52",MPV,2010,,,3.5,206,,FWD,,BR2313,,Other Products
+Nissan,GT-R,R35,Coupe,2014,,,3.8,441,NISMO,AWD,DB2375,,,Other Products
+Nissan,GT-R,R35,Coupe,2009,2010,V6,3.8,357,,AWD,DB2375,,,Other Products
+Nissan,GT-R,R35,Coupe,2010,2011,V6,3.8,390,,AWD,DB2375,,,Other Products
+Nissan,GT-R,R35,Coupe,2011,2016,V6,3.8,404,,AWD,DB2375,,,Std. 4-Wheel Disc
+Nissan,GT-R,R35,Coupe,2016,,V6,3.8,419,,AWD,DB2375,,,Other Products
+Nissan,Juke,F16,SUV,2019,,,1.0,84,,FWD,DB2276,DB2277,,Std. 4-Wheel Disc
+Nissan,Juke,F16,SUV,2019,,,1.0,84,,FWD,,DB2277,,Other Products
+Nissan,Juke,F15,SUV,2014,2019,,1.2,85,DIG-T,FWD,,DB2340,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Juke,F15,SUV,2014,2019,,1.2,85,DIG-T,FWD,DB1232,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2014,2019,,1.2,85,DIG-T,FWD,BR2335,DB2340,BS5257,Other Products
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,AWD,,DB2340,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,AWD,DB1232,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,AWD,,DB2340,BS5257,Other Products
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,FWD,,DB2340,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,FWD,DB1232,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2010,2019,,1.6,140,DIG-T,FWD,,DB2340,BS5257,Other Products
+Nissan,Juke,F15,SUV,2014,2018,RS,1.6,157,DIG-T NISMO,AWD,DB1946,DB2340,,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2014,2018,RS,1.6,157,DIG-T NISMO,AWD,,DB2340,,Other Products
+Nissan,Juke,F15,SUV,2014,2018,RS,1.6,160,DIG-T NISMO,FWD,DB1946,DB2340,,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2014,2018,RS,1.6,160,DIG-T NISMO,FWD,,DB2340,,Other Products
+Nissan,Juke,F15,SUV,2010,2017,,1.6,86,,FWD,,DB2340,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Juke,F15,SUV,2010,2017,,1.6,86,,FWD,DB1232,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,Juke,F15,SUV,2010,2017,,1.6,86,,FWD,BR2335,DB2340,BS5257,Other Products
+Nissan,Leaf,ZE0,Hatchback,2010,2014,Electric,,80,,FWD,DB2336,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Leaf,ZE0,Hatchback,2010,2014,Electric,,80,,FWD,DB1835,BR574,BS5257,Other Products
+Nissan,Leaf,ZE1,Hatchback,2017,,Electric,,110,,FWD,DB2374,DB2340,,Std. 4-Wheel Disc
+Nissan,Leaf,ZE1,Hatchback,2017,,Electric,,110,,FWD,,BR2621,,Other Products
+Nissan,Leaf,ZE1,Hatchback,2019,,Electric,,160,,FWD,DB2374,DB2340,,Std. 4-Wheel Disc
+Nissan,Leaf,ZE1,Hatchback,2019,,Electric,,160,,FWD,,BR2621,,Other Products
+Nissan,Maxima,J32,Sedan,2008,2013,,2.5,134,,FWD,DB1393,DB1509,,Std. 4-Wheel Disc - Nissin Caliper
+Nissan,Maxima,J32,Sedan,2008,2013,,2.5,134,,FWD,DB1485,DB1509,,Std. 4-Wheel Disc - Sumitomo Caliper
+Nissan,Maxima,J32,Sedan,2008,2013,,2.5,134,,FWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Maxima,J32,Sedan,2008,2013,,2.5,134,,FWD,,DB2340,,Other Products
+Nissan,Maxima,A32,Sedan,1995,1999,,3.0,142,,FWD,DB1308,DB1247,,Std. 4-Wheel Disc
+Nissan,Maxima,J30,Sedan,1990,1995,i,3.0,125,,FWD,DB1187,DB1166,,Std. 4-Wheel Disc
+Nissan,Maxima,A33,Sedan,1999,2003,V6 24V,3.0,157,,FWD,DB1232,DB1247,,Std. 4-Wheel Disc - Akebono Caliper
+Nissan,Maxima,A33,Sedan,1999,2003,V6 24V,3.0,157,,FWD,DB1308,DB1247,,Std. 4-Wheel Disc
+Nissan,Maxima,J31,Sedan,2003,2008,,3.5,170,,FWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Maxima,J31,Sedan,2003,2008,,3.5,170,,FWD,,DB2340,,Other Products
+Nissan,Maxima,J32,Sedan,2008,2013,,3.5,183,,FWD,DB1393,DB1509,,Std. 4-Wheel Disc - Nissin Caliper
+Nissan,Maxima,J32,Sedan,2008,2013,,3.5,183,,FWD,DB1485,DB1509,,Std. 4-Wheel Disc - Sumitomo Caliper
+Nissan,Maxima,J32,Sedan,2008,2013,,3.5,183,,FWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Maxima,J32,Sedan,2008,2013,,3.5,183,,FWD,,DB2340,,Other Products
+Nissan,Micra,K11,Hatchback,1992,1997,i 16V,1.3,55,,FWD,DB1307,,,Std. Brake System
+Nissan,Micra,K12,Hatchback,2007,2010,,1.4,72,,FWD,DB1819,,BS5261,Std. Front Disc / Rear Drum Brake
+Nissan,Micra,K12,Hatchback,2007,2010,,1.4,72,,FWD,BR2326,,BS5261,Other Products
+Nissan,Micra,"K13K,K13KK,MK13K",Hatchback,2010,2012,,1.5,75,,FWD,BR2345,,BS5259,Std. 4-Wheel Disc
+Nissan,Micra,"K13K,K13KK,MK13K",Hatchback,2010,2012,,1.5,75,,FWD,DB2366,,BS5259,Std. Front Disc / Rear Drum Brake
+Nissan,Micra,"K13K,K13KK,MK13K",Hatchback,2010,2012,,1.5,75,,FWD,DB1830,,BS5259,Other Products
+Nissan,Murano,Z50,SUV,2005,2008,,3.5,172,,AWD,DB1516,DB1509,,Std. 4-Wheel Disc
+Nissan,Murano,Z50,SUV,2005,2008,,3.5,172,,AWD,BR2308,BR2313,,Other Products
+Nissan,Murano,Z51,SUV,2009,2014,,3.5,191,,AWD,DB1516,DB1509,,Std. 4-Wheel Disc
+Nissan,Murano,Z51,SUV,2009,2014,,3.5,191,,AWD,BR2308,BR2313,,Other Products
+Nissan,Murano,Z51,SUV,2009,2014,,3.5,195,,AWD,DB1516,DB1509,,Std. 4-Wheel Disc
+Nissan,Murano,Z51,SUV,2009,2014,,3.5,195,,AWD,BR2308,BR2313,,Other Products
+Nissan,Navara NP300,D23,Ute,2015,2020,dCi,2.3,120,,AWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara NP300,D23,Ute,2015,,dCi,2.3,120,,RWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara NP300,D23,Ute,2020,,DDTTi,2.3,140,,AWD,DB2374,,,Other Products
+Nissan,Navara NP300,D23,Ute,2020,,DDTTi,2.3,140,,RWD,DB2374,,,Other Products
+Nissan,Navara NP300,D23,Ute,2015,2017,,2.5,122,,RWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1988,1995,,2.0,66,,RWD,DB340,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,"D23,D23T",Ute,2015,2020,dCi,2.3,120,,AWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,"D23,D23T",Ute,2015,,dCi,2.3,140,,AWD,DB2374,,BS5021,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,"D23,D23T",Ute,2015,,dCi,2.3,120,,RWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,"D23,D23T",Ute,2015,,dCi,2.3,140,,RWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,"D23,D23T",Ute,2015,2017,,2.5,122,,RWD,DB2374,,BS5238,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1999,2005,,2.4,110,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1997,2004,,2.4,110,,AWD,DB438,,,Other Products
+Nissan,Navara,D22,Ute,1999,2005,,2.4,110,,RWD,DB438,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1997,2005,,2.4,93,,RWD,DB438,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1992,1997,12V,2.4,93,i,RWD,DB382,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1997,1999,i,2.4,88,,AWD,DB1439,,Std. 4-Wheel Disc
+Nissan,Navara,D22,Ute,1997,1999,i,2.4,88,,RWD,DB1439,,,Std. 4-Wheel Disc
+Nissan,Navara,D22,Ute,1997,1999,i,2.4,93,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1992,1997,i,2.4,93,,AWD,DB438,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1986,1991,,2.5,55,D,AWD,,,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1987,1998,,2.5,59,D,AWD,DB340,,,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1988,1992,,2.5,55,D,RWD,DB340,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1986,1998,,2.5,57,D,RWD,DB340,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D40,Ute,2007,2015,dCi,2.5,126,,AWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D40,Ute,2005,2013,dCi,2.5,128,,AWD,DB1835,,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D40,Ute,2010,2015,dCi,2.5,140,,AWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D40,Ute,2009,2015,dCi,2.5,106,,RWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D40,Ute,2010,2015,dCi,2.5,120,,RWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D22,Ute,2007,2015,dCi,2.5,98,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D21,Ute,1988,1997,,2.7,58,D,AWD,DB340,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1998,2005,,2.7,66,D,RWD,DB438,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,2000,2004,,3.0,120,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D40,Ute,2011,2015,dCi,3.0,170,,AWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D22,Ute,2001,2008,TD,3.0,110,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,1997,2001,,3.2,76,D,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D22,Ute,2002,2006,,3.3,125,,AWD,DB1439,,BS1726,Std. Front Disc / Rear Drum Brake
+Nissan,Navara,D40,Ute,2005,2011,,4.0,198,,AWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Navara,D40,Ute,2005,2009,,4.0,198,,RWD,DB1835,DB1919,BS5021,Std. 4-Wheel Disc
+Nissan,Nomad,C22,Bus,1987,1993,,2.0,66,,RWD,DB340,,BS1656,Std. Front Disc / Rear Drum Brake
+Nissan,Nomad,C22,Bus,1986,1994,i,2.4,74,,RWD,DB340,,BS1656,Std. Front Disc / Rear Drum Brake
+Nissan,Note,E12,MPV,2012,,,1.2,72,DIG-S,FWD,DB1830,,,Other Products
+Nissan,Note,E12,MPV,2012,,,1.2,58,,FWD,,,BS5261,Other Products
+Nissan,Note,E12,MPV,2012,2016,,1.2,59,,FWD,DB1830,,,Other Products
+Nissan,Note,"E11,NE11",MPV,2006,2012,,1.4,65,,FWD,,,BS5261,Other Products
+Nissan,Note,"E11,NE11",MPV,2006,2013,LPG,1.4,65,,FWD,,,BS5261,Other Products
+Nissan,Note,"E11,NE11",MPV,2006,2010,,1.5,80,,AWD,DB1819,,BS5261,Other Products
+Nissan,Note,"E11,NE11",MPV,2006,2010,,1.5,80,,FWD,DB1819,,BS5261,Other Products
+Nissan,Note,"E11,NE11",MPV,2006,2012,,1.6,81,,FWD,DB1819,,BS5261,Other Products
+Nissan,Note,E12,MPV,2013,,,1.6,80,,FWD,,,BS5261,Other Products
+Nissan,Note,E12,MPV,2013,,,1.6,81,,FWD,,,BS5261,Other Products
+Nissan,Note,E12,MPV,2013,,,1.6,103,NISMO S,FWD,,,BS5261,Other Products
+Nissan,NV350,E26,Van,2012,,dCi,2.5,95,,RWD,DB1769,,,Other Products
+Nissan,NV350,E26,Van,2012,,,2.5,108,,RWD,DB1769,,,Other Products
+Nissan,NX,B13,Coupe,1991,1996,,2.0,105,GTI,FWD,DB1281,DB1211,,Std. 4-Wheel Disc
+Nissan,Pathfinder,WD21,Wagon,1986,1992,,2.4,74,,AWD,DB340,DB1175,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Pathfinder,R51,SUV,2005,2013,dCi,2.5,128,,AWD,DB1696,DB1919,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R51,SUV,2010,2013,dCi,2.5,140,,AWD,DB1696,DB1919,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2013,2020,Hybrid,2.5,188,,AWD,BR2184,DB1509,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2013,2020,Hybrid,2.5,188,,AWD,DB2378HD,,Other Products
+Nissan,Pathfinder,R52,SUV,2013,2020,Hybrid,2.5,188,,FWD,BR2184,DB1509,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2013,2020,Hybrid,2.5,188,,FWD,DB2378HD,,Other Products
+Nissan,Pathfinder,R51,SUV,2010,2013,dCi,3.0,170,,AWD,DB1696,DB1919,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R50,Wagon,1995,2005,V6,3.3,125,,AWD,DB1333,,BS1726,Std. Brake System
+Nissan,Pathfinder,R52,SUV,2013,2016,,3.5,190,,AWD,DB2378HD,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2016,2020,,3.5,202,,AWD,DB2378HD,DB1509,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R53,SUV,2022,,i,3.5,202,,AWD,DB2736,DB2634,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R53,SUV,2022,,i,3.5,202,,FWD,DB2736,DB2634,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2013,2016,,3.5,190,,FWD,DB2378HD,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Pathfinder,R52,SUV,2016,2020,,3.5,202,,FWD,DB2378HD,DB1509,,Std. 4-Wheel Disc
+Nissan,Pathfinder,R51,SUV,2005,2013,,4.0,198,,AWD,DB1696,DB1919,,Std. 4-Wheel Disc
+Nissan,Patrol,"W160,MK,MQ",Wagon,1980,1987,,2.8,88,,AWD,DB321,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y60,GQ",Wagon,1988,1997,TD,2.8,85,,AWD,BR623,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,1998,2000,TDiC,2.8,96,,AWD,DB1361,DB1148,,Std. 4-Wheel Disc
+Nissan,Patrol,"Y60,GQ",Wagon,1990,1997,,3.0,100,,AWD,DB321,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Platform/Chassis,2007,2016,,3.0,118,D,AWD,DB1361,DB1148,,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,2000,2007,DTi,3.0,116,,AWD,DB1361,DB1148,,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,2007,2016,DTi,3.0,118,,AWD,DB1361,DB1148,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"MQ,MK,GQ",Platform/Chassis,1980,1987,,3.3,70,D,AWD,DB321,,,Std. Front Disc / Rear Drum Brake
+Nissan,Patrol,"W160,MK,MQ",Wagon,1980,1984,,3.3,70,D,AWD,DB321,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"MQ,MK,GQ",Platform/Chassis,1984,1987,TD,3.3,81,,AWD,DB321,,,Std. Front Disc / Rear Drum Brake
+Nissan,Patrol,"MQ,MK,GQ",Platform/Chassis,1980,1987,,4.0,108,,AWD,DB321,,,Std. Front Disc / Rear Drum Brake
+Nissan,Patrol,"W160,MK,MQ",Wagon,1980,1988,,4.0,108,,AWD,DB321,DB1146,,Std. 4-Wheel Disc
+Nissan,Patrol,"MQ,MK,GQ",Platform/Chassis,1980,1985,,4.2,85,,AWD,DB321,,,Std. Front Disc / Rear Drum Brake
+Nissan,Patrol,"Y60,GQ",Wagon,1988,1995,Carb,4.2,125,,AWD,DB321,,,Std. 4-Wheel Disc
+Nissan,Patrol,"Y60,GQ",Wagon,1987,1997,,4.2,85,D,AWD,DB1257,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,1998,2003,,4.2,91,D,AWD,DB1361,DB1148,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Platform/Chassis,1999,2006,,4.2,114,D,AWD,DB1361,DB1148,,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,1999,2007,,4.2,114,D,AWD,DB1361,DB1148,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y60,GQ",Wagon,1988,1997,Efi,4.2,129,,AWD,DB321,DB1146,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,1997,2001,,4.5,145,,AWD,DB1361,DB1148,BS1547,Std. 4-Wheel Disc
+Nissan,Patrol,"Y61,GU",Wagon,2001,2012,,4.8,185,,AWD,DB2721,DB2060,BR2203,Std. 4-Wheel Disc
+Nissan,Patrol,Y62,Wagon,2012,,,5.6,298,,AWD,DB2242,DB2244,,Std. 4-Wheel Disc
+Nissan,Pintara,R31,Sedan,1986,1990,i,2.0,78,,RWD,,DB1106,,Std. 4-Wheel Disc
+Nissan,Pintara,R31,Wagon,1986,1990,i,2.0,78,,RWD,,DB1106,,Std. 4-Wheel Disc
+Nissan,Prairie,"M10,NM10",MPV,1982,1986,,1.5,55,S,FWD,DB225,,BS1598,Std. Front Disc / Rear Drum Brake
+Nissan,Primera,WP12,Wagon,2002,2006,,2.0,103,,FWD,,DB1665,,Other Products
+Nissan,Pulsar,N10,Hatchback,1981,1982,,1.3,44,,FWD,DB39,,,Std. Brake System
+Nissan,Pulsar,N12,Hatchback,1982,1986,,1.3,44,,FWD,DB1103,DB1104,,Std. Brake System
+Nissan,Pulsar,N10,Hatchback,1980,1981,,1.4,46,,FWD,DB39,,,Std. Brake System
+Nissan,Pulsar,N10,Coupe,1981,1982,,1.5,51,,FWD,DB39,,,Std. Brake System
+Nissan,Pulsar,N10,Hatchback,1981,1983,,1.5,51,,FWD,DB39,,,Std. Brake System
+Nissan,Pulsar,N12,Hatchback,1983,1986,,1.5,55,,FWD,DB1103,DB1104,,Std. Brake System
+Nissan,Pulsar,N12,Sedan,1983,1986,,1.5,55,,FWD,DB293,,,Std. Front Disc / Rear Drum Brake
+Nissan,Pulsar,C12,Hatchback,2013,2017,,1.6,140,,FWD,DB1485,DB2340,,Std. 4-Wheel Disc
+Nissan,Pulsar,C12,Hatchback,2013,2017,,1.6,140,,FWD,,DB2340,,Other Products
+Nissan,Pulsar,N13,Hatchback,1987,1991,i,1.6,56,,FWD,DB1117,,BS1598,Std. Brake System
+Nissan,Pulsar,N13,Sedan,1989,1991,i,1.6,56,,FWD,DB1117,,BS1598,Std. Brake System
+Nissan,Pulsar,"N14,B13",Sedan,1991,1995,,1.6,82,,FWD,DB1216,DB1211,BS1697,Std. Brake System
+Nissan,Pulsar,N14,Hatchback,1991,1995,,1.6,82,,FWD,DB1216,DB1211,BS1697,Std. Brake System
+Nissan,Pulsar,N15,Hatchback,1995,2000,,1.6,86,,FWD,DB1148,DB1247,BS1697,Std. Brake System
+Nissan,Pulsar,N15,Sedan,1995,2000,,1.6,86,,FWD,DB1148,DB1247,BS1697,Std. Brake System
+Nissan,Pulsar,N16,Sedan,2000,2003,,1.6,83,,FWD,DB1165,DB1718,,Std. Brake System - Sumitomo Caliper
+Nissan,Pulsar,N16,Sedan,2000,2003,,1.6,83,,FWD,DB1454,DB1718,,Std. Brake System
+Nissan,Pulsar,N16,Sedan,2000,2003,,1.6,83,,FWD,DB1761,DB1718,,Std. Brake System - Lucas Caliper
+Nissan,Pulsar,B17,Sedan,2015,2017,SSS,1.6,140,,FWD,DB2287,DB1509,,Std. 4-Wheel Disc
+Nissan,Pulsar,B17,Sedan,2012,2017,,1.8,96,,FWD,DB2287,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,Pulsar,C12,Hatchback,2013,2017,,1.8,96,,FWD,DB1485,DB2340,,Std. 4-Wheel Disc
+Nissan,Pulsar,C12,Hatchback,2013,2017,,1.8,96,,FWD,,DB2340,,Other Products
+Nissan,Pulsar,N13,Hatchback,1987,1991,Efi,1.8,79,,FWD,DB1117,,BS1598,Std. Brake System
+Nissan,Pulsar,N16,Hatchback,2001,2006,,1.8,94,,FWD,DB1165,DB1718,,Std. Brake System - Sumitomo Caliper
+Nissan,Pulsar,N16,Hatchback,2001,2006,,1.8,94,,FWD,DB1454,DB1718,,Std. Brake System
+Nissan,Pulsar,N16,Hatchback,2001,2006,,1.8,94,,FWD,DB1761,DB1718,,Std. Brake System - Lucas Caliper
+Nissan,Pulsar,N16,Sedan,2000,2006,,1.8,94,,FWD,DB1165,DB1718,,Std. Brake System - Sumitomo Caliper
+Nissan,Pulsar,N16,Sedan,2000,2006,,1.8,94,,FWD,DB1454,DB1718,,Std. Brake System
+Nissan,Pulsar,N16,Sedan,2000,2006,,1.8,94,,FWD,DB1761,DB1718,,Std. Brake System - Lucas Caliper
+Nissan,Pulsar,N13,Sedan,1989,1991,Vector Efi,1.8,79,,FWD,DB1117,,BS1598,Std. Brake System
+Nissan,Pulsar,N15,Hatchback,1995,2001,GTi,2.0,105,,FWD,DB1148,DB1247,,Std. 4-Wheel Disc
+Nissan,Pulsar,N14,Hatchback,1990,1995,,2.0,162,GTI-R,AWD,,DB1247,,Std. 4-Wheel Disc
+Nissan,Pulsar,N14,Hatchback,1990,1992,,2.0,169,GTi-R,AWD,DB1281,DB1247,,Other Products
+Nissan,Pulsar,N14,Hatchback,1991,1995,i 16V,2.0,105,,FWD,DB1148,DB1211,,Std. 4-Wheel Disc
+Nissan,Pulsar,"N14,B13",Sedan,1991,1995,,2.0,104,,FWD,DB1148,DB1211,,Std. 4-Wheel Disc
+Nissan,Qashqai,J12,SUV,2022,,,1.3,110,DIG-T,FWD,DB2633,,,Std. 4-Wheel Disc
+Nissan,Qashqai,"J11",SUV,2014,2017,dCi,1.6,96,,FWD,DB2345,DB2357,BS5257,Std. 4-Wheel Disc
+Nissan,Qashqai,"J11",SUV,2014,2017,dCi,1.6,96,,FWD,BR2186,DB2357,BS5257,Other Products
+Nissan,Qashqai,"J11",SUV,2014,2022,,2.0,106,,FWD,DB2345,DB2357,BS5257,Std. 4-Wheel Disc
+Nissan,Qashqai,"J11",SUV,2014,2022,,2.0,106,,FWD,BR2186,DB2357,BS5257,Other Products
+Nissan,S-Cargo,,Van,1989,1994,,1.5,54,,FWD,DB293,,,Std. Front Disc / Rear Drum Brake
+Nissan,Serena,C23,MPV,1992,1995,,2.0,93,,RWD,DB1263,,,Std. Brake System
+Nissan,Serena,C25,MPV,2005,2012,,2.0,101,,FWD,DB1835,BR2331,BS5257,Other Products
+Nissan,Serena,C25,MPV,2005,2010,,2.0,108,,FWD,,DB1509,,Other Products
+Nissan,Serena,C26,MPV,2010,2018,,2.0,108,,FWD,DB1835,DB2340,,Other Products
+Nissan,Serena,C26,MPV,2013,2018,,2.0,108,S-Hybrid,FWD,DB1835,DB2340,,Other Products
+Nissan,Serena,C27,MPV,2016,,,2.0,110,S-Hybrid,FWD,DB2374,DB2340,,Other Products
+Nissan,Silvia,S13,Coupe,1988,1994,,1.8,99,,RWD,,DB325,,Std. 4-Wheel Disc
+Nissan,Silvia,S13,Coupe,1988,1994,Turbo,1.8,124,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Silvia,S14,Coupe,1994,1996,i 16V Turbo,2.0,147,,RWD,DB1148,DB1411,,Std. 4-Wheel Disc
+Nissan,Silvia,S14,Coupe,1994,1996,i 16V Turbo,2.0,147,,RWD,DB1170,DB1411,,Std. 4-Wheel Disc - Piston Caliper
+Nissan,Silvia,S13,Coupe,1991,1993,,2.0,164,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Silvia,S14,Coupe,1994,1999,Turbo,2.0,162,,RWD,DB1170,DB1411,,Other Products - Piston Caliper
+Nissan,Silvia,S15,Coupe,1999,2003,Turbo 16V,2.0,147,,RWD,DB1170,DB325,,Std. 4-Wheel Disc
+Nissan,Silvia 2000,S15,Coupe,1999,2002,,2.0,118,,RWD,DB1232,,,Other Products
+Nissan,Silvia 2000,S15,Coupe,1999,2002,,2.0,121,,RWD,DB1232,,,Other Products
+Nissan,Silvia 2000,S15,Coupe,1999,2003,Turbo,2.0,165,,RWD,DB1170,,,Other Products
+Nissan,Silvia 2000,S15,Coupe,1999,2003,Turbo,2.0,184,,RWD,DB1170,,,Other Products
+Nissan,Skyline,R32,Sedan,1989,1993,,1.8,67,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Coupe,1989,1993,,2.0,114,,AWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Sedan,1989,1993,,2.0,114,,AWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Coupe,1990,1993,,2.0,160,,AWD,DB1170,DB1220,,Other Products
+Nissan,Skyline,R31,Coupe,1986,1989,,2.0,96,,RWD,DB340,,,Other Products
+Nissan,Skyline,R31,Sedan,1985,1989,,2.0,96,,RWD,DB340,,,Other Products
+Nissan,Skyline,R32,Coupe,1989,1993,,2.0,114,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Sedan,1989,1993,,2.0,114,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Coupe,1990,1993,,2.0,116,,RWD,DB1167,,,Other Products
+Nissan,Skyline,R32,Sedan,1990,1993,,2.0,160,,RWD,DB1170,DB1220,,Other Products
+Nissan,Skyline,R32,Sedan,1989,1993,,2.0,92,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Coupe,1993,1998,,2.0,96,,RWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Sedan,1993,1998,,2.0,96,,RWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Coupe,1989,1993,Turbo,2.0,158,,AWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Sedan,1989,1993,Turbo,2.0,158,,AWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Coupe,1989,1993,Turbo,2.0,158,,RWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,Skyline,R32,Sedan,1989,1993,Turbo,2.0,158,,RWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Coupe,1993,1998,,2.5,140,,AWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Sedan,1993,1998,,2.5,140,,AWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Sedan,2006,2007,,2.5,158,,AWD,,DB1509,,Other Products
+Nissan,Skyline,R32,Coupe,1991,1993,,2.5,132,,RWD,DB1232,,,Other Products
+Nissan,Skyline,R32,Sedan,1989,1993,,2.5,132,,RWD,DB1117,DB325,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Coupe,1993,1998,,2.5,140,,RWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Sedan,1993,1998,,2.5,140,,RWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R33,Coupe,1994,2000,,2.5,184,,RWD,DB1165,DB1144,,Std. 4-Wheel Disc
+Nissan,Skyline,R34,Coupe,1998,2006,Turbo,2.5,206,,RWD,DB1170,DB1220,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Sedan,2000,2006,,2.5,158,,RWD,DB1232,DB1509,,Other Products
+Nissan,Skyline,R34,Coupe,1999,2008,Turbo,2.6,245,,AWD,DB1520,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,Skyline,R32,Coupe,1989,1995,Twin Turbo,2.6,206,,AWD,DB1520,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,Skyline,R33,Coupe,1994,1999,Twin Turbo,2.6,206,,AWD,DB1520,DB1521,,Std. 4-Wheel Disc - Brembo Caliper
+Nissan,Skyline 250GT Four,V36,Sedan,2006,2014,,2.5,165,,AWD,,DB1509,,Other Products
+Nissan,Skyline 250GT,V36,Sedan,2006,2014,,2.5,165,,RWD,,DB1509,,Other Products
+Nissan,Skyline,R31,Sedan,1986,1990,,3.0,117,,RWD,,DB1106,,Std. 4-Wheel Disc
+Nissan,Skyline,R31,Wagon,1986,1990,,3.0,117,,RWD,,DB1106,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Sedan,2001,2007,,3.0,191,,RWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Coupe,2001,2007,,3.5,206,,AWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Sedan,2001,2007,,3.5,200,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Skyline,V35,Sedan,2001,2007,,3.5,200,,RWD,,DB2340,,Other Products
+Nissan,Skyline,V35,Coupe,2003,2006,,3.5,206,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc - Single Piston Caliper
+Nissan,Skyline 350GT,V36,Sedan,2006,2011,,3.5,232,,RWD,,DB1509,,Other Products
+Nissan,Skyline 370GT,V36,Sedan,2008,2014,,3.7,243,,AWD,,DB1509,,Other Products
+Nissan,Skyline 370GT,V36,Sedan,2008,2014,,3.7,243,,RWD,,DB2340,,Other Products
+Nissan,Skyline 370GT,V36,Coupe,2007,2015,,3.7,245,,RWD,,DB1509,,Other Products
+Nissan,Stagea,WC34,Wagon,1996,2001,,2.0,96,,RWD,DB1187,DB1144,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2003,,2.5,158,,AWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2003,,2.5,158,,AWD,,DB2340,,Other Products
+Nissan,Stagea,WC34,Wagon,1996,2001,,2.5,140,,AWD,DB1308,DB1144,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2007,,2.5,158,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2007,,2.5,158,,RWD,,DB2340,,Other Products
+Nissan,Stagea,M35,Wagon,2001,2003,Turbo,2.5,206,,AWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2003,Turbo,2.5,206,,AWD,,DB2340,,Other Products
+Nissan,Stagea,WC34,Wagon,1996,2001,Turbo,2.5,173,,AWD,DB1250,DB1144,,Std. 4-Wheel Disc
+Nissan,Stagea,WC34,Wagon,1996,2001,,2.5,140,,RWD,DB1187,DB1144,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2003,,3.0,191,,RWD,DB1232,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2001,2003,,3.0,191,,RWD,,DB2340,,Other Products
+Nissan,Stagea,M35,Wagon,2004,2007,,3.5,200,,AWD,DB1485,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2004,2007,,3.5,200,,AWD,,DB2340,,Other Products
+Nissan,Stagea,M35,Wagon,2004,2007,,3.5,200,,RWD,DB1485,DB1509,,Std. 4-Wheel Disc
+Nissan,Stagea,M35,Wagon,2004,2007,,3.5,200,,RWD,,DB2340,,Other Products
+Nissan,Terrano II,R20,Wagon,1997,2000,,2.4,87,,AWD,DB1357,DB1175,,Std. 4-Wheel Disc
+Nissan,Terrano II,R20,Wagon,1997,2000,TDi,2.7,92,,AWD,DB1357,DB1175,,Std. 4-Wheel Disc
+Nissan,Terrano,WD21,Wagon,1989,1996,TD,2.7,73,,AWD,DB340,DB1175,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Tiida,SC11,Sedan,2006,2013,,1.8,93,,FWD,DB1819,DB1192,BS5257,Std. Front Disc / Rear Drum Brake
+Nissan,Urvan,E24,Van,1987,1993,,2.4,74,,RWD,DB321,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Urvan,E24,Bus,1987,1993,i,2.4,74,,RWD,DB321,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Urvan,E24,Bus,1987,1993,,2.7,62,D,RWD,DB321,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Urvan,E24,Van,1987,1993,,2.7,62,D,RWD,DB321,,BS1657,Std. Front Disc / Rear Drum Brake
+Nissan,Ute,720,Ute,1980,1986,,1.8,59,,AWD,DB86,,,Std. Front Disc / Rear Drum Brake
+Nissan,Ute,720,Ute,1983,1986,,2.2,71,,AWD,DB340,,,Std. Front Disc / Rear Drum Brake - Akebono Caliper
+Nissan,Ute,720,Ute,1983,1986,,2.3,51,D,AWD,DB340,,,Std. Front Disc / Rear Drum Brake - Akebono Caliper
+Nissan,Ute,720,Ute,1983,1986,,2.5,53,D,AWD,DB340,,,Std. Front Disc / Rear Drum Brake - Akebono Caliper
+Nissan,X-Trail,T33,SUV,2022,,VC-T e-Power,1.5,157,,AWD,DB2706,DB2634,,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2014,2017,dCi,1.6,96,MODE-i,AWD,DB2341,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2014,2017,dCi,1.6,96,,FWD,DB2341,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,T30,SUV,2001,2013,,2.0,206,,AWD,DB1333,DB1509,BS5252,Std. 4-Wheel Disc
+Nissan,X-Trail,T31,SUV,2007,2013,,2.0,101,,AWD,,DB1509,,Std. 4-Wheel Disc
+Nissan,X-Trail,T31,SUV,2008,2014,dCi,2.0,110,,AWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,T31,SUV,2008,2014,dCi,2.0,127,,AWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2016,2022,dCi,2.0,130,MODE-i,AWD,DB2341,DB2340,,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2016,2022,Hybrid,2.0,138,MODE-i,AWD,DB2341,DB2340,,Other Products
+Nissan,X-Trail,T31,SUV,2008,2014,,2.0,102,,FWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2014,2022,,2.0,106,,FWD,DB2341,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,T30,SUV,2006,2007,,2.5,121,,AWD,DB1333,DB1509,BS5252,Std. 4-Wheel Disc
+Nissan,X-Trail,T30,SUV,2001,2006,,2.5,132,,AWD,DB1333,DB1509,BS5252,Std. 4-Wheel Disc
+Nissan,X-Trail,T31,SUV,2007,2014,,2.5,124,,AWD,DB1946,DB1509,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2013,2022,ALL,2.5,126,MODE-i,AWD,DB2341,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,T33,Wagon,2022,,ALL,2.5,135,MODE-i,AWD,DB2706,DB2634,,Std. 4-Wheel Disc
+Nissan,X-Trail,"T32,T32R",SUV,2013,2022,,2.5,126,,FWD,DB2341,DB2340,BS5257,Std. 4-Wheel Disc
+Nissan,X-Trail,T33,Wagon,2022,,,2.5,135,,FWD,DB2706,DB2634,,Std. 4-Wheel Disc
+Nissan,Z,Z34,Coupe,2022,,,3.0,298,,RWD,DB2400,,,Std. 4-Wheel Disc

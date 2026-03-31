@@ -1,0 +1,810 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2012,2021,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2012,2021,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2012,2021,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2012,2021,Brake Pad Set,Rear,DB1521,Bendix Brake Upgrade Kits
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2016,2021,Brake Pad Set,Rear,DB1521,Bendix Brake Upgrade Kits
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2016,2021,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc
+Bendix,Subaru,BRZ,Z1,2.0,,RWD,Coupe,2016,2021,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc
+Bendix,Subaru,Crosstrek,GU,2.0,,AWD,SUV,2023,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Crosstrek,GU,2.0,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Crosstrek,GU,2.0,,AWD,SUV,2023,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Crosstrek,GU,2.0,,AWD,SUV,2023,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Fiori,,0.8,,FWD,Hatchback,1989,1992,Brake Pad Set,Front,DB1160,Std. Front Disc / Rear Drum Brake
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,1997,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,1997,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,1997,2000,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,1997,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc - Subaru Caliper
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc - Subaru Caliper
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Forester,SF,2.0,,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,SG,2.0,,AWD,SUV,2002,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.0,,AWD,SUV,2002,2008,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.0,,AWD,SUV,2002,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.0,,AWD,SUV,2002,2008,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.0,,AWD,SUV,2008,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SH,2.0,,AWD,SUV,2008,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Forester,SH,2.0,,AWD,SUV,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.0,,AWD,SUV,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Forester,SK,2.0,,AWD,SUV,2018,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SK,2.0,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SK,2.0,,AWD,SUV,2018,,Brake Pad Set,Front,BR6049,Other Products
+Bendix,Subaru,Forester,SK,2.0,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,,AWD,SUV,2013,2018,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,1998,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,1998,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,1998,2000,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,1998,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc - Subaru Caliper
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc - Subaru Caliper
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Forester,SF,2.0,S,AWD,SUV,2000,2002,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,SG,2.0,S,AWD,SUV,2002,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.0,S,AWD,SUV,2002,2008,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.0,S,AWD,SUV,2002,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.0,S,AWD,SUV,2002,2008,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SJ,2.0,XT,AWD,SUV,2013,2018,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2002,2005,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2003,2005,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,S11SG,2.5,,AWD,SUV,2005,2008,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2009,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2009,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2009,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2009,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2008,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2008,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.5,,AWD,SUV,2012,2018,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.5,,AWD,SUV,2012,2018,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SJ,2.5,,AWD,SUV,2012,2018,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SJ,2.5,,AWD,SUV,2012,2018,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Forester,SK,2.5,,AWD,SUV,2018,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SK,2.5,,AWD,SUV,2018,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SK,2.5,,AWD,SUV,2018,,Brake Pad Set,Front,BR6047,Other Products
+Bendix,Subaru,Forester,SK,2.5,,AWD,SUV,2018,,Brake Pad Set,Rear,BR6048,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Forester,SH,2.5,,AWD,SUV,2011,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,1.5,,AWD,Sedan,2001,2007,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GD,1.5,,FWD,Sedan,2001,2007,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1998,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1998,1998,Brake Pad Set,Front,DB1185,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1998,1998,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Impreza,GF,1.6,,AWD,Wagon,1993,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.6,,AWD,Wagon,1993,1998,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.6,,AWD,Wagon,1993,1998,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.6,,AWD,Wagon,1993,1998,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.6,,AWD,Wagon,1993,1998,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1993,1998,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1997,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1997,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1997,2000,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,1.6,,FWD,Sedan,1997,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GF,1.6,,FWD,Wagon,1997,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.6,,FWD,Wagon,1997,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Impreza,GC,1.8,,AWD,Sedan,1993,1996,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Impreza,GF,1.8,,AWD,Wagon,1993,1996,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.8,,AWD,Wagon,1993,1996,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.8,,AWD,Wagon,1993,1996,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.8,,AWD,Wagon,1993,1996,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.8,,AWD,Wagon,1993,1996,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Impreza,GC,1.8,,FWD,Sedan,1995,1996,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Impreza,GF,1.8,,FWD,Wagon,1995,1996,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.8,,FWD,Wagon,1995,1996,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,1.8,,FWD,Wagon,1995,1996,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.8,,FWD,Wagon,1995,1996,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Impreza,GF,1.8,,FWD,Wagon,1995,1996,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2005,2007,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1672,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2005,2007,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Impreza,GJ,2.0,,AWD,Sedan,2011,2016,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GJ,2.0,,AWD,Sedan,2011,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GJ,2.0,,AWD,Sedan,2011,2016,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GJ,2.0,,AWD,Sedan,2011,2016,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Impreza,GP,2.0,,AWD,Hatchback,2012,2016,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GP,2.0,,AWD,Hatchback,2012,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GP,2.0,,AWD,Hatchback,2012,2016,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GP,2.0,,AWD,Hatchback,2012,2016,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GH,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GH,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,G3,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,G3,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GE,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GE,2.0,,AWD,Hatchback,2007,2010,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1998,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1998,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1998,2000,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1998,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GK7,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GK7,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,BR3052,Other Products
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,Impreza,GK7,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,BR3052,Other Products
+Bendix,Subaru,Impreza,GK7,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GT7,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Front,DB2480,Other Products
+Bendix,Subaru,Impreza,G5,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,Impreza,GT7,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Front,DB2480,Other Products
+Bendix,Subaru,Impreza,GT7,2.0,,AWD,Hatchback,2016,2023,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1996,1998,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1996,1998,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1999,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1999,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1999,2000,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,AWD,Sedan,1999,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2001,2002,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2001,2002,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2001,2002,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,2001,2002,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,1999,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,1999,2007,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,1999,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GD,2.0,,AWD,Sedan,1999,2007,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1996,1998,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1996,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1996,1998,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GF,2.0,,AWD,Wagon,1996,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Impreza,GG,2.0,,AWD,Wagon,2000,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,,AWD,Wagon,2000,2007,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,,AWD,Wagon,2000,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,,AWD,Wagon,2000,2007,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GK,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GK,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GK,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Front,BR3052,Other Products
+Bendix,Subaru,Impreza,GK,2.0,,AWD,Sedan,2016,2023,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE7,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE7,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GR,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GE7,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GE7,2.0,,AWD,Sedan,2008,2016,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1996,1998,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1996,1998,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GC,2.0,,FWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GFC,2.0,,FWD,Coupe,1995,2000,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GFC,2.0,,FWD,Coupe,1995,2000,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GFC,2.0,,FWD,Coupe,1995,2000,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Impreza,GFC,2.0,,FWD,Coupe,1995,2000,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Impreza,GD,2.0,R,AWD,Sedan,2005,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,R,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,R,AWD,Sedan,2005,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GD,2.0,R,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1992,1998,Brake Pad Set,Front,DB1219,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1992,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1992,1998,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1992,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1379,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1998,2000,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX,AWD,Sedan,1998,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2002,2005,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2002,2005,Brake Pad Set,Rear,DB1220,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,WRX,AWD,Wagon,1994,1998,Brake Pad Set,Front,DB1219,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,WRX,AWD,Wagon,1994,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,WRX,AWD,Wagon,1998,2000,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GF,2.0,WRX,AWD,Wagon,1998,2000,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2000,2005,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2000,2005,Brake Pad Set,Rear,DB1220,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2000,2005,Brake Pad Set,Rear,DB1220,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GE,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH7,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH7,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GE,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GH,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GH,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GR,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GR,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GH7,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GH7,2.0,R,AWD,Hatchback,2008,2012,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2005,2006,Brake Pad Set,Front,BR650,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2005,2006,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2005,2006,Brake Pad Set,Rear,BR644,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2005,2006,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,Impreza,GG,2.0,WRX,AWD,Wagon,2005,2006,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX STi,AWD,Sedan,1999,2000,Brake Pad Set,Rear,DB1379,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GC,2.0,WRX STi,AWD,Sedan,1999,2000,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GC,2.0,WRX STi,AWD,Sedan,1999,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GD,2.0,WRX STi,AWD,Sedan,2001,2005,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,WRX STi,AWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,WRX STi,AWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1521,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GE,2.0,WRX STI,AWD,Sedan,2010,2015,Brake Pad Set,Front,DB1678,Other Products
+Bendix,Subaru,Impreza,GE,2.0,WRX STI,AWD,Sedan,2010,2015,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Impreza,GV,2.0,WRX STI,AWD,Sedan,2010,2015,Brake Pad Set,Front,DB1678,Other Products
+Bendix,Subaru,Impreza,GV,2.0,WRX STI,AWD,Sedan,2010,2015,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Impreza,GFC,2.0,WRX STi,AWD,Coupe,1998,2000,Brake Pad Set,Rear,DB1379,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GFC,2.0,WRX STi,AWD,Coupe,1998,2000,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GFC,2.0,WRX STi,AWD,Coupe,1998,2000,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2000,2002,Brake Pad Set,Front,DB1170,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2000,2002,Brake Pad Set,Rear,DB1220,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2000,2002,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2000,2002,Brake Pad Set,Rear,DB1220,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GD,2.0,WRX,AWD,Sedan,2002,2007,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2005,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2001,2005,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1672,Other Products
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2001,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,,AWD,Sedan,2001,2005,Brake Pad Set,Rear,DB1672,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GDA,2.5,,AWD,Wagon,2002,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GDA,2.5,,AWD,Wagon,2002,2005,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GGA,2.5,,AWD,Wagon,2002,2005,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GGA,2.5,,AWD,Wagon,2002,2005,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,WRX,AWD,Sedan,2005,2007,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,WRX,AWD,Sedan,2005,2007,Brake Pad Set,Front,DB1170,Other Products
+Bendix,Subaru,Impreza,GD,2.5,WRX,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1220,Other Products
+Bendix,Subaru,Impreza,GD,2.5,WRX,AWD,Sedan,2005,2007,Brake Pad Set,Rear,BR644,Bendix Brake Upgrade Kits
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GHE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GHE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GHE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GHE,2.5,WRX,AWD,Hatchback,2007,2011,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,G3,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GE,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GH,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,G3,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,G3,2.5,WRX,AWD,Hatchback,2010,2013,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GG,2.5,WRX,AWD,Wagon,2005,2008,Brake Pad Set,Front,BR650,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GG,2.5,WRX,AWD,Wagon,2005,2008,Brake Pad Set,Rear,DB1220,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GVE,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GVE,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GVE,2.5,WRX,AWD,Sedan,2008,2016,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GD,2.5,WRX STi,AWD,Sedan,2005,2007,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GE,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GH,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GRF,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GRF,2.5,WRX STi,AWD,Hatchback,2008,2013,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Front,BR654-10,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Rear,BR2656,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GVF,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Front,BR654-10,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GVF,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Rear,BR2656,Std. 4-Wheel Disc
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Front,DB1678,Other Products
+Bendix,Subaru,Impreza,GR,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Impreza,GVF,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Front,DB1678,Other Products
+Bendix,Subaru,Impreza,GVF,2.5,WRX STi,AWD,Sedan,2011,2013,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Leone 1800,,1.8,,AWD,Wagon,1980,1984,Brake Pad Set,Front,DB392,Std. Brake System
+Bendix,Subaru,Leone 1800 Super,,1.8,,AWD,Wagon,1980,1984,Brake Pad Set,Front,DB392,Std. Brake System
+Bendix,Subaru,Levorg,EK(V1),1.6,,AWD,Wagon,2015,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Levorg,EK(V1),1.6,,AWD,Wagon,2015,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Levorg,EK(V1),1.6,,AWD,Wagon,2015,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Levorg,EK(V1),1.6,,AWD,Wagon,2015,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Levorg,EK(V1),2.0,,AWD,Wagon,2016,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Levorg,EK(V1),2.0,,AWD,Wagon,2016,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2005,2007,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Front,DB1342,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Front,DB1342,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,2002,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2003,2005,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2003,2005,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2005,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2005,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,GT,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,GT,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,GT,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,B13,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BP,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,GT,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BH,2.0,GT,AWD,Wagon,1998,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BL,2.0,GT STI,AWD,Sedan,2004,2009,Brake Pad Set,Front,BR654-10,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,GT STI,AWD,Sedan,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,GT STI,AWD,Sedan,2004,2009,Brake Pad Set,Front,BR654-10,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BH,2.0,GX,AWD,Wagon,1998,2003,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BH,2.0,GX,AWD,Wagon,1998,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BH,2.0,GX,AWD,Wagon,1998,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BH,2.0,GX,AWD,Wagon,1998,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BE,2.0,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,B13,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP5,2.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2003,2006,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.0,,AWD,Sedan,2003,2006,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Front,DB1363,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BD,2.2,,AWD,Sedan,1995,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BC,2.2,,FWD,Sedan,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BC,2.2,,FWD,Sedan,1989,1994,Brake Pad Set,Front,DB1185,Other Products
+Bendix,Subaru,Liberty,BC,2.2,,FWD,Sedan,1989,1994,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1998,Brake Pad Set,Front,DB1185,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1998,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1998,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1998,Brake Pad Set,Front,DB1363,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1996,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1996,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1996,Brake Pad Set,Front,DB1363,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BG,2.2,,AWD,Wagon,1994,1996,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BG,2.2,,FWD,Wagon,1994,1996,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty,BC,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty,BF,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty,BJ,2.2,"DX, GX, LX",FWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Front,DB1363,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc - Akebono Caliper
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",AWD,Sedan,1994,1999,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",FWD,Sedan,1994,1995,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",FWD,Sedan,1994,1995,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",FWD,Sedan,1994,1995,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty,BD,2.2,"GX, LX",FWD,Sedan,1994,1995,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BG,2.2,LX,AWD,Wagon,1994,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.2,LX,AWD,Wagon,1994,1998,Brake Pad Set,Front,DB1185,Other Products
+Bendix,Subaru,Liberty,BG,2.2,LX,AWD,Wagon,1994,1998,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty,BG,2.2,LX,FWD,Wagon,1994,1998,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,B13,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,B13,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP9,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP9,2.5,,AWD,Wagon,2003,2006,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.5,,AWD,Sedan,1998,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.5,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BE,2.5,,AWD,Sedan,1998,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BE,2.5,,AWD,Sedan,1998,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2003,2007,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2003,2007,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2003,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2003,2007,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2014,2017,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2014,2017,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,GT,AWD,Sedan,2010,2014,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BM,2.5,GT,AWD,Sedan,2010,2014,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BM,2.5,GT,AWD,Sedan,2010,2014,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BM,2.5,GT,AWD,Sedan,2010,2014,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,BR,2.5,GT,AWD,Wagon,2010,2014,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BR,2.5,GT,AWD,Wagon,2010,2014,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BR,2.5,GT,AWD,Wagon,2010,2014,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BR,2.5,GT,AWD,Wagon,2010,2014,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,BD,2.5,,AWD,Sedan,1996,1999,Brake Pad Set,Front,DB1342,Other Products
+Bendix,Subaru,Liberty,BD,2.5,,AWD,Sedan,1996,1999,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BG,2.5,,AWD,Wagon,1996,1998,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BG,2.5,,AWD,Wagon,1996,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2007,2009,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2007,2009,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2007,2009,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.5,,AWD,Sedan,2007,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2009,2014,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2009,2014,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2009,2014,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2009,2014,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2012,2014,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2012,2014,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2012,2014,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BM,2.5,,AWD,Sedan,2012,2014,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BN,2.5,,AWD,Sedan,2015,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BN,2.5,,AWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BN,2.5,,AWD,Sedan,2015,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Liberty,BN,2.5,,AWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,Liberty,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2009,2014,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2009,2014,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2009,2014,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2009,2014,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2012,2014,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2012,2014,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2012,2014,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BR,2.5,,AWD,Wagon,2012,2014,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Liberty,BD,2.5,RX,AWD,Sedan,1996,1998,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.5,RX,AWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BD,2.5,RX,AWD,Sedan,1996,1998,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BD,2.5,RX,AWD,Sedan,1996,1998,Brake Pad Set,Rear,DB1186,Other Products
+Bendix,Subaru,Liberty,BH,2.5,RX,AWD,Wagon,1998,2003,Brake Pad Set,Front,BR648,Other Products
+Bendix,Subaru,Liberty,BH,2.5,RX,AWD,Wagon,1998,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BH,2.5,RX,AWD,Wagon,1998,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BH,2.5,RX,AWD,Wagon,1998,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,B13,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BP,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BP,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BP9,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BP9,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,B13,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,B13,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,BP,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,STI,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,BL,2.5,STI,AWD,Sedan,2006,2009,Brake Pad Set,Front,DB1678,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BL,2.5,STI,AWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1521,Std. 4-Wheel Disc - Brembo Caliper
+Bendix,Subaru,Liberty,BL,2.5,STI,AWD,Sedan,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BL,2.5,STI,AWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,Liberty,B13,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP9,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP9,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,B13,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,Liberty,BP,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP9,2.5,T,AWD,Wagon,2006,2009,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,Liberty,BL,2.5,T,AWD,Sedan,2006,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.5,T,AWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,2.5,T,AWD,Sedan,2006,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BL,2.5,T,AWD,Sedan,2006,2009,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,Liberty,B13,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BP,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BPE,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BPE,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,B13,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,B13,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BP,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BP,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BPE,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BPE,3.0,R,AWD,Wagon,2004,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2004,2009,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2004,2009,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2004,2009,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2004,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2007,2009,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,Liberty,BL,3.0,R,AWD,Sedan,2007,2009,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Liberty,BM,3.6,,AWD,Sedan,2009,2014,Brake Pad Set,Front,DB1722,Other Products
+Bendix,Subaru,Liberty,BM,3.6,,AWD,Sedan,2009,2014,Brake Pad Set,Rear,DB1789,Other Products
+Bendix,Subaru,Liberty,BN,3.6,,AWD,Sedan,2015,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BN,3.6,,AWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty,BN,3.6,,AWD,Sedan,2015,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Liberty,BN,3.6,,AWD,Sedan,2015,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,"Liberty GS Rally, Heritage",BC,2.2,,AWD,Sedan,1990,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty I GX,BC,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty I GX,BF,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Front,BR649,Other Products
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Pad Set,Rear,BR644,Other Products
+Bendix,Subaru,Liberty I GX,BJ,2.2,,AWD,Wagon,1989,1994,Brake Shoe Set,Park Brake,BS1730,Other Products
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BF,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BF,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BJ,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BJ,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Wagon,1991,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty RS,BF,2,,AWD,Wagon,1991,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty RS,BF,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty RS,BF,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty RS,BJ,2,,AWD,Wagon,1991,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty RS,BJ,2,,AWD,Wagon,1991,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty RS,BJ,2,,AWD,Wagon,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Pad Set,Front,BR648,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Pad Set,Rear,BR644,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. 4-Wheel Disc
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Pad Set,Front,DB1185,Std. Brake System
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Pad Set,Rear,DB1186,Std. Brake System
+Bendix,Subaru,Liberty RS,BC,2,,AWD,Sedan,1991,1994,Brake Shoe Set,Park Brake,BS1730,Std. Brake System
+Bendix,Subaru,Outback,BR,2.0,,AWD,Wagon,2009,2015,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.0,,AWD,Wagon,2009,2015,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.0,,AWD,Wagon,2009,2015,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BR,2.0,,AWD,Wagon,2009,2015,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Outback,BS,2.0,,AWD,Wagon,2014,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,2.0,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,2.0,,AWD,Wagon,2014,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Outback,BS,2.0,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Outback,BT,2.4,,AWD,Wagon,2023,,Brake Pad Set,Rear,BR2662,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BT,2.4,,AWD,Wagon,2019,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BT,2.4,,AWD,Wagon,2019,,Brake Pad Set,Rear,BR2662,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,2.5,,AWD,Wagon,2000,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,2.5,,AWD,Wagon,2000,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,2.5,,AWD,Wagon,2000,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BH,2.5,,AWD,Wagon,2000,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2003,2007,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2003,2007,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2003,2007,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2003,2007,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BP,2.5,,AWD,Wagon,2008,2009,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Outback,BS,2.5,,AWD,Wagon,2014,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,2.5,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,2.5,,AWD,Wagon,2014,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Outback,BS,2.5,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Outback,BT,2.5,,AWD,Wagon,2020,2023,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BT,2.5,,AWD,Wagon,2020,2023,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BT,2.5,,AWD,Wagon,2023,,Brake Pad Set,Rear,BR2662,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BT,2.5,,AWD,Wagon,2023,,Brake Pad Set,Front,DB2480,Other Products
+Bendix,Subaru,Outback,BT,2.5,,AWD,Wagon,2023,,Brake Pad Set,Rear,BR2662,Other Products
+Bendix,Subaru,Outback,BG,2.5,,AWD,Wagon,1996,1999,Brake Pad Set,Front,DB1185,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BG,2.5,,AWD,Wagon,1996,1999,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2009,2015,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2009,2015,Brake Pad Set,Rear,BR2659,Other Products
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2009,2015,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2009,2015,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2012,2015,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2012,2015,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2013,2015,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,Outback,BR,2.5,,AWD,Wagon,2013,2015,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,Outback,BP,3.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BP,3.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,BR2661,Other Products
+Bendix,Subaru,Outback,BP,3.0,,AWD,Wagon,2003,2009,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BP,3.0,,AWD,Wagon,2003,2009,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,3.0,,AWD,Wagon,2000,2003,Brake Pad Set,Front,DB1342,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,3.0,,AWD,Wagon,2000,2003,Brake Pad Set,Rear,DB1379,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BH,3.0,,AWD,Wagon,2000,2003,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,Outback,BH,3.0,,AWD,Wagon,2000,2003,Brake Pad Set,Rear,DB1379,Other Products
+Bendix,Subaru,Outback,BS,3.6,,AWD,Wagon,2014,2020,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,3.6,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BS,3.6,,AWD,Wagon,2014,2020,Brake Pad Set,Front,BR6015,Other Products
+Bendix,Subaru,Outback,BS,3.6,,AWD,Wagon,2014,2020,Brake Pad Set,Rear,DB2398,Other Products
+Bendix,Subaru,Outback,BR,3.6,R,AWD,Wagon,2009,2015,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,3.6,R,AWD,Wagon,2009,2015,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,Outback,BR,3.6,R,AWD,Wagon,2009,2015,Brake Pad Set,Front,BR2650,Other Products
+Bendix,Subaru,Outback,BR,3.6,R,AWD,Wagon,2009,2015,Brake Pad Set,Rear,DB1789,Other Products
+Bendix,Subaru,Sherpa 700,,0.7,,FWD,Hatchback,1982,1989,Brake Pad Set,Front,DB1160,Std. Brake System
+Bendix,Subaru,Solterra,,,,AWD,SUV,2022,,Brake Pad Set,Front,DB2004,Std. 4-Wheel Disc
+Bendix,Subaru,Solterra,,,,AWD,SUV,2022,,Brake Pad Set,Rear,DB2529,Std. 4-Wheel Disc
+Bendix,Subaru,SVX,CX,3.3,,AWD,Coupe,1994,1997,Brake Pad Set,Front,DB438,Std. 4-Wheel Disc
+Bendix,Subaru,SVX,CX,3.3,,AWD,Coupe,1994,1997,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,SVX,CX,3.3,,AWD,Coupe,1992,1994,Brake Pad Set,Front,DB438,Std. 4-Wheel Disc
+Bendix,Subaru,SVX,CX,3.3,,AWD,Coupe,1992,1994,Brake Pad Set,Rear,DB1186,Std. 4-Wheel Disc
+Bendix,Subaru,Tribeca,B9,3.0,,AWD,SUV,2006,2007,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Tribeca,B9,3.0,,AWD,SUV,2006,2007,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,Tribeca,B9,3.6,,AWD,SUV,2007,2013,Brake Pad Set,Front,DB1722,Std. 4-Wheel Disc
+Bendix,Subaru,Tribeca,B9,3.6,,AWD,SUV,2007,2013,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,Vortex,XT,1.8,,AWD,Coupe,1984,1990,Brake Pad Set,Rear,DB419,Std. 4-Wheel Disc
+Bendix,Subaru,Vortex,XT,1.8,,AWD,Coupe,1988,1990,Brake Pad Set,Rear,DB419,Std. 4-Wheel Disc
+Bendix,Subaru,WRX,VA,2.0,,AWD,Sedan,2013,2022,Brake Pad Set,Front,DB1722,Other Products
+Bendix,Subaru,WRX,VA,2.0,,AWD,Sedan,2013,2022,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,WRX,VB,2.4,,AWD,Sedan,2022,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,WRX,VB,2.4,,AWD,Sedan,2022,,Brake Pad Set,Rear,DB1789,Std. 4-Wheel Disc
+Bendix,Subaru,WRX,VB,2.4,,AWD,Sedan,2022,,Brake Pad Set,Front,BR6049,Other Products
+Bendix,Subaru,WRX,VB,2.4,,AWD,Sedan,2022,,Brake Pad Set,Rear,DB1789,Other Products
+Bendix,Subaru,WRX,VN,2.4,,AWD,Wagon,2022,,Brake Pad Set,Rear,BR2662,Std. 4-Wheel Disc
+Bendix,Subaru,WRX,VN,2.4,,AWD,Wagon,2022,,Brake Pad Set,Front,BR6049,Other Products
+Bendix,Subaru,WRX,VN,2.4,,AWD,Wagon,2022,,Brake Pad Set,Rear,BR2662,Other Products
+Bendix,Subaru,WRX Sti,VA,2.5,,AWD,Sedan,2013,2022,Brake Pad Set,Rear,DB1521,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2014,2017,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2014,2017,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2014,2022,Brake Pad Set,Front,DB1491,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2014,2022,Brake Pad Set,Rear,DB1803,Other Products
+Bendix,Subaru,XV,G5X,2.0,,AWD,SUV,2017,2022,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,XV,G5X,2.0,,AWD,SUV,2017,2022,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,XV,G5X,2.0,,AWD,SUV,2017,2022,Brake Pad Set,Front,BR3054,Other Products
+Bendix,Subaru,XV,G5X,2.0,,AWD,SUV,2017,2022,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2011,2017,Brake Pad Set,Front,BR650,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2011,2017,Brake Pad Set,Rear,BR2667,Other Products
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2011,2017,Brake Pad Set,Front,DB1491,Std. 4-Wheel Disc
+Bendix,Subaru,XV,GP,2.0,,AWD,SUV,2011,2017,Brake Pad Set,Rear,DB1803,Std. 4-Wheel Disc
+Bendix,Subaru,XV,GT,2.0,,AWD,SUV,2019,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,XV,GT,2.0,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,XV,G24,2.0,,AWD,SUV,2019,,Brake Pad Set,Front,DB2480,Std. 4-Wheel Disc
+Bendix,Subaru,XV,G24,2.0,,AWD,SUV,2019,,Brake Pad Set,Rear,DB2398,Std. 4-Wheel Disc
+Bendix,Subaru,XV,GT,2.0,,AWD,SUV,2019,,Brake Pad Set,Front,BR3054,Other Products
+Bendix,Subaru,XV,GT,2.0,,AWD,SUV,2019,,Brake Pad Set,Rear,BR3053,Other Products
+Bendix,Subaru,XV,G24,2.0,,AWD,SUV,2019,,Brake Pad Set,Front,BR3054,Other Products
+Bendix,Subaru,XV,G24,2.0,,AWD,SUV,2019,,Brake Pad Set,Rear,BR3053,Other Products
