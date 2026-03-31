@@ -55,7 +55,10 @@
       "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-hsv-combined.csv --dry-run)",
       "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-hsv-combined.csv)",
       "Bash(node scripts/importers/import-parts-csv.js scripts/pontiac_firebird_parts.csv --dry-run)",
-      "Bash(node scripts/importers/import-parts-csv.js scripts/pontiac_firebird_parts.csv)"
+      "Bash(node scripts/importers/import-parts-csv.js scripts/pontiac_firebird_parts.csv)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ajwin\\car-parts-app\\app\\api\\parts"
