@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { supabase } from "../../lib/supabaseClient";
 
 type Props = {
   specs: Record<string, string> | null;
@@ -56,9 +57,28 @@ export default function PartDetailClient({
 }: Props) {
   const totalFitments = fitments.length;
   const totalRefs = oemRefs.length + aftermarketRefs.length;
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setIsAdmin(!!session);
+    });
+  }, []);
 
   return (
     <div className="space-y-3">
+
+      {/* Admin edit button */}
+      {isAdmin && (
+        <div className="flex justify-end">
+          <a
+            href={`/part/${partId}/edit`}
+            className="rounded-xl border border-gray-200 px-4 py-2 text-xs font-semibold text-gray-600 hover:bg-gray-50 transition-colors"
+          >
+            ✎ Edit Part
+          </a>
+        </div>
+      )}
 
       {/* Tech Specs */}
       {specs && Object.keys(specs).length > 0 && (
