@@ -45,7 +45,13 @@
       "Bash(node scripts/importers/insert-abarth-vehicles.js scripts/abarth_brake_catalogue.csv --dry-run)",
       "Bash(node scripts/utils/preprocess-honda-bendix.js scripts/abarth_brake_catalogue.csv scripts/bendix-abarth-combined.csv)",
       "Bash(node scripts/importers/insert-abarth-vehicles.js scripts/abarth_brake_catalogue.csv)",
-      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-abarth-combined.csv)"
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-abarth-combined.csv)",
+      "Bash(node scripts/importers/insert-isuzu-early.js)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/isuzu_early_parts.csv --dry-run)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/isuzu_early_parts.csv)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\ajwin\\car-parts-app\\app\\api\\parts"
     ]
   }
 }
