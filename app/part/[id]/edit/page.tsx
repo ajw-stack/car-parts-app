@@ -112,6 +112,16 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
     setImageUrls((prev) => prev.map((u, idx) => (idx === i ? val : u)));
   }
 
+  function moveImage(i: number, dir: -1 | 1) {
+    setImageUrls((prev) => {
+      const next = [...prev];
+      const j = i + dir;
+      if (j < 0 || j >= next.length) return prev;
+      [next[i], next[j]] = [next[j], next[i]];
+      return next;
+    });
+  }
+
   function addSpecRow() {
     setSpecs((prev) => [...prev, { key: "", value: "" }]);
   }
@@ -122,6 +132,16 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
 
   function updateSpecRow(i: number, field: "key" | "value", val: string) {
     setSpecs((prev) => prev.map((r, idx) => idx === i ? { ...r, [field]: val } : r));
+  }
+
+  function moveSpec(i: number, dir: -1 | 1) {
+    setSpecs((prev) => {
+      const next = [...prev];
+      const j = i + dir;
+      if (j < 0 || j >= next.length) return prev;
+      [next[i], next[j]] = [next[j], next[i]];
+      return next;
+    });
   }
 
   if (loading) {
@@ -187,6 +207,15 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                 {imageUrls.map((url, i) => (
                   <div key={i} className="space-y-1">
                     <div className="flex gap-2 items-center">
+                      {/* Up/down */}
+                      {imageUrls.length > 1 && (
+                        <div className="flex flex-col gap-0.5">
+                          <button type="button" onClick={() => moveImage(i, -1)} disabled={i === 0}
+                            className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none px-1 py-0.5">▲</button>
+                          <button type="button" onClick={() => moveImage(i, 1)} disabled={i === imageUrls.length - 1}
+                            className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none px-1 py-0.5">▼</button>
+                        </div>
+                      )}
                       <input
                         className="flex-1 rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-[#111827] outline-none focus:border-gray-400"
                         value={url}
@@ -195,23 +224,14 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                         type="url"
                       />
                       {imageUrls.length > 1 && (
-                        <button
-                          type="button"
-                          onClick={() => removeImageRow(i)}
-                          className="text-gray-300 hover:text-red-400 text-xl leading-none px-1"
-                        >
-                          ×
-                        </button>
+                        <button type="button" onClick={() => removeImageRow(i)}
+                          className="text-gray-300 hover:text-red-400 text-xl leading-none px-1">×</button>
                       )}
                     </div>
                     {url.trim() && (
                       <div className="rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center overflow-hidden" style={{ height: 120 }}>
-                        <img
-                          src={url}
-                          alt={`Preview ${i + 1}`}
-                          className="object-contain h-full p-3"
-                          onError={(e) => (e.currentTarget.style.display = "none")}
-                        />
+                        <img src={url} alt={`Preview ${i + 1}`} className="object-contain h-full p-3"
+                          onError={(e) => (e.currentTarget.style.display = "none")} />
                       </div>
                     )}
                   </div>
@@ -234,6 +254,13 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                 <div className="rounded-xl border border-gray-200 overflow-hidden divide-y divide-gray-100">
                   {specs.map((row, i) => (
                     <div key={i} className="flex items-center gap-2 px-3 py-2 bg-white">
+                      {/* Up/down */}
+                      <div className="flex flex-col gap-0.5 shrink-0">
+                        <button type="button" onClick={() => moveSpec(i, -1)} disabled={i === 0}
+                          className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none py-0.5">▲</button>
+                        <button type="button" onClick={() => moveSpec(i, 1)} disabled={i === specs.length - 1}
+                          className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none py-0.5">▼</button>
+                      </div>
                       <input
                         className="flex-1 text-sm border-0 outline-none bg-transparent text-gray-700 font-medium"
                         placeholder="Label (e.g. Thread)"
@@ -247,13 +274,8 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                         value={row.value}
                         onChange={(e) => updateSpecRow(i, "value", e.target.value)}
                       />
-                      <button
-                        type="button"
-                        onClick={() => removeSpecRow(i)}
-                        className="ml-2 text-gray-300 hover:text-red-400 text-lg leading-none"
-                      >
-                        ×
-                      </button>
+                      <button type="button" onClick={() => removeSpecRow(i)}
+                        className="ml-2 text-gray-300 hover:text-red-400 text-lg leading-none">×</button>
                     </div>
                   ))}
                 </div>
