@@ -33,13 +33,26 @@ export default async function PartPage({
 
   const categoryName = (part as any).part_categories?.name ?? part.category ?? "Part";
 
-  // Cross-references
-  const { data: crossRefs } = await supabaseServer
-    .from("cross_references")
-    .select(`cross_part:cross_part_id (id, brand, part_number, name)`)
-    .eq("part_id", partId);
+  // Cross-references — fetch both directions (part_id → cross_part_id and reverse)
+  const [{ data: crossRefsForward }, { data: crossRefsReverse }] = await Promise.all([
+    supabaseServer
+      .from("cross_references")
+      .select(`cross_part:cross_part_id (id, brand, part_number, name)`)
+      .eq("part_id", partId),
+    supabaseServer
+      .from("cross_references")
+      .select(`cross_part:part_id (id, brand, part_number, name)`)
+      .eq("cross_part_id", partId),
+  ]);
 
-  const refs = (crossRefs ?? []).map((r: any) => r.cross_part).filter(Boolean);
+  const refsForward = (crossRefsForward ?? []).map((r: any) => r.cross_part).filter(Boolean);
+  const refsReverse = (crossRefsReverse ?? []).map((r: any) => r.cross_part).filter(Boolean);
+  const seenIds = new Set<string>();
+  const refs = [...refsForward, ...refsReverse].filter((r: any) => {
+    if (seenIds.has(r.id)) return false;
+    seenIds.add(r.id);
+    return true;
+  });
   const oemRefs = refs.filter((r: any) => isOemBrand(r.brand));
   const aftermarketRefs = refs.filter((r: any) => !isOemBrand(r.brand));
 
