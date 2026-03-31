@@ -16,6 +16,8 @@ function isOemBrand(brand: string) {
   return OEM_BRANDS.has(brand.toLowerCase());
 }
 
+export const revalidate = 60;
+
 export default async function PartPage({
   params,
 }: {
@@ -23,18 +25,17 @@ export default async function PartPage({
 }) {
   const { id: partId } = await params;
 
-  const { data: part, error } = await supabaseServer
-    .from("parts")
-    .select("id, brand, part_number, name, description, oem_number, category, category_id, image_url, image_urls, specs, part_categories:category_id(name)")
-    .eq("id", partId)
-    .single();
-
-  if (error || !part) notFound();
-
-  const categoryName = (part as any).part_categories?.name ?? part.category ?? "Part";
-
-  // Cross-references — fetch both directions (part_id → cross_part_id and reverse)
-  const [{ data: crossRefsForward }, { data: crossRefsReverse }] = await Promise.all([
+  // Fetch part + cross-references in parallel
+  const [
+    { data: part, error },
+    { data: crossRefsForward },
+    { data: crossRefsReverse },
+  ] = await Promise.all([
+    supabaseServer
+      .from("parts")
+      .select("id, brand, part_number, name, description, oem_number, category, category_id, image_url, image_urls, specs, part_categories:category_id(name)")
+      .eq("id", partId)
+      .single(),
     supabaseServer
       .from("cross_references")
       .select(`cross_part:cross_part_id (id, brand, part_number, name)`)
@@ -44,6 +45,10 @@ export default async function PartPage({
       .select(`cross_part:part_id (id, brand, part_number, name)`)
       .eq("cross_part_id", partId),
   ]);
+
+  if (error || !part) notFound();
+
+  const categoryName = (part as any).part_categories?.name ?? part.category ?? "Part";
 
   const refsForward = (crossRefsForward ?? []).map((r: any) => r.cross_part).filter(Boolean);
   const refsReverse = (crossRefsReverse ?? []).map((r: any) => r.cross_part).filter(Boolean);

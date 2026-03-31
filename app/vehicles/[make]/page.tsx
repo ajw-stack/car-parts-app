@@ -4,6 +4,8 @@ import { MAKES_CONFIG, slugToMake } from "../../lib/makes";
 import { notFound } from "next/navigation";
 import VehicleModelList from "./VehicleModelList";
 
+export const revalidate = 60;
+
 export default async function MakePage({ params }: { params: Promise<{ make: string }> }) {
   const { make: makeSlugParam } = await params;
 
