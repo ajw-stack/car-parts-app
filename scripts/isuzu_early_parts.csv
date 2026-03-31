@@ -1,0 +1,10 @@
+brand,make,model,series,engine,trim,body,year_from,year_to,category,position,part_number,notes
+Ryco,Isuzu,Wasp,KR20,1.5,,Utility,1965,1971,Oil Filter,,Z89A,
+Ryco,Isuzu,Bellett,Base,1.5,,Sedan,1963,1973,Oil Filter,,Z89A,
+Ryco,Isuzu,Bellett,GT,1.6,,Coupe,1964,1973,Oil Filter,,Z89A,
+Ryco,Isuzu,Bellett,1800,1.8,,Sedan,1968,1973,Oil Filter,,Z89A,
+NGK,Isuzu,Wasp,KR20,1.5,,Utility,1965,1971,Spark Plug,,B6ES,
+NGK,Isuzu,Bellett,Base,1.3,,Sedan,1963,1973,Spark Plug,,B6ES,
+NGK,Isuzu,Bellett,Base,1.5,,Sedan,1963,1973,Spark Plug,,B6ES,
+NGK,Isuzu,Bellett,GT,1.6,,Coupe,1964,1973,Spark Plug,,B7ES,DOHC GT model
+NGK,Isuzu,Bellett,1800,1.8,,Sedan,1968,1973,Spark Plug,,B6ES,
