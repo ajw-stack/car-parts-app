@@ -22,48 +22,44 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
   const { id: partId } = use(params);
   const router = useRouter();
 
-  const [loading, setLoading]       = useState(true);
-  const [saving, setSaving]         = useState(false);
-  const [error, setError]           = useState("");
-  const [success, setSuccess]       = useState(false);
-  const [notAllowed, setNotAllowed] = useState(false);
+  const [loading, setLoading]   = useState(true);
+  const [saving, setSaving]     = useState(false);
+  const [error, setError]       = useState("");
+  const [success, setSuccess]   = useState(false);
 
-  // Form fields
-  const [brand, setBrand]           = useState("");
-  const [partNumber, setPartNumber] = useState("");
-  const [name, setName]             = useState("");
-  const [description, setDescription] = useState("");
-  const [imageUrl, setImageUrl]     = useState("");
-  const [specs, setSpecs]           = useState<SpecRow[]>([]);
+  const [brand, setBrand]               = useState("");
+  const [partNumber, setPartNumber]     = useState("");
+  const [name, setName]                 = useState("");
+  const [description, setDescription]   = useState("");
+  const [imageUrls, setImageUrls]       = useState<string[]>([""]);
+  const [specs, setSpecs]               = useState<SpecRow[]>([]);
 
   useEffect(() => {
     async function init() {
-      // Check auth
       const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        router.replace("/login");
-        return;
-      }
+      if (!session) { router.replace("/login"); return; }
 
-      // Load part
       const { data: part, error } = await supabase
         .from("parts")
-        .select("brand, part_number, name, description, image_url, specs")
+        .select("brand, part_number, name, description, image_url, image_urls, specs")
         .eq("id", partId)
         .single();
 
-      if (error || !part) {
-        setError("Part not found.");
-        setLoading(false);
-        return;
-      }
+      if (error || !part) { setError("Part not found."); setLoading(false); return; }
 
       setBrand(part.brand ?? "");
       setPartNumber(part.part_number ?? "");
       setName(part.name ?? "");
       setDescription(part.description ?? "");
-      setImageUrl(part.image_url ?? "");
       setSpecs(specsToRows(part.specs));
+
+      // Merge image_urls array + legacy image_url, deduplicate, default to one empty input
+      const merged: string[] = [
+        ...((part.image_urls as string[] | null) ?? []),
+        ...(part.image_url ? [part.image_url as string] : []),
+      ].filter((v, i, a) => a.indexOf(v) === i);
+      setImageUrls(merged.length > 0 ? merged : [""]);
+
       setLoading(false);
     }
     init();
@@ -78,6 +74,8 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) { router.replace("/login"); return; }
 
+    const cleanedUrls = imageUrls.map((u) => u.trim()).filter(Boolean);
+
     const res = await fetch(`/api/parts/${partId}`, {
       method: "PATCH",
       headers: {
@@ -87,7 +85,8 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
       body: JSON.stringify({
         name:        name.trim()        || null,
         description: description.trim() || null,
-        image_url:   imageUrl.trim()    || null,
+        image_url:   cleanedUrls[0]     ?? null,
+        image_urls:  cleanedUrls.length > 0 ? cleanedUrls : null,
         specs:       rowsToSpecs(specs),
       }),
     });
@@ -98,8 +97,19 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
     } else {
       setSuccess(true);
     }
-
     setSaving(false);
+  }
+
+  function addImageRow() {
+    setImageUrls((prev) => [...prev, ""]);
+  }
+
+  function removeImageRow(i: number) {
+    setImageUrls((prev) => prev.filter((_, idx) => idx !== i));
+  }
+
+  function updateImageUrl(i: number, val: string) {
+    setImageUrls((prev) => prev.map((u, idx) => (idx === i ? val : u)));
   }
 
   function addSpecRow() {
@@ -136,9 +146,7 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
 
           <div className="mt-4 mb-8">
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400">Edit Part</p>
-            <h1 className="mt-1 text-2xl font-bold text-[#111827]">
-              {brand} {partNumber}
-            </h1>
+            <h1 className="mt-1 text-2xl font-bold text-[#111827]">{brand} {partNumber}</h1>
           </div>
 
           <form onSubmit={handleSave} className="space-y-6">
@@ -166,37 +174,56 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
               />
             </div>
 
-            {/* Image URL */}
+            {/* Images */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Image URL</label>
-              <input
-                className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-[#111827] outline-none focus:border-gray-400"
-                value={imageUrl}
-                onChange={(e) => setImageUrl(e.target.value)}
-                placeholder="https://…"
-                type="url"
-              />
-              {imageUrl && (
-                <div className="mt-3 rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center overflow-hidden" style={{ height: 160 }}>
-                  <img
-                    src={imageUrl}
-                    alt="Preview"
-                    className="object-contain h-full p-4"
-                    onError={(e) => (e.currentTarget.style.display = "none")}
-                  />
-                </div>
-              )}
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-sm font-medium text-gray-700">Images</label>
+                <button type="button" onClick={addImageRow} className="text-xs font-semibold text-[#111827] hover:underline">
+                  + Add image
+                </button>
+              </div>
+
+              <div className="space-y-2">
+                {imageUrls.map((url, i) => (
+                  <div key={i} className="space-y-1">
+                    <div className="flex gap-2 items-center">
+                      <input
+                        className="flex-1 rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-[#111827] outline-none focus:border-gray-400"
+                        value={url}
+                        onChange={(e) => updateImageUrl(i, e.target.value)}
+                        placeholder="https://…"
+                        type="url"
+                      />
+                      {imageUrls.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => removeImageRow(i)}
+                          className="text-gray-300 hover:text-red-400 text-xl leading-none px-1"
+                        >
+                          ×
+                        </button>
+                      )}
+                    </div>
+                    {url.trim() && (
+                      <div className="rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center overflow-hidden" style={{ height: 120 }}>
+                        <img
+                          src={url}
+                          alt={`Preview ${i + 1}`}
+                          className="object-contain h-full p-3"
+                          onError={(e) => (e.currentTarget.style.display = "none")}
+                        />
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Tech Specs */}
             <div>
               <div className="flex items-center justify-between mb-2">
                 <label className="text-sm font-medium text-gray-700">Tech Specs</label>
-                <button
-                  type="button"
-                  onClick={addSpecRow}
-                  className="text-xs font-semibold text-[#111827] hover:underline"
-                >
+                <button type="button" onClick={addSpecRow} className="text-xs font-semibold text-[#111827] hover:underline">
                   + Add row
                 </button>
               </div>

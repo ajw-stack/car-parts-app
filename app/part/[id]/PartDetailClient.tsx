@@ -11,6 +11,8 @@ type Props = {
   fitments: any[];
   partId: string;
   crossRefLabel: Record<string, string>;
+  imageUrls: string[];
+  imageFallback: string | null;
 };
 
 function Accordion({
@@ -54,6 +56,8 @@ export default function PartDetailClient({
   fitments,
   partId,
   crossRefLabel,
+  imageUrls,
+  imageFallback,
 }: Props) {
   const totalFitments = fitments.length;
   const totalRefs = oemRefs.length + aftermarketRefs.length;

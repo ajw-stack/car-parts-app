@@ -34,6 +34,7 @@ export async function PATCH(
   // Only allow patching these fields
   const allowed: Record<string, unknown> = {};
   if ("image_url"   in body) allowed.image_url   = body.image_url   ?? null;
+  if ("image_urls"  in body) allowed.image_urls  = body.image_urls  ?? null;
   if ("specs"       in body) allowed.specs        = body.specs       ?? null;
   if ("name"        in body) allowed.name         = body.name        ?? null;
   if ("description" in body) allowed.description  = body.description ?? null;
