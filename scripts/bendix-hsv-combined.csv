@@ -1,0 +1,234 @@
+brand,make,model,series,engine,trim,body,year_from,year_to,category,position,part_number,notes
+Bendix,HSV,Astra,LD,1.8,SV 1800,Hatchback,1987,1989,Brake Pad Set,Front,DB1117,Length 115mm
+Bendix,HSV,Clubsport,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Clubsport,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Clubsport,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VP,LB9 5.0,,Sedan,1991,1993,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Clubsport,VP,LB9 5.0,,Sedan,1991,1993,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Clubsport,VP,LB9 5.0,,Sedan,1991,1993,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VP,LB9 5.0,,Sedan,1991,1993,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Sedan,1993,1995,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Sedan,1993,1995,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Sedan,1993,1995,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Sedan,1993,1995,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Wagon,1993,1995,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Wagon,1993,1995,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Wagon,1993,1995,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VR,LB9 5.0,,Wagon,1993,1995,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Wagon,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Wagon,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Wagon,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VS,LB9 5.0,,Wagon,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Clubsport,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Suits 2 POT PBR Caliper; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Clubsport,VT,LS1 5.7,,Sedan,1999,2000,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VT,LS1 5.7,,Sedan,1999,2000,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VT,LS1 5.7,,Sedan,1999,2000,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VT,LS1 5.7,,Sedan,1999,2000,Brake Pad Set,Rear,DB1356,Suits 2 POT PBR Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VX,LS1 5.7,,Sedan,2000,2002,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VX,LS1 5.7,,Sedan,2000,2002,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5 Caliper Option
+Bendix,HSV,Clubsport,VY,LS1 5.7,,Sedan,2002,2003,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VY,LS1 5.7,,Sedan,2002,2003,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5 Caliper Option
+Bendix,HSV,Clubsport,VY,LS1 5.7,,Sedan,2003,2004,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VY,LS1 5.7,,Sedan,2003,2004,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5 Caliper
+Bendix,HSV,Clubsport,VZ,L76 6.0,,Sedan,2004,2006,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Clubsport,VZ,L76 6.0,,Sedan,2004,2006,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Clubsport,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Front,DB2317,
+Bendix,HSV,Clubsport,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Clubsport,VE,LS3 6.2,,Wagon,2008,2013,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Clubsport,VE,LS3 6.2,R8,Sedan,2012,2013,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Clubsport,VF,LS3 6.2,,Sedan,2013,2014,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Clubsport,VF,LS3 6.2,,Sedan,2013,2015,Brake Pad Set,Front,DB2317,
+Bendix,HSV,Clubsport,VF,LS3 6.2,,Sedan,2013,2015,Brake Pad Set,Front,DB1937,Red Caliper
+Bendix,HSV,Clubsport,VF,LS3 6.2,,Wagon,2013,2015,Brake Pad Set,Front,DB2317,
+Bendix,HSV,Clubsport,VF,LSA 6.2,,Sedan,2017,2017,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Commodore,VN,LN3 3.8,,Sedan,1989,1991,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LN3 3.8,,Sedan,1989,1991,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LN3 3.8,,Sedan,1989,1991,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,LN3 3.8,,Sedan,1989,1991,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,L27 3.8,,Sedan,1989,1991,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,L27 3.8,,Sedan,1989,1991,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,L27 3.8,,Sedan,1989,1991,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,L27 3.8,,Sedan,1989,1991,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VP,LN3 3.8,,Sedan,1992,1993,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VP,LN3 3.8,,Sedan,1992,1993,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VP,LN3 3.8,,Sedan,1992,1993,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VP,LN3 3.8,,Sedan,1992,1993,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Commodore,VN,LB9 5.0,,Sedan,1989,1991,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Grange,VS,LB9 5.0,,Sedan,1996,1999,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Grange,VS,LB9 5.0,,Sedan,1996,1999,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Grange,VS,LB9 5.0,,Sedan,1996,1999,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Grange,VS,LB9 5.0,,Sedan,1996,1999,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Grange,VS,LT1 5.7,,Sedan,1996,1999,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Grange,VS,LT1 5.7,,Sedan,1996,1999,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Grange,VS,LT1 5.7,,Sedan,1996,1999,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Grange,VS,LT1 5.7,,Sedan,1996,1999,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Grange,WM,L76 6.0,,Sedan,2007,2008,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,WM,L76 6.0,,Sedan,2007,2008,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2010,2013,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2010,2013,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2012,2013,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,WM,LS3 6.2,,Sedan,2012,2013,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,Grange,WN,LS3 6.2,,Sedan,2013,2016,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,WN,LS3 6.2,,Sedan,2013,2016,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,Grange,VF,LS3 6.2,,Sedan,2013,2016,Brake Pad Set,Front,DB1937,
+Bendix,HSV,Grange,VF,LS3 6.2,,Sedan,2013,2016,Brake Pad Set,Rear,DB1938,
+Bendix,HSV,GTS,VR,LT1 5.7,,Sedan,1994,1995,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,GTS,VR,LT1 5.7,,Sedan,1994,1995,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,GTS,VR,LT1 5.7,,Sedan,1994,1995,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,GTS,VR,LT1 5.7,,Sedan,1994,1995,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,GTS,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,GTS,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,GTS,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,GTS,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,2000,2000,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,VT,LS1 5.7,,Sedan,2000,2000,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,V2,LS1 5.7,,Coupe,2001,2004,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,V2,LS1 5.7,,Coupe,2001,2004,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,GTS,VY,LS1 5.7,,Sedan,2002,2004,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,GTS,VY,LS1 5.7,,Sedan,2002,2004,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,GTS,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Front,DB1937,For AP Red Caliper (4 Pot)
+Bendix,HSV,GTS,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Rear,DB1938,For AP Red Caliper (4 Pot)
+Bendix,HSV,GTS,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Front,DB2317,For AP Yellow Caliper (6 Pot)
+Bendix,HSV,GTS,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Rear,DB1938,For AP Yellow Caliper (6 Pot)
+Bendix,HSV,GTS,VE,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Front,DB1937,AP Red Calipers (4 Pot)
+Bendix,HSV,GTS,VE,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Rear,DB1938,AP Red Calipers (4 Pot)
+Bendix,HSV,GTS,VE,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Front,DB2317,AP Yellow Calipers (6 Pot)
+Bendix,HSV,GTS,VE,LS3 6.2,,Sedan,2008,2010,Brake Pad Set,Rear,DB1938,AP Yellow Calipers (6 Pot)
+Bendix,HSV,GTS,VE,LS3 6.2,,Sedan,2010,2013,Brake Pad Set,Front,DB2317,
+Bendix,HSV,GTS,VF,LSA 6.2,,Sedan,2013,2017,Brake Pad Set,Front,DB2317,
+Bendix,HSV,GTS,VF,LSA 6.2,,Sedan,2013,2017,Brake Pad Set,Rear,DB1937,
+Bendix,HSV,Maloo,VP,LB9 5.0,,Ute,1992,1993,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Maloo,VP,LB9 5.0,,Ute,1992,1993,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Maloo,VP,LB9 5.0,,Ute,1992,1993,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VP,LB9 5.0,,Ute,1992,1993,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VR,LB9 5.0,,Ute,1993,1995,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VR,LB9 5.0,,Ute,1993,1995,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VR,LB9 5.0,,Ute,1993,1995,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VR,LB9 5.0,,Ute,1993,1995,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,1999,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,1999,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,1999,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,1999,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,2000,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,2000,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,2000,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VS,LB9 5.0,,Ute,1995,2000,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Maloo,VZ,L76 6.0,,Ute,2004,2007,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Maloo,VZ,L76 6.0,,Ute,2004,2007,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Maloo,VY,LS1 5.7,,Ute,2002,2003,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Maloo,VY,LS1 5.7,,Ute,2002,2003,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Maloo,VY,LS1 5.7,,Ute,2003,2004,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Maloo,VY,LS1 5.7,,Ute,2003,2004,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Maloo,VE,L76 6.0,,Ute,2007,2008,Brake Pad Set,Front,DB1937,For AP Red 4 Pot Caliper
+Bendix,HSV,Maloo,VE,L76 6.0,,Ute,2007,2008,Brake Pad Set,Rear,DB1938,For AP Red 4 Pot Caliper
+Bendix,HSV,Maloo,VE,LS3 6.2,,Ute,2008,2013,Brake Pad Set,Front,DB1937,For AP Red 4 Pot Caliper
+Bendix,HSV,Maloo,VE,LS3 6.2,,Ute,2008,2013,Brake Pad Set,Rear,DB1938,For AP Red 4 Pot Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2014,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2014,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2014,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2014,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2016,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LS3 6.2,,Ute,2013,2016,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2015,2016,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2015,2016,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2017,2017,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2017,2017,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2013,2017,Brake Pad Set,Front,DB1937,AP Red Caliper
+Bendix,HSV,Maloo,VF,LSA 6.2,,Ute,2013,2017,Brake Pad Set,Front,DB2317,AP Six Pot Yellow Caliper
+Bendix,HSV,Manta,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Manta,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Manta,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Manta,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Manta,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Manta,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Manta,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Manta,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VP,LB9 5.0,,Sedan,1992,1993,Brake Pad Set,Front,DB1085,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Senator,VP,LB9 5.0,,Sedan,1992,1993,Brake Pad Set,Rear,DB1086,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+Bendix,HSV,Senator,VP,LB9 5.0,,Sedan,1992,1993,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VP,LB9 5.0,,Sedan,1992,1993,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VS,LB9 5.0,,Sedan,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LB9 5.0,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VR,LT1 5.7,,Sedan,1993,1995,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VR,LT1 5.7,,Sedan,1993,1995,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VR,LT1 5.7,,Sedan,1993,1995,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VR,LT1 5.7,,Sedan,1993,1995,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Front,DB1085,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Rear,DB1086,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+Bendix,HSV,Senator,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Front,DB1353,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VS,LT1 5.7,,Sedan,1995,1997,Brake Pad Set,Rear,DB1354,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VT,LS1 5.7,,Sedan,1997,1999,Brake Pad Set,Rear,DB1354,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,Senator,VX,LS1 5.7,,Sedan,2000,2002,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VX,LS1 5.7,,Sedan,2000,2002,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Senator,VY,LS1 5.7,,Sedan,2002,2003,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VY,LS1 5.7,,Sedan,2002,2003,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Senator,VY,LS1 5.7,,Sedan,2003,2004,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+Bendix,HSV,Senator,VY,LS1 5.7,,Sedan,2003,2004,Brake Pad Set,Front,DB1868,Suits 2 POT PBR Caliper C5
+Bendix,HSV,Senator,VZ,L76 6.0,,Sedan,2004,2006,Brake Pad Set,Front,DB1868,
+Bendix,HSV,Senator,VZ,L76 6.0,,Sedan,2004,2006,Brake Pad Set,Rear,DB1354,
+Bendix,HSV,Senator,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,L76 6.0,,Sedan,2006,2008,Brake Pad Set,Rear,DB1938,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,L98 6.0,,Sedan,2006,2013,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,L98 6.0,,Sedan,2006,2013,Brake Pad Set,Rear,DB1938,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Rear,DB1938,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Front,DB2317,AP 6-Pot Yellow Caliper
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2008,2013,Brake Pad Set,Rear,DB1938,AP 6-Pot Yellow Caliper
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2012,2013,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VE,LS3 6.2,,Sedan,2012,2013,Brake Pad Set,Rear,DB1938,4 Pot AP Calipers (365mm Brake Rotor)
+Bendix,HSV,Senator,VF,LS3 6.2,,Sedan,2013,2015,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (367mm Brake Rotor)
+Bendix,HSV,Senator,VF,LSA 6.2,,Sedan,2016,2016,Brake Pad Set,Front,DB1937,4 Pot AP Calipers (367mm Brake Rotor)
+Bendix,HSV,XU6,VT,L67 3.8,,Sedan,1998,2000,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,XU6,VT,L67 3.8,,Sedan,1998,2000,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,XU8,VT,LB9 5.0,,Sedan,1999,1999,Brake Pad Set,Front,DB1353,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,XU8,VT,LB9 5.0,,Sedan,1999,1999,Brake Pad Set,Rear,DB1354,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+Bendix,HSV,XU8,VT,LB9 5.0,,Sedan,1999,1999,Brake Pad Set,Front,DB1355,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+Bendix,HSV,XU8,VT,LB9 5.0,,Sedan,1999,1999,Brake Pad Set,Rear,DB1356,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper

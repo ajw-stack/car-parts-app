@@ -491,11 +491,31 @@ export default function AdminPage() {
     setXPartB("");
   }
 
+  async function fetchAllParts() {
+    const PAGE = 1000;
+    const all: PartRow[] = [];
+    let offset = 0;
+    while (true) {
+      const { data, error } = await supabase
+        .from("parts")
+        .select("id, brand, part_number, name, category")
+        .order("brand")
+        .order("part_number")
+        .range(offset, offset + PAGE - 1);
+      if (error) { console.error(error); break; }
+      if (!data || data.length === 0) break;
+      all.push(...(data as PartRow[]));
+      if (data.length < PAGE) break;
+      offset += PAGE;
+    }
+    return all;
+  }
+
   async function refreshAll() {
     setLoading(true);
     setMsg("");
 
-    const [{ data: vData, error: vErr }, { data: pData, error: pErr }] =
+    const [{ data: vData, error: vErr }, allParts] =
       await Promise.all([
 supabase
   .from("vehicles")
@@ -506,19 +526,13 @@ supabase
   .order("model")
 .order("year_from"),
 
-supabase
-
-          .from("parts")
-          .select("id, brand, part_number, name, category")
-          .order("brand")
-          .order("part_number"),
+fetchAllParts(),
       ]);
 
     if (vErr) console.error(vErr);
-    if (pErr) console.error(pErr);
 
     setVehicles((vData ?? []) as VehicleRow[]);
-    setParts((pData ?? []) as PartRow[]);
+    setParts(allParts as PartRow[]);
 
     setLoading(false);
   }
@@ -723,14 +737,8 @@ setPName("");
 setPCategory("");
 
 // reload only parts so dropdowns update
-const { data: partsData } = await supabase
-  .from("parts")
-  .select("*")
-  .order("brand");
-
-if (partsData) {
-  setParts(partsData);
-}
+const allParts = await fetchAllParts();
+setParts(allParts as PartRow[]);
 
 brandRef.current?.focus();
   }

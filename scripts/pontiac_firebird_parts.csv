@@ -1,0 +1,58 @@
+brand,make,model,series,engine,trim,drivetrain,body,year_from,year_to,category,position,part_number,notes
+# --- Chevy Small Block V8 Oil Filters (3rd gen LG4/L98 + 4th gen LT1) ---
+Ryco,Pontiac,Firebird,3rd Gen,5.0,,,Coupe,1982,1992,Engine,,Z9,LG4 5.0L V8
+Ryco,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1982,1992,Engine,,Z9,L98 5.7L V8
+Ryco,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,1997,Engine,,Z9,LT1 5.7L V8
+ACDelco,Pontiac,Firebird,3rd Gen,5.0,,,Coupe,1982,1992,Engine,,PF25,LG4 5.0L V8
+ACDelco,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1982,1992,Engine,,PF25,L98 5.7L V8
+ACDelco,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,1997,Engine,,PF25,LT1 5.7L V8
+# --- Chevy Small Block V8 Spark Plugs ---
+NGK,Pontiac,Firebird,3rd Gen,5.0,,,Coupe,1982,1992,Ignition,,BPR6ES,LG4 5.0L V8
+NGK,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1982,1992,Ignition,,BPR6ES,L98 5.7L V8
+NGK,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,1997,Ignition,,BPR6ES,LT1 5.7L V8
+ACDelco,Pontiac,Firebird,3rd Gen,5.0,,,Coupe,1982,1992,Ignition,,R45TS,LG4 5.0L V8
+ACDelco,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1982,1992,Ignition,,R45TS,L98 5.7L V8
+ACDelco,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,1997,Ignition,,R45TS,LT1 5.7L V8
+# --- EFI Fuel Filter (L98 TPI onwards) ---
+Ryco,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1985,1992,Fuel,,Z200,L98 TPI fuel injected
+Ryco,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,2002,Fuel,,Z200,LT1 and LS1 fuel injected
+# --- Pontiac V8 parts (1st and 2nd gen, genuine Pontiac engines) ---
+ACDelco,Pontiac,Firebird,1st Gen,5.7,,,Coupe,1967,1969,Engine,,PF24,Pontiac 350 V8
+ACDelco,Pontiac,Firebird,1st Gen,6.6,,,Coupe,1967,1969,Engine,,PF24,Pontiac 400 V8
+ACDelco,Pontiac,Firebird,2nd Gen,5.7,,,Coupe,1970,1981,Engine,,PF24,Pontiac 350 V8
+ACDelco,Pontiac,Firebird,2nd Gen,6.6,,,Coupe,1970,1981,Engine,,PF24,Pontiac 400 V8
+ACDelco,Pontiac,Firebird,2nd Gen,7.5,,,Coupe,1970,1981,Engine,,PF24,Pontiac 455 V8
+NGK,Pontiac,Firebird,1st Gen,5.7,,,Coupe,1967,1969,Ignition,,B6S,Pontiac 350 V8
+NGK,Pontiac,Firebird,1st Gen,6.6,,,Coupe,1967,1969,Ignition,,B6S,Pontiac 400 V8
+NGK,Pontiac,Firebird,2nd Gen,5.7,,,Coupe,1970,1981,Ignition,,B6S,Pontiac 350 V8
+NGK,Pontiac,Firebird,2nd Gen,6.6,,,Coupe,1970,1981,Ignition,,B6S,Pontiac 400 V8
+NGK,Pontiac,Firebird,2nd Gen,7.5,,,Coupe,1970,1981,Ignition,,B6S,Pontiac 455 V8
+ACDelco,Pontiac,Firebird,1st Gen,5.7,,,Coupe,1967,1969,Fuel,,GF61,Carbureted
+ACDelco,Pontiac,Firebird,1st Gen,6.6,,,Coupe,1967,1969,Fuel,,GF61,Carbureted
+ACDelco,Pontiac,Firebird,2nd Gen,5.7,,,Coupe,1970,1981,Fuel,,GF61,Carbureted
+ACDelco,Pontiac,Firebird,2nd Gen,6.6,,,Coupe,1970,1981,Fuel,,GF61,Carbureted
+ACDelco,Pontiac,Firebird,2nd Gen,7.5,,,Coupe,1970,1981,Fuel,,GF61,Carbureted
+# --- GM V6 parts (4th gen 3.4L) ---
+Ryco,Pontiac,Firebird,4th Gen,3.4,,,Coupe,1993,2002,Engine,,Z89A,3.4L V6
+ACDelco,Pontiac,Firebird,4th Gen,3.4,,,Coupe,1993,2002,Engine,,PF47,3.4L V6
+NGK,Pontiac,Firebird,4th Gen,3.4,,,Coupe,1993,2002,Ignition,,BKR5E,3.4L V6 EFI
+# --- Brake Pads - Front disc (3rd gen onwards had front discs; 4-wheel disc from 1988) ---
+Generic,Pontiac,Firebird,3rd Gen,,,,,1982,1992,Brakes,Front,DBA001,Front disc pads
+Generic,Pontiac,Firebird,4th Gen,,,,,1993,2002,Brakes,Front,DBA001,Front disc pads
+# --- Brake Pads - Rear disc (4-wheel disc from 1988) ---
+Generic,Pontiac,Firebird,3rd Gen,,,,,1988,1992,Brakes,Rear,DBA002,Rear disc pads
+Generic,Pontiac,Firebird,4th Gen,,,,,1993,2002,Brakes,Rear,DBA002,Rear disc pads
+# --- Brake Shoes - Rear drum (pre-1988 3rd gen and earlier gens) ---
+Generic,Pontiac,Firebird,1st Gen,,,,,1967,1969,Brakes,Rear,BS001,Rear drum
+Generic,Pontiac,Firebird,2nd Gen,,,,,1970,1981,Brakes,Rear,BS001,Rear drum
+Generic,Pontiac,Firebird,3rd Gen,,,,,1982,1987,Brakes,Rear,BS001,Rear drum (pre 4-wheel disc)
+# --- Clutch Kits ---
+Exedy,Pontiac,Firebird,3rd Gen,5.0,,,Coupe,1982,1992,Drivetrain,,CLUTCH-SBC,LG4 5.0L V8
+Exedy,Pontiac,Firebird,3rd Gen,5.7,,,Coupe,1982,1992,Drivetrain,,CLUTCH-SBC,L98 5.7L V8
+Exedy,Pontiac,Firebird,4th Gen,5.7,,,Coupe,1993,1997,Drivetrain,,CLUTCH-SBC,LT1 5.7L V8
+Exedy,Pontiac,Firebird,1st Gen,5.7,,,Coupe,1967,1969,Drivetrain,,CLUTCH-PONT,Pontiac 350 V8
+Exedy,Pontiac,Firebird,1st Gen,6.6,,,Coupe,1967,1969,Drivetrain,,CLUTCH-PONT,Pontiac 400 V8
+Exedy,Pontiac,Firebird,2nd Gen,5.7,,,Coupe,1970,1981,Drivetrain,,CLUTCH-PONT,Pontiac 350 V8
+Exedy,Pontiac,Firebird,2nd Gen,6.6,,,Coupe,1970,1981,Drivetrain,,CLUTCH-PONT,Pontiac 400 V8
+Exedy,Pontiac,Firebird,2nd Gen,7.5,,,Coupe,1970,1981,Drivetrain,,CLUTCH-PONT,Pontiac 455 V8
+Exedy,Pontiac,Firebird,4th Gen,3.4,,,Coupe,1993,2002,Drivetrain,,CLUTCH-V6,3.4L V6

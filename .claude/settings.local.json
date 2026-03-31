@@ -48,7 +48,14 @@
       "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-abarth-combined.csv)",
       "Bash(node scripts/importers/insert-isuzu-early.js)",
       "Bash(node scripts/importers/import-parts-csv.js scripts/isuzu_early_parts.csv --dry-run)",
-      "Bash(node scripts/importers/import-parts-csv.js scripts/isuzu_early_parts.csv)"
+      "Bash(node scripts/importers/import-parts-csv.js scripts/isuzu_early_parts.csv)",
+      "Bash(node scripts/importers/insert-hsv-vehicles.js scripts/hsv_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/importers/insert-hsv-vehicles.js scripts/hsv_brake_catalogue.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/hsv_brake_catalogue.csv --dry-run)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-hsv-combined.csv --dry-run)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/bendix-hsv-combined.csv)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/pontiac_firebird_parts.csv --dry-run)",
+      "Bash(node scripts/importers/import-parts-csv.js scripts/pontiac_firebird_parts.csv)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ajwin\\car-parts-app\\app\\api\\parts"

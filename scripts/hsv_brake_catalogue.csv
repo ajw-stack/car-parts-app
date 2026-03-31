@@ -1,0 +1,142 @@
+make,model,series,body,year_from,year_to,engine_code,engine_litres,engine_kw,fuel_type,trim_code,drivetrain,front_pads,rear_pads,park_brake_shoes,notes
+HSV,Astra,LD,Hatchback,1987,1989,,1.8,79,,SV 1800,FWD,DB1117,,,Length 115mm
+HSV,Clubsport,VN,Sedan,1989,1991,LB9,5.0,180,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Clubsport,VN,Sedan,1989,1991,LB9,5.0,180,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VP,Sedan,1991,1993,LB9,5.0,180,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Clubsport,VP,Sedan,1991,1993,LB9,5.0,180,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VR,Sedan,1993,1995,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Clubsport,VR,Sedan,1993,1995,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VR,Wagon,1993,1995,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Clubsport,VR,Wagon,1993,1995,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Clubsport,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VS,Wagon,1995,1997,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Clubsport,VS,Wagon,1995,1997,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Clubsport,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Clubsport,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Clubsport,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1868,DB1354,,Suits 2 POT PBR Caliper; Standard Option; With Rear 315mm Twin Piston only
+HSV,Clubsport,VT,Sedan,1999,2000,LS1,5.7,250,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Clubsport,VT,Sedan,1999,2000,LS1,5.7,250,,,RWD,DB1868,DB1356,,Suits 2 POT PBR Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Clubsport,VX,Sedan,2000,2002,LS1,5.7,255,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Clubsport,VX,Sedan,2000,2002,LS1,5.7,255,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5 Caliper Option
+HSV,Clubsport,VY,Sedan,2002,2003,LS1,5.7,260,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Clubsport,VY,Sedan,2002,2003,LS1,5.7,260,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5 Caliper Option
+HSV,Clubsport,VY,Sedan,2003,2004,LS1,5.7,285,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Clubsport,VY,Sedan,2003,2004,LS1,5.7,285,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5 Caliper
+HSV,Clubsport,VZ,Sedan,2004,2006,L76,6.0,297,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Clubsport,VZ,Sedan,2004,2006,L76,6.0,297,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Clubsport,VE,Sedan,2008,2013,LS3,6.2,317,,,RWD,DB2317,,,
+HSV,Clubsport,VE,Sedan,2008,2013,LS3,6.2,317,,,RWD,DB1937,,,
+HSV,Clubsport,VE,Wagon,2008,2013,LS3,6.2,317,,,RWD,DB1937,,,
+HSV,Clubsport,VE,Sedan,2012,2013,LS3,6.2,325,,R8,RWD,DB1937,,,
+HSV,Clubsport,VF,Sedan,2013,2014,LS3,6.2,317,,,RWD,DB1937,,,
+HSV,Clubsport,VF,Sedan,2013,2015,LS3,6.2,325,,,RWD,DB2317,,,
+HSV,Clubsport,VF,Sedan,2013,2015,LS3,6.2,340,,,RWD,DB1937,,,Red Caliper
+HSV,Clubsport,VF,Wagon,2013,2015,LS3,6.2,340,,,RWD,DB2317,,,
+HSV,Clubsport,VF,Sedan,2017,2017,LSA,6.2,410,,,RWD,DB1937,,,
+HSV,Commodore,VN,Sedan,1989,1991,LN3,3.8,125,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Commodore,VN,Sedan,1989,1991,LN3,3.8,125,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Commodore,VN,Sedan,1989,1991,L27,3.8,132,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Commodore,VN,Sedan,1989,1991,L27,3.8,132,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Commodore,VP,Sedan,1992,1993,LN3,3.8,125,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Commodore,VP,Sedan,1992,1993,LN3,3.8,125,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Commodore,VN,Sedan,1989,1991,LB9,5.0,200,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Commodore,VN,Sedan,1989,1991,LB9,5.0,200,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Commodore,VN,Sedan,1989,1991,LB9,5.0,210,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Commodore,VN,Sedan,1989,1991,LB9,5.0,210,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Grange,VS,Sedan,1996,1999,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Grange,VS,Sedan,1996,1999,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Grange,VS,Sedan,1996,1999,LT1,5.7,215,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Grange,VS,Sedan,1996,1999,LT1,5.7,215,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Grange,WM,Sedan,2007,2008,L76,6.0,307,,,RWD,DB1937,DB1938,,
+HSV,Grange,WM,Sedan,2008,2010,LS3,6.2,317,,,RWD,DB1937,DB1938,,
+HSV,Grange,WM,Sedan,2010,2013,LS3,6.2,325,,,RWD,DB1937,DB1938,,
+HSV,Grange,WM,Sedan,2012,2013,LS3,6.2,325,LPG,,RWD,DB1937,DB1938,,
+HSV,Grange,WN,Sedan,2013,2016,LS3,6.2,340,,,RWD,DB1937,DB1938,,
+HSV,Grange,VF,Sedan,2013,2016,LS3,6.2,340,,,RWD,DB1937,DB1938,,
+HSV,GTS,VR,Sedan,1994,1995,LT1,5.7,215,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,GTS,VR,Sedan,1994,1995,LT1,5.7,215,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,GTS,VS,Sedan,1995,1997,LT1,5.7,215,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,GTS,VS,Sedan,1995,1997,LT1,5.7,215,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,GTS,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,GTS,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,GTS,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1868,DB1354,,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+HSV,GTS,VT,Sedan,2000,2000,LS1,5.7,300,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,GTS,V2,Coupe,2001,2004,LS1,5.7,300,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,GTS,V2,Coupe,2001,2004,LS1,5.7,300,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,GTS,VY,Sedan,2002,2004,LS1,5.7,300,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,GTS,VY,Sedan,2002,2004,LS1,5.7,300,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,GTS,VE,Sedan,2006,2008,L76,6.0,307,,,RWD,DB1937,DB1938,,For AP Red Caliper (4 Pot)
+HSV,GTS,VE,Sedan,2006,2008,L76,6.0,307,,,RWD,DB2317,DB1938,,For AP Yellow Caliper (6 Pot)
+HSV,GTS,VE,Sedan,2008,2010,LS3,6.2,317,,,RWD,DB1937,DB1938,,AP Red Calipers (4 Pot)
+HSV,GTS,VE,Sedan,2008,2010,LS3,6.2,317,,,RWD,DB2317,DB1938,,AP Yellow Calipers (6 Pot)
+HSV,GTS,VE,Sedan,2010,2013,LS3,6.2,325,,,RWD,DB2317,,,
+HSV,GTS,VF,Sedan,2013,2017,LSA,6.2,430,,,RWD,DB2317,DB1937,,
+HSV,Maloo,VP,Ute,1992,1993,LB9,5.0,180,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Maloo,VP,Ute,1992,1993,LB9,5.0,180,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Maloo,VR,Ute,1993,1995,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Maloo,VR,Ute,1993,1995,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Maloo,VS,Ute,1995,1999,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Maloo,VS,Ute,1995,1999,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Maloo,VS,Ute,1995,2000,LB9,5.0,195,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Maloo,VS,Ute,1995,2000,LB9,5.0,195,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Maloo,VZ,Ute,2004,2007,L76,6.0,297,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Maloo,VZ,Ute,2004,2007,L76,6.0,297,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Maloo,VY,Ute,2002,2003,LS1,5.7,260,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Maloo,VY,Ute,2002,2003,LS1,5.7,260,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Maloo,VY,Ute,2003,2004,LS1,5.7,285,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Maloo,VY,Ute,2003,2004,LS1,5.7,285,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Maloo,VE,Ute,2007,2008,L76,6.0,307,,,RWD,DB1937,DB1938,,For AP Red 4 Pot Caliper
+HSV,Maloo,VE,Ute,2008,2013,LS3,6.2,317,,,RWD,DB1937,DB1938,,For AP Red 4 Pot Caliper
+HSV,Maloo,VF,Ute,2013,2014,LS3,6.2,317,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2013,2014,LS3,6.2,317,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Maloo,VF,Ute,2013,2014,LS3,6.2,325,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2013,2014,LS3,6.2,325,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Maloo,VF,Ute,2013,2016,LS3,6.2,340,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2013,2016,LS3,6.2,340,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Maloo,VF,Ute,2015,2016,LSA,6.2,400,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2015,2016,LSA,6.2,400,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Maloo,VF,Ute,2017,2017,LSA,6.2,410,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2017,2017,LSA,6.2,410,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Maloo,VF,Ute,2013,2017,LSA,6.2,430,,,RWD,DB1937,,,AP Red Caliper
+HSV,Maloo,VF,Ute,2013,2017,LSA,6.2,430,,,RWD,DB2317,,,AP Six Pot Yellow Caliper
+HSV,Manta,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Manta,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Manta,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Manta,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Senator,VP,Sedan,1992,1993,LB9,5.0,180,,,RWD,DB1085,DB1086,,Standard Option; With Front 327mm Single Piston only; Standard Option; With Rear 278mm Single Piston only
+HSV,Senator,VP,Sedan,1992,1993,LB9,5.0,180,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 327mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Senator,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Senator,VS,Sedan,1995,1997,LB9,5.0,185,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Senator,VT,Sedan,1997,1999,LB9,5.0,195,,,RWD,DB1868,DB1354,,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VR,Sedan,1993,1995,LT1,5.7,215,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Senator,VR,Sedan,1993,1995,LT1,5.7,215,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Senator,VS,Sedan,1995,1997,LT1,5.7,215,,,RWD,DB1085,DB1086,,Standard Option; With Front 328mm Single Piston only; Standard Option; With Rear 279mm Single Piston only
+HSV,Senator,VS,Sedan,1995,1997,LT1,5.7,215,,,RWD,DB1353,DB1354,,Upgrade Option; With Front 328mm Twin Piston only; Upgrade Option; With Rear 280mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,220,,,RWD,DB1868,DB1354,,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,230,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,230,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,250,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,250,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,Senator,VT,Sedan,1997,1999,LS1,5.7,250,,,RWD,DB1868,DB1354,,Suits 2 POT PBR Caliper C5; Standard Option; With Rear 315mm Twin Piston only
+HSV,Senator,VX,Sedan,2000,2002,LS1,5.7,255,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Senator,VX,Sedan,2000,2002,LS1,5.7,255,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Senator,VY,Sedan,2002,2003,LS1,5.7,260,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Senator,VY,Sedan,2002,2003,LS1,5.7,260,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Senator,VY,Sedan,2003,2004,LS1,5.7,285,,,RWD,DB1355,,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper
+HSV,Senator,VY,Sedan,2003,2004,LS1,5.7,285,,,RWD,DB1868,,,Suits 2 POT PBR Caliper C5
+HSV,Senator,VZ,Sedan,2004,2006,L76,6.0,297,,,RWD,DB1868,DB1354,,
+HSV,Senator,VE,Sedan,2006,2008,L76,6.0,307,,,RWD,DB1937,DB1938,,4 Pot AP Calipers (365mm Brake Rotor)
+HSV,Senator,VE,Sedan,2006,2013,L98,6.0,297,,,RWD,DB1937,DB1938,,4 Pot AP Calipers (365mm Brake Rotor)
+HSV,Senator,VE,Sedan,2008,2013,LS3,6.2,317,,,RWD,DB1937,DB1938,,4 Pot AP Calipers (365mm Brake Rotor)
+HSV,Senator,VE,Sedan,2008,2013,LS3,6.2,317,,,RWD,DB2317,DB1938,,AP 6-Pot Yellow Caliper
+HSV,Senator,VE,Sedan,2012,2013,LS3,6.2,325,,,RWD,DB1937,DB1938,,4 Pot AP Calipers (365mm Brake Rotor)
+HSV,Senator,VF,Sedan,2013,2015,LS3,6.2,340,,,RWD,DB1937,,,4 Pot AP Calipers (367mm Brake Rotor)
+HSV,Senator,VF,Sedan,2016,2016,LSA,6.2,400,,,RWD,DB1937,,,4 Pot AP Calipers (367mm Brake Rotor)
+HSV,XU6,VT,Sedan,1998,2000,L67,3.8,180,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
+HSV,XU8,VT,Sedan,1999,1999,LB9,5.0,195,,,RWD,DB1353,DB1354,,Standard Option; With Front 330mm Twin Piston only; Standard Option; With Rear 315mm Twin Piston only
+HSV,XU8,VT,Sedan,1999,1999,LB9,5.0,195,,,RWD,DB1355,DB1356,,Upgrade Option; With Front 343mm 4-pot Harrop Caliper; Upgrade Option; With Rear 315mm 4-pot Harrop Caliper
