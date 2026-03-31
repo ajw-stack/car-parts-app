@@ -1,5 +1,6 @@
 import { supabaseServer } from "../../../lib/supabaseServer";
 import Header from "../../../components/Header";
+import VehicleDetailClient from "./VehicleDetailClient";
 
 function Row({ label, value }: { label: string; value?: string | number | null }) {
   if (!value && value !== 0) return null;
@@ -43,7 +44,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
 
   const { data: v, error } = await supabaseServer
     .from("vehicles")
-    .select("*")
+    .select("*, image_urls")
     .eq("id", id)
     .single();
 
@@ -86,6 +87,13 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
               View Parts
             </a>
           </div>
+
+          {/* Images + edit button */}
+          <VehicleDetailClient
+            vehicleId={id}
+            makeSlug={makeSlug}
+            imageUrls={(v.image_urls as string[] | null) ?? []}
+          />
 
           {/* Core specs */}
           <Section title="General">
