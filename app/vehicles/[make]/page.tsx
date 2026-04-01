@@ -51,7 +51,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
       <main className="flex-1 bg-white">
         <div className="relative mx-auto max-w-5xl px-4 py-8">
           {/* Logo floated into left gutter — hidden on small screens */}
-          <div className="absolute top-20 -left-4 xl:-left-52 hidden xl:block">
+          <div className="absolute top-20 -left-4 xl:-left-64 hidden xl:block">
             <MakeLogoClient makeSlug={makeSlugParam} logoUrl={logoUrl} />
           </div>
 
