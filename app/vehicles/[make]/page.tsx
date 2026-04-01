@@ -49,17 +49,19 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
       <Header />
 
       <main className="flex-1 bg-white">
-        <div className="mx-auto max-w-5xl px-4 py-8">
+        <div className="relative mx-auto max-w-5xl px-4 py-8">
+          {/* Logo floated into left gutter — hidden on small screens */}
+          <div className="absolute top-8 -left-4 xl:-left-40 hidden xl:block">
+            <MakeLogoClient makeSlug={makeSlugParam} logoUrl={logoUrl} />
+          </div>
+
           <div className="mb-6">
             <a href="/" className="text-sm text-gray-400 hover:text-gray-600">← Back</a>
-            <div className="mt-4 flex items-center gap-5">
-              <MakeLogoClient makeSlug={makeSlugParam} logoUrl={logoUrl} />
-              <div>
-                <h1 className="text-3xl font-bold text-[#111827]">{canonicalMake}</h1>
-                <p className="mt-1 text-sm text-gray-500">
-                  {totalVehicles} vehicle{totalVehicles !== 1 ? "s" : ""} in catalogue
-                </p>
-              </div>
+            <div className="mt-4">
+              <h1 className="text-3xl font-bold text-[#111827]">{canonicalMake}</h1>
+              <p className="mt-1 text-sm text-gray-500">
+                {totalVehicles} vehicle{totalVehicles !== 1 ? "s" : ""} in catalogue
+              </p>
             </div>
           </div>
 
