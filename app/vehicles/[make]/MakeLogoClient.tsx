@@ -21,7 +21,7 @@ export default function MakeLogoClient({
   if (!logoUrl && !isAdmin) return null;
 
   return (
-    <div className="relative flex-shrink-0 w-52 h-36 rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center overflow-hidden">
+    <div className="relative flex-shrink-0 w-[416px] h-72 rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center overflow-hidden">
       {logoUrl ? (
         <img
           src={logoUrl}
