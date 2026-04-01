@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import { MAKES_CONFIG, slugToMake } from "../../lib/makes";
 import { notFound } from "next/navigation";
 import VehicleModelList from "./VehicleModelList";
+import MakeLogoClient from "./MakeLogoClient";
 
 export const revalidate = 60;
 
@@ -16,14 +17,23 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
 
   const configModels = MAKES_CONFIG[canonicalMake] ?? [];
 
-  const { data: vehicles } = await supabaseServer
-    .from("vehicles")
-    .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, trim_code, specs")
-    .eq("make", canonicalMake)
-    .order("model")
-    .order("year_from", { nullsFirst: false })
-    .order("year_to", { nullsFirst: false })
-    .order("engine_litres", { nullsFirst: false });
+  const [{ data: vehicles }, { data: makeRow }] = await Promise.all([
+    supabaseServer
+      .from("vehicles")
+      .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, trim_code, specs")
+      .eq("make", canonicalMake)
+      .order("model")
+      .order("year_from", { nullsFirst: false })
+      .order("year_to", { nullsFirst: false })
+      .order("engine_litres", { nullsFirst: false }),
+    supabaseServer
+      .from("makes")
+      .select("logo_url")
+      .eq("make", canonicalMake)
+      .maybeSingle(),
+  ]);
+
+  const logoUrl = (makeRow as any)?.logo_url ?? null;
 
   // Group DB vehicles by model
   const dbByModel: Record<string, typeof vehicles> = {};
@@ -42,10 +52,15 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
         <div className="mx-auto max-w-5xl px-4 py-8">
           <div className="mb-6">
             <a href="/" className="text-sm text-gray-400 hover:text-gray-600">← Back</a>
-            <h1 className="mt-2 text-3xl font-bold text-[#111827]">{canonicalMake}</h1>
-            <p className="mt-1 text-sm text-gray-500">
-              {totalVehicles} vehicle{totalVehicles !== 1 ? "s" : ""} in catalogue
-            </p>
+            <div className="mt-4 flex items-center gap-5">
+              <MakeLogoClient makeSlug={makeSlugParam} logoUrl={logoUrl} />
+              <div>
+                <h1 className="text-3xl font-bold text-[#111827]">{canonicalMake}</h1>
+                <p className="mt-1 text-sm text-gray-500">
+                  {totalVehicles} vehicle{totalVehicles !== 1 ? "s" : ""} in catalogue
+                </p>
+              </div>
+            </div>
           </div>
 
           <VehicleModelList
