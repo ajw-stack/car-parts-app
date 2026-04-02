@@ -9,14 +9,16 @@ export default function RedBorderLine() {
     function update() {
       const header = document.querySelector("header");
       const footer = document.querySelector("footer");
-      const headerBottom = header ? header.getBoundingClientRect().bottom + 2 : 91;
+      const gap = 2;
+      const lineY = header ? header.getBoundingClientRect().bottom + gap : 91;
+      const lineX = gap;
       const endY = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
       const width = window.innerWidth;
-      const cornerY = headerBottom + 30;
+      const cornerY = lineY + 20;
       if (pathRef.current) {
         pathRef.current.setAttribute(
           "d",
-          `M ${width} ${headerBottom} L 40 ${headerBottom} Q 10 ${headerBottom} 10 ${cornerY} L 10 ${endY}`
+          `M ${width} ${lineY} L ${lineX + 20} ${lineY} Q ${lineX} ${lineY} ${lineX} ${cornerY} L ${lineX} ${endY}`
         );
       }
     }
@@ -39,9 +41,9 @@ export default function RedBorderLine() {
     >
       <path
         ref={pathRef}
-        d="M 1920 91 L 40 91 Q 10 91 10 121 L 10 2000"
+        d="M 1920 91 L 22 91 Q 2 91 2 111 L 2 2000"
         stroke="#CC0000"
-        strokeWidth="1.5"
+        strokeWidth="2.25"
         strokeLinecap="round"
         fill="none"
       />
