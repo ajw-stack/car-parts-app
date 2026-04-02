@@ -36,9 +36,9 @@ export default function RedBorderLine() {
       if (fillRef.current) {
         fillRef.current.setAttribute(
           "d",
-          `M 0 ${headerBottom}
-           L ${lineX + curveSize} ${headerBottom}
-           Q ${lineX - gap} ${headerBottom} ${lineX - gap} ${cornerY}
+          `M 0 ${headerBottom - 1}
+           L ${lineX + curveSize} ${headerBottom - 1}
+           Q ${lineX - gap} ${headerBottom - 1} ${lineX - gap} ${cornerY}
            L ${lineX - gap} ${endY}
            L 0 ${endY}
            Z`
