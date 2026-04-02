@@ -10,32 +10,36 @@ export default function RedBorderLine() {
     function update() {
       const header = document.querySelector("header");
       const footer = document.querySelector("footer");
-      const gap        = 2;
-      const headerBottom = header ? header.getBoundingClientRect().bottom : 89;
-      const lineY      = headerBottom + gap;
-      const lineX      = gap;
-      const endY       = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
-      const curveSize  = 20;
-      const cornerY    = lineY + curveSize;
 
-      // Red line
+      const gap          = 2;   // gap between fill edge and red line, all sides
+      const lineX        = 10;  // x position of red line's vertical segment
+      const curveSize    = 20;
+
+      const headerBottom = header ? header.getBoundingClientRect().bottom : 89;
+      const lineY        = headerBottom + gap;
+      const cornerY      = lineY + curveSize;
+      const endY         = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
+      const width        = window.innerWidth;
+
+      // Red line: horizontal → curve → vertical
       if (lineRef.current) {
         lineRef.current.setAttribute(
           "d",
-          `M 2000 ${lineY} L ${lineX + curveSize} ${lineY} Q ${lineX} ${lineY} ${lineX} ${cornerY} L ${lineX} ${endY}`
+          `M ${width} ${lineY} L ${lineX + curveSize} ${lineY} Q ${lineX} ${lineY} ${lineX} ${cornerY} L ${lineX} ${endY}`
         );
       }
 
-      // Fill only the region outside the red line but BELOW the header —
-      // the horizontal gap strip + the curved corner + the left vertical strip
+      // Fill: covers the header-colour region outside the red line.
+      // Offset inward by `gap` so there's consistent whitespace between fill and line.
+      // fill right edge on vertical  = lineX - gap
+      // fill curve control offset    = (lineX - gap, headerBottom)  [= lineY - gap]
       if (fillRef.current) {
         fillRef.current.setAttribute(
           "d",
           `M 0 ${headerBottom}
            L ${lineX + curveSize} ${headerBottom}
-           L ${lineX + curveSize} ${lineY}
-           Q ${lineX} ${lineY} ${lineX} ${cornerY}
-           L ${lineX} ${endY}
+           Q ${lineX - gap} ${headerBottom} ${lineX - gap} ${cornerY}
+           L ${lineX - gap} ${endY}
            L 0 ${endY}
            Z`
         );
@@ -60,13 +64,13 @@ export default function RedBorderLine() {
     >
       <path
         ref={fillRef}
-        d="M 0 89 L 22 89 L 22 91 Q 2 91 2 111 L 2 5000 L 0 5000 Z"
+        d=""
         fill="#141414"
         stroke="none"
       />
       <path
         ref={lineRef}
-        d="M 2000 91 L 22 91 Q 2 91 2 111 L 2 5000"
+        d=""
         stroke="#CC0000"
         strokeWidth="2.25"
         strokeLinecap="round"
