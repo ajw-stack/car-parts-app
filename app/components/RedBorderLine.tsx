@@ -18,7 +18,7 @@ export default function RedBorderLine() {
       const headerBottom = header ? header.getBoundingClientRect().bottom : 89;
       const lineY        = headerBottom + gap;
       const cornerY      = lineY + curveSize;
-      const endY         = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
+      const endY         = footer ? footer.getBoundingClientRect().top - 1 : window.innerHeight - 50;
       const width        = window.innerWidth;
 
       // Red line: horizontal → curve → vertical
@@ -73,7 +73,7 @@ export default function RedBorderLine() {
         d=""
         stroke="#CC0000"
         strokeWidth="2.25"
-        strokeLinecap="round"
+        strokeLinecap="butt"
         fill="none"
       />
     </svg>
