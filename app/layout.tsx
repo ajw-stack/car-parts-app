@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import RedBorderLine from "./components/RedBorderLine";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -33,27 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {/* Decorative red line — runs right under header then down left side */}
-        <svg
-          className="pointer-events-none fixed top-0 left-0 z-40"
-          width="100vw"
-          height="100vh"
-          viewBox="0 0 1920 1080"
-          preserveAspectRatio="none"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          style={{ width: "100vw", height: "100vh", overflow: "visible" }}
-        >
-          {/* Starts at top-right, runs left to corner radius, curves down left side */}
-          <path
-            d="M 1920 89 L 40 89 Q 10 89 10 119 L 10 2000"
-            stroke="#CC0000"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            fill="none"
-            vectorEffect="non-scaling-stroke"
-          />
-        </svg>
+        <RedBorderLine />
         {children}
       </body>
     </html>
