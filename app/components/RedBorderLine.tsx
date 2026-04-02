@@ -7,13 +7,16 @@ export default function RedBorderLine() {
 
   useEffect(() => {
     function update() {
+      const header = document.querySelector("header");
       const footer = document.querySelector("footer");
+      const headerBottom = header ? header.getBoundingClientRect().bottom + 2 : 91;
       const endY = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
       const width = window.innerWidth;
+      const cornerY = headerBottom + 30;
       if (pathRef.current) {
         pathRef.current.setAttribute(
           "d",
-          `M ${width} 91 L 40 91 Q 10 91 10 121 L 10 ${endY}`
+          `M ${width} ${headerBottom} L 40 ${headerBottom} Q 10 ${headerBottom} 10 ${cornerY} L 10 ${endY}`
         );
       }
     }
