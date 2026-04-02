@@ -33,23 +33,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {/* Decorative red corner line — top edge across + down left side */}
+        {/* Decorative red line — runs right under header then down left side */}
         <svg
-          className="pointer-events-none fixed top-0 left-0 z-50"
-          width="60"
-          height="300"
-          viewBox="0 0 60 300"
+          className="pointer-events-none fixed top-0 left-0 z-40"
+          width="100vw"
+          height="100vh"
+          viewBox="0 0 1920 1080"
+          preserveAspectRatio="none"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          style={{ overflow: "visible" }}
+          style={{ width: "100vw", height: "100vh", overflow: "visible" }}
         >
-          {/* Horizontal top line extending far right, curves down into vertical */}
+          {/* Starts at top-right, runs left to corner radius, curves down left side */}
           <path
-            d="M 2000 2 Q 30 2 30 30 L 30 2000"
+            d="M 1920 89 L 40 89 Q 10 89 10 119 L 10 2000"
             stroke="#CC0000"
-            strokeWidth="2"
+            strokeWidth="1.5"
             strokeLinecap="round"
             fill="none"
+            vectorEffect="non-scaling-stroke"
           />
         </svg>
         {children}
