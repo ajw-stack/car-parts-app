@@ -3,8 +3,8 @@
 import { useEffect, useRef } from "react";
 
 export default function RedBorderLine() {
-  const lineRef  = useRef<SVGPathElement>(null);
-  const fillRef  = useRef<SVGPathElement>(null);
+  const lineRef = useRef<SVGPathElement>(null);
+  const fillRef = useRef<SVGPathElement>(null);
 
   useEffect(() => {
     function update() {
@@ -15,7 +15,6 @@ export default function RedBorderLine() {
       const lineY      = headerBottom + gap;
       const lineX      = gap;
       const endY       = footer ? footer.getBoundingClientRect().top : window.innerHeight - 50;
-      const width      = window.innerWidth;
       const curveSize  = 20;
       const cornerY    = lineY + curveSize;
 
@@ -23,20 +22,17 @@ export default function RedBorderLine() {
       if (lineRef.current) {
         lineRef.current.setAttribute(
           "d",
-          `M ${width} ${lineY} L ${lineX + curveSize} ${lineY} Q ${lineX} ${lineY} ${lineX} ${cornerY} L ${lineX} ${endY}`
+          `M 2000 ${lineY} L ${lineX + curveSize} ${lineY} Q ${lineX} ${lineY} ${lineX} ${cornerY} L ${lineX} ${endY}`
         );
       }
 
-      // Large fill: covers from top-left of page, across the top (full width),
-      // down to the red line level, in along the line, round the corner, then
-      // down the left strip and back. This fills everything "outside" the red
-      // line with header colour so there are zero seams.
+      // Fill only the region outside the red line but BELOW the header —
+      // the horizontal gap strip + the curved corner + the left vertical strip
       if (fillRef.current) {
         fillRef.current.setAttribute(
           "d",
-          `M 0 0
-           L ${width} 0
-           L ${width} ${lineY}
+          `M 0 ${headerBottom}
+           L ${lineX + curveSize} ${headerBottom}
            L ${lineX + curveSize} ${lineY}
            Q ${lineX} ${lineY} ${lineX} ${cornerY}
            L ${lineX} ${endY}
@@ -62,17 +58,15 @@ export default function RedBorderLine() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* Fill everything outside the red line with header colour */}
       <path
         ref={fillRef}
-        d="M 0 0 L 1920 0 L 1920 91 L 22 91 Q 2 91 2 111 L 2 5000 L 0 5000 Z"
+        d="M 0 89 L 22 89 L 22 91 Q 2 91 2 111 L 2 5000 L 0 5000 Z"
         fill="#141414"
         stroke="none"
       />
-      {/* Red border line on top */}
       <path
         ref={lineRef}
-        d="M 1920 91 L 22 91 Q 2 91 2 111 L 2 5000"
+        d="M 2000 91 L 22 91 Q 2 91 2 111 L 2 5000"
         stroke="#CC0000"
         strokeWidth="2.25"
         strokeLinecap="round"
