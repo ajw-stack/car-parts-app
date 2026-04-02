@@ -508,7 +508,8 @@ export default function Page() {
         (selectedSeries === "All" || seriesVal === selectedSeries) &&
         (!selectedEngineKey ||
           engineLabelFromKey(engineKey(v)) === selectedEngineKey) &&
-        (!selectedChassis || chassisVal === selectedChassis)
+        (!selectedTrim || v.trim_code === selectedTrim) &&
+        (!selectedChassis || (chassisVal !== '' && selectedChassis.includes(`• ${chassisVal}`)))
       );
     });
 
