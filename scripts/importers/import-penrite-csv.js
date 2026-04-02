@@ -219,8 +219,11 @@ async function main() {
       if (lo1 > hi2 || lo2 > hi1) continue;
 
       // Engine code match if both present
+      // Penrite sometimes uses "LN3 (L36)" style — check if DB code appears anywhere in it
       if (engCode && dbV.engine_code) {
-        if (dbV.engine_code.toUpperCase() !== engCode.toUpperCase()) continue;
+        const dbCode  = dbV.engine_code.toUpperCase();
+        const csvCode = engCode.toUpperCase();
+        if (!csvCode.includes(dbCode) && dbCode !== csvCode) continue;
       }
 
       // Engine litres match if both present (within 0.15L)

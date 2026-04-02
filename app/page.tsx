@@ -3,8 +3,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import Header from "./components/Header";
 import { supabase } from "./lib/supabaseClient";
+import { makeSlug } from "./lib/makes";
 
 type VehicleRow = {
   id: string;
@@ -139,6 +141,8 @@ function TypeaheadInput({
 }
 
 export default function Page() {
+  const router = useRouter();
+
   // Makes — loaded once on mount (distinct makes only)
   const [makes, setMakes] = useState<string[]>([]);
   const [loadingMakes, setLoadingMakes] = useState(true);
@@ -519,54 +523,6 @@ export default function Page() {
     selectedChassis,
   ]);
 
-  // --- Load compatible parts when selectedVehicleId changes ---
-  useEffect(() => {
-    let cancelled = false;
-
-    async function loadParts(vehicleId: string) {
-      setLoadingParts(true);
-      setPartsError(null);
-
-      const { data, error } = await supabase
-        .from("vehicle_part_fitments")
-        .select("part:part_id(id, brand, part_number, name, category)")
-        .eq("vehicle_id", vehicleId);
-
-      if (cancelled) return;
-
-      if (error) {
-        console.error(error);
-        setParts([]);
-        setPartsError(error.message);
-      } else {
-        const rows = data ?? [];
-        const mapped = rows
-          .map((r: any) => r.part)
-          .filter(Boolean) as PartRow[];
-        mapped.sort((a, b) => {
-          const ca = (a.category ?? "").localeCompare(b.category ?? "");
-          if (ca !== 0) return ca;
-          const ba = (a.brand ?? "").localeCompare(b.brand ?? "");
-          if (ba !== 0) return ba;
-          return (a.part_number ?? "").localeCompare(b.part_number ?? "");
-        });
-        setParts(mapped);
-      }
-
-      setLoadingParts(false);
-    }
-
-    if (!selectedVehicleId) {
-      setParts([]);
-      setPartsError(null);
-      return;
-    }
-
-    loadParts(selectedVehicleId);
-    return () => {
-      cancelled = true;
-    };
-  }, [selectedVehicleId]);
 
   function clearAll() {
     setSelectedMake("");
@@ -827,48 +783,25 @@ export default function Page() {
             </div>
           )}
 
-          {/* Parts */}
+          {/* Compatible Parts — navigate to dedicated page */}
           <div className="mt-10">
-            <div className="flex items-center justify-between">
-              <h2 className="text-sm font-semibold text-[#0F0F0F]">
-                Compatible Parts
-              </h2>
-              <div className="text-sm text-[#6A6A6A]">{partsCountLabel}</div>
-            </div>
+            <h2 className="text-sm font-semibold text-[#0F0F0F]">Compatible Parts</h2>
 
             <div className="mt-4 rounded-2xl border border-[#DCDCDC] bg-white p-4">
               {!selectedVehicleId ? (
                 <div className="text-sm text-[#6A6A6A]">
-                  Select Make, Model, Year, Series and Engine to view parts.
-                  Trim and Chassis are optional.
-                </div>
-              ) : loadingParts ? (
-                <div className="text-sm text-[#6A6A6A]">Loading parts…</div>
-              ) : partsError ? (
-                <div className="text-sm text-red-300">
-                  Error loading parts:{" "}
-                  <span className="font-mono">{partsError}</span>
-                </div>
-              ) : parts.length === 0 ? (
-                <div className="text-sm text-[#6A6A6A]">
-                  No parts linked to this vehicle + engine + chassis yet.
+                  Select Make, Model, Year, Series and Engine to view parts.{" "}
+                  <span className="text-[#b40102]">Trim and Chassis are optional.</span>
                 </div>
               ) : (
-                <div className="space-y-3">
-                  {filteredParts.map((p) => (
-                    <Link
-                      key={p.id}
-                      href={`/part/${p.id}`}
-                      className="block rounded-xl border border-[#DCDCDC] bg-white px-4 py-3 hover:bg-[#F5F5F5] cursor-pointer"
-                    >
-                      <div className="text-xs text-[#6A6A6A]">{p.category}</div>
-                      <div className="mt-1 font-semibold">
-                        {p.brand} {p.part_number}
-                      </div>
-                      <div className="text-sm text-[#6A6A6A]">{p.name}</div>
-                    </Link>
-                  ))}
-                </div>
+                <button
+                  onClick={() =>
+                    router.push(`/vehicles/${makeSlug(selectedMake)}/${selectedVehicleId}/parts`)
+                  }
+                  className="w-full rounded-xl bg-[#1A1A1A] px-6 py-4 text-sm font-semibold text-white hover:bg-[#333] transition-colors"
+                >
+                  View Compatible Parts →
+                </button>
               )}
             </div>
           </div>
