@@ -1,0 +1,8 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+AUSTIN-HEALEY,3000 MK.III Convertible,03/64,10/71,3.0 Sport,03/64,10/68,110,150,Brake discs,Prime,08.1580.10,281mm,"12,7mm",38mm,,5,Solid,83mm,"11,4mm",,2,,,,,,
+AUSTIN-HEALEY,SPRITE MK.III Convertible,03/64,10/66,1.1,03/64,09/66,41,56,Brake discs,Prime,08.1633.10,209mm,"7,7mm",40mm,,4,Solid,64mm,"7,3mm",,2,,,,,,
+AUSTIN-HEALEY,SPRITE MK.III Convertible,03/64,10/66,1.1,03/64,09/66,41,56,Brake pads,Prime,P 52 002,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN-HEALEY,SPRITE MK.III Convertible,03/64,10/66,1.1,03/64,09/66,41,56,Brake pads,Prime Ceramic,P52002N,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN-HEALEY,SPRITE MK.IV Convertible,03/66,10/71,1.3,03/66,10/71,48,65,Brake discs,Prime,08.1633.10,209mm,"7,7mm",40mm,,4,Solid,64mm,"7,3mm",,2,,,,,,
+AUSTIN-HEALEY,SPRITE MK.IV Convertible,03/66,10/71,1.3,03/66,10/71,48,65,Brake pads,Prime,P 52 002,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN-HEALEY,SPRITE MK.IV Convertible,03/66,10/71,1.3,03/66,10/71,48,65,Brake pads,Prime Ceramic,P52002N,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,

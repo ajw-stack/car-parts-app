@@ -1,0 +1,253 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+GMC,SIERRA,01/07,>,5.3 4x4,01/08,12/09,235,320,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,
+GMC,SIERRA,01/07,>,5.3 4x4,01/08,12/09,235,320,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,
+GMC,SIERRA,01/07,>,5.3 4x4,01/08,12/09,235,320,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,
+GMC,SIERRA,01/07,>,5.3 4x4,01/08,12/09,235,320,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+GMC,SIERRA,05/96,12/07,5.3,10/98,12/07,213,290,Brake discs,Prime,09.9022.11,325mm,38mm,89mm,,8,Ventilated,118mm,"36,5mm",150Nm,1,,,,,,
+GMC,SIERRA,05/96,12/07,5.3 4x4,10/98,12/07,213,290,Brake discs,Prime,09.9022.11,325mm,38mm,89mm,,8,Ventilated,118mm,"36,5mm",150Nm,1,,,,,,
+GMC,SIERRA 1500 Crew Cab Pickup,09/13,>,5.3 4WD,07/14,>,265,360,Brake pads,Prime Ceramic,P10068N,,18mm,46mm,143mm,,,,,,,,Acoustic,,D1707 8930,With anti-squeal shim,
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,09/97,12/07,5.3 4WD,09/99,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.3 4WD,09/07,12/13,145,197,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 4WD,09/07,12/09,220,299,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX,09/09,12/13,225,306,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,4.8 FLEX 4WD,09/10,12/13,225,306,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,235,320,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 4WD,09/07,12/09,224,305,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,5.3 FLEX 4WD,09/09,12/13,243,330,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.0 4WD,09/07,12/09,274,372,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,01/07,12/13,6.2 FLEX 4WD,09/10,12/13,301,409,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3,09/19,>,265,360,UPGRADE GT kit,GT | A6 | D,1J1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3,09/19,>,265,360,UPGRADE GT kit,GT | A6 | TY1,1J2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3,09/19,>,265,360,UPGRADE GT kit,GT | A6 | TY3,1J3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3,09/19,>,265,360,UPGRADE GT kit,GT | BM8 | D,1Q1.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3,09/19,>,265,360,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3 4WD,09/19,>,265,360,UPGRADE GT kit,GT | A6 | D,1J1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3 4WD,09/19,>,265,360,UPGRADE GT kit,GT | A6 | TY1,1J2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3 4WD,09/19,>,265,360,UPGRADE GT kit,GT | A6 | TY3,1J3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3 4WD,09/19,>,265,360,UPGRADE GT kit,GT | BM8 | D,1Q1.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SIERRA 1500 Standard Cab Pickup,02/19,>,5.3 4WD,09/19,>,265,360,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,5.3,10/99,>,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi,10/99,>,135,184,UPGRADE GT kit,GT | A6 | D,1J1.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi,10/99,>,135,184,UPGRADE GT kit,GT | A6 | TY1,1J2.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi,10/99,>,135,184,UPGRADE GT kit,GT | A6 | TY3,1J3.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi AWD,10/99,>,135,184,UPGRADE GT kit,GT | A6 | D,1J1.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi AWD,10/99,>,135,184,UPGRADE GT kit,GT | A6 | TY1,1J2.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,10/99,>,6.5 Tdi AWD,10/99,>,135,184,UPGRADE GT kit,GT | A6 | TY3,1J3.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,SUBURBAN,09/72,09/99,5.7 AWD,10/91,09/99,157,213,Brake discs,Prime,09.7815.11,295mm,33mm,66mm,,6,Ventilated,79mm,"30,9mm",,2,,,,,,
+GMC,SUBURBAN,09/72,09/99,6.5 Tdi AWD,10/93,09/99,135,184,Brake discs,Prime,09.7815.11,295mm,33mm,66mm,,6,Ventilated,79mm,"30,9mm",,2,,,,,,
+GMC,SUBURBAN,09/72,09/99,7.4 AWD,10/86,09/91,170,231,Brake discs,Prime,09.7815.11,295mm,33mm,66mm,,6,Ventilated,79mm,"30,9mm",,2,,,,,,
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,5.3 4WD,09/00,12/04,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/00,12/03,238,324,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/03,12/05,242,329,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A4 | D,1B1.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A4 | TY1,1B2.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A4 | TY3,1B3.8031A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON,09/99,12/06,6.0 4WD,09/05,12/06,250,340,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+GMC,YUKON (GMT1UG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | D,1J1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON (GMT1UG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | TY1,1J2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON (GMT1UG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | TY3,1J3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON (GMT1UG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | BM8 | D,1Q1.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,YUKON (GMT1UG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,YUKON XL (GMT1YG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | D,1J1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON XL (GMT1YG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | TY1,1J2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON XL (GMT1YG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | A6 | TY3,1J3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+GMC,YUKON XL (GMT1YG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | BM8 | D,1Q1.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+GMC,YUKON XL (GMT1YG),07/20,>,6.2 4WD,07/20,>,313,426,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9623A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock

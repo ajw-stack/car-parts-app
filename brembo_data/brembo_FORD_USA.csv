@@ -1,0 +1,248 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+FORD USA,BRONCO II,09/83,08/90,2.9 i V6 4x4,09/85,08/90,104,141,Brake pads,Prime Ceramic,P24134N,,14mm,63 - 67mm,172 - 160mm,,,,,,,Bendix,Without,"21830, 21831",D654 7534A,With anti-squeal shim,
+FORD USA,BRONCO SUV,09/91,12/96,5.8 4WD,09/95,12/96,157,214,Brake pads,Prime Ceramic,P24098N,,15mm,54mm,194mm,,,,,,,,Without,,D632 7503,With anti-squeal shim,
+FORD USA,EXPEDITION (U553),10/17,>,3.5 Ti-VCT EcoBoost,10/17,>,261,355,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,EXPEDITION (U553),10/17,>,3.5 Ti-VCT EcoBoost,10/17,>,261,355,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,EXPEDITION (U553),10/17,>,3.5 Ti-VCT EcoBoost,10/17,>,261,355,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,EXPEDITION (U553),10/17,>,3.5 Ti-VCT EcoBoost,10/17,>,261,355,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,EXPEDITION (U553),10/17,>,3.5 Ti-VCT EcoBoost,10/17,>,261,355,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150,10/96,>,4.2,05/97,08/98,150,204,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,4.2,05/97,08/98,150,204,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,4.6,05/97,08/98,154,209,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,4.6,05/97,08/98,154,209,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,4.6,09/98,10/01,164,223,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,4.6,09/98,10/01,164,223,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,4.6,10/96,09/98,162,220,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,4.6,10/96,09/98,162,220,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,4.6,10/98,11/03,170,231,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,4.6,10/98,11/03,170,231,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,Brake discs,Prime,09.7787.11,308mm,26mm,52mm,,5,Ventilated,90mm,"24,5mm",,1,,,,,,,,,
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,,,,
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,,,,
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,UPGRADE GT kit,GT | A4 | D,1B1.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,UPGRADE GT kit,GT | A4 | TY1,1B2.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/96,>,4.6 4x4,10/98,11/03,170,231,UPGRADE GT kit,GT | A4 | TY3,1B3.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/96,>,5.4,10/96,11/03,185,252,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,5.4,10/96,11/03,185,252,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,5.4,05/01,11/03,280,381,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150,10/96,>,5.4,05/01,11/03,280,381,Brake pads,Prime Ceramic,P24083N,,17mm,48mm,142mm,,,,,,,Kelsey Hayes,Without,"24753, 24754",D879 7584,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/96,>,5.4 4x4,10/96,11/03,185,252,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,,,,
+FORD USA,F-150,10/96,>,5.4 4x4,10/96,11/03,185,252,UPGRADE GT kit,GT | A4 | D,1B1.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/96,>,5.4 4x4,10/96,11/03,185,252,UPGRADE GT kit,GT | A4 | TY1,1B2.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/96,>,5.4 4x4,10/96,11/03,185,252,UPGRADE GT kit,GT | A4 | TY3,1B3.8005A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,F-150,10/03,12/07,4.6 4x4,10/03,09/07,170,231,Brake discs,Prime,09.B595.11,348mm,20mm,86mm,,6,Ventilated,90mm,"18,5mm",,1,,,,,,
+FORD USA,F-150,10/03,12/07,4.6 4x4,10/03,09/07,170,231,Brake pads,Prime Ceramic,P24135N,,21mm,59mm,176mm,,,,,,,Bosch,Without,22406,D1083 7915,With anti-squeal shim,
+FORD USA,F-150,10/03,12/07,4.6 4x4,10/03,09/07,170,231,Brake pads,Prime Ceramic,P24167N,,21mm,60mm,176mm,,,,,,,Bosch,Without,22406,D1392 7915,With anti-squeal shim,
+FORD USA,F-150,10/03,12/07,4.6 4x4,10/03,09/07,170,231,Brake pads,Prime Ceramic,P56091N,,19mm,50mm,158 - 159mm,,,,,,,,Without,,D1012 7916,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake discs,Prime,09.C274.21,350mm,34mm,50mm,,7,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake discs,Prime,09.B595.11,348mm,20mm,86mm,,6,Ventilated,90mm,"18,5mm",,1,,,,,,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake pads,Prime Ceramic,P24135N,,21mm,59mm,176mm,,,,,,,Bosch,Without,22406,D1083 7915,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake pads,Prime Ceramic,P24167N,,21mm,60mm,176mm,,,,,,,Bosch,Without,22406,D1392 7915,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4,10/07,>,221,300,Brake pads,Prime Ceramic,P56091N,,19mm,50mm,158 - 159mm,,,,,,,,Without,,D1012 7916,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake discs,Prime,09.C274.21,350mm,34mm,50mm,,7,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake discs,Prime,09.B595.11,348mm,20mm,86mm,,6,Ventilated,90mm,"18,5mm",,1,,,,,,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake pads,Prime Ceramic,P24135N,,21mm,59mm,176mm,,,,,,,Bosch,Without,22406,D1083 7915,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake pads,Prime Ceramic,P24167N,,21mm,60mm,176mm,,,,,,,Bosch,Without,22406,D1392 7915,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150,10/07,>,5.4 4x4,10/07,>,221,300,Brake pads,Prime Ceramic,P56091N,,19mm,50mm,158 - 159mm,,,,,,,,Without,,D1012 7916,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150,10/91,12/97,4.9,10/91,09/96,110,150,Brake pads,Prime Ceramic,P24098N,,15mm,54mm,194mm,,,,,,,,Without,,D632 7503,With anti-squeal shim,
+FORD USA,F-150,10/91,12/97,4.9 Supercab,10/91,09/96,136,185,Brake pads,Prime Ceramic,P24102N,,17mm,57mm,166mm,,,,,,,Wagner,Acoustic,"24578, 24757, 24759",D679 7558,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake discs,Prime,09.C274.21,350mm,34mm,50mm,,7,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake discs,Prime,09.D274.21,348mm,25mm,80mm,,6,Ventilated,90mm,23mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake pads,Prime Ceramic,P24166N,,19mm,68 - 70mm,194mm,,,,,,,,Without,,"D1414 8528, D1770 8528, D2087 9322",With accessoriesWith anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake pads,Prime Ceramic,P24168N,,17mm,55mm,149mm,,,,,,,,Without,,D1602 8816,With accessoriesWith anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,3.5 4WD,09/10,>,272,370,Brake pads,Prime Ceramic,P24169N,,18mm,50mm,159mm,,,,,,,,Without,,D1012 8529,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,5.0 4WD,09/12,11/14,268,364,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,5.0 4WD,09/12,11/14,268,364,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake discs,Prime,09.C274.21,350mm,34mm,50mm,,7,Ventilated,90mm,32mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake discs,Prime,09.B595.11,348mm,20mm,86mm,,6,Ventilated,90mm,"18,5mm",,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake discs,Prime,09.D274.21,348mm,25mm,80mm,,6,Ventilated,90mm,23mm,,1,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime Ceramic,P24166N,,19mm,68 - 70mm,194mm,,,,,,,,Without,,"D1414 8528, D1770 8528, D2087 9322",With accessoriesWith anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime Ceramic,P56091N,,19mm,50mm,158 - 159mm,,,,,,,,Without,,D1012 7916,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime Ceramic,P24168N,,17mm,55mm,149mm,,,,,,,,Without,,D1602 8816,With accessoriesWith anti-squeal shim,
+FORD USA,F-150 Crew Cab Pickup,09/08,>,6.2 4WD,09/10,>,306,416,Brake pads,Prime Ceramic,P24169N,,18mm,50mm,159mm,,,,,,,,Without,,D1012 8529,With accessoriesWith anti-squeal shimWith piston clip,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,Brake pads,Prime Ceramic,P24168N,,17mm,55mm,149mm,,,,,,,,Without,,D1602 8816,With accessoriesWith anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.0 TDCi 4WD,09/17,>,186,253,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake discs,Prime,09.E292.11,336mm,22mm,45mm,,6,Ventilated,90mm,20mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake discs,Prime,09.D274.21,348mm,25mm,80mm,,6,Ventilated,90mm,23mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake pads,Prime Ceramic,P24166N,,19mm,68 - 70mm,194mm,,,,,,,,Without,,"D1414 8528, D1770 8528, D2087 9322",With accessoriesWith anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/14,>,272,370,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake discs,Prime,09.E293.11,336mm,24mm,45mm,,6,Ventilated,90mm,"22,5mm",,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake discs,Prime,09.D274.21,348mm,25mm,80mm,,6,Ventilated,90mm,23mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake pads,Prime Ceramic,P24166N,,19mm,68 - 70mm,194mm,,,,,,,,Without,,"D1414 8528, D1770 8528, D2087 9322",With accessoriesWith anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,11/16,>,280,381,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake discs,Prime,09.C274.11,350mm,34mm,50mm,,6,Ventilated,90mm,32mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake discs,Prime,09.E292.11,336mm,22mm,45mm,,6,Ventilated,90mm,20mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake discs,Prime,09.D274.21,348mm,25mm,80mm,,6,Ventilated,90mm,23mm,,1,,,,,,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake pads,Prime Ceramic,P24166N,,19mm,68 - 70mm,194mm,,,,,,,,Without,,"D1414 8528, D1770 8528, D2087 9322",With accessoriesWith anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake pads,Prime Ceramic,P24168N,,17mm,55mm,149mm,,,,,,,,Without,,D1602 8816,With accessoriesWith anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 4WD,09/17,>,336,457,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 Ecoboost 4WD,01/17,>,287,390,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 Ecoboost 4WD,01/17,>,287,390,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 Ecoboost 4WD,01/17,>,287,390,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 Ecoboost 4WD,01/17,>,287,390,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,3.5 Ecoboost 4WD,01/17,>,287,390,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 4WD,09/14,>,287,390,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 Ti-VCT 4WD,01/18,>,295,401,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 Ti-VCT 4WD,01/18,>,295,401,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 Ti-VCT 4WD,01/18,>,295,401,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 Ti-VCT 4WD,01/18,>,295,401,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,09/14,>,5.0 Ti-VCT 4WD,01/18,>,295,401,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.0 TDCi 4WD,04/21,>,186,253,UPGRADE GT kit,GT | A6 | D,1J1.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.0 TDCi 4WD,04/21,>,186,253,UPGRADE GT kit,GT | A6 | TY1,1J2.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.0 TDCi 4WD,04/21,>,186,253,UPGRADE GT kit,GT | A6 | TY3,1J3.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.0 TDCi 4WD,04/21,>,186,253,UPGRADE GT kit,GT | BM8 | D,1Q1.9626A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.0 TDCi 4WD,04/21,>,186,253,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9626A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.5 EcoBoost 4WD,04/21,>,298,405,UPGRADE GT kit,GT | A6 | D,1J1.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.5 EcoBoost 4WD,04/21,>,298,405,UPGRADE GT kit,GT | A6 | TY1,1J2.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.5 EcoBoost 4WD,04/21,>,298,405,UPGRADE GT kit,GT | A6 | TY3,1J3.9023A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.5 EcoBoost 4WD,04/21,>,298,405,UPGRADE GT kit,GT | BM8 | D,1Q1.9626A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Crew Cab Pickup,07/20,>,3.5 EcoBoost 4WD,04/21,>,298,405,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9626A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Extended Cab Pickup,09/91,12/96,4.9,09/93,12/96,110,150,Brake pads,Prime Ceramic,P24098N,,15mm,54mm,194mm,,,,,,,,Without,,D632 7503,With anti-squeal shim,
+FORD USA,F-150 Standard Cab Pickup,09/91,12/96,4.9,09/93,12/96,110,150,Brake pads,Prime Ceramic,P24098N,,15mm,54mm,194mm,,,,,,,,Without,,D632 7503,With anti-squeal shim,
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,Brake pads,Prime,P 24 258,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,Brake pads,Prime Ceramic,P24258N,,19mm,68mm,194mm,,,,,,,,Without,22050,,With anti-squeal shim,,,,
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,Brake pads,Prime Ceramic,P24200N,,18mm,52mm,149mm,,,,,,,,Without,22100,"D1790 9018, D1790 9350",With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,UPGRADE GT kit,GT | A6 | D,1J1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,UPGRADE GT kit,GT | A6 | TY1,1J2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,UPGRADE GT kit,GT | A6 | TY3,1J3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,UPGRADE GT kit,GT | BM8 | D,1Q1.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-150 Standard Cab Pickup,09/14,>,5.0,11/14,>,287,390,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9605A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+FORD USA,F-250,10/03,09/07,5.4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-250,10/03,09/07,5.4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-250,10/03,09/07,5.4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-250,10/03,09/07,5.4 4x4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-250,10/03,09/07,5.4 4x4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-250,10/03,09/07,5.4 4x4,10/03,09/07,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-250,10/91,04/97,7.5,10/91,09/96,177,241,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-250,10/91,04/97,7.5 4x4,10/91,09/96,177,241,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Crew Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Crew Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Crew Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Extended Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Extended Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Extended Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Standard Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Standard Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-250 SUPER DUTY Standard Cab Pickup,09/98,12/07,5.4 4WD,09/98,12/04,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,"F-250 SUPER DUTY Standard Cab Pickup (F2A, F2B)",09/10,>,6.7 D 4WD,09/12,>,298,405,Brake pads,Prime Ceramic,P24215N,,19mm,71mm,213mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,5.4 (F30),10/96,11/03,191,260,Brake pads,Prime Ceramic,P24106N,,18mm,64mm,193mm,,,,,,,,Without,,D756 7625,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,5.4 (F30),10/96,11/03,191,260,Brake pads,Prime Ceramic,P24110N,,18mm,64mm,193mm,,,,,,,,Without,,D824 7625,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,5.4 (F30),10/96,11/03,191,260,Brake pads,Prime Ceramic,P24107N,,18mm,52mm,159mm,,,,,,,,Without,,D757 7626,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,6.8 (F30),10/96,11/03,230,313,Brake pads,Prime Ceramic,P24106N,,18mm,64mm,193mm,,,,,,,,Without,,D756 7625,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,6.8 (F30),10/96,11/03,230,313,Brake pads,Prime Ceramic,P24110N,,18mm,64mm,193mm,,,,,,,,Without,,D824 7625,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,6.8 (F30),10/96,11/03,230,313,Brake pads,Prime Ceramic,P24107N,,18mm,52mm,159mm,,,,,,,,Without,,D757 7626,With anti-squeal shim,
+FORD USA,F-350,10/96,11/03,7.3 TDi (F30),10/96,11/03,154,209,Brake pads,Prime Ceramic,P24106N,,18mm,64mm,193mm,,,,,,,,Without,,D756 7625,With anti-squeal shim,
+FORD USA,F-350,10/88,04/97,4.9 (F35),10/91,09/96,136,185,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-350,10/88,04/97,7.3 D,10/91,09/96,136,185,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-350,10/88,04/97,7.3 D 4x4,10/91,09/96,136,185,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-350,10/88,04/97,7.5,10/91,09/96,177,241,Brake pads,Prime Ceramic,P24099N,,19mm,57mm,220mm,,,,,,,,Without,,D655 7535,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,5.4 4x4 (F31),10/03,09/07,194,264,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,5.4 4x4 (F31),10/03,09/07,194,264,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,5.4 4x4 (F31),10/03,09/07,194,264,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 TDi,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 TDi,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 TDi,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 Tdi 4x4,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 Tdi 4x4,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24118N,,19mm,56mm,177mm,,,,,,,,Without,,D1068 7973,With anti-squeal shim,
+FORD USA,F-350,10/03,09/07,6.0 Tdi 4x4,04/04,09/07,239,325,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,F-350 SUPER DUTY Crew Cab Pickup,09/07,12/10,6.4 D 4WD,09/07,12/10,261,355,Brake pads,Prime Ceramic,P24130N,,21mm,63mm,178mm,,,,,,,,Without,,"D1333 7974, D1333 8782, D1631 7974, D1631 8782",With anti-squeal shim,
+FORD USA,F-350 SUPER DUTY Crew Cab Pickup,09/07,12/10,6.4 D 4WD,09/07,12/10,261,355,Brake pads,Prime Ceramic,P24231N,,15mm,60mm,178mm,,,,,,,,Without,,,With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,4.6 V8,09/05,>,224,305,Brake discs,Prime,09.A408.11,316mm,30mm,48mm,,5,Ventilated,71mm,"28,4mm",,1,,,,,,
+FORD USA,MUSTANG Convertible,09/05,>,4.6 V8,09/05,>,224,305,Brake discs,Prime,09.B585.11,300mm,19mm,35mm,,5,Ventilated,71mm,"17,4mm",,1,,,,,,
+FORD USA,MUSTANG Convertible,09/05,>,4.6 V8,09/05,>,224,305,Brake pads,Prime Ceramic,P24181N,,18mm,55mm,163mm,,,,,,,,Acoustic,,D1464 8520,With accessoriesWith anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,4.6 V8,09/05,>,224,305,Brake pads,Prime Ceramic,P24122N,,18mm,48mm,113mm,,,,,,,Lucas,Without,24514,D1082 7987,With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake discs,Prime,09.D276.11,336mm,30mm,48mm,,5,Ventilated,71mm,"28,4mm",,1,,,,,,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake discs,Prime,09.9781.11,355mm,32mm,46mm,,5,Ventilated,71mm,30mm,,1,,,,,,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake discs,Prime,09.B585.11,300mm,19mm,35mm,,5,Ventilated,71mm,"17,4mm",,1,,,,,,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime Ceramic,P24176N,,18mm,55mm,163mm,,,,,,,,Acoustic,"22363, 22364, 24513",D1464 7986,With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime Ceramic,P24181N,,18mm,55mm,163mm,,,,,,,,Acoustic,,D1464 8520,With accessoriesWith anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime Ceramic,P24122N,,18mm,48mm,113mm,,,,,,,Lucas,Without,24514,D1082 7987,With anti-squeal shim,
+FORD USA,MUSTANG Convertible,09/05,>,5.0,09/10,>,307,418,Brake pads,Prime Ceramic,P24170N,,17mm,49mm,113mm,,,,,,,,Acoustic,"22360, 22361, 22362",D1465 8664,With accessoriesWith anti-squeal shim,
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,Brake pads,Prime Ceramic,P24133N,,17mm,49mm,90mm,,,,,,,Lucas,Without,24100,"D627 7504, D627 7524",With anti-squeal shim,,,,
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,Brake pads,Prime Ceramic,P24155N,,15mm,49mm,90mm,,,,,,,Lucas,Without,24100,D627 7524,With accessoriesWith anti-squeal shim,,,,
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | A4 | D,1B1.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | A4 | TY1,1B2.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | A4 | TY3,1B3.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | A4 | D,1E4.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | A4 | TY1,1E5.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | M6 | D,1M1.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | M6 | TY1,1M2.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,06/99,09/03,236,321,UPGRADE GT kit,GT | M6 | TY3,1M3.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | A4 | D,1B1.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | A4 | TY1,1B2.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | A4 | TY3,1B3.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | A4 | D,1E4.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | A4 | TY1,1E5.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | M6 | D,1M1.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | M6 | TY1,1M2.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Convertible (C),09/93,12/04,4.6,09/97,12/03,168,228,UPGRADE GT kit,GT | M6 | TY3,1M3.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake discs,Prime,09.9781.11,355mm,32mm,46mm,,5,Ventilated,71mm,30mm,,1,,,,,,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake discs,Prime,09.N288.11,380mm,32mm,46mm,,5,Ventilated,71mm,"29,5mm",,1,,,,,,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake discs,Prime,09.N262.11,350mm,19mm,35mm,,5,Ventilated,71mm,"17,5mm",,1,,,,,,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime Ceramic,P24176N,,18mm,55mm,163mm,,,,,,,,Acoustic,"22363, 22364, 24513",D1464 7986,With anti-squeal shim,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime Ceramic,P24181N,,18mm,55mm,163mm,,,,,,,,Acoustic,,D1464 8520,With accessoriesWith anti-squeal shim,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime Ceramic,P24122N,,18mm,48mm,113mm,,,,,,,Lucas,Without,24514,D1082 7987,With anti-squeal shim,
+FORD USA,MUSTANG Coupe,12/04,>,5.4 V8,03/10,>,410,558,Brake pads,Prime Ceramic,P24170N,,17mm,49mm,113mm,,,,,,,,Acoustic,"22360, 22361, 22362",D1465 8664,With accessoriesWith anti-squeal shim,
+FORD USA,MUSTANG Coupe,02/14,04/23,5.2 Shelby GT350,11/15,>,392,533,Brake pads,Prime,P 24 227,,17mm,91 - 81mm,163mm,,,,,,,Advics,Acoustic,"22353, 22354, 22355",D1784 9011,With anti-squeal shim,
+FORD USA,MUSTANG Coupe,02/14,04/23,5.2 Shelby GT350,11/15,>,392,533,Brake pads,Prime Ceramic,P24227N,,17mm,91 - 81mm,163mm,,,,,,,Advics,Acoustic,"22353, 22354, 22355",D1784 9011,With anti-squeal shim,
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | A4 | D,1B1.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | A4 | TY1,1B2.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | A4 | TY3,1B3.8001A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | A4 | D,1E4.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | A4 | TY1,1E5.6001A_,330mm,28mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | M6 | D,1M1.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | M6 | TY1,1M2.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FORD USA,MUSTANG Coupe (C),09/93,12/04,4.6,09/98,12/04,194,264,UPGRADE GT kit,GT | M6 | TY3,1M3.8015A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock

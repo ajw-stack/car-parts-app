@@ -1,0 +1,758 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position,length,number_of_pistons
+IVECO,DAILY II Bus,01/89,05/99,"A 40-10 (95719111, 95719131, 95719311, 95719315,...",09/96,05/99,76,103,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY II Bus,01/89,05/99,"A 40-10 (95719111, 95719131, 95719311, 95719315,...",09/96,05/99,76,103,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY II Bus,01/89,05/99,Wear indicator,09/96,05/99,76,103,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY II Bus,01/89,05/99,"A 40-10 (95719111, 95719131, 95719311, 95719315,...",09/96,05/99,76,103,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY II Bus,01/89,05/99,"A 40-10 (95719111, 95719131, 95719311, 95719315,...",09/96,05/99,76,103,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY II Platform/Chassis,01/89,05/99,"40-10 W 4x4 (15211104, 15211105, 15211111, 15211115,...",01/97,05/99,76,103,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,
+IVECO,DAILY II Platform/Chassis,01/89,05/99,"40-10 W 4x4 (15211104, 15211105, 15211111, 15211115,...",01/97,05/99,76,103,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,
+IVECO,DAILY II Platform/Chassis,01/89,05/99,Wear indicator,01/97,05/99,76,103,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY II Platform/Chassis,01/89,05/99,"49-12 (13130211, 13130231, 13130304, 13130311, 13130312,...",06/90,04/96,85,116,Brake discs,Prime,08.5079.10,280mm,16mm,142mm,,6,Solid,58mm,"14,5mm",,1,,,,,,,
+IVECO,DAILY II Platform/Chassis,01/89,05/99,Wear indicator,06/90,04/96,85,116,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY II Van,01/89,08/09,"40-10 4x4 (15214104, 15214111, 15214117, 15215111)",01/97,05/99,76,103,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,
+IVECO,DAILY II Van,01/89,08/09,"40-10 4x4 (15214104, 15214111, 15214117, 15215111)",01/97,05/99,76,103,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,
+IVECO,DAILY II Van,01/89,08/09,Wear indicator,01/97,05/99,76,103,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY II Van,01/89,08/09,"49-12 V (13134124, 13134204, 13134211, 13134212,...",06/90,04/96,85,116,Brake discs,Prime,08.5079.10,280mm,16mm,142mm,,6,Solid,58mm,"14,5mm",,1,,,,,,,
+IVECO,DAILY II Van,01/89,08/09,Wear indicator,06/90,04/96,85,116,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,05/99,04/06,92,125,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 13,05/99,04/06,92,125,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,09/04,04/06,100,136,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,45 C 14,07/99,12/06,100,136,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,45 C 14,07/99,12/06,100,136,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,45 C 14,07/99,12/06,100,136,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,45 C 14,07/99,12/06,100,136,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,01/01,04/06,107,146,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,09/04,04/06,122,166,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime,P A6 022,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime Ceramic,PA6022N,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,11/01,04/06,107,146,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 022,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6022N,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Platform/Chassis,03/98,10/09,Wear indicator,09/04,04/06,122,166,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake pads,Prime,P A6 021,,17mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8687,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,01/05,04/06,100,136,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,1
+IVECO,DAILY III Van,05/99,10/09,"35 C 14, 35 S 14",01/05,04/06,100,136,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,1
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake pads,Prime,P A6 021,,17mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8687,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,05/99,07/07,92,125,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 13 V,35 C 13 V",05/99,07/07,92,125,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake pads,Prime,P A6 021,,17mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8687,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,11/02,07/07,107,146,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,"35 S 15 V, 35 C 15 V (A6HCV3B2, A6HBV4B2, A6HC41B2,...",11/02,07/07,107,146,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,09/04,04/06,100,136,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,40 C 14,09/04,04/06,100,136,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,01/01,04/06,107,146,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 15,01/01,04/06,107,146,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,Brake discs,Prime,08.5959.10,290mm,22mm,111mm,,6,Solid,68mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,09/04,04/06,122,166,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 100B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,50 C 17,09/04,04/06,122,166,LCV calipers,,F BR 101B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY III Van,05/99,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime,P A6 022,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime Ceramic,PA6022N,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 15,11/01,04/06,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,11/01,04/06,107,146,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY III Van,05/99,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 022,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6022N,,20mm,68mm,165mm,,,,,,,Brembo PF 2.52,Prepared for wear indicator,29160,D1622 8834,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,65 C 17,09/04,04/06,122,166,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY III Van,05/99,10/09,Wear indicator,09/04,04/06,122,166,Brake pad accessories,Prime,A 00 351,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY IV Bus,05/06,12/16,Wear indicator,05/06,08/11,100,136,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Bus,05/06,12/16,Wear indicator,05/06,08/11,100,136,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Bus,05/06,12/16,"35S14, 35S14 /P",05/06,08/11,100,136,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Bus,05/06,12/16,50C18,06/06,08/11,130,176,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,
+IVECO,DAILY IV Bus,05/06,12/16,50C18,06/06,08/11,130,176,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+IVECO,DAILY IV Bus,05/06,12/16,50C18,06/06,08/11,130,176,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,
+IVECO,DAILY IV Bus,05/06,12/16,50C18,06/06,08/11,130,176,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,107,146,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,107,146,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,45C15,05/06,08/11,107,146,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,07/07,08/11,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,07/07,08/11,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C17, 45C17 /P",07/07,08/11,125,170,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"45C18, 45C18 /P, 45C18 D, 45C18 D/P",05/06,08/11,130,176,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,50C18,05/06,08/11,130,176,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,09/09,08/11,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,Wear indicator,09/09,08/11,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,"70C17, 70C17P",09/09,08/11,125,170,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Platform/Chassis,05/06,03/12,70C18,09/09,08/11,130,176,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,70,95,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,70,95,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,29L10 V,05/06,08/11,70,95,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,07/07,08/11,100,136,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,07/07,08/11,100,136,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35C14 GV, 35C14 GV/P, 35S14 GV, 35S14 GV/P",07/07,08/11,100,136,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,100,136,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,100,136,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"35S14 C, 35S14 C/P, 35S14 V, 35S14 V/P, 35C14 V,...",05/06,08/11,100,136,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,07/07,08/11,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,07/07,08/11,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"45C17 V, 45C17 V/P",07/07,08/11,125,170,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,"50C18 V, 50C18 V/P",05/06,08/11,130,176,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY IV Van,05/06,03/12,Wear indicator,05/06,08/11,130,176,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY IV Van,05/06,03/12,65C18,05/06,08/11,130,176,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,150,205,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,150,205,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,Wear indicator,09/11,02/14,150,205,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Platform/Chassis,09/11,02/14,"35C21, 35S21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",09/11,02/14,150,205,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,107,146,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,107,146,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,107,146,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29L15 V, 35S15 V, 35C15L V, 40C15L V, 50C15L V",09/11,02/14,107,146,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,78,106,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,78,106,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,78,106,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S11, 29L11, 35C11, 35S11, 40C11",09/11,02/14,78,106,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,93,126,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,93,126,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,93,126,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"29S13, 29L13, 35C13, 35S13, 40C13, 40S13",09/11,02/14,93,126,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,107,146,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,107,146,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C15 V, 40C15 V, 45C15 V, 50C15 V, 60C15 V,65C15 V",09/11,02/14,107,146,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C17, 35S17, 40C17, 45C17, 50C17, 60C17, 65C17, 70C17",09/11,02/14,125,170,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,150,204,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,150,204,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY V Van,09/11,02/14,Wear indicator,09/11,02/14,150,204,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 022B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 023B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 032B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY V Van,09/11,02/14,"35C21 V, 35S21 V, 40C21 V, 45C21 V, 50C21 V",09/11,02/14,150,204,LCV calipers,,F BR 033B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Bus,03/14,>,"40C18, 50C18, 60C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,
+IVECO,DAILY VI Bus,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Bus,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Bus,03/14,>,Wear indicator,04/16,>,150,205,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Bus,03/14,>,Wear indicator,04/16,>,150,205,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35C21, 35S21, 40C21, 42S21, 50C21, 60C21, 65C21, 70C21",07/21,>,152,207,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,07/21,>,152,207,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,07/21,>,152,207,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 028B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 029B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 35C17, 40C17, 45S17,45C17, 50C17, 60C17, 65C17,...",03/14,>,125,170,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake discs,Prime,09.C133.11,304mm,28mm,48mm,,5,Ventilated,71mm,26mm,,1,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S17, 55S17 4x4",03/14,>,125,170,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 35C18, 40C18, 45C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake discs,Prime,09.C133.11,304mm,28mm,48mm,,5,Ventilated,71mm,26mm,,1,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S18, 55S18, 55C18, 70S18, 70C18 4x4",04/16,>,132,180,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Platform/Chassis,03/14,>,"35S21, 35C21, 40C21, 45C21, 50C21, 60C21, 65C21, 70C21",03/14,>,150,204,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,93,126,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,93,126,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,93,126,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 024B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 025B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S13, 35S13, 35C13",03/14,>,93,126,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/16,>,100,136,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/16,>,100,136,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 020B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 021B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 024B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 025B,,,,,,,,,,,BREMBO,,,,,,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"33S14, 35S14, 35C14, 42S14",04/16,>,100,136,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,125,170,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm,
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 034B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 035B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 036B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 037B,,,,,,,,,,,BREMBO,,,,,,,,,,,2
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 026,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 026B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 027,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 027B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 030,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 030B,,,,,,,,,,,BREMBO,,,,,Left,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 031,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S17, 35C17, 40C17, 50C17, 55C17, 60C17, 65C17, 70C17",03/14,>,125,170,LCV calipers,,F BR 031B,,,,,,,,,,,BREMBO,,,,,Right,,,,,,1
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,
+IVECO,DAILY VI Van,03/14,>,"35S18, 35C18, 40C18, 50C18, 60C18, 65C18, 70C18",04/16,>,132,180,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/16,>,132,180,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21",03/14,>,150,204,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY VI Van,03/14,>,Wear indicator,03/14,>,150,204,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake discs,Prime,09.9758.10,300mm,28mm,75mm,,6,Ventilated,78mm,25mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake discs,Prime,08.5952.10,289mm,22mm,85mm,,8,Solid,84mm,19mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake discs,Prime,08.9759.20,296mm,16mm,70mm,,6,Solid,76mm,13mm,,2,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake discs,Prime,09.9763.10,306mm,28mm,132mm,,6,Ventilated,178mm,25mm,,1,,,,,,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime,P A6 026,,21mm,67mm,163mm,,,,,,,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime,P A6 017,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime Ceramic,PA6017N,,20mm,66mm,165mm,,,,,,,Brembo,Prepared for wear indicator,29121,D1487 8835,With anti-squeal shim,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime,P A6 023,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime Ceramic,PA6023N,,20mm,64mm,110mm,,,,,,,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Brake pads,Prime,P A6 027,,21mm,73mm,141mm,,,,,,,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,,,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Disc and Pad Kit,Beyond Greenance Kit,KT 10 021,300mm,21mm,67mm,163mm,6,Solid,78mm,25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,300mm,28mm,09.9758.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Disc and Pad Kit,Beyond Greenance Kit,KT 10 022,290mm,21mm,67mm,163mm,9,Solid,"123,1mm",25mm,,4,Brembo,Prepared for wear indicator,29229,D1581 8793,With accessoriesWith anti-squeal shimWith brake caliper bolts,,290mm,28mm,09.9760.1G,P A6 026G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Disc and Pad Kit,Beyond Greenance Kit,KT 10 023,296mm,20mm,64mm,110mm,6,Solid,76mm,13mm,,4,Brembo,Prepared for wear indicator,29123,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,296mm,16mm,08.9759.2G,P A6 023G,
+IVECO,DAILY VI Van,03/14,>,"35S21, 35C21, 40C21, 50C21, 60C21, 65C21, 70C21",04/19,>,155,211,Disc and Pad Kit,Beyond Greenance Kit,KT 10 024,294mm,21mm,73mm,141mm,8,Solid,128mm,21mm,,4,Brembo,Prepared for wear indicator,29232,D2347 9579,With accessoriesWith anti-squeal shimWith brake caliper bolts,,294mm,24mm,09.9761.6G,P A6 027G,
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/19,>,155,211,Brake pad accessories,Prime,A 00 408,,,,,,,,,,,,,,,,,,,,,130mm
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/19,>,155,211,Brake pad accessories,Prime,A 00 409,,,,,,,,,,,,,,,,,,,,,300mm
+IVECO,DAILY VI Van,03/14,>,Wear indicator,04/19,>,155,211,Brake pad accessories,Prime,A 00 410,,,,,,,,,,,,,,,,,,,,,250mm

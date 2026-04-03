@@ -1,0 +1,4 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+AUTO UNION,DKW F12,11/62,08/66,0.9,10/63,06/65,29,39,Brake pads,Prime Ceramic,P06001N,,15mm,53mm,56mm,,,,,,,Teves,Without,20009,"D2 7199, D21 755, D30 7200, D30 735, D322 7221",With anti-squeal shim,
+AUTO UNION,DKW F12,11/62,08/66,0.9,01/65,08/66,33,45,Brake pads,Prime Ceramic,P06001N,,15mm,53mm,56mm,,,,,,,Teves,Without,20009,"D2 7199, D21 755, D30 7200, D30 735, D322 7221",With anti-squeal shim,
+AUTO UNION,DKW F12 Convertible,11/62,08/66,0.9,11/62,06/65,33,45,Brake pads,Prime Ceramic,P06001N,,15mm,53mm,56mm,,,,,,,Teves,Without,20009,"D2 7199, D21 755, D30 7200, D30 735, D322 7221",With anti-squeal shim,

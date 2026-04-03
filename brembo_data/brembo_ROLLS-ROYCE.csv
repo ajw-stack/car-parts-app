@@ -1,0 +1,111 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position,caliper_pistons,disc_type,caliper_type
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake discs,Prime,09.D897.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake discs,Prime,09.D898.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,UPGRADE GT kit,GT | BM8 | D,1Q1.9630A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/18,>,420,571,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9630A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake discs,Prime,09.D897.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake discs,Prime,09.D898.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,UPGRADE GT kit,GT | BM8 | D,1Q1.9630A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+ROLLS-ROYCE,CULLINAN (RR31),08/18,>,V12,08/19,>,441,600,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9630A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,02/16,>,420,571,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,02/16,>,420,571,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,02/16,>,420,571,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,02/16,>,420,571,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,Wear indicator,02/16,>,420,571,Brake pad accessories,Prime,A 00 423,,,,,,,,,,,,,,,,,1066mm
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,07/17,>,442,601,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,07/17,>,442,601,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,07/17,>,442,601,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,V12,07/17,>,442,601,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,
+ROLLS-ROYCE,DAWN (RR6),11/15,>,Wear indicator,07/17,>,442,601,Brake pad accessories,Prime,A 00 423,,,,,,,,,,,,,,,,,1066mm
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,12/09,03/20,420,571,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,12/09,03/20,420,571,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,12/09,03/20,420,571,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,12/09,03/20,420,571,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,Wear indicator,12/09,03/20,420,571,Brake pad accessories,Prime,A 00 423,,,,,,,,,,,,,,,,,1066mm,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,12/09,03/20,420,571,UPGRADE GT kit,GT | M6 | TY1,1L2.9503A_,411mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,03/16,03/20,450,612,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,03/16,03/20,450,612,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,03/16,03/20,450,612,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,03/16,03/20,450,612,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,Wear indicator,03/16,03/20,450,612,Brake pad accessories,Prime,A 00 423,,,,,,,,,,,,,,,,,1066mm,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V12,03/16,03/20,450,612,UPGRADE GT kit,GT | M6 | TY1,1L2.9503A_,411mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V-Specification,01/14,06/14,442,601,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V-Specification,01/14,06/14,442,601,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V-Specification,01/14,06/14,442,601,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V-Specification,01/14,06/14,442,601,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,,,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,Wear indicator,01/14,06/14,442,601,Brake pad accessories,Prime,A 00 423,,,,,,,,,,,,,,,,,1066mm,,,
+ROLLS-ROYCE,GHOST I (RR4),12/09,03/20,V-Specification,01/14,06/14,442,601,UPGRADE GT kit,GT | M6 | TY1,1L2.9503A_,411mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/20,>,420,571,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/20,>,420,571,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/20,>,420,571,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/20,>,420,571,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/20,>,420,571,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/22,>,441,600,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/22,>,441,600,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/22,>,441,600,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/22,>,441,600,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,GHOST II (RR21),08/20,>,V12,08/22,>,441,600,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,GHOST II Extended Wheelbase (RR22),08/20,>,V12,08/20,>,420,571,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II Extended Wheelbase (RR22),08/20,>,V12,08/20,>,420,571,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II Extended Wheelbase (RR22),08/20,>,V12,08/20,>,420,571,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,GHOST II Extended Wheelbase (RR22),08/20,>,V12,08/20,>,420,571,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,GHOST II Extended Wheelbase (RR22),08/20,>,V12,08/20,>,420,571,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,PARK WARD,07/97,12/02,5.4,10/00,12/02,240,326,Brake pads,Prime,P 06 019,,21mm,74mm,195mm,,,,,,,Teves,Prepared for wear indicator,"21484, 21485","D1115 7561, D682 7561",With accessoriesWith anti-squeal shimWith piston clip,
+ROLLS-ROYCE,PARK WARD,07/97,12/02,5.4,10/00,12/02,240,326,Brake pads,Prime Ceramic,P06019N,,21mm,74mm,195mm,,,,,,,Teves,Prepared for wear indicator,"21484, 21485","D1115 7561, D682 7561",With accessoriesWith anti-squeal shimWith piston clip,
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,Brake pads,Prime,P 06 047,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,Brake pads,Prime Ceramic,P06047N,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,Brake pads,Prime,P 06 026,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,Brake pads,Prime Ceramic,P06026N,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M6 | D,1N1.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M6 | TY1,1N2.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M6 | TY3,1N3.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M4 | D,2P1.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M4 | TY1,2P2.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII (RR1),01/03,07/17,V12,01/03,07/17,338,460,UPGRADE GT kit,GT | M4 | TY3,2P3.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,Brake pads,Prime,P 06 047,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,Brake pads,Prime Ceramic,P06047N,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,Brake pads,Prime,P 06 026,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,Brake pads,Prime Ceramic,P06026N,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M6 | D,1N1.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M6 | TY1,1N2.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M6 | TY3,1N3.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M4 | D,2P1.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M4 | TY1,2P2.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Coupe (RR3),06/08,07/17,6.75 V12,06/08,07/17,338,460,UPGRADE GT kit,GT | M4 | TY3,2P3.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,Brake pads,Prime,P 06 047,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,Brake pads,Prime Ceramic,P06047N,,21mm,79mm,193mm,,,,,,,Teves,Prepared for wear indicator,"23791, 23792",D1151 7821,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,Brake pads,Prime,P 06 026,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,Brake pads,Prime Ceramic,P06026N,,17mm,67mm,140mm,,,,,,,Teves,Prepared for wear indicator,"23730, 23731",D919 7820,With accessoriesWith anti-squeal shimWith piston clip,,,,
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M6 | D,1N1.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M6 | TY1,1N2.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M6 | TY3,1N3.9525A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M4 | D,2P1.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M4 | TY1,2P2.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,PHANTOM VII Drophead Coupe (RR2),06/07,07/17,6.75 V12,06/07,07/17,338,460,UPGRADE GT kit,GT | M4 | TY3,2P3.9029A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake discs,Prime,09.D897.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake discs,Prime,09.D898.13,395mm,36mm,66mm,,5,Ventilated,67mm,"34,4mm",,1,,,,,,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake pads,Prime,P 06 106,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake pads,Prime Ceramic,P06106N,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake pads,Xtra Ceramic,P06106NX,,20mm,117mm,125mm,,,,,,,Brembo,Prepared for wear indicator,22392,D1868 9098,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake pads,Prime,P 06 109,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,"PHANTOM VIII (RR11, RR12)",09/17,>,"V12, V12 EWB",09/17,>,420,571,Brake pads,Prime Ceramic,P06109N,,18mm,75 - 81mm,116mm,,,,,,,TRW,Prepared for wear indicator,"22039, 22040",D2059 9292,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+ROLLS-ROYCE,SILVER SERAPH,03/98,09/02,5.4,03/98,09/02,240,326,Brake pads,Prime,P 06 019,,21mm,74mm,195mm,,,,,,,Teves,Prepared for wear indicator,"21484, 21485","D1115 7561, D682 7561",With accessoriesWith anti-squeal shimWith piston clip,
+ROLLS-ROYCE,SILVER SERAPH,03/98,09/02,5.4,03/98,09/02,240,326,Brake pads,Prime Ceramic,P06019N,,21mm,74mm,195mm,,,,,,,Teves,Prepared for wear indicator,"21484, 21485","D1115 7561, D682 7561",With accessoriesWith anti-squeal shimWith piston clip,
+ROLLS-ROYCE,SPECTRE (RR25),10/23,>,EV,10/23,>,430,585,Brake pads,Prime,P 06 125,,19mm,113mm,125mm,,,,,,,Brembo,Without,,,With anti-squeal shim,
+ROLLS-ROYCE,SPECTRE (RR25),10/23,>,EV,10/23,>,430,585,Brake pads,Prime Ceramic,P06125N,,19mm,113mm,125mm,,,,,,,Brembo,Without,,,With anti-squeal shim,
+ROLLS-ROYCE,SPECTRE (RR25),10/23,>,EV,10/23,>,430,585,Brake pads,Prime,P 06 123,,16mm,73 - 77mm,140mm,,,,,,,ATE,Without,"26603, 26604",,With anti-squeal shim,
+ROLLS-ROYCE,SPECTRE (RR25),10/23,>,EV,10/23,>,430,585,Brake pads,Prime Ceramic,P06123N,,16mm,73 - 77mm,140mm,,,,,,,ATE,Without,"26603, 26604",,With anti-squeal shim,
+ROLLS-ROYCE,WRAITH (RR5),08/13,>,V12,08/13,>,465,632,Brake pads,Prime,P 06 077,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,WRAITH (RR5),08/13,>,V12,08/13,>,465,632,Brake pads,Prime Ceramic,P06077N,,19mm,114mm,135mm,,,,,,,Brembo,Prepared for wear indicator,24524,D1429 8546,With anti-squeal shimWith counterweights,
+ROLLS-ROYCE,WRAITH (RR5),08/13,>,V12,08/13,>,465,632,Brake pads,Prime,P 06 118,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,
+ROLLS-ROYCE,WRAITH (RR5),08/13,>,V12,08/13,>,465,632,Brake pads,Prime Ceramic,P06118N,,17mm,73mm,155mm,,,,,,,,Prepared for wear indicator,"24992, 24993",,With anti-squeal shimWith piston clip,

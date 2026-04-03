@@ -1,0 +1,704 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position,brake_disc_diameter,brake_disc_thickness,beyond_ev_disc,beyond_ev_pad,number_of_pistons
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Brake pads,Beyond EV,P 09 028E,,16mm,67mm,132mm,,,,,,,Brembo,Acoustic,26275,,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Caliper,X-Style,F AA 062,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,01/17,>,192,261,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Brake pads,Beyond EV,P 09 028E,,16mm,67mm,132mm,,,,,,,Brembo,Acoustic,26275,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | D,1M1.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | TY1,1M2.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | TY3,1M3.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | D,1N1.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | TY1,1N2.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | D,1N1.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | TY1,1N2.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | M6 | TY3,1N3.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | BM6 | D,1T1.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | BM6 | TY1,1T2.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,UPGRADE GT kit,GT | BM6 | TY3,1T3.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Caliper,X-Style,F AA 062,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/19,>,220,299,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Brake pads,Beyond EV,P 09 028E,,16mm,67mm,132mm,,,,,,,Brembo,Acoustic,26275,,With anti-squeal shim,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | D,1M1.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | TY1,1M2.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | TY3,1M3.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | D,1N1.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | TY1,1N2.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | D,1N1.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | TY1,1N2.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | M6 | TY3,1N3.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | BM6 | D,1T1.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | BM6 | TY1,1T2.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,04/20,>,202,275,UPGRADE GT kit,GT | BM6 | TY3,1T3.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Brake pads,Beyond EV,P 09 028E,,16mm,67mm,132mm,,,,,,,Brembo,Acoustic,26275,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | D,1M1.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | TY1,1M2.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | TY3,1M3.8065A_,355mm,32mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | D,1N1.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | TY1,1N2.8519A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | D,1N1.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | TY1,1N2.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | M6 | TY3,1N3.9076A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | BM6 | D,1T1.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | BM6 | TY1,1T2.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,UPGRADE GT kit,GT | BM6 | TY3,1T3.9032A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Caliper,X-Style,F AA 062,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,03/20,>,208,283,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,11/21,>,194,264,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,11/21,>,194,264,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,11/21,>,194,264,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV,05/25,>,235,320,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Brake pads,Beyond EV,P 09 028E,,16mm,67mm,132mm,,,,,,,Brembo,Acoustic,26275,,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Caliper,X-Style,F AA 062,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,06/18,>,258,351,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | M6 | D,1N1.8519A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | M6 | TY1,1N2.8519A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | M6 | D,1N1.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | M6 | TY1,1N2.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | M6 | TY3,1N3.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | BM6 | D,1T1.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | BM6 | TY1,1T2.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV AWD,12/20,>,366,498,UPGRADE GT kit,GT | BM6 | TY3,1T3.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Brake discs,Prime,09.N360.11,320mm,25mm,68mm,,5,Ventilated,70mm,23mm,,1,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Brake discs,Prime,09.N361.11,335mm,20mm,47mm,,5,Ventilated,70mm,18mm,,2,,,,,,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Disc and Pad Kit,Beyond EV Kit,KT 08 001,320mm,16mm,67mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26275,D2195 9436,With anti-squeal shim,,320mm,25mm,09.N360.1E,P 09 028E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Disc and Pad Kit,Beyond EV Kit,KT 08 002,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N361.1E,P 09 027E,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,06/18,>,340,462,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | M6 | D,1N1.8519A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | M6 | TY1,1N2.8519A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | M6 | D,1N1.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | M6 | TY1,1N2.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | M6 | TY3,1N3.9076A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | BM6 | D,1T1.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | BM6 | TY1,1T2.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,UPGRADE GT kit,GT | BM6 | TY3,1T3.9032A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,12/19,>,377,513,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,04/24,>,461,627,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,04/24,>,461,627,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",4
+TESLA,MODEL 3 (5YJ3),01/17,>,EV Performance AWD,04/24,>,461,627,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",4
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,310,422,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,100D AWD,06/17,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime,P 10 064,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime Ceramic,P10064N,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,UPGRADE GT kit,GT | M6 | D,1N1.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,UPGRADE GT kit,GT | M6 | TY1,1N2.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,UPGRADE GT kit,GT | M6 | TY3,1N3.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,09/14,225,306,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,60,10/14,>,283,385,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,60,11/13,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,70,09/15,>,285,388,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,70D AWD,04/15,>,245,334,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,75D AWD,06/16,>,245,333,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,85,09/12,02/16,270,367,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,01/14,02/16,310,421,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,85D AWD,10/14,02/16,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,310,422,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,90D AWD,09/15,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P100D AWD,10/16,>,450,612,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime,P 10 064,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime Ceramic,P10064N,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,UPGRADE GT kit,GT | M6 | D,1N1.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,UPGRADE GT kit,GT | M6 | TY1,1N2.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,UPGRADE GT kit,GT | M6 | TY3,1N3.9046A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85,11/13,12/14,310,421,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime,P 10 064,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime Ceramic,P10064N,,16mm,97mm,132mm,,,,,,,Brembo,Acoustic,25915,D1474 8673,With accessoriesWith anti-squeal shimWith counterweights,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,10/14,02/16,515,700,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P85D AWD,09/15,02/16,568,772,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,346,471,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,397,540,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 023,365mm,15mm,69mm,107mm,5,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.N266.2E,P 30 074E,,,
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL S (5YJS),09/12,>,P90D AWD,09/15,>,568,772,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,100D AWD,08/17,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,60D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,75D AWD,06/16,>,386,525,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL X (5YJX),09/13,>,90D AWD,09/15,>,386,525,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E,,,
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | D,1N1.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | TY1,1N2.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M6 | TY3,1N3.9066A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM8 | D,1Q1.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9628A_,412mm,38mm,,,,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | M4 | D,2P1.8503A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+TESLA,MODEL X (5YJX),09/13,>,P100D AWD,10/16,>,568,772,UPGRADE GT kit,GT | BM4 | D,2S1.8501A_,365mm,29mm,,,,,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.N265.21,355mm,32mm,71mm,,5,Ventilated,70mm,30mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.D773.11,365mm,28mm,60mm,,9,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake discs,Prime,09.N266.21,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake discs,Sport,09.N266.2S,365mm,28mm,66mm,,5,Ventilated,70mm,26mm,,1,,,,,,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 30 074,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P30074N,,15mm,69mm,107mm,,,,,,,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 021,355mm,15mm,78mm,132mm,5,Solid,70mm,30mm,,4,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,,355mm,32mm,09.N265.2E,P 09 004E
+TESLA,MODEL X (5YJX),09/13,>,P90D AWD,09/15,>,568,772,Disc and Pad Kit,Beyond EV Kit,KT 08 022,365mm,15mm,69mm,107mm,9,Solid,70mm,26mm,,4,Brembo,Acoustic,"25743, 25744","D1270 8805, D1428 8545",With anti-squeal shim,,365mm,28mm,09.D773.1E,P 30 074E
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Brake pads,Beyond EV,P 09 029E,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Brake pads,Beyond EV,P 09 027E,,16mm,49mm,133mm,,,,,,,,Acoustic,"26277, 26278, 26279",,With anti-squeal shim,,,,,,,,,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Disc and Pad Kit,Beyond EV Kit,KT 08 003,355mm,16mm,84mm,132mm,5,Solid,70mm,23mm,,4,Brembo,Acoustic,26152,D2399 9627,With anti-squeal shim,,355mm,25mm,09.E478.4E,P 09 029E,,,,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Disc and Pad Kit,Beyond EV Kit,KT 08 004,335mm,16mm,49mm,133mm,5,Solid,70mm,18mm,,4,,Acoustic,"26277, 26278, 26279",D2283 9520,With anti-squeal shim,,335mm,20mm,09.N446.1E,P 09 027E,,,,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | M6 | D,1N1.8520A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | M6 | TY1,1N2.8520A_,365mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | M6 | D,1N1.9078A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | M6 | TY1,1N2.9078A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | M6 | TY3,1N3.9078A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | BM6 | D,1T1.9033A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | BM6 | TY1,1T2.9033A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,UPGRADE GT kit,GT | BM6 | TY3,1T3.9033A_,380mm,34mm,,,,,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL Y (5YJY),03/19,>,EV,07/21,01/25,220,299,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,,,,,4
+TESLA,MODEL Y (5YJY),03/19,>,EV Performance All-wheel Drive,09/21,01/25,393,534,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,
+TESLA,MODEL Y (5YJY),03/19,>,EV Performance All-wheel Drive,09/21,01/25,393,534,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",4
+TESLA,MODEL Y (5YJY),03/19,>,EV Performance All-wheel Drive,09/21,01/25,393,534,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",4
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,Brake pads,Prime Ceramic,P09029N,,16mm,84mm,132mm,,,,,,,Brembo,Acoustic,26152,,With anti-squeal shim,,,,,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | M6 | D,1N1.8520A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | M6 | TY1,1N2.8520A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | M6 | D,1N1.9078A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | M6 | TY1,1N2.9078A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | M6 | TY3,1N3.9078A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | BM6 | D,1T1.9033A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | BM6 | TY1,1T2.9033A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,UPGRADE GT kit,GT | BM6 | TY3,1T3.9033A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock,
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,Caliper,X-Style,F AA 072,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,4
+TESLA,MODEL Y (5YJY),03/19,>,Long Range All-wheel Drive,09/21,01/25,378,514,Caliper,Colours,10 Variants,42mm,,,,,,,,,,BREMBO,,,,,"Left, Right",,,,4
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime,P 59 025,,15mm,66mm,77mm,,,,,,,Teves,Without,20323,"D109 7391, D109 8275",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime Ceramic,P59025N,,15mm,66mm,77mm,,,,,,,Teves,Without,20323,"D109 7391, D109 8275",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,>,185,252,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime,P 59 025,,15mm,66mm,77mm,,,,,,,Teves,Without,20323,"D109 7391, D109 8275",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime Ceramic,P59025N,,15mm,66mm,77mm,,,,,,,Teves,Without,20323,"D109 7391, D109 8275",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime,P 59 079,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime Ceramic,P59079N,,16mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7902, D1050 7953, D1050 8526, D1836 9065",With accessoriesWith anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+TESLA,ROADSTER (DS),03/08,>,Electric,03/08,12/10,215,292,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,

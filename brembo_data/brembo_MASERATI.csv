@@ -1,0 +1,374 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+MASERATI,228,08/86,06/93,2.8,08/86,06/93,165,224,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,228,08/86,06/93,2.8,08/86,06/93,165,224,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,228,08/86,06/93,2.8,08/86,06/93,165,224,Brake pads,Prime,P 59 001,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,228,08/86,06/93,2.8,08/86,06/93,165,224,Brake pads,Prime Ceramic,P59001N,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,3200 GT Coupe,10/98,03/02,3.2 Biturbo V8 32V,10/98,03/02,271,369,Brake pads,Prime,P 06 018,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,
+MASERATI,3200 GT Coupe,10/98,03/02,3.2 Biturbo V8 32V,10/98,03/02,271,369,Brake pads,Prime Ceramic,P06018N,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,
+MASERATI,3200 GT Coupe,10/98,03/02,3.2 Biturbo V8 32V,10/98,03/02,271,369,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+MASERATI,3200 GT Coupe,10/98,03/02,3.2 Biturbo V8 32V,10/98,03/02,271,369,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,Brake pads,Prime,P 06 018,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,Brake pads,Prime Ceramic,P06018N,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M6 | D,1N1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M6 | TY1,1N2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M6 | TY3,1N3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M4 | D,2P1.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,4200 GT / COUPE Coupe,03/02,12/07,4.2,03/02,12/07,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,Brake pads,Prime,P 06 018,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,Brake pads,Prime Ceramic,P06018N,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M6 | D,1N1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M6 | TY1,1N2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M6 | TY3,1N3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M4 | D,2P1.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,4200 GT SPYDER Convertible,10/01,>,4.2,10/01,>,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,"BITURBO (69, 78, AF3, AM 332)",06/84,12/94,430,10/91,09/94,165,224,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,"BITURBO (69, 78, AF3, AM 332)",06/84,12/94,430,10/91,09/94,165,224,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,"BITURBO (69, 78, AF3, AM 332)",06/84,12/94,430,10/91,09/94,165,224,Brake pads,Prime,P 59 001,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,"BITURBO (69, 78, AF3, AM 332)",06/84,12/94,430,10/91,09/94,165,224,Brake pads,Prime Ceramic,P59001N,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,222 E,01/89,10/89,182,247,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,222 E,01/89,10/89,182,247,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,222 SE,01/88,12/90,184,250,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,222 SE,01/88,12/90,184,250,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,E,06/82,10/87,139,189,Brake discs,Prime,08.4333.10,282mm,"12,7mm",59mm,,4,Solid,60mm,"11,4mm",,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,E,06/82,10/87,139,189,Brake discs,Prime,08.4332.10,272mm,10mm,62mm,,4,Solid,60mm,9mm,,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,ES,09/83,12/86,147,200,Brake discs,Prime,08.4333.10,282mm,"12,7mm",59mm,,4,Solid,60mm,"11,4mm",,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,ES,09/83,12/86,147,200,Brake discs,Prime,08.4332.10,272mm,10mm,62mm,,4,Solid,60mm,9mm,,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,ES,09/83,12/86,147,200,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,Si 2.0,09/87,12/88,151,205,Brake discs,Prime,08.4333.10,282mm,"12,7mm",59mm,,4,Solid,60mm,"11,4mm",,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,Si 2.0,09/87,12/88,151,205,Brake discs,Prime,08.4332.10,272mm,10mm,62mm,,4,Solid,60mm,9mm,,2,,,,,,
+MASERATI,BITURBO Coupe (AM 331),12/81,06/93,Si 2.0,09/87,12/88,151,205,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,BITURBO Spyder (AM 333),07/85,12/94,2.8,01/89,12/94,165,224,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,BITURBO Spyder (AM 333),07/85,12/94,2.8,01/89,12/94,165,224,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake discs,Prime,09.5846.10,307mm,30mm,50mm,,5,Ventilated,59mm,28mm,,2,,,,,,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake discs,Prime,09.5847.10,316mm,20mm,80mm,,5,Ventilated,59mm,18mm,,2,,,,,,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake pads,Prime,P 59 001,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake pads,Prime Ceramic,P59001N,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,GHIBLI II,04/92,12/97,2.8 24V Biturbo,06/92,12/97,209,284,Brake pads,Prime,P 06 016,,17mm,59mm,123mm,,,,,,,Teves,Prepared for wear indicator,"21282, 21283",D548 7427,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,243,330,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime,P 48 003,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime Ceramic,P48003N,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0,08/13,>,257,350,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime,P 48 003,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime Ceramic,P48003N,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 D,08/13,>,202,275,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 23 201,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P23201N,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 48 002,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P48002N,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 48 004,,18mm,58mm,119mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P48004N,,18mm,58mm,119mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM6 | D,1T1.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM6 | TY1,1T2.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM6 | TY3,1T3.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM4 | D,2S1.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM4 | TY1,2S2.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,08/13,>,301,409,UPGRADE GT kit,GT | BM4 | TY3,2S3.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 23 201,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P23201N,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,,,,
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM6 | D,1T1.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM6 | TY1,1T2.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM6 | TY3,1T3.9505A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM4 | D,2S1.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM4 | TY1,2S2.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GHIBLI III (M157),08/13,>,3.0 S,07/17,>,316,430,UPGRADE GT kit,GT | BM4 | TY3,2S3.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | D,2P1.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | TY1,2P2.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | TY3,2P3.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.2,09/07,>,298,405,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,Brake pads,Prime Ceramic,P50078N,,17mm,98mm,190mm,,,,,,,Brembo,Without,24156,D1944 9168,With anti-squeal shim,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,09/10,>,331,450,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,Brake discs,Prime,09.A299.43,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M4 | D,2P1.9043A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M4 | TY1,2P2.9043A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7,05/12,>,338,460,UPGRADE GT kit,GT | M4 | TY3,2P3.9043A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake discs,Prime,09.A299.43,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRAN TURISMO I,09/07,>,4.7 S,08/08,12/12,323,439,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake discs,Prime,09.A299.43,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANCABRIO,03/10,>,4.7,06/10,01/13,323,439,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake discs,Prime,09.A299.43,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANCABRIO,03/10,>,4.7,01/11,06/17,331,450,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANCABRIO,03/10,>,4.7,02/13,11/19,338,460,Brake discs,Prime,09.A299.43,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,
+MASERATI,GRANCABRIO,03/10,>,4.7,02/13,11/19,338,460,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,02/13,11/19,338,460,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,
+MASERATI,GRANCABRIO,03/10,>,4.7,02/13,11/19,338,460,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANCABRIO,03/10,>,4.7,02/13,11/19,338,460,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,Brake pads,Prime,P 06 018,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,Brake pads,Prime Ceramic,P06018N,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M6 | D,1N1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M6 | TY1,1N2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M6 | TY3,1N3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M4 | D,2P1.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANSPORT Convertible,10/04,>,4.2,10/04,>,295,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,Brake pads,Prime,P 06 018,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,Brake pads,Prime Ceramic,P06018N,,18mm,74mm,120mm,,,,,,,Brembo,Prepared for wear indicator,21471,D639 7517,With anti-squeal shim,,,,
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M6 | D,1N1.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M6 | TY1,1N2.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M6 | TY3,1N3.9015A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M4 | D,2P1.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRANSPORT Coupe,06/04,12/07,4.2,06/04,11/07,295,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9019A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,GRECALE,04/22,>,FOLGORE Q4,12/23,>,410,557,Brake discs,Prime,09.E259.11,350mm,28mm,"42,7mm",,5,Ventilated,70mm,26mm,,1,,,,,,
+MASERATI,GRECALE,04/22,>,FOLGORE Q4,12/23,>,410,557,Brake pads,Prime,P 23 186,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,FOLGORE Q4,12/23,>,410,557,Brake pads,Prime Ceramic,P23186N,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,GT Mild Hybrid Q4,04/22,>,221,300,Brake discs,Prime,09.E259.11,350mm,28mm,"42,7mm",,5,Ventilated,70mm,26mm,,1,,,,,,
+MASERATI,GRECALE,04/22,>,GT Mild Hybrid Q4,04/22,>,221,300,Brake pads,Prime,P 23 186,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,GT Mild Hybrid Q4,04/22,>,221,300,Brake pads,Prime Ceramic,P23186N,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,MODENA Mild Hybrid Q4,04/22,>,243,330,Brake discs,Prime,09.E259.11,350mm,28mm,"42,7mm",,5,Ventilated,70mm,26mm,,1,,,,,,
+MASERATI,GRECALE,04/22,>,MODENA Mild Hybrid Q4,04/22,>,243,330,Brake pads,Prime,P 23 186,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,MODENA Mild Hybrid Q4,04/22,>,243,330,Brake pads,Prime Ceramic,P23186N,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,TROFEO Q4,04/22,>,390,530,Brake discs,Prime,09.E259.11,350mm,28mm,"42,7mm",,5,Ventilated,70mm,26mm,,1,,,,,,
+MASERATI,GRECALE,04/22,>,TROFEO Q4,04/22,>,390,530,Brake pads,Prime,P 23 186,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,GRECALE,04/22,>,TROFEO Q4,04/22,>,390,530,Brake pads,Prime Ceramic,P23186N,,16mm,81mm,165mm,,,,,,,Brembo,Electric,"22267, 22719, 23955",D1116 9272,With anti-squeal shim,
+MASERATI,KARIF,04/88,06/00,2.8,04/88,01/91,165,225,Brake discs,Prime,09.4920.10,284mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,KARIF,04/88,06/00,2.8,04/88,01/91,165,225,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,KARIF,04/88,06/00,2.8,04/88,01/91,165,225,Brake pads,Prime,P 59 001,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,KARIF,04/88,06/00,2.8,04/88,01/91,165,225,Brake pads,Prime Ceramic,P59001N,,15mm,57mm,62mm,,,,,,,Teves,Without,20034,"D288 7191, D31 736, D58 796",With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake discs,Prime,09.F216.11,345mm,32mm,45mm,,5,Ventilated,67mm,"29,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake discs,Prime,09.F220.21,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake pads,Prime,P 48 001,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake pads,Prime Ceramic,P48001N,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 D Q4,06/16,>,202,275,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake discs,Prime,09.F216.11,345mm,32mm,45mm,,5,Ventilated,67mm,"29,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake discs,Prime,09.F220.21,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake pads,Prime,P 48 001,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake pads,Prime Ceramic,P48001N,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 Q4,06/16,>,257,350,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake discs,Prime,09.F216.11,345mm,32mm,45mm,,5,Ventilated,67mm,"29,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake discs,Prime,09.F220.21,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime,P 48 005,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime Ceramic,P48005N,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime,P 48 001,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime Ceramic,P48001N,,21mm,64mm,193mm,,,,,,,ATE,Electric,22977,D1904 9259,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.0 S Q4,06/16,>,316,430,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake discs,Prime,09.F220.21,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake pads,Prime,P 48 005,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake pads,Prime Ceramic,P48005N,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,LEVANTE SUV (M161),06/16,>,3.8 Trofeo Q4,10/19,>,427,581,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE IV,03/94,05/01,2.8 Biturbo,03/94,09/98,209,284,Brake discs,Prime,09.5846.10,307mm,30mm,50mm,,5,Ventilated,59mm,28mm,,2,,,,,,
+MASERATI,QUATTROPORTE IV,03/94,05/01,2.8 Biturbo,03/94,09/98,209,284,Brake discs,Prime,09.5847.10,316mm,20mm,80mm,,5,Ventilated,59mm,18mm,,2,,,,,,
+MASERATI,QUATTROPORTE IV,03/94,05/01,2.8 Biturbo,03/94,09/98,209,284,Brake pads,Prime,P 06 016,,17mm,59mm,123mm,,,,,,,Teves,Prepared for wear indicator,"21282, 21283",D548 7427,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,QUATTROPORTE IV,03/94,05/01,3.2 V8 32V,12/95,05/01,247,336,Brake pads,Prime,P 56 048,,14mm,66mm,77mm,,,,,,,Brembo,Acoustic,"21580, 23323",D961 7859,With anti-squeal shim,
+MASERATI,QUATTROPORTE IV,03/94,05/01,3.2 V8 32V,12/95,05/01,247,336,Brake pads,Prime Ceramic,P56048N,,14mm,66mm,77mm,,,,,,,Brembo,Acoustic,"21580, 23323",D961 7859,With anti-squeal shim,
+MASERATI,QUATTROPORTE IV,03/94,05/01,3.2 V8 32V,12/95,05/01,247,336,Brake pads,Prime,P 06 016,,17mm,59mm,123mm,,,,,,,Teves,Prepared for wear indicator,"21282, 21283",D548 7427,With accessoriesWith anti-squeal shimWith piston clip,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,Brake pads,Prime,P 56 048,,14mm,66mm,77mm,,,,,,,Brembo,Acoustic,"21580, 23323",D961 7859,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,Brake pads,Prime Ceramic,P56048N,,14mm,66mm,77mm,,,,,,,Brembo,Acoustic,"21580, 23323",D961 7859,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | D,2P1.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9007A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,295,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,Brake pads,Prime,P 50 043,,16mm,66mm,75mm,,,,,,,Teves,Prepared for wear indicator,23157,D874 7749,With anti-squeal shim,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,Brake pads,Prime Ceramic,P50043N,,16mm,66mm,75mm,,,,,,,Teves,Prepared for wear indicator,23157,D874 7749,With anti-squeal shim,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | D,2P1.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.2,03/04,>,294,400,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,06/08,>,323,439,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 GT S,11/11,>,331,450,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake discs,Prime,09.A299.33,360mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime,P 50 092,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime Ceramic,P50092N,,18mm,81mm,165mm,,,,,,,Brembo,Prepared for wear indicator,23955,D1116 8222,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime,P 02 001,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime Ceramic,P02001N,,9mm,54mm,56mm,,,,,,,Brembo,Without,20610,D971 7872,With anti-squeal shim,,,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime,P 48 007,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,Brake pads,Prime Ceramic,P48007N,,15mm,69mm,110mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,,Yes,,,
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M6 | D,1N1.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M6 | TY1,1N2.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M6 | TY3,1N3.9016A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M4 | D,2P1.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M4 | TY1,2P2.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE V,03/04,>,4.7 S,06/08,>,317,431,UPGRADE GT kit,GT | M4 | TY3,2P3.9023A_,380mm,28mm,,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,03/13,>,243,330,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0,10/16,>,257,350,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake discs,Prime,09.F218.11,345mm,28mm,45mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake discs,Prime,09.F217.11,320mm,22mm,67mm,,5,Ventilated,67mm,20mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake discs,Prime,09.F220.11,330mm,22mm,58mm,,5,Ventilated,67mm,"19,9mm",,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 23 115,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P23115N,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Xtra,P 23 115X,,16mm,77mm,132mm,,,,,,,Brembo,Electric,"23092, 23757",D1016 9078,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 23 201,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P23201N,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 48 002,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P48002N,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 48 004,,18mm,58mm,119mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P48004N,,18mm,58mm,119mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime,P 23 180,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 D,09/13,>,202,275,Brake pads,Prime Ceramic,P23180N,,16mm,56 - 59mm,123mm,,,,,,,Teves,Electric,"22604, 22605",D1989 9218,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,05/13,>,302,411,Brake pads,Prime,P 48 003,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,05/13,>,302,411,Brake pads,Prime Ceramic,P48003N,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,05/13,>,302,411,Brake pads,Prime,P 48 002,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,05/13,>,302,411,Brake pads,Prime Ceramic,P48002N,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,11/16,>,301,409,Brake pads,Prime,P 48 003,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,11/16,>,301,409,Brake pads,Prime Ceramic,P48003N,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,11/16,>,301,409,Brake pads,Prime,P 48 002,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,11/16,>,301,409,Brake pads,Prime Ceramic,P48002N,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake discs,Prime,09.F219.11,345mm,28mm,47mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 48 003,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P48003N,,16mm,81mm,165mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 23 201,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P23201N,,10mm,66mm,56mm,,,,,,,,Without,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime,P 48 006,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.0 S,07/17,>,316,430,Brake pads,Prime Ceramic,P48006N,,16mm,69mm,110mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+MASERATI,QUATTROPORTE VI,11/12,>,3.8 GT S,01/13,>,390,530,Brake pads,Prime,P 48 005,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.8 GT S,01/13,>,390,530,Brake pads,Prime Ceramic,P48005N,,18mm,85mm,190mm,,,,,,,,Electric,,,With accessoriesWith anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.8 GT S,01/13,>,390,530,Brake pads,Prime,P 48 002,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,QUATTROPORTE VI,11/12,>,3.8 GT S,01/13,>,390,530,Brake pads,Prime Ceramic,P48002N,,17mm,69mm,110mm,,,,,,,,Electric,,,With anti-squeal shim,
+MASERATI,SHAMAL,09/89,11/95,3.2,12/89,11/95,240,326,Brake discs,Prime,09.5123.10,300mm,22mm,46mm,,5,Ventilated,60mm,"20,4mm",,2,,,,,,
+MASERATI,SHAMAL,09/89,11/95,3.2,12/89,11/95,240,326,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,

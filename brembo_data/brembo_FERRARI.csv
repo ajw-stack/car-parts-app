@@ -1,0 +1,302 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+FERRARI,208/308 Coupe,09/74,10/89,308 GTB,09/75,06/80,188,255,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTB,09/75,06/80,188,255,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTB Qv (XW),09/82,06/85,177,240,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTB Qv (XW),09/82,06/85,177,240,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTS,09/77,06/80,188,255,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTS,09/77,06/80,188,255,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTS Qv (XV),09/82,06/85,177,240,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,208/308 Coupe,09/74,10/89,308 GTS Qv (XV),09/82,06/85,177,240,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,328 GTB,09/85,09/89,3.2,09/85,09/89,199,270,Brake discs,Prime,09.4297.20,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,328 GTB,09/85,09/89,3.2,09/85,09/89,199,270,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,328 GTB,09/85,09/89,3.2,09/85,09/89,199,270,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+FERRARI,328 GTS,09/85,09/89,3.2,09/85,09/89,199,270,Brake discs,Prime,09.4297.20,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,328 GTS,09/85,09/89,3.2,09/85,09/89,199,270,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,328 GTS,09/85,09/89,3.2,09/85,09/89,199,270,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+FERRARI,348 Spider,03/93,12/95,3.4,03/93,12/95,235,320,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,
+FERRARI,348 Spider,03/93,12/95,3.4,03/93,12/95,235,320,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,348 Spider,03/93,12/95,3.4,03/93,12/95,235,320,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,,,,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | D,1B1.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | TY1,1B2.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | D,1M1.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | TY1,1M2.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | TY3,1M3.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | D,1M1.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | TY1,1M2.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | M6 | TY3,1M3.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | D,2B1.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | TY1,2B2.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | D,2H1.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | TY1,2H2.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,02/90,04/94,221,300,UPGRADE GT kit,GT | A4 | TY3,2H3.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 tb/GTB,02/90,04/94,3.4,10/93,04/94,235,320,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,10/93,04/94,235,320,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,348 tb/GTB,02/90,04/94,3.4,10/93,04/94,235,320,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,,,,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | D,1B1.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | TY1,1B2.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | D,1M1.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | TY1,1M2.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | TY3,1M3.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | D,1M1.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | TY1,1M2.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | M6 | TY3,1M3.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | D,2B1.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | TY1,2B2.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | D,2H1.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | TY1,2H2.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,08/90,10/93,221,300,UPGRADE GT kit,GT | A4 | TY3,2H3.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,348 ts/GTS,09/88,12/95,3.4,10/93,12/95,235,320,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,10/93,12/95,235,320,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,348 ts/GTS,09/88,12/95,3.4,10/93,12/95,235,320,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Challenge Stradale,05/03,03/05,313,425,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,Brake discs,Prime,09.7267.50,330mm,28mm,41mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | A4 | D,1B1.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | A4 | TY1,1B2.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | A4 | TY3,1B3.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,03/99,03/05,294,400,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | A4 | D,1B1.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | A4 | TY1,1B2.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | A4 | TY3,1B3.8034A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 (F131),03/99,03/05,3.6 Modena,01/02,03/05,316,430,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,360 Spider (F131),02/00,08/05,3.6,02/00,08/05,294,400,Brake discs,Prime,09.7267.50,330mm,28mm,41mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+FERRARI,365 GT 2+2,06/67,04/71,4.4,06/67,04/71,235,320,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,365 GTB/4 DAYTONA,02/69,12/74,4.4,02/69,12/74,259,352,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,365 GTS/4 DAYTONA,09/67,12/74,4.4,05/71,12/74,259,352,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,400 i,05/79,03/85,4.8,05/79,03/85,232,315,Brake discs,Prime,09.3802.10,296mm,26mm,89mm,,5,Ventilated,67mm,23mm,,1,,,,,,
+FERRARI,400 i,05/79,03/85,4.8,05/79,03/85,232,315,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,412 i,04/85,12/88,4.9,04/85,12/88,250,340,Brake discs,Prime,09.3036.10,301mm,32mm,78mm,,5,Ventilated,67mm,30mm,,1,,,,,,
+FERRARI,412 i,04/85,12/88,4.9,04/85,12/88,250,340,Brake discs,Prime,09.3802.10,296mm,26mm,89mm,,5,Ventilated,67mm,23mm,,1,,,,,,
+FERRARI,412 i,04/85,12/88,4.9,04/85,12/88,250,340,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,456 GT/GTA,01/93,06/04,5.5 (F116),01/93,06/04,325,442,Brake discs,Prime,09.5183.40,315mm,32mm,62mm,,5,Ventilated,67mm,30mm,,1,,,,,,
+FERRARI,456 GT/GTA,01/93,06/04,5.5 (F116),01/93,06/04,325,442,Brake discs,Prime,09.6802.10,330mm,32mm,62mm,,5,Ventilated,67mm,30mm,,1,,,,,,
+FERRARI,456 GT/GTA,01/93,06/04,5.5 (F116),01/93,06/04,325,442,Brake discs,Prime,09.5519.10,310mm,28mm,82mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+FERRARI,456 GT/GTA,01/93,06/04,5.5 (F116),01/93,06/04,325,442,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,456 GT/GTA,01/93,06/04,5.5 (F116),01/93,06/04,325,442,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,5__ MARANELLO,04/96,12/06,550,04/96,12/01,357,486,Brake discs,Prime,09.6802.20,330mm,32mm,61mm,,5,Ventilated,67mm,30mm,,1,,,,,,
+FERRARI,5__ MARANELLO,04/96,12/06,550,04/96,12/01,357,486,Brake discs,Prime,09.5519.30,310mm,28mm,81mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+FERRARI,512 BB,08/76,08/84,4.9,08/76,06/81,250,340,Brake discs,Prime,09.3798.10,288mm,32mm,76mm,,8,Ventilated,84mm,30mm,,1,,,,,,
+FERRARI,512 BB,08/76,08/84,4.9,08/76,06/81,250,340,Brake discs,Prime,09.3797.10,296mm,22mm,75mm,,8,Ventilated,90mm,20mm,,2,,,,,,
+FERRARI,512 BB,08/76,08/84,4.9,08/76,06/81,250,340,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,512 BB,08/76,08/84,i 4.9,07/81,08/84,237,322,Brake discs,Prime,09.3798.10,288mm,32mm,76mm,,8,Ventilated,84mm,30mm,,1,,,,,,
+FERRARI,512 BB,08/76,08/84,i 4.9,07/81,08/84,237,322,Brake discs,Prime,09.3797.10,296mm,22mm,75mm,,8,Ventilated,90mm,20mm,,2,,,,,,
+FERRARI,512 BB,08/76,08/84,i 4.9,07/81,08/84,237,322,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,512 M,11/94,08/96,4.9,11/94,08/96,324,440,Brake discs,Prime,09.5182.10,310mm,28mm,90mm,,5,Ventilated,67mm,25mm,,1,,,,,,
+FERRARI,512 M,11/94,08/96,4.9,11/94,08/96,324,440,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,512 M,11/94,08/96,4.9,11/94,08/96,324,440,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,512 TR,01/92,10/94,4.9,01/92,10/94,315,428,Brake discs,Prime,09.5182.10,310mm,28mm,90mm,,5,Ventilated,67mm,25mm,,1,,,,,,
+FERRARI,512 TR,01/92,10/94,4.9,01/92,10/94,315,428,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,
+FERRARI,512 TR,01/92,10/94,4.9,01/92,10/94,315,428,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,512 TR,01/92,10/94,4.9,01/92,10/94,315,428,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M6 | D,1N1.9012A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M6 | TY1,1N2.9012A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M6 | TY3,1N3.9012A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M4 | D,2P1.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M4 | TY1,2P2.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,550 BARCHETTA,10/00,01/05,5.5,10/00,01/05,357,486,UPGRADE GT kit,GT | M4 | TY3,2P3.9017A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,Brake pads,Prime,P 85 116,,16mm,77mm,132mm,,,,,,,Brembo,Prepared for wear indicator,24098,D1600 8814,With anti-squeal shim,,,,
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,Brake pads,Prime Ceramic,P85116N,,16mm,77mm,132mm,,,,,,,Brembo,Prepared for wear indicator,24098,D1600 8814,With anti-squeal shim,,,,
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,Brake pads,Xtra Ceramic,P85116NX,,16mm,77mm,132mm,,,,,,,Brembo,Prepared for wear indicator,24098,D1600 8814,With anti-squeal shim,,,,
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M6 | D,1N1.9021A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M6 | TY1,1N2.9021A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M6 | TY3,1N3.9021A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M4 | D,2P1.9031A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M4 | TY1,2P2.9031A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,612 SCAGLIETTI,04/04,06/11,5.7,04/04,06/11,397,540,UPGRADE GT kit,GT | M4 | TY3,2P3.9031A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,DINO GT4 (208/308),02/73,06/80,208,02/75,06/80,125,170,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,DINO GT4 (208/308),02/73,06/80,208,02/75,06/80,125,170,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,DINO GT4 (208/308),02/73,06/80,308,02/74,06/80,188,255,Brake discs,Prime,09.3800.10,272mm,22mm,78mm,,5,Ventilated,58mm,20mm,,2,,,,,,
+FERRARI,DINO GT4 (208/308),02/73,06/80,308,02/74,06/80,188,255,Brake discs,Prime,09.3799.10,277mm,20mm,73mm,,5,Ventilated,67mm,18mm,,2,,,,,,
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,,,,
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,1B1.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,1B2.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | D,1M1.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | D,1M1.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,2B1.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,2B2.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,2H1.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,2H2.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Berlinetta,05/94,03/99,3.5,05/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY3,2H3.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,1B1.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,1B2.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | D,1M1.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | D,1M1.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,2B1.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,2B2.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | D,2H1.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY1,2H2.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 GTS,07/94,03/99,3.5,07/94,03/99,280,380,UPGRADE GT kit,GT | A4 | TY3,2H3.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,Brake discs,Prime,09.4966.10,310mm,24mm,77mm,,5,Ventilated,67mm,22mm,,2,,,,,,,,,
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,,,,
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | D,1B1.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | TY1,1B2.7003A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | D,1M1.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.8062A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | D,1M1.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | TY1,1M2.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | M6 | TY3,1M3.9060A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | D,2B1.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | TY1,2B2.7001A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | D,2H1.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | TY1,2H2.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F355 Spider,05/94,12/00,3.5,07/95,12/00,280,380,UPGRADE GT kit,GT | A4 | TY3,2H3.8006A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | D,1N1.9526A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | TY1,1N2.9526A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | TY3,1N3.9526A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,375,510,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,430 Scuderia,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,1M1.9026A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,1M2.9026A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,1M3.9026A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,2M1.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,2M2.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,2M3.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430,03/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,4.3 F430,05/05,12/09,360,490,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,F430,03/08,12/09,357,486,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,09/07,12/09,372,506,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | D,1M1.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY1,1M2.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY3,1M3.9008A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | D,1M1.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY1,1M2.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY3,1M3.9013A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | D,2M1.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY1,2M2.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,F430 Spider,05/05,12/09,Scuderia 16M,04/07,12/09,376,511,UPGRADE GT kit,GT | M6 | TY3,2M3.9002A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,MONDIAL,07/80,12/93,3.2 Quattrovalvole,10/85,12/88,199,270,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,3.2 Quattrovalvole,10/85,12/88,199,270,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,3.2 Quattrovalvole,10/85,12/88,199,270,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+FERRARI,MONDIAL,07/80,12/93,3.4 T,03/89,12/93,221,300,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,3.4 T,03/89,12/93,221,300,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,3.4 T,03/89,12/93,221,300,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,MONDIAL,07/80,12/93,3.4 T,03/89,12/93,221,300,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,MONDIAL,07/80,12/93,8,07/80,09/83,158,214,Brake discs,Prime,09.3803.10,282mm,22mm,60mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,8 Quattrovalvole,10/82,07/87,177,240,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL,07/80,12/93,8 Quattrovalvole,10/82,07/87,177,240,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.2 Quattrovalvole,09/85,12/88,199,270,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.2 Quattrovalvole,09/85,12/88,199,270,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.2 Quattrovalvole,09/85,12/88,199,270,Brake pads,Prime,P 06 008,,20mm,57mm,158mm,,,,,,,Teves,Prepared for wear indicator,"20629, 20757","D253 7160, D394 7284, D395 7285",With accessoriesWith anti-squeal shimWith piston clip,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.4 T,01/89,12/93,221,300,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.4 T,01/89,12/93,221,300,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.4 T,01/89,12/93,221,300,Brake pads,Prime,P 85 094,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,MONDIAL Convertible,03/83,12/93,3.4 T,01/89,12/93,221,300,Brake pads,Prime Ceramic,P85094N,,18mm,66mm,98mm,,,,,,,Teves,Prepared for wear indicator,20877,D250 7158,With anti-squeal shim,
+FERRARI,MONDIAL Convertible,03/83,12/93,8 Quattrovalvole,03/84,07/87,177,240,Brake discs,Prime,09.4297.10,282mm,22mm,56mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,MONDIAL Convertible,03/83,12/93,8 Quattrovalvole,03/84,07/87,177,240,Brake discs,Prime,09.4254.10,280mm,22mm,74mm,,5,Ventilated,67mm,20mm,,2,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,Brake discs,Prime,09.3032.10,309mm,32mm,52mm,,5,Ventilated,88mm,30mm,,2,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,Brake discs,Prime,09.4867.10,309mm,32mm,67mm,,5,Ventilated,67mm,30mm,,2,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,Brake discs,Prime,09.3033.10,310mm,30mm,89mm,,5,Ventilated,88mm,27mm,,1,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,Brake discs,Prime,09.4868.20,310mm,30mm,89mm,,5,Ventilated,67mm,27mm,,1,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,,,,
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | D,1M1.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | TY1,1M2.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | TY3,1M3.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | D,1M1.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | TY1,1M2.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M6 | TY3,1M3.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | D,2P1.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | D,2P1.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,4.9,05/84,12/91,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,Brake discs,Prime,09.3032.10,309mm,32mm,52mm,,5,Ventilated,88mm,30mm,,2,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,Brake discs,Prime,09.4867.10,309mm,32mm,67mm,,5,Ventilated,67mm,30mm,,2,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,Brake discs,Prime,09.3033.10,310mm,30mm,89mm,,5,Ventilated,88mm,27mm,,1,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,Brake discs,Prime,09.4868.20,310mm,30mm,89mm,,5,Ventilated,67mm,27mm,,1,,,,,,,,,
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,Brake pads,Prime Ceramic,P06002N,,15mm,71mm,90mm,,,,,,,Teves,Prepared for wear indicator,20437,"D163 7015, D163 7090, D74 7001",With anti-squeal shim,,,,
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | D,1M1.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | TY1,1M2.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | TY3,1M3.9057A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | D,1M1.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | TY1,1M2.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M6 | TY3,1M3.9059A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | D,2P1.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | TY1,2P2.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | TY3,2P3.9067A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | D,2P1.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | TY1,2P2.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+FERRARI,TESTAROSSA,05/84,12/91,5.0,08/86,10/91,272,370,UPGRADE GT kit,GT | M4 | TY3,2P3.9068A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock

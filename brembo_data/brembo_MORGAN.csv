@@ -1,0 +1,10 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+MORGAN,AERO 8 Convertible,10/00,>,4.4,10/00,>,210,286,Brake pads,Prime,P 68 051,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,AERO 8 Convertible,10/00,>,4.4,10/00,>,210,286,Brake pads,Prime Ceramic,P68051N,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,AERO Coupe,10/12,>,4.8 V8,10/12,>,270,367,Brake pads,Prime,P 68 051,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,AERO Coupe,10/12,>,4.8 V8,10/12,>,270,367,Brake pads,Prime Ceramic,P68051N,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,AEROMAX Coupe,03/07,08/09,4.4,03/07,08/09,245,333,Brake pads,Prime,P 68 051,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,AEROMAX Coupe,03/07,08/09,4.4,03/07,08/09,245,333,Brake pads,Prime Ceramic,P68051N,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,PLUS EIGHT,01/68,>,Assembly kit,08/90,04/95,138,188,Brake pad accessories,Prime,A 02 206,,,,,,,,,,,Teves,,,,,
+MORGAN,PLUS EIGHT,01/68,>,4.8 V8,03/10,>,270,367,Brake pads,Prime,P 68 051,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+MORGAN,PLUS EIGHT,01/68,>,4.8 V8,03/10,>,270,367,Brake pads,Prime Ceramic,P68051N,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,

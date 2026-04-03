@@ -1,0 +1,551 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+CADILLAC,ALLANTE Convertible (V),09/85,09/93,4.6,10/92,09/93,220,299,Brake pads,Prime,P 56 027,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,ALLANTE Convertible (V),09/85,09/93,4.6,10/92,09/93,220,299,Brake pads,Prime Ceramic,P56027N,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,ALLANTE Convertible (V),09/85,09/93,4.6,10/92,09/93,220,299,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,ALLANTE Convertible (V),09/85,09/93,4.6,10/92,09/93,220,299,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ALLANTE Convertible (V),09/85,09/93,4.6,10/92,09/93,220,299,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake discs,Prime,09.E283.11,298mm,26mm,48mm,,5,Ventilated,71mm,24mm,,1,,,,,,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake discs,Prime,09.D997.11,320mm,26mm,48mm,,5,Ventilated,71mm,"24,6mm",,1,,,,,,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime,P 09 011,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime Ceramic,P09011N,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,2.8,03/05,09/07,158,215,Brake pads,Prime Ceramic,P09031N,,15mm,38mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305","D922 7823, D922 7822",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,3.2,09/02,12/04,164,223,Brake pads,Prime,P 09 011,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.2,09/02,12/04,164,223,Brake pads,Prime Ceramic,P09011N,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.2,09/02,12/04,164,223,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,3.2,09/02,12/04,164,223,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.2,09/02,12/04,164,223,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake discs,Prime,09.E283.11,298mm,26mm,48mm,,5,Ventilated,71mm,24mm,,1,,,,,,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake discs,Prime,09.D997.11,320mm,26mm,48mm,,5,Ventilated,71mm,"24,6mm",,1,,,,,,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime,P 09 011,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime Ceramic,P09011N,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,03/05,09/07,189,257,Brake pads,Prime Ceramic,P09031N,,15mm,38mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305","D922 7823, D922 7822",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake discs,Prime,09.E283.11,298mm,26mm,48mm,,5,Ventilated,71mm,24mm,,1,,,,,,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake discs,Prime,09.D997.11,320mm,26mm,48mm,,5,Ventilated,71mm,"24,6mm",,1,,,,,,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake pads,Prime,P 09 011,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake pads,Prime Ceramic,P09011N,,15mm,57mm,183mm,,,,,,,,Acoustic,"22045, 22046",D921 7822,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,3.6,09/03,12/07,190,258,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,CTS,03/02,12/07,5.7 V8,03/05,09/07,294,400,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,5.7 V8,03/05,09/07,294,400,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,5.7 V8,03/05,09/07,294,400,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,5.7 V8,03/05,09/07,294,400,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,6.0,09/05,09/07,298,405,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,6.0,09/05,09/07,298,405,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,6.0,09/05,09/07,298,405,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,03/02,12/07,6.0,09/05,09/07,298,405,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake discs,Prime,09.D269.11,316mm,30mm,51mm,,5,Ventilated,68mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake discs,Prime,09.D394.11,345mm,30mm,51mm,,5,Ventilated,67mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake discs,Prime,09.N286.11,315mm,23mm,48mm,,5,Ventilated,67mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake discs,Prime,09.D270.11,339mm,23mm,48mm,,5,Ventilated,68mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0,01/08,12/11,203,276,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0,09/09,10/13,201,273,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0,09/09,10/13,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0 AWD,01/08,12/10,203,276,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0 AWD,01/08,12/10,203,276,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0 AWD,01/08,12/10,203,276,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0 AWD,09/09,10/13,201,273,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.0 AWD,09/09,10/13,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake discs,Prime,09.D269.11,316mm,30mm,51mm,,5,Ventilated,68mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake discs,Prime,09.D394.11,345mm,30mm,51mm,,5,Ventilated,67mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake discs,Prime,09.N286.11,315mm,23mm,48mm,,5,Ventilated,67mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake discs,Prime,09.D270.11,339mm,23mm,48mm,,5,Ventilated,68mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6,01/08,09/13,229,311,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel,09/12,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel,09/12,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel,09/12,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake discs,Prime,09.D269.11,316mm,30mm,51mm,,5,Ventilated,68mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake discs,Prime,09.N286.11,315mm,23mm,48mm,,5,Ventilated,67mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake discs,Prime,09.D270.11,339mm,23mm,48mm,,5,Ventilated,68mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime,P 11 024,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime Ceramic,P11024N,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,3.6 VVTi,01/08,>,227,309,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.D269.11,316mm,30mm,51mm,,5,Ventilated,68mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.D394.11,345mm,30mm,51mm,,5,Ventilated,67mm,"28,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.A665.13,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.A665.23,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.N286.11,315mm,23mm,48mm,,5,Ventilated,67mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.D270.11,339mm,23mm,48mm,,5,Ventilated,68mm,"21,5mm",,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake discs,Prime,09.A508.11,365mm,28mm,48mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS,07/07,>,6.2,01/09,>,415,564,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.0,01/10,12/13,201,273,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.0,01/10,12/13,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.0 AWD,01/10,12/13,201,273,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.0 AWD,01/10,12/13,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6,09/10,>,227,309,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6,09/10,>,227,309,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6,09/10,>,227,309,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6,09/10,>,227,309,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 AWD,09/10,>,227,309,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 AWD,09/10,>,227,309,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 AWD,09/10,>,227,309,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 AWD,09/10,>,227,309,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel,09/11,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel,09/11,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel,09/11,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,3.6 Flexfuel AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake discs,Prime,09.A665.13,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake discs,Prime,09.A665.23,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake discs,Prime,09.A508.11,365mm,28mm,48mm,,5,Ventilated,67mm,26mm,,1,,,,,,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,,,,
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M6 | D,1N1.9530A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M6 | TY1,1N2.9530A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M6 | TY3,1N3.9530A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M4 | D,2P1.9038A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M4 | TY1,2P2.9038A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,CTS Coupe,01/08,>,6.2 V,01/08,07/14,415,564,UPGRADE GT kit,GT | M4 | TY3,2P3.9038A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,CTS Sport Wagon,01/08,>,3.0,01/08,>,203,276,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0,01/08,>,203,276,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0,01/08,>,203,276,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0,09/09,12/11,201,273,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0,09/09,12/11,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,01/08,>,203,276,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,01/08,>,203,276,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,01/08,>,203,276,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,09/09,12/11,201,273,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,09/09,12/11,201,273,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.0 AWD,09/09,12/11,201,273,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6,09/09,12/10,227,309,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6,09/09,12/10,227,309,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 AWD,09/09,12/10,227,309,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 AWD,09/09,12/10,227,309,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX,09/11,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX,09/11,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX,09/11,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09018N,,17mm,70mm,162mm,,,,,,,Mando,Acoustic,"24940, 24941","D1331 8443, D1331 8534",With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09016N,,16mm,60mm,176mm,,,,,,,Mando,Acoustic,"24937, 24938, 24939",D1332 8444,With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,3.6 FLEX AWD,09/12,>,237,322,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,6.2,09/11,>,415,564,Brake discs,Prime,09.A665.13,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,
+CADILLAC,CTS Sport Wagon,01/08,>,6.2,09/11,>,415,564,Brake discs,Prime,09.A665.23,370mm,34mm,50mm,,5,Ventilated,67mm,32mm,,1,,,,,,
+CADILLAC,CTS Sport Wagon,01/08,>,6.2,09/11,>,415,564,Brake discs,Prime,09.A508.11,365mm,28mm,48mm,,5,Ventilated,67mm,26mm,,1,,,,,,
+CADILLAC,CTS Sport Wagon,01/08,>,6.2,09/11,>,415,564,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,CTS Sport Wagon,01/08,>,6.2,09/11,>,415,564,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+CADILLAC,DEVILLE,09/89,09/93,4.5,09/89,12/90,134,182,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,DEVILLE,09/89,09/93,4.5,09/89,12/90,134,182,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/89,09/93,4.5,09/89,12/90,134,182,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/89,09/93,4.9 Touring,10/90,09/93,149,203,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime,P 56 027,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime Ceramic,P56027N,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,10/93,09/99,224,305,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/96,09/99,205,279,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/96,09/99,205,279,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/96,09/99,205,279,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/96,09/99,205,279,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/96,09/99,205,279,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/95,09/99,224,305,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/95,09/99,224,305,Brake pads,Prime,P 59 028,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/95,09/99,224,305,Brake pads,Prime Ceramic,P59028N,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/95,09/99,224,305,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6,09/95,09/99,224,305,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime,P 56 027,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime Ceramic,P56027N,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.6 Concours,10/93,09/99,205,279,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.9,10/93,09/95,149,203,Brake pads,Prime,P 56 027,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.9,10/93,09/95,149,203,Brake pads,Prime Ceramic,P56027N,,17mm,48mm,109mm,,,,,,,Sumitomo,Acoustic,"21657, 21658, 21659",D510 7389,With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.9,10/93,09/95,149,203,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/93,09/99,4.9,10/93,09/95,149,203,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/93,09/99,4.9,10/93,09/95,149,203,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime,P 59 028,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P59028N,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P09008N,,18mm,62mm,148mm,,,,,,,Wagner,Acoustic,"24615, 24616, 24617",D753 7621,With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P10026N,,19mm,67mm,216mm,,,,,,,Akebono,Acoustic,24628,"D784 7652, D784 8454",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,DEVILLE,09/99,12/05,4.6,10/99,12/05,205,279,Brake pads,Prime Ceramic,P10028N,,17mm,52mm,143mm,,,,,,,,Acoustic,,"D792 7662, D792 7700",With anti-squeal shim,
+CADILLAC,DEVILLE Coupe,09/84,12/93,4.1,09/84,12/85,93,126,Brake pads,Prime Ceramic,P10037N,,12mm,57 - 69mm,126 - 148mm,,,,,,,Bendix,Acoustic,"24769, 24770, 24771",D215 7136,With anti-squeal shim,
+CADILLAC,DEVILLE Coupe,09/84,12/93,4.9,09/90,12/93,149,203,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,DEVILLE Coupe,09/84,12/93,4.9,09/90,12/93,149,203,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE Coupe,09/84,12/93,4.9,09/90,12/93,149,203,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,DEVILLE Saloon,09/84,12/88,4.5,09/87,12/88,115,156,Brake pads,Prime Ceramic,P10037N,,12mm,57 - 69mm,126 - 148mm,,,,,,,Bendix,Acoustic,"24769, 24770, 24771",D215 7136,With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/91,09/94,220,299,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/91,09/94,220,299,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/91,09/94,220,299,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/94,09/02,224,305,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/94,09/02,224,305,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/94,09/02,224,305,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,09/94,09/02,224,305,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,10/93,09/02,205,279,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,10/93,09/02,205,279,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,10/93,09/02,205,279,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ELDORADO Coupe,09/91,09/02,4.6,10/93,09/02,205,279,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10034N,,19mm,60 - 64mm,184mm,,,,,,,,Acoustic,,"D1092 7997, D1380 7997",With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake discs,Prime,09.A406.11,330mm,30mm,56mm,,6,Ventilated,79mm,28mm,,1,,,,,,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake discs,Prime,09.B534.11,345mm,20mm,85mm,,6,Ventilated,79mm,"18,5mm",,1,,,,,,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10034N,,19mm,60 - 64mm,184mm,,,,,,,,Acoustic,,"D1092 7997, D1380 7997",With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.0 HYBRID AWD,11/10,12/13,283,385,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake discs,Prime,09.A406.11,330mm,30mm,56mm,,6,Ventilated,79mm,28mm,,1,,,,,,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake discs,Prime,09.B534.11,345mm,20mm,85mm,,6,Ventilated,79mm,"18,5mm",,1,,,,,,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,Brake pads,Prime Ceramic,P10034N,,19mm,60 - 64mm,184mm,,,,,,,,Acoustic,,"D1092 7997, D1380 7997",With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 AWD,10/06,12/14,296,403,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10034N,,19mm,60 - 64mm,184mm,,,,,,,,Acoustic,,"D1092 7997, D1380 7997",With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10034N,,19mm,60 - 64mm,184mm,,,,,,,,Acoustic,,"D1092 7997, D1380 7997",With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | D,1J1.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY1,1J2.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A6 | TY3,1J3.9017A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | D,2H1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY1,2H2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/06,12/14,6.2 FLEXFUEL AWD,10/06,12/14,301,409,UPGRADE GT kit,GT | A4 | TY3,2H3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,Brake pads,Prime Ceramic,P09015N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,"22982, 22983, 22984","D1363 8472, D1363 8803",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,Brake pads,Prime Ceramic,P10058N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,D1363 8472,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,Brake pads,Prime Ceramic,P10065N,,19mm,60 - 64mm,184mm,,,,,,,Akebono,Acoustic,,"D1363 8472, D1367 8472",With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,Brake pads,Prime Ceramic,P10045N,,18mm,46mm,143mm,,,,,,,Akebono,Acoustic,,D1194 8312,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A6 | D,1J1.9018A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A6 | TY1,1J2.9018A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A6 | TY3,1J3.9018A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | BM8 | D,1Q1.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9602A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A4 | D,2H1.9003A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A4 | TY1,2H2.9003A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,09/14,>,6.2 AWD,09/14,12/20,313,426,UPGRADE GT kit,GT | A4 | TY3,2H3.9003A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3,09/01,12/03,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.3 AWD,09/02,12/03,213,290,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,Brake pads,Prime Ceramic,P10021N,,17mm,59 - 76mm,126 - 147mm,,,,,,,Bendix,Acoustic,25373,D369 7259,With accessoriesWith anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,5.7 AWD,10/98,10/06,190,258,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,,,,
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A8 | D,1G1.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A8 | TY1,1G2.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A8 | TY3,1G3.9001A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A6 | D,1J1.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A6 | TY1,1J2.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A6 | TY3,1J3.9016A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A4 | D,2H1.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE,10/98,12/06,6.0 AWD,10/00,12/06,257,349,UPGRADE GT kit,GT | A4 | TY1,2H2.8003A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,ESCALADE Crew Cab Pickup,09/01,12/06,6.0 AWD,09/01,12/06,257,350,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,
+CADILLAC,ESCALADE Crew Cab Pickup,09/01,12/06,6.0 AWD,09/01,12/06,257,350,Brake pads,Prime Ceramic,P10040N,,17mm,61mm,184mm,,,,,,,,Acoustic,23992,D975 7707,With anti-squeal shim,
+CADILLAC,FLEETWOOD Coupe,09/88,12/92,4.9,09/90,12/92,149,203,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,FLEETWOOD Saloon,09/88,12/93,5.7 Brougham,10/89,09/93,130,177,Brake pads,Prime Ceramic,P10017N,,15mm,59 - 66mm,183 - 197mm,,,,,,,Kelsey Hayes,Acoustic,20215,"D52 7214A, D52 728A",With anti-squeal shim,
+CADILLAC,FLEETWOOD Saloon,09/76,12/86,5.0,10/85,09/86,104,141,Brake pads,Prime Ceramic,P10017N,,15mm,59 - 66mm,183 - 197mm,,,,,,,Kelsey Hayes,Acoustic,20215,"D52 7214A, D52 728A",With anti-squeal shim,
+CADILLAC,FLEETWOOD Saloon,09/76,12/86,5.7 D,10/84,09/86,77,105,Brake pads,Prime Ceramic,P10017N,,15mm,59 - 66mm,183 - 197mm,,,,,,,Kelsey Hayes,Acoustic,20215,"D52 7214A, D52 728A",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6,10/00,09/04,220,299,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+CADILLAC,SEVILLE,09/97,09/04,4.6,10/00,09/04,220,299,Brake pads,Prime,P 59 028,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6,10/00,09/04,220,299,Brake pads,Prime Ceramic,P59028N,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6,10/00,09/04,220,299,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6,10/00,09/04,220,299,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime,P 59 028,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime Ceramic,P59028N,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime Ceramic,P09008N,,18mm,62mm,148mm,,,,,,,Wagner,Acoustic,"24615, 24616, 24617",D753 7621,With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE,09/97,09/04,4.6 SLS V8,09/97,09/04,205,279,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,06/92,09/97,220,299,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,06/92,09/97,220,299,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,06/92,09/97,220,299,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,10/93,09/97,224,305,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,10/93,09/97,224,305,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,10/93,09/97,224,305,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,10/93,09/97,224,305,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.6,10/93,09/97,224,305,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.9,06/92,12/93,149,203,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.9,06/92,12/93,149,203,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE (6K_),06/92,09/97,4.9,06/92,12/93,149,203,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE II (K),09/85,12/91,4.9,10/90,12/91,149,203,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+CADILLAC,SEVILLE II (K),09/85,12/91,4.9,10/90,12/91,149,203,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE II (K),09/85,12/91,4.9,10/90,12/91,149,203,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+CADILLAC,SEVILLE Saloon,08/79,12/85,5.7 D,08/79,12/85,77,105,Brake pads,Prime Ceramic,P59063N,,16mm,68 - 73mm,123 - 152mm,,,,,,,Bendix,Acoustic,"24650, 24651, 24652","D202 7070A, D202 7480A, D767 7480A",With anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,3.6,09/03,12/06,194,264,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,3.6,09/03,12/06,194,264,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,3.6 AWD,09/03,12/06,194,264,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,3.6 AWD,09/03,12/06,194,264,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,4.6,09/03,12/09,239,325,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,4.6,09/03,12/09,239,325,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,4.6 AWD,09/03,12/09,239,325,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,09/03,12/09,4.6 AWD,09/03,12/09,239,325,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,2.8 AWD,01/09,12/16,224,305,Brake pads,Prime,P 09 009,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,2.8 AWD,01/09,12/16,224,305,Brake pads,Prime Ceramic,P09009N,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,2.8 AWD,01/09,12/16,224,305,Brake pads,Prime,P 09 010,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,2.8 AWD,01/09,12/16,224,305,Brake pads,Prime Ceramic,P09010N,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,2.8 AWD,01/09,12/16,224,305,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake discs,Prime,09.N286.31,315mm,23mm,48mm,,6,Ventilated,67mm,21mm,,1,,,,,,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake pads,Prime,P 09 009,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake pads,Prime Ceramic,P09009N,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake pads,Prime,P 09 010,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake pads,Prime Ceramic,P09010N,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0,01/09,12/16,198,269,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake discs,Prime,09.D394.11,345mm,30mm,51mm,,5,Ventilated,67mm,"28,5mm",,1,,,,,,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake discs,Prime,09.D394.21,345mm,30mm,51mm,,6,Ventilated,"67,5mm","28,5mm",,1,,,,,,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake discs,Prime,09.N286.31,315mm,23mm,48mm,,6,Ventilated,67mm,21mm,,1,,,,,,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake pads,Prime,P 09 009,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake pads,Prime Ceramic,P09009N,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake pads,Prime,P 09 010,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake pads,Prime Ceramic,P09010N,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.0 AWD,01/09,12/16,199,270,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel,09/11,12/16,230,313,Brake pads,Prime,P 09 009,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09009N,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel,09/11,12/16,230,313,Brake pads,Prime,P 09 010,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09010N,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel AWD,09/11,12/16,230,313,Brake pads,Prime,P 09 009,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel AWD,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09009N,,18mm,68mm,176mm,,,,,,,Mando,Acoustic,"22077, 22078, 22079",D1422 8537,With accessoriesWith anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel AWD,09/11,12/16,230,313,Brake pads,Prime,P 09 010,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel AWD,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09010N,,17mm,68mm,176mm,,,,,,,,Acoustic,"24750, 24751, 24752",D1422 8539,With anti-squeal shim,
+CADILLAC,SRX,01/09,12/16,3.6 Flexfuel AWD,09/11,12/16,230,313,Brake pads,Prime Ceramic,P09014N,,17mm,46mm,138mm,,,,,,,Mando,Acoustic,"24546, 24547, 24548",D1337 8448,With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6,05/05,12/07,189,257,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 AWD,09/04,12/05,189,257,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 AWD,09/04,12/05,189,257,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 AWD,09/04,12/05,189,257,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6 AWD,09/04,12/05,189,257,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6 AWD,09/04,12/05,189,257,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,3.6 VVT AWD,01/05,12/07,225,306,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.4 Kompressor,09/05,12/07,350,476,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.6,05/05,12/07,239,325,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09019N,,15mm,59mm,181mm,,,,,,,Wagner,Acoustic,24268,"D1019 7922, D1019 7923",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/04,12/07,4.6 AWD,09/04,12/05,239,325,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime,P 09 003,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime Ceramic,P09003N,,14mm,74mm,120mm,,,,,,,Brembo,Acoustic,23143,"D1053 7858, D960 7858, D960 7954",With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime,P 09 007,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime Ceramic,P09007N,,14mm,37mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305",D922 8207,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+CADILLAC,STS,09/07,12/12,3.6,09/07,12/11,225,306,Brake pads,Prime Ceramic,P09020N,,17mm,46mm,123mm,,,,,,,Wagner,Acoustic,"24266, 24267","D1020 7924, D1020 7925",With accessoriesWith anti-squeal shim,
+CADILLAC,STS,09/07,12/12,4.6,09/07,12/10,239,325,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,4.6,09/07,12/10,239,325,Brake pads,Prime Ceramic,P09031N,,15mm,38mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305","D922 7823, D922 7822",With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,4.6 AWD,09/07,12/10,239,325,Brake pads,Prime Ceramic,P09006N,,15mm,57mm,183mm,,,,,,,Wagner,Acoustic,"23957, 24303",D921 7822,With anti-squeal shim,
+CADILLAC,STS,09/07,12/12,4.6 AWD,09/07,12/10,239,325,Brake pads,Prime Ceramic,P09031N,,15mm,38mm,123mm,,,,,,,Wagner,Acoustic,"24304, 24305","D922 7823, D922 7822",With anti-squeal shim,
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,Brake pads,Prime,P 10 052,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,Brake pads,Prime Ceramic,P10052N,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,Brake pads,Prime Ceramic,P10047N,,17mm,37mm,121mm,,,,,,,PBR,Acoustic,"24197, 24198, 24199","D732 7600, D732 7956, D732 8285, D732 8862",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | D,1B1.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | TY1,1B2.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | TY3,1B3.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | D,1H4.8002A_,355mm,32mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | D,1M1.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY1,1M2.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY3,1M3.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | D,1M1.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY1,1M2.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY3,1M3.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | D,1N1.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY1,1N2.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | D,1N1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY1,1N2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M6 | TY3,1N3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | D,2C1.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | TY1,2C2.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | A4 | TY3,2C3.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | D,2P1.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | TY1,2P2.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | TY3,2P3.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | D,2P1.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | TY1,2P2.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.4,03/04,09/09,331,450,UPGRADE GT kit,GT | M4 | TY3,2P3.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,Brake pads,Prime,P 10 052,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,Brake pads,Prime Ceramic,P10052N,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,Brake pads,Prime Ceramic,P10047N,,17mm,37mm,121mm,,,,,,,PBR,Acoustic,"24197, 24198, 24199","D732 7600, D732 7956, D732 8285, D732 8862",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | D,1B1.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | TY1,1B2.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | TY3,1B3.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | D,1H4.8002A_,355mm,32mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | D,1M1.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY1,1M2.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY3,1M3.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | D,1M1.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY1,1M2.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY3,1M3.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | D,1N1.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY1,1N2.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | D,1N1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY1,1N2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M6 | TY3,1N3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | D,2C1.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | TY1,2C2.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | A4 | TY3,2C3.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | D,2P1.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | TY1,2P2.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | TY3,2P3.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | D,2P1.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | TY1,2P2.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,03/04,09/09,240,326,UPGRADE GT kit,GT | M4 | TY3,2P3.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,Brake pads,Prime,P 10 052,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,Brake pads,Prime Ceramic,P10052N,,15mm,63mm,184mm,,,,,,,PBR,Acoustic,"24194, 24195, 24196","D731 7599, D731 8861",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,Brake pads,Prime Ceramic,P10047N,,17mm,37mm,121mm,,,,,,,PBR,Acoustic,"24197, 24198, 24199","D732 7600, D732 7956, D732 8285, D732 8862",With anti-squeal shim,,,,
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | D,1B1.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | TY1,1B2.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | TY3,1B3.8047A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | D,1H4.8002A_,355mm,32mm,,,,,,,,,,,,,,,4,1 piece,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | D,1M1.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY1,1M2.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY3,1M3.8014A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | D,1M1.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY1,1M2.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY3,1M3.9003A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | D,1N1.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY1,1N2.8501A_,365mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | D,1N1.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY1,1N2.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M6 | TY3,1N3.9022A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | D,2C1.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | TY1,2C2.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | A4 | TY3,2C3.8020A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | D,2P1.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | TY1,2P2.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | TY3,2P3.8013A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | D,2P1.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | TY1,2P2.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+CADILLAC,XLR,09/03,09/09,4.6,09/03,12/05,239,325,UPGRADE GT kit,GT | M4 | TY3,2P3.9032A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock

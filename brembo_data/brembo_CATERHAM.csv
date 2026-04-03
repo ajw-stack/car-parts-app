@@ -1,0 +1,4 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+CATERHAM,"SEVEN (CF, CS)",01/80,>,1.6,04/11,>,104,141,Brake pads,Prime,P 52 018,,16mm,59mm,114mm,,,,,,,Lockheed,Without,23679,,With anti-squeal shim,
+CATERHAM,"SEVEN (CF, CS)",01/80,>,1.6,04/11,>,104,141,Brake pads,Prime Ceramic,P52018N,,16mm,59mm,114mm,,,,,,,Lockheed,Without,23679,,With anti-squeal shim,
+CATERHAM,"SEVEN (CF, CS)",01/80,>,1.6,04/11,>,104,141,Brake pads,Prime Ceramic,P86001N,,13mm,55mm,63mm,,,,,,,Lucas,Without,20088,D31 7255,With anti-squeal shim,

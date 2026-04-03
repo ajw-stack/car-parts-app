@@ -1,0 +1,7 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position,length
+MAYBACH,57 (W240),09/02,12/12,5.5 (240.078),09/02,12/12,405,551,Brake discs,Prime,09.B286.41,376mm,34mm,79mm,,5,Ventilated,67mm,"31,4mm",,1,,,,,,,
+MAYBACH,57 (W240),09/02,12/12,Wear indicator,09/02,12/12,405,551,Brake pad accessories,Prime,A 00 274,,,,,,,,,,,,,,,,,95mm
+MAYBACH,57 (W240),09/02,12/12,"S 6.0 (240.079, 240.077)",09/05,12/12,450,612,Brake discs,Prime,09.B286.41,376mm,34mm,79mm,,5,Ventilated,67mm,"31,4mm",,1,,,,,,,
+MAYBACH,57 (W240),09/02,12/12,Wear indicator,09/05,12/12,450,612,Brake pad accessories,Prime,A 00 274,,,,,,,,,,,,,,,,,95mm
+MAYBACH,62 (V240),09/02,12/12,5.5 (240.178),09/02,12/12,405,551,Brake discs,Prime,09.B286.41,376mm,34mm,79mm,,5,Ventilated,67mm,"31,4mm",,1,,,,,,,
+MAYBACH,62 (V240),09/02,12/12,Wear indicator,09/02,12/12,405,551,Brake pad accessories,Prime,A 00 274,,,,,,,,,,,,,,,,,95mm

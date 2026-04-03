@@ -1,0 +1,11 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+LINCOLN,CONTINENTAL Saloon,09/87,12/94,3.8,09/87,12/90,104,141,Brake pads,Prime Ceramic,P24093N,,16mm,55mm,188mm,,,,,,,,Without,,D421 7308A,With accessoriesWith anti-squeal shimWith piston clip,
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4,09/02,12/04,224,305,Brake pads,Prime Ceramic,P24111N,,22mm,56 - 64mm,210mm,,,,,,,Teves,Acoustic,"23475, 23476, 23477",D934 7837,With accessoriesWith anti-squeal shimWith piston clip,,,,
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | D,1G1.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | TY1,1G2.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | TY3,1G3.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4 AWD,09/02,12/04,224,305,Brake pads,Prime Ceramic,P24111N,,22mm,56 - 64mm,210mm,,,,,,,Teves,Acoustic,"23475, 23476, 23477",D934 7837,With accessoriesWith anti-squeal shimWith piston clip,,,,
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4 AWD,09/02,12/04,224,305,Brake pads,Prime Ceramic,P24129N,,20mm,53mm,139 - 141mm,,,,,,,Teves,Acoustic,,D935 7838,With accessoriesWith anti-squeal shimWith piston clip,,,,
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4 AWD,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | D,1G1.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4 AWD,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | TY1,1G2.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LINCOLN,NAVIGATOR (U228),09/02,12/06,5.4 AWD,09/02,12/04,224,305,UPGRADE GT kit,GT | A8 | TY3,1G3.9004A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock

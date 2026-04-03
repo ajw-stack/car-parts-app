@@ -1,0 +1,98 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position,directional
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,09.D993.11,320mm,28mm,"56,7mm",,5,Ventilated,69mm,26mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,09.D994.11,345mm,30mm,"56,5mm",,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,09.D027.11,350mm,30mm,57mm,,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,08.E139.11,314mm,13mm,"60,5mm",,5,Solid,69mm,11mm,,2,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,09.D995.11,330mm,22mm,60mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake discs,Prime,09.D028.11,340mm,22mm,59mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime,P 30 113,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime Ceramic,P30113N,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime,P 30 119,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime Ceramic,P30119N,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime Ceramic,P30124N,,16mm,83mm,113mm,,,,,,,Brembo,Acoustic,"22873, 22874, 22875",D2144 9384,With anti-squeal shimWith counterweights,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime,P 30 081,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime Ceramic,P30081N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,09/17,01/20,185,252,Brake pads,Prime Ceramic,P30104N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1816 8524,With anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D994.11,345mm,30mm,"56,5mm",,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D027.11,350mm,30mm,57mm,,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D995.11,330mm,22mm,60mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D028.11,340mm,22mm,59mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 113,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30113N,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 119,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30119N,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30124N,,16mm,83mm,113mm,,,,,,,Brembo,Acoustic,"22873, 22874, 22875",D2144 9384,With anti-squeal shimWith counterweights,,Yes
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 081,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30081N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30104N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1816 8524,With anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake discs,Prime,09.D027.11,350mm,30mm,57mm,,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake discs,Prime,09.D995.11,330mm,22mm,60mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake discs,Prime,09.D028.11,340mm,22mm,59mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake pads,Prime,P 30 113,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake pads,Prime Ceramic,P30113N,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake pads,Prime Ceramic,P30124N,,16mm,83mm,113mm,,,,,,,Brembo,Acoustic,"22873, 22874, 22875",D2144 9384,With anti-squeal shimWith counterweights,,Yes
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake pads,Prime,P 30 081,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 (IK),09/17,>,3.3 T-GDi,09/17,01/20,272,370,Brake pads,Prime Ceramic,P30081N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D993.11,320mm,28mm,"56,7mm",,5,Ventilated,69mm,26mm,,1,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D994.11,345mm,30mm,"56,5mm",,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D027.11,350mm,30mm,57mm,,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,08.E139.11,314mm,13mm,"60,5mm",,5,Solid,69mm,11mm,,2,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D995.11,330mm,22mm,60mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake discs,Prime,09.D028.11,340mm,22mm,59mm,,5,Ventilated,69mm,20mm,,1,,,,,,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 113,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30113N,,17mm,91mm,131mm,,,,,,,Brembo,Acoustic,"22858, 22859, 22860",D2145 9385,With anti-squeal shimWith counterweights,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 119,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30119N,,18mm,64mm,141mm,,,,,,,,Acoustic,"22934, 22935, 22936",D2419 9643,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30124N,,16mm,83mm,113mm,,,,,,,Brembo,Acoustic,"22873, 22874, 22875",D2144 9384,With anti-squeal shimWith counterweights,,Yes
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime,P 30 081,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30081N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1284 8524,With accessoriesWith anti-squeal shim,,
+GENESIS,G70 Shooting Brake (IK),06/21,>,2.0 T-GDi,06/21,>,180,245,Brake pads,Prime Ceramic,P30104N,,16mm,48mm,117mm,,,,,,,Mando,Acoustic,"25520, 25521, 25522",D1816 8524,With anti-squeal shim,,
+GENESIS,G80 (DH),09/16,>,3.8 GDI,11/16,>,232,315,Brake pads,Prime,P 30 083,,18mm,77mm,127mm,,,,,,,Sumitomo,Acoustic,22176,D1799 9030,With anti-squeal shim,
+GENESIS,G80 (DH),09/16,>,3.8 GDI,11/16,>,232,315,Brake pads,Prime Ceramic,P30083N,,18mm,77mm,127mm,,,,,,,Sumitomo,Acoustic,22176,D1799 9030,With anti-squeal shim,
+GENESIS,G80 (DH),09/16,>,3.8 GDI,11/16,>,232,315,Brake pads,Prime Ceramic,P30079N,,16mm,44mm,117mm,,,,,,,Hyundai,Acoustic,"22338, 22339, 22340",D1551 8761,With accessoriesWith anti-squeal shim,
+GENESIS,G80 (RG),08/20,>,2.2 CRDi,06/21,>,154,209,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,
+GENESIS,G80 (RG),08/20,>,2.2 CRDi,06/21,>,154,209,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI (RG3),08/20,>,224,304,Brake pads,Prime,P 30 151,,18mm,64mm,154mm,,,,,,,,Acoustic,"26465, 26466, 26467",,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30151N,,18mm,64mm,154mm,,,,,,,,Acoustic,"26465, 26466, 26467",,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI (RG3),08/20,>,224,304,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI AWD (RG3),08/20,>,224,304,Brake pads,Prime,P 30 151,,18mm,64mm,154mm,,,,,,,,Acoustic,"26465, 26466, 26467",,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI AWD (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30151N,,18mm,64mm,154mm,,,,,,,,Acoustic,"26465, 26466, 26467",,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI AWD (RG3),08/20,>,224,304,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI AWD (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,2.5 T-GDI AWD (RG3),08/20,>,224,304,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,G80 (RG),08/20,>,Electrified AWD,10/21,>,272,370,Brake pads,Prime,P 30 083,,18mm,77mm,127mm,,,,,,,Sumitomo,Acoustic,22176,D1799 9030,With anti-squeal shim,
+GENESIS,G80 (RG),08/20,>,Electrified AWD,10/21,>,272,370,Brake pads,Prime Ceramic,P30083N,,18mm,77mm,127mm,,,,,,,Sumitomo,Acoustic,22176,D1799 9030,With anti-squeal shim,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,234,318,Brake pads,Prime,P 30 140,,18mm,64mm,146mm,,,,,,,,Acoustic,"26493, 26494, 26495",D2398 9626,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,234,318,Brake pads,Prime Ceramic,P30140N,,18mm,64mm,146mm,,,,,,,,Acoustic,"26493, 26494, 26495",D2398 9626,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,234,318,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,234,318,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,234,318,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,360,489,Brake pads,Prime,P 30 140,,18mm,64mm,146mm,,,,,,,,Acoustic,"26493, 26494, 26495",D2398 9626,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,360,489,Brake pads,Prime Ceramic,P30140N,,18mm,64mm,146mm,,,,,,,,Acoustic,"26493, 26494, 26495",D2398 9626,With accessoriesWith anti-squeal shim,,Yes
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,360,489,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,360,489,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV60 (JW),10/21,>,Electrified AWD,10/21,>,360,489,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.2 AWD,04/21,>,154,209,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.2 AWD,04/21,>,154,209,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.2 AWD,04/21,>,154,209,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.2 AWD,04/21,>,154,209,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.2 AWD,04/21,>,154,209,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.5,04/21,>,224,304,Brake discs,Prime,09.F214.11,345mm,30mm,"56,6mm",,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,GV70 (JK1),12/20,>,2.5,04/21,>,224,304,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.5,04/21,>,224,304,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.5,04/21,>,224,304,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.5,04/21,>,224,304,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake discs,Prime,09.F214.11,345mm,30mm,"56,6mm",,5,Ventilated,69mm,28mm,,1,,,,,,,
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake pads,Prime,P 30 152,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake pads,Prime Ceramic,P30152N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,2.5 AWD,04/21,>,224,304,Brake pads,Prime Ceramic,P30153N,,16mm,51mm,123mm,,,,,,,,Acoustic,"26543, 26544, 26545",,With accessoriesWith anti-squeal shim,,
+GENESIS,GV70 (JK1),12/20,>,EV AWD,11/22,>,360,489,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV70 (JK1),12/20,>,EV AWD,11/22,>,360,489,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV80 SUV (JX1),06/20,>,2.5 T-GDi AWD,06/20,>,224,304,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV80 SUV (JX1),06/20,>,2.5 T-GDi AWD,06/20,>,224,304,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV80 SUV (JX1),06/20,>,3.0 CRDi AWD,06/20,>,204,277,Brake pads,Prime,P 30 143,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes
+GENESIS,GV80 SUV (JX1),06/20,>,3.0 CRDi AWD,06/20,>,204,277,Brake pads,Prime Ceramic,P30143N,,18mm,86mm,170mm,,,,,,,,Acoustic,,,With anti-squeal shimWith piston clip,,Yes

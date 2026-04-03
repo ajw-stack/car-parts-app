@@ -1,0 +1,28 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+HUMMER,HUMMER H1,01/92,03/11,6.5 D,01/92,09/97,125,170,Brake pads,Prime,P 37 001,,16mm,55mm,177mm,,,,,,,Kelsey Hayes,Without,"21820, 21821",D203 7122A,With anti-squeal shim,
+HUMMER,HUMMER H1,01/92,03/11,6.5 Turbo D,01/92,12/04,145,197,Brake pads,Prime,P 37 001,,16mm,55mm,177mm,,,,,,,Kelsey Hayes,Without,"21820, 21821",D203 7122A,With anti-squeal shim,
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,Brake pads,Prime Ceramic,P10026N,,19mm,67mm,216mm,,,,,,,Akebono,Acoustic,24628,"D784 7652, D784 8454",With anti-squeal shim,,,,
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A6 | D,1J1.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A6 | TY1,1J2.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A6 | TY3,1J3.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A4 | D,2B1.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A4 | TY1,2B2.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.0 AWD,09/02,09/04,232,315,UPGRADE GT kit,GT | A4 | TY3,2B3.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,Brake discs,Prime,09.9022.11,325mm,38mm,89mm,,8,Ventilated,118mm,"36,5mm",150Nm,1,,,,,,,,,
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,,,,
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | D,1J1.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | TY1,1J2.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | TY3,1J3.9001A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | D,1J1.9008A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | TY1,1J2.9008A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A6 | TY3,1J3.9008A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | D,2B1.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | TY1,2B2.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | TY3,2B3.9001A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | D,2B1.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | TY1,2B2.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2,08/02,>,6.2 AWD,10/04,>,293,398,UPGRADE GT kit,GT | A4 | TY3,2B3.9002A_,380mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+HUMMER,HUMMER H2  SUT,09/04,>,6.0 AWD,09/04,>,237,322,Brake discs,Prime,09.9022.11,325mm,38mm,89mm,,8,Ventilated,118mm,"36,5mm",150Nm,1,,,,,,
+HUMMER,HUMMER H2  SUT,09/04,>,6.0 AWD,09/04,>,237,322,Brake pads,Prime Ceramic,P10026N,,19mm,67mm,216mm,,,,,,,Akebono,Acoustic,24628,"D784 7652, D784 8454",With anti-squeal shim,
+HUMMER,HUMMER H2  SUT,09/04,>,6.0 AWD,09/04,>,237,322,Brake pads,Prime Ceramic,P10027N,,19mm,59mm,178mm,,,,,,,,Acoustic,,D785 7653,With anti-squeal shim,

@@ -1,0 +1,6 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+TVR,CHIMAERA,11/92,10/03,3.9,01/93,10/03,177,241,Brake discs,Prime,09.4866.30,260mm,24mm,53mm,,4,Ventilated,64mm,"22,2mm",,2,,,,,,
+TVR,CHIMAERA,11/92,10/03,3.9,01/93,10/03,177,241,Brake discs,Prime,08.4931.21,253mm,10mm,33mm,,4,Solid,64mm,"8,9mm",85Nm,2,,,,,,
+TVR,CHIMAERA,11/92,10/03,3.9,01/93,10/03,177,241,Brake discs,Xtra,08.4931.2X,253mm,10mm,33mm,,4,Solid,64mm,"8,9mm",85Nm,2,,,,,,
+TVR,CHIMAERA,11/92,10/03,5.0,11/92,12/00,250,340,Brake discs,Prime,09.4866.30,260mm,24mm,53mm,,4,Ventilated,64mm,"22,2mm",,2,,,,,,
+TVR,S,01/86,12/96,2.9,01/88,12/96,125,170,Brake discs,Prime,08.3296.10,262mm,"12,7mm",73mm,,5,Solid,69mm,"11,4mm",,2,,,,,,

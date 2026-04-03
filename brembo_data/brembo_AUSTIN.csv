@@ -1,0 +1,9 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,26,35,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,26,35,Brake discs,Prime,08.5464.10,213mm,"9,5mm",61mm,,4,Solid,56mm,"8,6mm",60Nm,2,,,,,,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,26,35,Brake pads,Prime,P 52 002,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,26,35,Brake pads,Prime Ceramic,P52002N,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,29,39,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,29,39,Brake discs,Prime,08.5464.10,213mm,"9,5mm",61mm,,4,Solid,56mm,"8,6mm",60Nm,2,,,,,,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,29,39,Brake pads,Prime,P 52 002,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,
+AUSTIN,MINI II,10/67,06/94,1000,10/67,09/84,29,39,Brake pads,Prime Ceramic,P52002N,,14mm,64mm,74mm,,,,,,,Lockheed,Without,20038,D94 7025,With anti-squeal shim,

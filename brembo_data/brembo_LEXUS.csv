@@ -1,0 +1,1115 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake discs,Prime,09.B494.11,255mm,25mm,49mm,,5,Ventilated,55mm,22mm,103Nm,2,,,,,,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake discs,Prime,08.A534.31,259mm,9mm,30mm,,5,Solid,55mm,"7,5mm",103Nm,2,,,,,,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake discs,Xtra,08.A534.3X,259mm,9mm,30mm,,5,Solid,55mm,"7,5mm",103Nm,2,,,,,,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake discs,Prime,08.D416.11,279mm,10mm,30mm,,5,Solid,55mm,"8,5mm",,2,,,,,,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake pads,Prime,P 83 106,,16mm,50mm,123mm,,,,,,,Akebono,Without,24451,D1184 8538,With anti-squeal shim,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake pads,Prime Ceramic,P83106N,,16mm,50mm,123mm,,,,,,,Akebono,Without,24451,D1184 8538,With anti-squeal shim,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake pads,Prime,P 83 133,,14mm,42mm,99mm,,,,,,,Akebono,Acoustic,"25016, 25017, 25018","D1354 8463, D1423 8463",With anti-squeal shim,
+LEXUS,CT (ZWA10_),12/10,>,"200h (ZWA10_, ZWA10R)",09/11,>,100,136,Brake pads,Prime Ceramic,P83133N,,14mm,42mm,99mm,,,,,,,Akebono,Acoustic,"25016, 25017, 25018","D1354 8463, D1423 8463",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake discs,Prime,09.A417.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake discs,Xtra,09.A417.1X,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake discs,Prime,08.B566.21,281mm,10mm,67mm,,5,Solid,62mm,"8,5mm",,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Prime,P 83 117,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Prime Ceramic,P83117N,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Xtra,P 83 117X,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Xtra Ceramic,P83117NX,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Prime,P 83 089,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Prime Ceramic,P83089N,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"300h (ASV60_, AVV60_, AVV60R)",06/12,06/18,151,205,Brake pads,Xtra Ceramic,P83089NX,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake discs,Prime,09.A417.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake discs,Xtra,09.A417.1X,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake discs,Prime,08.B566.21,281mm,10mm,67mm,,5,Solid,62mm,"8,5mm",,2,,,,,,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime,P 83 117,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime Ceramic,P83117N,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Xtra,P 83 117X,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Xtra Ceramic,P83117NX,,18mm,57mm,158mm,,,,,,,Akebono,Without,24350,"D1222 8331, D1293 8331",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime,P 83 089,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Prime Ceramic,P83089N,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,ES (_V6_),06/12,06/18,"350 (GSV60_, GSV60R)",06/12,06/18,204,277,Brake pads,Xtra Ceramic,P83089NX,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,250 (AXZA10),10/18,>,152,207,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (_Z10_, _A10_, _H10_)",07/18,>,"300h (AXZH10, AXZH11)",07/18,>,160,218,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime,P 83 040,,17mm,60mm,117mm,,,,,,,Akebono,Acoustic,23513,"D1227 8346, D707 7581",With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime Ceramic,P83040N,,17mm,60mm,117mm,,,,,,,Akebono,Acoustic,23513,"D1227 8346, D707 7581",With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime,P 83 063,,15mm,39mm,83mm,,,,,,,Akebono,Without,23592,D835 7708,With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime Ceramic,P83063N,,15mm,39mm,83mm,,,,,,,Akebono,Without,23592,D835 7708,With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime,P 83 015,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV20R)",01/98,12/01,149,203,Brake pads,Prime Ceramic,P83015N,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV30R)",10/01,06/08,158,215,Brake pads,Prime,P 83 105,,16mm,59mm,143mm,,,,,,,Akebono,Without,23855,D906 7785,With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV30R)",10/01,06/08,158,215,Brake pads,Prime Ceramic,P83105N,,16mm,59mm,143mm,,,,,,,Akebono,Without,23855,D906 7785,With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV30R)",10/01,06/08,158,215,Brake pads,Prime,P 83 088,,16mm,38mm,93mm,,,,,,,Akebono,Without,23702,"D885 7762, D885 7786",With anti-squeal shim,
+LEXUS,"ES (MCV_, VZV_)",08/96,06/08,"3.0 (MCV20_, MCV30_, MCV30R)",10/01,06/08,158,215,Brake pads,Prime Ceramic,P83088N,,16mm,38mm,93mm,,,,,,,Akebono,Without,23702,"D885 7762, D885 7786",With anti-squeal shim,
+LEXUS,"ES (VCV10_, VZV21_)",09/89,12/97,"300 (VCV10_, VCV10R)",09/91,12/97,138,188,Brake discs,Prime,09.A386.11,275mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,
+LEXUS,"ES (VCV10_, VZV21_)",09/89,12/97,"300 (VCV10_, VCV10R)",09/91,12/97,138,188,Brake discs,Prime,08.9179.10,288mm,10mm,65mm,,5,Solid,62mm,9mm,103Nm,2,,,,,,
+LEXUS,"ES (VCV10_, VZV21_)",09/89,12/97,"300 (VCV10_, VCV10R)",09/91,12/97,138,188,Brake pads,Prime,P 83 027,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,
+LEXUS,"ES (VCV10_, VZV21_)",09/89,12/97,"300 (VCV10_, VCV10R)",09/91,12/97,138,188,Brake pads,Prime Ceramic,P83027N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,
+LEXUS,"ES (VCV10_, VZV21_)",09/89,12/97,"300 (VCV10_, VCV10R)",09/91,12/97,138,188,Brake pads,Prime Ceramic,P83124N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,D744 7615,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"200t (ARL10_, ARL10R)",09/15,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"250 (GRL11_, GRL11R)",01/12,>,154,209,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300 (ARL10_, ARL10R)",09/17,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"300h (AWL10_, AWL10R)",10/13,>,164,223,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL10R, GRL12)",01/12,>,234,318,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"350 (GRL10_, GWL10_, GRL15_, GRL12_, GRL10R, GRL12R,...",03/12,>,232,316,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"450h (GWL10_, GWL10, GWL10R)",03/12,09/18,254,345,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake discs,Prime,09.C266.11,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake discs,Prime,09.C266.21,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake discs,Prime,09.C181.11,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake discs,Prime,09.C181.21,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake pads,Prime,P 83 154,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake pads,Prime Ceramic,P83154N,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,Brake pads,Prime Ceramic,P83164N,,18mm,76mm,110mm,,,,,,,Sumitomo,Electric,"22542, 22543",D1807 9042,With anti-squeal shimWith counterweights,,,,
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,UPGRADE GT kit,GT | M6 | D,1N1.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,UPGRADE GT kit,GT | M6 | TY1,1N2.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_L1_),08/11,>,"F (URL10_, URL10R)",09/15,>,351,477,UPGRADE GT kit,GT | M6 | TY3,1N3.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake discs,Prime,08.A038.11,307mm,12mm,63mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake pads,Prime,P 83 045,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,Brake pads,Prime Ceramic,P83045N,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",08/97,10/00,163,222,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake discs,Prime,08.A038.11,307mm,12mm,63mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake pads,Prime,P 83 045,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,Brake pads,Prime Ceramic,P83045N,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S16_),08/97,12/04,"300 (JZS160_, JZS160R)",10/00,12/04,161,219,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"300 (GRS190_, GRS190R)",04/05,11/11,183,249,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"350 (GRS191_, GRS191R)",05/08,11/11,232,316,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"430 (UZS190_, UZS190R)",04/05,11/11,208,283,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"450h (GRS191_, GWS191_, GRS191R, GWS191R)",02/06,11/11,254,345,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (_S19_),01/05,12/12,"460 (URS190_, URS190R)",09/07,11/11,255,347,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake discs,Prime,09.A138.10,307mm,16mm,67mm,,5,Ventilated,62mm,15mm,,2,,,,,,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake pads,Prime,P 83 038,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,Brake pads,Prime Ceramic,P83038N,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,GS (JZS147_),01/93,08/97,"300 (JZS147_, JZS147R)",01/93,08/97,156,212,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,"GX (VJA_, _JH2_)",01/24,>,3.4 550 4WD (VJA252),01/24,>,260,354,Brake pads,Prime,P 83 196,,19mm,83mm,143mm,,,,,,,,Acoustic,,,With accessoriesWith anti-squeal shim,,Yes
+LEXUS,"GX (VJA_, _JH2_)",01/24,>,3.4 550 4WD (VJA252),01/24,>,260,354,Brake pads,Prime Ceramic,P83196N,,19mm,83mm,143mm,,,,,,,,Acoustic,,,With accessoriesWith anti-squeal shim,,Yes
+LEXUS,"GX (VJA_, _JH2_)",01/24,>,3.4 550 4WD (VJA252),01/24,>,260,354,Brake pads,Prime Ceramic,P83192N,,15mm,47mm,142mm,,,,,,,Advics,Without,26831,,With anti-squeal shim,,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake discs,Prime,09.B520.11,275mm,25mm,46mm,,5,Ventilated,62mm,22mm,,2,,,,,,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake discs,Prime,08.A429.11,281mm,12mm,55mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake discs,Xtra,08.A429.1X,281mm,12mm,55mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake pads,Prime,P 83 082,,18mm,56mm,139mm,,,,,,,Akebono,Without,24336,D1210 8330,With anti-squeal shim,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake pads,Prime Ceramic,P83082N,,18mm,56mm,139mm,,,,,,,Akebono,Without,24336,D1210 8330,With anti-squeal shim,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake pads,Prime,P 83 089,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake pads,Prime Ceramic,P83089N,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,HS (ANF10),07/09,01/18,250h (ANF10),09/09,12/12,139,189,Brake pads,Xtra Ceramic,P83089NX,,15mm,49mm,97mm,,,,,,,Akebono,Without,24338,"D1212 8332, D1632 8332",With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake discs,Prime,09.A717.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime,P 83 074,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime Ceramic,P83074N,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime,P 83 153,,15mm,46mm,115mm,,,,,,,Akebono,Without,25525,"D1391 8809, D1391 8841, D1391 8988",With anti-squeal shim,
+LEXUS,IS C (GSE2_),04/09,>,250 (GSE20),04/09,06/15,153,208,Brake pads,Prime Ceramic,P83153N,,15mm,46mm,115mm,,,,,,,Akebono,Without,25525,"D1391 8809, D1391 8841, D1391 8988",With anti-squeal shim,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake discs,Prime,08.A038.11,307mm,12mm,63mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake pads,Prime,P 83 045,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,
+LEXUS,IS I (_E1_),04/99,07/05,200 (GXE10),04/99,07/05,114,155,Brake pads,Prime Ceramic,P83045N,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake discs,Prime,08.A038.11,307mm,12mm,63mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake pads,Prime,P 83 045,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,Brake pads,Prime Ceramic,P83045N,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,UPGRADE GT kit,GT | A4 | D,1A1.6008A_,328mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS I (_E1_),04/99,07/05,300 (JCE10),09/01,07/05,157,213,UPGRADE GT kit,GT | A4 | TY1,1A2.6008A_,328mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake discs,Prime,09.A717.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake discs,Prime,08.A635.11,291mm,10mm,61mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake pads,Prime,P 83 074,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake pads,Prime Ceramic,P83074N,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,250 (GSE20),08/05,03/13,153,208,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake discs,Prime,09.A717.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake pads,Prime,P 83 074,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake pads,Prime Ceramic,P83074N,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake pads,Prime,P 83 073,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,Brake pads,Prime Ceramic,P83073N,,16mm,58mm,88mm,,,,,,,NBK,Acoustic,"24323, 24324, 24325",D1113 8217,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | M6 | D,1M1.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | M6 | TY1,1M2.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | M6 | TY3,1M3.8031A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | A4 | D,2C1.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | A4 | TY1,2C2.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,350 (GSE21),01/08,03/13,234,318,UPGRADE GT kit,GT | A4 | TY3,2C3.8027A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake discs,Prime,09.A300.11,360mm,30mm,65mm,,5,Ventilated,62mm,28mm,103Nm,1,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake discs,Prime,09.A301.11,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,103Nm,1,,,,,,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake pads,Prime,P 83 146,,16mm,82mm,165mm,,,,,,,Brembo,Acoustic,"24307, 24308, 25162",D1365 8475,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake pads,Prime Ceramic,P83146N,,16mm,82mm,165mm,,,,,,,Brembo,Acoustic,"24307, 24308, 25162",D1365 8475,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake pads,Prime,P 83 134,,18mm,73mm,102mm,,,,,,,Brembo,Acoustic,"24401, 24402, 25152",D1366 8476,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,Brake pads,Prime Ceramic,P83134N,,18mm,73mm,102mm,,,,,,,Brembo,Acoustic,"24401, 24402, 25152",D1366 8476,With anti-squeal shim,,,,
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,UPGRADE GT kit,GT | M6 | D,1M1.9017A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,UPGRADE GT kit,GT | M6 | TY1,1M2.9017A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS II (_E2_),08/05,04/13,IS F (USE20),11/07,03/13,311,423,UPGRADE GT kit,GT | M6 | TY3,1M3.9017A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake discs,Prime,09.E525.11,290mm,18mm,"67,3mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M6 | D,1M1.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M6 | TY1,1M2.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M6 | TY3,1M3.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,200t (ASE30),08/15,>,180,245,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake discs,Prime,09.A717.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake discs,Prime,09.E525.11,290mm,18mm,"67,3mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake discs,Prime,08.A635.11,291mm,10mm,61mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake pads,Prime,P 83 074,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake pads,Prime Ceramic,P83074N,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M6 | D,1M1.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M6 | TY1,1M2.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M6 | TY3,1M3.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"250 (GSE30_, GSE30R)",04/13,08/15,153,208,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake discs,Prime,09.E525.11,290mm,18mm,"67,3mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M6 | D,1M1.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M6 | TY1,1M2.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M6 | TY3,1M3.9044A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300 (ASE30_, ASE30R)",10/17,>,180,245,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake discs,Prime,09.A717.11,296mm,28mm,49mm,,5,Ventilated,62mm,25mm,103Nm,2,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake discs,Prime,09.E525.11,290mm,18mm,"67,3mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake discs,Prime,08.A635.11,291mm,10mm,61mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime,P 83 074,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime Ceramic,P83074N,,18mm,60mm,155mm,,,,,,,Advics,Without,23983,D1178 8294,With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,"300h (AVE30_, AVE30R)",04/13,09/20,164,223,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,350 (GSE31),11/17,>,232,315,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,IS III (_E3_),04/13,>,"350 (GSE31_, GSE31R)",04/13,>,233,317,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid (MAYH10),09/23,>,100,136,Brake pads,Prime,P 83 177,,19mm,59mm,134mm,,,,,,,CBI,Acoustic,"26149, 26150, 26151",,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid (MAYH10),09/23,>,100,136,Brake pads,Prime Ceramic,P83177N,,19mm,59mm,134mm,,,,,,,CBI,Acoustic,"26149, 26150, 26151",,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid (MAYH10),09/23,>,100,136,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid (MAYH10),09/23,>,100,136,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid AWD (MAYH15),09/23,>,100,136,Brake pads,Prime,P 83 177,,19mm,59mm,134mm,,,,,,,CBI,Acoustic,"26149, 26150, 26151",,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid AWD (MAYH15),09/23,>,100,136,Brake pads,Prime Ceramic,P83177N,,19mm,59mm,134mm,,,,,,,CBI,Acoustic,"26149, 26150, 26151",,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid AWD (MAYH15),09/23,>,100,136,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid AWD (MAYH15),09/23,>,100,136,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,LBX (MAYH1_),09/23,>,Hybrid AWD (MAYH15),09/23,>,100,136,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,Brake discs,Prime,09.D975.11,359mm,30mm,66mm,,5,Ventilated,62mm,28mm,,1,,,,,,,,,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,Brake pads,Prime,P 83 180,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,Brake pads,Prime Ceramic,P83180N,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,Brake pads,Prime,P 83 181,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,Brake pads,Prime Ceramic,P83181N,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M6 | D,1N1.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M6 | TY1,1N2.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M6 | TY3,1N3.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M4 | D,2P1.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M4 | TY1,2P2.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Convertible (_Z10_),07/20,>,500 (URZ100),07/20,>,351,477,UPGRADE GT kit,GT | M4 | TY3,2P3.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,Brake discs,Prime,09.D975.11,359mm,30mm,66mm,,5,Ventilated,62mm,28mm,,1,,,,,,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,Brake pads,Prime,P 83 180,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,Brake pads,Prime Ceramic,P83180N,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,Brake pads,Prime,P 83 181,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,Brake pads,Prime Ceramic,P83181N,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M6 | D,1N1.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M6 | TY1,1N2.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M6 | TY3,1N3.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M4 | D,2P1.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M4 | TY1,2P2.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500 (URZ100_, URZ100R)",11/16,>,351,477,UPGRADE GT kit,GT | M4 | TY3,2P3.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LC Coupe (_Z10_),11/16,>,"500h (GWZ100_, GWZ100R)",05/17,>,264,359,Brake discs,Prime,09.D975.11,359mm,30mm,66mm,,5,Ventilated,62mm,28mm,,1,,,,,,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500h (GWZ100_, GWZ100R)",05/17,>,264,359,Brake pads,Prime,P 83 180,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500h (GWZ100_, GWZ100R)",05/17,>,264,359,Brake pads,Prime Ceramic,P83180N,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500h (GWZ100_, GWZ100R)",05/17,>,264,359,Brake pads,Prime,P 83 181,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,
+LEXUS,LC Coupe (_Z10_),11/16,>,"500h (GWZ100_, GWZ100R)",05/17,>,264,359,Brake pads,Prime Ceramic,P83181N,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,
+LEXUS,LFA (LFA10_),12/10,11/12,"4.8 (LFA10_, LFA10R)",12/10,11/12,412,560,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+LEXUS,LFA (LFA10_),12/10,11/12,"4.8 (LFA10_, LFA10R)",12/10,11/12,412,560,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime,P 83 194,,16mm,48mm,104mm,,,,,,,,Without,20582,,With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,350h E-Four (AAWH15),02/23,>,184,250,Brake pads,Prime Ceramic,P83194N,,16mm,48mm,104mm,,,,,,,,Without,20582,,With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,500h E-Four (TAWH15),11/23,>,270,367,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,500h E-Four (TAWH15),11/23,>,270,367,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,500h E-Four (TAWH15),11/23,>,270,367,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,500h E-Four (TAWH15),11/23,>,270,367,Brake pads,Prime,P 83 194,,16mm,48mm,104mm,,,,,,,,Without,20582,,With anti-squeal shim,
+LEXUS,LM (_H1_),08/23,>,500h E-Four (TAWH15),11/23,>,270,367,Brake pads,Prime Ceramic,P83194N,,16mm,48mm,104mm,,,,,,,,Without,20582,,With anti-squeal shim,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake discs,Prime,09.9178.10,275mm,28mm,51mm,,5,Ventilated,60mm,26mm,,2,,,,,,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake discs,Prime,09.A138.10,307mm,16mm,67mm,,5,Ventilated,62mm,15mm,,2,,,,,,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime,P 83 027,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime Ceramic,P83027N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime Ceramic,P83124N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,D744 7615,With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime,P 83 032,,16mm,40mm,117mm,,,,,,,Sumitomo,Without,21790,D488 7368,With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime Ceramic,P83032N,,16mm,40mm,117mm,,,,,,,Sumitomo,Without,21790,D488 7368,With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime,P 83 036,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,Brake pads,Prime Ceramic,P83036N,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F1_),09/89,12/95,400 (UCF10),12/89,12/95,180,245,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake discs,Prime,09.8315.10,315mm,28mm,54mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake discs,Prime,09.A138.10,307mm,16mm,67mm,,5,Ventilated,62mm,15mm,,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake discs,Prime,09.B453.11,310mm,16mm,68mm,,5,Ventilated,62mm,"14,5mm",,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake pads,Prime,P 83 039,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake pads,Prime Ceramic,P83039N,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake pads,Prime,P 83 036,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,Brake pads,Prime Ceramic,P83036N,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",12/94,08/97,194,264,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake discs,Prime,09.8315.10,315mm,28mm,54mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake discs,Prime,09.A138.10,307mm,16mm,67mm,,5,Ventilated,62mm,15mm,,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake discs,Prime,09.B453.11,310mm,16mm,68mm,,5,Ventilated,62mm,"14,5mm",,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake pads,Prime,P 83 039,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake pads,Prime Ceramic,P83039N,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake pads,Prime,P 83 036,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,Brake pads,Prime Ceramic,P83036N,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/97,10/00,209,284,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake discs,Prime,09.8315.10,315mm,28mm,54mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake discs,Prime,09.A138.10,307mm,16mm,67mm,,5,Ventilated,62mm,15mm,,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake discs,Prime,09.B453.11,310mm,16mm,68mm,,5,Ventilated,62mm,"14,5mm",,2,,,,,,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake pads,Prime,P 83 039,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake pads,Prime Ceramic,P83039N,,17mm,75mm,116mm,,,,,,,Advics,Prepared for wear indicator,23499,D665 7544,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake pads,Prime,P 83 036,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,Brake pads,Prime Ceramic,P83036N,,16mm,41mm,122mm,,,,,,,Sumitomo,Prepared for wear indicator,"21786, 21787",D613 7491,With anti-squeal shim,,,,
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F2_),10/94,12/00,"400 (UCF20_, UCF20R)",09/98,10/00,203,276,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake discs,Prime,09.B454.11,315mm,30mm,50mm,,5,Ventilated,63mm,28mm,,1,,,,,,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake discs,Prime,09.B453.11,310mm,16mm,68mm,,5,Ventilated,62mm,"14,5mm",,2,,,,,,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake pads,Prime,P 83 058,,16mm,78mm,118mm,,,,,,,Advics,Prepared for wear indicator,23331,D870 7745,With anti-squeal shim,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake pads,Prime Ceramic,P83058N,,16mm,78mm,118mm,,,,,,,Advics,Prepared for wear indicator,23331,D870 7745,With anti-squeal shim,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake pads,Prime,P 83 059,,15mm,62mm,96mm,,,,,,,Akebono,Prepared for wear indicator,23804,D871 7746,With anti-squeal shim,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,Brake pads,Prime Ceramic,P83059N,,15mm,62mm,96mm,,,,,,,Akebono,Prepared for wear indicator,23804,D871 7746,With anti-squeal shim,,,,
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A8 | D,1G1.9019A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A8 | TY1,1G2.9019A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A8 | TY3,1G3.9019A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A4 | D,2C1.8017A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A4 | TY1,2C2.8017A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F3_),08/00,08/06,430 (UCF30),08/00,08/06,207,282,UPGRADE GT kit,GT | A4 | TY3,2C3.8017A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake discs,Prime,09.D716.11,334mm,30mm,60mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake discs,Prime,09.D714.11,315mm,20mm,66mm,,5,Ventilated,62mm,18mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake discs,Prime,09.D691.11,335mm,22mm,66mm,,5,Ventilated,62mm,20mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime,P 83 154,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime Ceramic,P83154N,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,UPGRADE GT kit,GT | M6 | D,1M1.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,UPGRADE GT kit,GT | M6 | TY1,1M2.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,460 (USF40),04/06,>,280,381,UPGRADE GT kit,GT | M6 | TY3,1M3.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake discs,Prime,09.D716.11,334mm,30mm,60mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake discs,Prime,09.D714.11,315mm,20mm,66mm,,5,Ventilated,62mm,18mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake discs,Prime,09.D691.11,335mm,22mm,66mm,,5,Ventilated,62mm,20mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime,P 83 154,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime Ceramic,P83154N,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,UPGRADE GT kit,GT | M6 | D,1M1.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,UPGRADE GT kit,GT | M6 | TY1,1M2.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 (USF40, USF41)",09/12,>,285,388,UPGRADE GT kit,GT | M6 | TY3,1M3.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake discs,Prime,09.D691.11,335mm,22mm,66mm,,5,Ventilated,62mm,20mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,UPGRADE GT kit,GT | M6 | D,1M1.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,UPGRADE GT kit,GT | M6 | TY1,1M2.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",10/08,>,270,367,UPGRADE GT kit,GT | M6 | TY3,1M3.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake discs,Prime,09.D691.11,335mm,22mm,66mm,,5,Ventilated,62mm,20mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,UPGRADE GT kit,GT | M6 | D,1M1.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,UPGRADE GT kit,GT | M6 | TY1,1M2.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"460 AWD (USF45, USF46)",09/12,>,272,370,UPGRADE GT kit,GT | M6 | TY3,1M3.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake discs,Prime,09.D691.11,335mm,22mm,66mm,,5,Ventilated,62mm,20mm,,2,,,,,,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,UPGRADE GT kit,GT | M6 | D,1M1.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,UPGRADE GT kit,GT | M6 | TY1,1M2.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F4_),04/06,>,"600h AWD (UVF45, UVF46)",09/07,>,327,445,UPGRADE GT kit,GT | M6 | TY3,1M3.9018A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake discs,Prime,09.D977.11,335mm,25mm,66mm,,5,Ventilated,62mm,23mm,,1,,,,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake discs,Prime,09.D975.11,359mm,30mm,66mm,,5,Ventilated,62mm,28mm,,1,,,,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime,P 83 180,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime Ceramic,P83180N,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime,P 83 181,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,Brake pads,Prime Ceramic,P83181N,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,,,,
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M6 | D,1N1.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M6 | TY1,1N2.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M6 | TY3,1N3.9536A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M4 | D,2P1.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M4 | TY1,2P2.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500 (VXFA50_, VXFA50R)",10/17,>,310,421,UPGRADE GT kit,GT | M4 | TY3,2P3.9053A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake discs,Prime,09.D693.11,357mm,34mm,60mm,,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake discs,Prime,09.D977.11,335mm,25mm,66mm,,5,Ventilated,62mm,23mm,,1,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake discs,Prime,09.D975.11,359mm,30mm,66mm,,5,Ventilated,62mm,28mm,,1,,,,,,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime,P 83 075,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime Ceramic,P83075N,,19mm,88mm,134mm,,,,,,,Advics,Prepared for wear indicator,24245,D1282 8398,With anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime,P 83 180,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime Ceramic,P83180N,,17mm,96mm,200mm,,,,,,,Akebono,Prepared for wear indicator,"22833, 22834",D2062 9295,With accessoriesWith anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime,P 83 076,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime Ceramic,P83076N,,19mm,77mm,75mm,,,,,,,Advics,Prepared for wear indicator,24244,D1283 8399,With anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime,P 83 181,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,
+LEXUS,LS (_F5_),10/17,>,"500h (GVF50, GVF50_, GVF50R)",11/17,>,264,359,Brake pads,Prime Ceramic,P83181N,,16mm,76mm,111mm,,,,,,,Akebono,Prepared for wear indicator,22836,D2063 9296,With accessoriesWith anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake discs,Prime,09.C500.11,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake discs,Xtra,09.C500.1X,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake discs,Prime,09.D618.11,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake discs,Xtra,09.D618.1X,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Prime,P 83 107,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Prime Ceramic,P83107N,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Xtra,P 83 107X,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Prime,P 83 098,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Prime Ceramic,P83098N,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,450d (VDJ201),09/15,>,200,272,Brake pads,Xtra,P 83 098X,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Prime,09.A966.11,340mm,32mm,83mm,,5,Ventilated,112mm,29mm,112Nm,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Xtra,09.A966.1X,340mm,32mm,83mm,,5,Ventilated,112mm,29mm,112Nm,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Prime,09.C500.11,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Xtra,09.C500.1X,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Prime,09.D618.11,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake discs,Xtra,09.D618.1X,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime,P 83 102,,17mm,77mm,135mm,,,,,,,Sumitomo,Acoustic,"24024, 24025, 24026","D976 7877, D976 9216",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime Ceramic,P83102N,,17mm,77mm,135mm,,,,,,,Sumitomo,Acoustic,"24024, 24025, 24026","D976 7877, D976 9216",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Xtra,P 83 102X,,17mm,77mm,135mm,,,,,,,Sumitomo,Acoustic,"24024, 24025, 24026","D976 7877, D976 9216",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Xtra Ceramic,P83102NX,,17mm,77mm,135mm,,,,,,,Sumitomo,Acoustic,"24024, 24025, 24026","D976 7877, D976 9216",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime,P 83 107,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime Ceramic,P83107N,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Xtra,P 83 107X,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime,P 83 098,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Prime Ceramic,P83098N,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,Brake pads,Xtra,P 83 098X,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M6 | D,1N1.9512A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M6 | TY1,1N2.9512A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M6 | TY3,1N3.9512A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | BM8 | D,1Q1.9611A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9611A_,412mm,38mm,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M4 | D,2P1.9028A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M4 | TY1,2P2.9028A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | M4 | TY3,2P3.9028A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | BM4 | D,2S1.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | BM4 | TY1,2S2.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),11/07,>,270,367,UPGRADE GT kit,GT | BM4 | TY3,2S3.9007A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,BM monoblock
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake discs,Prime,09.C500.11,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake discs,Xtra,09.C500.1X,355mm,32mm,83mm,,5,Ventilated,112mm,29mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake discs,Prime,09.D618.11,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake discs,Xtra,09.D618.1X,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Prime,P 83 107,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Prime Ceramic,P83107N,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Xtra,P 83 107X,,18mm,83mm,144mm,,,,,,,Advics,Acoustic,"24386, 24394, 24395",D1303 8419,With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Prime,P 83 098,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Prime Ceramic,P83098N,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J2_),08/07,>,570 (URJ201),09/15,>,277,377,Brake pads,Xtra,P 83 098X,,17mm,45mm,116mm,,,,,,,Advics,Without,24653,"D1304 8420, D1304 8854",With anti-squeal shim,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,Brake discs,Prime,09.E778.11,354mm,32mm,"83,3mm",,6,Ventilated,97mm,29mm,,1,,,,,,,,,,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,Brake discs,Prime,09.E779.11,335mm,20mm,"58,3mm",,6,Ventilated,97mm,"18,5mm",,1,,,,,,,,,,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,Brake pads,Prime,P 83 196,,19mm,83mm,143mm,,,,,,,,Acoustic,,,With accessoriesWith anti-squeal shim,,Yes,,,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,Brake pads,Prime Ceramic,P83196N,,19mm,83mm,143mm,,,,,,,,Acoustic,,,With accessoriesWith anti-squeal shim,,Yes,,,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,Brake pads,Prime Ceramic,P83192N,,15mm,47mm,142mm,,,,,,,Advics,Without,26831,,With anti-squeal shim,,,,,
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,UPGRADE GT kit,GT | A6 | D,1J1.9024A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,UPGRADE GT kit,GT | A6 | TY1,1J2.9024A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,UPGRADE GT kit,GT | A6 | TY3,1J3.9024A_,380mm,34mm,,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,UPGRADE GT kit,GT | BM8 | D,1Q1.9627A_,412mm,38mm,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+LEXUS,LX (_J3_),10/21,>,600 AWD (VJA310),10/21,>,305,415,UPGRADE GT kit,GT | BM8 | TY1,1Q2.9627A_,412mm,38mm,,,,,,,,,,,,,,,,8,2 pieces,BM monoblock
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake discs,Prime,09.9143.11,313mm,32mm,70mm,,5,Ventilated,115mm,30mm,103Nm,1,,,,,,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake discs,Prime,09.9086.11,329mm,18mm,103mm,,5,Ventilated,110mm,16mm,112Nm,1,,,,,,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake discs,Prime,09.D618.11,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake discs,Xtra,09.D618.1X,345mm,18mm,76mm,,5,Ventilated,112mm,16mm,,1,,,,,,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake pads,Prime,P 83 048,,18mm,78mm,120mm,,,,,,,Sumitomo,Acoustic,"23524, 23525",D772 7639,With anti-squeal shim,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake pads,Prime Ceramic,P83048N,,18mm,78mm,120mm,,,,,,,Sumitomo,Acoustic,"23524, 23525",D772 7639,With anti-squeal shim,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake pads,Prime,P 83 049,,18mm,45mm,123mm,,,,,,,Sumitomo,Without,23539,D773 7640,With anti-squeal shim,
+LEXUS,LX (UZJ100),09/97,03/08,470 (UZJ100),05/98,03/08,170,231,Brake pads,Prime Ceramic,P83049N,,18mm,45mm,123mm,,,,,,,Sumitomo,Without,23539,D773 7640,With anti-squeal shim,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"200t (AGZ10_, AGZ10R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"200t AWD (AGZ15_, AGZ15R)",07/14,>,175,238,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 (AGZ10_, AGZ10R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300 AWD (AGZ15_, AGZ15R)",09/17,>,175,238,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h (AYZ10_, AYZ10R)",11/14,>,145,197,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake pads,Prime,P 83 166,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,Brake pads,Prime Ceramic,P83166N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22153,D1805 9039,With anti-squeal shim,,,,
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | A4 | D,1B1.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | A4 | TY1,1B2.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | A4 | TY3,1B3.8052A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | M6 | D,1M1.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | M6 | TY1,1M2.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,NX (_Z1_),07/14,>,"300h AWD (AYZ15, AYZ15_, AYZ15R)",07/14,>,145,197,UPGRADE GT kit,GT | M6 | TY3,1M3.9050A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,250 (AAZA20),11/21,>,151,205,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350 All-wheel Drive (TAZA25),09/21,>,205,279,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake discs,Prime,09.D988.11,328mm,34mm,"49,3mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h (AAZH20),09/21,>,179,243,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake discs,Prime,09.D988.11,328mm,34mm,"49,3mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,350h E-Four (AAZH25),09/21,>,179,243,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake discs,Prime,09.D988.11,328mm,34mm,"49,3mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake discs,Prime,09.F367.11,340mm,38mm,"49,3mm",,5,Ventilated,62mm,35mm,,0,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake pads,Prime,P 83 188,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake pads,Prime Ceramic,P83188N,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"NX II (_A2_, _H2_)",09/21,>,450h+ E-Four (AAZH26),09/21,>,227,309,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,200t (ASC10),08/15,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.F557.11,297mm,18mm,"63,9mm",,5,Ventilated,62mm,"16,5mm",,0,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.D719.11,310mm,22mm,67mm,,5,Ventilated,62mm,"20,5mm",,2,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake discs,Prime,09.F558.11,323mm,20mm,"63,8mm",,5,Ventilated,62mm,"18,5mm",,0,,,,,,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime,P 83 131,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime Ceramic,P83131N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"24965, 25047","D1118 8224, D1686 8914",With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,"300 (ASC10_, ASC10R)",11/17,>,180,245,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake discs,Prime,09.C932.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake discs,Prime,09.D507.11,334mm,30mm,51mm,,5,Ventilated,62mm,27mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake discs,Prime,09.C930.11,310mm,18mm,67mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),09/14,11/17,234,318,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,Brake pads,Prime,P 83 072,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,Brake pads,Prime Ceramic,P83072N,,18mm,78mm,119mm,,,,,,,Advics,Acoustic,"20325, 24396","D1118 8224, D1586 8797, D1686 8914",With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,Brake pads,Prime,P 83 132,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,Brake pads,Prime Ceramic,P83132N,,17mm,46mm,115mm,,,,,,,Akebono,Without,25525,D1391 8841,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M6 | D,1M1.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M6 | TY1,1M2.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M6 | TY3,1M3.9042A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M4 | D,2P1.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M4 | TY1,2P2.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,350 (GSC10),10/18,>,232,315,UPGRADE GT kit,GT | M4 | TY3,2P3.8050A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake discs,Prime,09.C266.11,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake discs,Prime,09.C266.21,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake discs,Prime,09.C181.11,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake discs,Prime,09.C181.21,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake pads,Prime,P 83 154,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake pads,Prime Ceramic,P83154N,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,Brake pads,Prime Ceramic,P83164N,,18mm,76mm,110mm,,,,,,,Sumitomo,Electric,"22542, 22543",D1807 9042,With anti-squeal shimWith counterweights,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,UPGRADE GT kit,GT | M6 | D,1N1.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,UPGRADE GT kit,GT | M6 | TY1,1N2.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,330,449,UPGRADE GT kit,GT | M6 | TY3,1N3.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake discs,Prime,09.C266.11,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake discs,Prime,09.C266.21,380mm,34mm,51mm,,5,Ventilated,62mm,31mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake discs,Prime,09.C181.11,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake discs,Prime,09.C181.21,345mm,28mm,62mm,,5,Ventilated,62mm,26mm,,1,,,,,,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake pads,Prime,P 83 154,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake pads,Prime Ceramic,P83154N,,17mm,86mm,190mm,,,,,,,Brembo,Electric,"24607, 24747, 24748",D1440 8576,With anti-squeal shim,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,Brake pads,Prime Ceramic,P83164N,,18mm,76mm,110mm,,,,,,,Sumitomo,Electric,"22542, 22543",D1807 9042,With anti-squeal shimWith counterweights,,,,
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,UPGRADE GT kit,GT | M6 | D,1N1.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,UPGRADE GT kit,GT | M6 | TY1,1N2.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RC (_C1_),08/14,>,"F (USC10_, USC10R)",08/14,>,351,477,UPGRADE GT kit,GT | M6 | TY3,1N3.9532A_,405mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake discs,Prime,08.D281.11,309mm,10mm,63mm,,5,Solid,62mm,"8,5mm",,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake pads,Prime,P 83 152,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"270 (AGL10_, AGL10R)",12/08,10/15,138,188,Brake pads,Prime Ceramic,P83152N,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake discs,Prime,09.E835.11,328mm,34mm,"49,2mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake discs,Prime,08.D281.11,309mm,10mm,63mm,,5,Solid,62mm,"8,5mm",,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake discs,Prime,09.E524.11,309mm,18mm,"69,7mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake pads,Prime,P 83 152,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"350 AWD (GGL15_, GGL15R)",12/08,08/15,204,277,Brake pads,Prime Ceramic,P83152N,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake discs,Prime,09.E835.11,328mm,34mm,"49,2mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake discs,Prime,08.D281.11,309mm,10mm,63mm,,5,Solid,62mm,"8,5mm",,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake discs,Prime,09.E524.11,309mm,18mm,"69,7mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake pads,Prime,P 83 152,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h (GYL10, GYL10_, GYL10R)",03/09,09/15,220,299,Brake pads,Prime Ceramic,P83152N,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake discs,Prime,09.C499.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake discs,Xtra,09.C499.1X,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake discs,Prime,09.E835.11,328mm,34mm,"49,2mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake discs,Prime,08.D281.11,309mm,10mm,63mm,,5,Solid,62mm,"8,5mm",,1,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake discs,Prime,09.E524.11,309mm,18mm,"69,7mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake pads,Prime,P 83 152,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L1_),12/08,12/15,"450h AWD (GYL15, GYL15_, GYL15R, GYL16W)",03/09,09/15,220,299,Brake pads,Prime Ceramic,P83152N,,15mm,46mm,115mm,,,,,,,Akebono,Without,24918,"D1391 8500, D1391 8809, D1391 9084",With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake discs,Prime,09.D988.11,328mm,34mm,"49,3mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"200t (AGL20R, AGL20_)",10/15,12/17,175,238,Brake pads,Prime Ceramic,P83201N,,15mm,43mm,121mm,,,,,,,Akebono,Without,,,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"300 (AGL20_, AGL20R)",12/17,>,175,238,Brake pads,Prime Ceramic,P83201N,,15mm,43mm,121mm,,,,,,,Akebono,Without,,,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25, GGL26)",10/15,>,216,294,Brake pads,Prime Ceramic,P83201N,,15mm,43mm,121mm,,,,,,,Akebono,Without,,,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"350 4WD (GGL25_, GGL26_, GGL25R, GGL26R)",10/15,>,221,300,Brake pads,Prime Ceramic,P83201N,,15mm,43mm,121mm,,,,,,,Akebono,Without,,,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h (GYL20_, GYL20W)",10/15,>,230,313,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake discs,Prime,09.E126.11,328mm,28mm,49mm,,5,Ventilated,62mm,25mm,,1,,,,,,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake discs,Prime,09.E031.11,338mm,18mm,"39,5mm",,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,RX (_L2_),10/15,>,"450h AWD (GYL25_, GYL26_, GYL25, GYL26, GYL25R, GYL26R)",11/15,>,230,313,Brake pads,Prime Ceramic,P83201N,,15mm,43mm,121mm,,,,,,,Akebono,Without,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350 E-Four (TALA15),01/23,>,205,279,Brake pads,Prime Ceramic,P83205N,,15mm,96mm,200mm,,,,,,,,Without,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350 E-Four (TALA15),01/23,>,205,279,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350 E-Four (TALA15),01/23,>,205,279,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h (AALH10),02/23,>,184,250,Brake pads,Prime,P 83 188,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h (AALH10),02/23,>,184,250,Brake pads,Prime Ceramic,P83188N,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h (AALH10),02/23,>,184,250,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h (AALH10),02/23,>,184,250,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h E-Four (AALH15),02/23,>,184,250,Brake discs,Prime,09.F367.11,340mm,38mm,"49,3mm",,5,Ventilated,62mm,35mm,,0,,,,,,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h E-Four (AALH15),02/23,>,184,250,Brake pads,Prime,P 83 188,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h E-Four (AALH15),02/23,>,184,250,Brake pads,Prime Ceramic,P83188N,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h E-Four (AALH15),02/23,>,184,250,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,350h E-Four (AALH15),02/23,>,184,250,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,450h+ E-Four (AALH16),12/22,>,227,309,Brake discs,Prime,09.F367.11,340mm,38mm,"49,3mm",,5,Ventilated,62mm,35mm,,0,,,,,,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,450h+ E-Four (AALH16),12/22,>,227,309,Brake pads,Prime,P 83 188,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,450h+ E-Four (AALH16),12/22,>,227,309,Brake pads,Prime Ceramic,P83188N,,19mm,60mm,167mm,,,,,,,,,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,450h+ E-Four (AALH16),12/22,>,227,309,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,450h+ E-Four (AALH16),12/22,>,227,309,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,500h DIRECT4 (TALH17),02/23,>,273,371,Brake pads,Prime Ceramic,P83205N,,15mm,96mm,200mm,,,,,,,,Without,,,With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,500h DIRECT4 (TALH17),02/23,>,273,371,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"RX (_LA1_, _LH1_)",06/22,>,500h DIRECT4 (TALH17),02/23,>,273,371,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake discs,Prime,09.A109.11,319mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake discs,Prime,08.A111.11,288mm,10mm,70mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake pads,Prime,P 83 067,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake pads,Prime Ceramic,P83067N,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake pads,Prime,P 83 068,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,Brake pads,Prime Ceramic,P83068N,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,UPGRADE GT kit,GT | A4 | D,1H1.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,UPGRADE GT kit,GT | A4 | TY1,1H2.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,330 AWD (MCU38),04/03,12/08,171,232,UPGRADE GT kit,GT | A4 | TY3,1H3.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake discs,Prime,09.A109.11,319mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake discs,Prime,08.A111.11,288mm,10mm,70mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake pads,Prime,P 83 067,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake pads,Prime Ceramic,P83067N,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake pads,Prime,P 83 068,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,Brake pads,Prime Ceramic,P83068N,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,UPGRADE GT kit,GT | A4 | D,1H1.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,UPGRADE GT kit,GT | A4 | TY1,1H2.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"350 AWD (GSU35_, GSU35R)",02/06,12/08,203,276,UPGRADE GT kit,GT | A4 | TY3,1H3.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake discs,Prime,09.A109.11,319mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake discs,Prime,08.A111.11,288mm,10mm,70mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake pads,Prime,P 83 067,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake pads,Prime Ceramic,P83067N,,17mm,59mm,141mm,,,,,,,Akebono,Acoustic,"23734, 23989",D1005 7906,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake pads,Prime,P 83 068,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,Brake pads,Prime Ceramic,P83068N,,15mm,44mm,102mm,,,,,,,Sumitomo,Without,23967,D996 7897,With anti-squeal shim,,,,
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,UPGRADE GT kit,GT | A4 | D,1H1.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,UPGRADE GT kit,GT | A4 | TY1,1H2.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (_U3_),02/03,12/08,"400h AWD (MHU38_, MHU38R)",09/05,12/08,200,272,UPGRADE GT kit,GT | A4 | TY3,1H3.8009A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake discs,Prime,09.A110.11,296mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake discs,Prime,08.9179.10,288mm,10mm,65mm,,5,Solid,62mm,9mm,103Nm,2,,,,,,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake discs,Prime,08.A150.11,288mm,10mm,60mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime,P 56 050,,17mm,60mm,115mm,,,,,,,Akebono,Without,23929,D930 7833,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime Ceramic,P56050N,,17mm,60mm,115mm,,,,,,,Akebono,Without,23929,D930 7833,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime,P 83 078,,19mm,59mm,139mm,,,,,,,Sumitomo,Acoustic,23703,D884 7761,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime Ceramic,P83078N,,19mm,59mm,139mm,,,,,,,Sumitomo,Acoustic,23703,D884 7761,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime,P 83 015,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,"300 (MCU10_, MCU10R)",01/98,02/03,148,201,Brake pads,Prime Ceramic,P83015N,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake discs,Prime,09.A110.11,296mm,28mm,49mm,,5,Ventilated,62mm,26mm,103Nm,2,,,,,,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake discs,Prime,08.A150.11,288mm,10mm,60mm,,5,Solid,62mm,"8,5mm",103Nm,2,,,,,,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime,P 56 050,,17mm,60mm,115mm,,,,,,,Akebono,Without,23929,D930 7833,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime Ceramic,P56050N,,17mm,60mm,115mm,,,,,,,Akebono,Without,23929,D930 7833,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime,P 83 078,,19mm,59mm,139mm,,,,,,,Sumitomo,Acoustic,23703,D884 7761,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime Ceramic,P83078N,,19mm,59mm,139mm,,,,,,,Sumitomo,Acoustic,23703,D884 7761,With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime,P 83 015,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,RX (MCU15),01/98,05/03,300 AWD (MCU15),10/00,05/03,148,201,Brake pads,Prime Ceramic,P83015N,,16mm,43mm,108mm,,,,,,,Akebono,Acoustic,"21833, 21834","D325 7223, D685 7562",With anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake discs,Prime,09.D988.11,328mm,34mm,"49,3mm",,5,Ventilated,62mm,31mm,,1,,,,,,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime,P 83 193,,18mm,,,,,,,,,,Without,24452,,With anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime Ceramic,P83193N,,18mm,,,,,,,,,,Without,24452,,With anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime,P 83 145,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime Ceramic,P83145N,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Xtra Ceramic,P83145NX,,18mm,59mm,167mm,,,,,,,Advics,Without,24452,"D1324 8436, D1324 9108, D1567 8776",With accessoriesWith anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,RZ (_BM1_),01/23,>,450e DIRECT4 (XEBM15),01/23,>,230,313,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake discs,Prime,09.7931.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake discs,Prime,09.8402.11,296mm,32mm,51mm,,5,Ventilated,62mm,30mm,103Nm,1,,,,,,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake discs,Prime,08.A038.11,307mm,12mm,63mm,,5,Solid,62mm,"10,5mm",103Nm,2,,,,,,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake pads,Prime,P 83 037,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake pads,Prime Ceramic,P83037N,,17mm,64mm,144mm,,,,,,,Sumitomo,Acoustic,"21490, 23848, 23849","D612 7490, D619 7495, D908 7787",With anti-squeal shim,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake pads,Prime,P 83 045,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,Brake pads,Prime Ceramic,P83045N,,15mm,64mm,57mm,,,,,,,Sumitomo,Acoustic,23429,D771 7638,With anti-squeal shim,,,,
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Convertible (UZZ40_),01/01,07/10,"430 (UZZ40_, UZZ40R)",05/01,07/10,210,286,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,Brake pads,Prime,P 83 027,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,Brake pads,Prime Ceramic,P83027N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,Brake pads,Prime Ceramic,P83124N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,D744 7615,With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,Brake pads,Prime,P 83 038,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,Brake pads,Prime Ceramic,P83038N,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,300 (JZZ31),01/95,03/00,162,220,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,Brake pads,Prime,P 83 027,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,Brake pads,Prime Ceramic,P83027N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,Brake pads,Prime Ceramic,P83124N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,D744 7615,With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,Brake pads,Prime,P 83 038,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,Brake pads,Prime Ceramic,P83038N,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),08/91,12/97,194,264,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,Brake pads,Prime,P 83 027,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,Brake pads,Prime Ceramic,P83027N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,"D476 7357, D697 7357, D718 7357",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,Brake pads,Prime Ceramic,P83124N,,17mm,63mm,141mm,,,,,,,Sumitomo,Acoustic,21791,D744 7615,With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,Brake pads,Prime,P 83 038,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,Brake pads,Prime Ceramic,P83038N,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/91,07/00,186,253,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,Brake pads,Prime,P 83 038,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,Brake pads,Prime Ceramic,P83038N,,16mm,41mm,122mm,,,,,,,Sumitomo,Acoustic,"21491, 24130, 24131","D572 7452, D630 7509",With anti-squeal shim,,,,
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,UPGRADE GT kit,GT | A4 | D,1B1.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,UPGRADE GT kit,GT | A4 | TY1,1B2.7007A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,UPGRADE GT kit,GT | A4 | D,1B1.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,UPGRADE GT kit,GT | A4 | TY1,1B2.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,SC Coupe (_ZZ3_),08/91,07/00,400 (UZZ30),09/97,06/00,216,294,UPGRADE GT kit,GT | A4 | TY3,1B3.8014A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,200 (MZAA10),10/18,>,126,171,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h (MZAH10),10/18,>,131,178,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,250h E-Four (MZAH15),10/18,>,131,178,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake discs,Prime,09.D987.11,317mm,18mm,44mm,,5,Ventilated,62mm,"16,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake pads,Prime,P 83 174,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300e (KMA10),04/20,>,150,204,Brake pads,Prime Ceramic,P83174N,,15mm,48mm,104mm,,,,,,,Akebono,Without,"20582, 26245","D2183 9427, D2305 9540",With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h (MZAH11),02/24,>,146,199,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake discs,Prime,09.D979.11,305mm,28mm,49mm,,5,Ventilated,62mm,25mm,,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake discs,Prime,08.D418.11,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake discs,Xtra,08.D418.1X,281mm,112mm,44mm,,5,Solid,62mm,"10,5mm",,2,,,,,,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Prime,P 83 172,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Prime Ceramic,P83172N,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Xtra Ceramic,P83172NX,,17mm,56mm,143mm,,,,,,,Akebono,Without,22768,D2076 9311,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Prime,P 83 160,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Prime Ceramic,P83160N,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,
+LEXUS,"UX (_AA1_, _AH1_, _MA1_)",10/18,>,300h E-Four (MZAH16),02/24,>,146,199,Brake pads,Xtra Ceramic,P83160NX,,15mm,43mm,121mm,,,,,,,Akebono,Without,22434,D1879 9107,With anti-squeal shim,

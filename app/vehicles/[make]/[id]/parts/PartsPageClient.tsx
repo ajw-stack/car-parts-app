@@ -17,8 +17,6 @@ type Part = {
 
 export default function PartsPageClient({
   parts,
-  makeSlug,
-  vehicleId,
 }: {
   parts: Part[];
   makeSlug: string;
@@ -32,11 +30,14 @@ export default function PartsPageClient({
     }, new Map<string, number>())
   ).sort((a, b) => a[1] - b[1]).map(([name]) => name);
 
-  const [activeCategory, setActiveCategory] = useState<string>(categories[0] ?? "");
+  // null = Show All
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
-  const visibleParts = activeCategory
-    ? parts.filter((p) => p.category_name === activeCategory)
-    : parts;
+  const visibleParts = activeCategory === null
+    ? parts
+    : parts.filter((p) => p.category_name === activeCategory);
+
+  const headerLabel = activeCategory === null ? "All Parts" : activeCategory;
 
   return (
     <div className="flex gap-6 items-start">
@@ -48,6 +49,22 @@ export default function PartsPageClient({
             <p className="text-xs font-semibold text-white uppercase tracking-wide">Categories</p>
           </div>
           <nav className="divide-y divide-gray-100">
+
+            {/* Show All */}
+            <button
+              onClick={() => setActiveCategory(null)}
+              className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors ${
+                activeCategory === null
+                  ? "bg-[#b40102] text-white font-semibold"
+                  : "text-gray-700 hover:bg-gray-50"
+              }`}
+            >
+              <span>Show All</span>
+              <span className={`text-xs rounded-full px-1.5 py-0.5 ${activeCategory === null ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}>
+                {parts.length}
+              </span>
+            </button>
+
             {categories.map((cat) => {
               const count = parts.filter((p) => p.category_name === cat).length;
               const active = cat === activeCategory;
@@ -81,7 +98,7 @@ export default function PartsPageClient({
         ) : (
           <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
             <div className="bg-[#141414] px-5 py-3 flex items-center justify-between">
-              <h2 className="text-sm font-semibold text-white">{activeCategory}</h2>
+              <h2 className="text-sm font-semibold text-white">{headerLabel}</h2>
               <span className="text-xs text-white/50">{visibleParts.length}</span>
             </div>
             <div className="divide-y divide-gray-100">
@@ -92,6 +109,9 @@ export default function PartsPageClient({
                   className="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition-colors"
                 >
                   <div className="min-w-0 flex-1">
+                    {activeCategory === null && (
+                      <div className="text-xs text-[#b40102] font-medium mb-0.5">{p.category_name}</div>
+                    )}
                     <div className="font-medium text-[#111827]">
                       {p.brand} {p.part_number}
                       {p.position && (

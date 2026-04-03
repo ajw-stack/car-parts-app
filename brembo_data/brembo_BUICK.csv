@@ -1,0 +1,9 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake discs,Prime,09.A052.11,303mm,"32,3mm",52mm,,5,Ventilated,71mm,"30,7mm",,1,,,,,,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime,P 59 028,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime Ceramic,P59028N,,18mm,61mm,148mm,,,,,,,Wagner,Acoustic,"23358, 23359, 23360","D699 7574, D818 7693",With anti-squeal shim,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime Ceramic,P07002N,,18mm,69 - 67mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With anti-squeal shim,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime Ceramic,P09005N,,16mm,67 - 68mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,"24714, 24715, 24716",D505 7384,With accessoriesWith anti-squeal shimWith piston clip,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime Ceramic,P59062N,,17mm,67 - 69mm,148 - 212mm,,,,,,,Delco Moraine,Acoustic,,D623 7384,With accessoriesWith anti-squeal shimWith piston clip,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime,P 59 027,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,
+BUICK,RIVIERA Coupe,09/93,12/99,3.8,09/94,12/99,153,208,Brake pads,Prime Ceramic,P59027N,,15mm,41mm,108mm,,,,,,,Akebono,Acoustic,"23361, 23362, 23363","D508 7387, D698 7387, D714 7387",With anti-squeal shim,

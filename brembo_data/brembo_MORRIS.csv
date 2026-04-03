@@ -1,0 +1,8 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+MORRIS,MARINA II Saloon,10/75,09/78,2600 (ZA),10/75,09/78,81,110,Brake discs,Prime,08.2462.10,249mm,"9,5mm",46mm,,4,Solid,67mm,"8,6mm",,2,,,,,,
+MORRIS,MINOR Convertible,11/55,10/71,1.1,01/62,08/69,37,50,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+MORRIS,MINOR Estate,11/55,10/71,0.9,11/55,12/61,28,38,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+MORRIS,MINOR Estate,11/55,10/71,1.1,01/62,10/71,37,50,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+MORRIS,MINOR Pickup,11/55,10/71,1.1,01/62,10/71,37,50,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+MORRIS,MINOR Saloon,11/55,12/71,0.9,11/55,12/62,28,38,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,
+MORRIS,MINOR Saloon,11/55,12/71,1.1,01/62,10/71,37,50,Brake discs,Prime,08.1503.10,190mm,"9,4mm",77mm,,4,Solid,73mm,"8,5mm",,1,,,,,,

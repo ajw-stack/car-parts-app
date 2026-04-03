@@ -1,0 +1,5 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+GEELY,CK,04/05,>,1.5,09/05,>,69,94,Brake pads,Prime,P 85 011,,20mm,69mm,119mm,,,,,,,Lucas,Without,20168,D684 7571,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+GEELY,CK,04/05,>,1.5,09/05,>,69,94,Brake pads,Prime Ceramic,P85011N,,20mm,69mm,119mm,,,,,,,Lucas,Without,20168,D684 7571,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+GEELY,MK Hatchback,11/08,>,1.5,11/08,>,69,94,Brake pads,Prime,P 83 051,,16mm,51mm,116mm,,,,,,,Akebono,Acoustic,"23510, 23511, 23512","D822 7695, D990 7695",With anti-squeal shim,
+GEELY,MK Hatchback,11/08,>,1.5,11/08,>,69,94,Brake pads,Prime Ceramic,P83051N,,16mm,51mm,116mm,,,,,,,Akebono,Acoustic,"23510, 23511, 23512","D822 7695, D990 7695",With anti-squeal shim,

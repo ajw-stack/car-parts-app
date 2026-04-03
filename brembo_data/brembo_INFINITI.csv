@@ -1,0 +1,400 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,FX,07/08,>,30d AWD,04/10,>,175,238,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,FX,07/08,>,37 AWD,10/08,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M6 | D,1N1.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M6 | TY1,1N2.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M6 | TY3,1N3.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M4 | D,2P1.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,FX,07/08,>,50 AWD,10/08,>,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake discs,Prime,09.D690.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,G Convertible,09/10,>,37,09/10,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake discs,Prime,09.D690.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime,P 56 080,,16mm,58mm,158mm,,,,,,,Teves,Acoustic,"24930, 24932, 24933",D1287 8404,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56080N,,16mm,58mm,158mm,,,,,,,Teves,Acoustic,"24930, 24932, 24933",D1287 8404,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | D,1M1.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | TY1,1M2.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | TY3,1M3.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | D,1M1.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | TY1,1M2.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M6 | TY3,1M3.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M4 | D,2P1.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M4 | TY1,2P2.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/07,>,37,09/10,>,235,320,UPGRADE GT kit,GT | M4 | TY3,2P3.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake discs,Prime,09.B446.11,296mm,24mm,49mm,,5,Ventilated,68mm,22mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake discs,Prime,09.8969.21,292mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake pads,Prime,P 56 051,,16mm,66mm,136mm,,,,,,,Tokico,Acoustic,"24056, 24057, 24667",D969 7870,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake pads,Prime Ceramic,P56051N,,16mm,66mm,136mm,,,,,,,Tokico,Acoustic,"24056, 24057, 24667",D969 7870,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | A4 | D,1B1.7013A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | A4 | TY1,1B2.7013A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | A4 | D,1B1.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | A4 | TY1,1B2.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | A4 | TY3,1B3.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | D,1M1.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | TY1,1M2.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | TY3,1M3.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | D,1M1.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | TY1,1M2.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M6 | TY3,1M3.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M4 | D,2P1.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M4 | TY1,2P2.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/02,12/06,209,284,UPGRADE GT kit,GT | M4 | TY3,2P3.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake discs,Prime,09.B446.11,296mm,24mm,49mm,,5,Ventilated,68mm,22mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake discs,Prime,09.8969.21,292mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime,P 56 051,,16mm,66mm,136mm,,,,,,,Tokico,Acoustic,"24056, 24057, 24667",D969 7870,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56051N,,16mm,66mm,136mm,,,,,,,Tokico,Acoustic,"24056, 24057, 24667",D969 7870,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime,P 56 021,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562, 21633","D526 7407, D653 7318, D653 7407, D815 7605, D815 7783",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56021N,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562, 21633","D526 7407, D653 7318, D653 7407, D815 7605, D815 7783",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime,P 56 065,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562","D430 7318, D815 7318",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56065N,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562","D430 7318, D815 7318",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | A4 | D,1B1.7013A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | A4 | TY1,1B2.7013A_,332mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | A4 | D,1B1.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | A4 | TY1,1B2.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | A4 | TY3,1B3.8032A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | D,1M1.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | TY1,1M2.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | TY3,1M3.8024A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | D,1M1.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | TY1,1M2.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M6 | TY3,1M3.9043A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M4 | D,2P1.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M4 | TY1,2P2.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5,09/04,06/07,220,299,UPGRADE GT kit,GT | M4 | TY3,2P3.8023A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake discs,Prime,09.B446.11,296mm,24mm,49mm,,5,Ventilated,68mm,22mm,,1,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake discs,Prime,09.8969.21,292mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime,P 56 065,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562","D430 7318, D815 7318",With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime Ceramic,P56065N,,17mm,53mm,137mm,,,,,,,Sumitomo,Acoustic,"21561, 21562","D430 7318, D815 7318",With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,G Coupe,09/02,12/07,3.5 X,09/04,06/07,209,284,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,30d,03/10,>,175,238,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,35h,04/11,>,268,364,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,M (Y51),03/10,>,37,03/10,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q30,11/15,>,1.6,11/15,>,115,156,Brake pads,Prime,P 50 093,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,1.6,11/15,>,115,156,Brake pads,Prime Ceramic,P50093N,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,1.6,11/15,>,115,156,Brake pads,Xtra,P 50 093X,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,1.6,11/15,>,115,156,Brake pads,Prime,P 50 140,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,1.6,11/15,>,115,156,Brake pads,Prime Ceramic,P50140N,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,Wear indicator,11/15,>,115,156,Brake pad accessories,Prime,A 00 353,,,,,,,,,,,,,,,,,93mm
+INFINITI,Q30,11/15,>,2.0 T,11/15,>,155,211,Brake pads,Prime,P 50 093,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.0 T,11/15,>,155,211,Brake pads,Prime Ceramic,P50093N,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.0 T,11/15,>,155,211,Brake pads,Xtra,P 50 093X,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.0 T,11/15,>,155,211,Brake pads,Prime,P 50 140,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.0 T,11/15,>,155,211,Brake pads,Prime Ceramic,P50140N,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,Wear indicator,11/15,>,155,211,Brake pad accessories,Prime,A 00 353,,,,,,,,,,,,,,,,,93mm
+INFINITI,Q30,11/15,>,2.2 D,11/15,>,125,170,Brake pads,Prime,P 50 093,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.2 D,11/15,>,125,170,Brake pads,Prime Ceramic,P50093N,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.2 D,11/15,>,125,170,Brake pads,Xtra,P 50 093X,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.2 D,11/15,>,125,170,Brake pads,Prime,P 50 140,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,2.2 D,11/15,>,125,170,Brake pads,Prime Ceramic,P50140N,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,Q30,11/15,>,Wear indicator,11/15,>,125,170,Brake pad accessories,Prime,A 00 353,,,,,,,,,,,,,,,,,93mm
+INFINITI,Q45 I,01/89,12/96,4.5 i,07/93,12/96,207,282,Brake pads,Prime,P 56 045,,15mm,60mm,139mm,,,,,,,Tokico,Acoustic,"23184, 23185","D486 7366, D587 7467",With anti-squeal shim,
+INFINITI,Q45 I,01/89,12/96,4.5 i,07/93,12/96,207,282,Brake pads,Prime Ceramic,P56045N,,15mm,60mm,139mm,,,,,,,Tokico,Acoustic,"23184, 23185","D486 7366, D587 7467",With anti-squeal shim,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake discs,Prime,09.E235.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,2.0 T,04/14,>,155,211,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,3.0 t,10/16,>,224,305,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 D,04/13,>,125,170,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,04/13,>,268,364,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid,06/13,>,261,355,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Hybrid AWD,04/13,>,268,364,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M6 | D,1M1.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M6 | TY1,1M2.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M6 | TY3,1M3.9051A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M4 | D,2P1.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M4 | TY1,2P2.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q50,04/13,>,50 Red,09/15,>,298,405,UPGRADE GT kit,GT | M4 | TY3,2P3.9054A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Convertible,10/13,>,3.7,10/13,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake discs,Prime,09.B522.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56094N,,17mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 8221,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,,,,
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | D,1M1.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | TY1,1M2.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | TY3,1M3.8043A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | D,1M1.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | TY1,1M2.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M6 | TY3,1M3.9020A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M4 | D,2P1.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M4 | TY1,2P2.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q60 Coupe,08/13,>,3.7,10/13,>,235,320,UPGRADE GT kit,GT | M4 | TY3,2P3.8021A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake discs,Prime,09.E235.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime,P 56 106,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime Ceramic,P56106N,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Xtra Ceramic,P56106NX,,16mm,62mm,152mm,,,,,,,Akebono,Acoustic,"22117, 22118, 22119",D1736 8906,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,2.0 T,09/16,>,155,211,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,3.0 T,09/16,>,298,405,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,3.0 T,09/16,>,298,405,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,3.0 T,09/16,>,298,405,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q60 Coupe,09/16,>,3.0 T,09/16,>,298,405,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.0,03/13,>,175,238,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake discs,Prime,09.B266.11,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake discs,Xtra,09.B266.1X,320mm,28mm,49mm,,5,Ventilated,68mm,26mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.5 Hybrid,03/13,>,268,364,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake discs,Prime,09.E522.11,320mm,34mm,49mm,,5,Ventilated,68mm,32mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake discs,Prime,09.B265.11,308mm,16mm,62mm,,5,Ventilated,68mm,14mm,,2,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime,P 56 058,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime Ceramic,P56058N,,16mm,59mm,157mm,,,,,,,Sumitomo,Acoustic,"23698, 23699",D888 7766,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime,P 56 046,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Prime Ceramic,P56046N,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,Q70 (Y51),03/13,>,3.7,03/13,>,235,320,Brake pads,Xtra Ceramic,P56046NX,,14mm,37mm,105mm,,,,,,,Akebono,Acoustic,"23871, 23872, 24088","D1288 8405, D1393 8501, D1626 8842, D905 7784",With anti-squeal shim,
+INFINITI,QX30,04/16,>,2.0 AWD,09/16,>,155,211,Brake pads,Prime,P 50 093,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,QX30,04/16,>,2.0 AWD,09/16,>,155,211,Brake pads,Prime Ceramic,P50093N,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,QX30,04/16,>,2.0 AWD,09/16,>,155,211,Brake pads,Xtra,P 50 093X,,19mm,72mm,144mm,,,,,,,TRW,Prepared for wear indicator,24869,D1694 8920,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,QX30,04/16,>,2.0 AWD,09/16,>,155,211,Brake pads,Prime,P 50 140,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,QX30,04/16,>,2.0 AWD,09/16,>,155,211,Brake pads,Prime Ceramic,P50140N,,19mm,59mm,106mm,,,,,,,TRW,Prepared for wear indicator,24848,D1646 8874,With accessoriesWith anti-squeal shimWith brake caliper bolts,,
+INFINITI,QX30,04/16,>,Wear indicator,09/16,>,155,211,Brake pad accessories,Prime,A 00 353,,,,,,,,,,,,,,,,,93mm
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M6 | D,1N1.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M6 | TY1,1N2.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M6 | TY3,1N3.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M4 | D,2P1.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M4 | TY1,2P2.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,3.7 AWD,08/13,>,235,320,UPGRADE GT kit,GT | M4 | TY3,2P3.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,QX70,08/13,>,30d AWD,08/13,>,175,238,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake discs,Prime,09.D708.11,355mm,32mm,49mm,,5,Ventilated,68mm,30mm,,1,,,,,,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake discs,Prime,09.E528.11,350mm,20mm,62mm,,5,Ventilated,68mm,18mm,,1,,,,,,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake pads,Prime,P 56 089,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake pads,Prime Ceramic,P56089N,,16mm,76mm,127mm,,,,,,,Akebono,Acoustic,"24920, 24994",D1346 8457,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake pads,Prime,P 56 095,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,Brake pads,Prime Ceramic,P56095N,,14mm,59mm,100mm,,,,,,,Akebono,Acoustic,"24921, 24995",D1347 8458,With anti-squeal shim,,,,
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M6 | D,1N1.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M6 | TY1,1N2.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M6 | TY3,1N3.9014A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M4 | D,2P1.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M4 | TY1,2P2.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX70,08/13,>,50 AWD,08/13,>,287,390,UPGRADE GT kit,GT | M4 | TY3,2P3.8037A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake discs,Prime,09.E234.11,350mm,30mm,43mm,,6,Ventilated,90mm,"28,5mm",,1,,,,,,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake discs,Prime,09.B631.11,350mm,20mm,64mm,,6,Ventilated,82mm,18mm,,1,,,,,,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake pads,Prime,P 56 081,,18mm,81 - 91mm,144mm,,,,,,,Akebono,Acoustic,"25240, 25241, 25242",D1748 8976,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake pads,Prime Ceramic,P56081N,,18mm,81 - 91mm,144mm,,,,,,,Akebono,Acoustic,"25240, 25241, 25242",D1748 8976,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake pads,Prime Ceramic,P56079N,,18mm,63mm,170mm,,,,,,,Akebono,Acoustic,"22042, 22043, 22044","D1286 8403, D1509 8403",With anti-squeal shim,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake pads,Prime,P 56 082,,15mm,50mm,128mm,,,,,,,,Acoustic,"25340, 25341, 25342, 25343",D1510 8719,With anti-squeal shim,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,Brake pads,Prime Ceramic,P56082N,,15mm,50mm,128mm,,,,,,,,Acoustic,"25340, 25341, 25342, 25343",D1510 8719,With anti-squeal shim,,,,
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,UPGRADE GT kit,GT | A6 | D,1J1.9011A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,UPGRADE GT kit,GT | A6 | TY1,1J2.9011A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+INFINITI,QX80,08/13,>,5.6 AWD,09/13,>,298,405,UPGRADE GT kit,GT | A6 | TY3,1J3.9011A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces

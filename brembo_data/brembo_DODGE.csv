@@ -1,0 +1,466 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0,06/07,12/11,115,156,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.0 CRD,06/07,12/11,103,140,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.4,06/07,12/14,125,170,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,AVENGER,06/07,12/14,2.7,06/07,12/11,137,186,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Prime,09.B647.21,276mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Prime,08.B662.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,1,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,1.8,06/06,12/09,110,150,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Prime,09.B647.21,276mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Prime,08.B662.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,1,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0,06/06,>,115,156,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Prime,09.B647.21,276mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Prime,08.B662.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,1,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.0 CRD,06/06,>,103,140,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Prime,09.B647.21,276mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Prime,09.A637.11,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Xtra,09.A637.1X,294mm,26mm,46mm,,5,Ventilated,69mm,"24,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Prime,08.A114.31,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Xtra,08.A114.3X,262mm,10mm,60mm,,5,Solid,80mm,"8,4mm",129Nm,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Prime,08.B662.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,1,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Prime,08.C247.11,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake discs,Xtra,08.C247.1X,302mm,10mm,60mm,,5,Solid,80mm,"8,4mm",,2,,,,,,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime,P 18 001,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime Ceramic,P18001N,,17mm,55mm,145mm,,,,,,,Akebono,Acoustic,24583,D1285 8402,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime,P 54 030,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime Ceramic,P54030N,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Xtra,P 54 030X,,16mm,55mm,145mm,,,,,,,Akebono,Acoustic,23584,D866 7741,With accessoriesWith anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime Ceramic,P18027N,,16mm,55mm,145mm,,,,,,,Akebono,Without,,D866 8338,With anti-squeal shim,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime,P 54 034,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime Ceramic,P54034N,,15mm,35 - 40mm,85 - 106mm,,,,,,,Akebono,Acoustic,"24014, 24015",D1037 7940,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime,P 54 031,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Prime Ceramic,P54031N,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CALIBER,06/06,>,2.4,10/06,>,125,170,Brake pads,Xtra,P 54 031X,,16mm,45mm,91 - 111mm,,,,,,,Akebono,Acoustic,"23582, 23583","D1343 7743, D868 7743",With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime,P 11 019,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,24166,D1056 7962,With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime Ceramic,P11019N,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,24166,D1056 7962,With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime,P 11 017,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime Ceramic,P11017N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime,P 23 175,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,01/10,12/23,280,381,Brake pads,Prime Ceramic,P23175N,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | D,1M1.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | TY1,1M2.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | TY3,1M3.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | D,1N1.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | TY1,1N2.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | M6 | TY3,1N3.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | A4 | D,2C1.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | A4 | TY1,2C2.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,5.7,11/16,>,279,379,UPGRADE GT kit,GT | A4 | TY3,2C3.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 023,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11023N,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 024,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11024N,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime,P 11 023,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime Ceramic,P11023N,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime,P 23 149,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime Ceramic,P23149N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime,P 23 175,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime Ceramic,P23175N,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime,P 11 040,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime Ceramic,P11040N,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime,P 11 024,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,Brake pads,Prime Ceramic,P11024N,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | D,1M1.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | TY1,1M2.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | TY3,1M3.8057A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | D,1N1.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | TY1,1N2.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | M6 | TY3,1N3.9044A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | A4 | D,2C1.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | A4 | TY1,2C2.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,6.4,09/14,>,362,492,UPGRADE GT kit,GT | A4 | TY3,2C3.8019A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,09.A402.11,320mm,28mm,55mm,,5,Ventilated,73mm,"26,5mm",,1,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,09.A404.11,345mm,28mm,55mm,,5,Ventilated,73mm,"26,5mm",,1,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,09.A183.21,360mm,32mm,58mm,,5,Ventilated,73mm,30mm,,1,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,08.A403.11,320mm,10mm,67mm,,5,Solid,73mm,"8,5mm",,2,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,09.A405.11,320mm,22mm,67mm,,5,Ventilated,73mm,"20,5mm",,2,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake discs,Prime,09.A182.21,350mm,28mm,68mm,,5,Ventilated,73mm,26mm,,1,,,,,,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 11 023,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P11023N,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 11 041,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,22222,"D1056 7962, D1056 8766",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P11041N,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,22222,"D1056 7962, D1056 8766",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 11 017,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P11017N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 23 149,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P23149N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 23 175,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P23175N,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 11 040,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P11040N,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime,P 11 024,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,Brake pads,Prime Ceramic,P11024N,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,,,,
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | A8 | D,1G1.9033A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | A8 | TY1,1G2.9033A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | A8 | TY3,1G3.9033A_,380mm,34mm,,,,,,,,,,,,,,,8,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M6 | D,1N1.9005A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M6 | TY1,1N2.9005A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M6 | TY3,1N3.9005A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M4 | D,2P1.9015A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M4 | TY1,2P2.9015A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,CHALLENGER Coupe,09/07,>,6.4 SRT8,01/11,>,351,477,UPGRADE GT kit,GT | M4 | TY3,2P3.9015A_,380mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,09.A402.11,320mm,28mm,55mm,,5,Ventilated,73mm,"26,5mm",,1,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,09.A404.11,345mm,28mm,55mm,,5,Ventilated,73mm,"26,5mm",,1,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,09.A183.21,360mm,32mm,58mm,,5,Ventilated,73mm,30mm,,1,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,08.A403.11,320mm,10mm,67mm,,5,Solid,73mm,"8,5mm",,2,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,09.A405.11,320mm,22mm,67mm,,5,Ventilated,73mm,"20,5mm",,2,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake discs,Prime,09.A182.21,350mm,28mm,68mm,,5,Ventilated,73mm,26mm,,1,,,,,,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 023,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11023N,,17mm,76mm,142mm,,,,,,,Brembo,Acoustic,24075,"D1149 8259, D1149 8415, D1298 8415",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 041,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,22222,"D1056 7962, D1056 8766",With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11041N,,19mm,56mm,150mm,,,,,,,Bosch,Acoustic,22222,"D1056 7962, D1056 8766",With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 017,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11017N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,24164,"D1058 7965, D1058 8236",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 23 149,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P23149N,,18mm,55mm,183mm,,,,,,,Bosch,Acoustic,"25605, 25606",D1058 8839,With accessoriesWith anti-squeal shimWith brake caliper bolts,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 37 018,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P37018N,,15mm,93mm,190mm,,,,,,,Brembo,Acoustic,"25849, 25859","D1382 9040, D1405 8513, D1405 9037",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 23 175,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P23175N,,18mm,58mm,101mm,,,,,,,Bosch,Acoustic,24163,"D1057 7963, D1057 7964",With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 040,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11040N,,18mm,58mm,102mm,,,,,,,,Acoustic,22209,D1057 7963,With accessoriesWith anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime,P 11 024,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+DODGE,CHARGER,09/10,>,6.2 SRT Hellcat,09/14,>,527,717,Brake pads,Prime Ceramic,P11024N,,15mm,69mm,110mm,,,,,,,Brembo,Acoustic,24076,"D1053 7958, D1053 8805, D1270 7831",With anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake discs,Prime,09.N124.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake discs,Prime,09.N125.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake discs,Prime,08.N123.11,305mm,12mm,33mm,,5,Solid,73mm,"10,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake discs,Prime,09.N213.11,350mm,28mm,68mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime,P 11 021,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime Ceramic,P11021N,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime,P 11 032,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.0 CRD,06/08,>,103,140,Brake pads,Prime Ceramic,P11032N,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake discs,Prime,09.N124.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake discs,Prime,09.N125.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake discs,Prime,08.N123.11,305mm,12mm,33mm,,5,Solid,73mm,"10,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake discs,Prime,09.N213.11,350mm,28mm,68mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime,P 11 021,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime Ceramic,P11021N,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime,P 11 032,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,2.7,01/09,>,136,185,Brake pads,Prime Ceramic,P11032N,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,09.N124.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,09.N125.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,09.N248.11,330mm,28mm,38mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,08.N123.11,305mm,12mm,33mm,,5,Solid,73mm,"10,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,08.N249.21,328mm,12mm,33mm,,6,Solid,"72,5mm","10,4mm",,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake discs,Prime,09.N213.11,350mm,28mm,68mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime,P 11 035,,18mm,63mm,183mm,,,,,,,Akebono,Acoustic,"25378, 25379","D1589 8800, D2187 9422",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P11035N,,18mm,63mm,183mm,,,,,,,Akebono,Acoustic,"25378, 25379","D1589 8800, D2187 9422",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime,P 11 021,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P11021N,,17mm,53mm,117mm,,,,,,,Lucas,Acoustic,"24822, 24823, 24824",D1326 8438,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P18029N,,17mm,50mm,117mm,,,,,,,TRW,Acoustic,"25843, 25844, 25845","D1326 8438, D1657 8825, D1719 8825",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime,P 11 032,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6,06/12,12/15,206,280,Brake pads,Prime Ceramic,P11032N,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,09.N124.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,09.N125.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,09.N248.11,330mm,28mm,38mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,08.N123.11,305mm,12mm,33mm,,5,Solid,73mm,"10,4mm",129Nm,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,08.N249.21,328mm,12mm,33mm,,6,Solid,"72,5mm","10,4mm",,2,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake discs,Prime,09.N213.11,350mm,28mm,68mm,,5,Ventilated,72mm,"26,4mm",,1,,,,,,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime,P 11 035,,18mm,63mm,183mm,,,,,,,Akebono,Acoustic,"25378, 25379","D1589 8800, D2187 9422",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime Ceramic,P11035N,,18mm,63mm,183mm,,,,,,,Akebono,Acoustic,"25378, 25379","D1589 8800, D2187 9422",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime Ceramic,P18029N,,17mm,50mm,117mm,,,,,,,TRW,Acoustic,"25843, 25844, 25845","D1326 8438, D1657 8825, D1719 8825",With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime,P 11 032,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,JOURNEY,06/08,>,3.6 AWD,05/13,>,206,280,Brake pads,Prime Ceramic,P11032N,,18mm,55mm,130mm,,,,,,,TRW,Acoustic,"25376, 25377",D1596 8811,With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake discs,Prime,09.C004.11,302mm,28mm,64mm,,5,Ventilated,72mm,"26,4mm",,2,,,,,,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake discs,Prime,08.B529.11,316mm,12mm,76mm,,5,Solid,72mm,"10,4mm",,2,,,,,,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime,P 18 024,,16mm,45mm,116mm,,,,,,,TRW,Acoustic,"24602, 24603",D1274 8390,With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,2.8 CRD 4WD,06/07,12/12,130,177,Brake pads,Prime Ceramic,P18024N,,16mm,45mm,116mm,,,,,,,TRW,Acoustic,"24602, 24603",D1274 8390,With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake discs,Prime,09.C004.11,302mm,28mm,64mm,,5,Ventilated,72mm,"26,4mm",,2,,,,,,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake discs,Prime,09.N125.11,302mm,28mm,38mm,,5,Ventilated,73mm,"26,4mm",129Nm,2,,,,,,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake discs,Prime,08.N123.11,305mm,12mm,33mm,,5,Solid,73mm,"10,4mm",129Nm,2,,,,,,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake discs,Prime,08.B529.11,316mm,12mm,76mm,,5,Solid,72mm,"10,4mm",,2,,,,,,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime,P 11 022,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime Ceramic,P11022N,,18mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8439, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime,P 11 025,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime Ceramic,P11025N,,19mm,63mm,147mm,,,,,,,Bosch,Acoustic,"24604, 24605","D1273 8389, D1327 8389, D1327 8481, D1327 8703",With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime,P 18 024,,16mm,45mm,116mm,,,,,,,TRW,Acoustic,"24602, 24603",D1274 8390,With accessoriesWith anti-squeal shim,
+DODGE,NITRO,09/06,12/12,3.7 V6 4WD,06/07,12/12,151,205,Brake pads,Prime Ceramic,P18024N,,16mm,45mm,116mm,,,,,,,TRW,Acoustic,"24602, 24603",D1274 8390,With accessoriesWith anti-squeal shim,
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7 4WD,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7 4WD,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,3.7 4WD,09/06,12/07,160,218,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,8.3 SRT-10,09/04,12/06,373,507,Brake pads,Prime Ceramic,P18026N,,19mm,56mm,189mm,,,,,,,,Without,,D1079 7984,With anti-squeal shim,,,,
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,8.3 SRT-10,09/04,12/06,373,507,Brake pads,Prime Ceramic,P18023N,,21mm,56mm,189mm,,,,,,,,Acoustic,,"D1077 7865, D1077 7982",With anti-squeal shim,,,,
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,8.3 SRT-10,09/04,12/06,373,507,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,8.3 SRT-10,09/04,12/06,373,507,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Crew Cab Pickup,09/01,12/08,8.3 SRT-10,09/04,12/06,373,507,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Cab Pickup,09/93,12/01,5.9 4WD,09/94,12/01,183,249,Brake pads,Prime Ceramic,P10021N,,17mm,59 - 76mm,126 - 147mm,,,,,,,Bendix,Acoustic,25373,D369 7259,With accessoriesWith anti-squeal shim,
+DODGE,RAM 1500 Extended Cab Pickup,09/93,12/01,5.9 4WD,09/94,12/01,183,249,Brake pads,Prime Ceramic,P18004N,,16mm,59 - 76mm,126 - 147mm,,,,,,,Bendix,Acoustic,,D789 7659,With accessoriesWith anti-squeal shimWith piston clip,
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,3.7,09/07,12/08,160,218,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,3.7,09/07,12/08,160,218,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,3.7,09/07,12/08,160,218,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/06,12/07,175,238,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/06,12/07,175,238,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7,09/06,12/07,175,238,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7 4WD,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7 4WD,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,4.7 4WD,09/05,12/07,175,238,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7 4WD,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | D,1J1.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7 4WD,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | TY1,1J2.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,RAM 1500 Extended Crew Cab Pickup,09/01,12/08,5.7 4WD,09/06,12/08,257,350,UPGRADE GT kit,GT | A6 | TY3,1J3.9002A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,2 pieces
+DODGE,"RAM 1500 Pickup (D1, DC, DH, DM, DR)",06/01,09/08,5.7,06/01,09/08,257,349,Brake pads,Prime Ceramic,P18026N,,19mm,56mm,189mm,,,,,,,,Without,,D1079 7984,With anti-squeal shim,
+DODGE,"RAM 1500 Pickup (D1, DC, DH, DM, DR)",06/01,09/08,5.7,06/01,09/08,257,349,Brake pads,Prime Ceramic,P18010N,,16mm,49mm,166mm,,,,,,,,Without,24803,"D967 7867, D967 7869",With anti-squeal shim,
+DODGE,RAM 1500 Standard Cab Pickup,09/01,12/08,8.3 SRT-10,09/03,12/06,373,507,Brake pads,Prime Ceramic,P18026N,,19mm,56mm,189mm,,,,,,,,Without,,D1079 7984,With anti-squeal shim,
+DODGE,RAM 1500 Standard Cab Pickup,09/01,12/08,8.3 SRT-10,09/03,12/06,373,507,Brake pads,Prime Ceramic,P18023N,,21mm,56mm,189mm,,,,,,,,Acoustic,,"D1077 7865, D1077 7982",With anti-squeal shim,
+DODGE,"RAM 2500 Pickup (D1, DC, DH, DM, DR)",09/01,12/09,5.7,01/02,12/09,257,349,Brake pads,Prime,P 18 039,,21mm,71mm,214mm,,,,,,,,Acoustic,,D1399 8507,With anti-squeal shim,
+DODGE,"RAM 2500 Pickup (D1, DC, DH, DM, DR)",09/01,12/09,5.7,01/02,12/09,257,349,Brake pads,Prime Ceramic,P18039N,,21mm,71mm,214mm,,,,,,,,Acoustic,,D1399 8507,With anti-squeal shim,
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/02,12/06,372,506,UPGRADE GT kit,GT | M6 | D,1N1.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/02,12/06,372,506,UPGRADE GT kit,GT | M6 | TY1,1N2.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/02,12/06,372,506,UPGRADE GT kit,GT | M6 | TY3,1N3.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,Brake pads,Prime,P 54 039,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,Brake pads,Prime Ceramic,P54039N,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,Brake pads,Xtra,P 54 039X,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,UPGRADE GT kit,GT | M6 | D,1N1.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,UPGRADE GT kit,GT | M6 | TY1,1N2.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/09,12/10,450,612,UPGRADE GT kit,GT | M6 | TY3,1N3.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/07,12/09,447,608,UPGRADE GT kit,GT | M6 | D,1N1.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/07,12/09,447,608,UPGRADE GT kit,GT | M6 | TY1,1N2.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,09/02,12/17,SRT-10,09/07,12/09,447,608,UPGRADE GT kit,GT | M6 | TY3,1N3.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | D,1B1.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY1,1B2.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY3,1B3.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | D,2C1.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY1,2C2.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY3,2C3.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | D,2P1.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | TY1,2P2.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | TY3,2P3.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | D,1B1.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | TY1,1B2.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | TY3,1B3.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | D,1M1.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | TY1,1M2.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | TY3,1M3.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | D,1M1.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | TY1,1M2.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M6 | TY3,1M3.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | D,2C1.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | TY1,2C2.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | A4 | TY3,2C3.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M4 | D,2P1.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M4 | TY1,2P2.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10,10/91,09/97,299,407,UPGRADE GT kit,GT | M4 | TY3,2P3.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+DODGE,VIPER Convertible,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,Brake pads,Prime,P 54 039,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,Brake pads,Prime Ceramic,P54039N,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,Brake pads,Xtra,P 54 039X,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,UPGRADE GT kit,GT | M6 | D,1N1.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,UPGRADE GT kit,GT | M6 | TY1,1N2.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,450,612,UPGRADE GT kit,GT | M6 | TY3,1N3.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,448,609,UPGRADE GT kit,GT | M6 | D,1N1.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,448,609,UPGRADE GT kit,GT | M6 | TY1,1N2.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/07,12/10,SRT-10,09/07,12/10,448,609,UPGRADE GT kit,GT | M6 | TY3,1N3.9010A_,380mm,34mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,09/12,>,8.4,09/12,12/15,477,649,Brake pads,Prime,P 09 004,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+DODGE,VIPER Coupe,09/12,>,8.4,09/12,12/15,477,649,Brake pads,Prime Ceramic,P09004N,,15mm,78mm,132mm,,,,,,,Brembo,Acoustic,23325,"D1001 7919, D1050 7953",With anti-squeal shim,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | D,1B1.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY1,1B2.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY3,1B3.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.8018A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | D,1M1.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY1,1M2.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M6 | TY3,1M3.9037A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | D,2C1.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY1,2C2.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | A4 | TY3,2C3.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | D,2P1.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | TY1,2P2.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/97,09/02,282,383,UPGRADE GT kit,GT | M4 | TY3,2P3.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,,,,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | D,1B1.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | TY1,1B2.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | TY3,1B3.8007A_,355mm,32mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | D,1M1.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | TY1,1M2.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | TY3,1M3.8017A_,355mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | D,1M1.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | TY1,1M2.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M6 | TY3,1M3.9036A_,380mm,32mm,,,,,,,,,,,,,,,6,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | D,2C1.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | TY1,2C2.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | A4 | TY3,2C3.8004A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,2 pieces
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M4 | D,2P1.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M4 | TY1,2P2.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10,10/91,09/97,290,394,UPGRADE GT kit,GT | M4 | TY3,2P3.8014A_,345mm,28mm,,,,,,,,,,,,,,,4,2 pieces,Monoblock
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime,P 23 074,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime Ceramic,P23074N,,18mm,69mm,110mm,,,,,,,Brembo,Electric,"21381, 23206, 23207",D592 7471,With anti-squeal shim,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime,P 59 026,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+DODGE,VIPER Coupe,10/91,09/02,8.0 RT10 ACR,10/97,09/02,335,455,Brake pads,Prime Ceramic,P59026N,,13mm,58mm,126mm,,,,,,,Brembo,Without,"20410, 20423","D491 7371, D491 8276",With anti-squeal shim,
+DODGE,VIPER Coupe,01/03,>,SRT-10,01/03,>,372,506,Brake pads,Prime,P 54 039,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,
+DODGE,VIPER Coupe,01/03,>,SRT-10,01/03,>,372,506,Brake pads,Prime Ceramic,P54039N,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,
+DODGE,VIPER Coupe,01/03,>,SRT-10,01/03,>,372,506,Brake pads,Xtra,P 54 039X,,15mm,77mm,132mm,,,,,,,Brembo,Acoustic,"23092, 23325","D1001 7902, D1001 7942",With anti-squeal shim,

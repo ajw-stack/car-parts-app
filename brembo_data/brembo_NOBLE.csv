@@ -1,0 +1,3 @@
+brand,model,model_date_start,model_date_end,type,type_date_start,type_date_end,kw,cv,category,product_line,part_number,diameter,thickness,height,width,number_of_holes,brake_disc_type,centering,min_thickness,tightening_torque,units_per_box,braking_system,wear_indicator,wva_number,fmsi,accessories,position
+NOBLE,M12,06/00,12/05,3.0,06/00,12/05,263,358,Brake pads,Prime,P 68 051,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
+NOBLE,M12,06/00,12/05,3.0,06/00,12/05,263,358,Brake pads,Prime Ceramic,P68051N,,17mm,82mm,130mm,,,,,,,Lockheed,Without,20345,,With anti-squeal shim,
