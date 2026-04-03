@@ -172,7 +172,7 @@ export default function Page() {
     async function loadMakes() {
       setLoadingMakes(true);
 
-      const { data, error } = await supabase.rpc("get_vehicle_makes");
+      const { data, error } = await supabase.rpc("get_vehicle_makes").range(0, 9999);
 
       if (cancelled) return;
       if (error) {
