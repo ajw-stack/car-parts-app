@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 
 export default function RedBorderLine() {
   const lineRef = useRef<SVGPathElement>(null);
   const fillRef = useRef<SVGPathElement>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     function update() {
@@ -47,13 +49,16 @@ export default function RedBorderLine() {
     }
 
     update();
+    // Small delay to catch cases where the new page's header is still mounting
+    const t = setTimeout(update, 50);
     window.addEventListener("resize", update);
     window.addEventListener("scroll", update);
     return () => {
+      clearTimeout(t);
       window.removeEventListener("resize", update);
       window.removeEventListener("scroll", update);
     };
-  }, []);
+  }, [pathname]);
 
   return (
     <svg
