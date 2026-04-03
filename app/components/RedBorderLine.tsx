@@ -56,11 +56,17 @@ export default function RedBorderLine() {
     const t2 = setTimeout(update, 300);
     const t3 = setTimeout(update, 800);
 
-    // Also watch the header with ResizeObserver for any dynamic size changes
+    // Watch the header with ResizeObserver — catches image load height changes
     const ro = new ResizeObserver(update);
     const watchHeader = () => {
       const header = document.querySelector("header");
-      if (header) ro.observe(header);
+      if (header) {
+        ro.observe(header);
+        // Also fire update when any img inside the header finishes loading
+        header.querySelectorAll("img").forEach((img) => {
+          if (!img.complete) img.addEventListener("load", update, { once: true });
+        });
+      }
     };
     watchHeader();
     const t4 = setTimeout(watchHeader, 100);
