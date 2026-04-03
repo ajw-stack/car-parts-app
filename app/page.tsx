@@ -172,7 +172,7 @@ export default function Page() {
     async function loadMakes() {
       setLoadingMakes(true);
 
-      const { data, error } = await supabase.rpc("get_vehicle_makes").range(0, 9999);
+      const { data, error } = await supabase.rpc("get_vehicle_makes");
 
       if (cancelled) return;
       if (error) {
@@ -181,8 +181,8 @@ export default function Page() {
         return;
       }
 
-      // RPC returns [{ make: "..." }, ...] — already sorted and filtered by the function
-      const result = (data ?? []).map((row: { make: string }) => row.make);
+      // RPC returns a JSON array of make strings
+      const result: string[] = Array.isArray(data) ? data : [];
       setMakes(result);
       console.log(`Loaded ${result.length} distinct makes`);
       setLoadingMakes(false);
