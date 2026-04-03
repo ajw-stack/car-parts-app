@@ -98,8 +98,10 @@ function TypeaheadInput({
   const [open, setOpen] = useState(false);
 
   const filtered = useMemo(() => {
-    return options.slice(0, 50);
-  }, [options]);
+    if (!value) return options;
+    const q = value.toLowerCase();
+    return options.filter((o) => o.toLowerCase().includes(q));
+  }, [options, value]);
 
   const select = (v: string) => {
     onChange(v);
