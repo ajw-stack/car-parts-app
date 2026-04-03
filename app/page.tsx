@@ -98,10 +98,8 @@ function TypeaheadInput({
   const [open, setOpen] = useState(false);
 
   const filtered = useMemo(() => {
-    if (!value) return options;
-    const q = value.toLowerCase();
-    return options.filter((o) => o.toLowerCase().includes(q));
-  }, [options, value]);
+    return options;
+  }, [options]);
 
   const select = (v: string) => {
     onChange(v);
@@ -117,7 +115,7 @@ function TypeaheadInput({
         disabled={disabled}
         placeholder={placeholder}
         readOnly
-        onClick={() => setOpen(true)}
+        onClick={() => setOpen((prev) => !prev)}
         onBlur={() => setOpen(false)}
         className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
       />
