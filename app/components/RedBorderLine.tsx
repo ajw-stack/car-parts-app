@@ -49,12 +49,16 @@ export default function RedBorderLine() {
     }
 
     update();
-    // Small delay to catch cases where the new page's header is still mounting
-    const t = setTimeout(update, 50);
+
+    // Use ResizeObserver on the header so we update whenever it finishes rendering
+    const header = document.querySelector("header");
+    const ro = new ResizeObserver(update);
+    if (header) ro.observe(header);
+
     window.addEventListener("resize", update);
     window.addEventListener("scroll", update);
     return () => {
-      clearTimeout(t);
+      ro.disconnect();
       window.removeEventListener("resize", update);
       window.removeEventListener("scroll", update);
     };
