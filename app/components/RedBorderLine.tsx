@@ -50,14 +50,28 @@ export default function RedBorderLine() {
 
     update();
 
-    // Use ResizeObserver on the header so we update whenever it finishes rendering
-    const header = document.querySelector("header");
+    // Re-run after short delays to catch server-rendered pages that haven't
+    // fully laid out yet when the effect first fires
+    const t1 = setTimeout(update, 100);
+    const t2 = setTimeout(update, 300);
+    const t3 = setTimeout(update, 800);
+
+    // Also watch the header with ResizeObserver for any dynamic size changes
     const ro = new ResizeObserver(update);
-    if (header) ro.observe(header);
+    const watchHeader = () => {
+      const header = document.querySelector("header");
+      if (header) ro.observe(header);
+    };
+    watchHeader();
+    const t4 = setTimeout(watchHeader, 100);
 
     window.addEventListener("resize", update);
     window.addEventListener("scroll", update);
     return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+      clearTimeout(t4);
       ro.disconnect();
       window.removeEventListener("resize", update);
       window.removeEventListener("scroll", update);
