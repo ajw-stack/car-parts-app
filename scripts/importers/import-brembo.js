@@ -217,6 +217,43 @@ function yearOverlap(v, fromYear, toYear) {
   return (v.year_from ?? 0) <= dTo && (v.year_to ?? 9999) >= dFrom;
 }
 
+// ─── Model name extraction ────────────────────────────────────────────────────
+// Brembo model names look like "4 RUNNER I (_N5_, _N6_)" or "CAMRY (_V10_)"
+// Extract the first meaningful words before the chassis code in parentheses.
+function extractBremboModel(raw) {
+  if (!raw) return '';
+  // Strip everything in parentheses
+  let s = raw.replace(/\(.*?\)/g, '').trim();
+  // Strip Roman numerals at the end (I, II, III, IV, V, VI...)
+  s = s.replace(/\s+[IVX]+\s*$/, '').trim();
+  // Normalize spaces
+  return s.replace(/\s+/g, ' ').trim().toUpperCase();
+}
+
+// Build a normalised lookup key from a DB model name for comparison
+function normModelKey(s) {
+  return s.toUpperCase()
+    .replace(/[-_]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Check if a Brembo model string matches a DB model name
+// Returns true if the DB model name appears within the Brembo model string
+function modelMatch(bremboModel, dbModel) {
+  const b = normModelKey(bremboModel);
+  const d = normModelKey(dbModel);
+  if (!b || !d) return false;
+  // Exact match
+  if (b === d) return true;
+  // DB model appears as a substring of the Brembo model
+  // e.g. "4 RUNNER" is in "4 RUNNER I"
+  if (b.includes(d)) return true;
+  // Brembo model is a substring of the DB model
+  if (d.includes(b)) return true;
+  return false;
+}
+
 // ─── Part helpers ─────────────────────────────────────────────────────────────
 function buildPartName(row) {
   const pos = row.position?.trim();
@@ -375,15 +412,18 @@ async function main() {
     const yearTo   = to?.year   ?? null;
     const kw       = row.kw?.trim() ? +row.kw.trim() : null;
 
-    // Match by year overlap, refine with kW if available
+    const bremboModel = extractBremboModel(row.model);
+
+    // Match by model name + year overlap, refine with kW if available
     const matched = existing.filter(v => {
+      if (!modelMatch(bremboModel, v.model)) return false;
       if (!yearOverlap(v, yearFrom, yearTo)) return false;
       if (kw && v.engine_kw) return Math.abs(v.engine_kw - kw) <= 10;
       return true;
     });
 
     if (matched.length === 0) {
-      const key = `${make} | ${row.model} | ${dateFrom}–${dateTo}${kw ? ` | ${kw}kW` : ''}`;
+      const key = `${make} | ${bremboModel} | ${dateFrom}–${dateTo}${kw ? ` | ${kw}kW` : ''}`;
       unmatched.set(key, (unmatched.get(key) ?? 0) + 1);
       continue;
     }
@@ -406,7 +446,7 @@ async function main() {
     let done = 0;
     for (let i = 0; i < fitments.length; i += BATCH) {
       const chunk = fitments.slice(i, i + BATCH);
-      await api('/vehicle_part_fitments?on_conflict=vehicle_id,part_id', {
+      await api('/vehicle_part_fitments', {
         method:  'POST',
         headers: { ...HDRS, Prefer: 'resolution=ignore-duplicates,return=minimal' },
         body:    JSON.stringify(chunk),

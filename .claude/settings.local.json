@@ -80,7 +80,17 @@
       "Bash(node scripts/importers/insert-vy-commodore.js)",
       "Bash(grep -l \"VY\\\\|Commodore\" scripts/*.csv)",
       "Bash(python scripts/ngk_extractor.py)",
-      "Bash(python -c \":*)"
+      "Bash(python -c \":*)",
+      "Bash(node scripts/importers/import-brembo.js --dry-run --make TOYOTA)",
+      "Bash(node scripts/importers/import-brembo.js --dry-run)",
+      "Bash(node scripts/importers/import-brembo.js)",
+      "Bash(python scripts/sakura_extractor.py)",
+      "Bash(node scripts/importers/import-sakura.js --dry-run)",
+      "Bash(node -e ':*)",
+      "Bash(python scripts/gates_extractor.py)",
+      "Bash(node scripts/importers/import-gates.js --dry-run)",
+      "Bash(node scripts/importers/import-gates.js)",
+      "Bash(python scripts/monroe_extractor.py)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ajwin\\car-parts-app\\app\\api\\parts"

@@ -1,0 +1,20 @@
+2026-04-03 21:25:28,403 [INFO] Fetching spreads.json from Publitas...
+2026-04-03 21:25:28,736 [INFO]   Page 10: 2950 chars of data
+2026-04-03 21:25:28,736 [INFO]   Page 11: 2832 chars of data
+2026-04-03 21:25:28,736 [INFO]   Page 12: 3168 chars of data
+2026-04-03 21:25:28,737 [INFO]   Page 13: 3103 chars of data
+2026-04-03 21:25:28,737 [INFO]   Page 14: 2963 chars of data
+2026-04-03 21:25:28,737 [INFO]   Page 15: 3404 chars of data
+2026-04-03 21:25:28,737 [INFO]   Page 16: 2662 chars of data
+2026-04-03 21:25:28,737 [INFO]   Page 17: 2562 chars of data
+2026-04-03 21:25:28,737 [INFO] Found 8 pages with application data
+2026-04-03 21:25:28,744 [INFO]   Page 10: parsed 38 rows
+2026-04-03 21:25:28,745 [INFO]   Page 11: parsed 38 rows
+2026-04-03 21:25:28,747 [INFO]   Page 12: parsed 38 rows
+2026-04-03 21:25:28,749 [INFO]   Page 13: parsed 39 rows
+2026-04-03 21:25:28,750 [INFO]   Page 14: parsed 39 rows
+2026-04-03 21:25:28,752 [INFO]   Page 15: parsed 46 rows
+2026-04-03 21:25:28,753 [INFO]   Page 16: parsed 46 rows
+2026-04-03 21:25:28,754 [INFO]   Page 17: parsed 40 rows
+2026-04-03 21:25:28,754 [INFO] Total rows extracted: 324
+2026-04-03 21:25:28,756 [INFO] Saved to sakura_4wd_filters.csv
