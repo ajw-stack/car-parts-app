@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4">
+    <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-white">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
         <a
           href="/admin"
