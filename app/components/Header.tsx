@@ -41,8 +41,8 @@ export default function Header() {
             ☰
           </button>
 
-          {/* Logo */}
-          <a href="/" className="flex items-center shrink-0 ml-8">
+          {/* Logo — desktop: centred between left edge and nav (quarter point) */}
+          <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-1/2 md:ml-0">
             <span
               style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
               className="text-2xl tracking-widest uppercase text-white leading-none"
@@ -125,14 +125,6 @@ export default function Header() {
               </a>
             ))}
           </nav>
-
-          {/* Right — Contact (desktop) */}
-          <a
-            href="/contact"
-            className="hidden md:block ml-auto text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors shrink-0"
-          >
-            Contact
-          </a>
 
         </div>
       </header>

@@ -11,7 +11,12 @@ export default function Footer() {
         <span className="text-xs text-white/40">
           © {new Date().getFullYear()} Elroco
         </span>
-        <div className="w-12" />
+        <a
+          href="/contact"
+          className="text-sm font-semibold uppercase tracking-widest text-white/50 hover:text-white transition-colors"
+        >
+          Contact
+        </a>
       </div>
     </footer>
   );
