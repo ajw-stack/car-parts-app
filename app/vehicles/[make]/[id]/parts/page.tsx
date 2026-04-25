@@ -67,7 +67,7 @@ export default async function VehiclePartsPage({
     : "";
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#141414]">
+    <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
       <Header />
 
       <main className="flex-1 bg-[#F3F4F6]">

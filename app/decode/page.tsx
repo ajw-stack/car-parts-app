@@ -262,7 +262,7 @@ export default function DecodePage() {
   const vinSections   = decodedVin ? buildSections(decodedVin, vinResult) : null;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#141414]">
+    <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
       <Header />
 
       {/* ── Hero ── */}

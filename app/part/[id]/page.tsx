@@ -78,14 +78,23 @@ export default async function PartPage({
       notes,
       vehicles:vehicle_id (
         id, make, model, series, grade, trim_code, year_from, year_to,
-        engine_code, engine_litres, engine_config, fuel_type
+        month_from, month_to, engine_code, engine_litres, engine_config, fuel_type
       )
     `)
     .in("part_id", allPartIds);
 
+  // Deduplicate fitments: same vehicle + part + position + notes
+  const dedupSet = new Set<string>();
+  const dedupedFitments = (fitments ?? []).filter((f: any) => {
+    const k = `${(f as any).vehicles?.id}-${f.part_id}-${f.position ?? ""}-${f.notes ?? ""}`;
+    if (dedupSet.has(k)) return false;
+    dedupSet.add(k);
+    return true;
+  });
+
   // Group fitments by make
   const fitsByMake: Record<string, any[]> = {};
-  for (const f of fitments ?? []) {
+  for (const f of dedupedFitments) {
     const v = (f as any).vehicles;
     if (!v) continue;
     if (!fitsByMake[v.make]) fitsByMake[v.make] = [];

@@ -202,6 +202,9 @@ const PART_TYPE_CATEGORY = {
   'Coolant Pipe':                             14,
   'Cap, coolant tank':                        14,
   'Cap, radiator':                            14,
+  // Heater control valves (separate from hoses and water pumps)
+  'Heater Control Valve':                     52, // Heater Control Valve (category_id=52)
+  'Coolant Control Valve':                    52,
   // Fuel
   'Fuel Hose':                                41, // Fuel
   'Cap, fuel tank':                           41,

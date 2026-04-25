@@ -52,7 +52,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
 
   if (error || !v) {
     return (
-      <div className="min-h-screen flex flex-col bg-[#141414]">
+      <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
         <Header />
         <main className="flex-1 bg-white flex items-center justify-center">
           <p className="text-gray-400">Vehicle not found.</p>
@@ -64,7 +64,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
   const specs = (v.specs as Record<string, any>) ?? {};
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#141414]">
+    <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
       <Header />
 
       <main className="flex-1 bg-white">

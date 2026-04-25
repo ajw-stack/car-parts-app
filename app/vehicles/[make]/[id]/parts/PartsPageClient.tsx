@@ -3,6 +3,47 @@
 import { useState } from "react";
 import Link from "next/link";
 
+// Maps DB category names → display group
+const CATEGORY_GROUPS: Record<string, string> = {
+  "Brake Rotor": "Brakes", "Brake Rotors": "Brakes", "Brake discs": "Brakes",
+  "Brake Pad": "Brakes", "Brake Pads": "Brakes", "Brake Pad Set": "Brakes",
+  "Brake pads": "Brakes", "Brake pad accessories": "Brakes",
+  "Brake Shoe": "Brakes", "Brake Shoe Set": "Brakes", "Brake Shoe Sets": "Brakes",
+  "Shoes": "Brakes", "Park Brake Shoe Set": "Brakes",
+  "Brake Drum": "Brakes", "Brake Drums": "Brakes", "Drums": "Brakes",
+  "Brake Calipers": "Brakes", "Caliper": "Brakes", "LCV calipers": "Brakes", "LCV caliper bracket": "Brakes",
+  "Brake Hose": "Brakes", "Brake Hose Set": "Brakes", "Brake Hoses": "Brakes", "Brake Lines & Hoses": "Brakes",
+  "High Performance Brake Kit": "Brakes", "UPGRADE GT kit": "Brakes", "Disc and Pad Kit": "Brakes",
+  "Brake Upgrade Kits": "Brakes",
+  "Master Cylinder": "Brakes", "Master Cylinders": "Brakes",
+  "Brake Booster": "Brakes", "Brakes": "Brakes",
+  "Brake Fluid": "Oils & Fluids",
+  "Water Pump": "Cooling", "Thermostat": "Cooling", "Radiator Hoses": "Cooling",
+  "Heater Hose": "Cooling", "Radiator Hose": "Cooling", "Coolant Pipe": "Cooling",
+  "Cap, coolant tank": "Cooling", "Cap, radiator": "Cooling",
+  "Heater Control Valve": "Cooling", "Coolant Control Valve": "Cooling",
+  "Timing Belt Kit": "Engine", "Timing Belt": "Engine", "Drive Belts": "Engine",
+  "V-Belt": "Engine", "V-ribbed Belt": "Engine",
+  "Gasket": "Engine", "Seal": "Engine",
+  "Oil Filters": "Filters", "Oil Filter": "Filters",
+  "Air Filter": "Filters", "Fuel Filter": "Filters",
+  "Cabin Filter": "Filters", "Transmission Filter": "Filters",
+  "Spark Plug": "Ignition", "Glow Plug": "Ignition",
+  "Engine Oil": "Oils & Fluids",
+  "Differential Oil": "Oils & Fluids",
+  "Automatic Trans Fluid": "Oils & Fluids", "Automatic Transmission Fluid": "Oils & Fluids",
+  "Manual Transmission Oil": "Oils & Fluids", "Manual Trans Oil": "Oils & Fluids",
+  "Power Steering Fluid": "Oils & Fluids",
+  "Engine Coolant/Antifreeze Fluid": "Oils & Fluids", "Engine Coolant": "Oils & Fluids", "Coolant": "Oils & Fluids",
+  "Intake System Cleaner": "Oils & Fluids",
+  "Suspension": "Suspension & Steering",
+  "Battery": "Electrical", "Alternator": "Electrical", "Starter Motor": "Electrical",
+};
+
+function getGroup(categoryName: string): string {
+  return CATEGORY_GROUPS[categoryName] ?? "Other";
+}
+
 type Part = {
   id: string;
   brand: string;
@@ -22,16 +63,37 @@ export default function PartsPageClient({
   makeSlug: string;
   vehicleId: string;
 }) {
-  // Build sorted category list
-  const categories = Array.from(
+  // Build sorted category list with groups
+  const categoryList = Array.from(
     parts.reduce((map, p) => {
       if (!map.has(p.category_name)) map.set(p.category_name, p.sort_order);
       return map;
     }, new Map<string, number>())
   ).sort((a, b) => a[1] - b[1]).map(([name]) => name);
 
-  // null = Show All
+  // Group categories
+  const grouped: Record<string, string[]> = {};
+  for (const cat of categoryList) {
+    const g = getGroup(cat);
+    if (!grouped[g]) grouped[g] = [];
+    grouped[g].push(cat);
+  }
+  const groupOrder = ["Brakes", "Cooling", "Engine", "Oils & Fluids", "Filters",
+    "Ignition", "Drivetrain", "Suspension & Steering", "Electrical", "Other"];
+  const sortedGroups = Object.keys(grouped).sort(
+    (a, b) => (groupOrder.indexOf(a) + 1 || 99) - (groupOrder.indexOf(b) + 1 || 99)
+  );
+
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [openGroups, setOpenGroups] = useState<Set<string>>(new Set(sortedGroups));
+
+  function toggleGroup(g: string) {
+    setOpenGroups(prev => {
+      const next = new Set(prev);
+      if (next.has(g)) next.delete(g); else next.add(g);
+      return next;
+    });
+  }
 
   const visibleParts = activeCategory === null
     ? parts
@@ -42,18 +104,18 @@ export default function PartsPageClient({
   return (
     <div className="flex gap-6 items-start">
 
-      {/* Left sidebar — categories */}
+      {/* Left sidebar — hierarchical categories */}
       <aside className="w-56 shrink-0 sticky top-6">
         <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
           <div className="bg-[#141414] px-4 py-3">
             <p className="text-xs font-semibold text-white uppercase tracking-wide">Categories</p>
           </div>
-          <nav className="divide-y divide-gray-100">
+          <nav>
 
             {/* Show All */}
             <button
               onClick={() => setActiveCategory(null)}
-              className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors ${
+              className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors border-b border-gray-100 ${
                 activeCategory === null
                   ? "bg-[#b40102] text-white font-semibold"
                   : "text-gray-700 hover:bg-gray-50"
@@ -65,24 +127,51 @@ export default function PartsPageClient({
               </span>
             </button>
 
-            {categories.map((cat) => {
-              const count = parts.filter((p) => p.category_name === cat).length;
-              const active = cat === activeCategory;
+            {/* Grouped categories */}
+            {sortedGroups.map((group) => {
+              const cats = grouped[group];
+              const groupCount = cats.reduce((n, cat) => n + parts.filter(p => p.category_name === cat).length, 0);
+              const isOpen = openGroups.has(group);
               return (
-                <button
-                  key={cat}
-                  onClick={() => setActiveCategory(cat)}
-                  className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors ${
-                    active
-                      ? "bg-[#b40102] text-white font-semibold"
-                      : "text-gray-700 hover:bg-gray-50"
-                  }`}
-                >
-                  <span>{cat}</span>
-                  <span className={`text-xs rounded-full px-1.5 py-0.5 ${active ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}>
-                    {count}
-                  </span>
-                </button>
+                <div key={group} className="border-b border-gray-100 last:border-b-0">
+                  {/* Group heading */}
+                  <button
+                    onClick={() => toggleGroup(group)}
+                    className="w-full text-left px-4 py-2.5 flex items-center justify-between bg-gray-50 hover:bg-gray-100 transition-colors"
+                  >
+                    <span className="text-xs font-semibold uppercase tracking-wide text-gray-500">{group}</span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-xs text-gray-400">{groupCount}</span>
+                      <span className="text-gray-400 text-xs">{isOpen ? "▲" : "▼"}</span>
+                    </span>
+                  </button>
+
+                  {/* Sub-categories */}
+                  {isOpen && (
+                    <div className="divide-y divide-gray-50">
+                      {cats.map((cat) => {
+                        const count = parts.filter((p) => p.category_name === cat).length;
+                        const active = cat === activeCategory;
+                        return (
+                          <button
+                            key={cat}
+                            onClick={() => setActiveCategory(cat)}
+                            className={`w-full text-left pl-6 pr-4 py-2.5 text-sm flex items-center justify-between transition-colors ${
+                              active
+                                ? "bg-[#b40102] text-white font-semibold"
+                                : "text-gray-700 hover:bg-gray-50"
+                            }`}
+                          >
+                            <span>{cat}</span>
+                            <span className={`text-xs rounded-full px-1.5 py-0.5 ${active ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}>
+                              {count}
+                            </span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
               );
             })}
           </nav>
