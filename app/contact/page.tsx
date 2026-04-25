@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function ContactPage() {
   return (
@@ -11,12 +12,7 @@ export default function ContactPage() {
           <p className="mt-2 text-sm text-[#374151]">Get in touch with us.</p>
         </div>
       </main>
-
-      <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
-        <div className="mx-auto max-w-5xl text-center">
-          © 2026 Elroco. All rights reserved.
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

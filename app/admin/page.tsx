@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState, forwardRef } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { supabase } from "../lib/supabaseClient";
 import { useRouter } from "next/navigation";
 
@@ -1149,11 +1150,7 @@ options={Array.from(
       </div>
     </main>
 
-    <footer className="bg-[#0F0F0F] text-white text-center py-6 mt-auto">
-      <p className="text-sm">
-        © 2026 Elroco. All rights reserved.
-      </p>
-    </footer>
+    <Footer />
   </div>
 )
 }

@@ -1,5 +1,6 @@
 import { supabaseServer } from "../../lib/supabaseServer";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import { notFound } from "next/navigation";
 import PartDetailClient from "./PartDetailClient";
 import ImageCarousel from "./ImageCarousel";
@@ -164,10 +165,7 @@ export default async function PartPage({
           </div>
         </div>
       </main>
-
-      <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Elroco
-      </footer>
+      <Footer />
     </div>
   );
 }

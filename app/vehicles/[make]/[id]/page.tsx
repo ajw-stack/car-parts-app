@@ -1,5 +1,6 @@
 import { supabaseServer } from "../../../lib/supabaseServer";
 import Header from "../../../components/Header";
+import Footer from "../../../components/Footer";
 import VehicleDetailClient from "./VehicleDetailClient";
 
 function Row({ label, value }: { label: string; value?: string | number | null }) {
@@ -255,10 +256,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           </Section>
         </div>
       </main>
-
-      <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Elroco
-      </footer>
+      <Footer />
     </div>
   );
 }

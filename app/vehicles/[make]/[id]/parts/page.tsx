@@ -1,5 +1,6 @@
 import { supabaseServer } from "../../../../lib/supabaseServer";
 import Header from "../../../../components/Header";
+import Footer from "../../../../components/Footer";
 import PartsPageClient from "./PartsPageClient";
 
 export const revalidate = 60;
@@ -93,10 +94,7 @@ export default async function VehiclePartsPage({
 
         </div>
       </main>
-
-      <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Elroco
-      </footer>
+      <Footer />
     </div>
   );
 }

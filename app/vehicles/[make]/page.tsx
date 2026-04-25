@@ -1,5 +1,6 @@
 import { supabaseServer } from "../../lib/supabaseServer";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import { MAKES_CONFIG, slugToMake } from "../../lib/makes";
 import { notFound } from "next/navigation";
 import VehicleModelList from "./VehicleModelList";
@@ -84,10 +85,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
           />
         </div>
       </main>
-
-      <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Elroco
-      </footer>
+      <Footer />
     </div>
   );
 }

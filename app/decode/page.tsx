@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { lookupWMI, vinCountry } from "../lib/wmi";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -635,10 +636,7 @@ export default function DecodePage() {
 
         </div>
       </main>
-
-      <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Elroco
-      </footer>
+      <Footer />
     </div>
   );
 }

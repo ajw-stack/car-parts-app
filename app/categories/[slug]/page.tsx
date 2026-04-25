@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import { supabaseServer } from "../../lib/supabaseServer";
 import { getCategoryBySlug, getDbNames } from "../../lib/categories";
 
@@ -99,12 +100,7 @@ export default async function CategoryPage({
           </div>
         </div>
       </main>
-
-      <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
-        <div className="mx-auto max-w-5xl text-center">
-          © 2026 Elroco. All rights reserved.
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
