@@ -42,7 +42,7 @@ export default function Header() {
           </button>
 
           {/* Logo */}
-          <a href="/" className="flex items-center shrink-0 ml-16">
+          <a href="/" className="flex items-center shrink-0 ml-20">
             <span
               style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
               className="text-2xl tracking-widest uppercase text-white leading-none"
@@ -52,7 +52,7 @@ export default function Header() {
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1 flex-1">
+          <nav className="hidden md:flex items-center gap-1 ml-48">
 
             {/* Home */}
             <a
