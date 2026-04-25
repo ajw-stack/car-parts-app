@@ -31,7 +31,7 @@ export default function Header() {
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
       <header className="border-b border-[#1A1A1A] bg-[#141414] text-white">
-        <div className="mx-auto flex w-full max-w-7xl items-center gap-8 px-4 py-4">
+        <div className="flex w-full items-center gap-8 px-4 py-4">
 
           {/* Mobile hamburger */}
           <button

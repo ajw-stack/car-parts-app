@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
     <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-white">
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
+      <div className="flex w-full items-center justify-between px-4">
         <a
           href="/admin"
-          className="text-xs text-white/50 hover:text-white transition-colors"
+          className="text-sm font-semibold uppercase tracking-widest text-white/50 hover:text-white transition-colors"
         >
           Admin
         </a>
