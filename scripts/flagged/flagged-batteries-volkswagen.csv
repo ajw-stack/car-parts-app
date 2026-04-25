@@ -1,0 +1,74 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1976,1981,"#NAME?",Petrol,Wagon,"FS",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1976,1981,"#NAME?",Petrol,Wagon,"FS",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1977,1978,"#NAME?",Petrol,Sedan,"AKL",74
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1977,1978,"#NAME?",Petrol,Sedan,"AKL",74
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1976,1978,"#NAME?",Petrol,Sedan,"FS",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1976,1978,"#NAME?",Petrol,Sedan,"FS",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Coupe,"YJ, ZB",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Coupe,"YJ, ZB",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Sedan,"YJ, ZB",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Sedan,"YJ, ZB",55
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Sedan,"ZA",44
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,VW,"PASSAT",1974,1975,"#NAME?",Petrol,Sedan,"ZA",44
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1968,1973,"1.5 L Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"K",33
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1965,1973,"1.6 L Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"T,U",40
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1965,1973,"1.6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T,U",40
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1965,1973,"1.6 TL Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"T,U",40
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1965,1973,"1.6 TL Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T,U",40
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1964,1973,"1.6 L Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P",37
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1961,1973,"1.5 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"K",33
+"No matching vehicle found in DB",DIN44L MF,VW,"15,001,600",1961,1973,"1.5 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"K",33
+"No matching vehicle found in DB",03,VW,"15,001,600",1963,1965,"1.5 S Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"R",40
+"No matching vehicle found in DB",03,VW,"15,001,600",1963,1965,"1.5 S Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"R",40
+"No matching vehicle found in DB",DIN53LH AGM,VW,"ID. Buzz",2024,2026,"Electric (EBB, EBJ) Electric Motor Rear-Wheel Drive Bus",Electric Motor,Bus,"ECNA,ECNB",210
+"No matching vehicle found in DB",DIN53LH AGM,VW,"ID. Buzz",2024,2026,"Electric 4motion (EBJ) Electric Motor All-wheel Drive Bus",Electric Motor,Bus,"EDDB,ECNB",250
+"No matching vehicle found in DB",DIN53LH AGM,VW,"ID. Buzz",2024,2026,"Electric Electric Motor Rear-Wheel Drive Van",Electric Motor,Van,"ECNA",210
+"No matching vehicle found in DB",DIN53LX MF,VW,"BEETLE",1947,1953,"1.1 (Brezel) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"M5",18
+"No matching vehicle found in DB",DIN53L MF,VW,"BEETLE",1947,1953,"1.1 (Brezel) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"M5",18
+"No matching vehicle found in DB",03,VW,"BEETLE",1947,1953,"1.1 (Brezel) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"M5",18
+"No matching vehicle found in DB",DIN65LH AGM,VW,"CADDY CALIFORNIA",2020,2026,"2.0 TDi Diesel Front-Wheel Drive MPV",Diesel,MPV,"DTRC,DXRA",90
+"No matching vehicle found in DB",DIN65LH EFB,VW,"CADDY CALIFORNIA",2020,2026,"2.0 TDi Diesel Front-Wheel Drive MPV",Diesel,MPV,"DTRC,DXRA",90
+"No matching vehicle found in DB",DIN53LH AGM,VW,"CADDY CALIFORNIA",2021,2024,"1.5 TSi EVO Petrol Front-Wheel Drive MPV",Petrol,MPV,"DPBC",84
+"No matching vehicle found in DB",DIN53LH EFB,VW,"CADDY CALIFORNIA",2021,2024,"1.5 TSi EVO Petrol Front-Wheel Drive MPV",Petrol,MPV,"DPBC",84
+"No matching vehicle found in DB",DIN85LH AGM,VW,"CRAFTER 30-35",2006,2012,"2.5 TDI Diesel Rear-Wheel Drive Bus",Diesel,Bus,"CECA,BJL",100
+"No matching vehicle found in DB",DIN85LHX MF,VW,"CRAFTER 30-35",2006,2012,"2.5 TDI Diesel Rear-Wheel Drive Bus",Diesel,Bus,"CECA,BJL",100
+"No matching vehicle found in DB",DIN65LHX MF,VW,"CRAFTER 30-35",2006,2012,"2.5 TDI Diesel Rear-Wheel Drive Bus",Diesel,Bus,"CECA,BJL",100
+"No matching vehicle found in DB",DIN53LHX MF,VW,"GOLF",1978,1982,"1.5 D Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"CK",37
+"No matching vehicle found in DB",DIN53LH MF,VW,"GOLF",1978,1982,"1.5 D Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"CK",37
+"No matching vehicle found in DB",DIN44LH AGM,VW,"ID.4",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN44LH EFB,VW,"ID.4",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",LN1 MF,VW,"ID.4",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN44LH AGM,VW,"ID.4",2023,2026,"PRO Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44LH EFB,VW,"ID.4",2023,2026,"PRO Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",LN1 MF,VW,"ID.4",2023,2026,"PRO Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44LH AGM,VW,"ID.5",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN44LH EFB,VW,"ID.5",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",LN1 MF,VW,"ID.5",2023,2026,"GTX 4motion Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN44LH AGM,VW,"ID.5",2023,2026,"Pro Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44LH EFB,VW,"ID.5",2023,2026,"Pro Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",LN1 MF,VW,"ID.5",2023,2026,"Pro Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44L MF,VW,"KARMANN GHIA",1966,1969,"1500 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"H",32
+"No matching vehicle found in DB",DIN44L MF,VW,"KARMANN GHIA",1966,1969,"1500 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"H",32
+"No matching vehicle found in DB",NS60LSX MF,VW,"KARMANN GHIA",1960,1965,"1200 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"D",25
+"No matching vehicle found in DB",NS60LS MF,VW,"KARMANN GHIA",1960,1965,"1200 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"D",25
+"No matching vehicle found in DB",DIN44L MF,VW,"KARMANN GHIA",1960,1964,"1200 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"D",25
+"No matching vehicle found in DB",DIN53LX MF,VW,"KARMANN GHIA",1955,1960,"1200 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"A",22
+"No matching vehicle found in DB",DIN53L MF,VW,"KARMANN GHIA",1955,1960,"1200 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"A",22
+"No matching vehicle found in DB",DIN65LHX MF,VW,"NEW BEETLE",2005,2010,"1.9 TDI Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"BSW",77
+"No matching vehicle found in DB",DIN65LH MF,VW,"NEW BEETLE",2005,2010,"1.9 TDI Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"BSW",77
+"No matching vehicle found in DB",DIN53LHX MF,VW,"NEW BEETLE",2002,2010,"1.8 T Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AVC,AWU",110
+"No matching vehicle found in DB",DIN53LH MF,VW,"NEW BEETLE",2002,2010,"1.8 T Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AVC,AWU",110
+"No matching vehicle found in DB",DIN85LHX MF,VW,"TRANSPORTER",1995,1999,"2.4 D Syncro Diesel All-wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"AAB",57
+"No matching vehicle found in DB",DIN85LH MF,VW,"TRANSPORTER",1995,1999,"2.4 D Syncro Diesel All-wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"AAB",57
+"No matching vehicle found in DB",DIN85LHX MF,VW,"TRANSPORTER",1994,1999,"2.4 D Diesel Front-Wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"AAB",57
+"No matching vehicle found in DB",DIN85LH MF,VW,"TRANSPORTER",1994,1999,"2.4 D Diesel Front-Wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"AAB",57
+"No matching vehicle found in DB",DIN110LHAGM,VW,"TOUAREG",2023,2026,"3.0 R 4motion Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"EALD,DCBE",340
+"No matching vehicle found in DB",DIN85LH AGM,VW,"TOUAREG",2023,2026,"3.0 R 4motion Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"EALD,DCBE",340
+"No matching vehicle found in DB",DIN75LH AGM,VW,"TOUAREG",2023,2026,"3.0 R 4motion Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"EALD,DCBE",340
+"No matching vehicle found in DB",DIN85LHX MF,VW,"TRANSPORTER / CARAVELLE",1995,1999,"2.4 D Syncro Diesel All-wheel Drive Bus",Diesel,Bus,"AAB",57
+"No matching vehicle found in DB",DIN85LH MF,VW,"TRANSPORTER / CARAVELLE",1995,1999,"2.4 D Syncro Diesel All-wheel Drive Bus",Diesel,Bus,"AAB",57
+"No matching vehicle found in DB",DIN85LHX MF,VW,"TRANSPORTER / CARAVELLE",1990,1998,"2.4 D Diesel Front-Wheel Drive Bus",Diesel,Bus,"AAB",57
+"No matching vehicle found in DB",DIN85LH MF,VW,"TRANSPORTER / CARAVELLE",1990,1998,"2.4 D Diesel Front-Wheel Drive Bus",Diesel,Bus,"AAB",57
+"No matching vehicle found in DB",DIN65LHX MF,VW,"TRANSPORTER / CARAVELLE",1981,1987,"1.6 D Diesel Rear-Wheel Drive Bus",Diesel,Bus,"CS",37
+"No matching vehicle found in DB",DIN65LH MF,VW,"TRANSPORTER / CARAVELLE",1981,1987,"1.6 D Diesel Rear-Wheel Drive Bus",Diesel,Bus,"CS",37

@@ -100,7 +100,7 @@ export default function RedBorderLine() {
       <path
         ref={lineRef}
         d=""
-        stroke="#CC0000"
+        stroke="#E8000D"
         strokeWidth="2.25"
         strokeLinecap="butt"
         fill="none"

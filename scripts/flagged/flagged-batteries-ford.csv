@@ -1,0 +1,1248 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1974,1985,"#NAME?",Petrol,Platform/Chassis,"250 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1974,1985,"#NAME?",Petrol,Platform/Chassis,"250 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1979,1984,"#NAME?",Petrol,Platform/Chassis,"250 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1979,1984,"#NAME?",Petrol,Platform/Chassis,"250 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1975,1977,"#NAME?",Petrol,Platform/Chassis,"302 cu.in Cleveland",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1975,1977,"#NAME?",Petrol,Platform/Chassis,"302 cu.in Cleveland",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1975,1977,"#NAME?",Petrol,Platform/Chassis,"302 cu.in Cleveland",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1975,1977,"#NAME?",Petrol,Platform/Chassis,"302 cu.in Cleveland",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1965,1974,"#NAME?",Petrol,Platform/Chassis,"240 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1965,1974,"#NAME?",Petrol,Platform/Chassis,"240 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1966,1966,"#NAME?",Petrol,Platform/Chassis,"223 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1966,1966,"#NAME?",Petrol,Platform/Chassis,"223 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70LX MF,FORD,"F-250",1965,1965,"#NAME?",Petrol,Platform/Chassis,"223 cu.in",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70L MF,FORD,"F-250",1965,1965,"#NAME?",Petrol,Platform/Chassis,"223 cu.in",0
+"No matching vehicle found in DB",43,FORD,"ANGLIA",1960,1965,"105E 1.0 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"LK",29
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1995,1996,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"98H",157
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1995,1996,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"98H",157
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1991,1994,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"N",138
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1991,1994,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"N",138
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1991,1992,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"96Y",108
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1991,1992,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"96Y",108
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1986,1991,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"94Y",108
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1986,1991,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"94Y",108
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1986,1991,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"N",138
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1986,1991,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"N",138
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1986,1991,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"98H",157
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1986,1991,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"98H",157
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1985,1990,"2.9 i V6 4x4 Petrol All-wheel Drive SUV",Petrol,SUV,"96M",104
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1985,1990,"2.9 i V6 4x4 Petrol All-wheel Drive SUV",Petrol,SUV,"96M",104
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1985,1990,"2.9 Petrol Rear-Wheel Drive SUV",Petrol,SUV,"96M",104
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1985,1990,"2.9 Petrol Rear-Wheel Drive SUV",Petrol,SUV,"96M",104
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1985,1987,"4.9 302ci 4x4 Petrol All-wheel Drive",Petrol,,"98N",140
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1985,1987,"4.9 302ci 4x4 Petrol All-wheel Drive",Petrol,,"98N",140
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1981,1987,"4.1 250ci 4x4 Petrol All-wheel Drive",Petrol,,"250ci",127
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1981,1987,"4.1 250ci 4x4 Petrol All-wheel Drive",Petrol,,"250ci",127
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1983,1986,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"",157
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1983,1986,"5.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"",157
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1979,1986,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"94E",89
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1979,1986,"4.9 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"94E",89
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1983,1985,"2.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"96K",86
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1983,1985,"2.8 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"96K",86
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1981,1985,"5.8 351ci 4x4 Petrol All-wheel Drive",Petrol,,"98H",157
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1981,1985,"5.8 351ci 4x4 Petrol All-wheel Drive",Petrol,,"98H",157
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1979,1984,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"",99
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1979,1984,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"",99
+"No matching vehicle found in DB",68 MF,FORD,"BRONCO",1974,1977,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"30250",93
+"No matching vehicle found in DB",58 MF,FORD,"BRONCO",1974,1977,"5.0 4WD Petrol All-wheel Drive SUV",Petrol,SUV,"30250",93
+"No matching vehicle found in DB",68 MF,FORD,"CAPRI",1973,1974,"3.0 GT Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV30HYU",103
+"No matching vehicle found in DB",58 MF,FORD,"CAPRI",1973,1974,"3.0 GT Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV30HYU",103
+"No matching vehicle found in DB",43,FORD,"CAPRI",1972,1974,"1.6 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"",53
+"No matching vehicle found in DB",68 MF,FORD,"CAPRI",1972,1974,"3.0 RS3000 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV30HYU",101
+"No matching vehicle found in DB",58 MF,FORD,"CAPRI",1972,1974,"3.0 RS3000 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV30HYU",101
+"No matching vehicle found in DB",43,FORD,"CAPRI",1970,1974,"3.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV30LY",94
+"No matching vehicle found in DB",43,FORD,"CAPRI",1969,1974,"1.6 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"TV16H",60
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i (SGMD) Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (12 V)",68
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i (SGMD) Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (12 V)",68
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i (SGMD) Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (12 V)",68
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (8 V)",67
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (8 V)",67
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",2003,2006,"JH 1.8 i Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (8 V)",67
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",2003,2006,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",71
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",2003,2006,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",71
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",2003,2006,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",71
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",2000,2003,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",2000,2003,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",2000,2003,"JH 2.0 i Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",63
+"No matching vehicle found in DB",75D23L MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1997,2000,"JG 2.0 Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1985,1997,"2.0 Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1985,1997,"2.0 Petrol Rear-Wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1984,1997,"1.8 Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (8 V)",59
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1984,1997,"1.8 Petrol Rear-Wheel Drive Van",Petrol,Van,"F8 (8 V)",59
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1985,1993,"2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1985,1993,"2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1986,1988,"2.0 4x4 Petrol All-wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1986,1988,"2.0 4x4 Petrol All-wheel Drive Van",Petrol,Van,"FE",63
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1984,1985,"1.4 (SLMB) Petrol Rear-Wheel Drive Van",Petrol,Van,"UC",36
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1984,1985,"1.4 (SLMB) Petrol Rear-Wheel Drive Van",Petrol,Van,"UC",36
+"No matching vehicle found in DB",NS40ZLX MF,FORD,"ECONOVAN",1979,1984,"1.6 Petrol Rear-Wheel Drive Van",Petrol,Van,"NA",53
+"No matching vehicle found in DB",NS40ZL MF,FORD,"ECONOVAN",1979,1984,"1.6 Petrol Rear-Wheel Drive Van",Petrol,Van,"NA",53
+"No matching vehicle found in DB",DIN53LX MF,FORD,"COURIER",2005,2006,"PH 4.0 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"1V",154
+"No matching vehicle found in DB",DIN53L MF,FORD,"COURIER",2005,2006,"PH 4.0 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"1V",154
+"No matching vehicle found in DB",DIN53LX MF,FORD,"COURIER",2005,2006,"PH 4.0 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"1V",154
+"No matching vehicle found in DB",DIN53L MF,FORD,"COURIER",2005,2006,"PH 4.0 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"1V",154
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2004,2006,"PH 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",2002,2004,"PG 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",55D23R MF,FORD,"COURIER",1999,2002,"PE 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1996,1999,"PD 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1996,1999,"PD 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1991,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1991,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1991,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1991,1996,"PC 2.6 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1990,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1990,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1990,1996,"PC 2.6 i 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G6",92
+"No matching vehicle found in DB",NS70X MF,FORD,"COURIER",1989,1993,"PC 2.2 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F2 (12 V)",68
+"No matching vehicle found in DB",NS70 MF,FORD,"COURIER",1989,1993,"PC 2.2 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F2 (12 V)",68
+"No matching vehicle found in DB",NS70X MF,FORD,"COURIER",1989,1993,"PC 2.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"F2 (12 V)",68
+"No matching vehicle found in DB",NS70 MF,FORD,"COURIER",1989,1993,"PC 2.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"F2 (12 V)",68
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1989,1992,"PC 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1989,1992,"PC 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",92
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1989,1992,"PC 2.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"FE",92
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1989,1992,"PC 2.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"FE",92
+"No matching vehicle found in DB",75D23R MF,FORD,"COURIER",1987,1992,"PC 2.6 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"4G54",73
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1987,1992,"PC 2.6 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"4G54",73
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1987,1992,"PC 2.6 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"4G54",73
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1988,1989,"PC 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",84
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1988,1989,"PC 2.0 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"FE",84
+"No matching vehicle found in DB",67 MF,FORD,"COURIER",1985,1989,"PC 2.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"FE",84
+"No matching vehicle found in DB",57 MF,FORD,"COURIER",1985,1989,"PC 2.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"FE",84
+"No matching vehicle found in DB",NS40Z MF,FORD,"COURIER",1982,1985,"2.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MA",58
+"No matching vehicle found in DB",NS40Z MF,FORD,"COURIER",1978,1982,"1.8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"VC",59
+"No matching vehicle found in DB",DIN65L EFB,FORD,"ECOSPORT",2017,2019,"BL,BK 1.5 Ti-VCT Petrol Front-Wheel Drive SUV",Petrol,SUV,"XZJF",90
+"No matching vehicle found in DB",DIN53LX MF,FORD,"ECOSPORT",2017,2019,"BL,BK 1.5 Ti-VCT Petrol Front-Wheel Drive SUV",Petrol,SUV,"XZJF",90
+"No matching vehicle found in DB",DIN44L MF,FORD,"ECOSPORT",2017,2019,"BL,BK 1.5 Ti-VCT Petrol Front-Wheel Drive SUV",Petrol,SUV,"XZJF",90
+"No matching vehicle found in DB",DIN65L EFB,FORD,"ECOSPORT",2013,2019,"BL,BK 1.0 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M1JC",92
+"No matching vehicle found in DB",DIN53LX MF,FORD,"ECOSPORT",2013,2019,"BL,BK 1.0 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M1JC",92
+"No matching vehicle found in DB",DIN44L MF,FORD,"ECOSPORT",2013,2019,"BL,BK 1.0 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M1JC",92
+"No matching vehicle found in DB",DIN65L EFB,FORD,"ECOSPORT",2013,2017,"BL,BK 1.5 Petrol Front-Wheel Drive SUV",Petrol,SUV,"UEJB",82
+"No matching vehicle found in DB",DIN53LX MF,FORD,"ECOSPORT",2013,2017,"BL,BK 1.5 Petrol Front-Wheel Drive SUV",Petrol,SUV,"UEJB",82
+"No matching vehicle found in DB",DIN44L MF,FORD,"ECOSPORT",2013,2017,"BL,BK 1.5 Petrol Front-Wheel Drive SUV",Petrol,SUV,"UEJB",82
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"ENDURA",2018,2019,"CA 2.0 AWD Diesel All-wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN75LHX MF,FORD,"ENDURA",2018,2019,"CA 2.0 AWD Diesel All-wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN75LH MF,FORD,"ENDURA",2018,2019,"CA 2.0 AWD Diesel All-wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"ENDURA",2018,2019,"CA 2.0 Diesel Front-Wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN75LHX MF,FORD,"ENDURA",2018,2019,"CA 2.0 Diesel Front-Wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN75LH MF,FORD,"ENDURA",2018,2019,"CA 2.0 Diesel Front-Wheel Drive",Diesel,,"BCCA,BCCB",140
+"No matching vehicle found in DB",DIN53LX MF,FORD,"ESCORT",1986,1990,"ALF 1.6 XR3i Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"LR2,LRB",77
+"No matching vehicle found in DB",DIN53L MF,FORD,"ESCORT",1986,1990,"ALF 1.6 XR3i Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"LR2,LRB",77
+"No matching vehicle found in DB",43,FORD,"ESCORT",1968,1974,"1.1 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"G1",32
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"EXPEDITION",2017,2026,"U553 3.5 Ti-VCT EcoBoost Petrol Rear-Wheel Drive SUV",Petrol,SUV,"T35PDTD",261
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",2001,2008,"U_ 4.0 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",157
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",2001,2008,"U_ 4.0 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",157
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",2001,2008,"U_ 4.0 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",157
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",2001,2008,"U_ 4.6 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"99WA",178
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",2001,2008,"U_ 4.6 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"99WA",178
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",2001,2008,"U_ 4.6 (UT, UX, UZ) Petrol All-wheel Drive SUV",Petrol,SUV,"99WA",178
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",2001,2003,"U_ 4.0 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",153
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",2001,2003,"U_ 4.0 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",153
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",2001,2003,"U_ 4.0 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",153
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",2001,2003,"U_ 4.6 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"",175
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",2001,2003,"U_ 4.6 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"",175
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",2001,2003,"U_ 4.6 (UT) Petrol All-wheel Drive SUV",Petrol,SUV,"",175
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP) Petrol All-wheel Drive SUV",Petrol,SUV,"99X",119
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP) Petrol All-wheel Drive SUV",Petrol,SUV,"99X",119
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP) Petrol All-wheel Drive SUV",Petrol,SUV,"99X",119
+"No matching vehicle found in DB",N65D MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP, UQ, US) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",152
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP, UQ, US) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",152
+"No matching vehicle found in DB",DIN65RH MF,FORD,"EXPLORER",1996,2001,"U_ 4.0 (UN, UP, UQ, US) Petrol All-wheel Drive SUV",Petrol,SUV,"T40VSEX",152
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2007,2010,"5.4 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2007,2008,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2007,2008,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2003,2007,"5.4 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2003,2007,"5.4 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2003,2007,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",2003,2007,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1998,2003,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99W1",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1998,2003,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99W1",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1996,2003,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",191
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1996,2003,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99Z1",185
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1996,2003,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L4",191
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1996,1998,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99646",162
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1996,1998,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99646",162
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1992,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",106
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1996,"4.9 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1996,"4.9 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1996,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1996,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1995,"7.3 V8 All-wheel Drive Diesel All-wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1991,1995,"7.3 V8 Diesel Rear-Wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-250",1987,1991,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"G",170
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1991,"4.9 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1991,"4.9 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1991,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",110
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1991,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",110
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1991,"4.9 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1991,"4.9 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1988,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1988,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1988,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1988,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1986,1988,"7.5 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1986,1988,"7.5 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1982,1986,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1982,1986,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1982,1986,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1982,1986,"7.5 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1982,1986,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1982,1986,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70LX MF,FORD,"F-250",1982,1986,"7.5 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",NS70L MF,FORD,"F-250",1982,1986,"7.5 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"46075",168
+"No matching vehicle found in DB",DIN85LH AGM,FORD,"F-150",2021,2026,"3.0 TDCi 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"",186
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2021,2026,"3.5 EcoBoost 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",298
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2021,2026,"3.5 EcoBoost 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",298
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2021,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",298
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2021,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",298
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2018,2026,"5.0 Ti-VCT 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",295
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2018,2026,"5.0 Ti-VCT 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",295
+"No matching vehicle found in DB",DIN85LH AGM,FORD,"F-150",2017,2026,"3.0 TDCi 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T30DDTX",186
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2017,2026,"3.5 Ecoboost 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",287
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2017,2026,"3.5 Ecoboost 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",287
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2017,2026,"3.5 Raptor 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",336
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2017,2026,"3.5 Raptor 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",336
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2016,2026,"3.5 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",280
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2016,2026,"3.5 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",280
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2014,2026,"3.5 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",272
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2014,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"C50SDEM, T50SDEM",287
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2014,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"C50SDEM, T50SDEM",287
+"No matching vehicle found in DB",YTX9-BS,FORD,"F-150",2014,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"C50SDEM, T50SDEM",287
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2014,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",287
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2014,2026,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T50SDEM",287
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"F-150",2014,2026,"5.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"T50SDEM",287
+"No matching vehicle found in DB",DIN65LH AGM,FORD,"F-150",2014,2026,"5.0 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"T50SDEM",287
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2012,2014,"5.0 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"99F",268
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2010,2014,"3.5 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"T35PDTD",272
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2010,2014,"6.2 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"C62RSEM",306
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2007,2008,"4.2 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"992",157
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2007,2008,"5.4 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2007,2008,"5.4 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2007,2008,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2007,2008,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2004,2007,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.2 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"992",157
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"992",157
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.6 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99W",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"999",248
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99W",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2003,2007,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99W",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2001,2003,"5.4 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"9931",280
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",2001,2003,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"9931",280
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2003,"4.6 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99W",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2003,"4.6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99W",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2003,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2003,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",170
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"4.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"992",148
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"5.4 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"99Z1",185
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"5.4 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99Z1",185
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99Z1",185
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99Z1",185
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"7.3 V8 All-wheel Drive Diesel All-wheel Drive Ute",Diesel,Ute,"J",154
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,2003,"7.3 V8 Diesel Rear-Wheel Drive Ute",Diesel,Ute,"J",154
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2001,"4.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"992",157
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2001,"4.6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99W1",164
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1998,2001,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99W1",164
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1997,1998,"4.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"992",150
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1997,1998,"4.2 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"992",150
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1997,1998,"4.6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99646",154
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1997,1998,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99646",154
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,1998,"4.6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99646",162
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,1998,"4.6 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"99646",162
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1996,1998,"4.6 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99646",162
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1993,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"94Y",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1993,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"94Y",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1992,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",106
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1992,1996,"4.9 XL Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",106
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99YCR",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"4.9 Supercab Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"4.9 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"4.9 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"5.8 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"98H",149
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1991,1996,"5.8 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"98H",149
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1990,1991,"5.8 EFI V8 4X4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"98H",144
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1990,1991,"5.8 EFI V8 4X4 Petrol All-wheel Drive Ute",Petrol,Ute,"98H",144
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1990,1991,"5.8 EFI V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"98H",144
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1990,1991,"5.8 EFI V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"98H",144
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1986,1991,"4.9 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1986,1991,"4.9 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",110
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1987,1990,"5.0 EFI V8 4X4 Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"T (MPFI)",126
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1987,1990,"5.0 EFI V8 4X4 Petrol All-wheel Drive Ute",Petrol,Ute,"T (MPFI)",126
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1987,1990,"5.0 EFI V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"T (MPFI)",126
+"No matching vehicle found in DB",N65D MF,FORD,"F-150",1987,1990,"5.0 EFI V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"T (MPFI)",126
+"No matching vehicle found in DB",N65D MF,FORD,"F-250 SUPER DUTY",2012,2026,"F2A,F2B 6.7 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T67DVTX",298
+"No matching vehicle found in DB",N65D MF,FORD,"F-250 SUPER DUTY",1998,2004,"5.4 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250 SUPER DUTY",1998,2004,"5.4 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-250 SUPER DUTY",1998,2004,"5.4 4WD Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",2007,2008,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",221
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",2007,2008,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",2007,2008,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",221
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",2007,2008,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",221
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",2003,2007,"5.4 4x4 (F31) Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",2003,2007,"5.4 4x4 (F31) Petrol All-wheel Drive Ute",Petrol,Ute,"99L4",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",2003,2007,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",194
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",2003,2007,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",194
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"5.4 (F30) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L4",191
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"5.4 (F30) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99L4",191
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",191
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"5.4 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",191
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",191
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"5.4 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",191
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"6.8 (F30) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99S1",230
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"6.8 (F30) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"99S1",230
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"6.8 V10 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",230
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"6.8 V10 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"",230
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1996,2003,"6.8 V10 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",230
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1996,2003,"6.8 V10 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"",230
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1993,1997,"7.3 TDi 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MDI",135
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1993,1997,"7.3 TDi 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MDI",135
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1993,1997,"7.3 TDi 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MDI",135
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1993,1997,"7.3 V8 All-wheel Drive Diesel All-wheel Drive Ute",Diesel,Ute,"99MDI",135
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1994,1996,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"96F",154
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1994,1996,"7.3 V8 Diesel Rear-Wheel Drive Ute",Diesel,Ute,"96F",154
+"No matching vehicle found in DB",68 MF,FORD,"F-350",1991,1996,"4.9 (F35) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",58 MF,FORD,"F-350",1991,1996,"4.9 (F35) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"4.9 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"4.9 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"N",136
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1991,1996,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1991,1996,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1991,1996,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1991,1996,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.3 V8 All-wheel Drive Diesel All-wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.3 V8 Diesel Rear-Wheel Drive Ute",Diesel,Ute,"99MI",136
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1991,1996,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1991,1996,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.5 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.5 V8 All-wheel Drive Petrol All-wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1996,"7.5 V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"G",177
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1991,1995,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1991,1995,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1995,"7.3 D 4x4 Diesel All-wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350",1991,1995,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",DIN65RH MF,FORD,"F-350",1991,1995,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1995,"7.3 D Diesel Rear-Wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1991,1995,"7.3 V8 Diesel Rear-Wheel Drive Ute",Diesel,Ute,"",140
+"No matching vehicle found in DB",N65D MF,FORD,"F-350",1988,1993,"7.3 V8 All-wheel Drive Diesel All-wheel Drive Ute",Diesel,Ute,"",132
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 i Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 245T",245
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 i Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 245T",245
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2000,2002,"AU 4.0 MPFI VCT (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2000,2002,"AU 4.0 MPFI VCT (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",2000,2002,"AU 4.0 MPFI VCT (AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",2000,2002,"AU 4.0 MPFI VCT (AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI VCT (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2002,"AU 4.0 MPFI VCT (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2000,"AU 4.0 MPFI (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2000,"AU 4.0 MPFI (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1998,2000,"AU 4.0 MPFI (AU) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1998,2000,"AU 4.0 MPFI (AU) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 MPFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"MNG,Z (MPFI)",170
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 MPFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"MNG,Z (MPFI)",170
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1996,1998,"EL 5.0 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1994,1996,"EF 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1994,1996,"EF 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1994,1996,"EF 5.0 MPFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1994,1996,"EF 5.0 MPFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",160
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",160
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1992,1993,"EB - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"3.9",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1992,1993,"EB - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"3.9",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1992,1993,"EB - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"3.9",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1992,1993,"EB - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"3.9",0
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1992,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1992,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1991,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1991,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",121
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRMONT",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRMONT",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",111
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",111
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",111
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",111
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",105
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",105
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",105
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1984,"XE 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",105
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1983,"XE 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1983,"XE 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1983,"XE 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1983,"XE 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1982,1982,"XE 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1982,1982,"XE 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1980,1982,"XD 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",84
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1980,1982,"XD 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",84
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1980,1982,"XD 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",84
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1980,1982,"XD 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",84
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci (4 Barrel)",140
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1982,"XD 5.8 V8 351ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1982,"XD 5.8 V8 351ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351ci C (4 Barrel),351ci (4 Barrel)",149
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1980,"XD 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",82
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1980,"XD 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",82
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1979,1980,"XD 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",82
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1979,1980,"XD 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",82
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",92
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (4 Barrel)",151
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1976,1979,"XC 5.8 V8 351ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"351ci C (4 Barrel)",162
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1973,1976,"XB 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1973,1976,"XB 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA - Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA - Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Cleveland",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (1 Barrel)",116
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",127
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci C (2 Barrel)",179
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 5.8 V8 351ci Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1972,1973,"XA 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1972,1973,"XA 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",194
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250 cu.in",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250 cu.in",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250 cu.in",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250 cu.in",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250 cu.in",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY - Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250 cu.in",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",165
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",165
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",165
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",165
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1970,1972,"XY 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",186
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1970,1972,"XY 5.8 V8 351ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351ci C (2 Barrel)",186
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1969,1970,"XW - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Windsor",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1969,1970,"XW - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"351 cu.in Windsor",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1969,1970,"XW 3.6 221ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci",104
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1969,1970,"XW 3.6 221ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci",104
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1969,1970,"XW 3.6 221ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"221ci",104
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1969,1970,"XW 3.6 221ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"221ci",104
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1969,1970,"XW 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",164
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1969,1970,"XW 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",164
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1969,1970,"XW 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",164
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1969,1970,"XW 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",164
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1968,1969,"XT 3.6 221ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci",101
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1968,1969,"XT 3.6 221ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci",101
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1968,1969,"XT 3.6 221ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"221ci",101
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1968,1969,"XT 3.6 221ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"221ci",101
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1968,1969,"XT 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",157
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1968,1969,"XT 4.9 V8 302ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"302ci W (2 Barrel)",157
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1968,1969,"XT 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",157
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1968,1969,"XT 4.9 V8 302ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"302ci W (2 Barrel)",157
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1967,1968,"XR 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1967,1968,"XR 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1967,1968,"XR 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1967,1968,"XR 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1967,1968,"XR 4.7 V8 289ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"289ci W (2 Barrel)",150
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1967,1968,"XR 4.7 V8 289ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"289ci W (2 Barrel)",150
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1966,1968,"XR - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"289 cu.in Windsor",0
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1966,1968,"XR - Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"289 cu.in Windsor",0
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1965,1966,"XP 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",72
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1965,1966,"XP 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",72
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1965,1966,"XP 3.2 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1965,1966,"XP 3.2 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FAIRMONT",1965,1966,"XP 3.2 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FAIRMONT",1965,1966,"XP 3.2 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (1 Barrel)",90
+"No matching vehicle found in DB",75D23L MF,FORD,"FESTIVA",1998,2001,"WF 1.3 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B3",47
+"No matching vehicle found in DB",55D23L MF,FORD,"FESTIVA",1998,2001,"WF 1.3 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B3",47
+"No matching vehicle found in DB",50D20L MF,FORD,"FESTIVA",1998,2001,"WF 1.3 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B3",47
+"No matching vehicle found in DB",75D23L MF,FORD,"FESTIVA",1998,2001,"WF 1.5 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B5 (8 V)",56
+"No matching vehicle found in DB",55D23L MF,FORD,"FESTIVA",1998,2001,"WF 1.5 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B5 (8 V)",56
+"No matching vehicle found in DB",50D20L MF,FORD,"FESTIVA",1998,2001,"WF 1.5 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B5 (8 V)",56
+"No matching vehicle found in DB",N65D MF,FORD,"F-350 SUPER DUTY",2018,2026,"6.7 TDCi 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"",354
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350 SUPER DUTY",2018,2026,"6.7 TDCi 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"",354
+"No matching vehicle found in DB",N65D MF,FORD,"F-350 SUPER DUTY",2014,2026,"6.7 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T67DVTX",328
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350 SUPER DUTY",2014,2026,"6.7 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T67DVTX",328
+"No matching vehicle found in DB",N65D MF,FORD,"F-350 SUPER DUTY",2010,2012,"6.7 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T67DVTX",291
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350 SUPER DUTY",2010,2012,"6.7 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"T67DVTX",291
+"No matching vehicle found in DB",N65D MF,FORD,"F-350 SUPER DUTY",2007,2010,"6.4 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"6.4HU2U,6.4HU2Y,T64DV0I",261
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350 SUPER DUTY",2007,2010,"6.4 D 4WD Diesel All-wheel Drive Ute",Diesel,Ute,"6.4HU2U,6.4HU2Y,T64DV0I",261
+"No matching vehicle found in DB",N65D MF,FORD,"F-350 SUPER DUTY",2000,2003,"7.3 D 4WD Diesel All-wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"K",186
+"No matching vehicle found in DB",DIN65RHX MF,FORD,"F-350 SUPER DUTY",2000,2003,"7.3 D 4WD Diesel All-wheel Drive Platform/Chassis",Diesel,Platform/Chassis,"K",186
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",2005,2007,"BF 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",2005,2007,"BF 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",2005,2007,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",2005,2007,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",2003,2005,"BA 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",2003,2005,"BA 4.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",2003,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",2003,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1999,2002,"AU 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1999,2002,"AU 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1999,2002,"AU 4.0 MPFI VCT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1999,2002,"AU 4.0 MPFI VCT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1999,2002,"AU 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1999,2002,"AU 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1996,1999,"NL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1996,1999,"NL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1996,1999,"NL 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1996,1999,"NL 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1998,1998,"NL 4.9 EFI V8 Tickford Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T (MPFI),MNG",195
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1998,1998,"NL 4.9 EFI V8 Tickford Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T (MPFI),MNG",195
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1995,1996,"NF 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1992,1995,"NC 4.0 MPFI GHIA Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1992,1995,"NC 4.0 MPFI GHIA Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1991,1995,"NC 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1991,1995,"NC 4.9 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1993,1994,"NC 4.0 MPFI GHIA SPORTSMAN Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1993,1994,"NC 4.0 MPFI GHIA SPORTSMAN Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",67EF MF,FORD,"FAIRLANE",1991,1992,"NC 3.9 MPFI GHIA Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",57EF MF,FORD,"FAIRLANE",1991,1992,"NC 3.9 MPFI GHIA Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1988,1991,"NA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1988,1991,"NA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1986,1988,"ZL 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1986,1988,"ZL 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1986,1986,"ZL 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1986,1986,"ZL 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1984,1986,"ZL 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1984,1986,"ZL 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1984,1986,"ZL 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1984,1986,"ZL 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1983,1984,"ZK 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1983,1984,"ZK 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",97
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1983,1984,"ZK 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",111
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1983,1984,"ZK 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",111
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1963,1964,"FB,FC 4.3 Compact Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"260ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1963,1964,"FB,FC 4.3 Compact Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"260ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1963,1964,"FB,FC 5.4 500 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"332ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1963,1964,"FB,FC 5.4 500 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"332ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1963,1964,"FC 5.4 Ranch Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"332ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1963,1964,"FC 5.4 Ranch Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"332ci V8 (2 Barrel)",122
+"No matching vehicle found in DB",68 MF,FORD,"FAIRLANE",1962,1963,"FB,FC 3.6 Compact Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci V8 (2 Barrel)",74
+"No matching vehicle found in DB",58 MF,FORD,"FAIRLANE",1962,1963,"FB,FC 3.6 Compact Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"221ci V8 (2 Barrel)",74
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2016,2016,"FG X 4.0 i XR6, Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA325T",325
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2016,2016,"FG X 4.0 i XR6, Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA325T",325
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2016,2016,"FG X 5.0 i V8 XR8, Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C50SD",345
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2016,2016,"FG X 5.0 i V8 XR8, Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C50SD",345
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 2.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C20HDTX",176
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 2.0 i Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C20HDTX",176
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 198",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 198",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 198",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 198",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 198",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i EcoLPI XR6/G6E Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 198",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 270T",270
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 270T",270
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6, G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6, G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6, G6E Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 i XR6, G6E Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 270T",270
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 4.0 XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 270T",270
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2014,2016,"FG X 5.0 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 335",335
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2014,2016,"FG X 5.0 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 335",335
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2012,2014,"FG 2.0 EcoBoost XT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C20HDTX",179
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2012,2014,"FG 2.0 EcoBoost XT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"C20HDTX",179
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2011,2014,"FG 4.0 LPi Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 198",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2011,2014,"FG 4.0 LPi Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 198",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2011,2014,"FG 4.0 LPi Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 198",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2011,2014,"FG 4.0 LPi Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 198",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2010,2014,"FG 4.0 EcoLPi G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ECOLPI",198
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2010,2014,"FG 4.0 EcoLPi G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ECOLPI",198
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 270T",270
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 270T",270
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo XR6 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 270T",270
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo XR6 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 270T",270
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 270T",270
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i Turbo XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 270T",270
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i XT/G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 195",195
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 i XT/G6/G6E/XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 195",195
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG XT/G6/G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 4.0 LPG XT/G6/G6E Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 290",290
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 290",290
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2008,2014,"FG 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 290",290
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2008,2014,"FG 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 290",290
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2010,"BF 4.0 i Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2010,"BF 4.0 i Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2010,"BF 4.0 LPG Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2010,"BF 4.0 LPG Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 190",190
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 190",190
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 245T",245
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 245T",245
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 245T",245
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 245T",245
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 260",260
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 260",260
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 260",260
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2005,2008,"BF 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 260",260
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i (Inc XR6) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 182",182
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 182",182
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Turbo Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 245T",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i Turbo Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 245T",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 240T",240
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 240T",240
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 240T",240
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 i XR6 Turbo Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 240T",240
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 156",156
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 4.0 LPG Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"BARRA 156",156
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 260",260
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Boss 260",260
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 260",260
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2005,"BA 5.4 i V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Boss 260",260
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2002,"AU 5.6 MPFI V8 XR8 (AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2002,"AU 5.6 MPFI V8 XR8 (AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2002,2002,"AU 5.6 MPFI V8 XR8 Pursuit (AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"SY56",250
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2002,2002,"AU 5.6 MPFI V8 XR8 Pursuit (AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"SY56",250
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2001,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2001,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2001,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2001,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2001,2002,"AU 5.0 MPFI V8 XR8 (AU, AUII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2001,2002,"AU 5.0 MPFI V8 XR8 (AU, AUII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2001,2002,"AU 5.0 MPFI V8 XR8 (AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",200
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2001,2002,"AU 5.0 MPFI V8 XR8 (AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",200
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2000,2002,"AU 4.0 LPGFI (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"S (LPGFI)",143
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2000,2002,"AU 4.0 LPGFI (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"S (LPGFI)",143
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2000,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2000,2002,"AU 4.0 MPFI XR6 (AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",172
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"S (LPGFI)",143
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"S (LPGFI)",143
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"S (LPGFI)",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"S (LPGFI)",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"S (LPGFI)",143
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"S (LPGFI)",143
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 5.0 MPFI V8 (AU, AUII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 5.0 MPFI V8 (AU, AUII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"S (LPGFI)",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"S (LPGFI)",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"S (LPGFI)",143
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2002,"AU 4.0 LPGFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"S (LPGFI)",143
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2002,"AU 4.0 MPFI (AU, AUII, AUIII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2002,"AU 5.0 MPFI V8 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",175
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",2000,2001,"AU 5.0 MPFI V8 XR8 (AUII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",200
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",2000,2001,"AU 5.0 MPFI V8 XR8 (AUII) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",200
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2001,"AU 4.0 MPFI XR6 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2001,"AU 4.0 MPFI XR6 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2001,"AU 4.0 MPFI XR6 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2001,"AU 4.0 MPFI XR6 (AU, AUII, AUIII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1999,2001,"AU 5.0 MPFI V8 XR8 (AU, AUII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1999,2001,"AU 5.0 MPFI V8 XR8 (AU, AUII) Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2001,"AU 4.0 MPFI (AU, AUII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2001,"AU 4.0 MPFI (AU, AUII) Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2000,"AU 4.0 MPFI XR6 (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2000,"AU 4.0 MPFI XR6 (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1998,2000,"AU 5.0 MPFI V8 XR8 (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1998,2000,"AU 5.0 MPFI V8 XR8 (AU) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1997,1999,"XH 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1997,1999,"XH 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1999,"XH 4.0 EFI Petrol Rear-Wheel Drive Ute",Petrol,Ute,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1999,"XH 4.0 EFI Petrol Rear-Wheel Drive Ute",Petrol,Ute,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1999,"XH 4.0 EFI Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1999,"XH 4.0 EFI Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1999,"XH 4.0 MPFI XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1999,"XH 4.0 MPFI XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1997,1998,"EL 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI),MNG",185
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1997,1998,"EL 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI),MNG",185
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",162
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",162
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1998,"EL 5.0 GT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI)",200
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1998,"EL 5.0 GT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI)",200
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1997,"XH 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1997,"XH 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1996,1996,"EL 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",170
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1996,1996,"EL 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",170
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1995,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",162
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1995,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",162
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI XR6 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 4.0 MPFI XR6 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",164
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 (Inc XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 (Inc XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",170
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1994,1996,"EF 5.0 EFI V8 XR8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",170
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1993,1996,"XG 4.0 EFI Petrol Rear-Wheel Drive Ute",Petrol,Ute,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1993,1996,"XG 4.0 EFI Petrol Rear-Wheel Drive Ute",Petrol,Ute,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1993,1996,"XG 4.0 EFI Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1993,1996,"XG 4.0 EFI Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",67EF MF,FORD,"FALCON",1993,1996,"XG 4.0 MPFI XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",57EF MF,FORD,"FALCON",1993,1996,"XG 4.0 MPFI XR6 Petrol Rear-Wheel Drive Ute",Petrol,Ute,"X (MPFI)",164
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",148
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"ATG,H (MPFI)",145
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",160
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",160
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",160
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",160
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",160
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 4.0 MPFI XR6 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"X (MPFI)",160
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 (Inc XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 (Inc XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 (Inc XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 XR8 Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T (MPFI)",192
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 XR8 Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T (MPFI)",192
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1993,1994,"ED 5.0 EFI V8 XR8 Sprint Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"T (MPFI)",192
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"H (MPFI)",148
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI S XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI S XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1992,1993,"EB 4.0 MPFI S XR6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1992,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1992,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1992,1993,"EB 5.0 EFI V8 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1992,1993,"EB 5.0 GT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI)",200
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1992,1993,"EB 5.0 GT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI)",200
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1992,1993,"EB 5.0 GT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"J (MPFI)",200
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1991,1993,"EB 5.0 EFI V8 (Inc S XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1991,1993,"EB 5.0 EFI V8 (Inc S XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1991,1993,"EB 5.0 EFI V8 (Inc S XR8) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1993,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1991,1992,"EB 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1991,1992,"EB 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1989,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1989,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1989,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"P (MPFI)",139
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1988,1991,"EA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI)",139
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"D (SPFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1988,1991,"EA 3.9 SPFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"D (SPFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"A (SPFI)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"A (SPFI)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"A (SPFI)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"A (SPFI)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"A (SPFI)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1988,1988,"EA 3.2 EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"A (SPFI)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 3.3 200ci ULP Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",88
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",121
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",121
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1986,1988,"XF 4.1 250ci ULP Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",98
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 3.3 200ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"200ci (2 Barrel)",90
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",120
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci EFI Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (EFI)",120
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1984,1986,"XF 4.1 250ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"250ci (2 Barrel)",103
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"170ci",75
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"170ci",75
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"170ci",75
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"170ci",75
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"170ci",75
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"170ci",75
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"170ci",75
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"170ci",75
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1962,1963,"XL 2.8 170ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"170ci",75
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1961,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1961,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1961,1963,"XL 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1961,1962,"XK 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1961,1962,"XK 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1961,1962,"XK 2.8 170ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"170ci",75
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Ute",Petrol,Ute,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",58 MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",58EB MF,FORD,"FALCON",1960,1962,"XK 2.4 144ci Petrol Rear-Wheel Drive Wagon Van",Petrol,Wagon Van,"144ci",67
+"No matching vehicle found in DB",68 MF,FORD,"GALAXIE LTD",1969,1973,"6.4 V8 390ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"390ci V8 (2 Barrel)",209
+"No matching vehicle found in DB",58 MF,FORD,"GALAXIE LTD",1969,1973,"6.4 V8 390ci Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"390ci V8 (2 Barrel)",209
+"No matching vehicle found in DB",DIN75L EFB,FORD,"FOCUS",2019,2022,"SA 2.3 ST Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"N3DA",206
+"No matching vehicle found in DB",DIN65L EFB,FORD,"FOCUS",2019,2022,"SA 2.3 ST Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"N3DA",206
+"No matching vehicle found in DB",DIN65LH EFB,FORD,"FOCUS",2018,2021,"SA 1.5 EcoBoost Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"Y1DA",134
+"No matching vehicle found in DB",DIN65LH EFB,FORD,"FOCUS",2018,2020,"SA 1.5 EcoBoost Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"Y1DA",134
+"No matching vehicle found in DB",DIN65L EFB,FORD,"FOCUS",2018,2019,"SA 1.5 Ti-VCT Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"Y2DA",90
+"No matching vehicle found in DB",DIN75L MF,FORD,"GT",2003,2007,"5.4 i V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"",368
+"No matching vehicle found in DB",DIN75L MF,FORD,"GT",2003,2006,"5.4 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"C54SDSM",368
+"No matching vehicle found in DB",68 MF,FORD,"MUSTANG II",1973,1978,"2.3 Petrol Rear-Wheel Drive Hardtop",Petrol,Hardtop,"",66
+"No matching vehicle found in DB",58 MF,FORD,"MUSTANG II",1973,1978,"2.3 Petrol Rear-Wheel Drive Hardtop",Petrol,Hardtop,"",66
+"No matching vehicle found in DB",68 MF,FORD,"MUSTANG II",1973,1978,"2.3 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"Y",66
+"No matching vehicle found in DB",58 MF,FORD,"MUSTANG II",1973,1978,"2.3 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"Y",66
+"No matching vehicle found in DB",68 MF,FORD,"MUSTANG II",1973,1978,"2.8 Petrol Rear-Wheel Drive Hardtop",Petrol,Hardtop,"",77
+"No matching vehicle found in DB",58 MF,FORD,"MUSTANG II",1973,1978,"2.8 Petrol Rear-Wheel Drive Hardtop",Petrol,Hardtop,"",77
+"No matching vehicle found in DB",DIN75L EFB,FORD,"KUGA",2015,2016,"TF 1.5 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M9MA",134
+"No matching vehicle found in DB",DIN75L MF,FORD,"KUGA",2015,2016,"TF 1.5 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M9MA",134
+"No matching vehicle found in DB",DIN75L EFB,FORD,"KUGA",2014,2016,"TF 1.5 EcoBoost AWD Petrol All-wheel Drive SUV",Petrol,SUV,"M9MA",134
+"No matching vehicle found in DB",DIN75L MF,FORD,"KUGA",2014,2016,"TF 1.5 EcoBoost AWD Petrol All-wheel Drive SUV",Petrol,SUV,"M9MA",134
+"No matching vehicle found in DB",DIN75L EFB,FORD,"KUGA",2014,2016,"TF 1.5 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M8MA",110
+"No matching vehicle found in DB",DIN75L MF,FORD,"KUGA",2014,2016,"TF 1.5 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"M8MA",110
+"No matching vehicle found in DB",DIN75L EFB,FORD,"KUGA",2014,2016,"TF 2.0 EcoBoost AWD Petrol All-wheel Drive SUV",Petrol,SUV,"R9MA,R9MB",178
+"No matching vehicle found in DB",DIN75L MF,FORD,"KUGA",2014,2016,"TF 2.0 EcoBoost AWD Petrol All-wheel Drive SUV",Petrol,SUV,"R9MA,R9MB",178
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"METEOR",1986,1987,"GC 1.6 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"B6 (8 V)",53
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"METEOR",1986,1987,"GC 1.6 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"B6 (8 V)",53
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"METEOR",1985,1987,"GC 1.6 EFi Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (8 V)",61
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"METEOR",1985,1987,"GC 1.6 EFi Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (8 V)",61
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"METEOR",1985,1987,"GC 1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (8 V)",53
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"METEOR",1985,1987,"GC 1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (8 V)",53
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"METEOR",1982,1985,"GB,GA 1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"E5",59
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"METEOR",1982,1985,"GB,GA 1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"E5",59
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"METEOR",1982,1985,"GB,GA 1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"E5",54
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"METEOR",1982,1985,"GB,GA 1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"E5",54
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",2005,2007,"BF 5.4 V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",2005,2007,"BF 5.4 V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 230",230
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",2003,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",2003,2005,"BA 5.4 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"BARRA 220",220
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",1999,2002,"AU 4.0 MPFI VCT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",1999,2002,"AU 4.0 MPFI VCT Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Y (MPFI) VCT",168
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",1999,2002,"AU 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",1999,2002,"AU 5.0 MPFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"MNG,Z (MPFI)",185
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",1996,1999,"DL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",1996,1999,"DL 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",58EB MF,FORD,"LTD",1996,1999,"DL 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",1995,1996,"DF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",1995,1996,"DF 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI) INTECH",157
+"No matching vehicle found in DB",67EF MF,FORD,"LTD",1995,1996,"DF 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",57EF MF,FORD,"LTD",1995,1996,"DF 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"LTD",1991,1995,"DC 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",58EB MF,FORD,"LTD",1991,1995,"DC 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"H (MPFI)",148
+"No matching vehicle found in DB",58EB MF,FORD,"LTD",1991,1995,"DC 5.0 EFI V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"Z (MPFI)",165
+"No matching vehicle found in DB",58EB MF,FORD,"LTD",1992,1993,"DC 4.0 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"X (MPFI)",161
+"No matching vehicle found in DB",68 MF,FORD,"LTD",1988,1991,"DA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",58 MF,FORD,"LTD",1988,1991,"DA 3.9 MPFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"P (MPFI),XRP",139
+"No matching vehicle found in DB",68 MF,FORD,"LTD",1986,1988,"FE 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",58 MF,FORD,"LTD",1986,1988,"FE 4.1 250ci EFI ULP Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",121
+"No matching vehicle found in DB",68 MF,FORD,"LTD",1984,1986,"FE 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",58 MF,FORD,"LTD",1984,1986,"FE 4.1 250ci EFI Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"250ci (EFI)",120
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"ZM",75
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"ZM",75
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"FP",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"FP",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 2.0 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"FS",98
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2001,2002,"KN III,KQ 2.0 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"FS",98
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2001,2002,"KQ 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ZM",75
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2001,2002,"KQ 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ZM",75
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2001,2002,"KQ 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"FP",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2001,2002,"KQ 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"FP",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2000,2001,"KN 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"ZM",79
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2000,2001,"KN 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"ZM",79
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",2000,2001,"KN 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ZM39",79
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",2000,2001,"KN 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ZM39",79
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1999,2001,"KN 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1999,2001,"KN 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1999,2001,"KN 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1999,2001,"KN 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1999,1999,"KN 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (DOHC 16 V)",77
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1999,1999,"KN 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (DOHC 16 V)",77
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1999,1999,"KN 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",77
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1999,1999,"KN 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",77
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1995,1999,"KJ,KL 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",79
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1995,1999,"KJ,KL 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",79
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1995,1999,"KJ,KL 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",90
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1995,1999,"KJ,KL 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",90
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1995,1999,"KL,KJ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",90
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1995,1999,"KL,KJ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",90
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1994,1999,"KJ,KL 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",80
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1994,1999,"KJ,KL 1.6 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (DOHC 16 V)",80
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1994,1999,"KJ,KL 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1994,1999,"KJ,KL 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (DOHC)",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1994,1999,"KL,KJ 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (DOHC 16 V)",80
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1994,1999,"KL,KJ 1.6 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (DOHC 16 V)",80
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1994,1999,"KL,KJ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1994,1999,"KL,KJ 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1992,1994,"KH 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1992,1994,"KH 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (DOHC)",92
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1991,1994,"KH 1.6 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (SOHC 16 V)",64
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1991,1994,"KH 1.6 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"B6 (SOHC 16 V)",64
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1991,1994,"KH 1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (SOHC 16 V)",64
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1991,1994,"KH 1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"B6 (SOHC 16 V)",64
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1991,1994,"KH 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (SOHC)",76
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1991,1994,"KH 1.8 i Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"BP (SOHC)",76
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1991,1994,"KH 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (SOHC)",76
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1991,1994,"KH 1.8 i Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"BP (SOHC)",76
+"No matching vehicle found in DB",75D23L MF,FORD,"LASER",1991,1993,"KH 1.8 i TX3 Turbo Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"BPT",117
+"No matching vehicle found in DB",55D23L MF,FORD,"LASER",1991,1993,"KH 1.8 i TX3 Turbo Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"BPT",117
+"No matching vehicle found in DB",DIN53LX MF,FORD,"PROBE",1994,1998,"SU,SV,ST 2.5 Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"KL-ZE",120
+"No matching vehicle found in DB",DIN53L MF,FORD,"PROBE",1994,1998,"SU,SV,ST 2.5 Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"KL-ZE",120
+"No matching vehicle found in DB",DIN65LH EFB,FORD,"PUMA",2020,2024,"JK 1.0 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"B7JE",92
+"No matching vehicle found in DB",DIN53LH EFB,FORD,"PUMA",2020,2024,"JK 1.0 EcoBoost Petrol Front-Wheel Drive SUV",Petrol,SUV,"B7JE",92
+"No matching vehicle found in DB",67 MF,FORD,"RAIDER",1991,1997,"UV 2.6 EFi Petrol All-wheel Drive",Petrol,,"G6",92
+"No matching vehicle found in DB",57 MF,FORD,"RAIDER",1991,1997,"UV 2.6 EFi Petrol All-wheel Drive",Petrol,,"G6",92
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"SPECTRON",1986,1990,"2.0 4x4 Petrol All-wheel Drive Bus",Petrol,Bus,"FE",63
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"SPECTRON",1986,1990,"2.0 4x4 Petrol All-wheel Drive Bus",Petrol,Bus,"FE",63
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"SPECTRON",1986,1990,"2.0 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"FE",63
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"SPECTRON",1986,1990,"2.0 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"FE",63
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"SPECTRON",1984,1989,"1.8 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"F8 (12 V)",59
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"SPECTRON",1984,1989,"1.8 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"F8 (12 V)",59
+"No matching vehicle found in DB",NS40ZLSX MF,FORD,"SPECTRON",1983,1984,"1.6 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"NA",52
+"No matching vehicle found in DB",NS40ZLS MF,FORD,"SPECTRON",1983,1984,"1.6 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"NA",52
+"No matching vehicle found in DB",D27F,FORD,"THUNDERBIRD",1967,1971,"7.0 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"",257
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2025,2026,"AV 2.5 Duratec Plug-in-Hybrid Plug-In Hybrid Front-Wheel Drive Van",Plug-In Hybrid,Van,"BGFA",171
+"No matching vehicle found in DB",DIN75LH EFB,FORD,"TRANSIT CUSTOM",2025,2026,"AV 2.5 Duratec Plug-in-Hybrid Plug-In Hybrid Front-Wheel Drive Van",Plug-In Hybrid,Van,"BGFA",171
+"No matching vehicle found in DB",DIN85LH AGM,FORD,"TRANSIT CUSTOM",2024,2026,"AV E-Transit Custom Electric Motor Rear-Wheel Drive Van",Electric Motor,Van,"",160
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2024,2026,"AV E-Transit Custom Electric Motor Rear-Wheel Drive Van",Electric Motor,Van,"",160
+"No matching vehicle found in DB",DIN75LH EFB,FORD,"TRANSIT CUSTOM",2024,2026,"AV E-Transit Custom Electric Motor Rear-Wheel Drive Van",Electric Motor,Van,"",160
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2023,2026,"AV 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"DC",125
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BCFB",136
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BCFB",136
+"No matching vehicle found in DB",DIN75L MF,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BCFB",136
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BLFB",125
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BLFB",125
+"No matching vehicle found in DB",DIN75L MF,FORD,"TRANSIT CUSTOM",2019,2023,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"BLFB",125
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TRANSIT CUSTOM",2016,2019,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"YMF6",96
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TRANSIT CUSTOM",2016,2019,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"YMF6",96
+"No matching vehicle found in DB",DIN75L MF,FORD,"TRANSIT CUSTOM",2016,2019,"VN 2.0 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"YMF6",96
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TRANSIT CUSTOM",2013,2016,"VN 2.2 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"CYFF,CYF4",92
+"No matching vehicle found in DB",DIN75L MF,FORD,"TRANSIT CUSTOM",2013,2016,"VN 2.2 TDCi Diesel Front-Wheel Drive Van",Diesel,Van,"CYFF,CYF4",92
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TL 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TL 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TL 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TL 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TL 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TL 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"Z2GA",74
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"Z2GA",74
+"No matching vehicle found in DB",DIN65L MF,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"Z2GA",74
+"No matching vehicle found in DB",DIN75LH AGM,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"ZTGA",88
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"ZTGA",88
+"No matching vehicle found in DB",DIN65L MF,FORD,"TOURNEO CONNECT / GRAND TOURNEO CONNECT",2018,2022,"1.5 EcoBlue Diesel Front-Wheel Drive MPV",Diesel,MPV,"ZTGA",88
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TE 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TE 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TE 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TE 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TE 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TE 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200
+"No matching vehicle found in DB",DIN75L EFB,FORD,"TOURNEO CUSTOM",2014,2026,"2.2 TDCi Diesel Front-Wheel Drive Bus",Diesel,Bus,"CVFF",114
+"No matching vehicle found in DB",DIN65L MF,FORD,"TOURNEO CUSTOM",2014,2026,"2.2 TDCi Diesel Front-Wheel Drive Bus",Diesel,Bus,"CVFF",114
+"No matching vehicle found in DB",DIN65L MF,FORD,"TRANSIT",1978,1983,"125 4.1 Petrol Rear-Wheel Drive Bus",Petrol,Bus,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",DIN65L MF,FORD,"TRANSIT",1978,1983,"125,175 4.1 Petrol Rear-Wheel Drive Van",Petrol,Van,"250ci (1 Barrel)",94
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TS 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TS 50",2001,2002,"AU 5.6 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY56",250
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TS 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TS 50",2000,2001,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",220
+"No matching vehicle found in DB",67EF MF,FORD,"TICKFORD TS 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200
+"No matching vehicle found in DB",57EF MF,FORD,"TICKFORD TS 50",1999,2000,"AU 5.0 i V8 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"SY5",200

@@ -1,0 +1,360 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,ALFA ROMEO,"156",2001,2002,"#NAME?",Petrol,Convertible,"",114
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,ALFA ROMEO,"156",2001,2002,"#NAME?",Petrol,Convertible,"",114
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,ALFA ROMEO,"33",1984,1987,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,ALFA ROMEO,"33",1984,1987,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN44L MF,ALFA ROMEO,"33",1984,1987,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,ALFA ROMEO,"ALFASUD",1979,1985,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,ALFA ROMEO,"ALFASUD",1979,1985,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN44L MF,ALFA ROMEO,"ALFASUD",1979,1985,"#NAME?",Petrol,Sedan,"1500",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,ALFA ROMEO,"ALFASUD",1972,1984,"#NAME?",Petrol,Sedan,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,ALFA ROMEO,"ALFASUD",1972,1984,"#NAME?",Petrol,Sedan,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN44L MF,ALFA ROMEO,"ALFASUD",1972,1984,"#NAME?",Petrol,Sedan,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53LX MF,ALFA ROMEO,"ALFASUD",1975,1978,"#NAME?",Petrol,Coupe,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN53L MF,ALFA ROMEO,"ALFASUD",1975,1978,"#NAME?",Petrol,Coupe,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN44L MF,ALFA ROMEO,"ALFASUD",1975,1978,"#NAME?",Petrol,Coupe,"1186cc",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",67 MF,ALFA ROMEO,"GIULIA",1966,1968,"#NAME?",Petrol,Convertible,"1600",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",57 MF,ALFA ROMEO,"GIULIA",1966,1968,"#NAME?",Petrol,Convertible,"1600",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",67 MF,ALFA ROMEO,"GIULIA",1964,1968,"#NAME?",Petrol,Coupe,"1600",78
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",57 MF,ALFA ROMEO,"GIULIA",1964,1968,"#NAME?",Petrol,Coupe,"1600",78
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",67 MF,ALFA ROMEO,"GIULIA",1966,1967,"#NAME?",Petrol,Convertible,"1600",78
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",57 MF,ALFA ROMEO,"GIULIA",1966,1967,"#NAME?",Petrol,Convertible,"1600",78
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70X MF,ALFA ROMEO,"MONTREAL",1974,1976,"#NAME?",Petrol,Coupe,"2593cc",171
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS70 MF,ALFA ROMEO,"MONTREAL",1974,1976,"#NAME?",Petrol,Coupe,"2593cc",171
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"147",2008,2010,"1.9 JTDM 16V (937.AXN1B, 937.AXZ1B) Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"937 A6.000",125
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"147",2008,2010,"1.9 JTDM 16V (937.AXN1B, 937.AXZ1B) Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"937 A6.000",125
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"147",2005,2010,"1.9 JTDM 16V (937.AXN1B, 937.BXN1B) Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"937 A5.000",110
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"147",2005,2010,"1.9 JTDM 16V (937.AXN1B, 937.BXN1B) Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"937 A5.000",110
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"147",2003,2010,"3.2 GTA (937.AXL1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"932 A.000",184
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"147",2003,2010,"3.2 GTA (937.AXL1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"932 A.000",184
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"147",2001,2010,"2.0 16V T.SPARK (937.AXA1, 937.AXC1, 937.BXC1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 32310",110
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"147",2001,2010,"2.0 16V T.SPARK (937.AXA1, 937.AXC1, 937.BXC1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 32310",110
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"156",2002,2006,"2.0 JTS (932BXA) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"937 A1.000",122
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"156",2002,2006,"2.0 JTS (932BXA) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"937 A1.000",122
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"156",2002,2005,"2.0 JTS (932AXA) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"937 A1.000",122
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"156",2002,2005,"2.0 JTS (932AXA) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"937 A1.000",122
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"156",2002,2005,"3.2 GTA (932AXB) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"932 A.000",184
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"156",2000,2005,"2.5 V6 24V (932A11_) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32405",141
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"156",2000,2002,"2.0 16V T.SPARK (932A2) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 32301,AR 32310",114
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"156",2000,2002,"2.0 16V T.SPARK (932A2) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 32301,AR 32310",114
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"156",2000,2002,"2.0 16V T.SPARK (932A21__) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32310",110
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"156",2000,2002,"2.0 16V T.SPARK (932A21__) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32310",110
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"156",1999,2002,"2.0 16V T.SPARK (932A2) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32301,AR 32310",114
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"156",1999,2002,"2.0 16V T.SPARK (932A2) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32301,AR 32310",114
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"156",1999,2002,"2.5 V6 24V (932A1) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 32401",140
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"155",1995,1997,"2.0 T.S. 16V (167.A2G) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 67299,AR 67204",110
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"155",1995,1997,"2.0 T.S. 16V (167.A2G) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 67299,AR 67204",110
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"159",2009,2012,"1.8 TBi (939.AXN1B) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"939 B1.000",147
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"159",2009,2012,"1.8 TBi (939.AXN1B) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"939 B1.000",147
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2007,2012,"2.4 JTDM (939.BXM1B) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A9.000",154
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2007,2012,"2.4 JTDM (939.BXM1B) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A9.000",154
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"159",2009,2011,"1.8 TBi (939BXN1B) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"939 B1.000",147
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"159",2009,2011,"1.8 TBi (939BXN1B) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"939 B1.000",147
+"No matching vehicle found in DB",DIN75L MF,ALFA ROMEO,"159",2008,2011,"3.2 JTS (939BXH1B) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"939 A.000",191
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2007,2011,"2.4 JTDM (939AXD) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A9.000",154
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2007,2011,"2.4 JTDM (939AXD) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A9.000",154
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2006,2011,"1.9 JTDM 16V (939BXC1B, 939BXC12) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A2.000",110
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2006,2011,"1.9 JTDM 16V (939BXC1B, 939BXC12) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A2.000",110
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"159",2006,2011,"2.2 JTS (939AXB1B, 939AXB11) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"939 A5.000",136
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"159",2006,2011,"2.2 JTS (939AXB1B, 939AXB11) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"939 A5.000",136
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"159",2006,2011,"2.2 JTS (939BXB1B, 939BXB11) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"939 A5.000",136
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"159",2006,2011,"2.2 JTS (939BXB1B, 939BXB11) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"939 A5.000",136
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2006,2011,"2.4 JTDM (939AXD12, 939AXD1B) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A3.000",147
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2006,2011,"2.4 JTDM (939AXD12, 939AXD1B) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A3.000",147
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2006,2011,"2.4 JTDM (939BXD1B, 939BXD12) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A3.000",147
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2006,2011,"2.4 JTDM (939BXD1B, 939BXD12) Diesel Front-Wheel Drive Wagon",Diesel,Wagon,"939 A3.000",147
+"No matching vehicle found in DB",DIN75L MF,ALFA ROMEO,"159",2006,2011,"3.2 JTS Q4 (939BXG2B, 939BXG22) Petrol All-wheel Drive Wagon",Petrol,Wagon,"939 A.000",191
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"159",2005,2011,"1.9 JTDM 16V (939AXC1B, 939AXC12) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A2.000",110
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"159",2005,2011,"1.9 JTDM 16V (939AXC1B, 939AXC12) Diesel Front-Wheel Drive Sedan",Diesel,Sedan,"939 A2.000",110
+"No matching vehicle found in DB",DIN75L MF,ALFA ROMEO,"159",2005,2011,"3.2 JTS Q4 (939AXH1B, 939AXG22) Petrol All-wheel Drive Sedan",Petrol,Sedan,"939 A.000",191
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"166",2004,2007,"3.0 V6 24V (936A11__) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 36101",162
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"166",2004,2007,"3.0 V6 24V (936A11__) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 36101",162
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"166",1999,2004,"3.0 V6 24V (936A1000, 936A1001) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 34301,AR 34302",166
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"166",1999,2004,"3.0 V6 24V (936A1000, 936A1001) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 34301,AR 34302",166
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"164",1992,1998,"3.0 V6 (164.H1A, 164.H1B, 164.K1P) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 64399,AR 64303,AR 66303,AR 64305",132
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"164",1992,1998,"3.0 V6 (164.H1A, 164.H1B, 164.K1P) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 64399,AR 64303,AR 66303,AR 64305",132
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"164",1993,1995,"3.0 (164AG, 164H1) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 64304",156
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"164",1993,1995,"3.0 (164AG, 164H1) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 64304",156
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"164",1990,1992,"3.0 i.e. QV (164.AG) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 06430,AR 64301",147
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"164",1990,1992,"3.0 i.e. QV (164.AG) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 06430,AR 64301",147
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"164",1989,1992,"3.0 V6 (164.AD, 164.AH, 164.AB) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 06412",135
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"164",1989,1992,"3.0 V6 (164.AD, 164.AH, 164.AB) Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AR 06412",135
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"1900",1954,1959,"1.9 Super Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR01308",66
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"1900",1954,1959,"1.9 ti Super Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR01308",85
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"2600",1962,1969,"2.6 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 10632",96
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"2600",1962,1966,"2.6 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 10632",107
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"2600",1961,1965,"2.6 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00601",107
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"1750-2000",1971,1975,"2000 (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 10520",97
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"1750-2000",1971,1975,"2000 (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 10520",97
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"1750-2000",1968,1972,"1750 (105,48) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00548",83
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"1750-2000",1968,1972,"1750 (105,48) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00548",83
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"4C SPIDER",2014,2019,"1.8 (960.DXB1A, 960CXB1A) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"960 A1.000,EBC",177
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"4C SPIDER",2014,2019,"1.8 (960.DXB1A, 960CXB1A) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"960 A1.000,EBC",177
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"90",1986,1987,"2.5 i.e. V6 (162.A, 162.AA) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646,AR 01911",110
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"90",1986,1987,"2.5 i.e. V6 (162.A, 162.AA) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646,AR 01911",110
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"90",1984,1987,"2.5 i.e. V6 (162A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646",114
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"90",1984,1987,"2.5 i.e. V6 (162A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646",114
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA GT",1978,1986,"2.0 (11610) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01623",89
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA GT",1978,1986,"2.0 (11610) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01623",89
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA GT",1978,1986,"2.0 (11610) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01623",89
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA GT",1974,1976,"1.8 (11610, 11654) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01608",89
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA GT",1974,1976,"1.8 (11610, 11654) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01608",89
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA GT",1974,1976,"1.8 (11610, 11654) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01608",89
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1994,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907.A1G) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",95
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907A1F) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907A1F) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1994,"1.7 16V 4x4 (907A1F) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1994,"1.7 i.e. (907.A1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30736,AR 30737",79
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1994,"1.7 i.e. (907.A1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30736,AR 30737",79
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1994,"1.7 i.e. (907.A1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30736,AR 30737",79
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30746",101
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1990,1992,"1.7 16V (907.A1C) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30747",97
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1986,1990,"1.7 (905A3) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",87
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1986,1990,"1.7 (905A3) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",87
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1986,1990,"1.7 (905A3) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",87
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1986,1989,"1.7 (905A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",95
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1986,1989,"1.7 (905A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",95
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1986,1989,"1.7 (905A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30550",95
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1984,1989,"1.5 QV (905.A2N, 905.A2V) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30146,AR 30588,AR 30508",77
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1984,1989,"1.5 QV (905.A2N, 905.A2V) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30146,AR 30588,AR 30508",77
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1984,1989,"1.5 QV (905.A2N, 905.A2V) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30146,AR 30588,AR 30508",77
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1984,1987,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30514",70
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1984,1987,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30514",70
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1984,1987,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30514",70
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1984,1987,"1.5 4x4 (905B1, 905A2S) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30182",70
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1984,1987,"1.5 4x4 (905B1, 905A2S) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30182",70
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1984,1987,"1.5 4x4 (905B1, 905A2S) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30182",70
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1983,1987,"1.5 (905.A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30143,AR 30504",62
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1983,1987,"1.5 (905.A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30143,AR 30504",62
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1983,1987,"1.5 (905.A2A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30143,AR 30504",62
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1984,1986,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1984,1986,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1984,1986,"1.5 (905A) Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1984,1986,"1.5 4x4 (905.A2B, 905.A2C) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1984,1986,"1.5 4x4 (905.A2B, 905.A2C) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1984,1986,"1.5 4x4 (905.A2B, 905.A2C) Petrol All-wheel Drive Wagon",Petrol,Wagon,"AR 30520",66
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"33",1983,1986,"1.5 (905.A2G) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30520",66
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"33",1983,1986,"1.5 (905.A2G) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30520",66
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"33",1983,1986,"1.5 (905.A2G) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30520",66
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"ALFASUD",1980,1984,"1.5 ti (901G5A, 901F4D) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"ALFASUD",1980,1984,"1.5 ti (901G5A, 901F4D) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"ALFASUD",1980,1984,"1.5 ti (901G5A, 901F4D) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"ALFASUD",1979,1984,"1.5 ti (901.F1, 901.F4, 901.G1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"ALFASUD",1979,1984,"1.5 ti (901.F1, 901.F4, 901.G1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"ALFASUD",1979,1984,"1.5 ti (901.F1, 901.F4, 901.G1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"ALFASUD",1974,1984,"1.2 (901.D0, 901.D1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30102,AS 30102",46
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"ALFASUD",1974,1984,"1.2 (901.D0, 901.D1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30102,AS 30102",46
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"ALFASUD",1974,1984,"1.2 (901.D0, 901.D1) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"AR 30102,AS 30102",46
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"ALFASUD",1979,1983,"1.5 (902.A5) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"ALFASUD",1979,1983,"1.5 (902.A5) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"ALFASUD",1979,1983,"1.5 (902.A5) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30128,AR 30128",70
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"ALFASUD",1978,1981,"1.5 (902.A1) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"ALFASUD",1978,1981,"1.5 (902.A1) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN44L MF,ALFA ROMEO,"ALFASUD",1978,1981,"1.5 (902.A1) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AS 30124,AR 30124",61
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"4C",2013,2019,"1.8 (960.CXB1A) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"960 A1.000,EBC",177
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"75",1988,1992,"3.0 V6 Cat (162.B6A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06124",136
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"75",1988,1992,"3.0 V6 Cat (162.B6A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06124",136
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"75",1987,1992,"2.0 T.S. (162.4CB, 162.B4, 162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06166,AR 06224",107
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"75",1987,1992,"2.0 T.S. (162.4CB, 162.B4, 162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06166,AR 06224",107
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"75",1987,1992,"2.0 T.S. (162.4CB, 162.B4, 162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06166,AR 06224",107
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"75",1985,1992,"2.0 T.S Cat (162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06224",109
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"75",1985,1992,"2.0 T.S Cat (162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06224",109
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"75",1985,1992,"2.0 T.S Cat (162.B4A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 06224",109
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"75",1986,1990,"2.5 V6 (162B3) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646",116
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"75",1986,1990,"2.5 V6 (162B3) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646",116
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"75",1985,1986,"2.5 V6 (162.B3) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646,AR 01648,AR 01911",110
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"75",1985,1986,"2.5 V6 (162.B3) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01646,AR 01648,AR 01911",110
+"No matching vehicle found in DB",DIN75LHX MF,ALFA ROMEO,"BRERA",2006,2011,"3.2 JTS Q4 (939.DXG22) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"939 A.000",191
+"No matching vehicle found in DB",DIN75LH MF,ALFA ROMEO,"BRERA",2006,2011,"3.2 JTS Q4 (939.DXG22) Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"939 A.000",191
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1983,1986,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1983,1986,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1983,1986,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (116.B2) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",90
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (116.B2) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",90
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (116.B2) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",90
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (11608) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608",89
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (11608) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608",89
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1979,1984,"1.8 (11608) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608",89
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1978,1984,"2.0 (116.55F, 116.56F, 116.55N, 116.56N) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01655,AR 01713,AR 10520",97
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1978,1984,"2.0 (116.55F, 116.56F, 116.55N, 116.56N) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01655,AR 01713,AR 10520",97
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1978,1984,"2.0 (116.55F, 116.56F, 116.55N, 116.56N) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01655,AR 01713,AR 10520",97
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1976,1984,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1976,1984,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1976,1984,"116 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"2000cc",0
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1975,1984,"1.6 (116.B1A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01600",79
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1975,1984,"1.6 (116.B1A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01600",79
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1975,1984,"1.6 (116.B1A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01600",79
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1977,1980,"2.0 (116.55G, 116.56G) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01623",89
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1977,1980,"2.0 (116.55G, 116.56G) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01623",89
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1977,1980,"2.0 (116.55G, 116.56G) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01623",89
+"No matching vehicle found in DB",75D23R MF,ALFA ROMEO,"ALFETTA",1974,1978,"1.8 (11608, 11642) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608 X",85
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"ALFETTA",1974,1978,"1.8 (11608, 11642) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608 X",85
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"ALFETTA",1974,1978,"1.8 (11608, 11642) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01608 X",85
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA SPRINT",1966,1968,"1.6 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"",80
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA SPRINT",1966,1968,"1.6 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"",80
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"GIULIA",2020,2026,"2.9 GTA (952AAM24) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"670 05 0436",397
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"GIULIA",2020,2026,"2.9 GTA (952AAM24) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"670 05 0436",397
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"GIULIA",2016,2026,"2.0 (952ACA25) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"EC2,552 73 835",206
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"GIULIA",2016,2026,"2.0 (952ACA25) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"EC2,552 73 835",206
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"GIULIA",2015,2026,"2.9 Quadrifoglio (952AAM24) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"670 05 0436,EED,670 05 2721",375
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"GIULIA",2015,2026,"2.9 Quadrifoglio (952AAM24) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"670 05 0436,EED,670 05 2721",375
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"GIULIA",2016,2022,"2.0 (952ABA25B) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"552 73 835",147
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"GIULIA",2016,2022,"2.0 (952ABA25B) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"552 73 835",147
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"GIULIA",2015,2018,"2.2 D (952AFA25, 952AFM25, 952ALA25) Diesel Rear-Wheel Drive Sedan",Diesel,Sedan,"552 71 040,552 66 388,552 68 532",132
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"GIULIA",2015,2018,"2.2 D (952AFA25, 952AFM25, 952ALA25) Diesel Rear-Wheel Drive Sedan",Diesel,Sedan,"552 71 040,552 66 388,552 68 532",132
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1974,1978,"1300 Super (115) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00530",64
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1974,1978,"1300 Super (115) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00530",64
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1974,1978,"1600 Super (115) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00526",76
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1974,1978,"1600 Super (115) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00526",76
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1963,1978,"1.6 T.I. Super (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00516",82
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1963,1978,"1.6 T.I. Super (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00516",82
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1969,1975,"1300 TI (105,39) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR00531",62
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1969,1975,"1300 TI (105,39) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR00531",62
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1964,1969,"1300 (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00506",57
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1964,1969,"1300 (105) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00506",57
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1964,1969,"1600 Super (105,14) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00526",71
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1964,1969,"1600 Super (105,14) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00526",71
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"GIULIA",1963,1965,"1600 Sprint (101) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00121",83
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"GIULIA",1963,1965,"1600 Sprint (101) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00121",83
+"No matching vehicle found in DB",67 MF,ALFA ROMEO,"BERLINA",1971,1977,"2000 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 10526,AR 10520",97
+"No matching vehicle found in DB",57 MF,ALFA ROMEO,"BERLINA",1971,1977,"2000 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 10526,AR 10520",97
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",2003,2005,"3.2 V6 24V (916CXB00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"936 A6.000",176
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",2003,2005,"3.2 V6 24V (916CXB00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"936 A6.000",176
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",1998,2005,"2.0 T.SPARK 16V (916.C2__, 916C2C00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16201,AR 32310",110
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",1998,2005,"2.0 T.SPARK 16V (916.C2__, 916C2C00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16201,AR 32310",110
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",2003,2004,"2.0 JTS (916CXA00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"937 A1.000",121
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",2003,2004,"2.0 JTS (916CXA00) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"937 A1.000",121
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",2000,2003,"3.0 V6 24V (916.C1B__) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16105",160
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",2000,2003,"3.0 V6 24V (916.C1B__) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16105",160
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",1997,2003,"2.0 T.SPARK 16V (916C2C) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 32301",114
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",1997,2003,"2.0 T.SPARK 16V (916C2C) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 32301",114
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GTV",1998,2000,"3.0 V6 24V (916.C1) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16102",162
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GTV",1998,2000,"3.0 V6 24V (916.C1) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"AR 16102",162
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GTV",1980,1987,"6 2.5 (116.CA) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01646",116
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GTV",1981,1986,"2.0 (11636) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 01655,AR 06212",96
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GTV",1978,1980,"2.0 Turbodelta (11636) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 11642",111
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GT",2005,2010,"2.0 JTS (937CXH1A, 937CXH11) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"932 A2.000,937 A1.000",121
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GT",2005,2010,"2.0 JTS (937CXH1A, 937CXH11) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"932 A2.000,937 A1.000",121
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"GT",2004,2010,"3.2 GTA (937CXP1B) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"936 A.000",176
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"GT",2004,2010,"3.2 GTA (937CXP1B) Petrol Front-Wheel Drive Coupe",Petrol,Coupe,"936 A.000",176
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GT",1972,1977,"1600 (115) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00526 S",76
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GT",1971,1977,"1600 (115) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00536",80
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GT",1971,1977,"V 2000 (105) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 10527",96
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GT",1966,1977,"1300 Junior (105) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00530",64
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GT",1967,1972,"V 1750 (105) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00548",83
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GT",1966,1968,"1600 (105) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00536",80
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GT",1963,1966,"1600 (105) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00526 S",75
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2014,2019,"1.4 TB (940.FYA1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 C2.000",110
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2014,2019,"1.4 TB (940.FYA1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 C2.000",110
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2015,2018,"1.8 TBi (940FXR11) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 B2.000",177
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2015,2018,"1.8 TBi (940FXR11) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 B2.000",177
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2010,2018,"1.4 TB (940FXB1A, 940FXB11) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A2.000",125
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2010,2018,"1.4 TB (940FXB1A, 940FXB11) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A2.000",125
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2011,2017,"1.4 BiFuel (940FXA1A, 940FXT1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000",88
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2011,2017,"1.4 BiFuel (940FXA1A, 940FXT1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000",88
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2010,2016,"1.8 TBi (940FXC1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A1.000",173
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2010,2016,"1.8 TBi (940FXC1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A1.000",173
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2013,2014,"1.4 TB (940FXA1A, 940FXT1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000,940 B7.000",88
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2013,2014,"1.4 TB (940FXA1A, 940FXT1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000,940 B7.000",88
+"No matching vehicle found in DB",DIN65LH EFB,ALFA ROMEO,"GIULIETTA",2010,2014,"2.0 JTDM (940FXE1A, 940FXG11) Diesel Front-Wheel Drive Hatchback",Diesel,Hatchback,"940 A4.000,552 83 099",125
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"GIULIETTA",2010,2013,"1.8 TBi (940FXC1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A1.000",169
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"GIULIETTA",2010,2013,"1.8 TBi (940FXC1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A1.000",169
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"GIULIETTA",1984,1985,"1.8 Turbo (116) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01354",110
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"GIULIETTA",1984,1985,"1.8 Turbo (116) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01354",110
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"GIULIETTA",1983,1985,"1.8 (116AA, 116AB) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",88
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"GIULIETTA",1983,1985,"1.8 (116AA, 116AB) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",88
+"No matching vehicle found in DB",DIN53R MF,ALFA ROMEO,"GIULIETTA",1983,1985,"2.0 Turbo (116) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01699",125
+"No matching vehicle found in DB",DIN53R MF,ALFA ROMEO,"GIULIETTA",1980,1985,"2.0 (116.A1A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01655,AR 11671",96
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"GIULIETTA",1979,1985,"1.8 (116.AA, 116.AB) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",90
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"GIULIETTA",1979,1985,"1.8 (116.AA, 116.AB) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01678",90
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"GIULIETTA",1977,1985,"1.6 (116.50B) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01600",79
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"GIULIETTA",1977,1985,"1.6 (116.50B) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01600",79
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"GIULIETTA",1977,1983,"1.3 (116.44A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01644",66
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"GIULIETTA",1977,1983,"1.3 (116.44A) Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 01644",66
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1961,1962,"1.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00502",46
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1961,1962,"1.3 ti Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00502",55
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1959,1962,"1.3 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"AR 00504",39
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GIULIETTA",1958,1962,"1.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00508",59
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1957,1962,"1.3 Petrol Rear-Wheel Drive Wagon",Petrol,Wagon,"AR 00500",37
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GIULIETTA",1956,1962,"1.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00510",66
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GIULIETTA",1954,1962,"1.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00501",48
+"No matching vehicle found in DB",DIN65L MF,ALFA ROMEO,"GIULIETTA",1958,1961,"1.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 00514",74
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1958,1960,"1.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00504",39
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1957,1960,"1.3 ti Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00502",48
+"No matching vehicle found in DB",DIN44LH MF,ALFA ROMEO,"GIULIETTA",1955,1957,"1.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"AR 00500",37
+"No matching vehicle found in DB",DIN65LH EFB,ALFA ROMEO,"TONALE",2022,2026,"1.3 Hybrid Q4 Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"46337540",208
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"TONALE",2022,2026,"1.3 Hybrid Q4 Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"46337540",208
+"No matching vehicle found in DB",DIN65LH EFB,ALFA ROMEO,"TONALE",2022,2026,"1.5 Mild Hybrid Mild Hybrid Front-Wheel Drive SUV",Mild Hybrid,SUV,"46347696",118
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"TONALE",2022,2026,"1.5 Mild Hybrid Mild Hybrid Front-Wheel Drive SUV",Mild Hybrid,SUV,"46347696",118
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"MITO",2009,2015,"1.4 MultiAir (955AXN1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"940 A2.000",125
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"MITO",2009,2015,"1.4 Turbo MultiAir (955AXM1A, 955AXR11) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"955 A7.000",99
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"MITO",2008,2011,"1.4 TJet (955AXA1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"199 A8.000",114
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"MITO",2008,2011,"1.4 TJet (955AXA1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"199 A8.000",114
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"MITO",2008,2011,"1.4 TJet (955AXA1B) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"199 A8.000",114
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"MITO",2008,2010,"1.4 TJet (955AXG1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000",88
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"MITO",2008,2010,"1.4 TJet (955AXG1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000",88
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"MITO",2008,2010,"1.4 TJet (955AXG1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"198 A4.000",88
+"No matching vehicle found in DB",DIN53LH AGM,ALFA ROMEO,"JUNIOR",2024,2026,"Electric Electric Motor Front-Wheel Drive SUV",Electric Motor,SUV,"ZK02",115
+"No matching vehicle found in DB",DIN53LH EFB,ALFA ROMEO,"JUNIOR",2024,2026,"Electric Electric Motor Front-Wheel Drive SUV",Electric Motor,SUV,"ZK02",115
+"No matching vehicle found in DB",DIN65LH AGM,ALFA ROMEO,"SPIDER",2006,2011,"3.2 JTS Q4 (939EXG2B, 939EXG22) Petrol All-wheel Drive Convertible",Petrol,Convertible,"939 A.000",191
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"SPIDER",2006,2011,"3.2 JTS Q4 (939EXG2B, 939EXG22) Petrol All-wheel Drive Convertible",Petrol,Convertible,"939 A.000",191
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"SPIDER",2006,2011,"3.2 JTS Q4 (939EXG2B, 939EXG22) Petrol All-wheel Drive Convertible",Petrol,Convertible,"939 A.000",191
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"SPIDER",2003,2005,"2.0 JTS (916SXA00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"937 A1.000",121
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"SPIDER",2003,2005,"2.0 JTS (916SXA00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"937 A1.000",121
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"SPIDER",2003,2005,"3.2 V6 24V (916SXB00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"936 A6.000",176
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"SPIDER",2003,2005,"3.2 V6 24V (916SXB00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"936 A6.000",176
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"SPIDER",1998,2005,"2.0 T.SPARK 16V (916S2C00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 16201,AR 32310",110
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"SPIDER",1998,2005,"2.0 T.SPARK 16V (916S2C00) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 16201,AR 32310",110
+"No matching vehicle found in DB",DIN53LHX MF,ALFA ROMEO,"SPIDER",2001,2003,"3.0 V6 24V (916S1) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 16102",162
+"No matching vehicle found in DB",DIN53LH MF,ALFA ROMEO,"SPIDER",2001,2003,"3.0 V6 24V (916S1) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 16102",162
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"SPIDER",1998,2000,"2.0 T.SPARK 16V (916S2B) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 32301",114
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"SPIDER",1998,2000,"2.0 T.SPARK 16V (916S2B) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"AR 32301",114
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1990,1993,"1600 (115A2) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01563",79
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1990,1993,"1600 (115A2) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01563",79
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1990,1993,"2000 (115A1A) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01588",88
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1990,1993,"2000 (115A1A) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01588",88
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1977,1993,"2000 (11538, 115A1) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00515,AR 01590",93
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1977,1993,"2000 (11538, 115A1) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00515,AR 01590",93
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1986,1990,"2000 (11538, 115661) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00515",92
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1986,1990,"2000 (11538, 115661) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00515",92
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1986,1990,"2000 (115680, 115681) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01544",85
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1986,1990,"2000 (115680, 115681) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01544",85
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1976,1990,"1600 (11535) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00526",76
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1976,1990,"1600 (11535) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00526",76
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1971,1979,"1600 (11507) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00536",80
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1971,1979,"1600 (11507) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00536",80
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1971,1977,"2000 (10512, 10524) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00512",96
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1971,1977,"2000 (10512, 10524) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00512",96
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1971,1977,"2000 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 10520",96
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1971,1977,"2000 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 10520",96
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1968,1977,"1300 (10591) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00530",64
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1968,1977,"1300 (10591) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00530",64
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1967,1971,"1750 (10557) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00548",83
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1967,1971,"1750 (10557) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00548",83
+"No matching vehicle found in DB",NS70X MF,ALFA ROMEO,"SPIDER",1966,1968,"1600 (10503) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01600,AR 00526,AR 00536",80
+"No matching vehicle found in DB",NS70 MF,ALFA ROMEO,"SPIDER",1966,1968,"1600 (10503) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 01600,AR 00526,AR 00536",80
+"No matching vehicle found in DB",DIN53LX MF,ALFA ROMEO,"SPIDER",1958,1961,"2000 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00205",85
+"No matching vehicle found in DB",DIN53L MF,ALFA ROMEO,"SPIDER",1958,1961,"2000 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AR 00205",85
+"No matching vehicle found in DB",DIN65LHX MF,ALFA ROMEO,"SZ",1988,1994,"3.0 V6 Zagato (162C1) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 61501",152
+"No matching vehicle found in DB",DIN65LH MF,ALFA ROMEO,"SZ",1988,1994,"3.0 V6 Zagato (162C1) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AR 61501",152
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"STELVIO",2018,2026,"2.0 Q4 (949.AXA2A) Petrol All-wheel Drive SUV",Petrol,SUV,"EC2,552 73 835",206
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"STELVIO",2018,2026,"2.0 Q4 (949.AXA2A) Petrol All-wheel Drive SUV",Petrol,SUV,"EC2,552 73 835",206
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"STELVIO",2017,2026,"2.9 Q4 (949.AXG2A, 949.AXH2A, 949.AXS2A) Petrol All-wheel Drive SUV",Petrol,SUV,"670 05 2784,670 05 2786,670 05 0436,670 05 2670,67",375
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"STELVIO",2017,2026,"2.9 Q4 (949.AXG2A, 949.AXH2A, 949.AXS2A) Petrol All-wheel Drive SUV",Petrol,SUV,"670 05 2784,670 05 2786,670 05 0436,670 05 2670,67",375
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"STELVIO",2016,2022,"2.0 Q4 (949.AXF2A) Petrol All-wheel Drive SUV",Petrol,SUV,"552 73 835",148
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"STELVIO",2016,2022,"2.0 Q4 (949.AXF2A) Petrol All-wheel Drive SUV",Petrol,SUV,"552 73 835",148
+"No matching vehicle found in DB",DIN85LH AGM,ALFA ROMEO,"STELVIO",2016,2019,"2.2 D Q4 (949.AXB2A) Diesel All-wheel Drive SUV",Diesel,SUV,"552 71 838,552 84 529,46346359",154
+"No matching vehicle found in DB",DIN85LH EFB,ALFA ROMEO,"STELVIO",2016,2019,"2.2 D Q4 (949.AXB2A) Diesel All-wheel Drive SUV",Diesel,SUV,"552 71 838,552 84 529,46346359",154
+"No matching vehicle found in DB",DIN75LH EFB,ALFA ROMEO,"STELVIO",2016,2019,"2.2 D Q4 (949.AXB2A) Diesel All-wheel Drive SUV",Diesel,SUV,"552 71 838,552 84 529,46346359",154

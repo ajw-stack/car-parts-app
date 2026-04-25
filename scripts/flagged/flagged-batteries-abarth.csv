@@ -1,0 +1,3 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"No matching vehicle found in DB",DIN44LH MF,ABARTH,"500 / 595 / 695",2008,2016,"1.4 (312.AXT1A) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"312 A1.000,312 A9.000",140
+"No matching vehicle found in DB",DIN44LH MF,ABARTH,"500C / 595C / 695C",2008,2011,"1.4 (312.AXD1A) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"312 A1.000",99

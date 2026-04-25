@@ -1,0 +1,240 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1986,1991,"2.3 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NF",100
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1985,1991,"2.2 Turbo Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"MC",121
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1985,1991,"2.2 Turbo quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"MC",121
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1989,1990,"2.2 20V Turbo quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"3B",162
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1983,1988,"2.1 Turbo Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KG",134
+"No matching vehicle found in DB",DIN65L MF,AUDI,"200",1979,1982,"2.1 5T Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"WJ",125
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1996,"2.6 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"ABC",110
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1996,"2.6 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"ABC",110
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1994,1995,"RS2 quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"ADU",232
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1994,1995,"RS2 quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"ADU",232
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1993,1994,"1.6 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ADA",74
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1993,1994,"1.6 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ADA",74
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1993,1994,"2.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABC",110
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1993,1994,"2.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABC",110
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1993,1994,"2.6 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ABC",110
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1993,1994,"2.6 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ABC",110
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1994,"2.0 E 16V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ACE",103
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1994,"2.0 E 16V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ACE",103
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1994,"2.0 E 16V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ACE",103
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1994,"2.0 E 16V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ACE",103
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1994,"2.0 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABT",66
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1994,"2.0 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABT",66
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1994,"2.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1994,"2.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN65L MF,AUDI,"80",1991,1994,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABM",52
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1991,1994,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABK",85
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1991,1994,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ABK",85
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1991,1994,"2.0 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ABK",85
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1991,1994,"2.0 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"ABK",85
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1991,1994,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1991,1994,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1991,1994,"2.3 E quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"NG",98
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1991,1994,"2.3 E quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"NG",98
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1991,1994,"2.8 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1991,1994,"2.8 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1992,1993,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1992,1993,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1987,1991,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"PP",51
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1987,1991,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"PP",51
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1991,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"RN",55
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1991,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"RN",55
+"No matching vehicle found in DB",DIN65L MF,AUDI,"80",1986,1991,"1.8 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"DZ",82
+"No matching vehicle found in DB",DIN65L MF,AUDI,"80",1986,1991,"1.8 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"DZ",82
+"No matching vehicle found in DB",DIN65L MF,AUDI,"80",1986,1991,"1.8 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"SD",83
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1991,"1.8 S quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"JN,PM,NE,SF",66
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1991,"1.8 S quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"JN,PM,NE,SF",66
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1988,1990,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"3A",83
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1988,1990,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"3A",83
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1988,1990,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"3A",82
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1988,1990,"2.0 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"3A",82
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1988,1990,"2.0 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"3A",83
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1988,1990,"2.0 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"3A",83
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1990,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"RU",55
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1990,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"RU",55
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1990,"1.8 S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1990,"1.8 S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1990,"1.8 S quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1990,"1.8 S quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1988,"1.4 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SE",48
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1988,"1.4 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SE",48
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1988,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SD",83
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1988,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SD",83
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1987,"1.8 S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JN,PM,NE,SF,JV",66
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1987,"1.8 S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JN,PM,NE,SF,JV",66
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1986,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SA",54
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1986,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SA",54
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1986,1986,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1986,1986,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"SF",65
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1985,1986,"1.8 GTE Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"PV",81
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1985,1986,"1.8 GTE Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"PV",81
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1984,1986,"1.8 CC quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"JN,NE,JV",66
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1984,1986,"1.8 CC quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"JN,NE,JV",66
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1984,1986,"1.8 GTE Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"DZ,MU",82
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1984,1986,"1.8 GTE Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"DZ,MU",82
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1984,1986,"1.8 GTE quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"DZ",82
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1984,1986,"1.8 GTE quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"DZ",82
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1983,1986,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JN,JV,DS",66
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1983,1986,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JN,JV,DS",66
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1983,1984,"2.0 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JS",85
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1983,1984,"2.0 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"JS",85
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1982,1984,"2.2 quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"KK",100
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1982,1984,"2.2 quattro (85Q) Petrol All-wheel Drive Sedan",Petrol,Sedan,"KK",100
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"80",1981,1983,"1.9 CD-5S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"WN",85
+"No matching vehicle found in DB",DIN53L MF,AUDI,"80",1981,1983,"1.9 CD-5S Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"WN",85
+"No matching vehicle found in DB",DIN65L MF,AUDI,"80",1966,1970,"1.7 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"8920",59
+"No matching vehicle found in DB",DIN44L MF,AUDI,"75",1968,1972,"1.7 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"ZG",55
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1984,1988,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KU",101
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1984,1988,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KU",101
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1984,1988,"2.2 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"KU",101
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1984,1988,"2.2 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"KU",101
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1984,1987,"2.2 Cat Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"HX,KU",101
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1984,1987,"2.2 Cat Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"HX,KU",101
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1983,1985,"2.1 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"KF",96
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1983,1985,"2.1 Petrol Front-Wheel Drive Wagon",Petrol,Wagon,"KF",96
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1983,1985,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KF",96
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1983,1985,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KF",96
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"100",1982,1984,"2.1 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"WC",100
+"No matching vehicle found in DB",DIN53L MF,AUDI,"100",1982,1984,"2.1 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"WC",100
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1990,1991,"2.3 E 20V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"7A",123
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1990,1991,"2.3 E 20V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"7A",123
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1990,1991,"2.3 E 20V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"7A",123
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1990,1991,"2.3 E 20V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"7A",123
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1989,1991,"2.3 E 20V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"7A",125
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1989,1991,"2.3 E 20V quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"7A",125
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1989,1991,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",100
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1989,1991,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",100
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1988,1991,"2.3 E 20V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"7A",125
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1988,1991,"2.3 E 20V Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"7A",125
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1987,1991,"2.2 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"KV",100
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1987,1991,"2.2 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"KV",100
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1987,1991,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1987,1991,"2.3 E Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1987,1991,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1987,1991,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",98
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1987,1991,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",100
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1987,1991,"2.3 E quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"NG",100
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"90",1985,1987,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KX",85
+"No matching vehicle found in DB",DIN53L MF,AUDI,"90",1985,1987,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KX",85
+"No matching vehicle found in DB",NS70X MF,AUDI,"90",1984,1987,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KV",100
+"No matching vehicle found in DB",NS70 MF,AUDI,"90",1984,1987,"2.2 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"KV",100
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A1",2024,2026,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DNND",152
+"No matching vehicle found in DB",DIN53LH EFB,AUDI,"A1",2024,2026,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DNND",152
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"A1",2024,2026,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DNND",152
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A1",2018,2026,"30 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKJA,DKRF,DUSA",85
+"No matching vehicle found in DB",DIN53LH EFB,AUDI,"A1",2018,2026,"30 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKJA,DKRF,DUSA",85
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"A1",2018,2026,"30 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKJA,DKRF,DUSA",85
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A1",2018,2026,"35 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DXDB,DPCA,DADA",110
+"No matching vehicle found in DB",DIN53LH EFB,AUDI,"A1",2018,2026,"35 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DXDB,DPCA,DADA",110
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"A1",2018,2026,"35 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DXDB,DPCA,DADA",110
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A1",2018,2024,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKZC,CZPC",147
+"No matching vehicle found in DB",DIN53LH EFB,AUDI,"A1",2018,2024,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKZC,CZPC",147
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"A1",2018,2024,"40 TFSI Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"DKZC,CZPC",147
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4",2020,2026,"40 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DTPA",150
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4",2020,2026,"45 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"DDWA,DDWB",183
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4",2020,2026,"45 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DDWA",183
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4",2018,2026,"35 TFSI Mild Hybrid Mild Hybrid Front-Wheel Drive Sedan",Mild Hybrid,Sedan,"CVKC,DMSB,DEMB,DLVB",110
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A8",2019,2026,"S8 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"DWKA,CWWB",420
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A8",2017,2026,"50 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"DDVC,DMGK",210
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A8",2017,2026,"50 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"DDVC,DMGK",210
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A8",2017,2026,"50 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"DDVC,DMGK",210
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A8",2017,2020,"55 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive Sedan",Mild Hybrid,Sedan,"CZSE",250
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A8",2017,2018,"3.0 TDI quattro Diesel All-wheel Drive Sedan",Diesel,Sedan,"CTBD",193
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A8",2017,2018,"3.0 TDI quattro Diesel All-wheel Drive Sedan",Diesel,Sedan,"CTBD",193
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A8",2017,2018,"4.2 TDI quattro Diesel All-wheel Drive Sedan",Diesel,Sedan,"CTEC",283
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A8",2017,2018,"4.2 TDI quattro Diesel All-wheel Drive Sedan",Diesel,Sedan,"CTEC",283
+"No matching vehicle found in DB",DIN85L MF,AUDI,"A8",1995,1996,"2.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN85LHX MF,AUDI,"A8",1994,1996,"2.8 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN85LH MF,AUDI,"A8",1994,1996,"2.8 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"AAH",128
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2020,2026,"40 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DTPA",150
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A4 Allroad",2020,2026,"40 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DTPA",150
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4 Allroad",2020,2026,"40 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DTPA",150
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2020,2026,"40 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"DETA",140
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A4 Allroad",2020,2026,"40 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"DETA",140
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"A4 Allroad",2020,2026,"45 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive Wagon",Mild Hybrid,Wagon,"DDWA",183
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A4 Allroad",2016,2020,"2.0 TFSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"CYRB,CYMC,DLHB",185
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2016,2020,"2.0 TFSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"CYRB,CYMC,DLHB",185
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2016,2019,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"DESA,DETA,DFVA",140
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A4 Allroad",2016,2019,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"DESA,DETA,DFVA",140
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2013,2016,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CNHA",140
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A4 Allroad",2013,2016,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CNHA",140
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A4 Allroad",2011,2016,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CGLC",130
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A4 Allroad",2011,2016,"2.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CGLC",130
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A6 Allroad",2019,2026,"45 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CVMD",183
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2014,2018,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CZVA,CRTE",160
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A6 Allroad",2014,2018,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CZVA,CRTE",160
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2012,2016,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CKVC,CDUD",180
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"A6 Allroad",2012,2016,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CKVC,CDUD",180
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A6 Allroad",2008,2011,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CDYA,CDYC",176
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2008,2011,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CDYA,CDYC",176
+"No matching vehicle found in DB",DIN110LH MF,AUDI,"A6 Allroad",2008,2011,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"CDYA,CDYC",176
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A6 Allroad",2006,2010,"4.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"BVJ",257
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2006,2010,"4.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"BVJ",257
+"No matching vehicle found in DB",DIN110LH MF,AUDI,"A6 Allroad",2006,2010,"4.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"BVJ",257
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A6 Allroad",2006,2008,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"ASB",171
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2006,2008,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"ASB",171
+"No matching vehicle found in DB",DIN110LH MF,AUDI,"A6 Allroad",2006,2008,"3.0 TDI quattro Diesel All-wheel Drive Wagon",Diesel,Wagon,"ASB",171
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"A6 Allroad",2006,2008,"3.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"AUK",188
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"A6 Allroad",2006,2008,"3.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"AUK",188
+"No matching vehicle found in DB",DIN110LH MF,AUDI,"A6 Allroad",2006,2008,"3.2 FSI quattro Petrol All-wheel Drive Wagon",Petrol,Wagon,"AUK",188
+"No matching vehicle found in DB",DIN65L EFB,AUDI,"CABRIOLET",1993,2000,"2.6 Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"ABC",110
+"No matching vehicle found in DB",DIN65L MF,AUDI,"CABRIOLET",1993,2000,"2.6 Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"ABC",110
+"No matching vehicle found in DB",DIN65L MF,AUDI,"COUPE",1992,1996,"S2 quattro Petrol All-wheel Drive Coupe",Petrol,Coupe,"ABY",169
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2020,2023,"S quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EATA,EAUA,EAVA",370
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2020,2023,"S quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EATA,EAUA,EAVA",370
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2019,2023,"50 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EAWA,EASB",230
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2019,2023,"50 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EAWA,EASB",230
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2019,2023,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EAWA,EASA",300
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"E-TRON",2018,2023,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EAWA,EASA",300
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"FOX",1974,1978,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"YG,YH",57
+"No matching vehicle found in DB",DIN53L MF,AUDI,"FOX",1974,1978,"1.6 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"YG,YH",57
+"No matching vehicle found in DB",DIN53LX MF,AUDI,"FOX",1972,1975,"1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"YJ,ZB",55
+"No matching vehicle found in DB",DIN53L MF,AUDI,"FOX",1972,1975,"1.5 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"YJ,ZB",55
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q3",2021,2026,"40 TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"CZPA",132
+"No matching vehicle found in DB",DIN65LH EFB,AUDI,"Q3",2021,2026,"40 TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"CZPA",132
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"Q3",2019,2026,"2.5 RS TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"DNWA,DAZA",294
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"Q3",2019,2026,"2.5 RS TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"DNWA,DAZA",294
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q3",2019,2026,"35 TFSI Petrol Front-Wheel Drive SUV",Petrol,SUV,"CZDA",110
+"No matching vehicle found in DB",DIN65LH EFB,AUDI,"Q3",2019,2026,"35 TFSI Petrol Front-Wheel Drive SUV",Petrol,SUV,"CZDA",110
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q3",2019,2026,"40 TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"CZPA",132
+"No matching vehicle found in DB",DIN65LH EFB,AUDI,"Q3",2019,2026,"40 TFSI quattro Petrol All-wheel Drive SUV",Petrol,SUV,"CZPA",132
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q3",2018,2026,"35 TFSI Petrol Front-Wheel Drive SUV",Petrol,SUV,"CZDA",110
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q3",2018,2026,"35 TFSI Petrol Front-Wheel Drive SUV",Petrol,SUV,"DXDB,DPCA,DADA",110
+"No matching vehicle found in DB",DIN65LH EFB,AUDI,"Q3",2018,2026,"35 TFSI Petrol Front-Wheel Drive SUV",Petrol,SUV,"DXDB,DPCA,DADA",110
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"Q4 E-TRON",2023,2026,"45 Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"Q4 E-TRON",2023,2026,"45 Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"EDFA",210
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"Q4 E-TRON",2023,2026,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN44LH EFB,AUDI,"Q4 E-TRON",2023,2026,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EDFA,EDDA",250
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q6 E-TRON",2024,2026,"e-tron Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"ECCE",225
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q6 E-TRON",2024,2026,"e-tron Electric Motor Rear-Wheel Drive SUV",Electric Motor,SUV,"ECCF",185
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q6 E-TRON",2024,2026,"e-tron quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"ECCA,ECFA",285
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q6 E-TRON",2024,2026,"SQ6 e-tron quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"ECCA,ECFA",380
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"TT",2018,2026,"45 TFSI quattro Petrol All-wheel Drive Coupe",Petrol,Coupe,"DNPA,DKTB",180
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"TT",2018,2026,"45 TFSI quattro Petrol All-wheel Drive Coupe",Petrol,Coupe,"DNPA,DKTB",180
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8 E-TRON",2022,2025,"50 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EASA,EDEA",250
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8 E-TRON",2022,2025,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EASA,EDEA",300
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8 E-TRON",2022,2025,"55 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EASA,EDEA",300
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8 E-TRON",2022,2025,"SQ8 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EATA,EAUA,EAVA",370
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8 E-TRON",2022,2025,"SQ8 quattro Electric Motor All-wheel Drive SUV",Electric Motor,SUV,"EATA,EAUA,EAVA",370
+"No matching vehicle found in DB",DIN85L MF,AUDI,"V8",1990,1994,"3.6 quattro Petrol All-wheel Drive Sedan",Petrol,Sedan,"PT",184
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2024,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBD",360
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2024,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBD",360
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"Q8",2024,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBD",360
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"Q8",2024,2026,"RS Performance quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DWNA",471
+"No matching vehicle found in DB",DIN65LH AGM,AUDI,"Q8",2024,2026,"RS Performance quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DWNA",471
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2020,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBE",340
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2020,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBE",340
+"No matching vehicle found in DB",DIN75LH AGM,AUDI,"Q8",2020,2026,"60 TFSI e quattro Plug-In Hybrid All-wheel Drive SUV",Plug-In Hybrid,SUV,"DCBE",340
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2020,2026,"SQ8 quattro Petrol All-wheel Drive SUV",Petrol,SUV,"DWRB,DCUE",373
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2020,2026,"SQ8 quattro Petrol All-wheel Drive SUV",Petrol,SUV,"DWRB,DCUE",373
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2019,2026,"RS FSI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DHUB",441
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2019,2026,"RS FSI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DHUB",441
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2018,2026,"45 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DPXB,DHXC",170
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2018,2026,"45 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DPXB,DHXC",170
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2018,2026,"50 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DPXA,DHXA",210
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2018,2026,"50 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DPXA,DHXA",210
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2018,2026,"55 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DCBD",250
+"No matching vehicle found in DB",DIN85LH AGM,AUDI,"Q8",2018,2026,"55 TFSI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DCBD",250
+"No matching vehicle found in DB",DIN110LHAGM,AUDI,"Q8",2018,2026,"SQ8 TDI Mild Hybrid quattro Mild Hybrid All-wheel Drive SUV",Mild Hybrid,SUV,"DHVA",320
+"No matching vehicle found in DB",DIN44L MF,AUDI,"SUPER 90",1966,1971,"1.8 Petrol Front-Wheel Drive Sedan",Petrol,Sedan,"8921,21",66

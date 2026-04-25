@@ -1,0 +1,129 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",N70ZZX MF,ASTON MARTIN,"DB5",1964,1966,"#NAME?",Petrol,Convertible,"AJ6",210
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",N70ZZ MF,ASTON MARTIN,"DB5",1964,1966,"#NAME?",Petrol,Convertible,"AJ6",210
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN85LH AGM,ASTON MARTIN,"V8 VANTAGE",2005,2026,"#NAME?",Petrol,Coupe,"AM07",313
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN85LHX MF,ASTON MARTIN,"V8 VANTAGE",2005,2026,"#NAME?",Petrol,Coupe,"AM07",313
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",DIN85LH MF,ASTON MARTIN,"V8 VANTAGE",2005,2026,"#NAME?",Petrol,Coupe,"AM07",313
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM2",309
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM2",309
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM2",309
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM2",309
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM2",309
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"DB7",1999,2003,"5.9 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM2",309
+"No matching vehicle found in DB",DIN65LHX MF,ASTON MARTIN,"DB7",1996,2003,"3.2 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AJ6HT",250
+"No matching vehicle found in DB",DIN65LH MF,ASTON MARTIN,"DB7",1996,2003,"3.2 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AJ6HT",250
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"DB7",1994,1999,"3.2 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6HT",250
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"DB7",1994,1999,"3.2 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6HT",250
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"DB7",1994,1999,"3.2 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6HT",233
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"DB7",1994,1999,"3.2 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6HT",233
+"No matching vehicle found in DB",N70ZZX MF,ASTON MARTIN,"LAGONDA",1976,1997,"5.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"40HEL,40HCA",250
+"No matching vehicle found in DB",N70ZZ MF,ASTON MARTIN,"LAGONDA",1976,1997,"5.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"40HEL,40HCA",250
+"No matching vehicle found in DB",N70ZZX MF,ASTON MARTIN,"LAGONDA",1988,1995,"5.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"40HES,40HCA",228
+"No matching vehicle found in DB",N70ZZ MF,ASTON MARTIN,"LAGONDA",1988,1995,"5.3 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"40HES,40HCA",228
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"RAPIDE",2018,2019,"6.0 AMR Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM29",444
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"RAPIDE",2014,2018,"6.0 S Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM29",412
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"RAPIDE",2013,2014,"6.0 S Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM29,AM11",410
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"RAPIDE",2010,2013,"6.0 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM4R9,AM16",350
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"RAPIDE",2010,2013,"6.0 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM4R9,AM16",350
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"RAPIDE",2010,2013,"6.0 Petrol Rear-Wheel Drive Hatchback",Petrol,Hatchback,"AM4R9,AM16",350
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"DB6",1964,1970,"4.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AJ6",210
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"DB6",1964,1970,"4.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AJ6",210
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"DB6",1964,1970,"4.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6",210
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"DB6",1964,1970,"4.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6",210
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"V8",1988,1993,"5.3 S+S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HES",260
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"V8",1988,1993,"5.3 S+S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HES",260
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"V8",1985,1987,"5.3 2+2 Sports Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HCA",258
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"V8",1985,1987,"5.3 2+2 Sports Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HCA",258
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"V8",1985,1987,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HE",262
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"V8",1985,1987,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HE",262
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DBX",2019,2026,"4.0 Petrol All-wheel Drive SUV",Petrol,SUV,"M 177.980,M 177.950",405
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB11",2018,2026,"5.2 AMR Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AE31",470
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB11",2017,2021,"4.0 V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"M 177.980,M 177.950,178980",375
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB11",2017,2021,"4.0 V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"M 177.980,M 177.950,178980",375
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DB11",2016,2018,"5.2 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AE31",447
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DBS",2019,2026,"Superleggera Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"",533
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DBS",2018,2026,"5.2 Superleggera (R1A30) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM52",533
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",380
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",380
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",380
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",380
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",380
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"DBS",2007,2012,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",380
+"No matching vehicle found in DB",N70ZZX MF,ASTON MARTIN,"DBS",1968,1972,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HA3",235
+"No matching vehicle found in DB",N70ZZ MF,ASTON MARTIN,"DBS",1968,1972,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HA3",235
+"No matching vehicle found in DB",N70ZZX MF,ASTON MARTIN,"DBS",1966,1972,"4.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6",210
+"No matching vehicle found in DB",N70ZZ MF,ASTON MARTIN,"DBS",1966,1972,"4.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AJ6",210
+"No matching vehicle found in DB",N70ZZX MF,ASTON MARTIN,"DB5",1962,1965,"4.0 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"",210
+"No matching vehicle found in DB",N70ZZ MF,ASTON MARTIN,"DB5",1962,1965,"4.0 Petrol Rear-Wheel Drive Sedan",Petrol,Sedan,"",210
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AE31",515
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AE31",515
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AE31",515
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AE31",515
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AE31",515
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2021,2026,"V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AE31",515
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2021,2026,"V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"M 177.950",393
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2021,2026,"V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"M 177.950",393
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2020,2026,"V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"M 177.980,M 177.950",375
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2017,2026,"V12 AMR Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",433
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2017,2026,"V12 AMR Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",433
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2017,2026,"V12 AMR Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",433
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2017,2026,"V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"M 177.980,M 177.950",375
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2014,2018,"6.0 V12S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM28",421
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2014,2018,"6.0 V12S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM28",421
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2014,2018,"6.0 V12S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM28",421
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2013,2017,"6.0 V12S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",421
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2013,2017,"6.0 V12S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",421
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2013,2017,"6.0 V12S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM28",421
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2012,2017,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM10",380
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM15",321
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM15",321
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 S Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM15",321
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 V8S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM15",321
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 V8S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM15",321
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2011,2017,"4.7 V8S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM15",321
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2008,2016,"4.7 V8 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM14,AM07",313
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2009,2013,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM10",380
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2009,2013,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM10",380
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2009,2013,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM10",380
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2007,2008,"4.3 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2007,2008,"4.3 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2007,2008,"4.3 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANTAGE",2005,2008,"4.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANTAGE",2005,2008,"4.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANTAGE",2005,2008,"4.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM05,AM6U5",283
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"ZAGATO",2012,2012,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",380
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",365
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",365
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM4R9",365
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",365
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",365
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VIRAGE",2011,2012,"6.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9",365
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"VIRAGE",1996,2000,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HG4",257
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"VIRAGE",1996,2000,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HG4",257
+"No matching vehicle found in DB",DIN65LHX MF,ASTON MARTIN,"VIRAGE",1995,2000,"5.3 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"40HTE",261
+"No matching vehicle found in DB",DIN65LH MF,ASTON MARTIN,"VIRAGE",1995,2000,"5.3 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"40HTE",261
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"VIRAGE",1992,2000,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HG4,40HTE",410
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"VIRAGE",1992,2000,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HG4,40HTE",410
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"VIRAGE",1988,1992,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HTA,40HTE",246
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"VIRAGE",1988,1992,"5.3 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HTA,40HTE",246
+"No matching vehicle found in DB",NS70X MF,ASTON MARTIN,"VIRAGE",1987,1989,"5.3 FH Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HTA",250
+"No matching vehicle found in DB",NS70 MF,ASTON MARTIN,"VIRAGE",1987,1989,"5.3 FH Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"40HTA",250
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANQUISH",2014,2016,"6.0 (AM310) Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM29",424
+"No matching vehicle found in DB",DIN85L MF,ASTON MARTIN,"VANQUISH",2014,2016,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM29",424
+"No matching vehicle found in DB",DIN85L MF,ASTON MARTIN,"VANQUISH",2014,2016,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM29",423
+"No matching vehicle found in DB",DIN85L MF,ASTON MARTIN,"VANQUISH",2013,2014,"6.0 Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"AM11",421
+"No matching vehicle found in DB",DIN85L MF,ASTON MARTIN,"VANQUISH",2012,2014,"6.0 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM11",421
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANQUISH",2004,2007,"6.0 S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9,AM06",388
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANQUISH",2004,2007,"6.0 S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9,AM06",388
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANQUISH",2004,2007,"6.0 S Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM4R9,AM06",388
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM 702",338
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM 702",338
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM 702",338
+"No matching vehicle found in DB",DIN85LH AGM,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM3",343
+"No matching vehicle found in DB",DIN85LHX MF,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM3",343
+"No matching vehicle found in DB",DIN85LH MF,ASTON MARTIN,"VANQUISH",2001,2007,"6.0 V12 Petrol Rear-Wheel Drive Coupe",Petrol,Coupe,"AM3",343

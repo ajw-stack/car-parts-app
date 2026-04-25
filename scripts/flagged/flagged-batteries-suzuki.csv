@@ -1,0 +1,117 @@
+reason,part_number,make,model,year_from,year_to,description,engine_type,body_type,engine_code,power_kw
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",NS40Z MF,SUZUKI,"JIMNY",1998,2000,"#NAME?",Petrol,,"G13BA",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",GYZ16H,SUZUKI,"LT-F400",2002,2007,"#NAME?",Petrol,Quad Bike,"400",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",YTX14H-BS,SUZUKI,"LT-F400",2002,2007,"#NAME?",Petrol,Quad Bike,"400",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",YTX14-BS,SUZUKI,"LT-F400",2002,2007,"#NAME?",Petrol,Quad Bike,"400",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",GYZ16H,SUZUKI,"LT-A400",2002,2008,"#NAME?",Petrol,Quad Bike,"400",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",YTX14H-BS,SUZUKI,"LT-A400",2002,2008,"#NAME?",Petrol,Quad Bike,"400",0
+"#NAME? in description — source spreadsheet formula error, engine/variant data missing",YTX14-BS,SUZUKI,"LT-A400",2002,2008,"#NAME?",Petrol,Quad Bike,"400",0
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CARRY",2013,2026,"0.7 (DA16T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"R06A",37
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CARRY",2013,2026,"0.7 (DA16T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"R06A",37
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CARRY",2013,2026,"0.7 4x4 (DA16T) Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"R06A",37
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CARRY",2013,2026,"0.7 4x4 (DA16T) Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"R06A",37
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CARRY",2000,2005,"1.3 4x4 (DA32T) Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G13BB",58
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CARRY",2000,2005,"1.3 4x4 (DA32T) Petrol All-wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"G13BB",58
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CARRY",1999,2005,"1.3 16 V (DA32V) Petrol Rear-Wheel Drive Van",Petrol,Van,"G13BB",58
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CARRY",1999,2005,"1.3 16 V (DA32V) Petrol Rear-Wheel Drive Van",Petrol,Van,"G13BB",58
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CARRY",1999,2004,"0.7 (DA52T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F6A",47
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CARRY",1999,2004,"0.7 (DA52T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F6A",47
+"No matching vehicle found in DB",U1R AGM,SUZUKI,"CARRY",1985,1990,"1.0 (DA21, SK410) Petrol Rear-Wheel Drive Van",Petrol,Van,"F10A",33
+"No matching vehicle found in DB",U1R MF,SUZUKI,"CARRY",1985,1990,"1.0 (DA21, SK410) Petrol Rear-Wheel Drive Van",Petrol,Van,"F10A",33
+"No matching vehicle found in DB",12N24-3,SUZUKI,"CARRY",1985,1990,"1.0 (DA21, SK410) Petrol Rear-Wheel Drive Van",Petrol,Van,"F10A",33
+"No matching vehicle found in DB",U1R AGM,SUZUKI,"CARRY",1985,1990,"1.0 (DA21T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F10A",33
+"No matching vehicle found in DB",U1R MF,SUZUKI,"CARRY",1985,1990,"1.0 (DA21T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F10A",33
+"No matching vehicle found in DB",12N24-3,SUZUKI,"CARRY",1985,1990,"1.0 (DA21T) Petrol Rear-Wheel Drive Platform/Chassis",Petrol,Platform/Chassis,"F10A",33
+"No matching vehicle found in DB",NS40ZS MF,SUZUKI,"CARRY",1979,1985,"0.8 (ST90) Petrol Rear-Wheel Drive Van",Petrol,Van,"F8A",27
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CAPPUCCINO",1995,1998,"0.7 (SX306, EA21) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"F6A",47
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CAPPUCCINO",1995,1998,"0.7 (SX306, EA21) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"F6A",47
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"CAPPUCCINO",1992,1995,"0.7 (SX306, EA11) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"F6A",47
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"CAPPUCCINO",1992,1995,"0.7 (SX306, EA11) Petrol Rear-Wheel Drive Convertible",Petrol,Convertible,"F6A",47
+"No matching vehicle found in DB",NS60L MF,SUZUKI,"CELERIO",2014,2018,"1.0 (AVK310) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"K10B",50
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"ALTO",1996,2002,"1.0 (SH410) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"G10B",39
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"ALTO",1986,1993,"0.8 Petrol Front-Wheel Drive Hatchback Van",Petrol,Hatchback Van,"F8B",29
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"ALTO",1987,1988,"0.8 (SB308/CA) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"F8B",29
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"ALTO",1985,1988,"0.5 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"F5A",16
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"ALTO",1985,1988,"0.5 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"F5A",16
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"LJ80",1977,1981,"0.8 4x4 Petrol All-wheel Drive",Petrol,,"F8A",29
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"LJ80",1977,1981,"0.8 All-wheel Drive (LJ80) Petrol All-wheel Drive",Petrol,,"F8A",29
+"No matching vehicle found in DB",NS40ZS MF,SUZUKI,"CULTUS",1991,1996,"1.3 i (SF413, AK35, SY415, E35) Petrol Front-Wheel Drive Convertible",Petrol,Convertible,"G13BA",50
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"IGNIS",2016,2026,"1.2 (ATK412) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"K12C",66
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"IGNIS",2016,2026,"1.2 (ATK412) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"K12C",66
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"IGNIS",2003,2005,"1.5 (HV81, RG415) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"M15A",83
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"IGNIS",2003,2005,"1.5 (HV81, RG415) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"M15A",83
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"IGNIS",2000,2005,"1.3 (HV51, HX51, RG413) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"M13A",61
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"IGNIS",2000,2005,"1.3 (HV51, HX51, RG413) Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"M13A",61
+"No matching vehicle found in DB",75D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2003,2008,"2.7 4x4 (TX92, JA627) Petrol All-wheel Drive",Petrol,,"H 27 A",135
+"No matching vehicle found in DB",55D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2003,2008,"2.7 4x4 (TX92, JA627) Petrol All-wheel Drive",Petrol,,"H 27 A",135
+"No matching vehicle found in DB",75D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2001,2005,"2.5 V6 24V 4x4 (SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",116
+"No matching vehicle found in DB",55D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2001,2005,"2.5 V6 24V 4x4 (SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",116
+"No matching vehicle found in DB",NS60LSX MF,SUZUKI,"GRAND VITARA (INC XL-7)",2001,2005,"2.5 V6 24V 4x4 (SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",116
+"No matching vehicle found in DB",NS60LSX MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2005,"1.6 4x4 (SQ416) Petrol All-wheel Drive",Petrol,,"G16B",69
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2005,"1.6 4x4 (SQ416) Petrol All-wheel Drive",Petrol,,"G16B",69
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2005,"1.6 4x4 (SQ416) Petrol All-wheel Drive",Petrol,,"G16B",69
+"No matching vehicle found in DB",75D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2005,"2.0 4x4 (TA52, TL52, SQ420) Petrol All-wheel Drive",Petrol,,"J20A",94
+"No matching vehicle found in DB",55D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2005,"2.0 4x4 (TA52, TL52, SQ420) Petrol All-wheel Drive",Petrol,,"J20A",94
+"No matching vehicle found in DB",75D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2004,"2.5 V6 24V 4x4 (TD62, SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",106
+"No matching vehicle found in DB",55D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2004,"2.5 V6 24V 4x4 (TD62, SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",106
+"No matching vehicle found in DB",NS60LSX MF,SUZUKI,"GRAND VITARA (INC XL-7)",1998,2004,"2.5 V6 24V 4x4 (TD62, SQ625) Petrol All-wheel Drive",Petrol,,"H 25 A",106
+"No matching vehicle found in DB",75D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2001,2003,"2.7 4x4 (JA627) Petrol All-wheel Drive",Petrol,,"H 27 A",130
+"No matching vehicle found in DB",55D23L MF,SUZUKI,"GRAND VITARA (INC XL-7)",2001,2003,"2.7 4x4 (JA627) Petrol All-wheel Drive",Petrol,,"H 27 A",130
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"EVERY",2015,2026,"0.7 (DA17W) Petrol Rear-Wheel Drive Bus",Petrol,Bus,"R06A-T",47
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"EVERY",2015,2026,"0.7 (DA17W) Petrol Rear-Wheel Drive Bus",Petrol,Bus,"R06A-T",47
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"EVERY",2015,2026,"0.7 All-wheel Drive (DA17W) Petrol All-wheel Drive Bus",Petrol,Bus,"R06A",36
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"EVERY",2015,2026,"0.7 All-wheel Drive (DA17W) Petrol All-wheel Drive Bus",Petrol,Bus,"R06A",36
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HATCH",1980,1985,"0.5 (SS40V) Petrol Front-Wheel Drive Hatchback Van",Petrol,Hatchback Van,"F5A",21
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HATCH",1980,1985,"0.8 (SS80V) Petrol Front-Wheel Drive Hatchback Van",Petrol,Hatchback Van,"F8B",30
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"LJ81",1977,1981,"0.8 4x4 Petrol All-wheel Drive Ute",Petrol,Ute,"F8A",29
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID All-wheel Drive Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID All-wheel Drive Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID All-wheel Drive Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06D",36
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID All-wheel Drive Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06D",36
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06D",36
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2020,2026,"0.7 HYBRID Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06D",36
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid 4WD Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A",38
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid 4WD Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A",38
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid 4WD Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid 4WD Mild Hybrid All-wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A",38
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A",38
+"No matching vehicle found in DB",75D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",55D23R MF,SUZUKI,"HUSTLER",2015,2019,"0.7 Hybrid Mild Hybrid Front-Wheel Drive Hatchback",Mild Hybrid,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HUSTLER",2014,2019,"0.7 4WD Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"R06A",38
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HUSTLER",2014,2019,"0.7 4WD Petrol All-wheel Drive Hatchback",Petrol,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HUSTLER",2014,2019,"0.7 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"R06A",38
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"HUSTLER",2014,2019,"0.7 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"R06A-T",47
+"No matching vehicle found in DB",NS60L MF,SUZUKI,"JIMNY",2018,2026,"0.7 AllGrip (JB64W) Petrol All-wheel Drive",Petrol,,"R06A-T",47
+"No matching vehicle found in DB",NS60L MF,SUZUKI,"JIMNY",2018,2026,"1.5 AllGrip (JB74W, JB74V, A6G415) Petrol All-wheel Drive",Petrol,,"K15B",75
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"JIMNY",2005,2018,"1.3 16V 4x4 (SN413, JB43) Petrol All-wheel Drive",Petrol,,"M13A",63
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"JIMNY",2000,2017,"1.3 16V 4WD (SN413, JB43) Petrol All-wheel Drive",Petrol,,"M13A",60
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"JIMNY",1998,2017,"1.3 16V (SN413, JB33) Petrol Rear-Wheel Drive",Petrol,,"G13BB",59
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"JIMNY",1998,2002,"1.3 16V 4WD (SN413, JB33) Petrol All-wheel Drive",Petrol,,"G13BB",59
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"JIMNY",2000,2001,"FJ Petrol All-wheel Drive",Petrol,,"G13BB",59
+"No matching vehicle found in DB",YTX16-BS,SUZUKI,"KING QUAD",2008,2026,"LT-F500 Petrol Cardan Quad Bike",Petrol,Quad Bike,"400",0
+"No matching vehicle found in DB",NS40ZS MF,SUZUKI,"MIGHTY BOY",1985,1988,"0.5 (SS40T) Petrol Front-Wheel Drive Ute",Petrol,Ute,"F5A",21
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1988,2004,"1.3 All-wheel Drive (SJ413) Petrol All-wheel Drive",Petrol,,"G13A",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1988,2004,"1.3 All-wheel Drive (SJ413, SJ70, SJ80) Petrol All-wheel Drive",Petrol,,"G13BA",51
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1990,2000,"SJ40 STOCKMAN Petrol All-wheel Drive Ute",Petrol,Ute,"F10A",33
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1988,2000,"1.0 All-wheel Drive (SJ410) Petrol All-wheel Drive",Petrol,,"F10A",33
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1989,1999,"1.3 (SJ413, SF413, SJ70, SJ80) Petrol All-wheel Drive",Petrol,,"G13BA",51
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1981,1991,"1.0 (SJ410) Petrol All-wheel Drive",Petrol,,"F10A",33
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1984,1990,"1.3 (SJ413) Petrol All-wheel Drive",Petrol,,"G13A",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1984,1990,"1.3 (SJ413, SF413) Petrol All-wheel Drive",Petrol,,"G13A",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1984,1990,"1.3 All-wheel Drive (SJ413) Petrol All-wheel Drive",Petrol,,"G13A",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SIERRA",1981,1988,"1.0 All-wheel Drive (SJ410) Petrol All-wheel Drive",Petrol,,"F10A",33
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"VITARA",1999,2002,"1.6 16V (TA03, SE416) Petrol All-wheel Drive",Petrol,,"G16B",69
+"No matching vehicle found in DB",NS40ZS MF,SUZUKI,"SJ410",1981,1988,"1.0 (SJ410) Petrol All-wheel Drive",Petrol,,"F10A",33
+"No matching vehicle found in DB",NS40ZLX MF,SUZUKI,"SUPER CARRY",1985,1992,"1.0 (SK410) Petrol Rear-Wheel Drive Van",Petrol,Van,"F10A",33
+"No matching vehicle found in DB",NS40ZL MF,SUZUKI,"SUPER CARRY",1985,1992,"1.0 (SK410) Petrol Rear-Wheel Drive Van",Petrol,Van,"F10A",33
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SUPER CARRY",1985,1990,"1.0 (SK410) Petrol Rear-Wheel Drive Bus",Petrol,Bus,"F10A",33
+"No matching vehicle found in DB",NS40ZLB MF,SUZUKI,"WAGON R",1992,1997,"0.7 Petrol Front-Wheel Drive Hatchback",Petrol,Hatchback,"F6AB",41
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SPACIA",2017,2026,"0.7 Hybrid (MK53S) Mild Hybrid Front-Wheel Drive MPV",Mild Hybrid,MPV,"R06A",38
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SPACIA",2017,2026,"0.7 Hybrid (MK53S) Mild Hybrid Front-Wheel Drive MPV",Mild Hybrid,MPV,"R06A-T",47
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SPACIA",2017,2026,"0.7 Hybrid 4WD (MK53S) Mild Hybrid All-wheel Drive MPV",Mild Hybrid,MPV,"R06A",38
+"No matching vehicle found in DB",NS40Z MF,SUZUKI,"SPACIA",2017,2026,"0.7 Hybrid 4WD (MK53S) Mild Hybrid All-wheel Drive MPV",Mild Hybrid,MPV,"R06A-T",47
+"No matching vehicle found in DB",NS40ZLSX MF,SUZUKI,"X-90",1996,1997,"1.6 i 16V 4x4 (SZ416) Petrol All-wheel Drive",Petrol,,"G16B",71
+"No matching vehicle found in DB",NS40ZLS MF,SUZUKI,"X-90",1996,1997,"1.6 i 16V 4x4 (SZ416) Petrol All-wheel Drive",Petrol,,"G16B",71
