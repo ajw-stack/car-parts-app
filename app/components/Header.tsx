@@ -54,6 +54,14 @@ export default function Header() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1 flex-1">
 
+            {/* Home */}
+            <a
+              href="/"
+              className="px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors"
+            >
+              Home
+            </a>
+
             {/* Vehicles mega-dropdown */}
             <div
               className="relative"
