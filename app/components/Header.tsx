@@ -31,7 +31,7 @@ export default function Header() {
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
       <header className="border-b border-[#1A1A1A] bg-[#141414] text-white">
-        <div className="flex w-full items-center gap-8 px-4 py-4">
+        <div className="relative flex w-full items-center px-4 py-4">
 
           {/* Mobile hamburger */}
           <button
@@ -42,7 +42,7 @@ export default function Header() {
           </button>
 
           {/* Logo */}
-          <a href="/" className="flex items-center shrink-0 ml-20">
+          <a href="/" className="flex items-center shrink-0 ml-8">
             <span
               style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
               className="text-2xl tracking-widest uppercase text-white leading-none"
@@ -52,7 +52,7 @@ export default function Header() {
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1 ml-48">
+          <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
 
             {/* Home */}
             <a
