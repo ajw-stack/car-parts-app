@@ -161,7 +161,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
 
           {/* App Store badge */}
-          <
+          <a
             href="#"
             title="Download on the App Store"
             className="flex items-center gap-2 border border-white/30 rounded-lg px-3 py-1.5 hover:border-white/60 transition-colors shrink-0"
