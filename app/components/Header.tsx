@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { label: "Categories", href: "/categories" },
   { label: "Parts Search", href: "/parts-guide" },
   { label: "VIN & Rego", href: "/decode" },
-  { label: "Contact", href: "/contact" },
+  { label: "My Garage", href: "/saved-lists" },
 ];
 
 export default function Header() {
@@ -126,12 +126,12 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Right — My Garage (desktop) */}
+          {/* Right — Contact (desktop) */}
           <a
-            href="/saved-lists"
+            href="/contact"
             className="hidden md:block ml-auto text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors shrink-0"
           >
-            My Garage
+            Contact
           </a>
 
         </div>
