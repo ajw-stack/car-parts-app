@@ -141,7 +141,7 @@ export default function Footer() {
         </span>
 
         {/* Social icons + store badges — pushed to the right */}
-        <div className="ml-auto flex items-center gap-4">
+        <div className="ml-auto flex items-center gap-8">
 
           {/* Social icons */}
           <div className="flex items-center gap-2">
