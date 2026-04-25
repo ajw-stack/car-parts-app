@@ -82,19 +82,18 @@ export default function Footer() {
     <footer className="bg-[#141414] text-white border-t border-[#1A1A1A]">
 
       {/* Top — logo + columns */}
-      <div className="border-b border-[#2A2A2A] px-8 py-8">
-        <div className="flex gap-10">
+      <div className="relative border-b border-[#2A2A2A] px-8 py-8">
 
-          {/* Logo */}
-          <div className="w-44 shrink-0 pt-1">
-            <a
-              href="/"
-              style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
-              className="text-xl tracking-widest uppercase text-white"
-            >
-              ELRO<span className="text-[#E8000D]">CO</span>
-            </a>
-          </div>
+          {/* Logo — same absolute position as header */}
+          <a
+            href="/"
+            style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
+            className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
+          >
+            ELRO<span className="text-[#E8000D]">CO</span>
+          </a>
+
+        <div className="flex gap-10 md:pl-[25%]">
 
           {/* Link columns */}
           {COLUMNS.map((col) => (
