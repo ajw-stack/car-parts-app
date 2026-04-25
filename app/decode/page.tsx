@@ -98,7 +98,7 @@ function buildSections(vin: string, result: VinResult | null): Section[] {
       chars: wmi,
       positions: "1–3",
       detail: `${manufacturer} · ${country}`,
-      color: "bg-[#b40102]",
+      color: "bg-[#E8000D]",
       textColor: "text-white",
     },
     {
@@ -279,7 +279,7 @@ export default function DecodePage() {
               key={t}
               onClick={() => switchTab(t)}
               className={`rounded-full px-6 py-2 text-sm font-semibold transition-colors ${
-                tab === t ? "bg-[#b40102] text-white" : "text-white/60 hover:text-white"
+                tab === t ? "bg-[#E8000D] text-white" : "text-white/60 hover:text-white"
               }`}
             >
               {t === "vin" ? "VIN Decoder" : "Rego Lookup"}
@@ -297,12 +297,12 @@ export default function DecodePage() {
             maxLength={tab === "vin" ? 17 : 12}
             autoFocus
             placeholder={placeholder}
-            className="flex-1 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-center text-base font-mono tracking-widest text-white placeholder:font-sans placeholder:tracking-normal placeholder:text-white/30 focus:border-[#b40102] focus:outline-none"
+            className="flex-1 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-center text-base font-mono tracking-widest text-white placeholder:font-sans placeholder:tracking-normal placeholder:text-white/30 focus:border-[#E8000D] focus:outline-none"
           />
           <button
             onClick={handleDecode}
             disabled={loading || !input.trim()}
-            className="rounded-xl bg-[#b40102] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#2a2a2a] disabled:opacity-40"
+            className="rounded-xl bg-[#E8000D] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#2a2a2a] disabled:opacity-40"
           >
             {loading ? "…" : "Decode"}
           </button>
@@ -440,7 +440,7 @@ export default function DecodePage() {
                 </div>
                 <a
                   href={`/?q=${encodeURIComponent([vinResult.year, vinResult.make, vinResult.model].filter(Boolean).join(" "))}`}
-                  className="shrink-0 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                  className="shrink-0 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
                 >
                   Search Parts →
                 </a>
@@ -492,7 +492,7 @@ export default function DecodePage() {
                     </div>
                     <a
                       href={`/?q=${encodeURIComponent([regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" "))}`}
-                      className="shrink-0 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                      className="shrink-0 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
                     >
                       Search Parts →
                     </a>
@@ -528,7 +528,7 @@ export default function DecodePage() {
                     href={regoState[0].checkUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                    className="inline-flex items-center gap-2 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
                   >
                     Check {regoState[0].abbr} Rego →
                   </a>
@@ -560,7 +560,7 @@ export default function DecodePage() {
                     </div>
                     <a
                       href={`/?q=${encodeURIComponent([regoVehicle.year, regoVehicle.make, regoVehicle.family].filter(Boolean).join(" "))}`}
-                      className="shrink-0 rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
+                      className="shrink-0 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101]"
                     >
                       Search Parts →
                     </a>
@@ -584,7 +584,7 @@ export default function DecodePage() {
                         key={s.abbr}
                         onClick={() => lookupRegoWithState(s, input.trim().toUpperCase())}
                         disabled={loading}
-                        className="rounded-xl bg-[#b40102] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-50"
+                        className="rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-50"
                       >
                         {loading ? "…" : `Look up ${s.abbr}`}
                       </button>
@@ -605,7 +605,7 @@ export default function DecodePage() {
                 <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
                   {Object.values(AU_STATES).map((s) => (
                     <a key={s.abbr} href={s.checkUrl} target="_blank" rel="noopener noreferrer"
-                      className="rounded-lg border border-gray-200 px-3 py-2.5 text-center text-sm font-medium text-[#111827] transition-colors hover:border-[#b40102] hover:bg-gray-50">
+                      className="rounded-lg border border-gray-200 px-3 py-2.5 text-center text-sm font-medium text-[#111827] transition-colors hover:border-[#E8000D] hover:bg-gray-50">
                       {s.abbr}
                     </a>
                   ))}

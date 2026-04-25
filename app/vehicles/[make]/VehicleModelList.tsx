@@ -72,7 +72,7 @@ export default function VehicleModelList({
                 <h2 className="text-base font-semibold text-white">{model}</h2>
                 <div className="flex items-center gap-2">
                   {hasData && (
-                    <span className="inline-flex items-center rounded-full bg-[#b40102] px-2.5 py-0.5 text-xs font-medium text-white">
+                    <span className="inline-flex items-center rounded-full bg-[#E8000D] px-2.5 py-0.5 text-xs font-medium text-white">
                       {variants.length}
                     </span>
                   )}

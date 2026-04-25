@@ -630,7 +630,7 @@ export default function Page() {
                 options={engineOptions}
                 placeholder="Engine"
                 disabled={!selectedMake || !selectedModel}
-                renderOption={(o) => renderEngineLabel(o, true)}
+                renderOption={(o) => renderEngineLabel(o)}
               />
 
               <TypeaheadInput
@@ -792,7 +792,7 @@ export default function Page() {
               {!selectedVehicleId ? (
                 <div className="text-sm text-[#6A6A6A]">
                   Select Make, Model, Year, Series and Engine to view parts.{" "}
-                  <span className="text-[#b40102]">Trim and Chassis are optional.</span>
+                  <span className="text-[#E8000D]">Trim and Chassis are optional.</span>
                 </div>
               ) : (
                 <button

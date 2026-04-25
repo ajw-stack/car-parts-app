@@ -84,7 +84,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             </div>
             <a
               href={`/vehicles/${makeSlug}/${id}/parts`}
-              className="shrink-0 rounded-xl bg-[#b40102] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#9a0101] transition-colors"
+              className="shrink-0 rounded-xl bg-[#E8000D] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#9a0101] transition-colors"
             >
               View Parts
             </a>

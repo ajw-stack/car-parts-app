@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Michroma } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
@@ -10,6 +10,12 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const michroma = Michroma({
+  variable: "--font-michroma",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -33,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${michroma.variable}`}>
         {children}
         <Script
           id="register-sw"
