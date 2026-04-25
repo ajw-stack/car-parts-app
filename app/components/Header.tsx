@@ -25,7 +25,7 @@ return (
 <a href="/" className="flex items-center">
   <Image
     src="/gpc_logo_transparent_clean_crop.png"
-    alt="Global Parts Catalogue"
+    alt="Elroco"
     width={220}
     height={85}
   />

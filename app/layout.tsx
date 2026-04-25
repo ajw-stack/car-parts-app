@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import RedBorderLine from "./components/RedBorderLine";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Global Parts Catalogue",
-  description: "Global Parts Catalogue",
+  title: "Elroco",
+  description: "Elroco Parts Catalogue",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -36,6 +37,13 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <RedBorderLine />
         {children}
+        <Script
+          id="register-sw"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');`,
+          }}
+        />
       </body>
     </html>
   );

@@ -63,7 +63,7 @@ export default async function CategoriesPage() {
 
       <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
         <div className="mx-auto max-w-5xl text-center">
-          © 2026 Global Parts Catalogue. All rights reserved.
+          © 2026 Elroco. All rights reserved.
         </div>
       </footer>
     </div>

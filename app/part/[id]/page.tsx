@@ -157,7 +157,7 @@ export default async function PartPage({
       </main>
 
       <footer className="border-t border-[#1A1A1A] bg-[#141414] py-4 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} Global Parts Catalogue
+        © {new Date().getFullYear()} Elroco
       </footer>
     </div>
   );

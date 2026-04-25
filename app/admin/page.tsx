@@ -1151,7 +1151,7 @@ options={Array.from(
 
     <footer className="bg-[#0F0F0F] text-white text-center py-6 mt-auto">
       <p className="text-sm">
-        © 2026 Global Parts Catalogue. All rights reserved.
+        © 2026 Elroco. All rights reserved.
       </p>
     </footer>
   </div>

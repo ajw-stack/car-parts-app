@@ -125,7 +125,7 @@ export default function PartsGuidePage() {
 
       <footer className="w-full border-t border-[#1A1A1A] bg-[#0F0F0F] px-6 py-6 text-sm text-white/70">
         <div className="mx-auto max-w-5xl text-center">
-          © {new Date().getFullYear()} Global Parts Catalogue. All rights reserved.
+          © {new Date().getFullYear()} Elroco. All rights reserved.
         </div>
       </footer>
     </div>
