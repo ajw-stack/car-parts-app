@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
         <a
           href="/admin"
-          className="text-xs text-white/25 hover:text-white/60 transition-colors"
+          className="text-xs text-white/50 hover:text-white transition-colors"
         >
           Admin
         </a>

@@ -60,7 +60,7 @@ export default function Header() {
               onMouseEnter={openVehicles}
               onMouseLeave={closeVehicles}
             >
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium uppercase tracking-wide text-white/75 hover:text-white transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors">
                 Vehicles
                 <svg className="w-3 h-3 mt-px" viewBox="0 0 10 6" fill="currentColor">
                   <path d="M0 0l5 6 5-6z" />
@@ -111,7 +111,7 @@ export default function Header() {
               <a
                 key={l.href}
                 href={l.href}
-                className="px-3 py-2 text-sm font-medium uppercase tracking-wide text-white/75 hover:text-white transition-colors"
+                className="px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors"
               >
                 {l.label}
               </a>
@@ -121,7 +121,7 @@ export default function Header() {
           {/* Right — My Garage (desktop) */}
           <a
             href="/saved-lists"
-            className="hidden md:block ml-auto text-sm font-medium uppercase tracking-wide text-white/75 hover:text-white transition-colors shrink-0"
+            className="hidden md:block ml-auto text-sm font-semibold uppercase tracking-widest text-white hover:text-[#E8000D] transition-colors shrink-0"
           >
             My Garage
           </a>
