@@ -42,7 +42,7 @@ export default function Header() {
           </button>
 
           {/* Logo — desktop: centred between left edge and nav (quarter point) */}
-          <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-1/2 md:ml-0">
+          <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
             <span
               style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
               className="text-2xl tracking-widest uppercase text-white leading-none"
