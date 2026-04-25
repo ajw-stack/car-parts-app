@@ -79,7 +79,7 @@ const SOCIALS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#141414] text-white border-t border-[#1A1A1A]">
+    <footer className="bg-[#1C1C1C] text-white border-t border-[#2A2A2A]">
 
       {/* Top — logo + columns */}
       <div className="relative border-b border-[#2A2A2A] px-8 py-8">
