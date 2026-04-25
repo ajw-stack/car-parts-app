@@ -141,7 +141,7 @@ export default function Footer() {
         </span>
 
         {/* Social icons + store badges — pushed to the right */}
-        <div className="ml-auto flex items-center gap-8">
+        <div className="ml-auto flex items-center gap-16">
 
           {/* Social icons */}
           <div className="flex items-center gap-2">
@@ -157,8 +157,11 @@ export default function Footer() {
             ))}
           </div>
 
+          {/* Store badges — grouped tight */}
+          <div className="flex items-center gap-2">
+
           {/* App Store badge */}
-          <a
+          <
             href="#"
             title="Download on the App Store"
             className="flex items-center gap-2 border border-white/30 rounded-lg px-3 py-1.5 hover:border-white/60 transition-colors shrink-0"
@@ -189,6 +192,8 @@ export default function Footer() {
               <div className="text-xs font-semibold text-white">Google Play</div>
             </div>
           </a>
+
+          </div>{/* end store badges */}
 
         </div>
 
