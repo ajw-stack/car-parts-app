@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, use } from "react";
+import { useEffect, useRef, useState, use } from "react";
 import { useRouter } from "next/navigation";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
@@ -34,6 +34,8 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
   const [description, setDescription]   = useState("");
   const [imageUrls, setImageUrls]       = useState<string[]>([""]);
   const [specs, setSpecs]               = useState<SpecRow[]>([]);
+  const specKeyInputs = useRef<(HTMLInputElement | null)[]>([]);
+  const pendingFocusSpec = useRef(false);
 
   useEffect(() => {
     async function init() {
@@ -124,8 +126,16 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
   }
 
   function addSpecRow() {
+    pendingFocusSpec.current = true;
     setSpecs((prev) => [...prev, { key: "", value: "" }]);
   }
+
+  useEffect(() => {
+    if (pendingFocusSpec.current && specs.length > 0) {
+      specKeyInputs.current[specs.length - 1]?.focus();
+      pendingFocusSpec.current = false;
+    }
+  }, [specs.length]);
 
   function removeSpecRow(i: number) {
     setSpecs((prev) => prev.filter((_, idx) => idx !== i));
@@ -255,14 +265,15 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                 <div className="rounded-xl border border-gray-200 overflow-hidden divide-y divide-gray-100">
                   {specs.map((row, i) => (
                     <div key={i} className="flex items-center gap-2 px-3 py-2 bg-white">
-                      {/* Up/down */}
+                      {/* Up/down — excluded from tab order */}
                       <div className="flex flex-col gap-0.5 shrink-0">
-                        <button type="button" onClick={() => moveSpec(i, -1)} disabled={i === 0}
+                        <button type="button" tabIndex={-1} onClick={() => moveSpec(i, -1)} disabled={i === 0}
                           className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none py-0.5">▲</button>
-                        <button type="button" onClick={() => moveSpec(i, 1)} disabled={i === specs.length - 1}
+                        <button type="button" tabIndex={-1} onClick={() => moveSpec(i, 1)} disabled={i === specs.length - 1}
                           className="text-gray-400 hover:text-gray-700 disabled:opacity-20 text-xs leading-none py-0.5">▼</button>
                       </div>
                       <input
+                        ref={(el) => { specKeyInputs.current[i] = el; }}
                         className="flex-1 text-sm border-0 outline-none bg-transparent text-gray-700 font-medium"
                         placeholder="Label (e.g. Thread)"
                         value={row.key}
@@ -274,8 +285,14 @@ export default function EditPartPage({ params }: { params: Promise<{ id: string 
                         placeholder="Value (e.g. 3/4 x 16)"
                         value={row.value}
                         onChange={(e) => updateSpecRow(i, "value", e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Tab" && !e.shiftKey && i === specs.length - 1) {
+                            e.preventDefault();
+                            addSpecRow();
+                          }
+                        }}
                       />
-                      <button type="button" onClick={() => removeSpecRow(i)}
+                      <button type="button" tabIndex={-1} onClick={() => removeSpecRow(i)}
                         className="ml-2 text-gray-300 hover:text-red-400 text-lg leading-none">×</button>
                     </div>
                   ))}
