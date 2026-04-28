@@ -97,28 +97,37 @@ function TypeaheadInput({
   renderOption,
 }: TypeaheadInputProps) {
   const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
 
   const filtered = useMemo(() => {
-    return options;
-  }, [options]);
+    if (!query) return options;
+    const q = query.toLowerCase();
+    return options.filter((o) => o.toLowerCase().includes(q));
+  }, [options, query]);
 
   const select = (v: string) => {
     onChange(v);
+    setQuery("");
     setOpen(false);
   };
+
+  const shownValue = open ? query : (displayValue ?? value);
 
   return (
     <div className="relative w-full">
       <input
         name="no-autocomplete-make"
-        autoComplete="nope"
-        value={displayValue ?? value}
+        autoComplete="off"
+        value={shownValue}
         disabled={disabled}
         placeholder={placeholder}
-        readOnly
-        onClick={() => setOpen((prev) => !prev)}
-        onBlur={() => setOpen(false)}
-        className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-pointer"
+        onChange={(e) => {
+          setQuery(e.target.value);
+          setOpen(true);
+        }}
+        onClick={() => setOpen(true)}
+        onBlur={() => { setTimeout(() => { setOpen(false); setQuery(""); }, 150); }}
+        className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-text"
       />
       {open && filtered.length > 0 && (
         <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
