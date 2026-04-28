@@ -77,7 +77,7 @@ export default function Header() {
 
               {vehiclesOpen && (
                 <div
-                  className="absolute left-0 top-full mt-0 bg-[#0F0F0F] border border-[#1A1A1A] shadow-2xl z-50 w-72"
+                  className="absolute left-0 top-full mt-0 bg-[#0F0F0F] border border-[#1A1A1A] shadow-2xl z-[9999] w-72"
                   onMouseEnter={openVehicles}
                   onMouseLeave={closeVehicles}
                 >
