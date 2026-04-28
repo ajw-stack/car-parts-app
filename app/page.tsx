@@ -1,7 +1,7 @@
 // app/page.tsx
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Header from "./components/Header";
@@ -96,9 +96,11 @@ function TypeaheadInput({
   disabled,
   renderOption,
 }: TypeaheadInputProps) {
-  const [open, setOpen] = useState(false);
+  const [open, _setOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [highlighted, setHighlighted] = useState(-1);
+  const [highlighted, _setHighlighted] = useState(-1);
+  const openRef = useRef(false);
+  const highlightedRef = useRef(-1);
   const listRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
@@ -106,6 +108,13 @@ function TypeaheadInput({
     const q = query.toLowerCase();
     return options.filter((o) => o.toLowerCase().includes(q));
   }, [options, query]);
+
+  // Keep a ref to filtered so handleKeyDown always reads the current list
+  const filteredRef = useRef(filtered);
+  filteredRef.current = filtered;
+
+  const setOpen = (v: boolean) => { openRef.current = v; _setOpen(v); };
+  const setHighlighted = (n: number) => { highlightedRef.current = n; _setHighlighted(n); };
 
   const select = (v: string) => {
     onChange(v);
@@ -117,26 +126,27 @@ function TypeaheadInput({
   const shownValue = open ? query : (displayValue ?? value);
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (!open && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+    if (!openRef.current && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+      e.preventDefault();
       setOpen(true);
       setHighlighted(0);
       return;
     }
     if (e.key === "ArrowDown") {
       e.preventDefault();
-      const next = Math.min(highlighted + 1, filtered.length - 1);
+      const next = Math.min(highlightedRef.current + 1, filteredRef.current.length - 1);
       setHighlighted(next);
       listRef.current?.children[next]?.scrollIntoView({ block: "nearest" });
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
-      const prev = Math.max(highlighted - 1, 0);
+      const prev = Math.max(highlightedRef.current - 1, 0);
       setHighlighted(prev);
       listRef.current?.children[prev]?.scrollIntoView({ block: "nearest" });
-    } else if (e.key === "Enter" && highlighted >= 0 && filtered[highlighted]) {
+    } else if (e.key === "Enter" && highlightedRef.current >= 0 && filteredRef.current[highlightedRef.current]) {
       e.preventDefault();
-      select(filtered[highlighted]);
-    } else if (e.key === "Tab" && highlighted >= 0 && filtered[highlighted]) {
-      select(filtered[highlighted]);
+      select(filteredRef.current[highlightedRef.current]);
+    } else if (e.key === "Tab" && highlightedRef.current >= 0 && filteredRef.current[highlightedRef.current]) {
+      select(filteredRef.current[highlightedRef.current]);
     } else if (e.key === "Escape") {
       setOpen(false);
       setQuery("");
