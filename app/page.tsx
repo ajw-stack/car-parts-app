@@ -98,6 +98,8 @@ function TypeaheadInput({
 }: TypeaheadInputProps) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [highlighted, setHighlighted] = useState(-1);
+  const listRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
     if (!query) return options;
@@ -109,9 +111,38 @@ function TypeaheadInput({
     onChange(v);
     setQuery("");
     setOpen(false);
+    setHighlighted(-1);
   };
 
   const shownValue = open ? query : (displayValue ?? value);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!open && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+      setOpen(true);
+      setHighlighted(0);
+      return;
+    }
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      const next = Math.min(highlighted + 1, filtered.length - 1);
+      setHighlighted(next);
+      listRef.current?.children[next]?.scrollIntoView({ block: "nearest" });
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      const prev = Math.max(highlighted - 1, 0);
+      setHighlighted(prev);
+      listRef.current?.children[prev]?.scrollIntoView({ block: "nearest" });
+    } else if (e.key === "Enter" && highlighted >= 0 && filtered[highlighted]) {
+      e.preventDefault();
+      select(filtered[highlighted]);
+    } else if (e.key === "Tab" && highlighted >= 0 && filtered[highlighted]) {
+      select(filtered[highlighted]);
+    } else if (e.key === "Escape") {
+      setOpen(false);
+      setQuery("");
+      setHighlighted(-1);
+    }
+  };
 
   return (
     <div className="relative w-full">
@@ -124,14 +155,16 @@ function TypeaheadInput({
         onChange={(e) => {
           setQuery(e.target.value);
           setOpen(true);
+          setHighlighted(-1);
         }}
         onClick={() => setOpen(true)}
-        onBlur={() => { setTimeout(() => { setOpen(false); setQuery(""); }, 150); }}
+        onKeyDown={handleKeyDown}
+        onBlur={() => { setTimeout(() => { setOpen(false); setQuery(""); setHighlighted(-1); }, 150); }}
         className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-text"
       />
       {open && filtered.length > 0 && (
-        <div className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
-          {filtered.map((o) => (
+        <div ref={listRef} className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
+          {filtered.map((o, i) => (
             <button
               key={o}
               type="button"
@@ -139,7 +172,8 @@ function TypeaheadInput({
                 e.preventDefault();
                 select(o);
               }}
-              className="block w-full px-4 py-2 text-left text-[#0F0F0F] hover:bg-[#F5F5F5] cursor-pointer whitespace-nowrap"
+              onMouseEnter={() => setHighlighted(i)}
+              className={`block w-full px-4 py-2 text-left text-[#0F0F0F] cursor-pointer whitespace-nowrap ${i === highlighted ? "bg-[#F0F0F0]" : "hover:bg-[#F5F5F5]"}`}
             >
               {renderOption ? renderOption(o) : o}
             </button>
