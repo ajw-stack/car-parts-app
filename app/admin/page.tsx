@@ -463,8 +463,8 @@ export default function AdminPage() {
   const brandRef = useRef<HTMLInputElement>(null);
 
   // --- Fitment form ---
-  const [fVehicleId, setFVehicleId] = useState("");
-  const [fPartId, setFPartId] = useState("");
+  const [fVehicleLabel, setFVehicleLabel] = useState("");
+  const [fPartLabel, setFPartLabel] = useState("");
   const [fNotes, setFNotes] = useState("");
 
   // --- Cross Reference form ---
@@ -632,7 +632,7 @@ fetchAllParts(),
   const canAddPart =
     pBrand.trim() && pNumber.trim() && pName.trim() && pCategory.trim();
 
-  const canAddFitment = fVehicleId && fPartId;
+  const canAddFitment = fVehicleLabel && fPartLabel;
 
   async function addVehicle() {
     setMsg("");
@@ -747,11 +747,15 @@ brandRef.current?.focus();
   }
 
   async function addFitment() {
-    setMsg("");
+    setMsg(“”);
 
-    const { error } = await supabase.from("fitments").insert({
-      vehicle_id: fVehicleId,
-      part_id: fPartId,
+    const vehicle = vehicles.find((v) => vehicleLabel(v) === fVehicleLabel);
+    const part = parts.find((p) => partLabel(p) === fPartLabel);
+    if (!vehicle || !part) { setMsg(“Could not find the selected vehicle or part.”); return; }
+
+    const { error } = await supabase.from(“fitments”).insert({
+      vehicle_id: vehicle.id,
+      part_id: part.id,
       notes: fNotes.trim() ? fNotes.trim() : null,
     });
 
@@ -761,15 +765,9 @@ brandRef.current?.focus();
       return;
     }
 
-    setMsg("Fitment added (vehicle linked to part).");
-    setFNotes("");
+    setMsg(“Fitment added (vehicle linked to part).”);
+    setFNotes(“”);
   }
-
-  // Small “defaults” for speed when there’s only one row
-  useEffect(() => {
-    if (!fVehicleId && vehicles.length === 1) setFVehicleId(vehicles[0].id);
-    if (!fPartId && parts.length === 1) setFPartId(parts[0].id);
-  }, [vehicles, parts, fVehicleId, fPartId]);
 
 return (
   <div className="min-h-screen flex flex-col bg-[#F3F4F6]">
@@ -1072,31 +1070,19 @@ options={Array.from(
           <h2 className="text-lg font-semibold text-white">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
-            <select
-              value={fVehicleId}
-              onChange={(e) => setFVehicleId(e.target.value)}
-       className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
-            >
-              <option value="">Select Vehicle</option>
-              {vehicles.map((v) => (
-                <option key={v.id} value={v.id}>
-                  {vehicleLabel(v)}
-                </option>
-              ))}
-            </select>
+            <TypeaheadInput
+              value={fVehicleLabel}
+              onChange={setFVehicleLabel}
+              options={vehicles.map(vehicleLabel).sort()}
+              placeholder="Search vehicle…"
+            />
 
-            <select
-              value={fPartId}
-              onChange={(e) => setFPartId(e.target.value)}
-      className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
-            >
-              <option value="">Select Part</option>
-              {parts.map((p) => (
-                <option key={p.id} value={p.id}>
-                  {partLabel(p)}
-                </option>
-              ))}
-            </select>
+            <TypeaheadInput
+              value={fPartLabel}
+              onChange={setFPartLabel}
+              options={parts.map(partLabel).sort()}
+              placeholder="Search part…"
+            />
 
             <input
        className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
