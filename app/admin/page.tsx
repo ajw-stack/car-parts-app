@@ -465,6 +465,7 @@ export default function AdminPage() {
   // --- Fitment form ---
   const [fVehicleLabel, setFVehicleLabel] = useState("");
   const [fPartLabel, setFPartLabel] = useState("");
+  const [fPosition, setFPosition] = useState("");
   const [fNotes, setFNotes] = useState("");
 
   // --- Cross Reference form ---
@@ -753,10 +754,12 @@ brandRef.current?.focus();
     const part = parts.find((p) => partLabel(p) === fPartLabel);
     if (!vehicle || !part) { setMsg("Could not find the selected vehicle or part."); return; }
 
-    const { error } = await supabase.from("fitments").insert({
+    const { error } = await supabase.from("vehicle_part_fitments").insert({
       vehicle_id: vehicle.id,
       part_id: part.id,
-      notes: fNotes.trim() ? fNotes.trim() : null,
+      position: fPosition.trim() || null,
+      qty: 1,
+      notes: fNotes.trim() || null,
     });
 
     if (error) {
@@ -766,6 +769,7 @@ brandRef.current?.focus();
     }
 
     setMsg("Fitment added (vehicle linked to part).");
+    setFPosition("");
     setFNotes("");
   }
 
@@ -1069,7 +1073,7 @@ options={Array.from(
         <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
           <h2 className="text-lg font-semibold text-white">Add Fitment (Link Vehicle ↔ Part)</h2>
 
-          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
+          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
             <TypeaheadInput
               value={fVehicleLabel}
               onChange={setFVehicleLabel}
@@ -1083,9 +1087,19 @@ options={Array.from(
               options={parts.map(partLabel).sort()}
               placeholder="Search part…"
             />
+          </div>
+
+          <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
+            <TypeaheadInput
+              value={fPosition}
+              onChange={setFPosition}
+              options={["Front", "Rear", "Front & Rear", "Left", "Right", "Left Front", "Right Front", "Left Rear", "Right Rear", "Upper", "Lower"]}
+              placeholder="Position (e.g. Front)"
+              allowCreate
+            />
 
             <input
-       className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+              className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
               placeholder="Notes (optional)"
               value={fNotes}
               onChange={(e) => setFNotes(e.target.value)}

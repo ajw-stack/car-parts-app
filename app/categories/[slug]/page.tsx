@@ -18,7 +18,7 @@ export default async function CategoryPage({
   // Fetch parts in this category with fitment count
   const { data: parts } = await supabaseServer
     .from("parts")
-    .select("id, brand, part_number, name, category, fitments(count)")
+    .select("id, brand, part_number, name, category, vehicle_part_fitments(count)")
     .in("category", dbNames)
     .order("brand")
     .order("part_number");
@@ -70,7 +70,7 @@ export default async function CategoryPage({
                   </thead>
                   <tbody className="divide-y divide-[#F3F4F6]">
                     {(parts ?? []).map((p: any) => {
-                      const fitCount = p.fitments?.[0]?.count ?? 0;
+                      const fitCount = p.vehicle_part_fitments?.[0]?.count ?? 0;
                       return (
                         <tr key={p.id} className="hover:bg-[#F9FAFB] transition-colors">
                           <td className="px-4 py-3 font-medium text-[#1F2937]">{p.brand}</td>
