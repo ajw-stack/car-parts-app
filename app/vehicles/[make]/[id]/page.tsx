@@ -32,7 +32,7 @@ function TagRow({ label, tags }: { label: string; tags: string[] }) {
       <span className="w-56 shrink-0 text-sm text-gray-500">{label}</span>
       <div className="flex flex-wrap gap-1.5">
         {tags.map(tag => (
-          <span key={tag} className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-700">
+          <span key={tag} className="rounded-full bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-[#111827]">
             {tag}
           </span>
         ))}
