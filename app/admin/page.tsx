@@ -747,13 +747,13 @@ brandRef.current?.focus();
   }
 
   async function addFitment() {
-    setMsg(“”);
+    setMsg("");
 
     const vehicle = vehicles.find((v) => vehicleLabel(v) === fVehicleLabel);
     const part = parts.find((p) => partLabel(p) === fPartLabel);
-    if (!vehicle || !part) { setMsg(“Could not find the selected vehicle or part.”); return; }
+    if (!vehicle || !part) { setMsg("Could not find the selected vehicle or part."); return; }
 
-    const { error } = await supabase.from(“fitments”).insert({
+    const { error } = await supabase.from("fitments").insert({
       vehicle_id: vehicle.id,
       part_id: part.id,
       notes: fNotes.trim() ? fNotes.trim() : null,
@@ -765,8 +765,8 @@ brandRef.current?.focus();
       return;
     }
 
-    setMsg(“Fitment added (vehicle linked to part).”);
-    setFNotes(“”);
+    setMsg("Fitment added (vehicle linked to part).");
+    setFNotes("");
   }
 
 return (
