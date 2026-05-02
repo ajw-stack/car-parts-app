@@ -625,7 +625,6 @@ fetchAllParts(),
     vMake.trim() &&
     vModel.trim() &&
     vYearFrom.trim() &&
-    vYearTo.trim() &&
     vEngineCode.trim() &&
     vFuel.trim() &&
     vChassis.length > 0;
@@ -647,7 +646,7 @@ fetchAllParts(),
       return;
     }
 
-    // Allow "Current" (store as null) and allow blank (also null)
+    // 0 / 0000 / current → store as 0 (displays as "Current"); blank → null (displays as "TBA")
     const yearToRaw = vYearTo.trim();
     const year_to =
       yearToRaw === ""
@@ -888,7 +887,7 @@ return (
 
                 <input
        className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
-                  placeholder="Year To (e.g. 2022)"
+                  placeholder="Year To (e.g. 2022, 0=Current, blank=TBA)"
                   value={vYearTo}
                   onChange={(e) => setVYearTo(e.target.value)}
                 />
