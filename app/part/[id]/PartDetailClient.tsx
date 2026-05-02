@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { supabase } from "../../lib/supabaseClient";
+import { formatYearTo } from "../../lib/formatYear";
 
 type Props = {
   specs: Record<string, string> | null;
@@ -172,8 +173,8 @@ export default function PartDetailClient({
                         </div>
                         <div className="mt-0.5 text-sm text-gray-500">
                           {(v.month_from ? String(v.month_from).padStart(2, "0") + "/" : "") + v.year_from}
-                          {v.year_to && v.year_to !== v.year_from
-                            ? `–${(v.month_to ? String(v.month_to).padStart(2, "0") + "/" : "") + v.year_to}`
+                          {v.year_to !== v.year_from
+                            ? `–${v.year_to === null || v.year_to === 0 ? formatYearTo(v.year_to) : (v.month_to ? String(v.month_to).padStart(2, "0") + "/" : "") + v.year_to}`
                             : ""}
                           {v.engine_code ? ` • ${v.engine_code}` : ""}
                           {v.engine_litres ? ` • ${v.engine_litres}L` : ""}

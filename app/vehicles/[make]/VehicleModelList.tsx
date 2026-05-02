@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { formatYearTo } from "../../lib/formatYear";
 
 type Vehicle = {
   id: string;
@@ -96,7 +97,7 @@ export default function VehicleModelList({
                           </div>
                           <div className="mt-0.5 text-sm text-gray-500">
                             {v.year_from}
-                            {v.year_to && v.year_to !== v.year_from ? `–${v.year_to}` : ""}
+                            {v.year_to !== v.year_from ? `–${formatYearTo(v.year_to)}` : ""}
                             {v.engine_code ? ` • ${v.engine_code}` : ""}
                             {v.engine_litres ? ` • ${v.engine_litres}L` : ""}
                             {v.engine_config ? ` • ${v.engine_config}` : ""}

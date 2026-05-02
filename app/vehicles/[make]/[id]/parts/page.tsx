@@ -1,4 +1,5 @@
 import { supabaseServer } from "../../../../lib/supabaseServer";
+import { formatYearTo } from "../../../../lib/formatYear";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import PartsPageClient from "./PartsPageClient";
@@ -59,7 +60,7 @@ export default async function VehiclePartsPage({
   const vehicleSubtitle = vehicle
     ? [
         vehicle.year_from,
-        vehicle.year_to && vehicle.year_to !== vehicle.year_from ? `–${vehicle.year_to}` : "",
+        vehicle.year_to !== vehicle.year_from ? `–${formatYearTo(vehicle.year_to)}` : "",
         vehicle.engine_litres ? `${vehicle.engine_litres}L` : "",
         vehicle.engine_code ? `• ${vehicle.engine_code}` : "",
         vehicle.engine_config ? `• ${vehicle.engine_config}` : "",

@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { formatYearTo } from "./lib/formatYear";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Header from "./components/Header";
@@ -334,7 +335,7 @@ export default function Page() {
     for (const v of makeVehicles) {
       if (v.make === selectedMake && v.model === selectedModel) {
         const start = v.year_from;
-        const end = v.year_to ?? currentYear;
+        const end = (v.year_to === null || v.year_to === 0) ? currentYear : v.year_to;
         if (!Number.isFinite(start) || !Number.isFinite(end)) continue;
         if (end < start) continue;
         for (let y = start; y <= end; y++) set.add(y);
@@ -352,7 +353,7 @@ export default function Page() {
         selectedYear !== "" &&
         !(
           selectedYear >= v.year_from &&
-          (v.year_to === null || selectedYear <= v.year_to)
+          (v.year_to === null || v.year_to === 0 || selectedYear <= v.year_to)
         )
       )
         continue;
@@ -388,7 +389,7 @@ export default function Page() {
         v.model === selectedModel &&
         (selectedSeries === "All" || v.series === selectedSeries) &&
         selectedYear >= v.year_from &&
-        (v.year_to === null || selectedYear <= v.year_to) &&
+        (v.year_to === null || v.year_to === 0 || selectedYear <= v.year_to) &&
         (!selectedEngineKey ||
           engineLabelFromKey(engineKey(v)) === selectedEngineKey)
       ) {
@@ -430,7 +431,7 @@ export default function Page() {
       const yearMatch =
         selectedYear === "" ||
         (selectedYear >= v.year_from &&
-          (v.year_to === null || selectedYear <= v.year_to));
+          (v.year_to === null || v.year_to === 0 || selectedYear <= v.year_to));
       if (
         v.make === selectedMake &&
         v.model === selectedModel &&
@@ -488,7 +489,7 @@ export default function Page() {
         v.make === selectedMake &&
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
-        (v.year_to === null || selectedYear <= v.year_to) &&
+        (v.year_to === null || v.year_to === 0 || selectedYear <= v.year_to) &&
         (selectedSeries === "All" ||
           seriesVal === selectedSeries ||
           (seriesVal === "" && selectedSeries === "")) &&
@@ -558,7 +559,7 @@ export default function Page() {
         v.make === selectedMake &&
         v.model === selectedModel &&
         selectedYear >= v.year_from &&
-        (v.year_to === null || selectedYear <= v.year_to) &&
+        (v.year_to === null || v.year_to === 0 || selectedYear <= v.year_to) &&
         (selectedSeries === "All" || seriesVal === selectedSeries) &&
         (!selectedEngineKey ||
           engineLabelFromKey(engineKey(v)) === selectedEngineKey) &&
@@ -727,8 +728,8 @@ export default function Page() {
                       ? String(c.month_from).padStart(2, "0") + "/"
                       : "") + String(c.year_from);
                   const to =
-                    c.year_to === null
-                      ? "Current"
+                    c.year_to === null || c.year_to === 0
+                      ? formatYearTo(c.year_to)
                       : (c.month_to
                           ? String(c.month_to).padStart(2, "0") + "/"
                           : "") + String(c.year_to);

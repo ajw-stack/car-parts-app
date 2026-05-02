@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, forwardRef } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { supabase } from "../lib/supabaseClient";
+import { formatYearTo } from "../lib/formatYear";
 import { useRouter } from "next/navigation";
 
 type VehicleRow = {
@@ -11,7 +12,7 @@ type VehicleRow = {
   make: string;
   model: string;
   year_from: number;
-  year_to: number;
+  year_to: number | null;
   month_from: number | null;
   month_to: number | null;
   series: string | null;
@@ -543,7 +544,7 @@ fetchAllParts(),
   }, []);
 
   const vehicleLabel = (v: VehicleRow) => {
-    const yr = `${v.year_from}-${v.year_to}`;
+    const yr = `${v.year_from}-${formatYearTo(v.year_to)}`;
     const series = v.series ? ` • ${v.series}` : "";
     const litres = v.engine_litres != null ? ` • ${v.engine_litres}L` : "";
     const fuel = v.fuel_type ? ` • ${v.fuel_type}` : "";
@@ -649,9 +650,11 @@ fetchAllParts(),
     // Allow "Current" (store as null) and allow blank (also null)
     const yearToRaw = vYearTo.trim();
     const year_to =
-      yearToRaw === "" || yearToRaw.toLowerCase() === "current"
+      yearToRaw === ""
         ? null
-        : Number(yearToRaw);
+        : yearToRaw.toLowerCase() === "current" || yearToRaw === "0" || yearToRaw === "0000"
+          ? 0
+          : Number(yearToRaw);
 
     // Validate: year_from must be a number; year_to can be null OR a number
     if (!Number.isFinite(year_from) || (year_to !== null && !Number.isFinite(year_to))) {

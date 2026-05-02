@@ -1,4 +1,5 @@
 import { supabaseServer } from "../../../lib/supabaseServer";
+import { formatYearTo } from "../../../lib/formatYear";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import VehicleDetailClient from "./VehicleDetailClient";
@@ -106,7 +107,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Trim" value={v.trim_code ?? v.grade} />
             <TagRow label="Trims" tags={Array.isArray(specs.grades) ? specs.grades : []} />
             <Row label="Year From" value={v.year_from} />
-            <Row label="Year To" value={v.year_to} />
+            <Row label="Year To" value={formatYearTo(v.year_to)} />
             <Row label="Notes" value={v.notes} />
             <Row label="Country of Origin" value={specs.country_of_origin} />
             <Row label="VIN Sample" value={specs.vin_sample} />
