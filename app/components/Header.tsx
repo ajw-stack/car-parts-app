@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { label: "Categories", href: "/categories" },
   { label: "Parts Search", href: "/parts-guide" },
   { label: "VIN & Rego", href: "/decode" },
-  { label: "My Garage", href: "/saved-lists" },
+  { label: "My Garage", href: "/garage" },
 ];
 
 export default function Header() {
