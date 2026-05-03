@@ -7,14 +7,13 @@ import { AUS_STATES, type AusState } from "../lib/rego/validate";
 import VinDecoder from "./VinDecoder";
 
 interface Props {
-  defaultState?: AusState;
   enableSave?: boolean;
   onSaved?: (vehicle: DecodedVehicle, meta: { rego: string; state: AusState; nickname?: string }) => void | Promise<void>;
 }
 
-export default function RegoLookup({ defaultState = "VIC", enableSave = false, onSaved }: Props) {
+export default function RegoLookup({ enableSave = false, onSaved }: Props) {
   const [rego, setRego] = useState("");
-  const [state, setState] = useState<AusState>(defaultState);
+  const [state, setState] = useState<AusState | "">("");
   const [loading, startLookup] = useTransition();
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<string | null>(null);
@@ -28,6 +27,7 @@ export default function RegoLookup({ defaultState = "VIC", enableSave = false, o
     setVehicle(null);
     setNeedsVin(false);
     setSource(null);
+    if (!state) return;
     startLookup(async () => {
       const res = await fetch(`/api/rego/lookup?rego=${encodeURIComponent(rego)}&state=${state}`);
       const data = (await res.json()) as RegoLookupResult;
@@ -41,7 +41,7 @@ export default function RegoLookup({ defaultState = "VIC", enableSave = false, o
   // After a VIN miss, the user decodes via VinDecoder.
   // We seed the community cache and surface the save option.
   const handleVinResolved = async (v: DecodedVehicle, nickname?: string) => {
-    // Seed community cache (best-effort)
+    if (!state) return;
     fetch("/api/rego/pairing", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -62,7 +62,7 @@ export default function RegoLookup({ defaultState = "VIC", enableSave = false, o
           <input
             value={rego}
             onChange={(e) => setRego(e.target.value.toUpperCase())}
-            onKeyDown={(e) => e.key === "Enter" && rego && handleLookup()}
+            onKeyDown={(e) => e.key === "Enter" && rego && state && handleLookup()}
             placeholder="e.g. 1AB2CD"
             maxLength={7}
             spellCheck={false}
@@ -71,17 +71,18 @@ export default function RegoLookup({ defaultState = "VIC", enableSave = false, o
           />
           <select
             value={state}
-            onChange={(e) => setState(e.target.value as AusState)}
+            onChange={(e) => setState(e.target.value as AusState | "")}
             className="rounded-xl border border-gray-200 bg-white px-3 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none"
             aria-label="State"
           >
+            <option value="" disabled>Select State</option>
             {AUS_STATES.map((s) => (
               <option key={s.code} value={s.code}>{s.code}</option>
             ))}
           </select>
           <button
             onClick={handleLookup}
-            disabled={loading || !rego}
+            disabled={loading || !rego || !state}
             className="rounded-xl bg-[#E8000D] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-40"
           >
             {loading ? "…" : "Look up"}
@@ -119,7 +120,7 @@ export default function RegoLookup({ defaultState = "VIC", enableSave = false, o
 
           {enableSave && onSaved && (
             <SaveBar
-              onSave={async (nickname) => onSaved(vehicle, { rego, state, nickname })}
+              onSave={async (nickname) => { if (state) await onSaved(vehicle, { rego, state, nickname }); }}
             />
           )}
 
