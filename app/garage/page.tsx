@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import VinDecoder from "../components/VinDecoder";
 import RegoLookup from "../components/RegoLookup";
 import VehicleSelector from "../components/VehicleSelector";
 import { supabase } from "../lib/supabaseClient";
+import { makeSlug } from "../lib/makes";
 import type { DecodedVehicle } from "../lib/vin/types";
 import type { AusState } from "../lib/rego/validate";
 
@@ -26,7 +28,10 @@ type GarageRow = {
   created_at: string;
 };
 
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 export default function GaragePage() {
+  const router = useRouter();
   const [userId, setUserId] = useState<string | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
   const [vehicles, setVehicles] = useState<GarageRow[]>([]);
@@ -129,6 +134,32 @@ export default function GaragePage() {
       setVehicles((prev) => [row, ...prev]);
       setSelectedId(row.id);
       setShowAdd(false);
+    }
+  };
+
+  const navigateToParts = async (v: GarageRow) => {
+    if (!v.make) return;
+    const slug = makeSlug(v.make);
+
+    if (UUID_RE.test(v.vin)) {
+      // Vehicle was added via Browse — vin field holds the catalogue UUID
+      router.push(`/vehicles/${slug}/${v.vin}/parts`);
+      return;
+    }
+
+    // Real VIN/rego vehicle — look up catalogue to find the vehicle row
+    const { data } = await supabase
+      .from("vehicles")
+      .select("id")
+      .eq("make", v.make)
+      .eq("model", v.model ?? "")
+      .limit(1)
+      .maybeSingle();
+
+    if (data?.id) {
+      router.push(`/vehicles/${slug}/${data.id}/parts`);
+    } else {
+      router.push(`/vehicles/${slug}`);
     }
   };
 
@@ -361,9 +392,9 @@ export default function GaragePage() {
                 </div>
 
                 {/* Find parts CTA */}
-                <a
-                  href={`/?q=${encodeURIComponent([selectedVehicle.year, selectedVehicle.make, selectedVehicle.model].filter(Boolean).join(" "))}`}
-                  className="flex items-center justify-between gap-4 px-6 py-5 hover:bg-gray-50 transition-colors"
+                <button
+                  onClick={() => navigateToParts(selectedVehicle)}
+                  className="w-full flex items-center justify-between gap-4 px-6 py-5 hover:bg-gray-50 transition-colors text-left"
                 >
                   <div>
                     <p className="font-semibold text-[#111827]">Find compatible parts</p>
@@ -374,7 +405,7 @@ export default function GaragePage() {
                   <span className="shrink-0 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white whitespace-nowrap">
                     Search Parts →
                   </span>
-                </a>
+                </button>
               </div>
             </div>
           )}
