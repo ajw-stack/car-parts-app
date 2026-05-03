@@ -34,14 +34,28 @@ const CATEGORY_GROUPS: Record<string, string> = {
   "Automatic Trans Fluid": "Oil & Fluids", "Automatic Transmission Fluid": "Oil & Fluids",
   "Manual Transmission Oil": "Oil & Fluids", "Manual Trans Oil": "Oil & Fluids",
   "Power Steering Fluid": "Oil & Fluids",
-  "Engine Coolant/Antifreeze Fluid": "Oil & Fluids", "Engine Coolant": "Oil & Fluids", "Coolant": "Oil & Fluids",
+  "Engine Coolant/Antifreeze Fluid": "Oil & Fluids", "Engine Coolant / Antifreeze Fluid": "Oil & Fluids",
+  "Engine Coolant": "Oil & Fluids", "Coolant": "Oil & Fluids",
   "Intake System Cleaner": "Oil & Fluids",
   "Suspension": "Suspension & Steering",
   "Battery": "Electrical", "Alternator": "Electrical", "Starter Motor": "Electrical",
 };
 
+// Renames raw DB category names for display in the sidebar
+const DISPLAY_NAMES: Record<string, string> = {
+  "Engine Coolant/Antifreeze Fluid":   "Coolants & Additives",
+  "Engine Coolant / Antifreeze Fluid": "Coolants & Additives",
+  "Engine Coolant": "Coolants & Additives",
+  "Coolant":        "Coolants & Additives",
+  "Intake System Cleaner": "Coolants & Additives",
+};
+
 function getGroup(categoryName: string): string {
   return CATEGORY_GROUPS[categoryName] ?? "Other";
+}
+
+function getDisplayName(categoryName: string): string {
+  return DISPLAY_NAMES[categoryName] ?? categoryName;
 }
 
 type Part = {
@@ -97,7 +111,7 @@ export default function PartsPageClient({
 
   const visibleParts = activeCategory === null
     ? parts
-    : parts.filter((p) => p.category_name === activeCategory);
+    : parts.filter((p) => getDisplayName(p.category_name) === activeCategory);
 
   const headerLabel = activeCategory === null ? "All Parts" : activeCategory;
 
@@ -146,23 +160,23 @@ export default function PartsPageClient({
                     </span>
                   </button>
 
-                  {/* Sub-categories */}
+                  {/* Sub-categories — deduplicated by display name */}
                   {isOpen && (
                     <div className="divide-y divide-gray-50">
-                      {cats.map((cat) => {
-                        const count = parts.filter((p) => p.category_name === cat).length;
-                        const active = cat === activeCategory;
+                      {Array.from(new Set(cats.map(getDisplayName))).map((displayCat) => {
+                        const count = parts.filter((p) => getDisplayName(p.category_name) === displayCat).length;
+                        const active = displayCat === activeCategory;
                         return (
                           <button
-                            key={cat}
-                            onClick={() => setActiveCategory(cat)}
+                            key={displayCat}
+                            onClick={() => setActiveCategory(displayCat)}
                             className={`w-full text-left pl-6 pr-4 py-2.5 text-sm flex items-center justify-between transition-colors ${
                               active
                                 ? "bg-[#E8000D] text-white font-semibold"
                                 : "text-gray-700 hover:bg-gray-50"
                             }`}
                           >
-                            <span>{cat}</span>
+                            <span>{displayCat}</span>
                             <span className={`text-xs rounded-full px-1.5 py-0.5 ${active ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}>
                               {count}
                             </span>
