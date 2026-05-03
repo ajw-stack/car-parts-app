@@ -36,26 +36,27 @@ export const CATEGORIES: Category[] = [
   { name: "Bushes & Mounts", slug: "bushes-mounts", group: "Suspension & Steering" },
   { name: "Power Steering Pumps", slug: "power-steering-pumps", group: "Suspension & Steering" },
   { name: "Steering Racks", slug: "steering-racks", group: "Suspension & Steering" },
-  // Engine
-  { name: "Gaskets & Seals", slug: "gaskets-seals", group: "Engine" },
-  { name: "Timing Belts & Chains", slug: "timing-belts-chains", group: "Engine" },
-  { name: "Drive Belts", slug: "drive-belts", group: "Engine" },
-  { name: "Engine Bearings", slug: "engine-bearings", group: "Engine" },
+  // Engine Parts
+  { name: "Gaskets & Seals", slug: "gaskets-seals", group: "Engine Parts" },
+  { name: "Engine Bearings", slug: "engine-bearings", group: "Engine Parts" },
+  // Belts & Timing Parts
+  { name: "Timing Belt Kits", slug: "timing-belt-kits", group: "Belts & Timing Parts", dbNames: ["Timing Belt Kit", "Timing Belt Kits", "Timing Belt"] },
+  { name: "Drive Belts", slug: "drive-belts", group: "Belts & Timing Parts", dbNames: ["Drive Belts", "V-Belt", "V-ribbed Belt"] },
   // Cooling System
   { name: "Radiators", slug: "radiators", group: "Cooling System" },
   { name: "Water Pumps", slug: "water-pumps", group: "Cooling System", dbNames: ["Water Pumps", "Water Pump"] },
   { name: "Thermostats", slug: "thermostats", group: "Cooling System", dbNames: ["Thermostats", "Thermostat"] },
   { name: "Coolant Hoses", slug: "coolant-hoses", group: "Cooling System", dbNames: ["Coolant Hoses", "Radiator Hoses", "Heater Hose", "Radiator Hose", "Coolant Pipe"] },
   { name: "Heater Control Valves", slug: "heater-control-valves", group: "Cooling System", dbNames: ["Heater Control Valve", "Coolant Control Valve"] },
-  // Oils & Fluids
-  { name: "Engine Oil", slug: "engine-oil", group: "Oils & Fluids", dbNames: ["Engine Oil"] },
-  { name: "Differential Oil", slug: "differential-oil", group: "Oils & Fluids", dbNames: ["Differential Oil"] },
-  { name: "Automatic Trans Fluid", slug: "automatic-trans-fluid", group: "Oils & Fluids", dbNames: ["Automatic Trans Fluid", "Automatic Transmission Fluid"] },
-  { name: "Manual Transmission Oil", slug: "manual-transmission-oil", group: "Oils & Fluids", dbNames: ["Manual Transmission Oil", "Manual Trans Oil"] },
-  { name: "Power Steering Fluid", slug: "power-steering-fluid", group: "Oils & Fluids", dbNames: ["Power Steering Fluid"] },
-  { name: "Brake Fluid", slug: "brake-fluid", group: "Oils & Fluids", dbNames: ["Brake Fluid"] },
-  { name: "Coolant", slug: "coolant", group: "Oils & Fluids", dbNames: ["Engine Coolant/Antifreeze Fluid", "Engine Coolant", "Coolant"] },
-  { name: "Intake System Cleaner", slug: "intake-system-cleaner", group: "Oils & Fluids", dbNames: ["Intake System Cleaner"] },
+  // Oil & Fluids
+  { name: "Engine Oil", slug: "engine-oil", group: "Oil & Fluids", dbNames: ["Engine Oil"] },
+  { name: "Differential Oil", slug: "differential-oil", group: "Oil & Fluids", dbNames: ["Differential Oil"] },
+  { name: "Automatic Trans Fluid", slug: "automatic-trans-fluid", group: "Oil & Fluids", dbNames: ["Automatic Trans Fluid", "Automatic Transmission Fluid"] },
+  { name: "Manual Transmission Oil", slug: "manual-transmission-oil", group: "Oil & Fluids", dbNames: ["Manual Transmission Oil", "Manual Trans Oil"] },
+  { name: "Power Steering Fluid", slug: "power-steering-fluid", group: "Oil & Fluids", dbNames: ["Power Steering Fluid"] },
+  { name: "Brake Fluid", slug: "brake-fluid", group: "Oil & Fluids", dbNames: ["Brake Fluid"] },
+  { name: "Coolant", slug: "coolant", group: "Oil & Fluids", dbNames: ["Engine Coolant/Antifreeze Fluid", "Engine Coolant", "Coolant"] },
+  { name: "Intake System Cleaner", slug: "intake-system-cleaner", group: "Oil & Fluids", dbNames: ["Intake System Cleaner"] },
   // Drivetrain
   { name: "CV Joints & Boots", slug: "cv-joints-boots", group: "Drivetrain" },
   { name: "Universal Joints", slug: "universal-joints", group: "Drivetrain" },

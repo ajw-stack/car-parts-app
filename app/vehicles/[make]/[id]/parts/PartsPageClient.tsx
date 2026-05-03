@@ -17,25 +17,25 @@ const CATEGORY_GROUPS: Record<string, string> = {
   "Brake Upgrade Kits": "Brakes",
   "Master Cylinder": "Brakes", "Master Cylinders": "Brakes",
   "Brake Booster": "Brakes", "Brakes": "Brakes",
-  "Brake Fluid": "Oils & Fluids",
+  "Brake Fluid": "Oil & Fluids",
   "Water Pump": "Cooling", "Thermostat": "Cooling", "Radiator Hoses": "Cooling",
   "Heater Hose": "Cooling", "Radiator Hose": "Cooling", "Coolant Pipe": "Cooling",
   "Cap, coolant tank": "Cooling", "Cap, radiator": "Cooling",
   "Heater Control Valve": "Cooling", "Coolant Control Valve": "Cooling",
-  "Timing Belt Kit": "Engine", "Timing Belt": "Engine", "Drive Belts": "Engine",
-  "V-Belt": "Engine", "V-ribbed Belt": "Engine",
-  "Gasket": "Engine", "Seal": "Engine",
+  "Timing Belt Kit": "Belts & Timing Parts", "Timing Belt Kits": "Belts & Timing Parts", "Timing Belt": "Belts & Timing Parts",
+  "Drive Belts": "Belts & Timing Parts", "V-Belt": "Belts & Timing Parts", "V-ribbed Belt": "Belts & Timing Parts",
+  "Gasket": "Engine Parts", "Seal": "Engine Parts",
   "Oil Filters": "Filters", "Oil Filter": "Filters",
   "Air Filter": "Filters", "Fuel Filter": "Filters",
   "Cabin Filter": "Filters", "Transmission Filter": "Filters",
   "Spark Plug": "Ignition", "Glow Plug": "Ignition",
-  "Engine Oil": "Oils & Fluids",
-  "Differential Oil": "Oils & Fluids",
-  "Automatic Trans Fluid": "Oils & Fluids", "Automatic Transmission Fluid": "Oils & Fluids",
-  "Manual Transmission Oil": "Oils & Fluids", "Manual Trans Oil": "Oils & Fluids",
-  "Power Steering Fluid": "Oils & Fluids",
-  "Engine Coolant/Antifreeze Fluid": "Oils & Fluids", "Engine Coolant": "Oils & Fluids", "Coolant": "Oils & Fluids",
-  "Intake System Cleaner": "Oils & Fluids",
+  "Engine Oil": "Oil & Fluids",
+  "Differential Oil": "Oil & Fluids",
+  "Automatic Trans Fluid": "Oil & Fluids", "Automatic Transmission Fluid": "Oil & Fluids",
+  "Manual Transmission Oil": "Oil & Fluids", "Manual Trans Oil": "Oil & Fluids",
+  "Power Steering Fluid": "Oil & Fluids",
+  "Engine Coolant/Antifreeze Fluid": "Oil & Fluids", "Engine Coolant": "Oil & Fluids", "Coolant": "Oil & Fluids",
+  "Intake System Cleaner": "Oil & Fluids",
   "Suspension": "Suspension & Steering",
   "Battery": "Electrical", "Alternator": "Electrical", "Starter Motor": "Electrical",
 };
@@ -78,7 +78,7 @@ export default function PartsPageClient({
     if (!grouped[g]) grouped[g] = [];
     grouped[g].push(cat);
   }
-  const groupOrder = ["Brakes", "Cooling", "Engine", "Oils & Fluids", "Filters",
+  const groupOrder = ["Brakes", "Cooling", "Engine Parts", "Belts & Timing Parts", "Oil & Fluids", "Filters",
     "Ignition", "Drivetrain", "Suspension & Steering", "Electrical", "Other"];
   const sortedGroups = Object.keys(grouped).sort(
     (a, b) => (groupOrder.indexOf(a) + 1 || 99) - (groupOrder.indexOf(b) + 1 || 99)
