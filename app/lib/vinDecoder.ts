@@ -3,10 +3,13 @@ import type { DecodedVehicle, DecodeResult } from "./vin/types";
 
 const CORE_FIELDS = ["Make","Model","ModelYear","BodyClass","EngineCylinders","FuelTypePrimary"] as const;
 
-function scoreConfidence(row: Record<string, string>, val: (k: string) => string | null): "high" | "partial" | "low" {
+function scoreConfidence(val: (k: string) => string | null, make: string | null, model: string | null): "high" | "partial" | "low" {
   const filled = CORE_FIELDS.filter((f) => val(f)).length;
+  // If overrides resolved make+model, treat as at least partial
+  if (make && model && filled >= 2) return "high";
   if (filled >= 5) return "high";
   if (filled >= 3) return "partial";
+  if (make && model) return "partial";
   return "low";
 }
 
@@ -28,7 +31,6 @@ const HOLDEN_BODY: Record<string, string> = {
   "4":"Ute","5":"4 Door Sedan","8":"Wagon",
 };
 const HOLDEN_PLANT: Record<string, string> = { L:"Australia" };
-const HOLDEN_FUEL: Record<string, string> = { E:"Petrol/E85", default:"Petrol" };
 
 // ─── Main decode ───────────────────────────────────────────────────────────────
 
@@ -57,28 +59,21 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
     return v && v !== "0" && v !== "Not Applicable" && v.trim() !== "" ? v.trim() : null;
   };
 
-  const errorText = val("ErrorText");
-  const confidence = scoreConfidence(r, val);
-  const fatalCodes = (r.ErrorCode ?? "0").split(";")
-    .map((s) => s.trim())
-    .filter((c) => !["0","1","5","14","400"].includes(c));
-  const isKnownAuWmi = vin.startsWith("6G1");
-  if (fatalCodes.length > 0 && confidence === "low" && !isKnownAuWmi) {
-    return { ok: false, error: errorText ?? "Could not decode this VIN." };
-  }
+  const errorText  = val("ErrorText");
+  const errorCodes = (r.ErrorCode ?? "0").split(";").map((s) => s.trim());
+  const fatalCodes = errorCodes.filter((c) => !["0","1","5","6","8","14","400"].includes(c));
 
-  // Base fields
+  // ── Base fields from NHTSA ────────────────────────────────────────────────
   const rawWmi = lookupWMI(vin);
   const wmiMake = rawWmi ? rawWmi.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "").trim() : null;
 
-  let make        = val("Make") ?? wmiMake;
-  let model       = val("Model");
-  let trim        = val("Trim") ?? val("Series");
-  let bodyClass   = val("BodyClass");
+  let make         = val("Make") ?? wmiMake;
+  let model        = val("Model");
+  let trim         = val("Trim") ?? val("Series");
+  let bodyClass    = val("BodyClass");
   let plantCountry = val("PlantCountry");
-  let finalConfidence = confidence;
 
-  // Holden overrides (WMI 6G1)
+  // ── Holden overrides (WMI 6G1) ────────────────────────────────────────────
   if (vin.startsWith("6G1")) {
     make = "Holden";
     const mc = vin[3], vc = vin[4], bc = vin[5], pc = vin[10];
@@ -92,12 +87,20 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
           : ((entry as Record<string,string>)[mc] ?? (entry as Record<string,string>).default ?? trim);
       }
     }
-    if (bc && HOLDEN_BODY[bc])    bodyClass    = HOLDEN_BODY[bc];
-    if (pc && HOLDEN_PLANT[pc])   plantCountry = HOLDEN_PLANT[pc];
-
-    // Holden data is reliable from our tables — upgrade confidence if we have model
-    if (model) finalConfidence = "high";
+    if (bc && HOLDEN_BODY[bc])   bodyClass    = HOLDEN_BODY[bc];
+    if (pc && HOLDEN_PLANT[pc])  plantCountry = HOLDEN_PLANT[pc];
   }
+
+  // ── Fail only if completely unidentifiable ────────────────────────────────
+  if (!make && fatalCodes.length > 0) {
+    return { ok: false, error: errorText ?? "Could not decode this VIN." };
+  }
+
+  const confidence = scoreConfidence(val, make, model);
+
+  // Surface non-zero NHTSA notes as warnings (e.g. check digit issues on EU VINs)
+  const warnCodes = errorCodes.filter((c) => !["0"].includes(c));
+  const rawErrors = warnCodes.length > 0 ? errorText : null;
 
   const year = val("ModelYear") ? parseInt(val("ModelYear")!, 10) : null;
 
@@ -108,16 +111,16 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
     model,
     trim,
     bodyClass,
-    engineCylinders:    val("EngineCylinders"),
+    engineCylinders:     val("EngineCylinders"),
     engineDisplacementL: val("DisplacementL"),
-    fuelType:           val("FuelTypePrimary"),
-    transmission:       val("TransmissionStyle"),
-    driveType:          val("DriveType"),
-    manufacturer:       val("Manufacturer"),
+    fuelType:            val("FuelTypePrimary"),
+    transmission:        val("TransmissionStyle"),
+    driveType:           val("DriveType"),
+    manufacturer:        val("Manufacturer"),
     plantCountry,
-    source:             "nhtsa",
-    confidence:         finalConfidence,
-    rawErrors:          fatalCodes.length > 0 ? errorText : null,
+    source:              "nhtsa",
+    confidence,
+    rawErrors,
   };
 
   return { ok: true, vehicle };
