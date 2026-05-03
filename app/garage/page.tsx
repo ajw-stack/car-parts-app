@@ -5,11 +5,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import VinDecoder from "../components/VinDecoder";
 import RegoLookup from "../components/RegoLookup";
+import VehicleSelector from "../components/VehicleSelector";
 import { supabase } from "../lib/supabaseClient";
 import type { DecodedVehicle } from "../lib/vin/types";
 import type { AusState } from "../lib/rego/validate";
 
-type Tab = "vin" | "rego";
+type Tab = "vin" | "rego" | "select";
 
 type GarageRow = {
   id: string;
@@ -91,6 +92,38 @@ export default function GaragePage() {
       .select()
       .single();
 
+    if (!error && data) {
+      const row = data as GarageRow;
+      setVehicles((prev) => [row, ...prev]);
+      setSelectedId(row.id);
+      setShowAdd(false);
+    }
+  };
+
+  const handleSelectVehicle = async (v: {
+    id: string; make: string; model: string;
+    year_from: number; year_to: number | null;
+    series: string | null; trim_code: string | null;
+    engine_code: string | null; engine_litres: number | null;
+    engine_kw: number | null; fuel_type: string | null;
+    chassis: string | null; notes: string | null;
+  }) => {
+    if (!userId) return;
+    const { data, error } = await supabase
+      .from("garage_vehicles")
+      .insert({
+        user_id:  userId,
+        vin:      v.id, // no VIN — store vehicle DB id as reference
+        year:     v.year_from,
+        make:     v.make,
+        model:    v.model,
+        trim:     [v.series, v.trim_code].filter(Boolean).join(" ") || null,
+        fuel_type: v.fuel_type,
+        source:   "manual",
+        confidence: "high",
+      })
+      .select()
+      .single();
     if (!error && data) {
       const row = data as GarageRow;
       setVehicles((prev) => [row, ...prev]);
@@ -352,7 +385,7 @@ export default function GaragePage() {
               <h2 className="text-lg font-bold text-[#111827] mb-5">Add a Vehicle</h2>
 
               <div className="mb-5 inline-flex rounded-full bg-gray-200 p-1">
-                {(["vin", "rego"] as const).map((t) => (
+                {([["vin", "By VIN"], ["rego", "By Rego"], ["select", "Browse"]] as const).map(([t, label]) => (
                   <button
                     key={t}
                     onClick={() => setAddTab(t)}
@@ -360,15 +393,20 @@ export default function GaragePage() {
                       addTab === t ? "bg-[#E8000D] text-white" : "text-gray-500 hover:text-gray-800"
                     }`}
                   >
-                    {t === "vin" ? "By VIN" : "By Rego"}
+                    {label}
                   </button>
                 ))}
               </div>
 
-              {addTab === "vin"
-                ? <VinDecoder enableSave onSaved={(v, nick) => handleSaved(v, nick)} />
-                : <RegoLookup enableSave onSaved={(v, meta) => handleSaved(v, meta)} />
-              }
+              {addTab === "vin" && (
+                <VinDecoder enableSave onSaved={(v, nick) => handleSaved(v, nick)} />
+              )}
+              {addTab === "rego" && (
+                <RegoLookup enableSave onSaved={(v, meta) => handleSaved(v, meta)} />
+              )}
+              {addTab === "select" && (
+                <VehicleSelector onSelect={handleSelectVehicle} />
+              )}
             </div>
           )}
 
