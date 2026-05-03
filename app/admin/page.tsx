@@ -1372,11 +1372,11 @@ options={Array.from(
             )}
 
             {catSummaries.map(({ category, count }) => (
-              <div key={category} className="rounded-xl overflow-hidden border border-[#2A2A2A]">
+              <div key={category} className="rounded-xl border border-[#2A2A2A]">
                 {/* Category header row */}
                 <button
                   onClick={() => expandCategory(category)}
-                  className="w-full flex items-center justify-between px-4 py-3 bg-[#1F1F1F] hover:bg-[#252525] transition-colors text-left"
+                  className={`w-full flex items-center justify-between px-4 py-3 bg-[#1F1F1F] hover:bg-[#252525] transition-colors text-left ${expandedCat === category ? "rounded-t-xl" : "rounded-xl"}`}
                 >
                   <span className="font-medium text-white">{category}</span>
                   <div className="flex items-center gap-3">
