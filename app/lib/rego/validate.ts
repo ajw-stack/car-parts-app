@@ -12,14 +12,14 @@ const STANDARD_PATTERNS: Record<string, RegExp[]> = {
 };
 
 export const AUS_STATES = [
+  { code: "ACT", label: "Australian Capital Territory" },
   { code: "NSW", label: "New South Wales" },
-  { code: "VIC", label: "Victoria" },
+  { code: "NT",  label: "Northern Territory" },
   { code: "QLD", label: "Queensland" },
-  { code: "WA",  label: "Western Australia" },
   { code: "SA",  label: "South Australia" },
   { code: "TAS", label: "Tasmania" },
-  { code: "ACT", label: "Australian Capital Territory" },
-  { code: "NT",  label: "Northern Territory" },
+  { code: "VIC", label: "Victoria" },
+  { code: "WA",  label: "Western Australia" },
 ] as const;
 
 export type AusState = (typeof AUS_STATES)[number]["code"];
