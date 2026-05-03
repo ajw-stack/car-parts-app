@@ -486,6 +486,63 @@ export default function AdminPage() {
   const [xPartA, setXPartA] = useState("");
   const [xPartB, setXPartB] = useState("");
 
+  // --- Category Manager ---
+  type CatSummary = { category: string; count: number };
+  type CatPart = { id: string; brand: string; part_number: string; name: string; category: string };
+
+  const [catSummaries, setCatSummaries] = useState<CatSummary[]>([]);
+  const [expandedCat, setExpandedCat] = useState<string | null>(null);
+  const [catParts, setCatParts] = useState<CatPart[]>([]);
+  const [catPartsLoading, setCatPartsLoading] = useState(false);
+  const [reassigning, setReassigning] = useState<string | null>(null); // part id being reassigned
+  const [newCatValue, setNewCatValue] = useState<Record<string, string>>({}); // part id → new category
+
+  function buildCatSummaries(allParts: PartRow[]) {
+    const counts: Record<string, number> = {};
+    for (const p of allParts) {
+      const c = p.category?.trim() || "(uncategorised)";
+      counts[c] = (counts[c] ?? 0) + 1;
+    }
+    setCatSummaries(
+      Object.entries(counts)
+        .map(([category, count]) => ({ category, count }))
+        .sort((a, b) => a.category.localeCompare(b.category))
+    );
+  }
+
+  async function expandCategory(cat: string) {
+    if (expandedCat === cat) { setExpandedCat(null); return; }
+    setExpandedCat(cat);
+    setCatPartsLoading(true);
+    const { data } = await supabase
+      .from("parts")
+      .select("id, brand, part_number, name, category")
+      .eq("category", cat)
+      .order("brand")
+      .order("part_number");
+    setCatParts((data ?? []) as CatPart[]);
+    setCatPartsLoading(false);
+  }
+
+  async function reassignPart(partId: string, newCat: string) {
+    if (!newCat.trim()) return;
+    setReassigning(partId);
+    const { error } = await supabase
+      .from("parts")
+      .update({ category: newCat.trim() })
+      .eq("id", partId);
+    if (!error) {
+      // Update local state
+      setCatParts((prev) => prev.filter((p) => p.id !== partId));
+      const allParts = await fetchAllParts();
+      setParts(allParts as PartRow[]);
+      buildCatSummaries(allParts as PartRow[]);
+      setMsg(`Part moved to "${newCat}".`);
+    }
+    setReassigning(null);
+    setNewCatValue((prev) => { const n = { ...prev }; delete n[partId]; return n; });
+  }
+
   // --- Manage Fitments (by vehicle) ---
   const [rmVehicleLabel, setRmVehicleLabel] = useState("");
   const [rmFitments, setRmFitments] = useState<FitmentRow[]>([]);
@@ -619,6 +676,7 @@ fetchAllParts(),
 
     setVehicles((vData ?? []) as VehicleRow[]);
     setParts(allParts as PartRow[]);
+    buildCatSummaries(allParts as PartRow[]);
 
     setLoading(false);
   }
@@ -1301,6 +1359,76 @@ options={Array.from(
             </div>
           )}
         </section>
+        {/* Category Manager */}
+        <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+          <h2 className="text-lg font-semibold text-white">Category Manager</h2>
+          <p className="mt-1 text-xs text-zinc-400">
+            Click a category to see its parts. Reassign individual parts to a different category.
+          </p>
+
+          <div className="mt-4 space-y-1">
+            {catSummaries.length === 0 && (
+              <p className="text-sm text-zinc-400">{loading ? "Loading…" : "No categories found."}</p>
+            )}
+
+            {catSummaries.map(({ category, count }) => (
+              <div key={category} className="rounded-xl overflow-hidden border border-[#2A2A2A]">
+                {/* Category header row */}
+                <button
+                  onClick={() => expandCategory(category)}
+                  className="w-full flex items-center justify-between px-4 py-3 bg-[#1F1F1F] hover:bg-[#252525] transition-colors text-left"
+                >
+                  <span className="font-medium text-white">{category}</span>
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs text-zinc-400">{count} part{count !== 1 ? "s" : ""}</span>
+                    <span className="text-zinc-500 text-sm">{expandedCat === category ? "▲" : "▼"}</span>
+                  </div>
+                </button>
+
+                {/* Expanded parts list */}
+                {expandedCat === category && (
+                  <div className="border-t border-[#2A2A2A]">
+                    {catPartsLoading && (
+                      <p className="px-4 py-3 text-sm text-zinc-400">Loading…</p>
+                    )}
+
+                    {!catPartsLoading && catParts.length === 0 && (
+                      <p className="px-4 py-3 text-sm text-zinc-400">No parts in this category.</p>
+                    )}
+
+                    {!catPartsLoading && catParts.map((p) => (
+                      <div key={p.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-[#2A2A2A] last:border-0 bg-[#141414] hover:bg-[#1A1A1A]">
+                        <div className="flex-1 min-w-0">
+                          <span className="font-medium text-white text-sm">{p.brand}</span>
+                          <span className="font-mono text-zinc-400 text-sm ml-2">{p.part_number}</span>
+                          <span className="text-zinc-500 text-sm ml-2 truncate">— {p.name}</span>
+                        </div>
+                        <div className="flex items-center gap-2 shrink-0">
+                          <TypeaheadInput
+                            value={newCatValue[p.id] ?? ""}
+                            onChange={(v) => setNewCatValue((prev) => ({ ...prev, [p.id]: v }))}
+                            options={catSummaries.map((c) => c.category).filter((c) => c !== category)}
+                            placeholder="Move to…"
+                            allowCreate
+                            createLabel={(v) => `New category: "${v}"`}
+                          />
+                          <button
+                            onClick={() => reassignPart(p.id, newCatValue[p.id] ?? "")}
+                            disabled={!newCatValue[p.id]?.trim() || reassigning === p.id}
+                            className="rounded-lg border border-[#3A3A3A] px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/10 disabled:opacity-40 transition-colors whitespace-nowrap"
+                          >
+                            {reassigning === p.id ? "Moving…" : "Move"}
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Manage Fitments — by Part */}
         <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
           <h2 className="text-lg font-semibold text-white">Manage Fitments by Part</h2>
