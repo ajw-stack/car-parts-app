@@ -34,6 +34,20 @@ type PartRow = {
   category: string;
 };
 
+type FitmentRow = {
+  vehicle_id: string;
+  part_id: string;
+  position: string | null;
+  notes: string | null;
+  qty: number;
+  parts: {
+    brand: string;
+    part_number: string;
+    name: string;
+    category: string;
+  };
+};
+
 type TypeaheadInputProps = {
   value: string;
   onChange: (v: string) => void;
@@ -471,6 +485,36 @@ export default function AdminPage() {
   // --- Cross Reference form ---
   const [xPartA, setXPartA] = useState("");
   const [xPartB, setXPartB] = useState("");
+
+  // --- Manage Fitments ---
+  const [rmVehicleLabel, setRmVehicleLabel] = useState("");
+  const [rmFitments, setRmFitments] = useState<FitmentRow[]>([]);
+  const [rmLoading, setRmLoading] = useState(false);
+
+  async function loadFitments(label: string) {
+    const vehicle = vehicles.find((v) => vehicleLabel(v) === label);
+    if (!vehicle) { setRmFitments([]); return; }
+    setRmLoading(true);
+    const { data } = await supabase
+      .from("vehicle_part_fitments")
+      .select("vehicle_id, part_id, position, notes, qty, parts(brand, part_number, name, category)")
+      .eq("vehicle_id", vehicle.id)
+      .order("part_id");
+    setRmFitments((data ?? []) as unknown as FitmentRow[]);
+    setRmLoading(false);
+  }
+
+  async function removeFitment(vehicleId: string, partId: string) {
+    const { error } = await supabase
+      .from("vehicle_part_fitments")
+      .delete()
+      .eq("vehicle_id", vehicleId)
+      .eq("part_id", partId);
+    if (!error) {
+      setRmFitments((prev) => prev.filter((f) => f.part_id !== partId));
+      setMsg("Fitment removed.");
+    }
+  }
 
   const canAddXref = xPartA && xPartB && xPartA !== xPartB;
 
@@ -1148,6 +1192,75 @@ options={Array.from(
           >
             Add Cross Reference
           </button>
+        </section>
+
+        {/* Manage Fitments */}
+        <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+          <h2 className="text-lg font-semibold text-white">Manage Fitments</h2>
+          <p className="mt-1 text-xs text-zinc-400">Search a vehicle to see and remove its linked parts.</p>
+
+          <div className="mt-4">
+            <TypeaheadInput
+              value={rmVehicleLabel}
+              onChange={(v) => {
+                setRmVehicleLabel(v);
+                loadFitments(v);
+              }}
+              options={vehicles.map(vehicleLabel).sort()}
+              placeholder="Search vehicle…"
+            />
+          </div>
+
+          {rmVehicleLabel && (
+            <div className="mt-4">
+              {rmLoading && (
+                <p className="text-sm text-zinc-400">Loading…</p>
+              )}
+
+              {!rmLoading && rmFitments.length === 0 && (
+                <p className="text-sm text-zinc-400">No parts linked to this vehicle.</p>
+              )}
+
+              {!rmLoading && rmFitments.length > 0 && (
+                <div className="rounded-xl overflow-hidden border border-[#2A2A2A]">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-[#1F1F1F] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        <th className="px-4 py-3">Brand</th>
+                        <th className="px-4 py-3">Part #</th>
+                        <th className="px-4 py-3">Name</th>
+                        <th className="px-4 py-3">Category</th>
+                        <th className="px-4 py-3">Position</th>
+                        <th className="px-4 py-3"></th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-[#2A2A2A]">
+                      {rmFitments.map((f) => (
+                        <tr key={f.part_id} className="bg-[#141414] hover:bg-[#1A1A1A]">
+                          <td className="px-4 py-3 text-white font-medium">{f.parts.brand}</td>
+                          <td className="px-4 py-3 font-mono text-zinc-300">{f.parts.part_number}</td>
+                          <td className="px-4 py-3 text-zinc-300">{f.parts.name}</td>
+                          <td className="px-4 py-3 text-zinc-400">{f.parts.category}</td>
+                          <td className="px-4 py-3 text-zinc-400">{f.position ?? "—"}</td>
+                          <td className="px-4 py-3 text-right">
+                            <button
+                              onClick={() => removeFitment(f.vehicle_id, f.part_id)}
+                              className="rounded-lg border border-red-800 px-3 py-1 text-xs font-semibold text-red-400 hover:bg-red-900/30 transition-colors"
+                            >
+                              Remove
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  <div className="px-4 py-2 bg-[#1F1F1F] text-xs text-zinc-500">
+                    {rmFitments.length} part{rmFitments.length !== 1 ? "s" : ""} linked
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </section>
       </div>
     </main>
