@@ -7,6 +7,11 @@ import { supabase } from "../lib/supabaseClient";
 import { formatYearTo } from "../lib/formatYear";
 import { useRouter } from "next/navigation";
 
+const DISPLAY_GROUPS = [
+  "Brakes", "Cooling", "Engine Parts", "Belts & Timing Parts", "Oil & Fluids",
+  "Filters", "Ignition", "Drivetrain", "Suspension & Steering", "Electrical", "Other",
+];
+
 type VehicleRow = {
   id: string;
   make: string;
@@ -489,13 +494,15 @@ export default function AdminPage() {
   // --- Category Manager ---
   type CatSummary = { category: string; count: number };
   type CatPart = { id: string; brand: string; part_number: string; name: string; category: string };
+  type CatGroupRow = { name: string; display_group: string; display_name: string | null };
 
   const [catSummaries, setCatSummaries] = useState<CatSummary[]>([]);
   const [expandedCat, setExpandedCat] = useState<string | null>(null);
   const [catParts, setCatParts] = useState<CatPart[]>([]);
   const [catPartsLoading, setCatPartsLoading] = useState(false);
-  const [reassigning, setReassigning] = useState<string | null>(null); // part id being reassigned
-  const [newCatValue, setNewCatValue] = useState<Record<string, string>>({}); // part id → new category
+  const [reassigning, setReassigning] = useState<string | null>(null);
+  const [newCatValue, setNewCatValue] = useState<Record<string, string>>({});
+  const [catGroups, setCatGroups] = useState<Record<string, CatGroupRow>>({});
 
   function buildCatSummaries(allParts: PartRow[]) {
     const counts: Record<string, number> = {};
@@ -508,6 +515,24 @@ export default function AdminPage() {
         .map(([category, count]) => ({ category, count }))
         .sort((a, b) => a.category.localeCompare(b.category))
     );
+  }
+
+  async function loadCatGroups() {
+    const { data } = await supabase.from("part_categories").select("name, display_group, display_name");
+    const map: Record<string, CatGroupRow> = {};
+    for (const row of (data ?? []) as CatGroupRow[]) map[row.name] = row;
+    setCatGroups(map);
+  }
+
+  async function saveDisplayGroup(catName: string, display_group: string) {
+    await supabase.from("part_categories").upsert(
+      { name: catName, display_group, sort_order: 99 },
+      { onConflict: "name" }
+    );
+    setCatGroups(prev => ({
+      ...prev,
+      [catName]: { name: catName, display_group, display_name: prev[catName]?.display_name ?? null },
+    }));
   }
 
   async function expandCategory(cat: string) {
@@ -677,6 +702,7 @@ fetchAllParts(),
     setVehicles((vData ?? []) as VehicleRow[]);
     setParts(allParts as PartRow[]);
     buildCatSummaries(allParts as PartRow[]);
+    await loadCatGroups();
 
     setLoading(false);
   }
@@ -874,6 +900,15 @@ makeRef.current?.focus();
       return;
     }
 
+    // Ensure the category exists in part_categories (insert if new, skip if exists)
+    if (pCategory.trim()) {
+      await supabase.from("part_categories").upsert(
+        { name: pCategory.trim(), display_group: "Other", sort_order: 99 },
+        { onConflict: "name", ignoreDuplicates: true }
+      );
+      await loadCatGroups();
+    }
+
 setMsg("Part added.");
 
 setPBrand("");
@@ -884,6 +919,7 @@ setPCategory("");
 // reload only parts so dropdowns update
 const allParts = await fetchAllParts();
 setParts(allParts as PartRow[]);
+buildCatSummaries(allParts as PartRow[]);
 
 brandRef.current?.focus();
   }
@@ -1374,16 +1410,26 @@ options={Array.from(
             {catSummaries.map(({ category, count }) => (
               <div key={category} className="rounded-xl border border-[#2A2A2A]">
                 {/* Category header row */}
-                <button
-                  onClick={() => expandCategory(category)}
-                  className={`w-full flex items-center justify-between px-4 py-3 bg-[#1F1F1F] hover:bg-[#252525] transition-colors text-left ${expandedCat === category ? "rounded-t-xl" : "rounded-xl"}`}
+                <div
+                  className={`flex items-center gap-3 px-4 py-3 bg-[#1F1F1F] ${expandedCat === category ? "rounded-t-xl" : "rounded-xl"}`}
                 >
-                  <span className="font-medium text-white">{category}</span>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-zinc-400">{count} part{count !== 1 ? "s" : ""}</span>
-                    <span className="text-zinc-500 text-sm">{expandedCat === category ? "▲" : "▼"}</span>
-                  </div>
-                </button>
+                  <button
+                    onClick={() => expandCategory(category)}
+                    className="flex-1 flex items-center gap-3 text-left hover:opacity-80 transition-opacity min-w-0"
+                  >
+                    <span className="font-medium text-white truncate">{category}</span>
+                    <span className="text-xs text-zinc-400 shrink-0">{count} part{count !== 1 ? "s" : ""}</span>
+                    <span className="text-zinc-500 text-sm shrink-0">{expandedCat === category ? "▲" : "▼"}</span>
+                  </button>
+                  <select
+                    value={catGroups[category]?.display_group ?? "Other"}
+                    onChange={(e) => saveDisplayGroup(category, e.target.value)}
+                    className="shrink-0 rounded-lg border border-[#3A3A3A] bg-[#141414] px-2 py-1 text-xs text-zinc-300 focus:border-[#E8000D] focus:outline-none"
+                    title="Sidebar group"
+                  >
+                    {DISPLAY_GROUPS.map(g => <option key={g} value={g}>{g}</option>)}
+                  </select>
+                </div>
 
                 {/* Expanded parts list */}
                 {expandedCat === category && (

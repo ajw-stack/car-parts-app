@@ -13,7 +13,7 @@ export default async function VehiclePartsPage({
 }) {
   const { make, id } = await params;
 
-  const [{ data: vehicle }, { data: fitments }] = await Promise.all([
+  const [{ data: vehicle }, { data: fitments }, { data: catMetaRows }] = await Promise.all([
     supabaseServer
       .from("vehicles")
       .select("id, make, model, series, grade, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type")
@@ -37,7 +37,19 @@ export default async function VehiclePartsPage({
         )
       `)
       .eq("vehicle_id", id),
+    supabaseServer
+      .from("part_categories")
+      .select("name, display_group, display_name"),
   ]);
+
+  type CatMeta = { display_group: string; display_name: string | null };
+  const categoryMeta: Record<string, CatMeta> = {};
+  for (const row of (catMetaRows ?? []) as any[]) {
+    categoryMeta[row.name] = {
+      display_group: row.display_group ?? "Other",
+      display_name: row.display_name ?? null,
+    };
+  }
 
   const parts = (fitments ?? [])
     .map((f: any) => ({
@@ -91,7 +103,7 @@ export default async function VehiclePartsPage({
             </p>
           </div>
 
-          <PartsPageClient parts={parts} makeSlug={make} vehicleId={id} />
+          <PartsPageClient parts={parts} makeSlug={make} vehicleId={id} categoryMeta={categoryMeta} />
 
         </div>
       </main>

@@ -3,60 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-// Maps DB category names → display group
-const CATEGORY_GROUPS: Record<string, string> = {
-  "Brake Rotor": "Brakes", "Brake Rotors": "Brakes", "Brake discs": "Brakes",
-  "Brake Pad": "Brakes", "Brake Pads": "Brakes", "Brake Pad Set": "Brakes",
-  "Brake pads": "Brakes", "Brake pad accessories": "Brakes",
-  "Brake Shoe": "Brakes", "Brake Shoe Set": "Brakes", "Brake Shoe Sets": "Brakes",
-  "Shoes": "Brakes", "Park Brake Shoe Set": "Brakes",
-  "Brake Drum": "Brakes", "Brake Drums": "Brakes", "Drums": "Brakes",
-  "Brake Calipers": "Brakes", "Caliper": "Brakes", "LCV calipers": "Brakes", "LCV caliper bracket": "Brakes",
-  "Brake Hose": "Brakes", "Brake Hose Set": "Brakes", "Brake Hoses": "Brakes", "Brake Lines & Hoses": "Brakes",
-  "High Performance Brake Kit": "Brakes", "UPGRADE GT kit": "Brakes", "Disc and Pad Kit": "Brakes",
-  "Brake Upgrade Kits": "Brakes",
-  "Master Cylinder": "Brakes", "Master Cylinders": "Brakes",
-  "Brake Booster": "Brakes", "Brakes": "Brakes",
-  "Brake Fluid": "Oil & Fluids",
-  "Water Pump": "Cooling", "Thermostat": "Cooling", "Radiator Hoses": "Cooling",
-  "Heater Hose": "Cooling", "Radiator Hose": "Cooling", "Coolant Pipe": "Cooling",
-  "Cap, coolant tank": "Cooling", "Cap, radiator": "Cooling",
-  "Heater Control Valve": "Cooling", "Coolant Control Valve": "Cooling",
-  "Timing Belt Kit": "Belts & Timing Parts", "Timing Belt Kits": "Belts & Timing Parts", "Timing Belt": "Belts & Timing Parts",
-  "Drive Belts": "Belts & Timing Parts", "V-Belt": "Belts & Timing Parts", "V-ribbed Belt": "Belts & Timing Parts",
-  "Gasket": "Engine Parts", "Seal": "Engine Parts",
-  "Oil Filters": "Filters", "Oil Filter": "Filters",
-  "Air Filter": "Filters", "Fuel Filter": "Filters",
-  "Cabin Filter": "Filters", "Transmission Filter": "Filters",
-  "Spark Plug": "Ignition", "Glow Plug": "Ignition",
-  "Engine Oil": "Oil & Fluids",
-  "Differential Oil": "Oil & Fluids",
-  "Automatic Trans Fluid": "Oil & Fluids", "Automatic Transmission Fluid": "Oil & Fluids",
-  "Manual Transmission Oil": "Oil & Fluids", "Manual Trans Oil": "Oil & Fluids",
-  "Power Steering Fluid": "Oil & Fluids",
-  "Engine Coolant/Antifreeze Fluid": "Oil & Fluids", "Engine Coolant / Antifreeze Fluid": "Oil & Fluids",
-  "Engine Coolant": "Oil & Fluids", "Coolant": "Oil & Fluids",
-  "Intake System Cleaner": "Oil & Fluids",
-  "Suspension": "Suspension & Steering",
-  "Battery": "Electrical", "Alternator": "Electrical", "Starter Motor": "Electrical",
-};
-
-// Renames raw DB category names for display in the sidebar
-const DISPLAY_NAMES: Record<string, string> = {
-  "Engine Coolant/Antifreeze Fluid":   "Coolants & Additives",
-  "Engine Coolant / Antifreeze Fluid": "Coolants & Additives",
-  "Engine Coolant": "Coolants & Additives",
-  "Coolant":        "Coolants & Additives",
-  "Intake System Cleaner": "Coolants & Additives",
-};
-
-function getGroup(categoryName: string): string {
-  return CATEGORY_GROUPS[categoryName] ?? "Other";
-}
-
-function getDisplayName(categoryName: string): string {
-  return DISPLAY_NAMES[categoryName] ?? categoryName;
-}
+type CategoryMeta = { display_group: string; display_name: string | null };
 
 type Part = {
   id: string;
@@ -70,14 +17,29 @@ type Part = {
   sort_order: number;
 };
 
+const GROUP_ORDER = [
+  "Brakes", "Cooling", "Engine Parts", "Belts & Timing Parts", "Oil & Fluids",
+  "Filters", "Ignition", "Drivetrain", "Suspension & Steering", "Electrical", "Other",
+];
+
 export default function PartsPageClient({
   parts,
+  categoryMeta = {},
 }: {
   parts: Part[];
   makeSlug: string;
   vehicleId: string;
+  categoryMeta?: Record<string, CategoryMeta>;
 }) {
-  // Build sorted category list with groups
+  function getGroup(cat: string): string {
+    return categoryMeta[cat]?.display_group ?? "Other";
+  }
+
+  function getDisplayName(cat: string): string {
+    return categoryMeta[cat]?.display_name ?? cat;
+  }
+
+  // Build sorted unique category list
   const categoryList = Array.from(
     parts.reduce((map, p) => {
       if (!map.has(p.category_name)) map.set(p.category_name, p.sort_order);
@@ -85,17 +47,16 @@ export default function PartsPageClient({
     }, new Map<string, number>())
   ).sort((a, b) => a[1] - b[1]).map(([name]) => name);
 
-  // Group categories
+  // Group by display group
   const grouped: Record<string, string[]> = {};
   for (const cat of categoryList) {
     const g = getGroup(cat);
     if (!grouped[g]) grouped[g] = [];
     grouped[g].push(cat);
   }
-  const groupOrder = ["Brakes", "Cooling", "Engine Parts", "Belts & Timing Parts", "Oil & Fluids", "Filters",
-    "Ignition", "Drivetrain", "Suspension & Steering", "Electrical", "Other"];
+
   const sortedGroups = Object.keys(grouped).sort(
-    (a, b) => (groupOrder.indexOf(a) + 1 || 99) - (groupOrder.indexOf(b) + 1 || 99)
+    (a, b) => (GROUP_ORDER.indexOf(a) + 1 || 99) - (GROUP_ORDER.indexOf(b) + 1 || 99)
   );
 
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
@@ -148,7 +109,6 @@ export default function PartsPageClient({
               const isOpen = openGroups.has(group);
               return (
                 <div key={group} className="border-b border-gray-100 last:border-b-0">
-                  {/* Group heading */}
                   <button
                     onClick={() => toggleGroup(group)}
                     className="w-full text-left px-4 py-2.5 flex items-center justify-between bg-gray-50 hover:bg-gray-100 transition-colors"
@@ -213,7 +173,9 @@ export default function PartsPageClient({
                 >
                   <div className="min-w-0 flex-1">
                     {activeCategory === null && (
-                      <div className="text-xs text-[#E8000D] font-medium mb-0.5">{p.category_name}</div>
+                      <div className="text-xs text-[#E8000D] font-medium mb-0.5">
+                        {getDisplayName(p.category_name)}
+                      </div>
                     )}
                     <div className="font-medium text-[#111827]">
                       {p.brand} {p.part_number}
