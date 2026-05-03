@@ -62,7 +62,8 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
   const fatalCodes = (r.ErrorCode ?? "0").split(";")
     .map((s) => s.trim())
     .filter((c) => !["0","1","5","14","400"].includes(c));
-  if (fatalCodes.length > 0 && confidence === "low") {
+  const isKnownAuWmi = vin.startsWith("6G1");
+  if (fatalCodes.length > 0 && confidence === "low" && !isKnownAuWmi) {
     return { ok: false, error: errorText ?? "Could not decode this VIN." };
   }
 
