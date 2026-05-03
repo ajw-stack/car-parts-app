@@ -89,8 +89,8 @@ const TypeaheadInput = forwardRef<HTMLInputElement, TypeaheadInputProps>(functio
 
   const filtered = useMemo(() => {
     const q = value.trim().toLowerCase();
-    if (!q) return options.slice(0, 50);
-    return options.filter((x) => x.toLowerCase().includes(q)).slice(0, 50);
+    if (!q) return options;
+    return options.filter((x) => x.toLowerCase().includes(q));
   }, [value, options]);
 
   const q = value.trim();
