@@ -1,92 +1,113 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
 
-export default function LoginPage() {
-  const router = useRouter();
+function LoginForm() {
+  const router       = useRouter();
+  const searchParams = useSearchParams();
+  const next         = searchParams.get("next") ?? "/garage";
 
-  const [email, setEmail] = useState("");
+  const [email, setEmail]       = useState("");
   const [password, setPassword] = useState("");
-  const [msg, setMsg] = useState<string>("");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading]   = useState(false);
+  const [error, setError]       = useState<string | null>(null);
 
-  async function signIn(e: React.FormEvent) {
+  async function handleLogin(e: React.FormEvent) {
     e.preventDefault();
-    setMsg("");
+    setError(null);
     setLoading(true);
 
-    const { error } = await supabase.auth.signInWithPassword({
+    const { error: err } = await supabase.auth.signInWithPassword({
       email: email.trim(),
       password,
     });
 
     setLoading(false);
 
-    if (error) {
-      setMsg(error.message);
-      return;
-    }
-
-    router.push("/admin");
+    if (err) { setError(err.message); return; }
+    router.push(next);
   }
 
   return (
-    <div className="min-h-screen bg-[#0b0f14] text-white">
+    <form onSubmit={handleLogin} className="space-y-4">
+      <div>
+        <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+          Email
+        </label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          autoComplete="email"
+          required
+          placeholder="you@example.com"
+          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+        />
+      </div>
+
+      <div>
+        <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+          Password
+        </label>
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          autoComplete="current-password"
+          required
+          placeholder="••••••••"
+          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+        />
+      </div>
+
+      {error && (
+        <div className="rounded-xl border border-red-800 bg-red-900/20 px-4 py-3 text-sm text-red-400">
+          {error}
+        </div>
+      )}
+
+      <button
+        type="submit"
+        disabled={loading || !email || !password}
+        className="w-full rounded-xl bg-[#E8000D] px-4 py-3 text-sm font-semibold text-white hover:bg-[#9a0101] disabled:opacity-40 transition-colors"
+      >
+        {loading ? "Signing in…" : "Sign In"}
+      </button>
+
+      <p className="text-center text-sm text-zinc-500">
+        Don&apos;t have an account?{" "}
+        <a href="/signup" className="text-white hover:text-[#E8000D] transition-colors">
+          Create one
+        </a>
+      </p>
+    </form>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <div className="min-h-screen flex flex-col bg-[#141414]">
       <Header />
-      <main className="mx-auto max-w-xl px-6 py-10">
-        <h1 className="text-3xl font-semibold tracking-tight">Login</h1>
-        <p className="mt-2 text-sm text-white/70">
-          Sign in to access Admin (required for adding vehicles/parts with RLS enabled).
-        </p>
 
-        <form onSubmit={signIn} className="mt-6 space-y-4">
-          <div>
-            <label className="text-sm text-white/70">Email</label>
-            <input
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              type="email"
-              autoComplete="email"
-              className="mt-1 w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 outline-none"
-              placeholder="you@example.com"
-              required
-            />
+      <main className="flex-1 flex items-center justify-center px-4 py-16">
+        <div className="w-full max-w-sm">
+
+          <div className="text-center mb-8">
+            <h1 className="text-2xl font-bold text-white">Sign in</h1>
+            <p className="mt-2 text-sm text-zinc-400">
+              Access your garage and saved vehicles.
+            </p>
           </div>
 
-          <div>
-            <label className="text-sm text-white/70">Password</label>
-            <input
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              type="password"
-              autoComplete="current-password"
-              className="mt-1 w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 outline-none"
-              placeholder="••••••••"
-              required
-            />
-          </div>
+          <Suspense fallback={null}>
+            <LoginForm />
+          </Suspense>
 
-          {msg && (
-            <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-red-300">
-              {msg}
-            </div>
-          )}
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-sm font-medium hover:bg-white/15 disabled:opacity-60"
-          >
-            {loading ? "Signing in…" : "Sign in"}
-          </button>
-
-          <div className="text-xs text-white/50">
-            Tip: Use the Supabase user you created (Authentication → Users).
-          </div>
-        </form>
+        </div>
       </main>
     </div>
   );
