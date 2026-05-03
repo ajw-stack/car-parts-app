@@ -184,7 +184,7 @@ export default function PartDetailClient({
                           {f.engine_restriction ? ` • ${f.engine_restriction}` : ""}
                         </div>
                         {isInherited && (
-                          <div className="mt-1 text-xs text-blue-500">
+                          <div className="mt-1 text-xs text-[#111827]">
                             via {crossRefLabel[f.part_id]}
                           </div>
                         )}
