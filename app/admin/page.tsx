@@ -486,7 +486,7 @@ export default function AdminPage() {
   const [xPartA, setXPartA] = useState("");
   const [xPartB, setXPartB] = useState("");
 
-  // --- Manage Fitments ---
+  // --- Manage Fitments (by vehicle) ---
   const [rmVehicleLabel, setRmVehicleLabel] = useState("");
   const [rmFitments, setRmFitments] = useState<FitmentRow[]>([]);
   const [rmLoading, setRmLoading] = useState(false);
@@ -512,8 +512,47 @@ export default function AdminPage() {
       .eq("part_id", partId);
     if (!error) {
       setRmFitments((prev) => prev.filter((f) => f.part_id !== partId));
+      setRmPartFitments((prev) => prev.filter((f) => f.vehicle_id !== vehicleId));
       setMsg("Fitment removed.");
     }
+  }
+
+  // --- Manage Fitments (by part) ---
+  type PartFitmentRow = {
+    vehicle_id: string;
+    part_id: string;
+    position: string | null;
+    notes: string | null;
+    qty: number;
+    vehicles: {
+      make: string;
+      model: string;
+      year_from: number;
+      year_to: number | null;
+      series: string | null;
+      engine_code: string | null;
+      engine_litres: number | null;
+      engine_kw: number | null;
+      fuel_type: string | null;
+      chassis: string | null;
+    };
+  };
+
+  const [rmPartLabel, setRmPartLabel] = useState("");
+  const [rmPartFitments, setRmPartFitments] = useState<PartFitmentRow[]>([]);
+  const [rmPartLoading, setRmPartLoading] = useState(false);
+
+  async function loadPartFitments(label: string) {
+    const part = parts.find((p) => partLabel(p) === label);
+    if (!part) { setRmPartFitments([]); return; }
+    setRmPartLoading(true);
+    const { data } = await supabase
+      .from("vehicle_part_fitments")
+      .select("vehicle_id, part_id, position, notes, qty, vehicles(make, model, year_from, year_to, series, engine_code, engine_litres, engine_kw, fuel_type, chassis)")
+      .eq("part_id", part.id)
+      .order("vehicle_id");
+    setRmPartFitments((data ?? []) as unknown as PartFitmentRow[]);
+    setRmPartLoading(false);
   }
 
   const canAddXref = xPartA && xPartB && xPartA !== xPartB;
@@ -1262,6 +1301,84 @@ options={Array.from(
             </div>
           )}
         </section>
+        {/* Manage Fitments — by Part */}
+        <section className="mt-6 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+          <h2 className="text-lg font-semibold text-white">Manage Fitments by Part</h2>
+          <p className="mt-1 text-xs text-zinc-400">Search a part number to see which vehicles it fits and remove any incorrect ones.</p>
+
+          <div className="mt-4">
+            <TypeaheadInput
+              value={rmPartLabel}
+              onChange={(v) => {
+                setRmPartLabel(v);
+                loadPartFitments(v);
+              }}
+              options={parts.map(partLabel).sort()}
+              placeholder="Search part…"
+            />
+          </div>
+
+          {rmPartLabel && (
+            <div className="mt-4">
+              {rmPartLoading && (
+                <p className="text-sm text-zinc-400">Loading…</p>
+              )}
+
+              {!rmPartLoading && rmPartFitments.length === 0 && (
+                <p className="text-sm text-zinc-400">No vehicles linked to this part.</p>
+              )}
+
+              {!rmPartLoading && rmPartFitments.length > 0 && (
+                <div className="rounded-xl overflow-hidden border border-[#2A2A2A]">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-[#1F1F1F] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        <th className="px-4 py-3">Vehicle</th>
+                        <th className="px-4 py-3">Engine</th>
+                        <th className="px-4 py-3">Position</th>
+                        <th className="px-4 py-3"></th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-[#2A2A2A]">
+                      {rmPartFitments.map((f) => {
+                        const v = f.vehicles;
+                        const yr = `${v.year_from}–${formatYearTo(v.year_to)}`;
+                        const eng = [
+                          v.engine_litres != null ? `${v.engine_litres}L` : null,
+                          v.engine_code,
+                          v.fuel_type,
+                        ].filter(Boolean).join(" · ");
+                        return (
+                          <tr key={f.vehicle_id} className="bg-[#141414] hover:bg-[#1A1A1A]">
+                            <td className="px-4 py-3 text-white font-medium">
+                              {v.make} {v.model} ({yr})
+                              {v.series && <span className="ml-1 text-zinc-400">· {v.series}</span>}
+                              {v.chassis && <span className="ml-1 text-zinc-400">· {v.chassis}</span>}
+                            </td>
+                            <td className="px-4 py-3 text-zinc-300">{eng || "—"}</td>
+                            <td className="px-4 py-3 text-zinc-400">{f.position ?? "—"}</td>
+                            <td className="px-4 py-3 text-right">
+                              <button
+                                onClick={() => removeFitment(f.vehicle_id, f.part_id)}
+                                className="rounded-lg border border-red-800 px-3 py-1 text-xs font-semibold text-red-400 hover:bg-red-900/30 transition-colors"
+                              >
+                                Remove
+                              </button>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                  <div className="px-4 py-2 bg-[#1F1F1F] text-xs text-zinc-500">
+                    {rmPartFitments.length} vehicle{rmPartFitments.length !== 1 ? "s" : ""} linked
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </section>
+
       </div>
     </main>
 
