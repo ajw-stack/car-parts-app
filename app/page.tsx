@@ -847,7 +847,7 @@ export default function Page() {
               {!selectedVehicleId ? (
                 <div className="text-sm text-[#6A6A6A]">
                   Select Make, Model, Year, Series and Engine to view parts.{" "}
-                  <span className="text-[#E8000D]">Trim and Chassis are optional.</span>
+                  <span className="text-[#CC0000]">Trim and Chassis are optional.</span>
                 </div>
               ) : (
                 <button

@@ -63,7 +63,7 @@ export default function SignupPage() {
               </p>
               <a
                 href="/login"
-                className="mt-2 inline-block text-sm text-[#E8000D] hover:underline"
+                className="mt-2 inline-block text-sm text-[#CC0000] hover:underline"
               >
                 Back to Sign In
               </a>
@@ -81,7 +81,7 @@ export default function SignupPage() {
                   autoComplete="email"
                   required
                   placeholder="you@example.com"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 
@@ -96,7 +96,7 @@ export default function SignupPage() {
                   autoComplete="new-password"
                   required
                   placeholder="Min. 6 characters"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 
@@ -111,7 +111,7 @@ export default function SignupPage() {
                   autoComplete="new-password"
                   required
                   placeholder="Re-enter password"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 
@@ -124,14 +124,14 @@ export default function SignupPage() {
               <button
                 type="submit"
                 disabled={loading || !email || !password || !confirm}
-                className="w-full rounded-xl bg-[#E8000D] px-4 py-3 text-sm font-semibold text-white hover:bg-[#9a0101] disabled:opacity-40 transition-colors"
+                className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
               >
                 {loading ? "Creating account…" : "Create Account"}
               </button>
 
               <p className="text-center text-sm text-zinc-500">
                 Already have an account?{" "}
-                <a href="/login" className="text-white hover:text-[#E8000D] transition-colors">
+                <a href="/login" className="text-white hover:text-[#CC0000] transition-colors">
                   Sign in
                 </a>
               </p>

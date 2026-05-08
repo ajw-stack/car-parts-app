@@ -45,7 +45,7 @@ function LoginForm() {
           autoComplete="email"
           required
           placeholder="you@example.com"
-          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
         />
       </div>
 
@@ -60,7 +60,7 @@ function LoginForm() {
           autoComplete="current-password"
           required
           placeholder="••••••••"
-          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#E8000D] focus:outline-none"
+          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
         />
       </div>
 
@@ -73,14 +73,14 @@ function LoginForm() {
       <button
         type="submit"
         disabled={loading || !email || !password}
-        className="w-full rounded-xl bg-[#E8000D] px-4 py-3 text-sm font-semibold text-white hover:bg-[#9a0101] disabled:opacity-40 transition-colors"
+        className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
       >
         {loading ? "Signing in…" : "Sign In"}
       </button>
 
       <p className="text-center text-sm text-zinc-500">
         Don&apos;t have an account?{" "}
-        <a href="/signup" className="text-white hover:text-[#E8000D] transition-colors">
+        <a href="/signup" className="text-white hover:text-[#CC0000] transition-colors">
           Create one
         </a>
       </p>

@@ -67,12 +67,12 @@ export default function RegoLookup({ enableSave = false, onSaved }: Props) {
             maxLength={7}
             spellCheck={false}
             autoComplete="off"
-            className="flex-1 rounded-xl border border-gray-200 bg-white px-4 py-3 font-mono tracking-widest text-sm text-[#111827] uppercase placeholder:font-sans placeholder:tracking-normal placeholder:text-gray-400 focus:border-[#E8000D] focus:outline-none"
+            className="flex-1 rounded-xl border border-gray-200 bg-white px-4 py-3 font-mono tracking-widest text-sm text-[#111827] uppercase placeholder:font-sans placeholder:tracking-normal placeholder:text-gray-400 focus:border-[#CC0000] focus:outline-none"
           />
           <select
             value={state}
             onChange={(e) => setState(e.target.value as AusState | "")}
-            className="rounded-xl border border-gray-200 bg-white px-3 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none"
+            className="rounded-xl border border-gray-200 bg-white px-3 py-3 text-sm text-[#111827] focus:border-[#CC0000] focus:outline-none"
             aria-label="State"
           >
             <option value="" disabled>Select State</option>
@@ -83,7 +83,7 @@ export default function RegoLookup({ enableSave = false, onSaved }: Props) {
           <button
             onClick={handleLookup}
             disabled={loading || !rego || !state}
-            className="rounded-xl bg-[#E8000D] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#9a0101] disabled:opacity-40"
+            className="rounded-xl bg-[#CC0000] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#aa0000] disabled:opacity-40"
           >
             {loading ? "…" : "Look up"}
           </button>
@@ -134,7 +134,7 @@ export default function RegoLookup({ enableSave = false, onSaved }: Props) {
                 {[vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" ")}
               </p>
             </div>
-            <span className="shrink-0 text-[#E8000D] font-semibold text-sm">Search Parts →</span>
+            <span className="shrink-0 text-[#CC0000] font-semibold text-sm">Search Parts →</span>
           </a>
         </>
       )}
@@ -175,12 +175,12 @@ function SaveBar({ onSave }: { onSave: (nickname?: string) => void | Promise<voi
         value={nickname}
         onChange={(e) => setNickname(e.target.value)}
         placeholder="Nickname (optional)"
-        className="flex-1 rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-sm focus:border-[#E8000D] focus:outline-none"
+        className="flex-1 rounded-xl border border-gray-200 bg-white px-3 py-2.5 text-sm focus:border-[#CC0000] focus:outline-none"
       />
       <button
         onClick={handleSave}
         disabled={saving || saved}
-        className="shrink-0 rounded-xl border border-[#E8000D] px-5 py-2.5 text-sm font-semibold text-[#E8000D] hover:bg-[#E8000D] hover:text-white transition-colors disabled:opacity-50"
+        className="shrink-0 rounded-xl border border-[#CC0000] px-5 py-2.5 text-sm font-semibold text-[#CC0000] hover:bg-[#CC0000] hover:text-white transition-colors disabled:opacity-50"
       >
         {saved ? "Saved ✓" : saving ? "Saving…" : "Save to My Garage"}
       </button>

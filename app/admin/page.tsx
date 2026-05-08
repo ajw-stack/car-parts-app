@@ -1424,7 +1424,7 @@ options={Array.from(
                   <select
                     value={catGroups[category]?.display_group ?? "Other"}
                     onChange={(e) => saveDisplayGroup(category, e.target.value)}
-                    className="shrink-0 rounded-lg border border-[#3A3A3A] bg-[#141414] px-2 py-1 text-xs text-zinc-300 focus:border-[#E8000D] focus:outline-none"
+                    className="shrink-0 rounded-lg border border-[#3A3A3A] bg-[#141414] px-2 py-1 text-xs text-zinc-300 focus:border-[#CC0000] focus:outline-none"
                     title="Sidebar group"
                   >
                     {DISPLAY_GROUPS.map(g => <option key={g} value={g}>{g}</option>)}

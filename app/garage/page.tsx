@@ -199,7 +199,7 @@ export default function GaragePage() {
                 >
                   <div className="w-10 h-0.5 bg-[#2A2A2A] rounded-full" />
                   <div className="w-10 h-0.5 bg-[#2A2A2A] rounded-full" />
-                  <div className="w-4 h-0.5 bg-[#E8000D]/40 rounded-full" />
+                  <div className="w-4 h-0.5 bg-[#CC0000]/40 rounded-full" />
                 </div>
               ))}
             </div>
@@ -218,7 +218,7 @@ export default function GaragePage() {
                 "Your vehicles remembered across every visit",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-zinc-300">
-                  <span className="shrink-0 text-[#E8000D] font-bold mt-0.5">✓</span>
+                  <span className="shrink-0 text-[#CC0000] font-bold mt-0.5">✓</span>
                   {item}
                 </li>
               ))}
@@ -227,7 +227,7 @@ export default function GaragePage() {
             <div className="flex flex-col gap-3">
               <a
                 href="/login"
-                className="block rounded-xl bg-[#E8000D] px-8 py-3.5 text-sm font-semibold text-white hover:bg-[#9a0101] transition-colors"
+                className="block rounded-xl bg-[#CC0000] px-8 py-3.5 text-sm font-semibold text-white hover:bg-[#aa0000] transition-colors"
               >
                 Sign In
               </a>
@@ -255,7 +255,7 @@ export default function GaragePage() {
         {/* ── Sidebar — parking bays ── */}
         <aside className="w-64 shrink-0 bg-[#141414] flex flex-col border-r border-[#1F1F1F]">
           <div className="px-5 pt-6 pb-4 border-b border-[#1F1F1F]">
-            <p className="text-[10px] font-semibold uppercase tracking-widest text-[#E8000D]">My Garage</p>
+            <p className="text-[10px] font-semibold uppercase tracking-widest text-[#CC0000]">My Garage</p>
             <p className="mt-0.5 text-xs text-zinc-600">
               {listLoading ? "Loading…" : `${vehicles.length} vehicle${vehicles.length !== 1 ? "s" : ""}`}
             </p>
@@ -277,7 +277,7 @@ export default function GaragePage() {
                   onClick={() => { setSelectedId(v.id); setShowAdd(false); }}
                   className={`w-full text-left rounded-xl px-3.5 py-3 transition-all border ${
                     active
-                      ? "bg-[#E8000D]/10 border-[#E8000D]/40"
+                      ? "bg-[#CC0000]/10 border-[#CC0000]/40"
                       : "border-transparent hover:bg-white/5 hover:border-white/5"
                   }`}
                 >
@@ -294,7 +294,7 @@ export default function GaragePage() {
                       )}
                     </div>
                     {active && (
-                      <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-[#E8000D] mt-1.5" />
+                      <span className="shrink-0 w-1.5 h-1.5 rounded-full bg-[#CC0000] mt-1.5" />
                     )}
                   </div>
                 </button>
@@ -313,7 +313,7 @@ export default function GaragePage() {
               onClick={() => { setShowAdd(true); setSelectedId(null); }}
               className={`w-full rounded-xl border px-4 py-2.5 text-sm font-semibold transition-colors ${
                 showAdd
-                  ? "border-[#E8000D]/40 bg-[#E8000D]/10 text-white"
+                  ? "border-[#CC0000]/40 bg-[#CC0000]/10 text-white"
                   : "border-[#2A2A2A] text-zinc-400 hover:border-zinc-600 hover:text-white"
               }`}
             >
@@ -345,7 +345,7 @@ export default function GaragePage() {
                 <p className="mt-1 text-sm text-gray-400">or add a new one to your garage</p>
                 <button
                   onClick={() => setShowAdd(true)}
-                  className="mt-5 rounded-xl bg-[#E8000D] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#9a0101] transition-colors"
+                  className="mt-5 rounded-xl bg-[#CC0000] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#aa0000] transition-colors"
                 >
                   + Add Vehicle
                 </button>
@@ -361,7 +361,7 @@ export default function GaragePage() {
                 <div className="bg-[#141414] px-6 py-5 flex items-start justify-between gap-4">
                   <div>
                     {selectedVehicle.nickname && (
-                      <p className="text-[11px] font-semibold text-[#E8000D] uppercase tracking-widest mb-1">
+                      <p className="text-[11px] font-semibold text-[#CC0000] uppercase tracking-widest mb-1">
                         {selectedVehicle.nickname}
                       </p>
                     )}
@@ -402,7 +402,7 @@ export default function GaragePage() {
                       Browse parts that fit your {selectedVehicle.make} {selectedVehicle.model}
                     </p>
                   </div>
-                  <span className="shrink-0 rounded-xl bg-[#E8000D] px-5 py-2.5 text-sm font-semibold text-white whitespace-nowrap">
+                  <span className="shrink-0 rounded-xl bg-[#CC0000] px-5 py-2.5 text-sm font-semibold text-white whitespace-nowrap">
                     Search Parts →
                   </span>
                 </button>
@@ -421,7 +421,7 @@ export default function GaragePage() {
                     key={t}
                     onClick={() => setAddTab(t)}
                     className={`rounded-full px-5 py-1.5 text-sm font-semibold transition-colors ${
-                      addTab === t ? "bg-[#E8000D] text-white" : "text-gray-500 hover:text-gray-800"
+                      addTab === t ? "bg-[#CC0000] text-white" : "text-gray-500 hover:text-gray-800"
                     }`}
                   >
                     {label}

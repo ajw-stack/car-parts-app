@@ -26,7 +26,7 @@ export default function DecodePage() {
               key={t}
               onClick={() => setTab(t)}
               className={`rounded-full px-6 py-2 text-sm font-semibold transition-colors ${
-                tab === t ? "bg-[#E8000D] text-white" : "text-white/60 hover:text-white"
+                tab === t ? "bg-[#CC0000] text-white" : "text-white/60 hover:text-white"
               }`}
             >
               {t === "vin" ? "VIN Decoder" : "Rego Lookup"}

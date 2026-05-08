@@ -129,7 +129,7 @@ export default function VehicleSelector({ onSelect, buttonLabel = "Add to Garage
           value={selectedMake}
           onChange={(e) => setSelectedMake(e.target.value)}
           disabled={makesLoading}
-          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none"
+          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#CC0000] focus:outline-none"
         >
           <option value="">{makesLoading ? "Loading…" : "Select make"}</option>
           {makes.map((m) => <option key={m} value={m}>{m}</option>)}
@@ -145,7 +145,7 @@ export default function VehicleSelector({ onSelect, buttonLabel = "Add to Garage
           value={selectedModel}
           onChange={(e) => { setSelectedModel(e.target.value); setSelectedYear(""); setSelectedVariant(""); }}
           disabled={!selectedMake || varsLoading}
-          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none disabled:opacity-50"
+          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#CC0000] focus:outline-none disabled:opacity-50"
         >
           <option value="">{varsLoading ? "Loading…" : "Select model"}</option>
           {modelOptions.map((m) => <option key={m} value={m}>{m}</option>)}
@@ -161,7 +161,7 @@ export default function VehicleSelector({ onSelect, buttonLabel = "Add to Garage
           value={selectedYear}
           onChange={(e) => { setSelectedYear(e.target.value); setSelectedVariant(""); }}
           disabled={!selectedModel}
-          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none disabled:opacity-50"
+          className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#CC0000] focus:outline-none disabled:opacity-50"
         >
           <option value="">Select year</option>
           {yearOptions.map((y) => <option key={y} value={y}>{y}</option>)}
@@ -177,7 +177,7 @@ export default function VehicleSelector({ onSelect, buttonLabel = "Add to Garage
           <select
             value={selectedVariant}
             onChange={(e) => setSelectedVariant(e.target.value)}
-            className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#E8000D] focus:outline-none"
+            className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] focus:border-[#CC0000] focus:outline-none"
           >
             <option value="">Select variant</option>
             {variantOptions.map((v) => (
@@ -200,7 +200,7 @@ export default function VehicleSelector({ onSelect, buttonLabel = "Add to Garage
       <button
         onClick={handleAdd}
         disabled={!canAdd}
-        className="w-full rounded-xl bg-[#E8000D] px-5 py-3 text-sm font-semibold text-white hover:bg-[#9a0101] disabled:opacity-40 transition-colors"
+        className="w-full rounded-xl bg-[#CC0000] px-5 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
       >
         {buttonLabel}
       </button>

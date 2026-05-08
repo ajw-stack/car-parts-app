@@ -92,7 +92,7 @@ export default function PartsPageClient({
               onClick={() => setActiveCategory(null)}
               className={`w-full text-left px-4 py-3 text-sm flex items-center justify-between transition-colors border-b border-gray-100 ${
                 activeCategory === null
-                  ? "bg-[#E8000D] text-white font-semibold"
+                  ? "bg-[#CC0000] text-white font-semibold"
                   : "text-gray-700 hover:bg-gray-50"
               }`}
             >
@@ -132,7 +132,7 @@ export default function PartsPageClient({
                             onClick={() => setActiveCategory(displayCat)}
                             className={`w-full text-left pl-6 pr-4 py-2.5 text-sm flex items-center justify-between transition-colors ${
                               active
-                                ? "bg-[#E8000D] text-white font-semibold"
+                                ? "bg-[#CC0000] text-white font-semibold"
                                 : "text-gray-700 hover:bg-gray-50"
                             }`}
                           >
@@ -173,7 +173,7 @@ export default function PartsPageClient({
                 >
                   <div className="min-w-0 flex-1">
                     {activeCategory === null && (
-                      <div className="text-xs text-[#E8000D] font-medium mb-0.5">
+                      <div className="text-xs text-[#CC0000] font-medium mb-0.5">
                         {getDisplayName(p.category_name)}
                       </div>
                     )}

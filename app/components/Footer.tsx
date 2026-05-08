@@ -90,7 +90,7 @@ export default function Footer() {
             style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
             className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
           >
-            ELRO<span className="text-[#E8000D]">CO</span>
+            ELRO<span className="text-[#CC0000]">CO</span>
           </a>
 
         <div className="flex gap-10 md:pl-[25%]">
