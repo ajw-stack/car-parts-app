@@ -44,7 +44,7 @@ export default function Header() {
           {/* Logo — desktop: centred between left edge and nav (quarter point) */}
           <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
             <img
-              src="/logos/elroco-block-black-sm.png"
+              src="/logos/elroco-block-red-sm.png"
               alt="Elroco"
               style={{ height: "44px", width: "auto" }}
             />
