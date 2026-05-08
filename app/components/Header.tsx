@@ -31,7 +31,7 @@ export default function Header() {
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
       <header className="border-b border-[#2A2A2A] bg-[#1C1C1C] text-white sticky top-0 z-50">
-        <div className="relative flex w-full items-center px-4 py-10">
+        <div className="relative flex w-full items-center px-6 py-3">
 
           {/* Mobile hamburger */}
           <button
@@ -42,21 +42,21 @@ export default function Header() {
           </button>
 
           {/* Logo — desktop: centred between left edge and nav (quarter point) */}
-          <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
+          <a href="/" className="flex items-center shrink-0 ml-4 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
             <img
               src="/logos/elroco-block-red-sm.png"
               alt="Elroco"
-              style={{ height: "44px", width: "auto" }}
+              style={{ height: "30px", width: "auto" }}
             />
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
+          <nav className="hidden md:flex items-center gap-0.5 absolute left-1/2 -translate-x-1/2">
 
             {/* Home */}
             <a
               href="/"
-              className="px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#CC0000] transition-colors"
+              className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-white hover:text-[#CC0000] transition-colors"
             >
               Home
             </a>
@@ -67,7 +67,7 @@ export default function Header() {
               onMouseEnter={openVehicles}
               onMouseLeave={closeVehicles}
             >
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#CC0000] transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-white hover:text-[#CC0000] transition-colors">
                 Vehicles
                 <svg className="w-3 h-3 mt-px" viewBox="0 0 10 6" fill="currentColor">
                   <path d="M0 0l5 6 5-6z" />
@@ -118,7 +118,7 @@ export default function Header() {
               <a
                 key={l.href}
                 href={l.href}
-                className="px-3 py-2 text-sm font-semibold uppercase tracking-widest text-white hover:text-[#CC0000] transition-colors"
+                className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-white hover:text-[#CC0000] transition-colors"
               >
                 {l.label}
               </a>
