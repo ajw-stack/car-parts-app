@@ -60,7 +60,7 @@ export default function PartsPageClient({
   );
 
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
-  const [openGroups, setOpenGroups] = useState<Set<string>>(new Set(sortedGroups));
+  const [openGroups, setOpenGroups] = useState<Set<string>>(new Set());
 
   function toggleGroup(g: string) {
     setOpenGroups(prev => {
