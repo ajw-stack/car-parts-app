@@ -830,18 +830,18 @@ export default function Page() {
             >
               <div className={`relative border rounded-xl px-5 py-4 transition-colors duration-150 ${
                 selectedVehicleId
-                  ? "bg-[#F3F4F6] border-[#E5E7EB] hover:bg-[#EBEBEB]"
-                  : "bg-[#F3F4F6] border-[#E5E7EB]"
+                  ? "bg-[#1C1C1C] border-[#2A2A2A] hover:bg-[#242424]"
+                  : "bg-[#1C1C1C] border-[#2A2A2A]"
               }`}>
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">
                     <div className="text-[10px] font-bold tracking-[0.18em] uppercase text-[#CC0000] mb-1.5">
                       Vehicle Match
                     </div>
-                    <div className="text-xl font-black text-[#111827] leading-tight">
+                    <div className="text-xl font-black text-white leading-tight">
                       {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
                     </div>
-                    <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#6B7280]">
+                    <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#9CA3AF]">
                       {selectedTrim && <span>{selectedTrim}</span>}
                       {selectedChassis && <span>{selectedChassis}</span>}
                       {selectedEngineKey && (
@@ -850,7 +850,7 @@ export default function Page() {
                         </span>
                       )}
                       {!selectedVehicleId && (
-                        <span className="text-[#9CA3AF]">Select a series &amp; engine to continue</span>
+                        <span className="text-[#6B7280]">Select a series &amp; engine to continue</span>
                       )}
                     </div>
                   </div>
