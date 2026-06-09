@@ -822,11 +822,23 @@ export default function Page() {
             )}
           </div>
 
-          {/* Selected vehicle card */}
+          {/* Vehicle match card */}
           {selectedMake && selectedModel && selectedYear && (
-            <div className="sticky top-0 z-20 mt-6 rounded-xl border border-[#DCDCDC] bg-[#FCFCFC] px-4 py-3 backdrop-blur">
-              <div className="text-sm text-[#6A6A6A]">Selected Vehicle</div>
-              <div className="text-lg font-semibold">
+            <div
+              onClick={() => selectedVehicleId && router.push(`/vehicles/${makeSlug(selectedMake)}/${selectedVehicleId}/parts`)}
+              className={`sticky top-0 z-20 mt-6 rounded-xl border px-4 py-3 backdrop-blur transition-colors ${
+                selectedVehicleId
+                  ? "border-[#CC0000] bg-[#FCFCFC] cursor-pointer hover:bg-[#FFF5F5]"
+                  : "border-[#DCDCDC] bg-[#FCFCFC]"
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <div className="text-sm text-[#6A6A6A]">Vehicle Match</div>
+                {selectedVehicleId && (
+                  <span className="text-xs font-semibold text-[#CC0000]">View Parts →</span>
+                )}
+              </div>
+              <div className="text-lg font-semibold mt-0.5">
                 {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
                 {selectedTrim && ` • ${selectedTrim}`}
                 {selectedChassis && ` • ${selectedChassis}`}
@@ -836,31 +848,11 @@ export default function Page() {
                   {formatEngineLabelInline(engineLabelFromKey(selectedEngineKey))}
                 </div>
               )}
-            </div>
-          )}
-
-          {/* Compatible Parts — navigate to dedicated page */}
-          <div className="mt-10">
-            <h2 className="text-sm font-semibold text-[#0F0F0F]">Compatible Parts</h2>
-
-            <div className="mt-4 rounded-2xl border border-[#DCDCDC] bg-white p-4">
-              {!selectedVehicleId ? (
-                <div className="text-sm text-[#6A6A6A]">
-                  Select Make, Model, Year, Series and Engine to view parts.{" "}
-                  <span className="text-[#CC0000]">Trim and Chassis are optional.</span>
-                </div>
-              ) : (
-                <button
-                  onClick={() =>
-                    router.push(`/vehicles/${makeSlug(selectedMake)}/${selectedVehicleId}/parts`)
-                  }
-                  className="w-full rounded-xl bg-[#1A1A1A] px-6 py-4 text-sm font-semibold text-white hover:bg-[#333] transition-colors"
-                >
-                  View Compatible Parts →
-                </button>
+              {!selectedVehicleId && (
+                <div className="text-xs text-[#9CA3AF] mt-1">Select a Series and Engine to view compatible parts.</div>
               )}
             </div>
-          </div>
+          )}
         </div>
       </main>
 
