@@ -828,46 +828,40 @@ export default function Page() {
               onClick={() => selectedVehicleId && router.push(`/vehicles/${makeSlug(selectedMake)}/${selectedVehicleId}/parts`)}
               className={`sticky top-0 z-20 mt-6 rounded-xl overflow-hidden transition-colors duration-150 ${selectedVehicleId ? "cursor-pointer" : ""}`}
             >
-              <div className={`relative flex items-stretch bg-[#111111] transition-colors duration-150 ${selectedVehicleId ? "hover:bg-[#1A1A1A]" : ""}`}>
-                {/* Left red stripe */}
-                <div className="w-1 shrink-0 bg-[#CC0000]" />
-
-                <div className="flex-1 px-5 py-4">
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="min-w-0">
-                      <div className="text-[10px] font-bold tracking-[0.18em] uppercase text-[#CC0000] mb-1.5">
-                        Vehicle Match
-                      </div>
-                      <div className="text-xl font-black text-white leading-tight">
-                        {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
-                      </div>
-                      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#9CA3AF]">
-                        {selectedTrim && <span>{selectedTrim}</span>}
-                        {selectedChassis && <span>{selectedChassis}</span>}
-                        {selectedEngineKey && (
-                          <span className="text-[#CC0000] font-medium">
-                            {formatEngineLabelInline(engineLabelFromKey(selectedEngineKey))}
-                          </span>
-                        )}
-                        {!selectedVehicleId && (
-                          <span className="text-[#4B5563]">Select a series &amp; engine to continue</span>
-                        )}
-                      </div>
+              <div className={`relative border rounded-xl px-5 py-4 transition-colors duration-150 ${
+                selectedVehicleId
+                  ? "bg-[#F3F4F6] border-[#E5E7EB] hover:bg-[#EBEBEB]"
+                  : "bg-[#F3F4F6] border-[#E5E7EB]"
+              }`}>
+                <div className="flex items-start justify-between gap-4">
+                  <div className="min-w-0">
+                    <div className="text-[10px] font-bold tracking-[0.18em] uppercase text-[#CC0000] mb-1.5">
+                      Vehicle Match
                     </div>
-
-                    {selectedVehicleId && (
-                      <div className="shrink-0 flex flex-col items-end justify-center gap-0.5 mt-1">
-                        <span className="text-[10px] font-bold tracking-[0.18em] uppercase text-[#CC0000]">View Parts</span>
-                        <span className="text-[#CC0000] text-xl leading-none font-black">→</span>
-                      </div>
-                    )}
+                    <div className="text-xl font-black text-[#111827] leading-tight">
+                      {selectedMake} {selectedModel} {selectedSeries} {selectedYear}
+                    </div>
+                    <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#6B7280]">
+                      {selectedTrim && <span>{selectedTrim}</span>}
+                      {selectedChassis && <span>{selectedChassis}</span>}
+                      {selectedEngineKey && (
+                        <span className="text-[#CC0000] font-medium">
+                          {formatEngineLabelInline(engineLabelFromKey(selectedEngineKey))}
+                        </span>
+                      )}
+                      {!selectedVehicleId && (
+                        <span className="text-[#9CA3AF]">Select a series &amp; engine to continue</span>
+                      )}
+                    </div>
                   </div>
-                </div>
 
-                {/* Bottom red fade line when matched */}
-                {selectedVehicleId && (
-                  <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-[#CC0000] via-[#CC0000]/40 to-transparent" />
-                )}
+                  {selectedVehicleId && (
+                    <div className="shrink-0 flex flex-col items-end justify-center gap-0.5 mt-1">
+                      <span className="text-[10px] font-bold tracking-[0.18em] uppercase text-[#CC0000]">View Parts</span>
+                      <span className="text-[#CC0000] text-xl leading-none font-black">→</span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           )}
