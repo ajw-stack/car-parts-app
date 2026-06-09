@@ -326,7 +326,7 @@ async function main() {
   // CSV columns that map directly to vehicle table fields (only backfill when currently null)
   const BACKFILL_FIELDS = [
     { csv: 'engine',     dbField: 'engine_code',   transform: v => v.split(/\s/)[0] || null },
-    { csv: 'drivetrain', dbField: 'grade',          transform: v => v },
+    { csv: 'drivetrain', dbField: 'drive_train',     transform: v => v },
   ];
 
   for (const row of csvRows) {

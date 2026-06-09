@@ -29,6 +29,12 @@ type VehicleRow = {
   chassis: string | null;
   trim_code: string | null;
   notes: string | null;
+  drive_train: string | null;
+  transmission: string | null;
+  country_of_manufacture: string | null;
+  engine_valves: number | null;
+  camshaft_setup: string | null;
+  fuel_delivery: string | null;
 };
 
 type PartRow = {
@@ -470,6 +476,12 @@ export default function AdminPage() {
   const [vFuel, setVFuel] = useState("");
   const [vEngineConfig, setVEngineConfig] = useState("");
   const [vChassis, setVChassis] = useState<string[]>([]);
+  const [vDriveTrain, setVDriveTrain] = useState("");
+  const [vTransmission, setVTransmission] = useState("");
+  const [vCountry, setVCountry] = useState("");
+  const [vEngineValves, setVEngineValves] = useState("");
+  const [vCamshaft, setVCamshaft] = useState("");
+  const [vFuelDelivery, setVFuelDelivery] = useState("");
 
   const makeRef = useRef<HTMLInputElement>(null);
 
@@ -845,6 +857,12 @@ engine_litres: vEngineLitres === "" ? null : Number(vEngineLitres),
 fuel_type: vFuel.trim(),
 engine_config: vEngineConfig || null,
   chassis: chassis.trim(),
+  drive_train: vDriveTrain.trim() || null,
+  transmission: vTransmission.trim() || null,
+  country_of_manufacture: vCountry.trim() || null,
+  engine_valves: vEngineValves === "" ? null : Number(vEngineValves),
+  camshaft_setup: vCamshaft.trim() || null,
+  fuel_delivery: vFuelDelivery.trim() || null,
 }));
 
 console.log("vMonthFrom:", vMonthFrom, "vMonthTo:", vMonthTo);
@@ -870,6 +888,12 @@ setVEngineCode("");
 setVEngineLitres("");
 setVFuel("");
 setVChassis([]);
+setVDriveTrain("");
+setVTransmission("");
+setVCountry("");
+setVEngineValves("");
+setVCamshaft("");
+setVFuelDelivery("");
 
 // reload only vehicles so chassis suggestions update
 const { data: vehiclesData } = await supabase
@@ -1186,6 +1210,54 @@ options={Array.from(
   disabled={!vMake || !vModel}
   allowCreate
 />
+
+              <TypeaheadInput
+                value={vDriveTrain}
+                onChange={setVDriveTrain}
+                options={Array.from(new Set(vehicles.map((v) => (v.drive_train ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Drive Train (e.g. RWD, FWD, AWD, 4WD)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vTransmission}
+                onChange={setVTransmission}
+                options={Array.from(new Set(vehicles.map((v) => (v.transmission ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Transmission (e.g. Manual, Automatic, CVT)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vCountry}
+                onChange={setVCountry}
+                options={Array.from(new Set(vehicles.map((v) => (v.country_of_manufacture ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Country of Manufacture (e.g. Australia, Japan)"
+                allowCreate
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vEngineValves}
+                onChange={(e) => setVEngineValves(e.target.value)}
+                placeholder="Engine Valves (e.g. 16, 24, 32)"
+              />
+
+              <TypeaheadInput
+                value={vCamshaft}
+                onChange={setVCamshaft}
+                options={["SOHC", "DOHC", "OHV", "OHC", "DOHC VVT", "DOHC VVTi", "DOHC CVVT"]}
+                placeholder="Camshaft Setup (e.g. DOHC, SOHC, OHV)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vFuelDelivery}
+                onChange={setVFuelDelivery}
+                options={["Carburettor", "EFI", "MPFI", "SPFI", "GDI", "TDI", "CRDI", "TBI", "PFI"]}
+                placeholder="Fuel Delivery (e.g. Carburettor, EFI, MPFI)"
+                allowCreate
+              />
             </div>
 
             <button

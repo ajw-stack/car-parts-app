@@ -31,7 +31,14 @@ export async function PATCH(
   const body = await request.json();
 
   const allowed: Record<string, unknown> = {};
-  if ("image_urls" in body) allowed.image_urls = body.image_urls ?? null;
+  if ("image_urls"             in body) allowed.image_urls             = body.image_urls             ?? null;
+  if ("drive_train"            in body) allowed.drive_train            = body.drive_train            ?? null;
+  if ("transmission"           in body) allowed.transmission           = body.transmission           ?? null;
+  if ("country_of_manufacture" in body) allowed.country_of_manufacture = body.country_of_manufacture ?? null;
+  if ("engine_valves"          in body) allowed.engine_valves          = body.engine_valves          ?? null;
+  if ("camshaft_setup"         in body) allowed.camshaft_setup         = body.camshaft_setup         ?? null;
+  if ("fuel_delivery"          in body) allowed.fuel_delivery          = body.fuel_delivery          ?? null;
+  if ("specs"                  in body) allowed.specs                  = body.specs                  ?? null;
 
   if (Object.keys(allowed).length === 0) {
     return NextResponse.json({ error: "No valid fields" }, { status: 400 });

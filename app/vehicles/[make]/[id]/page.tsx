@@ -109,7 +109,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Year From" value={v.year_from} />
             <Row label="Year To" value={formatYearTo(v.year_to)} />
             <Row label="Notes" value={v.notes} />
-            <Row label="Country of Origin" value={specs.country_of_origin} />
+            <Row label="Country of Manufacture" value={v.country_of_manufacture ?? specs.country_of_origin} />
             <Row label="VIN Sample" value={specs.vin_sample} />
             <Row label="Warranty" value={specs.warranty} />
             <Row label="Seats" value={specs.seats} />
@@ -144,6 +144,9 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Cylinders" value={specs.cylinders} />
             <Row label="Displacement (cc)" value={specs.displacement_cc} />
             <Row label="Capacity (L)" value={v.engine_litres} />
+            <Row label="Valves" value={v.engine_valves} />
+            <Row label="Camshaft Setup" value={v.camshaft_setup} />
+            <Row label="Fuel Delivery" value={v.fuel_delivery} />
             <Row label="Bore (mm)" value={specs.bore_mm} />
             <Row label="Stroke (mm)" value={specs.stroke_mm} />
             <Row label="Bore (in)" value={specs.bore_in} />
@@ -158,13 +161,13 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           </Section>
 
           <Section title="Transmission & Drive">
+            <Row label="Transmission" value={v.transmission ?? specs.transmission ?? specs.transmission_description} />
+            <Row label="Drive Train" value={v.drive_train ?? specs.drivetrain} />
             {Array.isArray(specs.transmissions) && specs.transmissions.length > 0 && (
               <Row label="Transmissions" value={specs.transmissions.join(' / ')} />
             )}
-            <Row label="Transmission" value={specs.transmission ?? specs.transmission_description} />
             <Row label="Transmission Type" value={specs.transmission_type} />
             <Row label="Transmission Info" value={specs.transmission_info} />
-            <Row label="Drivetrain" value={specs.drivetrain} />
             <Row label="Transfer Box" value={specs.transfer_box} />
             <Row label="4WD System" value={specs.awd_description} />
             <Row label="Final Drive" value={specs.final_drive} />
