@@ -845,7 +845,7 @@ export default function Page() {
                       {selectedTrim && <span>{selectedTrim}</span>}
                       {selectedChassis && <span>{selectedChassis}</span>}
                       {selectedEngineKey && (
-                        <span className="text-[#CC0000] font-medium">
+                        <span>
                           {formatEngineLabelInline(engineLabelFromKey(selectedEngineKey))}
                         </span>
                       )}
