@@ -2,6 +2,7 @@
 // Upsert vehicles from a CSV back into Supabase.
 // SAFE: blank cells are ignored — they will NOT overwrite existing Supabase data.
 // Only cells you have filled in will be written.
+// To intentionally clear a field, type NULL (uppercase) in the cell.
 // Rows with an `id` are updated; rows without an `id` are inserted as new.
 //
 // Usage:
@@ -48,7 +49,8 @@ const DECIMAL_COLS = ['engine_litres'];
 
 function coerceValue(col, raw) {
   const v = typeof raw === 'string' ? raw.trim() : raw;
-  if (v === '' || v === null || v === undefined) return undefined; // blank = skip
+  if (v === '' || v === null || v === undefined) return undefined; // blank = skip, no change
+  if (v.toUpperCase() === 'NULL') return null;                    // NULL = explicitly clear the field
   if (INTEGER_COLS.includes(col)) return Number(v);
   if (DECIMAL_COLS.includes(col)) return parseFloat(v);
   return v;
