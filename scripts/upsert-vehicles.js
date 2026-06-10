@@ -3,6 +3,7 @@
 // SAFE: blank cells are ignored — they will NOT overwrite existing Supabase data.
 // Only cells you have filled in will be written.
 // To intentionally clear a field, type NULL (uppercase) in the cell.
+// To delete a row, type yes in the `delete` column — the row will be removed from Supabase.
 // Rows with an `id` are updated; rows without an `id` are inserted as new.
 //
 // Usage:
@@ -86,6 +87,14 @@ async function insertRow(payload) {
   if (!res.ok) throw new Error(`INSERT failed: ${await res.text()}`);
 }
 
+async function deleteRow(id) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/vehicles?id=eq.${id}`, {
+    method: 'DELETE',
+    headers: { ...baseHeaders, Prefer: 'return=minimal' },
+  });
+  if (!res.ok) throw new Error(`DELETE ${id} failed: ${await res.text()}`);
+}
+
 // Run up to `limit` promises concurrently.
 async function pool(tasks, limit = 10) {
   const results = [];
@@ -108,11 +117,37 @@ async function pool(tasks, limit = 10) {
   console.log(`Loaded ${records.length} rows from ${csvArg}`);
   if (DRY_RUN) console.log('DRY RUN — no changes will be written\n');
 
-  const toUpdate = records.filter(r => r.id && r.id.trim());
+  const toDelete = records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() === 'yes');
+  const toUpdate = records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() !== 'yes');
   const toInsert = records.filter(r => !r.id || !r.id.trim());
+
+  if (toDelete.length) {
+    console.log(`\n⚠️  ${toDelete.length} row(s) marked for deletion:`);
+    for (const r of toDelete) {
+      console.log(`   ${r.id}  ${r.make} ${r.model} ${r.series ?? ''} ${r.year_from ?? ''}`);
+    }
+    if (!DRY_RUN) {
+      const readline = require('readline');
+      const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+      await new Promise(resolve => rl.question('\nType DELETE to confirm, or anything else to abort: ', ans => {
+        rl.close();
+        if (ans.trim() !== 'DELETE') {
+          console.log('Aborted — no rows deleted.');
+          process.exit(0);
+        }
+        resolve();
+      }));
+    }
+  }
 
   let done = 0;
   let skipped = 0;
+
+  const deleteTasks = toDelete.map(row => async () => {
+    if (!DRY_RUN) await deleteRow(row.id.trim());
+    done++;
+    process.stdout.write(`\r  ${done}/${records.length} processed...`);
+  });
 
   const updateTasks = toUpdate.map(row => async () => {
     const payload = buildPayload(row);
@@ -129,10 +164,12 @@ async function pool(tasks, limit = 10) {
     process.stdout.write(`\r  ${done}/${records.length} processed...`);
   });
 
+  await pool(deleteTasks, 10);
   await pool(updateTasks, 10);
   await pool(insertTasks, 10);
 
   console.log(`\nDone.`);
+  console.log(`  Deleted : ${toDelete.length} rows`);
   console.log(`  Updated : ${toUpdate.length - skipped} rows (${skipped} had no changes)`);
   console.log(`  Inserted: ${toInsert.length} rows`);
   if (DRY_RUN) console.log('  (dry run — nothing was written)');

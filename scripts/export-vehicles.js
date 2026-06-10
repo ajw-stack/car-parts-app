@@ -29,12 +29,16 @@ const headers = {
 };
 
 const COLUMNS = [
-  'id', 'make', 'model', 'series', 'manufacturer_code', 'trim_code', 'grade',
+  'id', 'delete',
+  'make', 'model', 'series', 'manufacturer_code', 'trim_code', 'grade',
   'month_from', 'year_from', 'month_to', 'year_to',
   'engine_code', 'engine_litres', 'engine_kw', 'engine_config',
   'engine_valves', 'camshaft_setup', 'fuel_type', 'fuel_delivery',
   'chassis', 'drive_train', 'transmission', 'country_of_manufacture', 'notes',
 ];
+
+// 'delete' is a spreadsheet-only column — not in the DB, so exclude from fetch
+const DB_COLUMNS = COLUMNS.filter(c => c !== 'delete');
 
 const outFile = process.argv[2] || `vehicles-export-${new Date().toISOString().slice(0,10)}.csv`;
 
@@ -44,7 +48,7 @@ async function fetchAll() {
   let from = 0;
 
   while (true) {
-    const url = `${SUPABASE_URL}/rest/v1/vehicles?select=${COLUMNS.join(',')}&order=make.asc,model.asc,year_from.asc&offset=${from}&limit=${PAGE}`;
+    const url = `${SUPABASE_URL}/rest/v1/vehicles?select=${DB_COLUMNS.join(',')}&order=make.asc,model.asc,year_from.asc&offset=${from}&limit=${PAGE}`;
     const res = await fetch(url, { headers });
     if (!res.ok) {
       console.error('Fetch failed:', await res.text());
@@ -64,7 +68,9 @@ async function fetchAll() {
   const rows = await fetchAll();
   console.log(`  ${rows.length} rows fetched`);
 
-  const csv = stringify(rows, { header: true, columns: COLUMNS });
+  // Add empty 'delete' column to each row for the spreadsheet
+  const rowsWithDelete = rows.map(r => ({ ...r, delete: '' }));
+  const csv = stringify(rowsWithDelete, { header: true, columns: COLUMNS });
   fs.writeFileSync(outFile, csv, 'utf8');
   console.log(`Exported to: ${outFile}`);
 })();
