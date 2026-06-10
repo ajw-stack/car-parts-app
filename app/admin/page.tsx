@@ -29,6 +29,7 @@ type VehicleRow = {
   chassis: string | null;
   trim_code: string | null;
   notes: string | null;
+  manufacturer_code: string | null;
   drive_train: string | null;
   transmission: string | null;
   country_of_manufacture: string | null;
@@ -476,6 +477,7 @@ export default function AdminPage() {
   const [vFuel, setVFuel] = useState("");
   const [vEngineConfig, setVEngineConfig] = useState("");
   const [vChassis, setVChassis] = useState<string[]>([]);
+  const [vManufacturerCode, setVManufacturerCode] = useState("");
   const [vDriveTrain, setVDriveTrain] = useState("");
   const [vTransmission, setVTransmission] = useState("");
   const [vCountry, setVCountry] = useState("");
@@ -857,6 +859,7 @@ engine_litres: vEngineLitres === "" ? null : Number(vEngineLitres),
 fuel_type: vFuel.trim(),
 engine_config: vEngineConfig || null,
   chassis: chassis.trim(),
+  manufacturer_code: vManufacturerCode.trim() || null,
   drive_train: vDriveTrain.trim() || null,
   transmission: vTransmission.trim() || null,
   country_of_manufacture: vCountry.trim() || null,
@@ -888,6 +891,7 @@ setVEngineCode("");
 setVEngineLitres("");
 setVFuel("");
 setVChassis([]);
+setVManufacturerCode("");
 setVDriveTrain("");
 setVTransmission("");
 setVCountry("");
@@ -1114,6 +1118,14 @@ return (
                   .sort()}
                 placeholder="Series (e.g. PX2)"
                 disabled={!vMake || !vModel}
+              />
+
+              <TypeaheadInput
+                value={vManufacturerCode}
+                onChange={setVManufacturerCode}
+                options={Array.from(new Set(vehicles.map((v) => (v.manufacturer_code ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Manufacturer Internal Code (e.g. ZZT231, AU5A)"
+                allowCreate
               />
 
               <TypeaheadInput

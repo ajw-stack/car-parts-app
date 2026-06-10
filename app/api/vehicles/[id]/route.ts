@@ -32,6 +32,7 @@ export async function PATCH(
 
   const allowed: Record<string, unknown> = {};
   if ("image_urls"             in body) allowed.image_urls             = body.image_urls             ?? null;
+  if ("manufacturer_code"      in body) allowed.manufacturer_code      = body.manufacturer_code      ?? null;
   if ("drive_train"            in body) allowed.drive_train            = body.drive_train            ?? null;
   if ("transmission"           in body) allowed.transmission           = body.transmission           ?? null;
   if ("country_of_manufacture" in body) allowed.country_of_manufacture = body.country_of_manufacture ?? null;

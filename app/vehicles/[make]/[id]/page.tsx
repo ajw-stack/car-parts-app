@@ -104,6 +104,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Make" value={v.make} />
             <Row label="Model" value={v.model} />
             <Row label="Series" value={v.series} />
+            <Row label="Manufacturer Code" value={v.manufacturer_code} />
             <Row label="Trim" value={v.trim_code ?? v.grade} />
             <TagRow label="Trims" tags={Array.isArray(specs.grades) ? specs.grades : []} />
             <Row label="Year From" value={v.year_from} />
