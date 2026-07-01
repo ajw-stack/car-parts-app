@@ -111,6 +111,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Year To" value={formatYearTo(v.year_to)} />
             <Row label="Notes" value={v.notes} />
             <Row label="Country of Manufacture" value={v.country_of_manufacture ?? specs.country_of_origin} />
+            <Row label="Seats" value={v.seats} />
             <Row label="VIN Sample" value={specs.vin_sample} />
             <Row label="Warranty" value={specs.warranty} />
             <Row label="Seats" value={specs.seats} />
