@@ -52,6 +52,7 @@ function coerceValue(col, raw) {
   const v = typeof raw === 'string' ? raw.trim() : raw;
   if (v === '' || v === null || v === undefined) return undefined; // blank = skip, no change
   if (v.toUpperCase() === 'NULL') return null;                    // NULL = explicitly clear the field
+  if (col === 'year_to' && v.toLowerCase() === 'current') return 0;
   if (INTEGER_COLS.includes(col)) return Number(v);
   if (DECIMAL_COLS.includes(col)) return parseFloat(v);
   return v;
