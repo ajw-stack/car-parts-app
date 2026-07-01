@@ -45,7 +45,7 @@ const baseHeaders = {
 };
 
 // ─── Type coercion ────────────────────────────────────────────────────────────
-const INTEGER_COLS = ['month_from', 'year_from', 'month_to', 'year_to', 'engine_kw', 'engine_valves', 'seats'];
+const INTEGER_COLS = ['month_from', 'year_from', 'month_to', 'year_to', 'engine_kw', 'engine_valves', 'seats', 'doors'];
 const DECIMAL_COLS = ['engine_litres'];
 
 function coerceValue(col, raw) {

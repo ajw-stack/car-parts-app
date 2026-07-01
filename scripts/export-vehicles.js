@@ -34,7 +34,7 @@ const COLUMNS = [
   'month_from', 'year_from', 'month_to', 'year_to',
   'engine_code', 'engine_litres', 'engine_kw', 'engine_config',
   'engine_valves', 'camshaft_setup', 'fuel_type', 'fuel_delivery',
-  'chassis', 'drive_train', 'transmission', 'country_of_manufacture', 'seats', 'notes',
+  'chassis', 'doors', 'seats', 'drive_train', 'transmission', 'country_of_manufacture', 'notes',
 ];
 
 // 'delete' is a spreadsheet-only column — not in the DB, so exclude from fetch

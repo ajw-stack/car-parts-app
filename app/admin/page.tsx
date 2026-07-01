@@ -31,6 +31,7 @@ type VehicleRow = {
   notes: string | null;
   manufacturer_code: string | null;
   seats: number | null;
+  doors: number | null;
   drive_train: string | null;
   transmission: string | null;
   country_of_manufacture: string | null;
@@ -480,6 +481,7 @@ export default function AdminPage() {
   const [vChassis, setVChassis] = useState<string[]>([]);
   const [vManufacturerCode, setVManufacturerCode] = useState("");
   const [vSeats, setVSeats] = useState("");
+  const [vDoors, setVDoors] = useState("");
   const [vDriveTrain, setVDriveTrain] = useState("");
   const [vTransmission, setVTransmission] = useState("");
   const [vCountry, setVCountry] = useState("");
@@ -863,6 +865,7 @@ engine_config: vEngineConfig || null,
   chassis: chassis.trim(),
   manufacturer_code: vManufacturerCode.trim() || null,
   seats: vSeats === "" ? null : Number(vSeats),
+  doors: vDoors === "" ? null : Number(vDoors),
   drive_train: vDriveTrain.trim() || null,
   transmission: vTransmission.trim() || null,
   country_of_manufacture: vCountry.trim() || null,
@@ -896,6 +899,7 @@ setVFuel("");
 setVChassis([]);
 setVManufacturerCode("");
 setVSeats("");
+setVDoors("");
 setVDriveTrain("");
 setVTransmission("");
 setVCountry("");
@@ -1122,6 +1126,14 @@ return (
                   .sort()}
                 placeholder="Series (e.g. PX2)"
                 disabled={!vMake || !vModel}
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vDoors}
+                onChange={(e) => setVDoors(e.target.value)}
+                placeholder="Doors (e.g. 2, 3, 4, 5)"
               />
 
               <input

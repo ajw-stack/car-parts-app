@@ -34,6 +34,7 @@ export async function PATCH(
   if ("image_urls"             in body) allowed.image_urls             = body.image_urls             ?? null;
   if ("manufacturer_code"      in body) allowed.manufacturer_code      = body.manufacturer_code      ?? null;
   if ("seats"                  in body) allowed.seats                  = body.seats                  ?? null;
+  if ("doors"                  in body) allowed.doors                  = body.doors                  ?? null;
   if ("drive_train"            in body) allowed.drive_train            = body.drive_train            ?? null;
   if ("transmission"           in body) allowed.transmission           = body.transmission           ?? null;
   if ("country_of_manufacture" in body) allowed.country_of_manufacture = body.country_of_manufacture ?? null;
