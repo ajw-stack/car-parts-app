@@ -36,6 +36,7 @@ export async function PATCH(
   if ("seats"                  in body) allowed.seats                  = body.seats                  ?? null;
   if ("doors"                  in body) allowed.doors                  = body.doors                  ?? null;
   if ("transmission_speed"    in body) allowed.transmission_speed    = body.transmission_speed    ?? null;
+  if ("differential"           in body) allowed.differential           = body.differential           ?? null;
   if ("drive_train"            in body) allowed.drive_train            = body.drive_train            ?? null;
   if ("transmission"           in body) allowed.transmission           = body.transmission           ?? null;
   if ("country_of_manufacture" in body) allowed.country_of_manufacture = body.country_of_manufacture ?? null;

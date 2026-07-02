@@ -33,6 +33,7 @@ type VehicleRow = {
   seats: number | null;
   doors: number | null;
   transmission_speed: number | null;
+  differential: string | null;
   drive_train: string | null;
   transmission: string | null;
   country_of_manufacture: string | null;
@@ -484,6 +485,7 @@ export default function AdminPage() {
   const [vSeats, setVSeats] = useState("");
   const [vDoors, setVDoors] = useState("");
   const [vTransmissionSpeeds, setVTransmissionSpeeds] = useState("");
+  const [vDifferential, setVDifferential] = useState("");
   const [vDriveTrain, setVDriveTrain] = useState("");
   const [vTransmission, setVTransmission] = useState("");
   const [vCountry, setVCountry] = useState("");
@@ -869,6 +871,7 @@ engine_config: vEngineConfig || null,
   seats: vSeats === "" ? null : Number(vSeats),
   doors: vDoors === "" ? null : Number(vDoors),
   transmission_speed: vTransmissionSpeeds === "" ? null : Number(vTransmissionSpeeds),
+  differential: vDifferential.trim() || null,
   drive_train: vDriveTrain.trim() || null,
   transmission: vTransmission.trim() || null,
   country_of_manufacture: vCountry.trim() || null,
@@ -904,6 +907,7 @@ setVManufacturerCode("");
 setVSeats("");
 setVDoors("");
 setVTransmissionSpeeds("");
+setVDifferential("");
 setVDriveTrain("");
 setVTransmission("");
 setVCountry("");
@@ -1273,6 +1277,14 @@ options={Array.from(
                 value={vTransmissionSpeeds}
                 onChange={(e) => setVTransmissionSpeeds(e.target.value)}
                 placeholder="Transmission Speeds (e.g. 6, 8)"
+              />
+
+              <TypeaheadInput
+                value={vDifferential}
+                onChange={setVDifferential}
+                options={Array.from(new Set(vehicles.map((v) => (v.differential ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Differential (e.g. LSD, Open, Torsen, Borg Warner)"
+                allowCreate
               />
 
               <TypeaheadInput
