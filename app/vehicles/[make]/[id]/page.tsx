@@ -143,6 +143,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
 
           <Section title="Engine">
             <Row label="Engine Code" value={v.engine_code} />
+            <Row label="Engine Name" value={v.engine_name} />
             <Row label="Configuration" value={v.engine_config} />
             <Row label="Cylinders" value={specs.cylinders} />
             <Row label="Displacement (cc)" value={specs.displacement_cc} />

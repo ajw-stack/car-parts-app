@@ -43,6 +43,7 @@ export async function PATCH(
   if ("engine_valves"          in body) allowed.engine_valves          = body.engine_valves          ?? null;
   if ("camshaft_setup"         in body) allowed.camshaft_setup         = body.camshaft_setup         ?? null;
   if ("fuel_delivery"          in body) allowed.fuel_delivery          = body.fuel_delivery          ?? null;
+  if ("engine_name"            in body) allowed.engine_name            = body.engine_name            ?? null;
   if ("specs"                  in body) allowed.specs                  = body.specs                  ?? null;
 
   if (Object.keys(allowed).length === 0) {

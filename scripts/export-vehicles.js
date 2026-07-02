@@ -32,7 +32,7 @@ const COLUMNS = [
   'id', 'delete',
   'make', 'model', 'series', 'manufacturer_code', 'trim_code', 'grade',
   'month_from', 'year_from', 'month_to', 'year_to',
-  'engine_code', 'engine_litres', 'engine_kw', 'engine_config',
+  'engine_code', 'engine_name', 'engine_litres', 'engine_kw', 'engine_config',
   'engine_valves', 'camshaft_setup', 'fuel_type', 'fuel_delivery',
   'chassis', 'doors', 'seats', 'drive_train', 'transmission', 'transmission_speed', 'differential', 'country_of_manufacture', 'notes',
 ];

@@ -40,6 +40,7 @@ type VehicleRow = {
   engine_valves: number | null;
   camshaft_setup: string | null;
   fuel_delivery: string | null;
+  engine_name: string | null;
 };
 
 type PartRow = {
@@ -492,6 +493,7 @@ export default function AdminPage() {
   const [vEngineValves, setVEngineValves] = useState("");
   const [vCamshaft, setVCamshaft] = useState("");
   const [vFuelDelivery, setVFuelDelivery] = useState("");
+  const [vEngineName, setVEngineName] = useState("");
 
   const makeRef = useRef<HTMLInputElement>(null);
 
@@ -878,6 +880,7 @@ engine_config: vEngineConfig || null,
   engine_valves: vEngineValves === "" ? null : Number(vEngineValves),
   camshaft_setup: vCamshaft.trim() || null,
   fuel_delivery: vFuelDelivery.trim() || null,
+  engine_name: vEngineName.trim() || null,
 }));
 
 console.log("vMonthFrom:", vMonthFrom, "vMonthTo:", vMonthTo);
@@ -914,6 +917,7 @@ setVCountry("");
 setVEngineValves("");
 setVCamshaft("");
 setVFuelDelivery("");
+setVEngineName("");
 
 // reload only vehicles so chassis suggestions update
 const { data: vehiclesData } = await supabase
@@ -1195,6 +1199,14 @@ return (
                 ).filter(Boolean).sort()}
                 placeholder="Engine Code (e.g. P5AT)"
                 disabled={false}
+              />
+
+              <TypeaheadInput
+                value={vEngineName}
+                onChange={setVEngineName}
+                options={Array.from(new Set(vehicles.map((v) => (v.engine_name ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Engine Name (e.g. Busso, Barra, Red Motor)"
+                allowCreate
               />
 
   <input

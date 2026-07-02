@@ -3,6 +3,7 @@
 // SAFE: blank cells are ignored — they will NOT overwrite existing Supabase data.
 // Only cells you have filled in will be written.
 // To intentionally clear a field, type NULL (uppercase) in the cell.
+// To mark a field as not applicable (e.g. engine_litres on a BEV), type N/A — stored as blank.
 // To delete a row, type yes in the `delete` column — the row will be removed from Supabase.
 // Rows with an `id` are updated; rows without an `id` are inserted as new.
 //
@@ -55,7 +56,7 @@ function coerceValue(col, raw) {
   const v = typeof raw === 'string' ? raw.trim() : raw;
   if (v === '' || v === null || v === undefined) return undefined; // blank = skip, no change
   if (v.toUpperCase() === 'NULL') return null;                    // NULL = explicitly clear the field
-  if (v.toUpperCase() === 'NA') return null;                      // NA = not applicable, store as blank
+  if (v.toUpperCase() === 'N/A') return null;                     // N/A = not applicable, store as blank
   if (col === 'year_to' && v.toLowerCase() === 'current') return 0;
   if (INTEGER_COLS.includes(col)) return Number(v);
   if (DECIMAL_COLS.includes(col)) return parseFloat(v);
