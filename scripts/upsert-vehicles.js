@@ -15,6 +15,9 @@ const { parse } = require('csv-parse/sync');
 
 const csvArg  = process.argv.find(a => a.endsWith('.csv'));
 const DRY_RUN = process.argv.includes('--dry-run');
+// --fresh: use after wiping the vehicles table — inserts ALL rows (even those with IDs)
+// and preserves the original UUID so specs can be restored by ID.
+const FRESH   = process.argv.includes('--fresh');
 
 if (!csvArg) {
   console.error('Usage: node scripts/upsert-vehicles.js <file.csv> [--dry-run]');
@@ -52,6 +55,7 @@ function coerceValue(col, raw) {
   const v = typeof raw === 'string' ? raw.trim() : raw;
   if (v === '' || v === null || v === undefined) return undefined; // blank = skip, no change
   if (v.toUpperCase() === 'NULL') return null;                    // NULL = explicitly clear the field
+  if (v.toUpperCase() === 'NA') return null;                      // NA = not applicable, store as blank
   if (col === 'year_to' && v.toLowerCase() === 'current') return 0;
   if (INTEGER_COLS.includes(col)) return Number(v);
   if (DECIMAL_COLS.includes(col)) return parseFloat(v);
@@ -59,10 +63,14 @@ function coerceValue(col, raw) {
 }
 
 // Build a payload containing only non-blank fields from a CSV row.
-function buildPayload(row) {
+// includeId: pass true when re-inserting after a wipe to preserve the original UUID.
+function buildPayload(row, includeId = false) {
   const payload = {};
   for (const [col, raw] of Object.entries(row)) {
-    if (col === 'id') continue;
+    if (col === 'id') {
+      if (includeId && raw && raw.trim()) payload.id = raw.trim();
+      continue;
+    }
     const val = coerceValue(col, raw);
     if (val !== undefined) payload[col] = val;
   }
@@ -117,10 +125,11 @@ async function pool(tasks, limit = 10) {
 
   console.log(`Loaded ${records.length} rows from ${csvArg}`);
   if (DRY_RUN) console.log('DRY RUN — no changes will be written\n');
+  if (FRESH)   console.log('FRESH MODE — all rows will be inserted (use after wiping the table)\n');
 
-  const toDelete = records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() === 'yes');
-  const toUpdate = records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() !== 'yes');
-  const toInsert = records.filter(r => !r.id || !r.id.trim());
+  const toDelete = FRESH ? [] : records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() === 'yes');
+  const toUpdate = FRESH ? [] : records.filter(r => r.id && r.id.trim() && (r.delete ?? '').trim().toLowerCase() !== 'yes');
+  const toInsert = FRESH ? records.filter(r => (r.delete ?? '').trim().toLowerCase() !== 'yes') : records.filter(r => !r.id || !r.id.trim());
 
   if (toDelete.length) {
     console.log(`\n⚠️  ${toDelete.length} row(s) marked for deletion:`);
@@ -159,7 +168,7 @@ async function pool(tasks, limit = 10) {
   });
 
   const insertTasks = toInsert.map(row => async () => {
-    const payload = buildPayload(row);
+    const payload = buildPayload(row, FRESH);
     if (!DRY_RUN) await insertRow(payload);
     done++;
     process.stdout.write(`\r  ${done}/${records.length} processed...`);

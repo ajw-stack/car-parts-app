@@ -111,10 +111,10 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Year To" value={formatYearTo(v.year_to)} />
             <Row label="Notes" value={v.notes} />
             <Row label="Country of Manufacture" value={v.country_of_manufacture ?? specs.country_of_origin} />
+            <Row label="Assembly Plant" value={specs.assembly_plant} />
             <Row label="Doors" value={v.doors} />
             <Row label="Seats" value={v.seats} />
             <Row label="VIN Sample" value={specs.vin_sample} />
-            <Row label="Warranty" value={specs.warranty} />
             <Row label="Seats" value={specs.seats} />
             <Row label="RON Rating" value={specs.ron_rating} />
           </Section>
@@ -184,6 +184,27 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Fuel Consumption (L/100km)" value={specs.consumption_l100km} />
             <Row label="CO₂ Emissions (g/km)" value={specs.co2_g_km} />
           </Section>
+
+          {(specs.battery_type || specs.battery_capacity_kwh || specs.driving_range_wltp_km) && (
+            <Section title="Electric">
+              <Row label="Battery Type" value={specs.battery_type} />
+              <Row label="Battery Capacity (kWh)" value={specs.battery_capacity_kwh} />
+              <Row label="WLTP Range (km)" value={specs.driving_range_wltp_km} />
+              <Row label="Consumption (Wh/km)" value={specs.consumption_wh_km} />
+              <Row label="AC Charging" value={specs.charging_ac} />
+              <Row label="DC Charging (Fast)" value={specs.charging_dc} />
+              <Row label="Battery Warranty" value={specs.battery_warranty} />
+            </Section>
+          )}
+
+          {(specs.suspension_front || specs.suspension_rear || specs.steering_type) && (
+            <Section title="Suspension & Steering">
+              <Row label="Front Suspension" value={specs.suspension_front} />
+              <Row label="Rear Suspension" value={specs.suspension_rear} />
+              <Row label="Steering Type" value={specs.steering_type} />
+              <Row label="Turning Circle (m)" value={specs.turning_circle_m} />
+            </Section>
+          )}
 
           <Section title="Brakes">
             <Row label="Front Brakes" value={specs.front_brake_desc} />
@@ -262,6 +283,8 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
           <Section title="Service">
             <Row label="Minor Service Interval (km)" value={specs.service_interval_km} />
             <Row label="Minor Service Interval (months)" value={specs.service_interval_months} />
+            <Row label="Vehicle Warranty" value={specs.warranty} />
+            <Row label="Battery Warranty" value={specs.battery_warranty} />
           </Section>
         </div>
       </main>
