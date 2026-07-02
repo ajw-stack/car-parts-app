@@ -32,7 +32,7 @@ type VehicleRow = {
   manufacturer_code: string | null;
   seats: number | null;
   doors: number | null;
-  transmission_speeds: number | null;
+  transmission_speed: number | null;
   drive_train: string | null;
   transmission: string | null;
   country_of_manufacture: string | null;
@@ -868,7 +868,7 @@ engine_config: vEngineConfig || null,
   manufacturer_code: vManufacturerCode.trim() || null,
   seats: vSeats === "" ? null : Number(vSeats),
   doors: vDoors === "" ? null : Number(vDoors),
-  transmission_speeds: vTransmissionSpeeds === "" ? null : Number(vTransmissionSpeeds),
+  transmission_speed: vTransmissionSpeeds === "" ? null : Number(vTransmissionSpeeds),
   drive_train: vDriveTrain.trim() || null,
   transmission: vTransmission.trim() || null,
   country_of_manufacture: vCountry.trim() || null,
