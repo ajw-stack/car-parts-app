@@ -32,6 +32,7 @@ type VehicleRow = {
   manufacturer_code: string | null;
   seats: number | null;
   doors: number | null;
+  transmission_speeds: number | null;
   drive_train: string | null;
   transmission: string | null;
   country_of_manufacture: string | null;
@@ -482,6 +483,7 @@ export default function AdminPage() {
   const [vManufacturerCode, setVManufacturerCode] = useState("");
   const [vSeats, setVSeats] = useState("");
   const [vDoors, setVDoors] = useState("");
+  const [vTransmissionSpeeds, setVTransmissionSpeeds] = useState("");
   const [vDriveTrain, setVDriveTrain] = useState("");
   const [vTransmission, setVTransmission] = useState("");
   const [vCountry, setVCountry] = useState("");
@@ -866,6 +868,7 @@ engine_config: vEngineConfig || null,
   manufacturer_code: vManufacturerCode.trim() || null,
   seats: vSeats === "" ? null : Number(vSeats),
   doors: vDoors === "" ? null : Number(vDoors),
+  transmission_speeds: vTransmissionSpeeds === "" ? null : Number(vTransmissionSpeeds),
   drive_train: vDriveTrain.trim() || null,
   transmission: vTransmission.trim() || null,
   country_of_manufacture: vCountry.trim() || null,
@@ -900,6 +903,7 @@ setVChassis([]);
 setVManufacturerCode("");
 setVSeats("");
 setVDoors("");
+setVTransmissionSpeeds("");
 setVDriveTrain("");
 setVTransmission("");
 setVCountry("");
@@ -1261,6 +1265,14 @@ options={Array.from(
                 options={Array.from(new Set(vehicles.map((v) => (v.transmission ?? "").trim()).filter(Boolean))).sort()}
                 placeholder="Transmission (e.g. Manual, Automatic, CVT)"
                 allowCreate
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vTransmissionSpeeds}
+                onChange={(e) => setVTransmissionSpeeds(e.target.value)}
+                placeholder="Transmission Speeds (e.g. 6, 8)"
               />
 
               <TypeaheadInput

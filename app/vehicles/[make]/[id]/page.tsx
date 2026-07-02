@@ -165,6 +165,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
 
           <Section title="Transmission & Drive">
             <Row label="Transmission" value={v.transmission ?? specs.transmission ?? specs.transmission_description} />
+            <Row label="Transmission Speeds" value={v.transmission_speeds} />
             <Row label="Drive Train" value={v.drive_train ?? specs.drivetrain} />
             {Array.isArray(specs.transmissions) && specs.transmissions.length > 0 && (
               <Row label="Transmissions" value={specs.transmissions.join(' / ')} />
