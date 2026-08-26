@@ -215,7 +215,7 @@ export default function CapturePage() {
   useEffect(() => {
     supabase.auth.getSession().then(async ({ data }) => {
       if (!data.session) {
-        router.replace("/login?next=/capture");
+        router.replace("/capture/login");
         return;
       }
       const { data: profile } = await supabase
