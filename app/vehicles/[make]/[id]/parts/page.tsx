@@ -16,7 +16,7 @@ export default async function VehiclePartsPage({
   const [{ data: vehicle }, { data: fitments }, { data: catMetaRows }] = await Promise.all([
     supabaseServer
       .from("vehicles")
-      .select("id, make, model, series, grade, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type")
+      .select("id, make, model, series, engine_badge, trim_code, year_from, year_to, engine_code, engine_litres, engine_config, fuel_type")
       .eq("id", id)
       .single(),
     supabaseServer

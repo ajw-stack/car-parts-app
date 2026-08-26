@@ -49,8 +49,8 @@ const baseHeaders = {
 };
 
 // ─── Type coercion ────────────────────────────────────────────────────────────
-const INTEGER_COLS = ['month_from', 'year_from', 'month_to', 'year_to', 'engine_kw', 'engine_valves', 'seats', 'doors', 'transmission_speed'];
-const DECIMAL_COLS = ['engine_litres'];
+const INTEGER_COLS = ['month_from', 'year_from', 'month_to', 'year_to', 'engine_kw', 'engine_valves', 'seats', 'doors', 'transmission_speed', 'carb_count', 'front_motor_kw', 'rear_motor_kw'];
+const DECIMAL_COLS = ['engine_litres', 'battery_kwh'];
 
 function coerceValue(col, raw) {
   const v = typeof raw === 'string' ? raw.trim() : raw;

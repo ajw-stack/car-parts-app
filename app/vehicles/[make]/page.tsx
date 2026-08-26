@@ -21,7 +21,7 @@ export default async function MakePage({ params }: { params: Promise<{ make: str
   const [{ data: vehicles }, { data: makeRow }] = await Promise.all([
     supabaseServer
       .from("vehicles")
-      .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, grade, trim_code, specs")
+      .select("id, model, year_from, year_to, series, engine_code, engine_litres, fuel_type, engine_config, notes, engine_badge, trim_code, specs")
       .eq("make", canonicalMake)
       .order("model")
       .order("year_from", { nullsFirst: false })

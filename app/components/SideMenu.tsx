@@ -1,7 +1,8 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
+import { supabase } from "../lib/supabaseClient";
 
 export default function SideMenu({
   open,
@@ -12,6 +13,21 @@ export default function SideMenu({
 }) {
   const startX = useRef<number | null>(null);
   const [vehiclesOpen, setVehiclesOpen] = useState(false);
+  const [showCapture, setShowCapture] = useState(false);
+
+  useEffect(() => {
+    supabase.auth.getSession().then(async ({ data }) => {
+      if (!data.session) return;
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("role")
+        .eq("id", data.session.user.id)
+        .single();
+      if (profile?.role === "capture" || profile?.role === "admin") {
+        setShowCapture(true);
+      }
+    });
+  }, []);
 
   return (
     <>
@@ -86,6 +102,14 @@ export default function SideMenu({
           </nav>
 
           <div className="mt-auto">
+            {showCapture && (
+              <a
+                href="/capture"
+                className="block p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"
+              >
+                Capture
+              </a>
+            )}
             <a
               href="/admin"
               className="block p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"

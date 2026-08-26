@@ -82,7 +82,7 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
               <h1 className="text-2xl font-bold text-[#111827]">
                 {v.make} {v.series} {v.model}
               </h1>
-              {(v.trim_code ?? v.grade) && <p className="mt-0.5 text-gray-500">{v.trim_code ?? v.grade}</p>}
+              {(v.trim_code ?? v.engine_badge) && <p className="mt-0.5 text-gray-500">{v.trim_code ?? v.engine_badge}</p>}
             </div>
             <a
               href={`/vehicles/${makeSlug}/${id}/parts`}
@@ -105,7 +105,8 @@ export default async function VehicleDetailPage({ params }: { params: Promise<{ 
             <Row label="Model" value={v.model} />
             <Row label="Series" value={v.series} />
             <Row label="Manufacturer Code" value={v.manufacturer_code} />
-            <Row label="Trim" value={v.trim_code ?? v.grade} />
+            <Row label="Trim" value={v.trim_code} />
+            <Row label="Engine Badge" value={v.engine_badge} />
             <TagRow label="Trims" tags={Array.isArray(specs.grades) ? specs.grades : []} />
             <Row label="Year From" value={v.year_from} />
             <Row label="Year To" value={formatYearTo(v.year_to)} />

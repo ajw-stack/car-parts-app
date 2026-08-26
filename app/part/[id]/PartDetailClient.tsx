@@ -167,8 +167,8 @@ export default function PartDetailClient({
                         <div className="font-medium text-[#111827]">
                           {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
                           {v.model}
-                          {(v.trim_code ?? v.grade) && (
-                            <span className="ml-2 text-gray-500">{v.trim_code ?? v.grade}</span>
+                          {(v.trim_code ?? v.engine_badge) && (
+                            <span className="ml-2 text-gray-500">{v.trim_code ?? v.engine_badge}</span>
                           )}
                         </div>
                         <div className="mt-0.5 text-sm text-gray-500">

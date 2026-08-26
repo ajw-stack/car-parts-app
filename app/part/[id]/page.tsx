@@ -78,7 +78,7 @@ export default async function PartPage({
       engine_restriction,
       notes,
       vehicles:vehicle_id (
-        id, make, model, series, grade, trim_code, year_from, year_to,
+        id, make, model, series, engine_badge, trim_code, year_from, year_to,
         month_from, month_to, engine_code, engine_litres, engine_config, fuel_type
       )
     `)

@@ -13,7 +13,7 @@ type Vehicle = {
   engine_litres: number | null;
   engine_config: string | null;
   fuel_type: string | null;
-  grade: string | null;
+  engine_badge: string | null;
   trim_code: string | null;
 };
 
@@ -93,7 +93,7 @@ export default function VehicleModelList({
                         <div>
                           <div className="font-medium text-[#111827]">
                             {v.series && <span className="mr-2 text-gray-500">{v.series}</span>}
-                            {v.trim_code ?? v.grade ?? model}
+                            {v.trim_code ?? v.engine_badge ?? model}
                           </div>
                           <div className="mt-0.5 text-sm text-gray-500">
                             {v.year_from}

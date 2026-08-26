@@ -41,6 +41,21 @@ type VehicleRow = {
   camshaft_setup: string | null;
   fuel_delivery: string | null;
   engine_name: string | null;
+  engine_badge: string | null;
+  cosmetic_pack: string | null;
+  awd_system: string | null;
+  induction: string | null;
+  fuel_system: string | null;
+  carb_count: number | null;
+  battery_kwh: number | null;
+  front_motor_kw: number | null;
+  rear_motor_kw: number | null;
+  transmission_badge: string | null;
+  transmission_brand: string | null;
+  vvt: string | null;
+  edition: string | null;
+  roof_type: string | null;
+  segment: string | null;
 };
 
 type PartRow = {
@@ -494,6 +509,21 @@ export default function AdminPage() {
   const [vCamshaft, setVCamshaft] = useState("");
   const [vFuelDelivery, setVFuelDelivery] = useState("");
   const [vEngineName, setVEngineName] = useState("");
+  const [vEngineBadge, setVEngineBadge] = useState("");
+  const [vCosmeticPack, setVCosmeticPack] = useState("");
+  const [vAwdSystem, setVAwdSystem] = useState("");
+  const [vInduction, setVInduction] = useState("");
+  const [vFuelSystem, setVFuelSystem] = useState("");
+  const [vCarbCount, setVCarbCount] = useState("");
+  const [vBatteryKwh, setVBatteryKwh] = useState("");
+  const [vFrontMotorKw, setVFrontMotorKw] = useState("");
+  const [vRearMotorKw, setVRearMotorKw] = useState("");
+  const [vTransmissionBadge, setVTransmissionBadge] = useState("");
+  const [vTransmissionBrand, setVTransmissionBrand] = useState("");
+  const [vVvt, setVVvt] = useState("");
+  const [vEdition, setVEdition] = useState("");
+  const [vRoofType, setVRoofType] = useState("");
+  const [vSegment, setVSegment] = useState("");
 
   const makeRef = useRef<HTMLInputElement>(null);
 
@@ -881,6 +911,21 @@ engine_config: vEngineConfig || null,
   camshaft_setup: vCamshaft.trim() || null,
   fuel_delivery: vFuelDelivery.trim() || null,
   engine_name: vEngineName.trim() || null,
+  engine_badge: vEngineBadge.trim() || null,
+  cosmetic_pack: vCosmeticPack.trim() || null,
+  awd_system: vAwdSystem.trim() || null,
+  induction: vInduction.trim() || null,
+  fuel_system: vFuelSystem.trim() || null,
+  carb_count: vCarbCount === "" ? null : Number(vCarbCount),
+  battery_kwh: vBatteryKwh === "" ? null : Number(vBatteryKwh),
+  front_motor_kw: vFrontMotorKw === "" ? null : Number(vFrontMotorKw),
+  rear_motor_kw: vRearMotorKw === "" ? null : Number(vRearMotorKw),
+  transmission_badge: vTransmissionBadge.trim() || null,
+  transmission_brand: vTransmissionBrand.trim() || null,
+  vvt: vVvt.trim() || null,
+  edition: vEdition.trim() || null,
+  roof_type: vRoofType.trim() || null,
+  segment: vSegment.trim() || null,
 }));
 
 console.log("vMonthFrom:", vMonthFrom, "vMonthTo:", vMonthTo);
@@ -918,6 +963,23 @@ setVEngineValves("");
 setVCamshaft("");
 setVFuelDelivery("");
 setVEngineName("");
+setVTrimCode("");
+setVNotes("");
+setVEngineBadge("");
+setVCosmeticPack("");
+setVAwdSystem("");
+setVInduction("");
+setVFuelSystem("");
+setVCarbCount("");
+setVBatteryKwh("");
+setVFrontMotorKw("");
+setVRearMotorKw("");
+setVTransmissionBadge("");
+setVTransmissionBrand("");
+setVVvt("");
+setVEdition("");
+setVRoofType("");
+setVSegment("");
 
 // reload only vehicles so chassis suggestions update
 const { data: vehiclesData } = await supabase
@@ -1175,7 +1237,7 @@ return (
                   )
                 )
                   .sort()}
-                placeholder="Trim/Sub-model (e.g. Berlina, SS, SV6)"
+                placeholder="Trim Code — official grade (e.g. Sport, GX, GXL, SSV, Veloce)"
                 disabled={!vMake || !vModel}
               />
 
@@ -1230,19 +1292,20 @@ return (
 >
                 <option value="">Fuel (select)</option>
                 <option value="Petrol">Petrol</option>
-                <option value="Supercharged V6">Petrol Supercharged V6</option>
                 <option value="Turbo Petrol">Turbo Petrol</option>
-                <option value="Turbo Diesel">Turbo Diesel</option>
-                <option value="Carbureted">Carbureted Petrol</option>
+                <option value="Turbo Petrol MHEV">Turbo Petrol MHEV</option>
                 <option value="Diesel">Diesel</option>
+                <option value="Turbo Diesel">Turbo Diesel</option>
+                <option value="Turbo Diesel MHEV">Turbo Diesel MHEV</option>
+                <option value="Carburetted">Carburetted</option>
                 <option value="LPG">LPG</option>
                 <option value="Petrol/LPG">Petrol/LPG</option>
-                <option value="Hybrid">Hybrid</option>
-                <option value="Electric">Electric</option>
+                <option value="HEV">HEV</option>
+                <option value="PHEV">PHEV</option>
+                <option value="BEV">BEV</option>
+                <option value="FCEV">FCEV</option>
                 <option value="CNG">CNG</option>
                 <option value="E85">E85</option>
-                <option value="Hydrogen">Hydrogen</option>
-                <option value="Other">Other</option>
               </select>
 
 <input
@@ -1326,8 +1389,128 @@ options={Array.from(
               <TypeaheadInput
                 value={vFuelDelivery}
                 onChange={setVFuelDelivery}
-                options={["Carburettor", "EFI", "MPFI", "SPFI", "GDI", "TDI", "CRDI", "TBI", "PFI"]}
-                placeholder="Fuel Delivery (e.g. Carburettor, EFI, MPFI)"
+                options={["Carburettor", "MPFI", "SPFI", "GDI", "Direct Injection", "TBI"]}
+                placeholder="Fuel Delivery (e.g. Carburettor, MPFI, GDI)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vEngineBadge}
+                onChange={setVEngineBadge}
+                options={Array.from(new Set(vehicles.map((v) => (v.engine_badge ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Engine Badge (e.g. TDI, TFSI, EcoBoost, VR6)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vInduction}
+                onChange={setVInduction}
+                options={["Naturally Aspirated", "Turbocharged", "Twin Turbo", "Biturbo", "Supercharged", "Twincharged"]}
+                placeholder="Induction (e.g. Twin Turbo, Supercharged)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vVvt}
+                onChange={setVVvt}
+                options={Array.from(new Set(vehicles.map((v) => (v.vvt ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="VVT System (e.g. VVT-i, VTEC, VANOS, MIVEC)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vFuelSystem}
+                onChange={setVFuelSystem}
+                options={Array.from(new Set(vehicles.map((v) => (v.fuel_system ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Fuel System (e.g. SU HD8, Weber 40 DCOE, KE-Jetronic)"
+                allowCreate
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vCarbCount}
+                onChange={(e) => setVCarbCount(e.target.value)}
+                placeholder="Carb Count (e.g. 2, 3)"
+              />
+
+              <TypeaheadInput
+                value={vCosmeticPack}
+                onChange={setVCosmeticPack}
+                options={Array.from(new Set(vehicles.map((v) => (v.cosmetic_pack ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Cosmetic Pack (e.g. S line, M Sport, AMG Line, TRD)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vEdition}
+                onChange={setVEdition}
+                options={Array.from(new Set(vehicles.map((v) => (v.edition ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Edition (e.g. Black Edition, HDT, Launch Edition)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vAwdSystem}
+                onChange={setVAwdSystem}
+                options={Array.from(new Set(vehicles.map((v) => (v.awd_system ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="AWD System (e.g. quattro, xDrive, 4MATIC, HTRAC)"
+                allowCreate
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vBatteryKwh}
+                onChange={(e) => setVBatteryKwh(e.target.value)}
+                placeholder="Battery kWh (e.g. 93, 105, 8.8)"
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vFrontMotorKw}
+                onChange={(e) => setVFrontMotorKw(e.target.value)}
+                placeholder="Front Motor kW"
+              />
+
+              <input
+                className="w-full rounded-xl border border-[#D1D5DB] bg-white text-[#111827] px-4 py-3 outline-none focus:border-[#9CA3AF]"
+                type="number"
+                value={vRearMotorKw}
+                onChange={(e) => setVRearMotorKw(e.target.value)}
+                placeholder="Rear Motor kW"
+              />
+
+              <TypeaheadInput
+                value={vTransmissionBadge}
+                onChange={setVTransmissionBadge}
+                options={Array.from(new Set(vehicles.map((v) => (v.transmission_badge ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Transmission Badge (e.g. DSG, S tronic, PDK, Powerglide)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vTransmissionBrand}
+                onChange={setVTransmissionBrand}
+                options={Array.from(new Set(vehicles.map((v) => (v.transmission_brand ?? "").trim()).filter(Boolean))).sort()}
+                placeholder="Transmission Brand (e.g. ZF, Borg-Warner, Aisin)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vRoofType}
+                onChange={setVRoofType}
+                options={["Hard Top", "Soft Top", "Carbon Fibre Hard Top", "Targa", "T-Top", "Panoramic", "Fixed"]}
+                placeholder="Roof Type (e.g. Soft Top, Carbon Fibre Hard Top)"
+                allowCreate
+              />
+
+              <TypeaheadInput
+                value={vSegment}
+                onChange={setVSegment}
+                options={["Light Car", "Small Car", "Medium Car", "Large Car", "Sports Car", "People Mover", "Compact SUV", "Medium SUV", "Large SUV", "Upper Large SUV", "Light Commercial", "Heavy Commercial"]}
+                placeholder="Segment (e.g. Compact SUV, Medium Car)"
                 allowCreate
               />
             </div>
