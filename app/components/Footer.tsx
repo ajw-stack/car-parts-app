@@ -82,22 +82,21 @@ export default function Footer() {
     <footer className="bg-[#1C1C1C] text-white border-t border-[#2A2A2A]">
 
       {/* Top — logo + columns */}
-      <div className="relative border-b border-[#2A2A2A] px-8 py-8">
+      <div className="relative border-b border-[#2A2A2A] px-6 py-8">
 
-          {/* Logo — same absolute position as header */}
-          <a
-            href="/"
-            style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
-            className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
-          >
-            ELRO<span className="text-[#CC0000]">CO</span>
-          </a>
+        {/* Logo — desktop only */}
+        <a
+          href="/"
+          style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
+          className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
+        >
+          ELRO<span className="text-[#CC0000]">CO</span>
+        </a>
 
-        <div className="flex gap-10 md:pl-[25%]">
-
-          {/* Link columns */}
+        {/* 2-col grid on mobile, 4-col row on desktop */}
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:flex md:gap-10 md:pl-[25%]">
           {COLUMNS.map((col) => (
-            <div key={col.heading} className="flex-1">
+            <div key={col.heading}>
               <p className="text-xs font-bold uppercase tracking-widest mb-3 text-white">
                 {col.heading}
               </p>
@@ -115,64 +114,58 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-
         </div>
       </div>
 
-      {/* Bottom bar */}
-      <div className="px-8 py-4 flex items-center gap-6">
+      {/* Bottom bar — stacked on mobile, single row on desktop */}
+      <div className="px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
 
-        {/* Admin key icon — far left */}
-        <a
-          href="/admin"
-          title="Admin"
-          className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-            <circle cx="7.5" cy="15.5" r="5.5" />
-            <path d="M21 2l-9.6 9.6" />
-            <path d="M15.5 7.5L17 6l2 2-1.5 1.5" />
-          </svg>
-        </a>
+        {/* Row 1 on mobile: admin + capture icons + copyright */}
+        <div className="flex items-center gap-3">
+          <a
+            href="/admin"
+            title="Admin"
+            className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+              <circle cx="7.5" cy="15.5" r="5.5" />
+              <path d="M21 2l-9.6 9.6" />
+              <path d="M15.5 7.5L17 6l2 2-1.5 1.5" />
+            </svg>
+          </a>
 
-        {/* Capture tool icon */}
-        <a
-          href="/capture"
-          title="Capture"
-          className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
-        >
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-            <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
-            <circle cx="12" cy="13" r="4" />
-          </svg>
-        </a>
+          <a
+            href="/capture"
+            title="Capture"
+            className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+              <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
+              <circle cx="12" cy="13" r="4" />
+            </svg>
+          </a>
 
-        {/* Copyright */}
-        <span className="text-xs text-white/40">
-          © {new Date().getFullYear()} Elroco. All rights reserved.
-        </span>
+          <span className="text-xs text-white/40">
+            © {new Date().getFullYear()} Elroco. All rights reserved.
+          </span>
+        </div>
 
-        {/* Social icons + store badges — pushed to the right */}
-        <div className="ml-auto flex items-center gap-16">
+        {/* Row 2 on mobile: social icons */}
+        <div className="flex items-center gap-2 md:ml-auto">
+          {SOCIALS.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              title={s.label}
+              className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+            >
+              {s.icon}
+            </a>
+          ))}
+        </div>
 
-          {/* Social icons */}
-          <div className="flex items-center gap-2">
-            {SOCIALS.map((s) => (
-              <a
-                key={s.label}
-                href={s.href}
-                title={s.label}
-                className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
-              >
-                {s.icon}
-              </a>
-            ))}
-          </div>
-
-          {/* Store badges — grouped tight */}
-          <div className="flex items-center gap-2">
-
-          {/* App Store badge */}
+        {/* Store badges — desktop only */}
+        <div className="hidden md:flex items-center gap-2">
           <a
             href="#"
             title="Download on the App Store"
@@ -187,7 +180,6 @@ export default function Footer() {
             </div>
           </a>
 
-          {/* Google Play badge */}
           <a
             href="#"
             title="Get it on Google Play"
@@ -204,9 +196,6 @@ export default function Footer() {
               <div className="text-xs font-semibold text-white">Google Play</div>
             </div>
           </a>
-
-          </div>{/* end store badges */}
-
         </div>
 
       </div>

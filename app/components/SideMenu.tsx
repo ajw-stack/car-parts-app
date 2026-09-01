@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
-import { supabase } from "../lib/supabaseClient";
 
 export default function SideMenu({
   open,
@@ -13,21 +12,6 @@ export default function SideMenu({
 }) {
   const startX = useRef<number | null>(null);
   const [vehiclesOpen, setVehiclesOpen] = useState(false);
-  const [showCapture, setShowCapture] = useState(false);
-
-  useEffect(() => {
-    supabase.auth.getSession().then(async ({ data }) => {
-      if (!data.session) return;
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("role")
-        .eq("id", data.session.user.id)
-        .single();
-      if (profile?.role === "capture" || profile?.role === "admin") {
-        setShowCapture(true);
-      }
-    });
-  }, []);
 
   return (
     <>
@@ -102,18 +86,25 @@ export default function SideMenu({
           </nav>
 
           <div className="mt-auto">
-            {showCapture && (
-              <a
-                href="/capture"
-                className="block p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"
-              >
-                Capture
-              </a>
-            )}
+            <a
+              href="/capture"
+              className="flex items-center gap-3 p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
+                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+              Capture
+            </a>
             <a
               href="/admin"
-              className="block p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"
+              className="flex items-center gap-3 p-4 border-t border-[#1A1A1A] text-white/85 hover:text-white hover:bg-[#1F1F1F]"
             >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
+                <circle cx="7.5" cy="15.5" r="5.5" />
+                <path d="M21 2l-9.6 9.6" />
+                <path d="M15.5 7.5L17 6l2 2-1.5 1.5" />
+              </svg>
               Admin
             </a>
           </div>
