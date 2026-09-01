@@ -46,6 +46,15 @@ export default function CaptureLoginPage() {
 
   return (
     <div className="min-h-screen bg-[#0F0F0F] flex flex-col items-center justify-center px-4">
+      <style>{`
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus {
+          -webkit-box-shadow: 0 0 0px 1000px #141414 inset;
+          -webkit-text-fill-color: #ffffff;
+          caret-color: #ffffff;
+        }
+      `}</style>
       <div className="w-full max-w-sm">
         <div className="mb-8 text-center">
           <img
