@@ -527,6 +527,68 @@ export default function AdminPage() {
 
   const makeRef = useRef<HTMLInputElement>(null);
 
+  // --- Capture users ---
+  type CaptureUser = { id: string; email: string; role: string };
+  const [captureUsers, setCaptureUsers] = useState<CaptureUser[]>([]);
+  const [captureUsersLoaded, setCaptureUsersLoaded] = useState(false);
+  const [newCaptureEmail, setNewCaptureEmail] = useState("");
+  const [newCapturePassword, setNewCapturePassword] = useState("");
+  const [captureMsg, setCaptureMsg] = useState("");
+  const [captureLoading, setCaptureLoading] = useState(false);
+
+  async function getAuthHeader() {
+    const { data } = await supabase.auth.getSession();
+    return { Authorization: `Bearer ${data.session?.access_token}` };
+  }
+
+  async function loadCaptureUsers() {
+    const headers = await getAuthHeader();
+    const res = await fetch("/api/capture-users", { headers });
+    const json = await res.json();
+    if (json.users) {
+      setCaptureUsers(json.users);
+      setCaptureUsersLoaded(true);
+    }
+  }
+
+  async function createCaptureUser(e: React.FormEvent) {
+    e.preventDefault();
+    setCaptureLoading(true);
+    setCaptureMsg("");
+    const headers = { ...(await getAuthHeader()), "Content-Type": "application/json" };
+    const res = await fetch("/api/capture-users", {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ email: newCaptureEmail, password: newCapturePassword }),
+    });
+    const json = await res.json();
+    if (json.error) {
+      setCaptureMsg(`Error: ${json.error}`);
+    } else {
+      setCaptureMsg(`Created: ${json.user.email}`);
+      setNewCaptureEmail("");
+      setNewCapturePassword("");
+      loadCaptureUsers();
+    }
+    setCaptureLoading(false);
+  }
+
+  async function deleteCaptureUser(id: string, email: string) {
+    if (!confirm(`Remove capture access for ${email}? This deletes their account.`)) return;
+    const headers = { ...(await getAuthHeader()), "Content-Type": "application/json" };
+    const res = await fetch("/api/capture-users", {
+      method: "DELETE",
+      headers,
+      body: JSON.stringify({ id }),
+    });
+    const json = await res.json();
+    if (json.ok) {
+      setCaptureUsers((prev) => prev.filter((u) => u.id !== id));
+    } else {
+      alert(json.error);
+    }
+  }
+
   // --- Part form ---
   const [pBrand, setPBrand] = useState("");
   const [pNumber, setPNumber] = useState("");
@@ -1116,6 +1178,79 @@ return (
             >
               Open Capture
             </a>
+          </section>
+
+          {/* Capture Users */}
+          <section className="md:col-span-2 rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
+            <div className="flex items-center justify-between gap-4 mb-4">
+              <div>
+                <h2 className="text-lg font-semibold text-white">Capture Users</h2>
+                <p className="mt-1 text-xs text-zinc-400">Create logins for field staff to access the Capture tool.</p>
+              </div>
+              {!captureUsersLoaded && (
+                <button
+                  onClick={loadCaptureUsers}
+                  className="shrink-0 rounded-xl border border-[#2A2A2A] px-4 py-2 text-sm text-zinc-400 hover:text-white hover:border-white/30 transition-colors"
+                >
+                  Load users
+                </button>
+              )}
+            </div>
+
+            {/* Create form */}
+            <form onSubmit={createCaptureUser} className="flex flex-col sm:flex-row gap-2 mb-4">
+              <input
+                type="email"
+                value={newCaptureEmail}
+                onChange={(e) => setNewCaptureEmail(e.target.value)}
+                placeholder="Email"
+                required
+                className="flex-1 rounded-xl border border-[#2A2A2A] bg-[#0F0F0F] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+              />
+              <input
+                type="password"
+                value={newCapturePassword}
+                onChange={(e) => setNewCapturePassword(e.target.value)}
+                placeholder="Password (min 6 chars)"
+                required
+                minLength={6}
+                className="flex-1 rounded-xl border border-[#2A2A2A] bg-[#0F0F0F] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+              />
+              <button
+                type="submit"
+                disabled={captureLoading}
+                className="shrink-0 rounded-xl bg-[#CC0000] px-4 py-2 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
+              >
+                {captureLoading ? "Creating…" : "Create"}
+              </button>
+            </form>
+
+            {captureMsg && (
+              <p className={`text-sm mb-3 ${captureMsg.startsWith("Error") ? "text-red-400" : "text-green-400"}`}>
+                {captureMsg}
+              </p>
+            )}
+
+            {/* User list */}
+            {captureUsersLoaded && (
+              captureUsers.length === 0 ? (
+                <p className="text-sm text-zinc-500">No capture users yet.</p>
+              ) : (
+                <ul className="divide-y divide-[#1A1A1A]">
+                  {captureUsers.map((u) => (
+                    <li key={u.id} className="flex items-center justify-between py-2.5 gap-4">
+                      <span className="text-sm text-white/80 truncate">{u.email}</span>
+                      <button
+                        onClick={() => deleteCaptureUser(u.id, u.email)}
+                        className="shrink-0 text-xs text-red-500 hover:text-red-400 transition-colors"
+                      >
+                        Remove
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )
+            )}
           </section>
 
           {/* Add Vehicle */}
