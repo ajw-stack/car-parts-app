@@ -50,9 +50,9 @@ export default function CaptureLoginPage() {
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
         input:-webkit-autofill:focus {
-          -webkit-box-shadow: 0 0 0px 1000px #141414 inset;
-          -webkit-text-fill-color: #ffffff;
-          caret-color: #ffffff;
+          -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+          -webkit-text-fill-color: #111111;
+          caret-color: #111111;
         }
       `}</style>
       <div className="w-full max-w-sm">
@@ -74,7 +74,7 @@ export default function CaptureLoginPage() {
             placeholder="Email"
             required
             autoComplete="email"
-            className="w-full rounded-2xl border border-[#2A2A2A] bg-[#141414] px-4 py-4 text-base text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+            className="w-full rounded-2xl border border-[#D1D5DB] bg-white px-4 py-4 text-base text-[#111111] placeholder:text-zinc-400 focus:border-[#CC0000] focus:outline-none"
           />
           <input
             type="password"
@@ -83,7 +83,7 @@ export default function CaptureLoginPage() {
             placeholder="Password"
             required
             autoComplete="current-password"
-            className="w-full rounded-2xl border border-[#2A2A2A] bg-[#141414] px-4 py-4 text-base text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+            className="w-full rounded-2xl border border-[#D1D5DB] bg-white px-4 py-4 text-base text-[#111111] placeholder:text-zinc-400 focus:border-[#CC0000] focus:outline-none"
           />
 
           {error && (
