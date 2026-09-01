@@ -508,6 +508,47 @@ export default function CapturePage() {
 
             {detailOpen && (
               <div className="px-4 py-4 space-y-3 bg-[#0F0F0F] border-t border-[#2A2A2A]">
+
+                {/* Extra photos */}
+                <div>
+                  <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-2">
+                    Extra photos
+                  </div>
+                  {extraThumbs.length > 0 && (
+                    <div className="grid grid-cols-3 gap-2 mb-2">
+                      {extraThumbs.map((t, i) => (
+                        <div key={i} className="relative aspect-square rounded-xl overflow-hidden border border-[#2A2A2A]">
+                          <img src={t} alt={`Extra ${i + 1}`} className="w-full h-full object-cover" />
+                          <button
+                            type="button"
+                            onClick={() => removeExtra(i)}
+                            className="absolute top-1 right-1 w-6 h-6 rounded-full bg-black/70 text-white text-xs flex items-center justify-center font-bold"
+                          >
+                            x
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  <input
+                    ref={extraInputRef}
+                    type="file"
+                    accept="image/*"
+                    className="sr-only"
+                    onChange={(e) => {
+                      if (e.target.files?.length) handleExtraPhotos(e.target.files);
+                      e.target.value = "";
+                    }}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => extraInputRef.current?.click()}
+                    className="w-full py-3 rounded-xl border border-dashed border-[#2A2A2A] text-sm text-zinc-400 active:bg-[#1A1A1A] transition-colors"
+                  >
+                    + Add photo
+                  </button>
+                </div>
+
                 <Field label="Rego plate">
                   <input
                     value={regoPlate}
@@ -639,46 +680,6 @@ export default function CapturePage() {
                     className={inputCls}
                   />
                 </Field>
-
-                {/* Extra photos */}
-                <div>
-                  <div className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-2">
-                    Extra photos
-                  </div>
-                  {extraThumbs.length > 0 && (
-                    <div className="grid grid-cols-3 gap-2 mb-2">
-                      {extraThumbs.map((t, i) => (
-                        <div key={i} className="relative aspect-square rounded-xl overflow-hidden border border-[#2A2A2A]">
-                          <img src={t} alt={`Extra ${i + 1}`} className="w-full h-full object-cover" />
-                          <button
-                            type="button"
-                            onClick={() => removeExtra(i)}
-                            className="absolute top-1 right-1 w-6 h-6 rounded-full bg-black/70 text-white text-xs flex items-center justify-center font-bold"
-                          >
-                            x
-                          </button>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  <input
-                    ref={extraInputRef}
-                    type="file"
-                    accept="image/*"
-                    className="sr-only"
-                    onChange={(e) => {
-                      if (e.target.files?.length) handleExtraPhotos(e.target.files);
-                      e.target.value = "";
-                    }}
-                  />
-                  <button
-                    type="button"
-                    onClick={() => extraInputRef.current?.click()}
-                    className="w-full py-3 rounded-xl border border-dashed border-[#2A2A2A] text-sm text-zinc-400 active:bg-[#1A1A1A] transition-colors"
-                  >
-                    + Add photo
-                  </button>
-                </div>
 
                 <Field label="Notes">
                   <textarea
