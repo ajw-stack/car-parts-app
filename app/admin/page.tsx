@@ -1101,6 +1101,23 @@ return (
 )}
 
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+
+          {/* Capture Tool quick-access */}
+          <section className="md:col-span-2 rounded-2xl border border-[#CC0000]/40 bg-[#141414] p-5 flex items-center justify-between gap-4">
+            <div>
+              <h2 className="text-lg font-semibold text-white">Capture Tool</h2>
+              <p className="mt-1 text-xs text-zinc-400">
+                Add new vehicle listings with photos and specs. Opens in the same session — no separate login needed.
+              </p>
+            </div>
+            <a
+              href="/capture"
+              className="shrink-0 rounded-xl bg-[#CC0000] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#aa0000] transition-colors"
+            >
+              Open Capture
+            </a>
+          </section>
+
           {/* Add Vehicle */}
         <section className="rounded-2xl border border-[#0C0C0C] bg-[#141414] p-5">
            <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>

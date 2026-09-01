@@ -135,6 +135,18 @@ export default function Footer() {
           </svg>
         </a>
 
+        {/* Capture tool icon */}
+        <a
+          href="/capture"
+          title="Capture"
+          className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+            <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
+        </a>
+
         {/* Copyright */}
         <span className="text-xs text-white/40">
           © {new Date().getFullYear()} Elroco. All rights reserved.
