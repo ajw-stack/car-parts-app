@@ -35,7 +35,7 @@ function LoginForm() {
   return (
     <form onSubmit={handleLogin} className="space-y-4">
       <div>
-        <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+        <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
           Email
         </label>
         <input
@@ -45,12 +45,13 @@ function LoginForm() {
           autoComplete="email"
           required
           placeholder="you@example.com"
-          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+          className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-black placeholder:text-gray-400 focus:border-[#CC0000] focus:outline-none"
+          style={{ color: '#000000', backgroundColor: '#ffffff' }}
         />
       </div>
 
       <div>
-        <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+        <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
           Password
         </label>
         <input
@@ -60,7 +61,8 @@ function LoginForm() {
           autoComplete="current-password"
           required
           placeholder="••••••••"
-          className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+          className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-black placeholder:text-gray-400 focus:border-[#CC0000] focus:outline-none"
+          style={{ color: '#000000', backgroundColor: '#ffffff' }}
         />
       </div>
 
@@ -73,14 +75,14 @@ function LoginForm() {
       <button
         type="submit"
         disabled={loading || !email || !password}
-        className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
+        className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-black hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
       >
         {loading ? "Signing in…" : "Sign In"}
       </button>
 
-      <p className="text-center text-sm text-zinc-500">
+      <p className="text-center text-sm text-gray-600">
         Don&apos;t have an account?{" "}
-        <a href="/signup" className="text-white hover:text-[#CC0000] transition-colors">
+        <a href="/signup" className="text-black hover:text-[#CC0000] transition-colors font-medium">
           Create one
         </a>
       </p>
@@ -90,15 +92,15 @@ function LoginForm() {
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#141414]">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-16">
         <div className="w-full max-w-sm">
 
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold text-white">Sign in</h1>
-            <p className="mt-2 text-sm text-zinc-400">
+            <h1 className="text-2xl font-bold text-black">Sign in</h1>
+            <p className="mt-2 text-sm text-gray-600">
               Access your garage and saved vehicles.
             </p>
           </div>
