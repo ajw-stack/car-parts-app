@@ -9,7 +9,7 @@ const VIN_RE = /^[A-HJ-NPR-Z0-9]{17}$/;
 
 export interface VinValidation {
   ok: boolean;
-  reason?: "length" | "invalid_chars";
+  reason?: "chassis_number" | "invalid_chars";
   warning?: string;
 }
 
@@ -19,7 +19,7 @@ export function normaliseVin(input: string): string {
 
 export function validateVin(raw: string): VinValidation {
   const vin = normaliseVin(raw);
-  if (vin.length !== 17) return { ok: false, reason: "length" };
+  if (vin.length !== 17) return { ok: false, reason: "chassis_number" };
   if (!VIN_RE.test(vin))  return { ok: false, reason: "invalid_chars" };
 
   let sum = 0;

@@ -7,12 +7,15 @@ const WMI_MAP: Record<string, string> = {
   ADD: "Hyundai South Africa", AFA: "Ford South Africa", AHT: "Toyota South Africa",
   // Japan
   JA3: "Mitsubishi", JA4: "Mitsubishi", JA: "Isuzu", JD: "Daihatsu",
-  JF: "Subaru", JH: "Honda", JK: "Kawasaki", JL5: "Mitsubishi Fuso",
-  JMB: "Mitsubishi Motors", JMY: "Mitsubishi Motors", JMZ: "Mazda",
-  JN: "Nissan", JS: "Suzuki", JT: "Toyota", JY: "Yamaha",
+  JF: "Subaru", JH: "Honda", JHM: "Honda car", JK: "Kawasaki", JL5: "Mitsubishi Fuso",
+  JMB: "Mitsubishi Motors", JM0: "Mazda (Oceania export)", JMY: "Mitsubishi Motors", JMZ: "Mazda",
+  JN: "Nissan", JN1: "Nissan / Infiniti", JS: "Suzuki",
+  JT: "Toyota", JTD: "Toyota car", JTE: "Toyota MPV/SUV", JTM: "Toyota SUV", JY: "Yamaha",
   // Korea
-  KL: "Daewoo / GM Korea", KM: "Hyundai", KMY: "Daelim", KM1: "Hyosung",
-  KN: "Kia", KNM: "Renault Samsung", KPA: "SsangYong", KPT: "SsangYong",
+  KL: "Daewoo / GM Korea", KM: "Hyundai", KMF: "Hyundai van", KMH: "Hyundai car",
+  KMY: "Daelim", KM1: "Hyosung",
+  KN: "Kia", KNA: "Kia car", KNC: "Kia truck/commercial", KNM: "Renault Samsung",
+  KPA: "SsangYong", KPT: "SsangYong/KGM SUV/MPV (export)",
   // China
   LAN: "Changzhou Yamasaki", LBB: "Keeway / Generic", LBE: "Beijing Hyundai",
   LBM: "Zongshen Piaggio", LBP: "Chongqing Jianshe Yamaha", LB2: "Geely",
@@ -21,11 +24,12 @@ const WMI_MAP: Record<string, string> = {
   LHB: "Beijing Automotive", LJC: "JAC", LJ1: "JAC", LKL: "Suzhou King Long",
   LSG: "Shanghai General Motors", LSJ: "MG Motor / SAIC", LSV: "Shanghai Volkswagen",
   LSY: "Brilliance Zhonghua", LTV: "Toyota Tianjin", LUC: "Guangqi Honda",
-  LVV: "Chery", LVZ: "Dongfeng Sokon", LZY: "Yutong", LZZ: "Howo",
+  LVV: "Chery", LVZ: "Dongfeng Sokon", LYV: "Volvo (Chengdu/Taizhou)",
+  LZY: "Yutong", LZZ: "Howo",
   // India
   MAB: "Mahindra & Mahindra", MAC: "Mahindra & Mahindra", MAJ: "Ford India",
   MAK: "Honda India", MAL: "Hyundai India", MAT: "Tata Motors",
-  MA1: "Mahindra & Mahindra", MA3: "Suzuki India (Maruti)", MA6: "GM India",
+  MA1: "Mahindra & Mahindra", MA3: "Maruti Suzuki India", MA6: "GM India",
   MA7: "Mitsubishi India", MBH: "Suzuki India (Maruti)", MBJ: "Toyota India",
   MBR: "Mercedes-Benz India", MB1: "Ashok Leyland", MCA: "Fiat India",
   MC2: "Volvo Eicher", MDH: "Nissan India", MD2: "Bajaj Auto",
@@ -33,9 +37,9 @@ const WMI_MAP: Record<string, string> = {
   // Indonesia / Thailand
   MHF: "Toyota Indonesia", MHR: "Honda Indonesia", MLC: "Suzuki Thailand",
   MLH: "Honda Thailand", MMB: "Mitsubishi Thailand", MMC: "Mitsubishi Thailand",
-  MMT: "Mitsubishi Thailand", MM8: "Mazda Thailand", MNB: "Ford Thailand",
-  MNT: "Nissan Thailand", MPA: "Isuzu Thailand", MRH: "Honda Thailand",
-  MR0: "Toyota Thailand",
+  MMT: "Mitsubishi Thailand", MM0: "Mazda Thailand", MM8: "Mazda Thailand",
+  MNA: "Ford Thailand (Aus/NZ)", MNB: "Ford Thailand", MNT: "Nissan Thailand",
+  MPA: "Isuzu Thailand", MRH: "Honda Thailand", MR0: "Toyota Thailand",
   // Turkey
   NLA: "Honda Turkey", NLE: "Mercedes-Benz Türk", NLH: "Hyundai Assan",
   NM0: "Ford Turkey", NM4: "Tofaş", NMT: "Toyota Turkey",
@@ -78,6 +82,7 @@ const WMI_MAP: Record<string, string> = {
   WBA: "BMW", WBS: "BMW M",
   WDA: "Daimler", WDB: "Mercedes-Benz", WDC: "DaimlerChrysler",
   WDD: "Mercedes-Benz", WDF: "Mercedes-Benz Commercial",
+  W1N: "Mercedes-Benz SUV",
   WEB: "Evobus (Mercedes-Bus)", WF0: "Ford Germany",
   WJM: "Iveco Magirus", WMA: "MAN Germany",
   WME: "smart", WMW: "MINI", WMX: "Mercedes-AMG",
@@ -85,7 +90,7 @@ const WMI_MAP: Record<string, string> = {
   W0L: "Opel", WUA: "quattro GmbH",
   WVG: "Volkswagen MPV / SUV", WVW: "Volkswagen",
   WV1: "Volkswagen Commercial", WV2: "Volkswagen Bus / Van",
-  WV3: "Volkswagen Trucks",
+  WV3: "Volkswagen Trucks", WV4: "Volkswagen Commercial (2nd gen Amarok)",
   // Russia
   XTA: "Lada / AvtoVAZ", XTT: "UAZ / Sollers",
   XUF: "GM Russia", XUU: "AvtoTor", XW8: "Volkswagen Russia",
@@ -122,7 +127,7 @@ const WMI_MAP: Record<string, string> = {
   "5T": "Toyota USA (Trucks)", "5YJ": "Tesla",
   // Canada
   "2A4": "Chrysler Canada", "2B3": "Dodge Canada",
-  "2C3": "Chrysler Canada", "2CN": "CAMI",
+  "2C3": "Chrysler Group", "2CN": "CAMI",
   "2FA": "Ford Canada", "2FB": "Ford Canada",
   "2FM": "Ford Canada", "2FT": "Ford Canada",
   "2G1": "Chevrolet Canada", "2G2": "Pontiac Canada",
@@ -137,9 +142,9 @@ const WMI_MAP: Record<string, string> = {
   // Australia
   "6AB": "MAN Australia", "6F4": "Nissan Australia",
   "6F5": "Kenworth Australia", "6FP": "Ford Australia",
-  "6G1": "Holden (post 2002)", "6G2": "Pontiac Australia",
-  "6H8": "Holden (pre 2002)", "6MM": "Mitsubishi Australia",
-  "6T1": "Toyota Australia", "6U9": "Private Import (Australia)",
+  "6G1": "General Motors Holden (post-Nov 2002)", "6G2": "Pontiac Australia",
+  "6H8": "General Motors Holden (pre-Nov 2002)", "6MM": "Mitsubishi Australia",
+  "6T1": "Toyota Australia", "6U9": "Privately imported car in Australia",
   // South America
   "8AF": "Ford Argentina", "8AG": "Chevrolet Argentina",
   "8AJ": "Toyota Argentina", "8AW": "Volkswagen Argentina",
@@ -151,29 +156,6 @@ const WMI_MAP: Record<string, string> = {
   "9BW": "Volkswagen Brazil",
 };
 
-// Country of origin from VIN first character
-const COUNTRY_MAP: Record<string, string> = {
-  A: "South Africa", B: "Angola / Kenya / Tanzania",
-  C: "Benin / Madagascar", D: "Egypt / Morocco",
-  E: "Ethiopia / Mozambique", F: "Ghana / Nigeria",
-  G: "Ivory Coast / Senegal", H: "Kenya / Nigeria",
-  J: "Japan", K: "South Korea",
-  L: "China", M: "India / Indonesia / Thailand",
-  N: "Turkey / South East Asia", P: "Philippines / Malaysia",
-  R: "Taiwan", S: "United Kingdom / Poland",
-  T: "Czech Republic / Hungary / Switzerland",
-  U: "Romania / Slovakia / Uzbekistan",
-  V: "France / Spain / Belgium / Netherlands / Austria",
-  W: "Germany", X: "Russia",
-  Y: "Sweden / Finland / Norway / Belgium",
-  Z: "Italy",
-  "1": "United States", "2": "Canada", "3": "Mexico",
-  "4": "United States", "5": "United States",
-  "6": "Australia / New Zealand", "7": "Australia / New Zealand",
-  "8": "Argentina / Chile",
-  "9": "Brazil / Colombia",
-};
-
 /** Look up a manufacturer by WMI (3-char or 2-char prefix). */
 export function lookupWMI(vin: string): string | null {
   if (!vin || vin.length < 3) return null;
@@ -182,7 +164,59 @@ export function lookupWMI(vin: string): string | null {
   return WMI_MAP[w3] ?? WMI_MAP[w2] ?? null;
 }
 
-/** Return country of manufacture from first VIN character. */
+/**
+ * Return the country of manufacture derived from the VIN prefix.
+ * Uses ordered 2-char / 3-char rules per ISO 3779; more specific prefixes
+ * (NZ vs AU within the 6/7 block) take priority over broader single-char rules.
+ */
+export function getCountryOfManufacture(vin: string): string {
+  const v = vin.toUpperCase();
+  const c1 = v[0];
+  const c2 = v[1];
+  const c1c2 = v.slice(0, 2);
+  const c1c3 = v.slice(0, 3);
+  if (c1 === "J") return "Japan";
+  if (c1 === "K") return "South Korea";
+  if (c1c2 === "6Y" || c1c2 === "61") return "New Zealand";
+  if (c1 === "6") return "Australia";
+  if (c1 === "7" && c2 >= "A" && c2 <= "E") return "New Zealand";
+  if (c1 === "7" && ((c2 >= "F" && c2 <= "Z") || c2 === "0")) return "United States";
+  if (c1 === "1" || c1 === "4" || c1 === "5") return "United States";
+  if (c1 === "2") return "Canada";
+  if (c1 === "3") return "Mexico";
+  if (c1 === "W") return "Germany";
+  if (c1 === "S" && c2 >= "A" && c2 <= "M") return "United Kingdom";
+  if (c1 === "S" && c2 >= "U" && c2 <= "Z") return "Poland";
+  if (c1 === "V" && c2 >= "F" && c2 <= "R") return "France";
+  if (c1 === "V" && c2 >= "S" && c2 <= "W") return "Spain";
+  if (c1 === "V" && c2 >= "A" && c2 <= "E") return "Austria";
+  if (c1 === "L") return "China";
+  if (c1 === "M" && c2 >= "A" && c2 <= "E") return "India";
+  if (c1 === "M" && c2 >= "F" && c2 <= "K") return "Indonesia";
+  if (c1 === "M" && c2 >= "L" && c2 <= "R") return "Thailand";
+  if (c1 === "Y" && c2 >= "S" && c2 <= "W") return "Sweden";
+  if (c1 === "Y" && c2 >= "A" && c2 <= "E") return "Belgium";
+  if (c1 === "T" && c2 >= "J" && c2 <= "P") return "Czech Republic";
+  if (c1 === "U" && ["5", "6", "7"].includes(c2)) return "Slovakia";
+  if (c1 === "A" && c2 >= "A" && c2 <= "H") return "South Africa";
+  if (c1 === "P" && c2 >= "L" && c2 <= "R") return "Malaysia";
+  if (c1 === "N" && c2 >= "L" && c2 <= "R") return "Turkey";
+  if (c1 === "X" && c2 >= "L" && c2 <= "R") return "Netherlands";
+  if (c1c3 === "9FB") return "Colombia";
+  if (c1 === "8" && c2 >= "A" && c2 <= "E") return "Argentina";
+  if (c1 === "9") return "Brazil";
+  if (c1 === "Z") return "Italy";
+  return "";
+}
+
+/** Return the serial number portion of a VIN (characters 12–17, positions 11–16). */
+export function getSerialNumber(vin: string): string {
+  if (vin.length !== 17) return "";
+  return vin.slice(11, 17);
+}
+
+/** Return country of manufacture from VIN prefix (null if unrecognised). */
 export function vinCountry(vin: string): string | null {
-  return COUNTRY_MAP[vin[0]?.toUpperCase()] ?? null;
+  const c = getCountryOfManufacture(vin);
+  return c || null;
 }

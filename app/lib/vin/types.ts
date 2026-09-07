@@ -14,6 +14,8 @@ export interface DecodedVehicle {
   driveType: string | null;
   manufacturer: string | null;
   plantCountry: string | null;
+  countryOfManufacture: string | null;
+  serialNumber: string | null;
   source: DataSource;
   confidence: "high" | "partial" | "low";
   rawErrors: string | null;
