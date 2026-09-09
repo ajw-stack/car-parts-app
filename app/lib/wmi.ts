@@ -240,6 +240,26 @@ export function getModelSeries(vin: string): string {
   return "";
 }
 
+// 6G1 Cruze (char4=P): char5 trim/luxury tier.
+// D = base; E = above-base (five different badges share this code — no single name returned).
+const CRUZE_TRIM_LEVEL_6G1: Record<string, string> = {
+  D: "Equipe / CD (base)",
+  E: "Above base (CDX / SRi / SRi-V / Z-Series / SRi Z-Series)",
+};
+
+/**
+ * Decode the trim/luxury tier from character 5 of the VIN.
+ * Only applies to 6G1 Cruze VINs (WMI=6G1, char4=P).
+ * Returns an empty string for any other vehicle or unconfirmed char5.
+ */
+export function getCruzeTrimLevel(vin: string): string {
+  const wmi = vin.slice(0, 3).toUpperCase();
+  const char4 = vin[3]?.toUpperCase();
+  const char5 = vin[4]?.toUpperCase();
+  if (wmi !== "6G1" || char4 !== "P" || !char5) return "";
+  return CRUZE_TRIM_LEVEL_6G1[char5] ?? "";
+}
+
 /** Return country of manufacture from VIN prefix (null if unrecognised). */
 export function vinCountry(vin: string): string | null {
   const c = getCountryOfManufacture(vin);
