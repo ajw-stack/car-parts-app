@@ -76,7 +76,7 @@ export default function Header() {
 
               {vehiclesOpen && (
                 <div
-                  className="absolute left-0 top-full mt-0 bg-[#0e1530] border border-[#101628] shadow-2xl z-[9999] w-72"
+                  className="absolute left-0 top-full mt-0 bg-[#02070d] border border-[#1c2750] shadow-2xl z-[9999] w-72"
                   onMouseEnter={openVehicles}
                   onMouseLeave={closeVehicles}
                 >
@@ -88,14 +88,14 @@ export default function Header() {
                     <a
                       key={make}
                       href={`/vehicles/${makeSlug(make)}`}
-                      className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-[#101628] transition-colors"
+                      className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-[#1c2750] transition-colors"
                     >
                       {make}
                     </a>
                   ))}
 
                   {/* All makes */}
-                  <div className="border-t border-[#101628] mt-1 px-4 pt-3 pb-1 text-[10px] font-semibold uppercase tracking-widest text-white/30">
+                  <div className="border-t border-[#1c2750] mt-1 px-4 pt-3 pb-1 text-[10px] font-semibold uppercase tracking-widest text-white/30">
                     All Makes
                   </div>
                   <div className="max-h-56 overflow-y-auto pb-2">
@@ -103,7 +103,7 @@ export default function Header() {
                       <a
                         key={make}
                         href={`/vehicles/${makeSlug(make)}`}
-                        className="block px-4 py-1.5 text-sm text-white/60 hover:text-white hover:bg-[#101628] transition-colors"
+                        className="block px-4 py-1.5 text-sm text-white/60 hover:text-white hover:bg-[#1c2750] transition-colors"
                       >
                         {make}
                       </a>
