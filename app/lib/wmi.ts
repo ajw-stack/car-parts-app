@@ -244,7 +244,7 @@ export function getModelSeries(vin: string): string {
 // D = base; E = above-base (five different badges share this code — no single name returned).
 const CRUZE_TRIM_LEVEL_6G1: Record<string, string> = {
   D: "Equipe / CD (base)",
-  E: "Above base (CDX / SRi / SRi-V / Z-Series / SRi Z-Series)",
+  E: "CDX / SRi / SRi-V / Z-Series / SRi Z-Series",
 };
 
 /**
