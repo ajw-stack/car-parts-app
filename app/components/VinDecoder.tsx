@@ -113,7 +113,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
             <Field label="Fuel"         value={vehicle.fuelType} />
             <Field label="Drive"        value={vehicle.driveType} />
             <Field label="Transmission" value={vehicle.transmission} />
-            <Field label="Country"      value={vehicle.plantCountry} />
+            <Field label="Country"      value={toTitleCase(vehicle.plantCountry)} />
           </div>
 
           {vehicle.confidence !== "high" && (
@@ -162,6 +162,11 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       )}
     </div>
   );
+}
+
+function toTitleCase(s: string | null): string | null {
+  if (!s) return null;
+  return s.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 function engineLabel(v: DecodedVehicle): string | null {
