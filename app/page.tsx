@@ -830,8 +830,8 @@ export default function Page() {
             >
               <div className={`relative border rounded-xl px-5 py-4 transition-colors duration-150 ${
                 selectedVehicleId
-                  ? "bg-[#141c3d] border-[#1c2750] hover:bg-[#242424]"
-                  : "bg-[#141c3d] border-[#1c2750]"
+                  ? "bg-[#02070d] border-[#1c2750] hover:bg-[#242424]"
+                  : "bg-[#02070d] border-[#1c2750]"
               }`}>
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">

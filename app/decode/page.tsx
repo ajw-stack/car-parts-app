@@ -14,7 +14,7 @@ export default function DecodePage() {
       <Header />
 
       {/* Hero */}
-      <div className="bg-[#141c3d] px-4 pt-12 pb-10 text-center">
+      <div className="bg-[#02070d] px-4 pt-12 pb-10 text-center">
         <h1 className="text-3xl font-bold text-white tracking-tight">VIN &amp; Rego Decoder</h1>
         <p className="mt-2 text-sm text-white/50">
           Decode any vehicle identification number or Australian registration plate

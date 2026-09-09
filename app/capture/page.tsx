@@ -9,7 +9,7 @@ const STATES = ["VIC", "NSW", "QLD", "WA", "SA", "TAS", "NT", "ACT"];
 const BUCKET = "captures";
 
 const inputCls =
-  "w-full rounded-xl border border-[#1c2750] bg-[#141c3d] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none";
+  "w-full rounded-xl border border-[#1c2750] bg-[#02070d] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none";
 
 async function resizeImage(file: File): Promise<Blob> {
   return new Promise((resolve, reject) => {
@@ -145,7 +145,7 @@ function PhotoButton({
         <button
           type="button"
           onClick={() => inputRef.current?.click()}
-          className="w-full rounded-2xl border-2 border-dashed border-[#1c2750] bg-[#141c3d] flex flex-col items-center justify-center gap-2 py-8 active:bg-[#101628] transition-colors"
+          className="w-full rounded-2xl border-2 border-dashed border-[#1c2750] bg-[#02070d] flex flex-col items-center justify-center gap-2 py-8 active:bg-[#101628] transition-colors"
           style={{ minHeight: "100px" }}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -498,7 +498,7 @@ export default function CapturePage() {
             <button
               type="button"
               onClick={() => setDetailOpen(!detailOpen)}
-              className="w-full flex items-center justify-between px-4 py-4 text-sm font-semibold text-white bg-[#141c3d] active:bg-[#101628]"
+              className="w-full flex items-center justify-between px-4 py-4 text-sm font-semibold text-white bg-[#02070d] active:bg-[#101628]"
             >
               <span>Add more detail</span>
               <span className={`text-zinc-500 transition-transform duration-200 ${detailOpen ? "rotate-180" : ""}`}>

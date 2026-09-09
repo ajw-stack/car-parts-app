@@ -41,7 +41,7 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#141c3d]">
+    <div className="min-h-screen flex flex-col bg-[#02070d]">
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-16">

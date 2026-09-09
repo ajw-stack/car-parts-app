@@ -173,7 +173,7 @@ export default function GaragePage() {
 
   if (authLoading) {
     return (
-      <div className="min-h-screen flex flex-col bg-[#141c3d]">
+      <div className="min-h-screen flex flex-col bg-[#02070d]">
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <p className="text-sm text-zinc-500">Loading…</p>
@@ -186,7 +186,7 @@ export default function GaragePage() {
   // ── Not signed in ─────────────────────────────────────────────────────────────
   if (!userId) {
     return (
-      <div className="min-h-screen flex flex-col bg-[#141c3d]">
+      <div className="min-h-screen flex flex-col bg-[#02070d]">
         <Header />
         <main className="flex-1 flex items-center justify-center px-4 py-16">
           <div className="max-w-md w-full text-center space-y-8">
@@ -253,7 +253,7 @@ export default function GaragePage() {
       <div className="flex flex-1 overflow-hidden">
 
         {/* ── Sidebar — parking bays ── */}
-        <aside className="w-64 shrink-0 bg-[#141c3d] flex flex-col border-r border-[#101628]">
+        <aside className="w-64 shrink-0 bg-[#02070d] flex flex-col border-r border-[#101628]">
           <div className="px-5 pt-6 pb-4 border-b border-[#101628]">
             <p className="text-[10px] font-semibold uppercase tracking-widest text-[#CC0000]">My Garage</p>
             <p className="mt-0.5 text-xs text-zinc-600">
@@ -358,7 +358,7 @@ export default function GaragePage() {
             <div className="max-w-lg px-8 py-10">
               <div className="rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-sm">
                 {/* Header */}
-                <div className="bg-[#141c3d] px-6 py-5 flex items-start justify-between gap-4">
+                <div className="bg-[#02070d] px-6 py-5 flex items-start justify-between gap-4">
                   <div>
                     {selectedVehicle.nickname && (
                       <p className="text-[11px] font-semibold text-[#CC0000] uppercase tracking-widest mb-1">

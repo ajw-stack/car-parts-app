@@ -94,7 +94,7 @@ export default function RedBorderLine() {
       <path
         ref={fillRef}
         d=""
-        fill="#141c3d"
+        fill="#02070d"
         stroke="none"
       />
       <path

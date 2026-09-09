@@ -68,7 +68,7 @@ export default function VehicleModelList({
             <div key={model} className="rounded-xl border border-gray-200 overflow-hidden">
               <button
                 onClick={() => toggleModel(model)}
-                className="w-full bg-[#141c3d] px-5 py-3 flex items-center justify-between text-left"
+                className="w-full bg-[#02070d] px-5 py-3 flex items-center justify-between text-left"
               >
                 <h2 className="text-base font-semibold text-white">{model}</h2>
                 <div className="flex items-center gap-2">

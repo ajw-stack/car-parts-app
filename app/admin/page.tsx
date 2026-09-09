@@ -1157,7 +1157,7 @@ return (
         </div>
 
 {msg && (
-  <div className="mt-6 rounded-xl border border-[#0e1530] bg-[#141c3d] px-4 py-3 text-sm text-white">
+  <div className="mt-6 rounded-xl border border-[#0e1530] bg-[#02070d] px-4 py-3 text-sm text-white">
     {msg}
   </div>
 )}
@@ -1165,7 +1165,7 @@ return (
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
 
           {/* Capture Tool quick-access */}
-          <section className="md:col-span-2 rounded-2xl border border-[#CC0000]/40 bg-[#141c3d] p-5 flex items-center justify-between gap-4">
+          <section className="md:col-span-2 rounded-2xl border border-[#CC0000]/40 bg-[#02070d] p-5 flex items-center justify-between gap-4">
             <div>
               <h2 className="text-lg font-semibold text-white">Capture Tool</h2>
               <p className="mt-1 text-xs text-zinc-400">
@@ -1181,7 +1181,7 @@ return (
           </section>
 
           {/* Capture Users */}
-          <section className="md:col-span-2 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+          <section className="md:col-span-2 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
             <div className="flex items-center justify-between gap-4 mb-4">
               <div>
                 <h2 className="text-lg font-semibold text-white">Capture Users</h2>
@@ -1254,7 +1254,7 @@ return (
           </section>
 
           {/* Add Vehicle */}
-        <section className="rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
            <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>
 <p className="mt-1 text-xs text-zinc-400">
   Each entry represents a distinct vehicle configuration.
@@ -1677,7 +1677,7 @@ options={Array.from(
           </section>
 
           {/* Add Part */}
-<section className="rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+<section className="rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
   <h2 className="text-lg font-semibold text-white">Add Part</h2>
 
   <div className="mt-4 grid grid-cols-2 gap-3">
@@ -1726,7 +1726,7 @@ options={Array.from(
         </div>
 
         {/* Add Fitment */}
-        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
           <h2 className="text-lg font-semibold text-white">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -1778,7 +1778,7 @@ options={Array.from(
         </section>
 
         {/* Cross Reference */}
-        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
           <h2 className="text-lg font-semibold text-white">Add Cross Reference</h2>
           <p className="mt-1 text-xs text-zinc-400">Link two equivalent parts from different brands.</p>
 
@@ -1807,7 +1807,7 @@ options={Array.from(
         </section>
 
         {/* Manage Fitments */}
-        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
           <h2 className="text-lg font-semibold text-white">Manage Fitments</h2>
           <p className="mt-1 text-xs text-zinc-400">Search a vehicle to see and remove its linked parts.</p>
 
@@ -1848,7 +1848,7 @@ options={Array.from(
                     </thead>
                     <tbody className="divide-y divide-[#1c2750]">
                       {rmFitments.map((f) => (
-                        <tr key={f.part_id} className="bg-[#141c3d] hover:bg-[#101628]">
+                        <tr key={f.part_id} className="bg-[#02070d] hover:bg-[#101628]">
                           <td className="px-4 py-3 text-white font-medium">{f.parts.brand}</td>
                           <td className="px-4 py-3 font-mono text-zinc-300">{f.parts.part_number}</td>
                           <td className="px-4 py-3 text-zinc-300">{f.parts.name}</td>
@@ -1875,7 +1875,7 @@ options={Array.from(
           )}
         </section>
         {/* Category Manager */}
-        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
           <h2 className="text-lg font-semibold text-white">Category Manager</h2>
           <p className="mt-1 text-xs text-zinc-400">
             Click a category to see its parts. Reassign individual parts to a different category.
@@ -1903,7 +1903,7 @@ options={Array.from(
                   <select
                     value={catGroups[category]?.display_group ?? "Other"}
                     onChange={(e) => saveDisplayGroup(category, e.target.value)}
-                    className="shrink-0 rounded-lg border border-[#263060] bg-[#141c3d] px-2 py-1 text-xs text-zinc-300 focus:border-[#CC0000] focus:outline-none"
+                    className="shrink-0 rounded-lg border border-[#263060] bg-[#02070d] px-2 py-1 text-xs text-zinc-300 focus:border-[#CC0000] focus:outline-none"
                     title="Sidebar group"
                   >
                     {DISPLAY_GROUPS.map(g => <option key={g} value={g}>{g}</option>)}
@@ -1922,7 +1922,7 @@ options={Array.from(
                     )}
 
                     {!catPartsLoading && catParts.map((p) => (
-                      <div key={p.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-[#1c2750] last:border-0 bg-[#141c3d] hover:bg-[#101628]">
+                      <div key={p.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-[#1c2750] last:border-0 bg-[#02070d] hover:bg-[#101628]">
                         <div className="flex-1 min-w-0">
                           <span className="font-medium text-white text-sm">{p.brand}</span>
                           <span className="font-mono text-zinc-400 text-sm ml-2">{p.part_number}</span>
@@ -1955,7 +1955,7 @@ options={Array.from(
         </section>
 
         {/* Manage Fitments — by Part */}
-        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#02070d] p-5">
           <h2 className="text-lg font-semibold text-white">Manage Fitments by Part</h2>
           <p className="mt-1 text-xs text-zinc-400">Search a part number to see which vehicles it fits and remove any incorrect ones.</p>
 
@@ -2002,7 +2002,7 @@ options={Array.from(
                           v.fuel_type,
                         ].filter(Boolean).join(" · ");
                         return (
-                          <tr key={f.vehicle_id} className="bg-[#141c3d] hover:bg-[#101628]">
+                          <tr key={f.vehicle_id} className="bg-[#02070d] hover:bg-[#101628]">
                             <td className="px-4 py-3 text-white font-medium">
                               {v.make} {v.model} ({yr})
                               {v.series && <span className="ml-1 text-zinc-400">· {v.series}</span>}
