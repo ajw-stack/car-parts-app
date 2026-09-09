@@ -113,7 +113,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
             <Field label="Fuel"         value={vehicle.fuelType} />
             <Field label="Drive"        value={vehicle.driveType} />
             <Field label="Transmission" value={vehicle.transmission} />
-            <Field label="Country"      value={toTitleCase(vehicle.plantCountry)} />
+            <Field label="Country"      value={toTitleCase(vehicle.plantCountry ?? vehicle.countryOfManufacture)} />
           </div>
 
           {vehicle.confidence !== "high" && (

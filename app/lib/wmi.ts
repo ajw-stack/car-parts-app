@@ -262,7 +262,7 @@ export function getModelSeries(vin: string): string {
 // 6G1 Cruze (char4=P): char5 trim/luxury tier.
 // D = base; E = above-base (five different badges share this code — no single name returned).
 const CRUZE_TRIM_LEVEL_6G1: Record<string, string> = {
-  D: "Equipe / CD (base)",
+  D: "Equipe / CD",
   E: "CDX / SRi / SRi-V / Z-Series / SRi Z-Series",
 };
 
