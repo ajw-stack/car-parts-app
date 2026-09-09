@@ -1,4 +1,4 @@
-const COLUMNS = [
+﻿const COLUMNS = [
   {
     heading: "About Us",
     links: [
@@ -79,10 +79,10 @@ const SOCIALS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1C1C1C] text-white border-t border-[#2A2A2A]">
+    <footer className="bg-[#203875] text-white border-t border-[#2a4488]">
 
       {/* Top — logo + columns */}
-      <div className="relative border-b border-[#2A2A2A] px-6 py-8">
+      <div className="relative border-b border-[#2a4488] px-6 py-8">
 
         {/* Logo — desktop only */}
         <a

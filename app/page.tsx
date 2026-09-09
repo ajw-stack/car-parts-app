@@ -1,4 +1,4 @@
-// app/page.tsx
+﻿// app/page.tsx
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -171,7 +171,7 @@ function TypeaheadInput({
         onClick={() => setOpen(true)}
         onKeyDown={handleKeyDown}
         onBlur={() => { setTimeout(() => { setOpen(false); setQuery(""); setHighlighted(-1); }, 150); }}
-        className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#0F0F0F] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-text"
+        className="w-full rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm text-[#172b5a] hover:bg-[#F5F5F5] hover:border-[#CCCCCC] cursor-text"
       />
       {open && filtered.length > 0 && (
         <div ref={listRef} className="absolute z-50 mt-1 w-max min-w-full max-h-64 overflow-y-auto rounded-xl border border-[#DCDCDC] bg-white shadow-lg">
@@ -184,7 +184,7 @@ function TypeaheadInput({
                 select(o);
               }}
               onMouseEnter={() => setHighlighted(i)}
-              className={`block w-full px-4 py-2 text-left text-[#0F0F0F] cursor-pointer whitespace-nowrap ${i === highlighted ? "bg-[#F0F0F0]" : "hover:bg-[#F5F5F5]"}`}
+              className={`block w-full px-4 py-2 text-left text-[#172b5a] cursor-pointer whitespace-nowrap ${i === highlighted ? "bg-[#F0F0F0]" : "hover:bg-[#F5F5F5]"}`}
             >
               {renderOption ? renderOption(o) : o}
             </button>
@@ -600,7 +600,7 @@ export default function Page() {
   }, [selectedVehicleId, loadingParts, filteredParts.length]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#0F0F0F]">
+    <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-[#172b5a]">
       <Header />
 
       <main className="flex-1 w-full bg-[#F8FAFC]">
@@ -609,12 +609,12 @@ export default function Page() {
           {/* Vehicle selector */}
           <div className="mt-4">
             <div className="flex items-center justify-between mb-3">
-              <label className="text-sm font-semibold text-[#0F0F0F]">
+              <label className="text-sm font-semibold text-[#172b5a]">
                 Vehicle selector
               </label>
               <button
                 onClick={clearAll}
-                className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#0F0F0F] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
+                className="rounded-xl border border-[#DCDCDC] bg-white px-4 py-2 text-sm font-medium text-[#172b5a] hover:border-[#CCCCCC] hover:bg-[#F5F5F5]"
               >
                 Clear
               </button>
@@ -752,7 +752,7 @@ export default function Page() {
           <div className="flex flex-wrap gap-2 mt-3 mb-6">
             {selectedMake && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => {
                   setSelectedMake("");
                   setSelectedModel("");
@@ -769,7 +769,7 @@ export default function Page() {
 
             {selectedModel && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedModel("")}
               >
                 {selectedModel}
@@ -778,7 +778,7 @@ export default function Page() {
 
             {selectedYear && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedYear("")}
               >
                 {selectedYear}
@@ -787,7 +787,7 @@ export default function Page() {
 
             {selectedSeries && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedSeries("")}
               >
                 {selectedSeries}
@@ -796,7 +796,7 @@ export default function Page() {
 
             {selectedEngineKey && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedEngineKey("")}
               >
                 {formatEngineLabelInline(engineLabelFromKey(selectedEngineKey))}
@@ -805,7 +805,7 @@ export default function Page() {
 
             {selectedTrim && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedTrim("")}
               >
                 {selectedTrim}
@@ -814,7 +814,7 @@ export default function Page() {
 
             {selectedChassis && (
               <button
-                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#0F0F0F] hover:bg-[#F5F5F5]"
+                className="px-3 py-1 rounded-lg bg-white border border-[#DCDCDC] text-sm text-[#172b5a] hover:bg-[#F5F5F5]"
                 onClick={() => setSelectedChassis("")}
               >
                 {selectedChassis}
@@ -830,8 +830,8 @@ export default function Page() {
             >
               <div className={`relative border rounded-xl px-5 py-4 transition-colors duration-150 ${
                 selectedVehicleId
-                  ? "bg-[#1C1C1C] border-[#2A2A2A] hover:bg-[#242424]"
-                  : "bg-[#1C1C1C] border-[#2A2A2A]"
+                  ? "bg-[#203875] border-[#2a4488] hover:bg-[#242424]"
+                  : "bg-[#203875] border-[#2a4488]"
               }`}>
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">

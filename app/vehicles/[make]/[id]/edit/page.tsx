@@ -169,7 +169,7 @@ export default function EditVehiclePage({
 
             <div className="flex gap-3 pt-2">
               <button type="submit" disabled={saving}
-                className="rounded-xl bg-[#1A1A1A] px-6 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40">
+                className="rounded-xl bg-[#1a3268] px-6 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40">
                 {saving ? "Saving…" : "Save Changes"}
               </button>
               <a href={`/vehicles/${makeSlug}/${vehicleId}`}

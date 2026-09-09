@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -82,7 +82,7 @@ export default function PartsGuidePage() {
                 <button
                   onClick={handleLookup}
                   disabled={!lookupQuery.trim() || lookupLoading}
-                  className="rounded-xl bg-[#1A1A1A] px-5 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40 cursor-pointer"
+                  className="rounded-xl bg-[#1a3268] px-5 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40 cursor-pointer"
                 >
                   {lookupLoading ? "..." : "Search"}
                 </button>
@@ -109,7 +109,7 @@ export default function PartsGuidePage() {
                 <button
                   onClick={handleXref}
                   disabled={!xrefQuery.trim() || xrefLoading}
-                  className="rounded-xl bg-[#1A1A1A] px-5 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40 cursor-pointer"
+                  className="rounded-xl bg-[#1a3268] px-5 py-3 text-sm font-semibold text-white hover:bg-[#333] disabled:opacity-40 cursor-pointer"
                 >
                   {xrefLoading ? "..." : "Search"}
                 </button>

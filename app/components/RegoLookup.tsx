@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useTransition } from "react";
 import type { DecodedVehicle } from "../lib/vin/types";
@@ -126,7 +126,7 @@ export default function RegoLookup({ enableSave = false, onSaved }: Props) {
 
           <a
             href={`/?q=${encodeURIComponent([vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" "))}`}
-            className="block rounded-xl bg-[#141414] px-6 py-4 flex items-center justify-between gap-4"
+            className="block rounded-xl bg-[#203875] px-6 py-4 flex items-center justify-between gap-4"
           >
             <div>
               <p className="font-semibold text-white text-sm">Find compatible parts</p>

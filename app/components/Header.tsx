@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
@@ -30,7 +30,7 @@ export default function Header() {
     <>
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
-      <header className="border-b border-[#2A2A2A] bg-[#1C1C1C] text-white sticky top-0 z-50">
+      <header className="border-b border-[#2a4488] bg-[#203875] text-white sticky top-0 z-50">
         <div className="relative flex w-full items-center px-4 py-10">
 
           {/* Mobile hamburger */}
@@ -76,7 +76,7 @@ export default function Header() {
 
               {vehiclesOpen && (
                 <div
-                  className="absolute left-0 top-full mt-0 bg-[#0F0F0F] border border-[#1A1A1A] shadow-2xl z-[9999] w-72"
+                  className="absolute left-0 top-full mt-0 bg-[#172b5a] border border-[#1a3268] shadow-2xl z-[9999] w-72"
                   onMouseEnter={openVehicles}
                   onMouseLeave={closeVehicles}
                 >
@@ -88,14 +88,14 @@ export default function Header() {
                     <a
                       key={make}
                       href={`/vehicles/${makeSlug(make)}`}
-                      className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-[#1A1A1A] transition-colors"
+                      className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-[#1a3268] transition-colors"
                     >
                       {make}
                     </a>
                   ))}
 
                   {/* All makes */}
-                  <div className="border-t border-[#1A1A1A] mt-1 px-4 pt-3 pb-1 text-[10px] font-semibold uppercase tracking-widest text-white/30">
+                  <div className="border-t border-[#1a3268] mt-1 px-4 pt-3 pb-1 text-[10px] font-semibold uppercase tracking-widest text-white/30">
                     All Makes
                   </div>
                   <div className="max-h-56 overflow-y-auto pb-2">
@@ -103,7 +103,7 @@ export default function Header() {
                       <a
                         key={make}
                         href={`/vehicles/${makeSlug(make)}`}
-                        className="block px-4 py-1.5 text-sm text-white/60 hover:text-white hover:bg-[#1A1A1A] transition-colors"
+                        className="block px-4 py-1.5 text-sm text-white/60 hover:text-white hover:bg-[#1a3268] transition-colors"
                       >
                         {make}
                       </a>

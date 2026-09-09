@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Header from "../components/Header";
@@ -14,7 +14,7 @@ export default function DecodePage() {
       <Header />
 
       {/* Hero */}
-      <div className="bg-[#141414] px-4 pt-12 pb-10 text-center">
+      <div className="bg-[#203875] px-4 pt-12 pb-10 text-center">
         <h1 className="text-3xl font-bold text-white tracking-tight">VIN &amp; Rego Decoder</h1>
         <p className="mt-2 text-sm text-white/50">
           Decode any vehicle identification number or Australian registration plate

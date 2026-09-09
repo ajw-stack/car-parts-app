@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -45,7 +45,7 @@ export default function CaptureLoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#0F0F0F] flex flex-col items-center justify-center px-4">
+    <div className="min-h-screen bg-[#172b5a] flex flex-col items-center justify-center px-4">
       <style>{`
         input:-webkit-autofill,
         input:-webkit-autofill:hover,

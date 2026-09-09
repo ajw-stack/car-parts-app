@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -41,7 +41,7 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#141414]">
+    <div className="min-h-screen flex flex-col bg-[#203875]">
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-16">
@@ -81,7 +81,7 @@ export default function SignupPage() {
                   autoComplete="email"
                   required
                   placeholder="you@example.com"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2a4488] bg-[#1a3268] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 
@@ -96,7 +96,7 @@ export default function SignupPage() {
                   autoComplete="new-password"
                   required
                   placeholder="Min. 6 characters"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2a4488] bg-[#1a3268] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 
@@ -111,7 +111,7 @@ export default function SignupPage() {
                   autoComplete="new-password"
                   required
                   placeholder="Re-enter password"
-                  className="w-full rounded-xl border border-[#2A2A2A] bg-[#1A1A1A] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-[#2a4488] bg-[#1a3268] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
                 />
               </div>
 

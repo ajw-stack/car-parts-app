@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
@@ -94,7 +94,7 @@ export default function RedBorderLine() {
       <path
         ref={fillRef}
         d=""
-        fill="#141414"
+        fill="#203875"
         stroke="none"
       />
       <path

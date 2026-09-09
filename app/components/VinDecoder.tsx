@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useTransition } from "react";
 import type { DecodedVehicle, DecodeResult } from "../lib/vin/types";
@@ -93,7 +93,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       {vehicle && (
         <div className="rounded-xl border border-gray-200 overflow-hidden">
           {/* Header */}
-          <div className="bg-[#141414] px-5 py-4 flex items-start justify-between gap-3">
+          <div className="bg-[#203875] px-5 py-4 flex items-start justify-between gap-3">
             <div>
               <h3 className="text-base font-bold text-white">
                 {[vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" ")}
@@ -149,7 +149,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       {vehicle && (
         <a
           href={`/?q=${encodeURIComponent([vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" "))}`}
-          className="block rounded-xl bg-[#141414] px-6 py-4 flex items-center justify-between gap-4"
+          className="block rounded-xl bg-[#203875] px-6 py-4 flex items-center justify-between gap-4"
         >
           <div>
             <p className="font-semibold text-white text-sm">Find compatible parts</p>
