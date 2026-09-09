@@ -4,7 +4,7 @@
 :root {
   color-scheme: light;
   --background: #F8FAFC;
-  --foreground: #172b5a;
+  --foreground: #0e1530;
 }
 
 html,
@@ -15,13 +15,13 @@ body {
 
 body {
   background: #F8FAFC;
-  color: #172b5a;
+  color: #0e1530;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 main {
   background: #F8FAFC;
-  color: #172b5a;
+  color: #0e1530;
 }
 
 /* Clean neutral link style */
@@ -48,13 +48,13 @@ input {
 
 select {
   background-color: #FFFFFF;
-  color: #172b5a;
+  color: #0e1530;
   border: 1px solid #DCDCDC;
 }
 
 option {
   background-color: #FFFFFF;
-  color: #172b5a;
+  color: #0e1530;
 }
 
 /* Accent UI elements */
@@ -149,7 +149,7 @@ button:focus {
 .loading-screen {
   position: fixed;
   inset: 0;
-  background: #172b5a;
+  background: #0e1530;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,7 +214,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #FFFFFF inset !important;
-  -webkit-text-fill-color: #172b5a !important;
+  -webkit-text-fill-color: #0e1530 !important;
 }
 
 .kw {

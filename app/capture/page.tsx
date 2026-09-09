@@ -9,7 +9,7 @@ const STATES = ["VIC", "NSW", "QLD", "WA", "SA", "TAS", "NT", "ACT"];
 const BUCKET = "captures";
 
 const inputCls =
-  "w-full rounded-xl border border-[#2a4488] bg-[#203875] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none";
+  "w-full rounded-xl border border-[#1c2750] bg-[#141c3d] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none";
 
 async function resizeImage(file: File): Promise<Blob> {
   return new Promise((resolve, reject) => {
@@ -83,17 +83,17 @@ function CaptureTypeahead({
         onChange={(e) => { onChange(e.target.value); setOpen(true); }}
         onFocus={() => setOpen(true)}
         onBlur={() => setTimeout(() => setOpen(false), 150)}
-        className="w-full rounded-2xl border border-[#2a4488] bg-[#1a3268] px-4 py-4 text-base text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none disabled:opacity-40"
+        className="w-full rounded-2xl border border-[#1c2750] bg-[#101628] px-4 py-4 text-base text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none disabled:opacity-40"
       />
       {open && filtered.length > 0 && (
-        <div className="absolute left-0 right-0 z-50 mt-1 max-h-56 overflow-auto rounded-xl border border-[#2a4488] bg-[#172b5a] shadow-xl">
+        <div className="absolute left-0 right-0 z-50 mt-1 max-h-56 overflow-auto rounded-xl border border-[#1c2750] bg-[#0e1530] shadow-xl">
           {filtered.map((opt) => (
             <button
               key={opt}
               type="button"
               onMouseDown={(e) => { e.preventDefault(); onChange(opt); setOpen(false); }}
               onTouchEnd={(e) => { e.preventDefault(); onChange(opt); setOpen(false); }}
-              className="block w-full px-4 py-4 text-left text-base text-white hover:bg-[#1a3268] active:bg-[#CC0000] border-b border-[#1a3268] last:border-0"
+              className="block w-full px-4 py-4 text-left text-base text-white hover:bg-[#101628] active:bg-[#CC0000] border-b border-[#101628] last:border-0"
             >
               {opt}
             </button>
@@ -133,7 +133,7 @@ function PhotoButton({
         <button
           type="button"
           onClick={() => inputRef.current?.click()}
-          className="relative w-full overflow-hidden rounded-2xl border border-[#2a4488]"
+          className="relative w-full overflow-hidden rounded-2xl border border-[#1c2750]"
           style={{ aspectRatio: "16/9" }}
         >
           <img src={thumb} alt={label} className="w-full h-full object-cover" />
@@ -145,7 +145,7 @@ function PhotoButton({
         <button
           type="button"
           onClick={() => inputRef.current?.click()}
-          className="w-full rounded-2xl border-2 border-dashed border-[#2a4488] bg-[#203875] flex flex-col items-center justify-center gap-2 py-8 active:bg-[#1a3268] transition-colors"
+          className="w-full rounded-2xl border-2 border-dashed border-[#1c2750] bg-[#141c3d] flex flex-col items-center justify-center gap-2 py-8 active:bg-[#101628] transition-colors"
           style={{ minHeight: "100px" }}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -384,7 +384,7 @@ export default function CapturePage() {
 
   if (!authChecked) {
     return (
-      <div className="min-h-screen bg-[#172b5a] flex items-center justify-center">
+      <div className="min-h-screen bg-[#0e1530] flex items-center justify-center">
         <span className="text-zinc-500 text-sm">Loading...</span>
       </div>
     );
@@ -392,7 +392,7 @@ export default function CapturePage() {
 
   if (accessDenied) {
     return (
-      <div className="min-h-screen bg-[#172b5a] flex flex-col">
+      <div className="min-h-screen bg-[#0e1530] flex flex-col">
         <Header />
         <main className="flex-1 flex items-center justify-center p-6">
           <div className="text-center max-w-sm">
@@ -407,7 +407,7 @@ export default function CapturePage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#172b5a] flex flex-col">
+    <div className="min-h-screen bg-[#0e1530] flex flex-col">
       <Header />
 
       <main className="flex-1 px-4 pt-6 pb-28 max-w-lg mx-auto w-full">
@@ -457,7 +457,7 @@ export default function CapturePage() {
                   className={`py-3.5 rounded-xl text-sm font-bold transition-colors ${
                     state === s
                       ? "bg-[#CC0000] text-white"
-                      : "bg-[#1a3268] text-white/70 border border-[#2a4488] active:bg-[#2a4488]"
+                      : "bg-[#101628] text-white/70 border border-[#1c2750] active:bg-[#1c2750]"
                   }`}
                 >
                   {s}
@@ -494,11 +494,11 @@ export default function CapturePage() {
           </div>
 
           {/* Add more detail */}
-          <div className="rounded-2xl border border-[#2a4488] overflow-hidden">
+          <div className="rounded-2xl border border-[#1c2750] overflow-hidden">
             <button
               type="button"
               onClick={() => setDetailOpen(!detailOpen)}
-              className="w-full flex items-center justify-between px-4 py-4 text-sm font-semibold text-white bg-[#203875] active:bg-[#1a3268]"
+              className="w-full flex items-center justify-between px-4 py-4 text-sm font-semibold text-white bg-[#141c3d] active:bg-[#101628]"
             >
               <span>Add more detail</span>
               <span className={`text-zinc-500 transition-transform duration-200 ${detailOpen ? "rotate-180" : ""}`}>
@@ -507,7 +507,7 @@ export default function CapturePage() {
             </button>
 
             {detailOpen && (
-              <div className="px-4 py-4 space-y-3 bg-[#172b5a] border-t border-[#2a4488]">
+              <div className="px-4 py-4 space-y-3 bg-[#0e1530] border-t border-[#1c2750]">
 
                 {/* Extra photos */}
                 <div>
@@ -517,7 +517,7 @@ export default function CapturePage() {
                   {extraThumbs.length > 0 && (
                     <div className="grid grid-cols-3 gap-2 mb-2">
                       {extraThumbs.map((t, i) => (
-                        <div key={i} className="relative aspect-square rounded-xl overflow-hidden border border-[#2a4488]">
+                        <div key={i} className="relative aspect-square rounded-xl overflow-hidden border border-[#1c2750]">
                           <img src={t} alt={`Extra ${i + 1}`} className="w-full h-full object-cover" />
                           <button
                             type="button"
@@ -543,7 +543,7 @@ export default function CapturePage() {
                   <button
                     type="button"
                     onClick={() => extraInputRef.current?.click()}
-                    className="w-full py-3 rounded-xl border border-dashed border-[#2a4488] text-sm text-zinc-400 active:bg-[#1a3268] transition-colors"
+                    className="w-full py-3 rounded-xl border border-dashed border-[#1c2750] text-sm text-zinc-400 active:bg-[#101628] transition-colors"
                   >
                     + Add photo
                   </button>
@@ -699,7 +699,7 @@ export default function CapturePage() {
 
       {/* Sticky save button */}
       <div
-        className="fixed bottom-0 left-0 right-0 px-4 pt-4 bg-[#172b5a] border-t border-[#1a3268]"
+        className="fixed bottom-0 left-0 right-0 px-4 pt-4 bg-[#0e1530] border-t border-[#101628]"
         style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}
       >
         <button

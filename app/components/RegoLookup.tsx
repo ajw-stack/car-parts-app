@@ -126,7 +126,7 @@ export default function RegoLookup({ enableSave = false, onSaved }: Props) {
 
           <a
             href={`/?q=${encodeURIComponent([vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" "))}`}
-            className="block rounded-xl bg-[#203875] px-6 py-4 flex items-center justify-between gap-4"
+            className="block rounded-xl bg-[#141c3d] px-6 py-4 flex items-center justify-between gap-4"
           >
             <div>
               <p className="font-semibold text-white text-sm">Find compatible parts</p>

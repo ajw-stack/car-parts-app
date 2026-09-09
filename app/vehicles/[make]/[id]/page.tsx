@@ -17,7 +17,7 @@ function Row({ label, value }: { label: string; value?: string | number | null }
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mt-6 rounded-xl border border-gray-200 overflow-hidden">
-      <div className="bg-[#203875] px-5 py-3">
+      <div className="bg-[#141c3d] px-5 py-3">
         <h2 className="text-sm font-semibold text-white uppercase tracking-wide">{title}</h2>
       </div>
       <div className="px-5 py-1">{children}</div>

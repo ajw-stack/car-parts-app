@@ -1143,13 +1143,13 @@ return (
           <div className="flex gap-2">
             <button
               onClick={refreshAll}
-              className="rounded-xl border border-[#172b5a] bg-[#1a3268] px-4 py-3 text-sm text-white hover:bg-[#222]"
+              className="rounded-xl border border-[#0e1530] bg-[#101628] px-4 py-3 text-sm text-white hover:bg-[#222]"
             >
               Refresh
             </button>
             <button
               onClick={handleLogout}
-              className="rounded-xl border border-[#172b5a] bg-[#1a3268] px-4 py-3 text-sm text-white hover:bg-[#222]"
+              className="rounded-xl border border-[#0e1530] bg-[#101628] px-4 py-3 text-sm text-white hover:bg-[#222]"
             >
               Log Out
             </button>
@@ -1157,7 +1157,7 @@ return (
         </div>
 
 {msg && (
-  <div className="mt-6 rounded-xl border border-[#172b5a] bg-[#203875] px-4 py-3 text-sm text-white">
+  <div className="mt-6 rounded-xl border border-[#0e1530] bg-[#141c3d] px-4 py-3 text-sm text-white">
     {msg}
   </div>
 )}
@@ -1165,7 +1165,7 @@ return (
         <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
 
           {/* Capture Tool quick-access */}
-          <section className="md:col-span-2 rounded-2xl border border-[#CC0000]/40 bg-[#203875] p-5 flex items-center justify-between gap-4">
+          <section className="md:col-span-2 rounded-2xl border border-[#CC0000]/40 bg-[#141c3d] p-5 flex items-center justify-between gap-4">
             <div>
               <h2 className="text-lg font-semibold text-white">Capture Tool</h2>
               <p className="mt-1 text-xs text-zinc-400">
@@ -1181,7 +1181,7 @@ return (
           </section>
 
           {/* Capture Users */}
-          <section className="md:col-span-2 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+          <section className="md:col-span-2 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
             <div className="flex items-center justify-between gap-4 mb-4">
               <div>
                 <h2 className="text-lg font-semibold text-white">Capture Users</h2>
@@ -1190,7 +1190,7 @@ return (
               {!captureUsersLoaded && (
                 <button
                   onClick={loadCaptureUsers}
-                  className="shrink-0 rounded-xl border border-[#2a4488] px-4 py-2 text-sm text-zinc-400 hover:text-white hover:border-white/30 transition-colors"
+                  className="shrink-0 rounded-xl border border-[#1c2750] px-4 py-2 text-sm text-zinc-400 hover:text-white hover:border-white/30 transition-colors"
                 >
                   Load users
                 </button>
@@ -1205,7 +1205,7 @@ return (
                 onChange={(e) => setNewCaptureEmail(e.target.value)}
                 placeholder="Email"
                 required
-                className="flex-1 rounded-xl border border-[#2a4488] bg-[#172b5a] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                className="flex-1 rounded-xl border border-[#1c2750] bg-[#0e1530] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
               />
               <input
                 type="password"
@@ -1214,7 +1214,7 @@ return (
                 placeholder="Password (min 6 chars)"
                 required
                 minLength={6}
-                className="flex-1 rounded-xl border border-[#2a4488] bg-[#172b5a] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                className="flex-1 rounded-xl border border-[#1c2750] bg-[#0e1530] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
               />
               <button
                 type="submit"
@@ -1236,7 +1236,7 @@ return (
               captureUsers.length === 0 ? (
                 <p className="text-sm text-zinc-500">No capture users yet.</p>
               ) : (
-                <ul className="divide-y divide-[#1a3268]">
+                <ul className="divide-y divide-[#101628]">
                   {captureUsers.map((u) => (
                     <li key={u.id} className="flex items-center justify-between py-2.5 gap-4">
                       <span className="text-sm text-white/80 truncate">{u.email}</span>
@@ -1254,7 +1254,7 @@ return (
           </section>
 
           {/* Add Vehicle */}
-        <section className="rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
            <h2 className="text-lg font-semibold text-white">Add Vehicle Variant</h2>
 <p className="mt-1 text-xs text-zinc-400">
   Each entry represents a distinct vehicle configuration.
@@ -1670,14 +1670,14 @@ options={Array.from(
             <button
               disabled={!canAddVehicle}
               onClick={addVehicle}
-    className="mt-4 w-full rounded-xl bg-[#3a5499] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
+    className="mt-4 w-full rounded-xl bg-[#263060] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
             >
               Add Vehicle
             </button>
           </section>
 
           {/* Add Part */}
-<section className="rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+<section className="rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
   <h2 className="text-lg font-semibold text-white">Add Part</h2>
 
   <div className="mt-4 grid grid-cols-2 gap-3">
@@ -1718,7 +1718,7 @@ options={Array.from(
             <button
               disabled={!canAddPart}
               onClick={addPart}
-        className="mt-4 w-full rounded-xl bg-[#3a5499] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
+        className="mt-4 w-full rounded-xl bg-[#263060] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
             >
               Add Part
             </button>
@@ -1726,7 +1726,7 @@ options={Array.from(
         </div>
 
         {/* Add Fitment */}
-        <section className="mt-6 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
           <h2 className="text-lg font-semibold text-white">Add Fitment (Link Vehicle ↔ Part)</h2>
 
           <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
@@ -1778,7 +1778,7 @@ options={Array.from(
         </section>
 
         {/* Cross Reference */}
-        <section className="mt-6 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
           <h2 className="text-lg font-semibold text-white">Add Cross Reference</h2>
           <p className="mt-1 text-xs text-zinc-400">Link two equivalent parts from different brands.</p>
 
@@ -1800,14 +1800,14 @@ options={Array.from(
           <button
             disabled={!canAddXref}
             onClick={addXref}
-            className="mt-4 w-full rounded-xl bg-[#3a5499] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
+            className="mt-4 w-full rounded-xl bg-[#263060] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A4A4A] disabled:opacity-40 cursor-pointer"
           >
             Add Cross Reference
           </button>
         </section>
 
         {/* Manage Fitments */}
-        <section className="mt-6 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
           <h2 className="text-lg font-semibold text-white">Manage Fitments</h2>
           <p className="mt-1 text-xs text-zinc-400">Search a vehicle to see and remove its linked parts.</p>
 
@@ -1834,10 +1834,10 @@ options={Array.from(
               )}
 
               {!rmLoading && rmFitments.length > 0 && (
-                <div className="rounded-xl overflow-hidden border border-[#2a4488]">
+                <div className="rounded-xl overflow-hidden border border-[#1c2750]">
                   <table className="w-full text-sm">
                     <thead>
-                      <tr className="bg-[#1a3268] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                      <tr className="bg-[#101628] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
                         <th className="px-4 py-3">Brand</th>
                         <th className="px-4 py-3">Part #</th>
                         <th className="px-4 py-3">Name</th>
@@ -1846,9 +1846,9 @@ options={Array.from(
                         <th className="px-4 py-3"></th>
                       </tr>
                     </thead>
-                    <tbody className="divide-y divide-[#2a4488]">
+                    <tbody className="divide-y divide-[#1c2750]">
                       {rmFitments.map((f) => (
-                        <tr key={f.part_id} className="bg-[#203875] hover:bg-[#1a3268]">
+                        <tr key={f.part_id} className="bg-[#141c3d] hover:bg-[#101628]">
                           <td className="px-4 py-3 text-white font-medium">{f.parts.brand}</td>
                           <td className="px-4 py-3 font-mono text-zinc-300">{f.parts.part_number}</td>
                           <td className="px-4 py-3 text-zinc-300">{f.parts.name}</td>
@@ -1866,7 +1866,7 @@ options={Array.from(
                       ))}
                     </tbody>
                   </table>
-                  <div className="px-4 py-2 bg-[#1a3268] text-xs text-zinc-500">
+                  <div className="px-4 py-2 bg-[#101628] text-xs text-zinc-500">
                     {rmFitments.length} part{rmFitments.length !== 1 ? "s" : ""} linked
                   </div>
                 </div>
@@ -1875,7 +1875,7 @@ options={Array.from(
           )}
         </section>
         {/* Category Manager */}
-        <section className="mt-6 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
           <h2 className="text-lg font-semibold text-white">Category Manager</h2>
           <p className="mt-1 text-xs text-zinc-400">
             Click a category to see its parts. Reassign individual parts to a different category.
@@ -1887,10 +1887,10 @@ options={Array.from(
             )}
 
             {catSummaries.map(({ category, count }) => (
-              <div key={category} className="rounded-xl border border-[#2a4488]">
+              <div key={category} className="rounded-xl border border-[#1c2750]">
                 {/* Category header row */}
                 <div
-                  className={`flex items-center gap-3 px-4 py-3 bg-[#1a3268] ${expandedCat === category ? "rounded-t-xl" : "rounded-xl"}`}
+                  className={`flex items-center gap-3 px-4 py-3 bg-[#101628] ${expandedCat === category ? "rounded-t-xl" : "rounded-xl"}`}
                 >
                   <button
                     onClick={() => expandCategory(category)}
@@ -1903,7 +1903,7 @@ options={Array.from(
                   <select
                     value={catGroups[category]?.display_group ?? "Other"}
                     onChange={(e) => saveDisplayGroup(category, e.target.value)}
-                    className="shrink-0 rounded-lg border border-[#3a5499] bg-[#203875] px-2 py-1 text-xs text-zinc-300 focus:border-[#CC0000] focus:outline-none"
+                    className="shrink-0 rounded-lg border border-[#263060] bg-[#141c3d] px-2 py-1 text-xs text-zinc-300 focus:border-[#CC0000] focus:outline-none"
                     title="Sidebar group"
                   >
                     {DISPLAY_GROUPS.map(g => <option key={g} value={g}>{g}</option>)}
@@ -1912,7 +1912,7 @@ options={Array.from(
 
                 {/* Expanded parts list */}
                 {expandedCat === category && (
-                  <div className="border-t border-[#2a4488]">
+                  <div className="border-t border-[#1c2750]">
                     {catPartsLoading && (
                       <p className="px-4 py-3 text-sm text-zinc-400">Loading…</p>
                     )}
@@ -1922,7 +1922,7 @@ options={Array.from(
                     )}
 
                     {!catPartsLoading && catParts.map((p) => (
-                      <div key={p.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-[#2a4488] last:border-0 bg-[#203875] hover:bg-[#1a3268]">
+                      <div key={p.id} className="flex items-center gap-3 px-4 py-2.5 border-b border-[#1c2750] last:border-0 bg-[#141c3d] hover:bg-[#101628]">
                         <div className="flex-1 min-w-0">
                           <span className="font-medium text-white text-sm">{p.brand}</span>
                           <span className="font-mono text-zinc-400 text-sm ml-2">{p.part_number}</span>
@@ -1940,7 +1940,7 @@ options={Array.from(
                           <button
                             onClick={() => reassignPart(p.id, newCatValue[p.id] ?? "")}
                             disabled={!newCatValue[p.id]?.trim() || reassigning === p.id}
-                            className="rounded-lg border border-[#3a5499] px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/10 disabled:opacity-40 transition-colors whitespace-nowrap"
+                            className="rounded-lg border border-[#263060] px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/10 disabled:opacity-40 transition-colors whitespace-nowrap"
                           >
                             {reassigning === p.id ? "Moving…" : "Move"}
                           </button>
@@ -1955,7 +1955,7 @@ options={Array.from(
         </section>
 
         {/* Manage Fitments — by Part */}
-        <section className="mt-6 rounded-2xl border border-[#172b5a] bg-[#203875] p-5">
+        <section className="mt-6 rounded-2xl border border-[#0e1530] bg-[#141c3d] p-5">
           <h2 className="text-lg font-semibold text-white">Manage Fitments by Part</h2>
           <p className="mt-1 text-xs text-zinc-400">Search a part number to see which vehicles it fits and remove any incorrect ones.</p>
 
@@ -1982,17 +1982,17 @@ options={Array.from(
               )}
 
               {!rmPartLoading && rmPartFitments.length > 0 && (
-                <div className="rounded-xl overflow-hidden border border-[#2a4488]">
+                <div className="rounded-xl overflow-hidden border border-[#1c2750]">
                   <table className="w-full text-sm">
                     <thead>
-                      <tr className="bg-[#1a3268] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                      <tr className="bg-[#101628] text-left text-xs font-semibold uppercase tracking-wider text-zinc-400">
                         <th className="px-4 py-3">Vehicle</th>
                         <th className="px-4 py-3">Engine</th>
                         <th className="px-4 py-3">Position</th>
                         <th className="px-4 py-3"></th>
                       </tr>
                     </thead>
-                    <tbody className="divide-y divide-[#2a4488]">
+                    <tbody className="divide-y divide-[#1c2750]">
                       {rmPartFitments.map((f) => {
                         const v = f.vehicles;
                         const yr = `${v.year_from}–${formatYearTo(v.year_to)}`;
@@ -2002,7 +2002,7 @@ options={Array.from(
                           v.fuel_type,
                         ].filter(Boolean).join(" · ");
                         return (
-                          <tr key={f.vehicle_id} className="bg-[#203875] hover:bg-[#1a3268]">
+                          <tr key={f.vehicle_id} className="bg-[#141c3d] hover:bg-[#101628]">
                             <td className="px-4 py-3 text-white font-medium">
                               {v.make} {v.model} ({yr})
                               {v.series && <span className="ml-1 text-zinc-400">· {v.series}</span>}
@@ -2023,7 +2023,7 @@ options={Array.from(
                       })}
                     </tbody>
                   </table>
-                  <div className="px-4 py-2 bg-[#1a3268] text-xs text-zinc-500">
+                  <div className="px-4 py-2 bg-[#101628] text-xs text-zinc-500">
                     {rmPartFitments.length} vehicle{rmPartFitments.length !== 1 ? "s" : ""} linked
                   </div>
                 </div>

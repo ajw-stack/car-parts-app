@@ -82,7 +82,7 @@ export default function PartsPageClient({
       {/* Left sidebar — hierarchical categories */}
       <aside className="w-56 shrink-0 sticky top-6">
         <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
-          <div className="bg-[#203875] px-4 py-3">
+          <div className="bg-[#141c3d] px-4 py-3">
             <p className="text-xs font-semibold text-white uppercase tracking-wide">Categories</p>
           </div>
           <nav>
@@ -160,7 +160,7 @@ export default function PartsPageClient({
           </div>
         ) : (
           <div className="rounded-xl border border-gray-200 bg-white overflow-hidden">
-            <div className="bg-[#203875] px-5 py-3 flex items-center justify-between">
+            <div className="bg-[#141c3d] px-5 py-3 flex items-center justify-between">
               <h2 className="text-sm font-semibold text-white">{headerLabel}</h2>
               <span className="text-xs text-white/50">{visibleParts.length}</span>
             </div>

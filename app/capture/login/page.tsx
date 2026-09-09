@@ -45,7 +45,7 @@ export default function CaptureLoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#172b5a] flex flex-col items-center justify-center px-4">
+    <div className="min-h-screen bg-[#0e1530] flex flex-col items-center justify-center px-4">
       <style>{`
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
