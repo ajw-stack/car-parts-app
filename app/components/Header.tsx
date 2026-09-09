@@ -30,7 +30,7 @@ export default function Header() {
     <>
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
-      <header className="border-b border-[#1c2750] bg-[#141c3d] text-white sticky top-0 z-50">
+      <header className="border-b border-[#1c2750] bg-[#02070d] text-white sticky top-0 z-50">
         <div className="relative flex w-full items-center px-4 py-10">
 
           {/* Mobile hamburger */}

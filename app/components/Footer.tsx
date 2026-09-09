@@ -118,7 +118,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar — stacked on mobile, single row on desktop */}
-      <div className="px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
+      <div className="bg-[#02070d] px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
 
         {/* Row 1 on mobile: admin + capture icons + copyright */}
         <div className="flex items-center gap-3">
