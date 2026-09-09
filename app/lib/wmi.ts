@@ -215,6 +215,25 @@ export function getSerialNumber(vin: string): string {
   return vin.slice(11, 17);
 }
 
+// Rule 3a/3b: assembly plant by WMI + character 11.
+// Only confirmed entries are listed — blank for anything else.
+const ASSEMBLY_PLANT: Record<string, Record<string, string>> = {
+  "6G1": { L: "Elizabeth, SA" },
+  "6H8": { L: "Elizabeth, SA" },
+};
+
+/**
+ * Decode the assembly plant from character 11 of the VIN.
+ * Currently confirmed for WMI 6G1 and 6H8 (GM Holden).
+ * Returns an empty string for any unconfirmed WMI or plant code.
+ */
+export function getAssemblyPlant(vin: string): string {
+  const wmi = vin.slice(0, 3).toUpperCase();
+  const char11 = vin[10]?.toUpperCase();
+  if (!char11) return "";
+  return ASSEMBLY_PLANT[wmi]?.[char11] ?? "";
+}
+
 // WMI-specific character-4 model/series maps.
 // Only add entries here once the mapping is confirmed for that WMI —
 // the same character position means something different across WMIs.

@@ -1,4 +1,4 @@
-import { lookupWMI, getCountryOfManufacture, getSerialNumber, getModelSeries, getCruzeTrimLevel } from "./wmi";
+import { lookupWMI, getCountryOfManufacture, getSerialNumber, getModelSeries, getCruzeTrimLevel, getAssemblyPlant } from "./wmi";
 import type { DecodedVehicle, DecodeResult } from "./vin/types";
 
 const CORE_FIELDS = ["Make","Model","ModelYear","BodyClass","EngineCylinders","FuelTypePrimary"] as const;
@@ -90,6 +90,7 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
     serialNumber:         getSerialNumber(vin) || null,
     modelSeries:          getModelSeries(vin) || null,
     trimLevel:            getCruzeTrimLevel(vin) || null,
+    assemblyPlant:        getAssemblyPlant(vin) || null,
     source:              "nhtsa",
     confidence,
     rawErrors,

@@ -106,7 +106,8 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
           {/* Fields grid */}
           <div className="grid grid-cols-2 gap-px bg-gray-100">
             <Field label="Model/Series"  value={vehicle.modelSeries} />
-            <Field label="Trim Level"    value={vehicle.trimLevel} />
+            <Field label="Trim Level"     value={vehicle.trimLevel} />
+            <Field label="Assembly Plant" value={vehicle.assemblyPlant} />
             <Field label="Body"         value={vehicle.bodyClass} />
             <Field label="Engine"       value={engineLabel(vehicle)} />
             <Field label="Fuel"         value={vehicle.fuelType} />

@@ -18,6 +18,7 @@ export interface DecodedVehicle {
   serialNumber: string | null;
   modelSeries: string | null;
   trimLevel: string | null;
+  assemblyPlant: string | null;
   source: DataSource;
   confidence: "high" | "partial" | "low";
   rawErrors: string | null;
