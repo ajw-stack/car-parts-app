@@ -220,9 +220,10 @@ export function getSerialNumber(vin: string): string {
 // the same character position means something different across WMIs.
 const MODEL_SERIES_6G1: Record<string, string> = {
   P: "Cruze",
-  E: "VE Commodore",
-  Z: "VZ Commodore",
-  Y: "VY Commodore",
+  E: "VE",
+  Z: "VZ",
+  Y: "VY",
+  F: "VF",
 };
 
 /**
