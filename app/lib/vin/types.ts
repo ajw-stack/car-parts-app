@@ -16,6 +16,7 @@ export interface DecodedVehicle {
   plantCountry: string | null;
   countryOfManufacture: string | null;
   serialNumber: string | null;
+  modelSeries: string | null;
   source: DataSource;
   confidence: "high" | "partial" | "low";
   rawErrors: string | null;

@@ -215,6 +215,30 @@ export function getSerialNumber(vin: string): string {
   return vin.slice(11, 17);
 }
 
+// WMI-specific character-4 model/series maps.
+// Only add entries here once the mapping is confirmed for that WMI —
+// the same character position means something different across WMIs.
+const MODEL_SERIES_6G1: Record<string, string> = {
+  P: "Cruze",
+  E: "VE Commodore",
+  Z: "VZ Commodore",
+  Y: "VY Commodore",
+};
+
+/**
+ * Decode the model/series from character 4 of the VIN.
+ * Currently only implemented for WMI 6G1 (GM Holden, post-Nov 2002).
+ * Returns an empty string for any WMI where the mapping is unconfirmed,
+ * or for any character 4 not in the confirmed map.
+ */
+export function getModelSeries(vin: string): string {
+  const wmi = vin.slice(0, 3).toUpperCase();
+  const char4 = vin[3]?.toUpperCase();
+  if (!char4) return "";
+  if (wmi === "6G1") return MODEL_SERIES_6G1[char4] ?? "";
+  return "";
+}
+
 /** Return country of manufacture from VIN prefix (null if unrecognised). */
 export function vinCountry(vin: string): string | null {
   const c = getCountryOfManufacture(vin);
