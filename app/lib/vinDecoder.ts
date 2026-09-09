@@ -13,25 +13,6 @@ function scoreConfidence(val: (k: string) => string | null, make: string | null,
   return "low";
 }
 
-// ─── Holden lookup tables ──────────────────────────────────────────────────────
-
-const HOLDEN_MODEL: Record<string, string> = {
-  E:"VE", F:"VF", Y:"VY", Z:"VZ",
-  K:"Statesman/Caprice WK", L:"Statesman/Caprice WL",
-  M:"Statesman/Caprice WM", N:"Caprice WN",
-};
-const HOLDEN_VARIANT: Record<string, string | Record<string, string>> = {
-  K:{ Y:"Executive", Z:"SV6 / SV6000", E:"SV6 / SV8 / SS", F:"Executive / SS", default:"Executive" },
-  L:"Berlina", X:"Calais", Z:"Caprice", Y:"Statesman", P:"SSV",
-  C:"SS", B:"SV6", J:"Calais V", E:"SS V Redline", F:"HSV Maloo", A:"International",
-};
-const COMMODORE_CHARS = new Set(["E","F","Y","Z"]);
-const HOLDEN_BODY: Record<string, string> = {
-  "0":"Cab Chassis / 1 Tonne Ute","1":"2 Door Coupe","3":"4 Door Ute (Crewman)",
-  "4":"Ute","5":"4 Door Sedan","8":"Wagon",
-};
-const HOLDEN_PLANT: Record<string, string> = { L:"Australia" };
-
 // ─── Main decode ───────────────────────────────────────────────────────────────
 
 export type DecodeVinResult = DecodeResult;
@@ -76,19 +57,6 @@ export async function decodeVin(rawVin: string): Promise<DecodeResult> {
   // ── Holden overrides (WMI 6G1) ────────────────────────────────────────────
   if (vin.startsWith("6G1")) {
     make = "Holden";
-    const mc = vin[3], vc = vin[4], bc = vin[5], pc = vin[10];
-
-    if (mc && HOLDEN_MODEL[mc])  model = HOLDEN_MODEL[mc];
-    if (vc && mc && COMMODORE_CHARS.has(mc)) {
-      const entry = HOLDEN_VARIANT[vc];
-      if (entry) {
-        trim = typeof entry === "string"
-          ? entry
-          : ((entry as Record<string,string>)[mc] ?? (entry as Record<string,string>).default ?? trim);
-      }
-    }
-    if (bc && HOLDEN_BODY[bc])   bodyClass    = HOLDEN_BODY[bc];
-    if (pc && HOLDEN_PLANT[pc])  plantCountry = HOLDEN_PLANT[pc];
   }
 
   // ── Fail only if completely unidentifiable ────────────────────────────────
