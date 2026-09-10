@@ -25,12 +25,17 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Elroco",
-  description: "Elroco Parts Catalogue",
+  title: "Elroco — Vehicle Parts Catalogue",
+  description: "The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.",
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: "/apple-touch-icon.png"
-  }
+  },
+  openGraph: {
+    title: "Elroco — Vehicle Parts Catalogue",
+    description: "The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.",
+    siteName: "Elroco",
+  },
 };
 
 export default function RootLayout({

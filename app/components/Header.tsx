@@ -43,11 +43,16 @@ export default function Header() {
 
           {/* Logo — desktop: centred between left edge and nav (quarter point) */}
           <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
-            <img
-              src="/logos/elroco-block-red-sm.png"
-              alt="Elroco"
-              style={{ height: "44px", width: "auto" }}
-            />
+            <span style={{
+              fontFamily: "var(--font-michroma, 'Michroma', sans-serif)",
+              fontSize: '22px',
+              letterSpacing: '0.1em',
+              color: '#ffffff',
+              textTransform: 'uppercase',
+              fontWeight: 400,
+            }}>
+              ELROCO
+            </span>
           </a>
 
           {/* Desktop nav */}

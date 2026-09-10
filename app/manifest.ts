@@ -4,11 +4,11 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Elroco',
     short_name: 'Elroco',
-    description: 'Elroco Parts Catalogue',
+    description: 'The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#F8FAFC',
-    theme_color: '#CC0000',
+    background_color: '#02070D',
+    theme_color: '#02070D',
     icons: [
       {
         src: '/android-chrome-192x192.png',

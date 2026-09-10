@@ -90,7 +90,7 @@ export default function Footer() {
           style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
           className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
         >
-          ELRO<span className="text-[#CC0000]">CO</span>
+          ELROCO
         </a>
 
         {/* 2-col grid on mobile, 4-col row on desktop */}
