@@ -31,25 +31,46 @@ export default function SideMenu({
             startX.current = null;
           }
         }}
-        className={`fixed left-0 top-0 h-full w-80 bg-[#0e1530] text-white shadow-lg z-50 transform transition-transform duration-300 ${
+        className={`fixed left-0 top-0 h-full w-80 bg-[#02070d] text-white shadow-lg z-50 transform transition-transform duration-300 ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <div className="h-full flex flex-col overflow-y-auto">
+          {/* Header row matching the site header */}
+          <div className="flex items-center justify-between px-4 py-4 border-b border-[#1c2750]">
+            <a href="/" onClick={() => setOpen(false)} style={{
+              fontFamily: "var(--font-michroma, 'Michroma', sans-serif)",
+              fontSize: '24px',
+              letterSpacing: '0.1em',
+              color: '#ffffff',
+              textTransform: 'uppercase',
+              fontWeight: 400,
+            }}>
+              ELROCO
+            </a>
+            <button
+              onClick={() => setOpen(false)}
+              className="text-white/60 hover:text-white text-2xl leading-none outline-none"
+              aria-label="Close menu"
+            >
+              ✕
+            </button>
+          </div>
+
           <nav className="flex flex-col">
-            <a href="/" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">Home</a>
-            <a href="/saved-lists" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">My Garage</a>
+            <a href="/" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
+            <a href="/saved-lists" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">My Garage</a>
 
             {/* Vehicles collapsible */}
             <button
               onClick={() => setVehiclesOpen(!vehiclesOpen)}
-              className="flex items-center justify-between p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628] w-full text-left"
+              className="flex items-center justify-between p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750] w-full text-left"
             >
               <span>Vehicles</span>
               <span className={`text-xs transition-transform duration-200 ${vehiclesOpen ? "rotate-180" : ""}`}>▼</span>
             </button>
             {vehiclesOpen && (
-              <div className="border-b border-[#101628]">
+              <div className="border-b border-[#1c2750]">
                 {/* Popular makes */}
                 <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider">
                   Popular
@@ -58,20 +79,20 @@ export default function SideMenu({
                   <a
                     key={`popular-${make}`}
                     href={`/vehicles/${makeSlug(make)}`}
-                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#101628] border-b border-[#101628]/50"
+                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750] border-b border-[#1c2750]/50"
                   >
                     {make}
                   </a>
                 ))}
                 {/* All makes */}
-                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider border-t border-[#101628]">
+                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider border-t border-[#1c2750]">
                   All Makes
                 </div>
                 {MAKES.map((make) => (
                   <a
                     key={make}
                     href={`/vehicles/${makeSlug(make)}`}
-                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#101628] border-b border-[#101628]/50 last:border-b-0"
+                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750] border-b border-[#1c2750]/50 last:border-b-0"
                   >
                     {make}
                   </a>
@@ -79,16 +100,16 @@ export default function SideMenu({
               </div>
             )}
 
-            <a href="/decode" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">VIN &amp; Rego Decoder</a>
-            <a href="/categories" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">Categories</a>
-            <a href="/parts-guide" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">Parts Search</a>
-            <a href="/contact" className="p-4 border-b border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]">Contact</a>
+            <a href="/decode" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">VIN &amp; Rego Decoder</a>
+            <a href="/categories" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Categories</a>
+            <a href="/parts-guide" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Parts Search</a>
+            <a href="/contact" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Contact</a>
           </nav>
 
           <div className="mt-auto">
             <a
               href="/capture"
-              className="flex items-center gap-3 p-4 border-t border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]"
+              className="flex items-center gap-3 p-4 border-t border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
                 <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
@@ -98,7 +119,7 @@ export default function SideMenu({
             </a>
             <a
               href="/admin"
-              className="flex items-center gap-3 p-4 border-t border-[#101628] text-white/85 hover:text-white hover:bg-[#101628]"
+              className="flex items-center gap-3 p-4 border-t border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
                 <circle cx="7.5" cy="15.5" r="5.5" />
