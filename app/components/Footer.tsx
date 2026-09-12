@@ -82,38 +82,49 @@ export default function Footer() {
     <footer className="bg-[#02070d] text-white border-t border-[#1c2750]">
 
       {/* Top — logo + columns */}
-      <div className="relative border-b border-[#1c2750] bg-[#02070d] px-6 py-8">
+      <div className="border-b border-[#1c2750] bg-[#02070d] px-6 py-8">
 
-        {/* Logo — desktop only */}
+        {/* Mobile: logo above columns */}
         <a
           href="/"
           style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
-          className="hidden md:flex items-center md:absolute md:left-1/4 md:-translate-x-[150%] text-2xl tracking-widest uppercase text-white leading-none"
+          className="md:hidden block text-2xl tracking-widest uppercase text-white leading-none mb-8"
         >
           ELROCO
         </a>
 
-        {/* 2-col grid on mobile, 4-col row on desktop */}
-        <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:flex md:gap-10 md:pl-[25%]">
-          {COLUMNS.map((col) => (
-            <div key={col.heading}>
-              <p className="text-xs font-bold uppercase tracking-widest mb-3 text-white">
-                {col.heading}
-              </p>
-              <ul className="space-y-2">
-                {col.links.map((l) => (
-                  <li key={l.href}>
-                    <a
-                      href={l.href}
-                      className="text-sm text-white/50 hover:text-white transition-colors"
-                    >
-                      {l.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        {/* Desktop: logo left + columns right in a flex row */}
+        <div className="md:flex md:items-start md:gap-12">
+          <a
+            href="/"
+            style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)" }}
+            className="hidden md:block text-2xl tracking-widest uppercase text-white leading-none shrink-0 pt-1"
+          >
+            ELROCO
+          </a>
+
+          {/* 2-col on mobile, 4-col on desktop */}
+          <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-4 md:flex-1">
+            {COLUMNS.map((col) => (
+              <div key={col.heading}>
+                <p className="text-xs font-bold uppercase tracking-widest mb-3 text-white">
+                  {col.heading}
+                </p>
+                <ul className="space-y-2">
+                  {col.links.map((l) => (
+                    <li key={l.href}>
+                      <a
+                        href={l.href}
+                        className="text-sm text-white/50 hover:text-white transition-colors"
+                      >
+                        {l.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
