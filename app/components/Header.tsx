@@ -30,7 +30,7 @@ export default function Header() {
     <>
       <SideMenu open={menuOpen} setOpen={setMenuOpen} />
 
-      <header className="border-b border-[#1c2750] bg-[#02070d] text-white sticky top-0 z-50">
+      <header className="bg-[#02070d] text-white sticky top-0 z-50">
         <div className="relative flex w-full items-center px-4 py-4">
 
           {/* Mobile hamburger */}
@@ -81,7 +81,7 @@ export default function Header() {
 
               {vehiclesOpen && (
                 <div
-                  className="absolute left-0 top-full mt-0 bg-[#02070d] border border-[#1c2750] shadow-2xl z-[9999] w-72"
+                  className="absolute left-0 top-full mt-0 bg-[#02070d] shadow-2xl z-[9999] w-72"
                   onMouseEnter={openVehicles}
                   onMouseLeave={closeVehicles}
                 >
