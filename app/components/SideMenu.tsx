@@ -18,7 +18,7 @@ export default function SideMenu({
       {open && (
         <div
           onClick={() => setOpen(false)}
-          className="fixed inset-0 bg-black/30 z-40"
+          className="fixed inset-0 bg-black/30 z-[55]"
         />
       )}
 
@@ -31,7 +31,7 @@ export default function SideMenu({
             startX.current = null;
           }
         }}
-        className={`fixed left-0 top-0 h-full w-80 bg-[#02070d] text-white shadow-lg z-50 transform transition-transform duration-300 ${
+        className={`fixed left-0 top-0 h-full w-80 bg-[#02070d] text-white shadow-lg z-[60] transform transition-transform duration-300 ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
