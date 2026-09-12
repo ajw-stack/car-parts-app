@@ -36,28 +36,7 @@ export default function SideMenu({
         }`}
       >
         <div className="h-full flex flex-col overflow-y-auto">
-          {/* Header row matching the site header */}
-          <div className="flex items-center justify-between px-4 py-4 border-b border-[#1c2750]">
-            <a href="/" onClick={() => setOpen(false)} style={{
-              fontFamily: "var(--font-michroma, 'Michroma', sans-serif)",
-              fontSize: '24px',
-              letterSpacing: '0.1em',
-              color: '#ffffff',
-              textTransform: 'uppercase',
-              fontWeight: 400,
-            }}>
-              ELROCO
-            </a>
-            <button
-              onClick={() => setOpen(false)}
-              className="text-white/60 hover:text-white text-2xl leading-none outline-none"
-              aria-label="Close menu"
-            >
-              ✕
-            </button>
-          </div>
-
-          <nav className="flex flex-col">
+          <nav className="flex flex-col pt-2">
             <a href="/" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
             <a href="/saved-lists" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">My Garage</a>
 
