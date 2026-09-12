@@ -58,19 +58,19 @@ export default function SideMenu({
           </div>
 
           <nav className="flex flex-col">
-            <a href="/" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
-            <a href="/saved-lists" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">My Garage</a>
+            <a href="/" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
+            <a href="/saved-lists" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">My Garage</a>
 
             {/* Vehicles collapsible */}
             <button
               onClick={() => setVehiclesOpen(!vehiclesOpen)}
-              className="flex items-center justify-between p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750] w-full text-left"
+              className="flex items-center justify-between p-4 text-white/85 hover:text-white hover:bg-[#1c2750] w-full text-left"
             >
               <span>Vehicles</span>
               <span className={`text-xs transition-transform duration-200 ${vehiclesOpen ? "rotate-180" : ""}`}>▼</span>
             </button>
             {vehiclesOpen && (
-              <div className="border-b border-[#1c2750]">
+              <div>
                 {/* Popular makes */}
                 <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider">
                   Popular
@@ -79,20 +79,20 @@ export default function SideMenu({
                   <a
                     key={`popular-${make}`}
                     href={`/vehicles/${makeSlug(make)}`}
-                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750] border-b border-[#1c2750]/50"
+                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750]"
                   >
                     {make}
                   </a>
                 ))}
                 {/* All makes */}
-                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider border-t border-[#1c2750]">
+                <div className="pl-8 pr-4 py-1.5 text-xs font-semibold text-white/35 uppercase tracking-wider">
                   All Makes
                 </div>
                 {MAKES.map((make) => (
                   <a
                     key={make}
                     href={`/vehicles/${makeSlug(make)}`}
-                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750] border-b border-[#1c2750]/50 last:border-b-0"
+                    className="block pl-8 pr-4 py-2.5 text-sm text-white/70 hover:text-white hover:bg-[#1c2750]"
                   >
                     {make}
                   </a>
@@ -100,16 +100,16 @@ export default function SideMenu({
               </div>
             )}
 
-            <a href="/decode" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">VIN &amp; Rego Decoder</a>
-            <a href="/categories" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Categories</a>
-            <a href="/parts-guide" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Parts Search</a>
-            <a href="/contact" className="p-4 border-b border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]">Contact</a>
+            <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN &amp; Rego Decoder</a>
+            <a href="/categories" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Categories</a>
+            <a href="/parts-guide" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Parts Search</a>
+            <a href="/contact" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Contact</a>
           </nav>
 
-          <div className="mt-auto">
+          <div className="mt-auto border-t border-[#1c2750]">
             <a
               href="/capture"
-              className="flex items-center gap-3 p-4 border-t border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]"
+              className="flex items-center gap-3 p-4 text-white/85 hover:text-white hover:bg-[#1c2750]"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
                 <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
@@ -119,7 +119,7 @@ export default function SideMenu({
             </a>
             <a
               href="/admin"
-              className="flex items-center gap-3 p-4 border-t border-[#1c2750] text-white/85 hover:text-white hover:bg-[#1c2750]"
+              className="flex items-center gap-3 p-4 text-white/85 hover:text-white hover:bg-[#1c2750]"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
                 <circle cx="7.5" cy="15.5" r="5.5" />
