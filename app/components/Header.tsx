@@ -45,7 +45,7 @@ export default function Header() {
           <a href="/" className="flex items-center shrink-0 ml-8 md:absolute md:left-1/4 md:-translate-x-[150%] md:ml-0">
             <span style={{
               fontFamily: "var(--font-michroma, 'Michroma', sans-serif)",
-              fontSize: '22px',
+              fontSize: '24px',
               letterSpacing: '0.1em',
               color: '#ffffff',
               textTransform: 'uppercase',
