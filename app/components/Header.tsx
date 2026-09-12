@@ -36,13 +36,13 @@ export default function Header() {
           {/* Mobile hamburger */}
           <button
             onClick={() => setMenuOpen(true)}
-            className="md:hidden text-white text-xl cursor-pointer hover:text-[#CC0000] outline-none shrink-0"
+            className="lg:hidden text-white text-xl cursor-pointer hover:text-[#CC0000] outline-none shrink-0"
           >
             ☰
           </button>
 
           {/* Logo — mobile: centred; desktop: left edge */}
-          <a href="/" className="flex items-center shrink-0 absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-auto">
+          <a href="/" className="flex items-center shrink-0 absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 lg:left-auto">
             <span style={{
               fontFamily: "var(--font-michroma, 'Michroma', sans-serif)",
               fontSize: '24px',
@@ -56,7 +56,7 @@ export default function Header() {
           </a>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
+          <nav className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
 
             {/* Home */}
             <a
