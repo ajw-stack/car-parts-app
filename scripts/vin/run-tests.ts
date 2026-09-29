@@ -4,7 +4,7 @@
 // 2) Every VIN in fixtures.json (researched, with a known description) must also match the
 //    expected make, model/series keyword and model year where the fixture states them.
 import { readFileSync, existsSync } from "node:fs";
-import { decodeVinPositions } from "../../app/lib/vin/engine.ts";
+import { decodeVinPositions } from "../../app/lib/vin/engine";
 
 const verbose = process.argv.includes("--verbose");
 const here = new URL(".", import.meta.url);

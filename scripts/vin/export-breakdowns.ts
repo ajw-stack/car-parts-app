@@ -2,7 +2,7 @@
 // (consumed by build-spreadsheet.py). Usage:
 //   node --import ./scripts/vin/register.mjs scripts/vin/export-breakdowns.ts out.json
 import { readFileSync, writeFileSync } from "node:fs";
-import { decodeVinPositions } from "../../app/lib/vin/engine.ts";
+import { decodeVinPositions } from "../../app/lib/vin/engine";
 
 const here = new URL(".", import.meta.url);
 const user = readFileSync(new URL("user-vins.txt", here), "utf8").split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
