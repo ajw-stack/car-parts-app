@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseServer } from "../../../lib/supabaseServer";
-import { decodeVin } from "../../../lib/vinDecoder";
+import { decodeVin, vehicleFromBreakdown } from "../../../lib/vinDecoder";
+import { decodeVinPositions } from "../../../lib/vin/engine";
 import { vinFingerprint } from "../../../lib/vinFingerprint";
 import type { DecodeResult } from "../../../lib/vin/types";
 
@@ -21,6 +22,10 @@ export async function GET(req: NextRequest) {
     .eq("fingerprint", fp)
     .maybeSingle();
 
+  // The position breakdown is local and instant, so it is always recomputed (the cache
+  // is keyed on positions 1–8 + 10 and cannot hold a VIN-specific serial).
+  const breakdown = decodeVinPositions(vin);
+
   if (cached?.raw_json) {
     supabaseServer
       .from("vehicle_patterns")
@@ -28,13 +33,16 @@ export async function GET(req: NextRequest) {
       .eq("fingerprint", fp)
       .then(() => {});
 
-    return NextResponse.json<DecodeResult>({ ok: true, vehicle: { ...cached.raw_json, vin } });
+    // Local rules win over whatever the cached vPIC-era record says.
+    const local = vehicleFromBreakdown(breakdown);
+    const merged = { ...cached.raw_json, ...Object.fromEntries(Object.entries(local).filter(([, v]) => v != null)), vin };
+    return NextResponse.json<DecodeResult>({ ok: true, vehicle: merged, breakdown });
   }
 
   // Cache miss — decode via NHTSA
   const result = await decodeVin(vin);
   if (!result.ok || !result.vehicle) {
-    return NextResponse.json<DecodeResult>({ ok: false, error: result.error }, { status: 422 });
+    return NextResponse.json<DecodeResult>({ ok: false, error: result.error, breakdown: result.breakdown }, { status: 422 });
   }
 
   // Store in patterns cache (fire-and-forget)

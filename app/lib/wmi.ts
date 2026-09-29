@@ -1,4 +1,5 @@
-// World Manufacturer Identifier lookup
+// World Manufacturer Identifier lookup (VIN positions 1–3).
+// Per-manufacturer decoding of positions 4–17 lives in app/lib/vin/makes/.
 // Source: https://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)/World_Manufacturer_Identifier_(WMI)
 
 const WMI_MAP: Record<string, string> = {
@@ -8,7 +9,7 @@ const WMI_MAP: Record<string, string> = {
   // Japan
   JA3: "Mitsubishi", JA4: "Mitsubishi", JA: "Isuzu", JD: "Daihatsu",
   JF: "Subaru", JH: "Honda", JHM: "Honda car", JK: "Kawasaki", JL5: "Mitsubishi Fuso",
-  JMB: "Mitsubishi Motors", JM0: "Mazda (Oceania export)", JMY: "Mitsubishi Motors", JMZ: "Mazda",
+  JMB: "Mitsubishi Motors", JMF: "Mitsubishi Motors (export)", JM0: "Mazda (Oceania export)", JMY: "Mitsubishi Motors", JMZ: "Mazda",
   JN: "Nissan", JN1: "Nissan / Infiniti", JS: "Suzuki",
   JT: "Toyota", JTD: "Toyota car", JTE: "Toyota MPV/SUV", JTM: "Toyota SUV", JY: "Yamaha",
   // Korea
@@ -17,7 +18,7 @@ const WMI_MAP: Record<string, string> = {
   KN: "Kia", KNA: "Kia car", KNC: "Kia truck/commercial", KNM: "Renault Samsung",
   KPA: "SsangYong", KPT: "SsangYong/KGM SUV/MPV (export)",
   // China
-  LAN: "Changzhou Yamasaki", LBB: "Keeway / Generic", LBE: "Beijing Hyundai",
+  LGW: "Great Wall Motor", LAN: "Changzhou Yamasaki", LBB: "Keeway / Generic", LBE: "Beijing Hyundai",
   LBM: "Zongshen Piaggio", LBP: "Chongqing Jianshe Yamaha", LB2: "Geely",
   LDC: "Dong Feng Peugeot Citroën", LFP: "FAW", LFV: "FAW-Volkswagen",
   LGB: "Dongfeng", LGH: "Qoros", LGX: "BYD Auto",
@@ -35,8 +36,8 @@ const WMI_MAP: Record<string, string> = {
   MC2: "Volvo Eicher", MDH: "Nissan India", MD2: "Bajaj Auto",
   MEE: "Renault India", MEX: "Volkswagen India",
   // Indonesia / Thailand
-  MHF: "Toyota Indonesia", MHR: "Honda Indonesia", MLC: "Suzuki Thailand",
-  MLH: "Honda Thailand", MMB: "Mitsubishi Thailand", MMC: "Mitsubishi Thailand",
+  MHF: "Toyota Indonesia", MHR: "Honda Indonesia", MHB: "Nissan Indonesia", MLC: "Suzuki Thailand",
+  MLH: "Honda Thailand", MMA: "Mitsubishi Thailand", MMB: "Mitsubishi Thailand", MMC: "Mitsubishi Thailand",
   MMT: "Mitsubishi Thailand", MM0: "Mazda Thailand", MM8: "Mazda Thailand",
   MNA: "Ford Thailand (Aus/NZ)", MNB: "Ford Thailand", MNT: "Nissan Thailand",
   MPA: "Isuzu Thailand", MRH: "Honda Thailand", MR0: "Toyota Thailand",
@@ -116,14 +117,14 @@ const WMI_MAP: Record<string, string> = {
   "1G1": "Chevrolet", "1G2": "Pontiac", "1G3": "Oldsmobile",
   "1G4": "Buick", "1G6": "Cadillac", "1G8": "Saturn",
   "1GM": "Pontiac", "1GY": "Cadillac",
-  "1HD": "Harley-Davidson", "1J4": "Jeep",
+  "1HD": "Harley-Davidson", "1J4": "Jeep", "1J8": "Jeep", "1C4": "Jeep / Chrysler (FCA US)",
   "1ME": "Mercury", "1N": "Nissan USA", "1NX": "NUMMI",
   "1P3": "Plymouth", "1VW": "Volkswagen USA",
   "1YV": "Mazda USA", "1ZV": "Ford AutoAlliance",
   "4F": "Mazda USA", "4JG": "Mercedes-Benz USA",
   "4T": "Toyota USA", "4US": "BMW USA",
   "5F": "Honda USA", "5L": "Lincoln",
-  "5N1": "Nissan USA", "5NP": "Hyundai USA",
+  "5N1": "Nissan USA", "5TD": "Toyota USA (SUV)", "5NP": "Hyundai USA",
   "5T": "Toyota USA (Trucks)", "5YJ": "Tesla",
   // Canada
   "2A4": "Chrysler Canada", "2B3": "Dodge Canada",
@@ -164,123 +165,22 @@ export function lookupWMI(vin: string): string | null {
   return WMI_MAP[w3] ?? WMI_MAP[w2] ?? null;
 }
 
-/**
- * Return the country of manufacture derived from the VIN prefix.
- * Uses ordered 2-char / 3-char rules per ISO 3779; more specific prefixes
- * (NZ vs AU within the 6/7 block) take priority over broader single-char rules.
- */
+import { countryOf } from "./vin/regions";
+
+/** Country of manufacture from VIN positions 1–2 (ISO 3779). Empty string when not listed. */
 export function getCountryOfManufacture(vin: string): string {
-  const v = vin.toUpperCase();
-  const c1 = v[0];
-  const c2 = v[1];
-  const c1c2 = v.slice(0, 2);
-  const c1c3 = v.slice(0, 3);
-  if (c1 === "J") return "Japan";
-  if (c1 === "K") return "South Korea";
-  if (c1c2 === "6Y" || c1c2 === "61") return "New Zealand";
-  if (c1 === "6") return "Australia";
-  if (c1 === "7" && c2 >= "A" && c2 <= "E") return "New Zealand";
-  if (c1 === "7" && ((c2 >= "F" && c2 <= "Z") || c2 === "0")) return "United States";
-  if (c1 === "1" || c1 === "4" || c1 === "5") return "United States";
-  if (c1 === "2") return "Canada";
-  if (c1 === "3") return "Mexico";
-  if (c1 === "W") return "Germany";
-  if (c1 === "S" && c2 >= "A" && c2 <= "M") return "United Kingdom";
-  if (c1 === "S" && c2 >= "U" && c2 <= "Z") return "Poland";
-  if (c1 === "V" && c2 >= "F" && c2 <= "R") return "France";
-  if (c1 === "V" && c2 >= "S" && c2 <= "W") return "Spain";
-  if (c1 === "V" && c2 >= "A" && c2 <= "E") return "Austria";
-  if (c1 === "L") return "China";
-  if (c1 === "M" && c2 >= "A" && c2 <= "E") return "India";
-  if (c1 === "M" && c2 >= "F" && c2 <= "K") return "Indonesia";
-  if (c1 === "M" && c2 >= "L" && c2 <= "R") return "Thailand";
-  if (c1 === "Y" && c2 >= "S" && c2 <= "W") return "Sweden";
-  if (c1 === "Y" && c2 >= "A" && c2 <= "E") return "Belgium";
-  if (c1 === "T" && c2 >= "J" && c2 <= "P") return "Czech Republic";
-  if (c1 === "U" && ["5", "6", "7"].includes(c2)) return "Slovakia";
-  if (c1 === "A" && c2 >= "A" && c2 <= "H") return "South Africa";
-  if (c1 === "P" && c2 >= "L" && c2 <= "R") return "Malaysia";
-  if (c1 === "N" && c2 >= "L" && c2 <= "R") return "Turkey";
-  if (c1 === "X" && c2 >= "L" && c2 <= "R") return "Netherlands";
-  if (c1c3 === "9FB") return "Colombia";
-  if (c1 === "8" && c2 >= "A" && c2 <= "E") return "Argentina";
-  if (c1 === "9") return "Brazil";
-  if (c1 === "Z") return "Italy";
-  return "";
+  return countryOf(vin);
 }
 
-/** Return the serial number portion of a VIN (characters 12–17, positions 11–16). */
+/** Serial number portion of a VIN (positions 12–17). */
 export function getSerialNumber(vin: string): string {
   if (vin.length !== 17) return "";
   return vin.slice(11, 17);
 }
 
-// Rule 3a/3b: assembly plant by WMI + character 11.
-// Only confirmed entries are listed — blank for anything else.
-const ASSEMBLY_PLANT: Record<string, Record<string, string>> = {
-  "6G1": { L: "Elizabeth, SA" },
-  "6H8": { L: "Elizabeth, SA" },
-};
-
-/**
- * Decode the assembly plant from character 11 of the VIN.
- * Currently confirmed for WMI 6G1 and 6H8 (GM Holden).
- * Returns an empty string for any unconfirmed WMI or plant code.
- */
-export function getAssemblyPlant(vin: string): string {
-  const wmi = vin.slice(0, 3).toUpperCase();
-  const char11 = vin[10]?.toUpperCase();
-  if (!char11) return "";
-  return ASSEMBLY_PLANT[wmi]?.[char11] ?? "";
-}
-
-// WMI-specific character-4 model/series maps.
-// Only add entries here once the mapping is confirmed for that WMI —
-// the same character position means something different across WMIs.
-const MODEL_SERIES_6G1: Record<string, string> = {
-  P: "Cruze",
-  E: "VE",
-  Z: "VZ",
-  Y: "VY",
-  F: "VF",
-};
-
-/**
- * Decode the model/series from character 4 of the VIN.
- * Currently only implemented for WMI 6G1 (GM Holden, post-Nov 2002).
- * Returns an empty string for any WMI where the mapping is unconfirmed,
- * or for any character 4 not in the confirmed map.
- */
-export function getModelSeries(vin: string): string {
-  const wmi = vin.slice(0, 3).toUpperCase();
-  const char4 = vin[3]?.toUpperCase();
-  if (!char4) return "";
-  if (wmi === "6G1") return MODEL_SERIES_6G1[char4] ?? "";
-  return "";
-}
-
-// 6G1 Cruze (char4=P): char5 trim/luxury tier.
-// D = base; E = above-base (five different badges share this code — no single name returned).
-const CRUZE_TRIM_LEVEL_6G1: Record<string, string> = {
-  D: "Equipe / CD",
-  E: "CDX / SRi / SRi-V / Z-Series / SRi Z-Series",
-};
-
-/**
- * Decode the trim/luxury tier from character 5 of the VIN.
- * Only applies to 6G1 Cruze VINs (WMI=6G1, char4=P).
- * Returns an empty string for any other vehicle or unconfirmed char5.
- */
-export function getCruzeTrimLevel(vin: string): string {
-  const wmi = vin.slice(0, 3).toUpperCase();
-  const char4 = vin[3]?.toUpperCase();
-  const char5 = vin[4]?.toUpperCase();
-  if (wmi !== "6G1" || char4 !== "P" || !char5) return "";
-  return CRUZE_TRIM_LEVEL_6G1[char5] ?? "";
-}
-
-/** Return country of manufacture from VIN prefix (null if unrecognised). */
+/** Country of manufacture from the VIN prefix (null if unrecognised). */
 export function vinCountry(vin: string): string | null {
-  const c = getCountryOfManufacture(vin);
-  return c || null;
+  return countryOf(vin) || null;
 }
+
+// Holden per-position tables (6H8, 6G1, ZB) moved to app/lib/vin/makes/holden.ts.

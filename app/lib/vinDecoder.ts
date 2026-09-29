@@ -1,100 +1,88 @@
-import { lookupWMI, getCountryOfManufacture, getSerialNumber, getModelSeries, getCruzeTrimLevel, getAssemblyPlant } from "./wmi";
+// VIN decode: Elroco's own position-by-position rules first (Australian-market VINs),
+// then the US NHTSA vPIC service to fill gaps — useful mainly for North-American-built
+// vehicles (Jeep, Mustang, Chrysler 300, US-built Nissan/Honda). Where both answer, the
+// local rule wins: vPIC has no data for most Japanese, Thai or Australian-built VINs.
+
+import { lookupWMI } from "./wmi";
+import { decodeVinPositions, type VinBreakdown } from "./vin/engine";
 import type { DecodedVehicle, DecodeResult } from "./vin/types";
 
-const CORE_FIELDS = ["Make","Model","ModelYear","BodyClass","EngineCylinders","FuelTypePrimary"] as const;
+type Nhtsa = (key: string) => string | null;
 
-function scoreConfidence(val: (k: string) => string | null, make: string | null, model: string | null): "high" | "partial" | "low" {
-  const filled = CORE_FIELDS.filter((f) => val(f)).length;
-  // If overrides resolved make+model, treat as at least partial
-  if (make && model && filled >= 2) return "high";
-  if (filled >= 5) return "high";
-  if (filled >= 3) return "partial";
-  if (make && model) return "partial";
+async function fetchNhtsa(vin: string): Promise<Nhtsa | null> {
+  try {
+    const res = await fetch(
+      `https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValuesExtended/${vin}?format=json`,
+      { signal: AbortSignal.timeout(8_000), cache: "no-store" },
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    const r: Record<string, string> = data?.Results?.[0] ?? {};
+    return (key: string) => {
+      const v = r[key];
+      return v && v !== "0" && v !== "Not Applicable" && v.trim() !== "" ? v.trim() : null;
+    };
+  } catch {
+    return null;
+  }
+}
+
+// vPIC only has real data for VINs built to the North American layout.
+function nhtsaUseful(vin: string): boolean {
+  return /^[1-5]/.test(vin) || (vin.startsWith("7") && !/^7[A-E]/.test(vin));
+}
+
+function confidenceOf(v: DecodedVehicle): "high" | "partial" | "low" {
+  const core = [v.make, v.model, v.year, v.bodyClass, v.engineDisplacementL].filter(Boolean).length;
+  if (core >= 4) return "high";
+  if (core >= 2) return "partial";
   return "low";
 }
 
-// ─── Main decode ───────────────────────────────────────────────────────────────
+/** Build the vehicle record from a breakdown, optionally topped up with vPIC fields. */
+export function vehicleFromBreakdown(bd: VinBreakdown, nh: Nhtsa | null = null): DecodedVehicle {
+  const s = bd.summary;
+  const wmiName = lookupWMI(bd.vin);
+  const nhYear = nh?.("ModelYear");
+  const v: DecodedVehicle = {
+    vin: bd.vin,
+    year: s.modelYear ?? (nhYear ? parseInt(nhYear, 10) : null),
+    make: s.make ?? nh?.("Make") ?? (wmiName ? wmiName.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "").trim() : null),
+    model: s.model ?? nh?.("Model") ?? null,
+    trim: nh?.("Trim") ?? nh?.("Series") ?? null,
+    bodyClass: s.body ?? nh?.("BodyClass") ?? null,
+    engineCylinders: s.engineCylinders ?? nh?.("EngineCylinders") ?? null,
+    engineDisplacementL: s.engineLitres ?? nh?.("DisplacementL") ?? null,
+    fuelType: s.fuel ?? nh?.("FuelTypePrimary") ?? null,
+    transmission: s.transmission ?? nh?.("TransmissionStyle") ?? null,
+    driveType: s.drive ?? nh?.("DriveType") ?? null,
+    manufacturer: s.manufacturer ?? nh?.("Manufacturer") ?? null,
+    plantCountry: nh?.("PlantCountry") ?? null,
+    countryOfManufacture: s.country,
+    serialNumber: s.serial,
+    modelSeries: s.series,
+    trimLevel: s.trim,
+    assemblyPlant: s.plant,
+    source: "nhtsa",
+    confidence: "low",
+    rawErrors: null,
+  };
+  v.confidence = confidenceOf(v);
+  return v;
+}
 
 export type DecodeVinResult = DecodeResult;
 
 export async function decodeVin(rawVin: string): Promise<DecodeResult> {
-  const vin = rawVin.trim().toUpperCase();
+  const bd = decodeVinPositions(rawVin);
+  if (!bd.valid) return { ok: false, error: bd.error ?? "Could not decode this VIN." };
 
-  let res: Response;
-  try {
-    res = await fetch(
-      `https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValuesExtended/${vin}?format=json`,
-      { signal: AbortSignal.timeout(10_000), cache: "no-store" },
-    );
-  } catch {
-    return { ok: false, error: "Decode service unreachable. Try again." };
+  // Ask vPIC for North-American-layout VINs, and for any VIN the local rules could not name a model for.
+  const nh = nhtsaUseful(bd.vin) || !bd.summary.model ? await fetchNhtsa(bd.vin) : null;
+  const vehicle = vehicleFromBreakdown(bd, nh);
+
+  if (!vehicle.make && !bd.summary.country) {
+    return { ok: false, error: "This VIN's manufacturer code is not recognised.", breakdown: bd };
   }
-
-  if (!res.ok) return { ok: false, error: `Decode service error (${res.status}).` };
-
-  const data = await res.json();
-  const r: Record<string, string> = data?.Results?.[0] ?? {};
-
-  const val = (key: string): string | null => {
-    const v = r[key];
-    return v && v !== "0" && v !== "Not Applicable" && v.trim() !== "" ? v.trim() : null;
-  };
-
-  const errorText  = val("ErrorText");
-  const errorCodes = (r.ErrorCode ?? "0").split(";").map((s) => s.trim());
-  const fatalCodes = errorCodes.filter((c) => !["0","1","5","6","8","14","400"].includes(c));
-
-  // ── Base fields from NHTSA ────────────────────────────────────────────────
-  const rawWmi = lookupWMI(vin);
-  const wmiMake = rawWmi ? rawWmi.replace(/\s*\(.*?\)/g, "").replace(/\s*\/.*$/, "").trim() : null;
-
-  let make         = val("Make") ?? wmiMake;
-  let model        = val("Model");
-  let trim         = val("Trim") ?? val("Series");
-  let bodyClass    = val("BodyClass");
-  let plantCountry = val("PlantCountry");
-
-  // ── Holden overrides (WMI 6G1) ────────────────────────────────────────────
-  if (vin.startsWith("6G1")) {
-    make = "Holden";
-  }
-
-  // ── Fail only if completely unidentifiable ────────────────────────────────
-  if (!make && fatalCodes.length > 0) {
-    return { ok: false, error: errorText ?? "Could not decode this VIN." };
-  }
-
-  const confidence = scoreConfidence(val, make, model);
-
-  // Surface non-zero NHTSA notes as warnings (e.g. check digit issues on EU VINs)
-  const warnCodes = errorCodes.filter((c) => !["0"].includes(c));
-  const rawErrors = warnCodes.length > 0 ? errorText : null;
-
-  const year = val("ModelYear") ? parseInt(val("ModelYear")!, 10) : null;
-
-  const vehicle: DecodedVehicle = {
-    vin,
-    year,
-    make,
-    model,
-    trim,
-    bodyClass,
-    engineCylinders:     val("EngineCylinders"),
-    engineDisplacementL: val("DisplacementL"),
-    fuelType:            val("FuelTypePrimary"),
-    transmission:        val("TransmissionStyle"),
-    driveType:           val("DriveType"),
-    manufacturer:        val("Manufacturer"),
-    plantCountry,
-    countryOfManufacture: getCountryOfManufacture(vin) || null,
-    serialNumber:         getSerialNumber(vin) || null,
-    modelSeries:          getModelSeries(vin) || null,
-    trimLevel:            getCruzeTrimLevel(vin) || null,
-    assemblyPlant:        getAssemblyPlant(vin) || null,
-    source:              "nhtsa",
-    confidence,
-    rawErrors,
-  };
-
-  return { ok: true, vehicle };
+  return { ok: true, vehicle, breakdown: bd };
 }

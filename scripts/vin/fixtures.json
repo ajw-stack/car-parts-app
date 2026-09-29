@@ -1,0 +1,1843 @@
+[
+ {
+  "vin": "6H8VNL19ULL454388",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/1990-holden-vn-commodore-6h8vnl19ull454388-WNVQ2dW/ (title: '1990 Holden VN Commodore') — decoded via local Commodore VIN Decoder so",
+  "model": "Commodore",
+  "year": 1990,
+  "description": "Commodore VN Sedan 5.0L V8 (5000 EFI, engine code U) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VNL19UML476858",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/1990-holden-hsv-commodore-vn-ss-group-a-6h8vnl19uml476858-4agm3xW/ — note listing year (1990) and VIN year-code (M=1991) disagree; f",
+  "model": "Commodore",
+  "year": 1990,
+  "description": "Commodore (HSV SS Group A) VN Sedan 5.0L V8 (engine code U) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VNK19UML499085",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/1991-holden-vn-commodore-bt1-hsv-ss-group-a-tribut-6h8vnk19uml499085-n1kaYVp/ — VIN itself decodes as a standard VN SS (K), the 'HSV",
+  "model": "Commodore",
+  "year": 1991,
+  "description": "Commodore (labelled 'BT1 – HSV SS Group A Tribute', i.e. a replica/tribute, not a genuine factory HSV) VN Sedan 5.0L V8 (engine code U) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VSK19HVL227031",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/1997-holden-commodore-esteem-6h8vsk19hvl227031-n3y6Qbp/",
+  "model": "Commodore",
+  "year": 1997,
+  "description": "Commodore Esteem (Executive-based special edition) VS Sedan 3.8L Ecotec V6 (engine code H, 147kW) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VSK80UVL241819",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/1997-vauxhall-holden-commodore-v8-ute-6h8vsk80uvl241819-pz17wMW/",
+  "model": "Commodore",
+  "year": 1997,
+  "description": "Commodore VS Ute 5.0L V8 (engine code U) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VXK69F1L748800",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/2001-holden-commodore-vx-ss-6h8vxk69f1l748800-n1kogVp/ and https://www.hagerty.com/valuation-tools/past-sales/2001-holden-commodore/",
+  "model": "Commodore",
+  "year": 2001,
+  "description": "Commodore SS VX Sedan 5.7L Gen III V8 (LS1, engine code F) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8VXK69F2L798053",
+  "make": "Holden",
+  "source": "https://www.classic.com/veh/2001-holden-commodore-hsv-vx-clubsport-6h8vxk69f2l798053-p0PL03p/",
+  "model": "Commodore",
+  "year": 2002,
+  "description": "Commodore (HSV Clubsport) VX (Series II, VIN year-code 2=2002) Sedan 5.7L Gen III V8 (LS1, engine code F) N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "6H8V2K37R2L871049",
+  "make": "Holden",
+  "source": "Coordinator-supplied VIN; decoded using local Commodore VIN Decoder source + https://en.wikipedia.org/wiki/Holden_Monaro (confirms V2=Monaro model code, CV6=3.8",
+  "model": "Monaro",
+  "year": 2002,
+  "description": "Monaro CV6 (model code V2, luxury/tier code K) V2 (2001-06 Monaro coupe generation) Coupe (body code 37) 3.8L Supercharged V6 (engine code R — not in the sourced 6H8 engine table, inferred as the Mona",
+  "user_supplied": true
+ },
+ {
+  "vin": "6H8V2X37F2L955123",
+  "make": "Holden",
+  "source": "Coordinator-supplied VIN; decoded using local Commodore VIN Decoder source + https://en.wikipedia.org/wiki/Holden_Monaro",
+  "model": "Monaro",
+  "year": 2002,
+  "description": "Monaro CV8 (model code V2, luxury/tier code X) V2 (2001-06 Monaro coupe generation) Coupe (body code 37) 5.7L Gen III V8 (LS1, engine code F — matches sourced table exactly) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1YK43A83L960027",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; decoded using local Commodore VIN Decoder source (VY-WM section)",
+  "model": "Commodore",
+  "year": 2003,
+  "description": "Commodore Executive Ute VY Ute 3.8L Ecotec V6 (engine code A) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1EX55H99L182172",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; restraint code position (7='5') is the one value in the sourced table marked '?' by the source itself — flagged uncertain",
+  "model": "Commodore",
+  "year": 2009,
+  "description": "Commodore Calais VE Sedan 6.0L V8 L98 (engine code H, 270kW) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1ZK34FX5L534612",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2005,
+  "description": "Commodore Executive Crewman (4-door ute) VZ Crewman (4-door ute, body code 3) 5.7L Gen III V8 (engine code F) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1YX54F74L184654",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "model": "Commodore",
+  "year": 2004,
+  "description": "Commodore Calais VY (Series II) Sedan 5.7L Gen III V8 (engine code F) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1ZK42F15L342147",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "model": "Commodore",
+  "year": 2005,
+  "description": "Commodore Executive Ute VZ Ute 5.7L Gen III V8 (engine code F) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1FE5EWXHL330725",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN — matches known VF II SS-V Redline LS3 spec and Elizabeth plant closure timeframe (Oct 2017)",
+  "model": "Commodore",
+  "year": 2017,
+  "description": "Commodore SS V Redline VF (Series II) Sedan 6.2L V8 LS3 (engine code W, 2015-17) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PD5EM2EL012065",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; model=Cruze and plant=Elizabeth are the only high-confidence fields, per the 6G1 structure notes",
+  "year": 2014,
+  "description": "Cruze (sedan inferred from body code 5) JG/JH Sedan (body code 5, inferred by analogy to Commodore table) Unconfirmed (engine-position code M not in any sourced table) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PD6EM9FL122991",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2015,
+  "description": "Cruze (hatch inferred from body code 6) JH Hatch (body code 6, inferred) Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PE6EN9GL201505",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2016,
+  "description": "Cruze (hatch inferred) JH Hatch (body code 6, inferred) Unconfirmed (engine-position code N) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PE5E53DL826813",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2013,
+  "description": "Cruze (sedan inferred) JG/JH Sedan (body code 5, inferred) Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PD5E59DL823255",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2013,
+  "description": "Cruze (sedan inferred) JG/JH Sedan (body code 5, inferred) Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6G1PE6E56CL623984",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN",
+  "year": 2012,
+  "description": "Cruze (hatch inferred) JH Hatch (body code 6, inferred) Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KL3MF48D9BC613389",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; plant code C=Changwon confirmed via local vincards source",
+  "year": 2011,
+  "description": "Unconfirmed — model letter D at position 4 not matched to any Holden nameplate (candidates: Barina, Captiva, Trax, all Korean-built) Unknown Unconfirmed Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KL3JA695JAK764361",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; plant code K inferred as Gunsan (Wikipedia-confirmed Cruze production site), NOT directly sourced",
+  "year": 2010,
+  "description": "Cruze (model letter J inferred as JG chassis code) JG Unconfirmed Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KL3DA26U9EB061103",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; plant code B=Bupyeong confirmed via local vincards source",
+  "year": 2014,
+  "description": "Unconfirmed — model letter D Unknown Unconfirmed Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KL3JA35MJGK344923",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; plant code K inferred as Gunsan, NOT directly sourced",
+  "year": 2016,
+  "description": "Cruze (model letter J inferred, likely Series II/JH facelift given late model year) JH Unconfirmed Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KL3JA695JAK771350",
+  "make": "Holden",
+  "source": "Coordinator-supplied real VIN; same prefix as KL3JA695JAK764361, different serial — a second real vehicle",
+  "year": 2010,
+  "description": "Cruze (model letter J inferred) JG Unconfirmed Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "6FPAAAJGCM8E95922",
+  "make": "Ford",
+  "source": "https://www.classic.com/veh/2008-ford-falcon-xr8-fg-ute-6fpaaajgcm8e95922-4A8a93p/ — VIN decode (plant G=Broadmeadows, body CM=Ute, year-digit 8=2008, month E=A",
+  "model": "Falcon",
+  "year": 2008,
+  "description": "Falcon XR8 Ute FG Ute (Commercial, body code CM) N/A Manual (per listing) April 2008",
+  "user_supplied": false
+ },
+ {
+  "vin": "6FPAAAJGSW2T49345",
+  "make": "Ford",
+  "source": "Classic.com listing '2002 Ford Falcon XR6 VCT AU III' — VIN decode (year-digit 2=2002) matches listing exactly",
+  "model": "Falcon",
+  "year": 2002,
+  "description": "Falcon XR6 VCT AU III Sedan (body code SW) 4.0L VCT inline-6 N/A August 2002",
+  "user_supplied": false
+ },
+ {
+  "vin": "6FPAAAJL0MSJ13675",
+  "make": "Ford",
+  "source": "https://www.classic.com/veh/1995-ford-falcon-xr6-ute-6fpaaajl0msj13675-p6zEd3p/ — plant code position shows L instead of G, body-code position does not match an",
+  "model": "Falcon",
+  "year": 1995,
+  "description": "Falcon XR6 Ute (pre-AU-series, likely ED generation) Unconfirmed (classic.com labels '1995', which fits ED, 1993-96) Ute (inferred from listing, VIN body-position 'OM' does not match the SW/WA/CM/LW e",
+  "user_supplied": false
+ },
+ {
+  "vin": "6FPAAAJGCM9B48140",
+  "make": "Ford",
+  "source": "Coordinator-supplied real VIN; no listing page found/fetchable — year and month inferred purely from position decode, not independently confirmed",
+  "model": "Falcon",
+  "year": 2009,
+  "description": "Falcon Ute BF or FG (year-digit 9 = 2009 inferred; FG launched Feb 2008, so most likely FG) Ute (Commercial, body code CM) N/A N/A September 2009 (inferred, month code B)",
+  "user_supplied": true
+ },
+ {
+  "vin": "6FPAAAJGSWRG66727",
+  "make": "Ford",
+  "source": "Coordinator-supplied real VIN; year field unresolved",
+  "model": "Falcon",
+  "description": "Falcon (sedan, body code SW) Unconfirmed — FG or FG X inferred from letter year-code 'R' (2010+ era) Sedan (body code SW) N/A N/A December (inferred, month code G, Set A)",
+  "user_supplied": true
+ },
+ {
+  "vin": "6FPAAAJGATEU65159",
+  "make": "Ford",
+  "source": "Coordinator-supplied real VIN — flagged unresolved rather than guessed",
+  "description": "UNRESOLVED — body-code position 'AT' does not match the sourced Falcon SW/WA/CM/LW enum. Best hypothesis: Ford Territory (SX/SY/SZ), which shares the 6FP WMI and JG (Broadmeadows) plant signature with",
+  "user_supplied": true
+ },
+ {
+  "vin": "9BFJW20Z56B034791",
+  "make": "Ford",
+  "source": "NHTSA vPIC decodevinvalues API — https://vpic.nhtsa.dot.gov/api/vehicles/decodevinvalues/9BFJW20Z56B034791 confirms Make=FORD, Manufacturer=Ford Motor Company B",
+  "year": 2006,
+  "description": "Unconfirmed light truck (NHTSA VehicleType=TRUCK) — likely the Fiesta-based Ford Courier compact pickup, Brazil market only N/A Truck/Ute (NHTSA-confirmed VehicleType only, no specific model) N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MNAUMFF50GW630112",
+  "make": "Ford",
+  "source": "Coordinator-supplied real VIN, pre-identified in the task brief as a Thai PX Ranger. WMI MNA confirmed as Thailand-origin; field-level VDS not sourced",
+  "year": 2016,
+  "description": "Ranger (Thai-built, PX MkII/PX2 inferred from 2016 model year) PX2 Unconfirmed cab/body variant Unconfirmed N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "1C4HJWKG8JL818329",
+  "make": "Jeep",
+  "source": "NHTSA vPIC decodevinvalues API (clean decode, check digit correct) — built Toledo, Ohio. Toledo is known to build RHD export Wranglers for markets including Aus",
+  "model": "Wrangler",
+  "year": 2018,
+  "description": "Wrangler JK JK SUV/MPV 3.6L V6 (Pentastar) Manual N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "1C4RJFEM1DC621867",
+  "make": "Jeep",
+  "source": "NHTSA vPIC decodevinvalues API (clean decode) — built Jefferson North Assembly, Detroit, Michigan",
+  "model": "Grand",
+  "year": 2013,
+  "description": "Grand Cherokee (WK2) WK2 SUV 3.0L V6 (displacement matches the AU-market VM Motori CRD diesel option) N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "2C3CCATG7CH314414",
+  "make": "Chrysler",
+  "source": "NHTSA vPIC decodevinvalues API (clean decode) — built Brampton Assembly, Ontario, Canada. Chrysler 300 was sold new in Australia 2012-2023",
+  "model": "300",
+  "year": 2012,
+  "description": "300 LX Sedan 3.6L V6 N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "KMHDB51EMCU389673",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2011 Hyundai i30 SX 5D Hatch', https://www.manheim.com.au/home/000000000007119187 (found via web search of manheim.com.au)",
+  "model": "i30",
+  "description": "i30 FD, SX 5-door hatch 2.0L petrol (Beta, pos8=E) unstated on source unstated; VIN pos10=C(2012 Hyundai model-year code)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHDB81EMAU079634",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2010 Hyundai i30 SX 5D Station Wagon', https://www.manheim.com.au/home/item/itemunavailable?itemID=000000000004367269",
+  "model": "i30",
+  "description": "i30 FD, SX 5-door station wagon (pos6=8) 2.0L petrol (pos8=E) unstated unstated",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHDC51ER9U155225",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing 'Damaged 2008 Hyundai i30 SR Hatch', https://www.manheim.com.au/damaged-vehicles/7100442/2008-hyundai-i30-sr-hatch",
+  "model": "i30",
+  "description": "i30 FD, SR 5-door hatch 2.0L petrol (pos8=E) unstated unstated; VIN pos10=9(2009 code)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHH351EMJU058346",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2018 Hyundai i30 PD 2.0P Active 5D Hatch', https://www.manheim.com.au/home/6694220/2018-hyundai-i30-pd-2-0p-active-5d-hatch",
+  "model": "i30",
+  "description": "i30 PD, Active 5-door hatch (2.0P) 2.0L petrol unstated unstated; VIN pos10=J(2018)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHH351EMKU088593",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2018 Hyundai i30 PD 2.0P Go 4D Hatch', https://www.manheim.com.au/home/7439701/2018-hyundai-i30-pd-2-0p-go-4d-hatch",
+  "model": "i30",
+  "description": "i30 PD, Go hatch (listing text said '4D', almost certainly a listing typo for 5D — i30 PD has no 4-door hatch variant) 2.0L petrol unstated unstated; VIN pos10=K(2019)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHD251ELDU032740",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2012 Hyundai i30 GD Active 5D Hatch', https://www.manheim.com.au/passenger-vehicles/6700148/",
+  "model": "i30",
+  "description": "i30 GD, Active 5-door hatch 2.0L petrol unstated unstated; VIN pos10=D(2013)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHH351EMJU017129",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2017 Hyundai i30 PD 2.0P Active 5D Hatch', https://www.manheim.com.au/passenger-vehicles/6536479/2017-hyundai-i30-pd-2-0p-active-5d-hatc",
+  "model": "i30",
+  "description": "i30 PD, Active 5-door hatch (2.0P) 2.0L petrol unstated unstated; VIN pos10=J(2018)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHH351EMJU062570",
+  "make": "Hyundai",
+  "source": "manheim.com.au listing '2018 Hyundai i30 PD 2.0P Go 5D Hatch', https://www.manheim.com.au/passenger-vehicles/7081647/2018-hyundai-i30-pd-2-0p-go-5d-hatch",
+  "model": "i30",
+  "description": "i30 PD, Go 5-door hatch (2.0P) 2.0L petrol unstated unstated; VIN pos10=J(2018)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHJU81CSBU255126",
+  "make": "Hyundai",
+  "source": "pickles.com.au search snippet (site search), exact detail URL not re-verified — treat as lower confidence than the Manheim entries",
+  "year": 2011,
+  "description": "ix35 (bonus, not in requested list) LM wagon/SUV unstated unstated unstated",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMHD841FMHU398296",
+  "make": "Hyundai",
+  "source": "Coordinator-supplied real AU-road VIN; model/series identification is a STRUCTURAL INFERENCE by this research (pos4=D matches Wikibooks 'Elantra' code, pos6=4 s",
+  "description": "Elantra (INFERRED) AD (inferred) 4-door sedan (pos6=4, table-confirmed) unresolved specific displacement (pos8=F not in sourced engine table) not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KMFYFX71MTU265146",
+  "make": "Hyundai",
+  "source": "Coordinator-supplied real AU-road VIN; identification is a STRUCTURAL INFERENCE only (commercial WMI + MY2026 fits the current Staria/Staria Load timeline) — po",
+  "description": "Staria or Staria Load / iLoad (INFERRED, UNCONFIRMED) unresolved van/commercial (WMI KMF = commercial) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KMHD251EMHU360401",
+  "make": "Hyundai",
+  "source": "Coordinator-supplied real AU-road VIN. Pos4-8 (D,2,5,1,E) EXACTLY matches the independently-sourced real Manheim VIN KMHD251ELDU032740 (2012 i30 GD Active Hatch",
+  "description": "i30 (GD generation, INFERRED) GD, Active (inferred) 5-door hatch (pos6=5) 2.0L petrol (pos8=E, matches i30 pattern) not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KMHDB51ER8U069017",
+  "make": "Hyundai",
+  "source": "Coordinator-supplied real AU-road VIN. Pos4-8 (D,B,5,1,E) EXACTLY matches the independently-sourced real Manheim VIN KMHDB51EMCU389673 (2011 i30 SX Hatch) excep",
+  "description": "i30 (FD generation, INFERRED) FD, SX (inferred) 5-door hatch (pos6=5) 2.0L petrol (pos8=E) not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KMHRC812MRU309832",
+  "make": "Hyundai",
+  "source": "Coordinator-supplied real AU-road VIN. Position-4 letter 'R' is not present in any sourced Hyundai position-4 table; genuinely could not be identified. Left unr",
+  "description": "UNRESOLVED unresolved station wagon (pos6=8, table-listed meaning, but note position-6 '8' also appeared ambiguously on Kia SUV-pattern VINs — treat cautiously) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNAFT412MB5331282",
+  "make": "Kia",
+  "source": "pickles.com.au search-result snippet titled 'Kia Cerato' — full detail page no longer resolves (listing expired/sold), so this VIN is real but the description b",
+  "model": "Cerato",
+  "description": "Cerato unstated generation 4-door sedan (pos6=4) unstated unstated unstated",
+  "user_supplied": false
+ },
+ {
+  "vin": "KNAMH817MB6397549",
+  "make": "Kia",
+  "source": "pickles.com.au search-result snippet titled 'Kia Carnival' — same caveat as above, detail page no longer live.",
+  "model": "Carnival",
+  "description": "Carnival unstated generation van/people-mover (pos6=8) unstated unstated unstated",
+  "user_supplied": false
+ },
+ {
+  "vin": "KNARH81EMR5262595",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN. NHTSA vPIC independently confirms Make=KIA and Plant City=WHASUNG (Hwaseong), South Korea. Model inferred from matching p",
+  "description": "Carnival (INFERRED) KA4-generation (inferred) people-mover/van (pos6=8, matches the sourced real Carnival VIN's body digit) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNAPM81AMH7311280",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN. Position-4 'P' matches the Wikibooks-sourced 'Sportage (Korean-built)' code; MY2017 fits QL-generation Sportage's AU sale",
+  "description": "Sportage (INFERRED) QL-generation (inferred) wagon/SUV (pos6=8) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNAF241CMM5096528",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN. Position-4 'F' and position-6 '4' both exactly match the independently-sourced real Pickles Cerato VIN KNAFT412MB5331282'",
+  "model": "Cerato",
+  "description": "Cerato BD-generation (inferred) 4-door sedan (pos6=4, matches the sourced real Cerato VIN's body digit) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNCSBY7AMT5021234",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN. WMI 'KNC' independently confirmed as Kia by NHTSA vPIC (manufacturer resolves even though full decode fails), documented ",
+  "description": "UNRESOLVED unresolved unresolved not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNADB514MN6591231",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN. Position-4 'D' matches the Wikibooks-sourced 'Rio' code, position-6 '5' matches expected Rio 5-door hatch body. Moderate-",
+  "description": "Rio (INFERRED) YB-generation (inferred) 5-door hatch (pos6=5) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNAPH81BSJ5440595",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN, same basis as the other P-coded Sportage-inferred VINs above.",
+  "description": "Sportage (INFERRED) QL-generation (inferred) wagon/SUV (pos6=8) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNAPM81AMK7588584",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN, same basis as the other P-coded Sportage-inferred VINs above.",
+  "description": "Sportage (INFERRED) QL-generation (inferred) wagon/SUV (pos6=8) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "KNARG81BWM5048766",
+  "make": "Kia",
+  "source": "Coordinator-supplied real AU-road VIN, same basis as the other R-coded Carnival-inferred VIN above.",
+  "description": "Carnival (INFERRED) KA4-generation (inferred) people-mover/van (pos6=8) not sourced not sourced not sourced",
+  "user_supplied": true
+ },
+ {
+  "vin": "JM0KF4WLA00133566",
+  "make": "Mazda",
+  "source": "pickles.com.au e-salvage listing",
+  "model": "CX-5",
+  "year": 2017,
+  "description": "CX-5 KF Wagon N/A N/A CP 10/17",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0KE103100228098",
+  "make": "Mazda",
+  "source": "pickles.com.au e-salvage listing",
+  "model": "CX-5",
+  "year": 2013,
+  "description": "CX-5 KE Wagon N/A N/A CP 11/13",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0KE107100111431",
+  "make": "Mazda",
+  "source": "pickles.com.au e-salvage listing",
+  "model": "CX-5",
+  "year": 2012,
+  "description": "CX-5 KE Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0KF2WLA00763851",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7247576/2022-mazda-cx-5-maxx-sport-4d-station-wagon",
+  "model": "CX-5",
+  "year": 2022,
+  "description": "CX-5 KF 4D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0GJ102100137615",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/home/7088959/",
+  "model": "Mazda6",
+  "year": 2014,
+  "description": "Mazda6 GJ Gen III N/A N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MM0DJ2HAA0W227704",
+  "make": "Mazda",
+  "source": "manheim.com.au listing (search snippet)",
+  "model": "Mazda2",
+  "year": 2016,
+  "description": "Mazda2 DJ Genki 5D Hatch N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0BK10R200374062",
+  "make": "Mazda",
+  "source": "manheim.com.au listing (search snippet)",
+  "model": "Mazda3",
+  "year": 2007,
+  "description": "Mazda3 BK MZR-CD 5D Hatch diesel (MZR-CD) N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0CU081Y41208744",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7092372/2005-mazda-tribute-ltd-sport-5d-s-wagon",
+  "model": "Tribute",
+  "year": 2005,
+  "description": "Tribute Ltd Sport 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0DK2W7A01650824",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/home/6744960/2020-mazda-cx-3-dk-maxx-sport-5d-station-wagon",
+  "model": "CX-3",
+  "year": 2020,
+  "description": "CX-3 DK Maxx Sport 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0TC2WLA00101131",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7384474/2016-mazda-cx-9-tc-fwd-touring-5d-station-wagon",
+  "model": "CX-9",
+  "year": 2016,
+  "description": "CX-9 TC FWD Touring 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MM0UR0YG100788538",
+  "make": "Mazda",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7130409/2017-mazda-bt-50-xt-4d-x-cab-chassis",
+  "model": "BT-50",
+  "year": 2017,
+  "description": "BT-50 UR XT 4D X-cab Chassis 5-cyl 3.2L diesel 6-speed auto ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0NC30F100100871",
+  "make": "Mazda",
+  "source": "https://www.grays.com/lot/0001-60012770/classic-cars/2005-mazda-mx-5-nc-manual-convertible",
+  "model": "MX-5",
+  "year": 2005,
+  "description": "MX-5 NC Convertible N/A Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0NB30P200200931",
+  "make": "Mazda",
+  "source": "grays.com listing (search snippet)",
+  "model": "MX-5",
+  "year": 2001,
+  "description": "MX-5 NB Convertible Roadster N/A 6-speed manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MMAENKA509D005393",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/trucks-machinery/7350611/2008-mitsubishi-triton-ml-gl-cab-chassis-----corporate-vehicle----",
+  "model": "Triton",
+  "year": 2008,
+  "description": "Triton ML GL Cab Chassis N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MMAYLKK10LH020601",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/passenger-vehicles/6612680/",
+  "model": "Triton",
+  "year": 2020,
+  "description": "Triton MR GLX 2D Cab Chassis N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MMAJNKB40CD022130",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7318338/2012-mitsubishi-triton-mn-glr-4d-dual-cab-utility",
+  "model": "Triton",
+  "year": 2012,
+  "description": "Triton MN GLR 4D Dual Cab Utility N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFXTGA2WHZ005085",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/home/6789206/",
+  "model": "ASX",
+  "year": 2017,
+  "description": "ASX XC LS 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFXTGF8WJZ005458",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/home/000000000007338877",
+  "model": "Outlander",
+  "year": 2018,
+  "description": "Outlander ZL LS 5D S/Wagon 4-cyl 2.4L petrol CVT ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFSRCK5A1U002917",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/damaged-vehicles/000000000006797033",
+  "model": "Lancer",
+  "year": 2000,
+  "description": "Lancer CE GLXi Sedan N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFSNCY4A8U002353",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/passenger-vehicles/6618653/2007-mitsubishi-lancer-cj-es-4d-sedan",
+  "model": "Lancer",
+  "year": 2007,
+  "description": "Lancer CJ ES 4D Sedan N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "6MMTH8D42YT024551",
+  "make": "Mitsubishi",
+  "source": "https://www.manheim.com.au/home/6789537/2000-mitsubishi-magna-th-executive-4d-sedan",
+  "model": "Magna",
+  "year": 2000,
+  "description": "Magna TH Executive 4D Sedan 3.5L V6 Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "6MMDB4V417T030044",
+  "make": "Mitsubishi",
+  "source": "https://www.grays.com/lot/0001-21033124/motor-vehiclesmotor-cycles/2008-mitsubishi-380-vrx-db-automatic-sedan",
+  "model": "380",
+  "year": 2008,
+  "description": "380 DB VRX Sedan 3.8L V6 Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFLYV78W5J001045",
+  "make": "Mitsubishi",
+  "source": "grays.com listing (search snippet)",
+  "model": "Pajero",
+  "year": 2004,
+  "description": "Pajero NP GLX 7-seat Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFLYV75W1J003699",
+  "make": "Mitsubishi",
+  "source": "grays.com listing (search snippet)",
+  "model": "Pajero",
+  "year": 2000,
+  "description": "Pajero NM GLS 7-seat Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFLYV98W8J000451",
+  "make": "Mitsubishi",
+  "source": "grays.com listing (search snippet)",
+  "model": "Pajero",
+  "year": 2007,
+  "description": "Pajero NS VR-X 7-seat Wagon Turbo diesel Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFLYV97W7J000861",
+  "make": "Mitsubishi",
+  "source": "grays.com listing (search snippet)",
+  "model": "Pajero",
+  "year": 2006,
+  "description": "Pajero NS VR-X LWB 7-seat Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JMFLYV75W1J005717",
+  "make": "Mitsubishi",
+  "source": "grays.com listing (search snippet)",
+  "model": "Pajero",
+  "year": 2001,
+  "description": "Pajero NM GLX LWB 7-seat Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MMAGUKS10GH007690",
+  "make": "Mitsubishi",
+  "source": "https://www.grays.com/lot/0001-10902525/motor-vehicles-motor-cycles/2016-mitsubishi-pajero-sport-glx-qe",
+  "model": "Pajero",
+  "year": 2016,
+  "description": "Pajero Sport QE GLX Wagon Turbo diesel 8-speed automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MMAGUKS10HH001531",
+  "make": "Mitsubishi",
+  "source": "https://www.grays.com/lot/0001-21053110/motor-vehiclesmotor-cycles/2016-mitsubishi-pajero-sport-exceed-qe-t-d-auto-8-speed-7-seats-wagon",
+  "model": "Pajero",
+  "year": 2016,
+  "description": "Pajero Sport QE Exceed 7-seat Wagon Turbo diesel 8-speed automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNTCB4D23A0003409",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-21059225/4x4/2015-nissan-navara-4x4-st-x-np300-turbo-diesel-manual-dual-cab",
+  "model": "Navara",
+  "year": 2015,
+  "description": "Navara NP300 ST-X Dual Cab Turbo diesel Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSKCVND40A0228886",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-50705693/4x4/2007-nissan-navara-st-x-4x4-double-cab-d40-turbo-diesel-manual-dual-cab",
+  "model": "Navara",
+  "year": 2007,
+  "description": "Navara D40 ST-X Double Cab Turbo diesel Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNTCB2D23A0002718",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-21044822/motor-vehiclesmotor-cycles/2016-nissan-navara-4x2-st-np300-turbo-diesel-automatic-dual-cab",
+  "model": "Navara",
+  "year": 2016,
+  "description": "Navara NP300 ST Dual Cab Turbo diesel Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNTACUD40A0000242",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-9038694/motor-vehiclesmotor-cycles/2009-nissan-navara-rx-4x4-single-cab-d40-turbo-diesel-manual-cab-chassis",
+  "model": "Navara",
+  "year": 2009,
+  "description": "Navara D40 RX Single Cab Chassis Turbo diesel Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1CJUD22A0010063",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-21000733/motor-vehiclesmotor-cycles/1999-nissan-navara-dx-4x4-d22-manual-dual-cab",
+  "model": "Navara",
+  "year": 1999,
+  "description": "Navara D22 DX Dual Cab N/A Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN10WGY60A0037501",
+  "make": "Nissan",
+  "source": "manheim.com.au listing (search snippet)",
+  "model": "Patrol",
+  "year": 1991,
+  "description": "Patrol GQ Y60 ST 6D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TCNT31A0050120",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7324083/2009-nissan-x-trail-t31-tl-5d-s-wagon",
+  "model": "X-Trail",
+  "year": 2009,
+  "description": "X-Trail T31 TL 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBNT32A0071486",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/home/7192881/2022-nissan-x-trail-t32-series-3-ti-5d-station-wagon",
+  "model": "X-Trail",
+  "year": 2022,
+  "description": "X-Trail T32 series 3 Ti 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBAT32A0082394",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7066213/2021-nissan-x-trail-t32-series-3-st-5d-station-wagon",
+  "model": "X-Trail",
+  "year": 2021,
+  "description": "X-Trail T32 series 3 ST 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBNT30A0004271",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7197637/2002-nissan-x-trail-t30-ti-5d-s-wagon",
+  "model": "X-Trail",
+  "year": 2002,
+  "description": "X-Trail T30 Ti 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBNT32A0045951",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/passenger-vehicles/7363502/2017-nissan-x-trail-t32-series-2-ti-5d-s-wagon",
+  "model": "X-Trail",
+  "year": 2017,
+  "description": "X-Trail T32 Series 2 Ti 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBAT31A0102515",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/home/7061961/2012-nissan-x-trail-t31-st-5d-s-wagon",
+  "model": "X-Trail",
+  "year": 2012,
+  "description": "X-Trail T31 ST 5D S/Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JN1TBAT32A0066618",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/passenger-vehicles/6881426/2019-nissan-x-trail-t32-series-2-st-l-5d-station-wagon",
+  "model": "X-Trail",
+  "year": 2019,
+  "description": "X-Trail T32 Series 2 ST-L 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSKJLWR51A0039656",
+  "make": "Nissan",
+  "source": "https://www.manheim.com.au/damaged-vehicles/000000000007179507",
+  "model": "Pathfinder",
+  "year": 2005,
+  "description": "Pathfinder R51 ST-L S/Wagon 6-cyl 4.0L 5-speed automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "SJNFBAJ11A2445628",
+  "make": "Nissan",
+  "source": "manheim.com.au listing (search snippet)",
+  "model": "Qashqai",
+  "year": 2018,
+  "description": "Qashqai J11 Series 2 ST-L 5D Hatch 4-cyl 2.0L petrol CVT ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNTBAAB17A0021143",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-9057048/motor-vehicles-motor-cycles/2015-nissan-pulsar-st-b17-cvt-sedan",
+  "model": "Pulsar",
+  "year": 2015,
+  "description": "Pulsar B17 ST Sedan N/A CVT ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNTBAAB17A0010567",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-9057417/motor-vehicles-motor-cycles/2013-nissan-pulsar-st-b17-cvt-sedan",
+  "model": "Pulsar",
+  "year": 2013,
+  "description": "Pulsar B17 ST Sedan N/A CVT ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MDHFBUK13A0501523",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-21004732/motor-vehiclesmotor-cycles/2015-nissan-micra-ti-k13-automatic-hatchback",
+  "model": "Micra",
+  "year": 2015,
+  "description": "Micra K13 Ti Hatchback N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MHBFBUK13A0001370",
+  "make": "Nissan",
+  "source": "https://www.grays.com/lot/0001-21037208/motor-vehiclesmotor-cycles/2012-nissan-micra-st-k13-automatic-hatchback",
+  "model": "Micra",
+  "year": 2012,
+  "description": "Micra K13 ST Hatchback N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "TSMLYD21S00B26667",
+  "make": "Suzuki",
+  "source": "https://www.manheim.com.au/home/7036415/2022-suzuki-vitara-ly-ii-5d-station-wagon",
+  "model": "Vitara",
+  "year": 2022,
+  "description": "Vitara LY II 5D Station Wagon N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAAZC33S00406031",
+  "make": "Suzuki",
+  "source": "https://www.manheim.com.au/damaged-vehicles/6949885/2023-suzuki-swift-az-sport-hatch",
+  "model": "Swift",
+  "year": 2023,
+  "description": "Swift AZ Sport Hatch N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAFZC32S00105687",
+  "make": "Suzuki",
+  "source": "https://www.manheim.com.au/damaged-vehicles/6962257/2013-suzuki-swift-fz-sport-hatch",
+  "model": "Swift",
+  "year": 2013,
+  "description": "Swift FZ Sport Hatch N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAFZC82S00316583",
+  "make": "Suzuki",
+  "source": "https://www.manheim.com.au/damaged-vehicles/7212907/2015-suzuki-swift-fz-gl-navigator-hatch",
+  "model": "Swift",
+  "year": 2015,
+  "description": "Swift FZ GL Navigator Hatch N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAFJB43V00564385",
+  "make": "Suzuki",
+  "source": "https://manheim.com.au/damaged-vehicles/6458450/2012-suzuki-jimny-sierra-s-wagon",
+  "model": "Jimny",
+  "year": 2012,
+  "description": "Jimny Sierra 3-door Wagon 1.3L petrol 5-speed manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MBHEWB52S00715489",
+  "make": "Suzuki",
+  "source": "pickles.com.au listing (search snippet)",
+  "model": "Baleno",
+  "year": 2021,
+  "description": "Baleno EW Hatchback N/A Automatic CP 08/21",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA3EWB52S00172785",
+  "make": "Suzuki",
+  "source": "pickles.com.au listing (search snippet)",
+  "model": "Baleno",
+  "year": 2016,
+  "description": "Baleno EW Hatchback N/A Manual CP 08/16",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAEGC31S00183071",
+  "make": "Suzuki",
+  "source": "https://www.grays.com/lot/0001-50503943/motor-vehiclesmotor-cycles/2000-suzuki-baleno-glx-manual-sedan",
+  "model": "Baleno",
+  "year": 2000,
+  "description": "Baleno GLX (sedan) Sedan N/A Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA3EWB52S00409546",
+  "make": "Suzuki",
+  "source": "grays.com listing (search snippet)",
+  "model": "Baleno",
+  "year": 2018,
+  "description": "Baleno GL EW Hatchback N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "TSMJYA22S00169469",
+  "make": "Suzuki",
+  "source": "https://www.grays.com/lot/0001-9037543/motor-vehiclesmotor-cycles/2014-suzuki-s-cross-glx-2wd-jy-cvt-hatchback",
+  "model": "S-Cross",
+  "year": 2014,
+  "description": "S-Cross JY GLX 2WD Hatchback N/A CVT ",
+  "user_supplied": false
+ },
+ {
+  "vin": "TSMJYB22S00125659",
+  "make": "Suzuki",
+  "source": "grays.com listing (search snippet)",
+  "model": "S-Cross",
+  "year": 2013,
+  "description": "S-Cross JY GLX Prestige AWD Hatchback N/A N/A ",
+  "user_supplied": false
+ },
+ {
+  "vin": "TSMLYD21S00503825",
+  "make": "Suzuki",
+  "source": "https://www.grays.com/lot/0001-21042041/motor-vehiclesmotor-cycles/2018-suzuki-vitara-rt-s-ly-30th-anniversary-limited-edition-automatic-wagon",
+  "model": "Vitara",
+  "year": 2018,
+  "description": "Vitara RT-S LY 30th Anniversary Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAJTAA4V00271908",
+  "make": "Suzuki",
+  "source": "https://www.grays.com/lot/0001-9062100/motor-vehicles-motor-cycles/2013-suzuki-grand-vitara-jt-automat",
+  "model": "Grand",
+  "year": 2013,
+  "description": "Grand Vitara JT Wagon N/A Automatic ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JSAETD01V00131131",
+  "make": "Suzuki",
+  "source": "grays.com listing (search snippet)",
+  "model": "Vitara",
+  "year": 1993,
+  "description": "Vitara ET Wagon N/A Manual ",
+  "user_supplied": false
+ },
+ {
+  "vin": "JM0KF2WLA00805425",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, identified by author via KF=CX-5 model-code pattern match",
+  "model": "CX-5",
+  "description": "CX-5 KF Wagon N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JM0BM543810174513",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, identified by author via BM=Mazda3 model-code pattern match; also the source of the position-10-anomaly finding above",
+  "model": "Mazda3",
+  "description": "Mazda3 BM (third generation, 2013-2019) N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JM0KF2WLA10884837",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, identified by author via KF=CX-5 model-code pattern match",
+  "model": "CX-5",
+  "description": "CX-5 KF Wagon N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JM0TC4WLA00324413",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, identified by author via TC=CX-9 model-code pattern match",
+  "model": "CX-9",
+  "description": "CX-9 TC Wagon N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JM0TC4WLA00554023",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, identified by author via TC=CX-9 model-code pattern match",
+  "model": "CX-9",
+  "description": "CX-9 TC Wagon N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MM0UNY0W400866922",
+  "make": "Mazda",
+  "source": "requester-supplied real AU-road VIN, tentatively identified by author (MM0=Mazda Thailand + 'UN' prefix resembling the confirmed 'UR' BT-50 code); NOT independe",
+  "model": "BT-50",
+  "description": "BT-50 UN (probable UR-generation sub-variant, unconfirmed) N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JMFXTCW5WCU000929",
+  "make": "Mitsubishi",
+  "source": "requester-supplied real AU-road VIN, identified by author via 'XT_' prefix matching the confirmed XTGA(ASX)/XTGF(Outlander) family; exact model/trim NOT confirm",
+  "year": 2012,
+  "description": "ASX or Outlander (XT/ZH platform, unconfirmed which) XTCW (probable pre-facelift trim) N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JMFLTCX4AAU002445",
+  "make": "Mitsubishi",
+  "source": "requester-supplied real AU-road VIN, identified by author via 'L_' prefix matching the confirmed LYV Pajero family; exact generation/trim NOT confirmed",
+  "year": 2010,
+  "description": "Pajero (probable, unconfirmed generation) LTCX N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JN1TANY62A0110312",
+  "make": "Nissan",
+  "source": "requester-supplied real AU-road VIN, identified by author via the well-documented 'Y62' Patrol generation code embedded at positions 7-9; also the 19th consecut",
+  "model": "Patrol",
+  "description": "Patrol Y62 N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MNTBCAL33A0001175",
+  "make": "Nissan",
+  "source": "requester-supplied real AU-road VIN (tentatively guessed as 'Navara?' by the requester); author identifies it instead as the L33 Teana/Altima platform code (sol",
+  "description": "Altima (correction — NOT Navara) L33 N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "5N1AR2MM0EC602711",
+  "make": "Nissan",
+  "source": "requester-supplied real AU-road VIN (US-built, likely grey import); author independently verified the NHTSA mod-11 check digit computes to '0', matching positio",
+  "model": "Pathfinder",
+  "year": 2014,
+  "description": "Pathfinder R52 N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MA3JJC74W00156555",
+  "make": "Suzuki",
+  "source": "requester-supplied real AU-road VIN; WMI MA3=India-built Suzuki confirmed, but the model code does not match any pattern in this dataset — flagged unresolved ra",
+  "description": "Unidentified India-built model (not Baleno — code does not match EWB52 pattern) JJC74 N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JSAFJB43V00319981",
+  "make": "Suzuki",
+  "source": "requester-supplied real AU-road VIN, identified by author — 'FJB43' is an EXACT match to the already-confirmed JSAFJB43V00564385 Jimny Sierra code",
+  "model": "Jimny",
+  "description": "Jimny Sierra (JB43) N/A N/A N/A ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JF2SJDKY5HG089216",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-50713396/motor-vehiclesmotor-cycles/2017-subaru-forester-2-0d-l-s4-turbo-diesel-cvt-wagon",
+  "model": "Forester",
+  "year": 2017,
+  "description": "Forester 2.0D-L S4 Wagon 2.0L 4-cyl turbo diesel CVT 2017-03",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF2BSDKY2HG063049",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-21046654/motor-vehiclesmotor-cycles/2017-subaru-outback-2-0d-premium-b6a-turbo-diesel-cvt-wagon",
+  "model": "Outback",
+  "year": 2017,
+  "description": "Outback 2.0D Premium B6A Wagon 2.0L 4-cyl turbo diesel CVT 2017-04",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF1GC8KJ3YG048852",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-60012660/classic-cars/1999-subaru-impreza-rx-awd-manual-sedan",
+  "model": "Impreza",
+  "year": 1999,
+  "description": "Impreza RX (AWD) Sedan 2.0L 4-cyl petrol Manual 1999-08",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF1GHEKD38G003074",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-21046602/motor-vehicles-motor-cycles/2007-subaru-impreza-wrx-awd-g3-manual-hatchback",
+  "model": "Impreza",
+  "year": 2007,
+  "description": "Impreza WRX G3 (AWD) Hatchback 2.5L 4-cyl petrol turbo Manual 2007-07",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF1GP7KC5CG005305",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-10350524/motor-vehiclesmotor-cycles/2012-subaru-xv-2-0i-g4x-cvt-hatchback",
+  "model": "XV",
+  "year": 2012,
+  "description": "XV 2.0i G4X Hatchback 2.0L 4-cyl petrol CVT 2012-01",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF1BM9KV3BG011865",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-21024073/motor-vehiclesmotor-cycles/2011-subaru-liberty-2-5-gt-premium-b5-automatic-sedan",
+  "model": "Liberty",
+  "year": 2011,
+  "description": "Liberty 2.5 GT Premium B5 Sedan 2.5L 4-cyl petrol turbo Automatic 2011-02",
+  "user_supplied": false
+ },
+ {
+  "vin": "JF1ZC6K72HG012592",
+  "make": "Subaru",
+  "source": "https://www.grays.com/lot/0001-21044924/motor-vehiclesmotor-cycles/2017-subaru-brz-z1-automatic-coupe",
+  "model": "BRZ",
+  "year": 2017,
+  "description": "BRZ Z1 Coupe 2.0L 4-cyl petrol Automatic 2017-03",
+  "user_supplied": false
+ },
+ {
+  "vin": "MRHRW1840LP062531",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-50707147/motor-vehiclesmotor-cycles/2020-honda-cr-v-2wd-vti-l-rw-cvt-7-seats-wagon",
+  "model": "CR-V",
+  "year": 2020,
+  "description": "CR-V VTi-L RW Wagon 1.5L 4-cyl petrol turbo CVT 2020-02",
+  "user_supplied": false
+ },
+ {
+  "vin": "MRHFD16508P026407",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-21037782/motor-vehiclesmotor-cycles/honda-civic-vti-8th-gen-automatic-sedan",
+  "model": "Civic",
+  "year": 2008,
+  "description": "Civic VTi 8th Gen (FD) Sedan 1.8L 4-cyl petrol Automatic N/A - unable to locate on listing",
+  "user_supplied": false
+ },
+ {
+  "vin": "MRHGK5750JT020050",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-21045165/motor-vehicles-motor-cycles/2017-honda-jazz-vti-gk-manual-hatchback",
+  "model": "Jazz",
+  "year": 2017,
+  "description": "Jazz VTi GK Hatchback 1.5L 4-cyl petrol Manual 2017-07",
+  "user_supplied": false
+ },
+ {
+  "vin": "JHLGH2450XS200043",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-20085630/motor-vehiclesmotor-cycles/1998-honda-hr-v-sport-cvt-hatchback-rwc-issued-16-09-2024",
+  "model": "HR-V",
+  "year": 1998,
+  "description": "HR-V Sport CVT (GH1) Hatchback 1.6L 4-cyl petrol CVT 1998-11",
+  "user_supplied": false
+ },
+ {
+  "vin": "JHMCU2680BC202038",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-21029000/motor-vehiclesmotor-cycles/2010-honda-accord-euro-luxury-8th-gen-automatic-sedan",
+  "model": "Accord",
+  "year": 2010,
+  "description": "Accord Euro Luxury 8th Gen (CU2) Sedan 2.4L 4-cyl petrol Automatic N/A - unable to locate on listing",
+  "user_supplied": false
+ },
+ {
+  "vin": "JHMRA6840YC201588",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-21037977/motor-vehiclesmotor-cycles/honda-odyssey-import-automatic-7-seats-people-mover",
+  "model": "Odyssey",
+  "description": "Odyssey RA (JDM personal import) People Mover 2.3L petrol Automatic N/A - not stated; see year field caveat",
+  "user_supplied": false
+ },
+ {
+  "vin": "MRHGM6540EP010247",
+  "make": "Honda",
+  "source": "https://www.grays.com/lot/0001-21034438/motor-vehicles-motor-cycles/2014-honda-city-vti-gm-manual-sedan-wovr-repairable-write-off",
+  "model": "City",
+  "year": 2014,
+  "description": "City VTi GM Sedan 1.5L 4-cyl petrol Manual 2014-09",
+  "user_supplied": false
+ },
+ {
+  "vin": "MRHFK4890HT070513",
+  "make": "Honda",
+  "source": "Real AU-road VIN supplied directly by the requester (2026-09-29), not found in any public listing via web search - decoded structurally only using the position ",
+  "model": "Civic",
+  "year": 2017,
+  "description": "Civic Hatch N/A - chassis code FK confirms Civic Hatch (9th/10th gen family); exact grade not sourced N/A - not sourced (chassis code FK is consistent with Hatch body only) N/A - not sourced N/A - not",
+  "user_supplied": true
+ },
+ {
+  "vin": "JHMCU26409C213343",
+  "make": "Honda",
+  "source": "Real AU-road VIN supplied directly by the requester (2026-09-29), not found in any public listing via web search - decoded structurally only. Plant='C' (Japan, ",
+  "model": "Accord",
+  "year": 2009,
+  "description": "Accord Euro N/A - chassis code CU2 confirms Accord Euro (8th gen); exact grade not sourced N/A - not sourced (chassis code CU2 is consistent with Sedan body only) N/A - not sourced N/A - not sourced N",
+  "user_supplied": true
+ },
+ {
+  "vin": "MRHFK5850LT070298",
+  "make": "Honda",
+  "source": "Real AU-road VIN supplied directly by the requester (2026-09-29), not found in any public listing via web search - decoded structurally only. Plant='T' (Thailan",
+  "model": "Civic",
+  "year": 2020,
+  "description": "Civic Hatch N/A - chassis code FK confirms Civic Hatch (9th/10th gen family); exact grade not sourced N/A - not sourced (chassis code FK is consistent with Hatch body only) N/A - not sourced N/A - not",
+  "user_supplied": true
+ },
+ {
+  "vin": "MRHRW2850NP062522",
+  "make": "Honda",
+  "source": "Real AU-road VIN supplied directly by the requester (2026-09-29), not found in any public listing via web search - decoded structurally only. Plant='P' (Thailan",
+  "model": "CR-V",
+  "year": 2022,
+  "description": "CR-V N/A - chassis code RW confirms CR-V (5th gen family); exact grade not sourced N/A - not sourced (chassis code RW is consistent with Wagon body only) N/A - not sourced N/A - not sourced N/A - no p",
+  "user_supplied": true
+ },
+ {
+  "vin": "MRHFK4880LT070395",
+  "make": "Honda",
+  "source": "Real AU-road VIN supplied directly by the requester (2026-09-29), not found in any public listing via web search - decoded structurally only. Plant='T' (Thailan",
+  "model": "Civic",
+  "year": 2020,
+  "description": "Civic Hatch N/A - chassis code FK confirms Civic Hatch (9th/10th gen family); exact grade not sourced N/A - not sourced (chassis code FK is consistent with Hatch body only) N/A - not sourced N/A - not",
+  "user_supplied": true
+ },
+ {
+  "vin": "SALCA2AN2HH686631",
+  "make": "Land Rover",
+  "source": "https://www.grays.com/lot/0001-20026552/sports-and-luxury-cars/2017-land-rover-discovery-sport-td4-150-hse-turbo-diesel-9-auto-wagon",
+  "model": "Discovery",
+  "year": 2017,
+  "description": "Discovery Sport TD4 150 HSE (L550) Wagon 2.0L 4-cyl turbo diesel 9-speed Automatic N/A - unable to locate on listing",
+  "user_supplied": false
+ },
+ {
+  "vin": "SALRA2AK2HA039736",
+  "make": "Land Rover",
+  "source": "https://www.grays.com/lot/0001-50512694/4x4/2017-land-rover-discovery-3-0-tdv6-hse-series-5-td-auto",
+  "model": "Discovery",
+  "year": 2017,
+  "description": "Discovery 3.0 TDV6 HSE Series 5 (L462) Wagon 3.0L 6-cyl turbo diesel 8-speed Automatic 2017-09",
+  "user_supplied": false
+ },
+ {
+  "vin": "SALWA2EN7HA152315",
+  "make": "Land Rover",
+  "source": "https://www.grays.com/lot/0001-10601070/motor-vehicles-motor-cycles/2017-land-rover-range-rover-sport-2",
+  "model": "Range",
+  "year": 2017,
+  "description": "Range Rover Sport 2.0 SD4 S (L494) Wagon 2.0L 4-cyl turbo diesel 8-speed Automatic 2017-05",
+  "user_supplied": false
+ },
+ {
+  "vin": "SALVA2AN8GH146644",
+  "make": "Land Rover",
+  "source": "https://www.grays.com/lot/0001-9054713/motor-vehicles-motor-cycles/2016-land-rover-range-rover-evoque-td4-180-hse-turbo-diesel-9-auto-wagon",
+  "model": "Range",
+  "year": 2016,
+  "description": "Range Rover Evoque TD4 180 HSE (L538) Wagon 2.0L 4-cyl turbo diesel 9-speed Automatic 2016-04",
+  "user_supplied": false
+ },
+ {
+  "vin": "SALLDHMS78A762778",
+  "make": "Land Rover",
+  "source": "https://www.grays.com/lot/0001-21034764/4x4/land-rover-defender-110-turbo-diesel-manual-wagon",
+  "model": "Defender",
+  "year": 2008,
+  "description": "Defender 110 Classic (LD) Wagon 2.4L 4-cyl turbo diesel Manual N/A - unable to locate on listing",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTEBH3FJ40K121455",
+  "make": "Toyota",
+  "source": "pickles.com.au auction listing (engine# 1KD2344284)",
+  "model": "LandCruiser",
+  "year": 2013,
+  "description": "LandCruiser Prado 150 Series Wagon 1KD-FTV 3.0L turbo-diesel Automatic N/A - listing gave year only",
+  "user_supplied": false
+ },
+ {
+  "vin": "JT711PJA507010244",
+  "make": "Toyota",
+  "source": "pickles.com.au auction listing (engine# 1HZ0298650); note WMI here is JT7, not JTE - an older/different Toyota Japan export pattern used pre-2000",
+  "model": "LandCruiser",
+  "year": 1999,
+  "description": "LandCruiser 100 Series Wagon 1HZ 4.2L diesel Manual N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTELV71J700016996",
+  "make": "Toyota",
+  "source": "pickles.com.au auction listing (engine# 1VD0092753)",
+  "model": "LandCruiser",
+  "year": 2010,
+  "description": "LandCruiser 79 Series Single Cab Tray 1VD-FTV 4.5L V8 turbo-diesel Manual N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "MR0FZ22G001082605",
+  "make": "Toyota",
+  "source": "pickles.com.au auction listing (engine# 1KDA382414)",
+  "model": "HiLux",
+  "year": 2014,
+  "description": "HiLux N70 Dual Cab Utility 1KD-FTV 3.0L D-4D turbo-diesel Automatic 01/2014",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTDBD192000097739",
+  "source": "pickles.com.au damaged-salvage listing",
+  "year": 2005,
+  "description": "IS300 XE10 Sedan 2JZ-GE 3.0L 6-cylinder petrol Automatic N/A",
+  "user_supplied": false,
+  "expect_note": "Listing says \"2005 Lexus IS300\" but the VIN is Toyota-coded (JTD, BD192 = Toyota Altezza) — likely a Japanese-market Altezza sold as an IS300. Make/model expectation removed."
+ },
+ {
+  "vin": "MPAUCR85GKT000889",
+  "make": "Isuzu",
+  "source": "grays.com auction listing",
+  "model": "MU-X",
+  "year": 2019,
+  "description": "MU-X RG (UCR85) Wagon 4JJ3 3.0L diesel Automatic 2019-05",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPATFR85JFT005292",
+  "make": "Isuzu",
+  "source": "grays.com auction listing",
+  "model": "D-MAX",
+  "year": 2015,
+  "description": "D-MAX RG (TFR85) Cab Chassis Crew Cab 4JJ1 3.0L diesel Automatic 2015-10",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPATFS85JKT012311",
+  "make": "Isuzu",
+  "source": "grays.com auction listing",
+  "model": "D-MAX",
+  "year": 2019,
+  "description": "D-MAX RG (TFS85) Utility 4JJ3 3.0L diesel Automatic 2019-09",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTMAAABJ604076652",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "LandCruiser",
+  "year": 2024,
+  "description": "LandCruiser 300 Series Wagon F33A-FTV 3.3L twin-turbo V6 diesel 10-speed Automatic 2024-01",
+  "user_supplied": false
+ },
+ {
+  "vin": "6T1BD3FK60X142562",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "Camry",
+  "year": 2015,
+  "description": "Camry Hybrid AVV50R Sedan 2AR-FXE 2.5L 4-cylinder petrol-hybrid CVT 2015-03",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTNB23HK503050784",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "Camry",
+  "year": 2019,
+  "description": "Camry Ascent Hybrid AXVH71R Sedan A25A-FXS 2.5L 4-cylinder petrol-hybrid (engine# A25A0492518) Automatic (e-CVT) 2019-09",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTNKU52E101019083",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "Corolla",
+  "year": 2007,
+  "description": "Corolla Ascent ZRE152R Hatchback 1798cc 4-cylinder, 100kW 4-speed Automatic 2007",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTMBFREV00D180489",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "RAV4",
+  "year": 2015,
+  "description": "RAV4 ASA44R SUV (Wagon) 2494cc 4-cylinder, 132kW 6-speed Sports Automatic 2015",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTHBE262905030047",
+  "make": "Lexus",
+  "source": "grays.com auction listing",
+  "model": "IS",
+  "year": 2012,
+  "description": "IS 350 F Sport GSE21R Sedan 2GR-FSE 3.5L V6 petrol, 233kW 6-speed Sports Automatic 2012",
+  "user_supplied": false
+ },
+ {
+  "vin": "5TDBZ3FH80S745069",
+  "make": "Toyota",
+  "source": "grays.com auction listing",
+  "model": "Kluger",
+  "year": 2019,
+  "description": "Kluger GX GSU55R SUV (Wagon) 2GR-FE 3.5L V6 petrol, 218kW Sports Automatic 2019",
+  "user_supplied": false
+ },
+ {
+  "vin": "JTEBR3FJ50K155563",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identified only via NHTSA vPIC (Make Toyota, Model 'Land Cruiser' [generic/low-confidence], plant Hamura City Japan) - the Hamura plan",
+  "model": "LandCruiser",
+  "description": "LandCruiser 70 Series (inferred from Hamura/Hino plant match) UNRESOLVED UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTEBY29J900029534",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identified via NHTSA vPIC Series field. NHTSA's own 'Model' field said 'Land Cruiser', which this researcher judges to be WRONG/generi",
+  "model": "Kluger",
+  "description": "Kluger MCU20L / MCU25L / ACU20L / ACU25L (XU20 generation, 2000-2007) SUV UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MR0FZ29G402534426",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; no NHTSA data (WMI not US-registered, expected); identification is this researcher's pattern-match inference only, not independently c",
+  "description": "HiLux (inferred from shared 'FZ..G' VDS root with the confirmed MR0FZ22G0... HiLux) N70 (unconfirmed grade - '29G' vs the confirmed '22G') UNRESOLVED UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "MR0FZ22G901095319",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identification by exact VDS match to the pickles.com.au-confirmed VIN MR0FZ22G001082605, differing only in check digit and serial",
+  "model": "HiLux",
+  "description": "HiLux N70, same VDS 'FZ22G' as the confirmed pickles.com.au HiLux example Dual Cab Utility (by analogy to confirmed MR0FZ22G001082605) 1KD-FTV 3.0L D-4D turbo-diesel (by analogy) Automatic (by analogy",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTMAAABJ904133555",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identification by exact VDS match ('AAABJ') to the grays.com-confirmed VIN JTMAAABJ604076652",
+  "model": "LandCruiser",
+  "description": "LandCruiser 300 Series Sahara ZX FJA300R Wagon (by analogy) F33A-FTV 3.3L twin-turbo V6 diesel (by analogy) 10-speed Automatic (by analogy) ",
+  "user_supplied": true
+ },
+ {
+  "vin": "6T164AE9609642577",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; only the WMI (6T1 = Australian-built) is confirmed, exact model NOT resolved this session",
+  "description": "UNRESOLVED - Australian-built (Altona/AMI plant) per WMI 6T1, but VDS '64AE96' does not match the confirmed AVV50R Camry Hybrid pattern UNRESOLVED (candidates considered: earlier Camry generation, Aur",
+  "user_supplied": true
+ },
+ {
+  "vin": "6T153KK400X302383",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; only the WMI is confirmed, exact model NOT resolved this session",
+  "description": "UNRESOLVED - Australian-built (Altona/AMI plant) per WMI 6T1 UNRESOLVED UNRESOLVED UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "6T153BK360X074345",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; only the WMI is confirmed, exact model NOT resolved this session",
+  "description": "UNRESOLVED - Australian-built (Altona/AMI plant) per WMI 6T1 UNRESOLVED (shares VDS root '53' with 6T153KK400X302383, possibly same model family/different grade) UNRESOLVED UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTEBU11F80K117931",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identified via NHTSA vPIC (Make Toyota, Model FJ Cruiser, Series GSJ10L/GSJ15L, 6cyl 4.0L, plant Hamura City Japan)",
+  "model": "FJ",
+  "description": "FJ Cruiser GSJ10L / GSJ15L SUV 1GR-FE 4.0L V6 petrol UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTDJW133300254168",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identified via NHTSA vPIC only, plant Takaoka Japan; not cross-checked against an AU-specific listing, LOWER CONFIDENCE",
+  "model": "Yaris/Vitz",
+  "description": "Yaris/Vitz (NHTSA label) NCP12L Hatchback UNRESOLVED UNRESOLVED ",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTDKW3D3701004912",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; NHTSA vPIC only, plant Kanegasaki Japan; internally contradictory result, treat with caution",
+  "description": "UNRESOLVED / DISPUTED - NHTSA vPIC labelled this 'Prius C' but gave Series 'NCP131L', which is actually the Yaris/Vitz hatch chassis-code family, not the Prius C/Aqua (NHP10) family - the two NHTSA fi",
+  "user_supplied": true
+ },
+ {
+  "vin": "JTDER22E503186519",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; NHTSA vPIC only, plant Tsutsumi Japan; the 'LE' trim label is judged to be a US-market artifact of NHTSA's data and should NOT be trus",
+  "description": "Corolla (LE trim, per NHTSA label - note 'LE' is a US/NA trim name, questionable for an AU-delivered car; possibly Ascent/Ascent Sport equivalent) UNRESOLVED (no chassis-code Series value returned) Se",
+  "user_supplied": true
+ },
+ {
+  "vin": "MR053REH205259261",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; no NHTSA data; not identified this session",
+  "description": "UNRESOLVED - VDS root 'REH2' does not match the confirmed HiLux 'FZ22G' pattern; possibly an older/different Thai-built Toyota model. ANOMALY: hand-computed ISO 3779 check digit for this VIN does NOT ",
+  "user_supplied": true
+ },
+ {
+  "vin": "6U900ACR307016500",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identification is this researcher's inference from the embedded chassis-code letters only - NOT independently confirmed by any listing",
+  "model": "Tarago",
+  "description": "Tarago (Estima) - the VDS 'ACR307' embeds the genuine Toyota chassis code ACR30, which is the 2000-2006 Estima/Previa/Tarago 3.0L V6 petrol generation ACR30 Van/Wagon (by chassis-code convention) 1MZ-",
+  "user_supplied": true
+ },
+ {
+  "vin": "6U900AHR207063348",
+  "make": "Toyota",
+  "source": "coordinator-supplied VIN; identification is this researcher's inference from the embedded chassis-code letters only - NOT independently confirmed by any listing",
+  "model": "Estima",
+  "description": "Estima Hybrid (JDM) - the VDS 'AHR207' embeds the genuine Toyota chassis code AHR20, the 2001-2005 JDM-only Estima Hybrid minivan. NOT a documented official Tarago model - if genuine, this represents ",
+  "user_supplied": true
+ },
+ {
+  "vin": "WV1ZZZ7HZCH097534",
+  "make": "Volkswagen",
+  "source": "pickles.com.au (Volkswagen Transporter listing, found via web search snippet; live page not independently re-fetched)",
+  "model": "Transporter",
+  "description": "Transporter T5 (7H) Van 4-cylinder diesel turbo Manual unresolved / conflicting (see note above)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WV1ZZZ7HZBH092319",
+  "make": "Volkswagen",
+  "source": "pickles.com.au (Volkswagen Transporter listing, found via web search snippet)",
+  "model": "Transporter",
+  "description": "Transporter T5 (7H) Van N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WVGZZZ7PZCD001654",
+  "make": "Volkswagen",
+  "source": "pickles.com.au, https://www.pickles.com.au/damaged-salvage/item/-/details/CP-08-11--Volkswagen--Touareg--Wagon/202779690 (listing may since have expired/sold — ",
+  "model": "Touareg",
+  "year": 2011,
+  "description": "Touareg 7P Wagon 6-cylinder diesel Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WVWZZZ1KZ7W074388",
+  "make": "Volkswagen",
+  "source": "eBay AU listings from an Edwardstown, SA-based VW wrecker parting out this exact VIN (Golf Mk5 R32 parts) — NOT a Pickles auction listing; corroborates the VIN ",
+  "model": "Golf",
+  "description": "Golf Mk5 R32 (1K) Hatchback N/A N/A 09/2006 (as stated by an Australian VW wrecking yard, not an auction listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WV4ZZZT18RS026782",
+  "make": "Volkswagen",
+  "source": "Supplied directly by coordinator as a known real AU-road VIN; NOT independently found by this agent via web search. Structural interpretation (WV4 = new WMI, T1",
+  "model": "Amarok",
+  "year": 2024,
+  "description": "Amarok 2nd generation (Typ NF), Ford T6-based Dual Cab Utility (inferred from model, not independently confirmed for this specific VIN) N/A N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "WAUZZZ8K7AA160988",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A4 Sedan listing, found via web search snippet)",
+  "model": "A4",
+  "year": 2010,
+  "description": "A4 B8 (8K) Sedan N/A Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ8K6BA137252",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A4 Sedan listing, found via web search snippet)",
+  "model": "A4",
+  "year": 2011,
+  "description": "A4 B8 (8K) Sedan N/A Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ8K4FA125249",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A4 Sedan listing, found via web search snippet)",
+  "model": "A4",
+  "year": 2015,
+  "description": "A4 B8 (8K) Sedan N/A Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ8R1AA079501",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi Q5 listing, found via web search snippet)",
+  "model": "Q5",
+  "year": 2010,
+  "description": "Q5 8R (Typ 8R) Wagon N/A Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZFYXJ2217699",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi Q5 listing, found via web search snippet)",
+  "model": "Q5",
+  "year": 2018,
+  "description": "Q5 FY (2nd gen) Wagon N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ8X4CB226826",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A1 listing, found via web search snippet)",
+  "model": "A1",
+  "year": 2012,
+  "description": "A1 8X Hatchback 4-cylinder petrol Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ8X2CB211189",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A1 listing, found via web search snippet, Milperra NSW)",
+  "model": "A1",
+  "year": 2012,
+  "description": "A1 8X Hatchback N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZGB4LR006339",
+  "make": "Audi",
+  "source": "pickles.com.au (Audi A1 listing, found via web search snippet)",
+  "model": "A1",
+  "year": 2019,
+  "description": "A1 GB (2nd gen) Hatchback 3-cylinder petrol Automatic N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WDB9066352P145346",
+  "make": "Mercedes-Benz",
+  "source": "pickles.com.au, https://www.pickles.com.au/trucks/item/-/details/CP-09-15--Mercedes-Benz--Sprinter--Van/902307310 (found via web search snippet)",
+  "model": "Sprinter",
+  "year": 2015,
+  "description": "Sprinter NCV3 Van 4-cylinder diesel Manual N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAFE42040LK95213",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW X5 listing, Milperra NSW, found via web search snippet). Plant code cross-check: position 11 = L = Spartanburg USA, consistent with known BM",
+  "model": "X5",
+  "year": 2008,
+  "description": "X5 E70 Wagon N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAFE42020LK91841",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW X5 Wagon listing, found via web search snippet). Plant code cross-check: position 11 = L = Spartanburg USA",
+  "model": "X5",
+  "year": 2007,
+  "description": "X5 E70 Wagon N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAJU42030LG83534",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW X5 Brisbane salvage listing, found via web search snippet — NOT independently re-fetched from a live page, flagged lower confidence)",
+  "model": "X5",
+  "year": 2019,
+  "description": "X5 unresolved — VIN pattern (WBAJU42...) resembles an older-style type code inconsistent with a 2019 F15/G05-era car; flagged as needing re-verification, see unresolved list N/A N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAVA76050NL31479",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW 3 Series listing, found via web search snippet). Plant code cross-check: position 11 = N = Rosslyn, South Africa",
+  "model": "3",
+  "description": "3 Series E90/E46-era (unresolved exact chassis) N/A N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBA3D36000NP06539",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW 3 Series listing, found via web search snippet). Plant code cross-check: position 11 = P = Regensburg",
+  "model": "3",
+  "description": "3 Series unresolved exact chassis N/A N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAPN36060NM84605",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW 3 Series listing, found via web search snippet). Plant code cross-check: position 11 = N = Rosslyn, South Africa",
+  "model": "3",
+  "description": "3 Series unresolved exact chassis N/A N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAVC36050NE63902",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW 3 Series listing, found via web search snippet). Plant code cross-check: position 11 = E = Regensburg",
+  "model": "3",
+  "description": "3 Series unresolved exact chassis N/A N/A N/A N/A",
+  "user_supplied": false
+ },
+ {
+  "vin": "WBAVC36050NE63714",
+  "make": "BMW",
+  "source": "pickles.com.au (BMW 320d Sedan, Statutory Writeoff, found via web search snippet). Plant code cross-check: position 11 = E = Regensburg",
+  "model": "3",
+  "description": "3 Series E90 320d Sedan Sedan Diesel (320d) N/A 07/2007",
+  "user_supplied": false
+ },
+ {
+  "vin": "W1N2539642V344142",
+  "make": "Mercedes-Benz",
+  "source": "Supplied directly by coordinator as a known real AU-road VIN; NOT independently found by this agent via web search. Model-line identification (GLC X253) is this",
+  "model": "GLC",
+  "description": "GLC X253 (chassis type 253.964) SUV/Wagon (inferred from GLC model) N/A N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "WDB2112772B080423",
+  "make": "Mercedes-Benz",
+  "source": "Supplied directly by coordinator. Model-line identification (E211) is this agent's own pattern-match of positions 4-9 = '211277' against the documented Mercedes",
+  "model": "E-Class",
+  "description": "E-Class W211 (chassis type 211.277) N/A N/A N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "WDD2050422R314503",
+  "make": "Mercedes-Benz",
+  "source": "Supplied directly by coordinator. Model-line identification (C205) is this agent's own pattern-match of positions 4-9 = '205042' against the documented Mercedes",
+  "model": "C-Class",
+  "description": "C-Class W205 (chassis type 205.042) N/A N/A N/A N/A",
+  "user_supplied": true
+ },
+ {
+  "vin": "W1N1679332B209984",
+  "make": "Mercedes-Benz",
+  "source": "Supplied directly by coordinator. Model-line identification (GLE V167) is this agent's own pattern-match of positions 4-9 = '167933' against the documented Merc",
+  "model": "GLE",
+  "description": "GLE V167 (chassis type 167.933) SUV/Wagon (inferred from GLE model) N/A N/A N/A",
+  "user_supplied": true
+ }
+]

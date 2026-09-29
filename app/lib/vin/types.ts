@@ -1,3 +1,5 @@
+import type { VinBreakdown } from "./engine";
+
 export type DataSource = "nhtsa" | "redbook" | "manual";
 
 export interface DecodedVehicle {
@@ -27,6 +29,8 @@ export interface DecodedVehicle {
 export interface DecodeResult {
   ok: boolean;
   vehicle?: DecodedVehicle;
+  /** Position-by-position breakdown (WMI first, then positions 4–17). */
+  breakdown?: VinBreakdown;
   error?: string;
 }
 

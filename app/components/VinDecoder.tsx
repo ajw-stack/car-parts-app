@@ -2,6 +2,7 @@
 
 import { useState, useTransition } from "react";
 import type { DecodedVehicle, DecodeResult } from "../lib/vin/types";
+import type { VinBreakdown } from "../lib/vin/engine";
 
 interface Props {
   enableSave?: boolean;
@@ -11,6 +12,7 @@ interface Props {
 export default function VinDecoder({ enableSave = false, onSaved }: Props) {
   const [vin, setVin] = useState("");
   const [vehicle, setVehicle] = useState<DecodedVehicle | null>(null);
+  const [breakdown, setBreakdown] = useState<VinBreakdown | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<string | null>(null);
   const [nickname, setNickname] = useState("");
@@ -22,10 +24,12 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
     setError(null);
     setWarning(null);
     setVehicle(null);
+    setBreakdown(null);
     setSaved(false);
     startDecode(async () => {
       const res = await fetch(`/api/vin/decode?vin=${encodeURIComponent(vin)}`);
       const data = (await res.json()) as DecodeResult;
+      if (data.breakdown?.valid) setBreakdown(data.breakdown);
       if (!data.ok || !data.vehicle) {
         setError(data.error ?? "Decode failed.");
         return;
@@ -145,6 +149,9 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
         </div>
       )}
 
+      {/* Position-by-position breakdown */}
+      {breakdown && <BreakdownTable breakdown={breakdown} />}
+
       {/* Find Parts CTA */}
       {vehicle && (
         <a
@@ -196,5 +203,33 @@ function ConfidenceBadge({ level }: { level: "high" | "partial" | "low" }) {
     <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${cls}`}>
       {level} confidence
     </span>
+  );
+}
+
+function BreakdownTable({ breakdown }: { breakdown: VinBreakdown }) {
+  return (
+    <div className="rounded-xl border border-gray-200 overflow-hidden">
+      <div className="bg-gray-50 px-5 py-3 border-b border-gray-100">
+        <h4 className="text-sm font-semibold text-[#111827]">How this VIN decodes</h4>
+        <p className="mt-1 font-mono text-sm tracking-widest text-gray-500 break-all">{breakdown.vin}</p>
+      </div>
+      <ol className="divide-y divide-gray-100">
+        {breakdown.segments.map((s, i) => (
+          <li key={i} className="px-5 py-3 flex gap-3">
+            <span className="shrink-0 w-14 text-[11px] font-semibold uppercase tracking-wider text-gray-400 pt-0.5">
+              {s.from === s.to ? `Pos ${s.from}` : `${s.from}–${s.to}`}
+            </span>
+            <span className="shrink-0 w-16 font-mono text-sm font-semibold text-[#111827] break-all">{s.chars}</span>
+            <div className="min-w-0 flex-1">
+              <p className="text-xs text-gray-500">{s.label}</p>
+              <p className={`text-sm ${s.value ? "font-medium text-[#111827]" : "text-gray-400"}`}>
+                {s.value ?? (s.status === "filler" ? "Filler" : "Not decoded")}
+              </p>
+              {s.note && <p className="mt-0.5 text-xs text-gray-400">{s.note}</p>}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
   );
 }
