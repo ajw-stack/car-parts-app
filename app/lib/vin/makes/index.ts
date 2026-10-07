@@ -10,6 +10,8 @@ import { isuzu, lexus, privateImport, toyota } from "./toyota";
 import { hyundai, kia, mazda, mitsubishi, nissan, nissanUS, suzuki } from "./asia";
 import { fcaNorthAmerica, fordAustralia, fordThailand } from "./ford-fca";
 import { bmw, holdenKorea, renault } from "./others";
+import { byd, chery, gwm, ldv, mg } from "./china";
+import { tesla } from "./tesla";
 
 export const MAKE_RULES: MakeRule[] = [
   holden6H8, holden6G1, holdenZB,
@@ -20,6 +22,7 @@ export const MAKE_RULES: MakeRule[] = [
   mazda, mitsubishi, nissan, nissanUS, suzuki, hyundai, kia,
   fordAustralia, fordThailand, fcaNorthAmerica,
   holdenKorea, bmw, renault,
+  mg, ldv, gwm, byd, chery, tesla,
 ];
 
 export function findMakeRule(vin: string): MakeRule | null {

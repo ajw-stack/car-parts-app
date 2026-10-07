@@ -1,6 +1,6 @@
 # Elroco VIN Decoding Code
 
-Version 1.0 — 29 September 2026. Implemented in `app/lib/vin/` (engine, country table, model-year table, and one rule file per manufacturer under `app/lib/vin/makes/`). Tested by `scripts/vin/run-tests.ts` against the VINs in `scripts/vin/user-vins.txt` and `scripts/vin/fixtures.json`.
+Version 1.1 — 29 September 2026 (1.1 adds Division 7: MG, LDV, GWM, BYD, Chery group, Tesla). Implemented in `app/lib/vin/` (engine, country table, model-year table, and one rule file per manufacturer under `app/lib/vin/makes/`). Tested by `scripts/vin/run-tests.ts` against the VINs in `scripts/vin/user-vins.txt` and `scripts/vin/fixtures.json`.
 
 ---
 
@@ -160,13 +160,41 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 **Rule 34. Renault, WMIs VF1, VF2.** Positions 4–6 model code: RFB Megane IV (single-sourced).
 
+### Division 7 — China-built makes and Tesla (`makes/china.ts`, `makes/tesla.ts`)
+
+**Rule 34A. Common rules for Division 7 makes (MG, LDV, GWM, BYD, Chery group).**
+- (a) None of these manufacturers publishes what each character of positions 4–8 means. Those positions are decoded only as a whole *code group*, and only where an Australian Government recall VIN list (which names one model) or a real Australian listing ties the group to a model. Single characters inside a group are never decoded on their own, even where a pattern is visible.
+- (b) Where one code group appears on more than one model, the decoder names every candidate model (for example "Shared code: G10 or MIFA") and does not pick one.
+- (c) Position 9 is a check digit. It validated on every one of about 110,000 Australian VINs examined for these makes.
+- (d) Position 10 is an ISO model-year letter. It is a model year, not a build date (a GWM built 12/2022 carries P, 2023).
+- (e) Position 11 plant letters are not decoded: no source maps them, and the one published table contradicted real Australian VINs.
+
+**Rule 34B. MG, WMI LSJ.** Code group = positions 4–6: W74 ZS (including ZST and ZS EV); WH4 MG4 (single-sourced); WP4 MG3 3rd generation (2024–); Z14 MG3 2nd generation; A24 HS (including HS PHEV and HS +EV); W24 and W26 MG6 (MG6, MG6 GT, MG6 Plus — the recall lists do not say which is which).
+
+**Rule 34C. LDV (SAIC Maxus), WMIs LSF, LSH, LSK.** Code group = positions 4–8: LSF AM11C T60 (single-sourced); LSF A431J D90; LSF AL11x Deliver 9 (body not published); LSF AL120 Deliver 9 or eDeliver 9; LSH 14J7C Deliver 9 van; LSK G5G.. Deliver 9 Bus; LSK G4GL1 G10; LSK G4AL1 shared G10 or MIFA; LSK G48L1 MIFA.
+
+**Rule 34D. GWM / Great Wall / Haval / Tank, WMI LGW.** The make is shown as GWM; Haval and Tank are carried in the model name. Code group = positions 4–8, confirmed: CB317 V240 4x2 2.4 petrol dual cab; CB337 V240 4x2 2.4 petrol cab chassis; DBE17 V200 4x4 2.0 diesel dual cab; CB318 Steed 4x2 2.4 petrol dual cab; DCF19 Cannon 4x4 diesel; FF3A5 X240 4x4 2.4 petrol; FFEA5 X200 4x4 diesel; EE4A4 Haval H2 2WD; EE4A5 Haval Jolion 2WD; EF6A5 Haval H6 2WD (including H6 GT). Single-sourced: CA217 SA220; DB317 V240 4x4; CBE17 V200 diesel (drive unconfirmed); CBE37 Steed 4x2 diesel cab chassis; DBE18 Steed diesel; CBF19 Cannon 4x2; EE5A5 Jolion (2024–); EEUA5 Jolion Hybrid; EFUA5 H6 Hybrid; FF6A5 H6 AWD; FF8A6 Haval H9; FGSA6 Tank 500 Hybrid.
+
+**Rule 34E. BYD, WMIs LGX, LC0, LPE.** The WMI is part of the code group, because the same positions 4–8 can mean different models under different WMIs. Confirmed: LGX CE4CB Atto 3; LPE 19W2A and 59W2A Shark 6. Single-sourced: LC0 CE4C. Dolphin; LC0 C74C4 Sealion 5; LGX C74C4 Sealion 6 FWD; LGX CD4C4 shared Sealion 6 AWD or Sealion 8 AWD; LGX CH4CD Sealion 7; LGX CH6C. Seal.
+
+**Rule 34F. Chery, Omoda and Jaecoo, WMIs LVV, LVT, LNN, LVU.** The make is shown as Chery, Omoda or Jaecoo according to the model. Confirmed: LVT D.24B Tiggo 8 Pro / Pro Max; LVV DB21B shared Omoda 5, Tiggo 4 / 4 Pro, Tiggo 7 or Jaecoo J7 (make shown as Chery). Single-sourced: LVV DD21B Jaecoo J7 (recall REC-006534 calls it "Jaecoo T35"); LNN BBDEE Tiggo 8 Super Hybrid; LNN BBDEG Tiggo 4 Hybrid; LNN ABDBF Omoda E5; LVU GTBAD Jaecoo J5.
+
+**Rule 34G. Tesla, WMIs 5YJ (Fremont) and LRW (Shanghai).**
+- (a) Position 4, model line: S Model S; X Model X; 3 Model 3; Y Model Y (Tesla Part 565 filings; Australian recall lists).
+- (b) Positions 5–7 are not decoded. Australian right-hand-drive codes are not in Tesla's US tables, and Shanghai-built codes follow a different, unpublished scheme.
+- (c) Position 8, motor: on Fremont-built Model 3 only, A single motor, B dual motor, C dual motor Performance (Tesla's US Part 565 table; single-sourced for Australia because the recall lists do not state the trim). The US table is never applied to Shanghai-built cars.
+- (d) Position 9 is a check digit. Position 10 is the model year.
+- (e) Position 11, plant: F Fremont, California; C Shanghai (single-sourced).
+- (f) Berlin-built Teslas (XP7) are named by WMI only; no Australian XP7 VIN has been seen.
+
 ---
 
 ## Part 4 — Testing
 
 **Rule 35. Test set.** The decoder is tested against:
 - (a) every VIN in `scripts/vin/user-vins.txt` — real VINs from Australian roads supplied by Elroco (98); and
-- (b) every VIN in `scripts/vin/fixtures.json` — real Australian VINs from auction and parts listings, each with the listing's description of the vehicle (138 further VINs), covering all top-20 makes on Australian roads (by the 2025 motor vehicle census: Toyota, Mazda, Ford, Holden, Hyundai, Mitsubishi, Nissan, Subaru, Kia, Volkswagen, Honda, Mercedes-Benz, BMW, Suzuki, Isuzu, Audi, MG, Jeep, Lexus, Land Rover).
+- (b) every VIN in `scripts/vin/fixtures.json` — real Australian VINs from auction and parts listings and from Australian Government recall VIN lists, each with the source's description of the vehicle (413 further VINs). Together they cover the makes on Australian roads by the 2025 motor vehicle census (Toyota, Mazda, Ford, Holden, Hyundai, Mitsubishi, Nissan, Subaru, Kia, Volkswagen, Honda, Mercedes-Benz, BMW, Suzuki, Isuzu, Audi, MG, Jeep, Lexus, Land Rover) and the current top-selling new makes (GWM, BYD, Tesla, Chery, LDV).
+- (c) Fixtures marked "search-snippet VIN" were read from a search result whose page could not be opened. Each passes the check digit and matches its code group, but should be replaced by a directly-read VIN when one is found.
 
 **Rule 36. Pass test.** A VIN passes when the decoder gives its country, make and model or series, and — where a listing describes the car — the make and model name agree and the model year is within one year of the listing's year.
 
@@ -178,8 +206,12 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 1. Toyota: older Altona-format VINs (6T153…, 6T164…), Thai MR053… and pre-2000 JT7 LandCruiser VDS codes.
 2. Ford Australia: body code AT (believed to be Territory, unconfirmed); pre-1998 layout with position 8 = L (e.g. 1995 ED ute).
-3. Ford Brazil (9BF), GWM (LGW), Mahindra (MA1), SsangYong (KPT), Volvo China (LYV): model not decoded locally.
+3. Ford Brazil (9BF), Mahindra (MA1), SsangYong (KPT), Volvo China (LYV): model not decoded locally.
 4. Hyundai position-4 letters R and Y, KMF commercial models; Kia position-4 R (one source says Sorento) and KNC (possibly Tasman).
-5. MG (LSJ): no Australian VIN with a known description could be obtained; make only.
+5. Division 7 (Rules 34A–34G):
+   - (a) no Australian VIN with the model stated found yet for MG5, ZS Hybrid+, HS Hybrid+, MG3 Hybrid+, Cyberster, LDV V80, eT60, eDeliver 9 (separately from Deliver 9), GWM Ora, Tank 300, Cannon Alpha, Haval H7/H8, BYD Seal U, Seal 6, Chery Tiggo 9, 2011–15 Chery J1/J3/J11, or any Berlin-built (XP7) Tesla;
+   - (b) plant letters (position 11) for MG, LDV, GWM, BYD and the Chery group;
+   - (c) Tesla positions 5–7 on all Australian cars, and position 8 on Shanghai-built cars (RWD / Long Range / Performance cannot yet be told apart from the VIN);
+   - (d) shared code groups that cannot name one model: LDV LSK G4AL1 (G10 or MIFA), BYD LGX CD4C4 (Sealion 6 or 8 AWD), Chery LVV DB21B (four models).
 6. BMW type codes beyond Rule 33(a); Mercedes-Benz plant letters.
 7. Engine and grade blocks for Mazda, Subaru, Honda, Land Rover, Nissan, Suzuki, Hyundai, Kia, GM Korea and Cruze — no published tables.

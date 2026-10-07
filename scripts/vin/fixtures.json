@@ -1839,5 +1839,2445 @@
   "model": "GLE",
   "description": "GLE V167 (chassis type 167.933) SUV/Wagon (inferred from GLE model) N/A N/A N/A",
   "user_supplied": true
+ },
+ {
+  "vin": "LRW3F7FS5NC486160",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2022,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EK8MC315984",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EB0MC176322",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FA3MC226345",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EC6MC227122",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FJ3MC281314",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EB1MF815720",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCFS6NC459896",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2022,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EK9NC608763",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2022,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FR8NC610113",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2022,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EL1MC327340",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCFS8PC743274",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2023,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FS0PC780018",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2023,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EK3PC779818",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2023,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEL6PC764621",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2023,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EL7NC715805",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2022,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EA2MF818326",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEK3PC030963",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2023,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7ELXPC821488",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2023,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EC0MF823638",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEL5MCR00104",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2021,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEK6RC356050",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2024,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCFS7RC370151",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2024,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FS3RC062899",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2024,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EK5RC069001",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2024,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEL1RC369975",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2024,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7FR1MC402416",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2021,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7ET8RC141883",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2024,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRW3F7EC0LC138063",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006042 (AU Government recall VIN list, rec006042-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2020,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EA5KF442959",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001653 (AU Government recall VIN list, rec001653-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2019,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EA3LF605433",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001653 (AU Government recall VIN list, rec001653-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2020,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EBXLF764216",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001653 (AU Government recall VIN list, rec001653-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2020,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EC5LF595392",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001653 (AU Government recall VIN list, rec001653-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2020,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJ3F7EB0KF443378",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001653 (AU Government recall VIN list, rec001653-VIN-List-1.csv)",
+  "model": "Model 3",
+  "year": 2019,
+  "description": "Model 3 (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCFJ0SC138682",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006419 (AU Government recall VIN list, rec006419-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2025,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LRWYHCEK0SC045901",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006419 (AU Government recall VIN list, rec006419-VIN-List-1.csv)",
+  "model": "Model Y",
+  "year": 2025,
+  "description": "Model Y (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E2XGF136346",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2016,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7H24FF094783",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E40JF236173",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2018,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE22HF032444",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2017,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE43GFS02777",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2016,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E23HF173160",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2017,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE27JF079376",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2018,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE47HF032683",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2017,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E15GF157421",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2016,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7H11FFP58318",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7H12EFP46631",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7H47FF091376",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB3H17EFP43250",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E2XFF111106",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E44HF221119",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2017,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7V27FF100841",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E47FF103417",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB8H16FFP75945",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E17HF213117",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2017,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB6H18EFP46613",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E28JF238736",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2018,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E40GF113059",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2016,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7S10FF080721",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7S19EFP57618",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE23GF024139",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2016,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7E1XFF102252",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXCCE24HF064427",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2017,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB8H45FF084531",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB8H23FF087202",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7S20FF093090",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7V49FF098575",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXDCE45JF082990",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2018,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA7H28FFP76424",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB8E41FF103659",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA1DN0DFP11464",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2013,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA1DN9CFS00124",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2012,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA1H13EFP58075",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA7E2XGF158396",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2016,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA7E11FF109996",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA7E17GF145810",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2016,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSA7E22HF180636",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2017,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB3S13EFP47448",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB6S15EFP47520",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2014,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJSB7V13FF098707",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model S",
+  "year": 2015,
+  "description": "Model S (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "5YJXCDE29HF052988",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001587 (AU Government recall VIN list, rec001587-VIN-List-1.csv)",
+  "model": "Model X",
+  "year": 2017,
+  "description": "Model X (recall VIN list; trim not stated)",
+  "user_supplied": false,
+  "make": "Tesla"
+ },
+ {
+  "vin": "LSJW74U99JZ061414",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001007 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001007-VIN-List-1.csv)",
+  "model": "ZS",
+  "year": 2018,
+  "description": "ZS AU recall 2016-2018 (petrol)",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW74C99KZ013799",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001007 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001007-VIN-List-1.csv)",
+  "model": "ZS",
+  "year": 2019,
+  "description": "ZS AU recall 2016-2018 (petrol)",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW74C96NZ196972",
+  "source": "https://autosportsgroup.com.au/cb8650-1854441-mg-zst-2022/ (fetched, VIN in page)",
+  "model": "ZST",
+  "year": 2022,
+  "description": "ZST MY22 Excite",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW74C90NZ262609",
+  "source": "search-result echo of https://www.johnhughes.com.au/cars/used-orange-2023-mg-zst-464766 (page fetched but VIN not in HTML; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "ZST",
+  "year": 2022,
+  "description": "ZST 2023 Essence",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW74094NZ263203",
+  "source": "search-result echo of https://www.caradvice.com.au/cars-for-sale/car/969540856/ (page blocked to fetch; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "ZS EV",
+  "year": 2022,
+  "description": "ZS EV 2022 Essence",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJA24W9XMN022056",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2021/mg/hs/wagon/sas23_my21/336546 (fetched)",
+  "model": "HS",
+  "year": 2021,
+  "description": "HS SAS23 MY21 Essence X",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJA24U90MN020626",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2020/mg/hs/wagon/sas23_my20/316684 (fetched)",
+  "model": "HS",
+  "year": 2021,
+  "description": "HS SAS23 MY20 Essence",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJA24399PN055932",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005652 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005652-VIN-List-1.csv)",
+  "model": "HS",
+  "year": 2023,
+  "description": "HS PHEV / HS +EV recall 2021-2022",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJZ14U99MS061179",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2021/mg/mg3/hatchback/szp1_my21/352366 (fetched)",
+  "model": "MG3",
+  "year": 2021,
+  "description": "MG3 SZP1 MY21 Excite",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJZ14U95MS036554",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2021/mg/mg3/hatchback/szp1_my21/349280 (fetched)",
+  "model": "MG3",
+  "year": 2021,
+  "description": "MG3 SZP1 MY21 Excite",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJZ14U95MS057940",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2021/mg/mg3/hatchback/szp1_my21/352359 (fetched)",
+  "model": "MG3",
+  "year": 2021,
+  "description": "MG3 SZP1 MY21 Excite",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJWP4392RZ187711",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006468 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006468-VIN-List-1.csv)",
+  "model": "MG3",
+  "year": 2024,
+  "description": "MG3 recall 2024-2025 (all variants)",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJWP4U96RZ203276",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006468 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006468-VIN-List-1.csv)",
+  "model": "MG3",
+  "year": 2024,
+  "description": "MG3 recall 2024-2025 (all variants)",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJWH4090RN101188",
+  "source": "search-result echo of johnhughes.com.au MG4 Excite 51 listing (page 404 on fetch; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "MG4",
+  "year": 2024,
+  "description": "MG4 Excite 51 (MEH32)",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJWH4092RN100768",
+  "source": "search-result echo of https://www.drive.com.au/cars-for-sale/car/970342518/ (403 on fetch; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "MG4",
+  "year": 2024,
+  "description": "MG4 Essence 64 150kW",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJWH4092SN022479",
+  "source": "search-result echo of https://www.drive.com.au/cars-for-sale/car/970277118/ (403 on fetch; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "MG4",
+  "year": 2025,
+  "description": "MG4 Excite 51 125kW",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW24G97BS092004",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005103 (regulator comments list 12 VINs)",
+  "model": "MG6",
+  "year": 2011,
+  "description": "MG6 / MG6 GT",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW26G96CS085316",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005103",
+  "model": "MG6",
+  "year": 2012,
+  "description": "MG6 / MG6 GT",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSJW24G96GS083446",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001190 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001190-VIN-List-1.csv)",
+  "model": "MG6",
+  "year": 2016,
+  "description": "MG6 (Plus) recall 2016 missing rear child anchorage",
+  "user_supplied": false,
+  "make": "MG"
+ },
+ {
+  "vin": "LSFAM11C5PA098804",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2023,
+  "description": "T60 Max Luxe Mega Tub",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAM11CXNA096964",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2022,
+  "description": "T60 Max Luxe",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAM11C4PA068290",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2023,
+  "description": "T60 Max Pro",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAM11C3PA139432",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2023,
+  "description": "T60 Max Luxe",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAM11C8PA134744",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2023,
+  "description": "T60 Max Luxe",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAM11C6PA177592",
+  "source": "search-result echo of Australian dealer listing (caradvice / toyota.com.au used / newcastle toyota); pages blocked; checksum valid [search-snippet VIN, page not opened]",
+  "model": "T60",
+  "year": 2023,
+  "description": "T60 Max Pro",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSKG4GL15SA126832",
+  "source": "search-result echo of https://www.carsales.com.au/cars/details/2025-ldv-g10-auto-my25/OAG-AD-25274220/ (403 on fetch; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "G10",
+  "year": 2025,
+  "description": "G10 MY25 Auto (build 09/2025, compliance 11/2025)",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSH14J7C0PA142108",
+  "source": "search-result echo of https://www.caradvice.com.au/cars-for-sale/car/969480248/ (blocked; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "Deliver 9",
+  "year": 2023,
+  "description": "Deliver 9 Mid Roof MWB 4-door auto",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFA431J5KA083819",
+  "source": "search-result echo of https://www.cars4us.com.au/vehicles/55586 (VIN not in fetched HTML; checksum valid) [search-snippet VIN, page not opened]",
+  "model": "D90",
+  "year": 2019,
+  "description": "D90 2019",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFA431J9PA131460",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006141 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006141-VIN-List-1.csv)",
+  "model": "D90",
+  "year": 2023,
+  "description": "D90 recall 2017-2024 all variants",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSH14J7C5PA124557",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006165 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006165-VIN-List-1.csv)",
+  "model": "Deliver 9",
+  "year": 2023,
+  "description": "Deliver 9 recall 2021-2023 (superseded by 006606)",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAL11B0TA083034",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006545 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006545-VIN-List-1.csv)",
+  "model": "Deliver 9",
+  "year": 2026,
+  "description": "Deliver 9 & eDeliver 9 recall 2024-2026 (model of this VIN family not stated)",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAL1206SA111088",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006545 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006545-VIN-List-1.csv)",
+  "model": "Deliver 9",
+  "year": 2025,
+  "description": "Deliver 9 & eDeliver 9 recall 2024-2026 (model of this VIN family not stated)",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSKG5GL10MA052008",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006087 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006087-VIN-List-1.csv)",
+  "model": "Deliver 9",
+  "year": 2021,
+  "description": "Deliver 9 Bus recall 2021-2024",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSKG4AL18RD074764",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006563 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006563-VIN-List-1.csv)",
+  "model": "G10",
+  "year": 2024,
+  "description": "MIFA / MIFA 9 recall 2022-2025",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSKG48L11ND058585",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006563 (VIN list: https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006563-VIN-List-1.csv)",
+  "model": "MIFA",
+  "year": 2022,
+  "description": "MIFA / MIFA 9 recall 2022-2025",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSKG4GL12LA107401",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000834 (XLSX VIN list)",
+  "model": "G10",
+  "year": 2020,
+  "description": "G10 recall 2020-2021 (rear brake pipe)",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LSFAL11A0MA046574",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000833 (XLSX VIN list)",
+  "model": "Deliver 9",
+  "year": 2021,
+  "description": "Deliver 9 recall 2019-2021 rear brake pipe",
+  "user_supplied": false,
+  "make": "LDV"
+ },
+ {
+  "vin": "LGWDCF193SJ652897",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2025,
+  "description": "Cannon Ultra (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF190SJ647530",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2025,
+  "description": "Cannon Premium (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF196SJ626455",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2025,
+  "description": "Cannon Premium (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF196PJ642307",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2023,
+  "description": "Ute Cannon-X (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A52MH957813",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2021,
+  "description": "Haval H6 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF6A54MH957641",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2021,
+  "description": "Haval H6 Ultra AWD",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A5XNH927993",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2022,
+  "description": "Haval H6 Lux",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEFUA54PH928354",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2023,
+  "description": "Haval H6 Lux Hybrid",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A55PK669573",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2023,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A52NK616343",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A52NH929916",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2022,
+  "description": "Haval H6 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A58RH947374",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2024,
+  "description": "Haval H6 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A59NH935051",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2022,
+  "description": "Haval H6 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A57PH936895",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2023,
+  "description": "Haval H6 Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A52NH945520",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H6",
+  "year": 2022,
+  "description": "Haval H6gt Lux (2WD)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A59NK640929",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A57RK630311",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2024,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A54NK615663",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Vanta",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A53PK621635",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2023,
+  "description": "Haval Jolion Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A50NK639376",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Vanta",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A55NK622895",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE5A58RL615462",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2024,
+  "description": "Haval Jolion Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A5XMK606321",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2021,
+  "description": "Haval Jolion Lux",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A57PK669803",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2023,
+  "description": "Haval Jolion Lux",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A51NK612560",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A57MK615445",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2021,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A59NK621779",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Vanta",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A52NK624717",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2022,
+  "description": "Haval Jolion Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE5A5XTL623778",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2026,
+  "description": "Haval Jolion Vanta",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEEUA50RL610833",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2024,
+  "description": "Haval Jolion Premium Hybrid",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A55SK645699",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval Jolion",
+  "year": 2025,
+  "description": "Haval Jolion Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFGSA67TM614200",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Tank 500",
+  "year": 2026,
+  "description": "Tank 500 Vanta Hybrid",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF19XPJ655366",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2023,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCBF191MJ621245",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2021,
+  "description": "Ute Cannon (4x2)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF193MJ614010",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2021,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF192NJ620852",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon-X (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF191MJ620050",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2021,
+  "description": "Ute Cannon-X (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF193MJ615206",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2021,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF194NJ627771",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon-X (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF194NJ638740",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon Vanta (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF196LJ610547",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2020,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF193RJ651470",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2024,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF19XNJ628326",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon-l (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF194NJ638818",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon Vanta (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF190NJ634961",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2022,
+  "description": "Ute Cannon-X (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDCF199PJ629731",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Cannon",
+  "year": 2023,
+  "description": "Ute Cannon Vanta (4x4)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A4XLH924491",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H2",
+  "year": 2020,
+  "description": "H2 Lux 2WD",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF8A60LH928849",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H9",
+  "year": 2020,
+  "description": "H9 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF8A68MH955010",
+  "source": "cars24.com.au listing JSON (Australian used stock)",
+  "model": "Haval H9",
+  "year": 2021,
+  "description": "H9 Ultra",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB318XKB624240",
+  "source": "https://www.grays.com/lot/0001-21034022/motor-vehiclesmotor-cycles/great-wall-steed-4x2-manual-dual-cab-rwc-issued-21-08-2024",
+  "model": "Steed",
+  "year": 2019,
+  "description": "Great Wall STEED 4X2 Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A52JH902919",
+  "source": "https://www.grays.com/lot/0001-21055256/motor-vehiclesmotor-cycles/2018-haval-h6-lux-2wd-automatic-wagon",
+  "model": "Haval H6",
+  "year": 2018,
+  "description": "2018 HAVAL H6 LUX 2WD Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A57MH953756",
+  "source": "https://www.grays.com/lot/0001-50506156/motor-vehiclesmotor-cycles/2021-gwm-haval-h6-lux-2wd-automatic-wagon",
+  "model": "Haval H6",
+  "year": 2021,
+  "description": "2021 GWM HAVAL H6 LUX 2WD Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A47KH910109",
+  "source": "https://www.grays.com/lot/0001-21017253/motor-vehiclesmotor-cycles/2019-haval-h2-city-2wd-automatic-wagon",
+  "model": "Haval H2",
+  "year": 2019,
+  "description": "2019 HAVAL H2 CITY 2WD Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEE4A42HH900872",
+  "source": "https://www.grays.com/lot/0001-21037523/motor-vehicles-motor-cycles/2017-haval-h2-lux-2wd-automatic-wagon",
+  "model": "Haval H2",
+  "year": 2017,
+  "description": "2017 HAVAL H2 LUX 2WD Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFFEA59DB656019",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/medium-family-cars/6-2013-great-wall-x200-4x4-cc6461ky-my11-4d-wagon-blue-20-1503086",
+  "model": "X200",
+  "year": 2013,
+  "description": "6/2013 Great Wall X200 (4x4) CC6461KY - Lot 1503086 | CARBIDS",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB3374AB652747",
+  "source": "app test VIN (repo); pos10=A=2010",
+  "model": "V240",
+  "year": 2010,
+  "description": "V240 (pattern CB337 = cab-chassis 4x2 per carbids 2014 V240 4x2 C-chas LGWCB337XEB624876)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDB31779B613248",
+  "source": "surfaced by web-search snippet quoting a 2009 Great Wall V240 4X4 AU listing (page not located) [search-snippet VIN]",
+  "model": "V240",
+  "year": 2009,
+  "description": "V240 4x4 (dual cab)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF3A55AB646863",
+  "source": "surfaced by web-search snippet quoting a 2010 Great Wall X240 4X4 wagon AU listing (page not located) [search-snippet VIN]",
+  "model": "X240",
+  "year": 2010,
+  "description": "X240 4x4 wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB3180LB628797",
+  "source": "Bundaberg Toyota used listing (caradvice/drive.com.au car/969518209 family; snippet, page 403 to fetch) [search-snippet VIN]",
+  "model": "Steed",
+  "year": 2020,
+  "description": "Steed Base 2.4 petrol 5MT 4x2 dual cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB3189LB630421",
+  "source": "web-search snippet, listing page not located [search-snippet VIN]",
+  "model": "Steed",
+  "year": 2020,
+  "description": "Steed (2020) - petrol CB318",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB3187KB622459",
+  "source": "web-search snippet, listing page not located [search-snippet VIN]",
+  "model": "Steed",
+  "year": 2019,
+  "description": "Steed (2019) - petrol CB318",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDBE185GB614447",
+  "source": "web-search snippet, listing page not located [search-snippet VIN]",
+  "model": "Steed",
+  "year": 2016,
+  "description": "Steed 2016 (4x4 diesel per DBE18 pattern)",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWEF6A58NH948955",
+  "source": "web-search snippet (onlineauto.com.au / used listing) [search-snippet VIN]",
+  "model": "Haval H6",
+  "year": 2022,
+  "description": "Haval H6 Premium",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB3170CC675071",
+  "source": "https://www.grays.com/lot/0001-9058824/motor-vehiclesmotor-cycles/2012-great-wall-v240-4x2-manual-dual-cab",
+  "model": "V240",
+  "year": 2012,
+  "description": "V240 4x2 Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB31719B615590",
+  "source": "https://www.grays.com/lot/0001-60046423/commercial-vehicles/2009-great-wall-v240-4x2-manual-dual-cab",
+  "model": "V240",
+  "year": 2009,
+  "description": "V240 4x2 Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDBE172CC648101",
+  "source": "https://www.grays.com/lot/0001-21038668/4x4/2012-great-wall-v200-4x4-turbo-diesel-manual-dual-cab",
+  "model": "V200",
+  "year": 2012,
+  "description": "V200 4x4 Turbo Diesel Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCBE37XLB631447",
+  "source": "https://www.grays.com/lot/0001-21037120/commercial-vehicles/great-wall-steed-4x2-turbo-diesel-manual-cab-chassis",
+  "model": "Steed",
+  "year": 2020,
+  "description": "Steed 4x2 Turbo Diesel Manual Cab Chassis",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDBE17XBC659992",
+  "source": "https://www.grays.com/lot/0001-21035000/4x4/2011-great-wall-v200-4x4-turbo-diesel-manual-dual-cab",
+  "model": "V200",
+  "year": 2011,
+  "description": "V200 4x4 Turbo Diesel Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCA21739A608112",
+  "source": "https://www.grays.com/lot/0001-60044876/motor-vehiclesmotor-cycles/2009-great-wall-sa220-manual-dual-cab",
+  "model": "SA220",
+  "year": 2009,
+  "description": "SA220 Manual Dual Cab",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFFEA57CB663193",
+  "source": "https://www.grays.com/lot/0001-21049421/motor-vehiclesmotor-cycles/2012-great-wall-x200-4x4-turbo-diesel-automatic-wagon",
+  "model": "X200",
+  "year": 2012,
+  "description": "X200 4x4 Turbo Diesel Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFFEA56DB656057",
+  "source": "https://www.grays.com/lot/0001-21048246/salvage/2013-great-wall-x200-4x4-turbo-diesel-automatic-wagon",
+  "model": "X200",
+  "year": 2013,
+  "description": "X200 4x4 Turbo Diesel Automatic Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF3A57CB655535",
+  "source": "https://www.grays.com/lot/0001-10906922/4x4/2012-great-wall-x240-4x4-manual-wagon",
+  "model": "X240",
+  "year": 2012,
+  "description": "X240 4x4 Manual Wagon",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB31709B615595",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/commercial-4wd-vehicles/04-2009-great-wall-v240-4x2-k2-dual-cab-utility-black-24-1452369",
+  "model": "V240",
+  "year": 2009,
+  "description": "V240 (4x2) K2 Dual Cab Utility",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF3A50BB622746",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/medium-family-cars/3-2011-great-wall-x240-4x4-cc6461ky-4d-wagon-white-24-1407448",
+  "model": "X240",
+  "year": 2011,
+  "description": "X240 (4x4) CC6461KY",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCB337XEB624876",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/commercial-4wd-vehicles/5-2014-great-wall-v240-4x2-k2-my11-c-chas-white-24-1605349",
+  "model": "V240",
+  "year": 2014,
+  "description": "V240 (4x2) K2 MY11 Cab Chassis",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWFF3A54BB626069",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/medium-family-cars/04-11-great-wall-x240-4x4-4x4-cc6461ky-my11-4d-wagon-silver-24-1516545",
+  "model": "X240",
+  "year": 2011,
+  "description": "X240 (4x4) CC6461KY MY11",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWCBE174CC639413",
+  "source": "https://www.carbids.com.au/c/allbids-car-auctions/commercial-4wd-vehicles/4-2012-great-wall-v200-k2-dual-cab-utility-white-turbo-diesel-20-1609920",
+  "model": "V200",
+  "year": 2012,
+  "description": "V200 K2 Dual Cab Utility Turbo Diesel",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LGWDBE18XKB615750",
+  "source": "https://carbids.com.au/c/allbids-car-auctions/commercial-4wd-vehicles/04-2019-great-wall-steed-nbp-dual-cab-utility-black-turbo-diesel-24-1552008",
+  "model": "Steed",
+  "year": 2019,
+  "description": "Steed NBP Dual Cab Utility Turbo Diesel",
+  "user_supplied": false,
+  "make": "GWM"
+ },
+ {
+  "vin": "LC0C74C47T5086838",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 5",
+  "year": 2026,
+  "description": "SEALION 5 MY26 Essential",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LC0CE4CB5P0511884",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Dolphin",
+  "year": 2023,
+  "description": "Dolphin Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LC0CE4CC2T0052638",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Dolphin",
+  "year": 2026,
+  "description": "Dolphin MY25 Essential",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LC0CE4CC3S0413812",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Dolphin",
+  "year": 2025,
+  "description": "Dolphin MY25 Essential",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXC74C42S0440158",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 6",
+  "year": 2025,
+  "description": "SEALION 6 MY25 Dynamic Extended Range",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXC74C48T0192712",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 6",
+  "year": 2026,
+  "description": "SEALION 6 MY25 Essential",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCD4C41S0630624",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 6",
+  "year": 2025,
+  "description": "SEALION 6 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCD4C43S0704108",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 6",
+  "year": 2025,
+  "description": "SEALION 6 MY25 Premium Extended Range",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCD4C46T0150354",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 8",
+  "year": 2026,
+  "description": "SEALION 8 MY26 Premium AWD",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCD4C49T0148047",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 8",
+  "year": 2026,
+  "description": "SEALION 8 MY26 Premium AWD",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB6S2049619",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Atto 3",
+  "year": 2025,
+  "description": "ATTO 3 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB9P2060606",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Atto 3",
+  "year": 2023,
+  "description": "ATTO 3 Wagon",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB9TG009216",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Atto 3",
+  "year": 2026,
+  "description": "ATTO 3 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CBXP2094781",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Atto 3",
+  "year": 2023,
+  "description": "ATTO 3 Extended",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCH4CD2S2231245",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 7",
+  "year": 2025,
+  "description": "SEALION 7 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCH4CD3R2149101",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 7",
+  "year": 2024,
+  "description": "SEALION 7 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCH4CD9S2202731",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Sealion 7",
+  "year": 2025,
+  "description": "SEALION 7 MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCH6CB2S2032142",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Seal",
+  "year": 2025,
+  "description": "Seal MY25 Dynamic",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCH6CD5T2087249",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Seal",
+  "year": 2026,
+  "description": "Seal MY25 Premium",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LNNABDBF4SD205751",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Omoda E5",
+  "year": 2025,
+  "description": "E5 T34 MY25 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LNNBBDEE9SD304119",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 8",
+  "year": 2025,
+  "description": "Tiggo 8 T31 MY26 Super Hybrid Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LNNBBDEG5TC089640",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2026,
+  "description": "Tiggo 4 Wagon",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B2RDB12318",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 8 Pro Max",
+  "year": 2024,
+  "description": "Tiggo 8 Pro Max T31 MY24 Ultimate AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B2RDB64709",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 8 Pro Max",
+  "year": 2024,
+  "description": "Tiggo 8 Pro Max T31 MY24 Ultimate AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVUGTBAD5TDE82641",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Jaecoo J5",
+  "year": 2026,
+  "description": "J5 Wagon",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVUGTBAD6TDL29375",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Jaecoo J5",
+  "year": 2026,
+  "description": "J5 Wagon",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B0SC218325",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B2PD231806",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "OMODA 5",
+  "year": 2023,
+  "description": "OMODA 5 T19C MY23 BX",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B3RC108332",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4 Pro",
+  "year": 2024,
+  "description": "Tiggo 4 Pro T3X MY25 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B5SC208406",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B5SDH34631",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 7",
+  "year": 2025,
+  "description": "Tiggo 7 T32 MY26 Urban",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B5SDH35245",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 7",
+  "year": 2025,
+  "description": "Tiggo 7 T32 MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B6SC229541",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Urban",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B7SC218080",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B8RD111236",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "OMODA 5",
+  "year": 2024,
+  "description": "OMODA 5 T19C MY24 EX",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B8SC267790",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B9SC182277",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Urban",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B9SC208487",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2025,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B9TC128317",
+  "source": "https://www.pickles.com.au/used/search/cars (auction listing, Pickles AU, scraped 2026-09-29; VIN in listing description)",
+  "model": "Tiggo 4",
+  "year": 2026,
+  "description": "Tiggo 4 T3X MY26 Ultimate",
+  "user_supplied": false
+ },
+ {
+  "vin": "LGXCE4CB1N2060824",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB1N2050598",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB9N2078603",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB0N2063424",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB2N2078586",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB6N2050581",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB0N2050706",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CB6N2077795",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005579 (REC-005579 VIN list, 703 VINs)",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 SC2E (XTD/STD)",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LVVDB21BXPD260762",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B5PD252973",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B9PD231799",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B5PD210190",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B6PD202616",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B1PD182226",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B6PD149853",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B3PD118527",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005891 (REC-005891 VIN list, 5,901 VINs)",
+  "model": "Omoda 5",
+  "year": 2023,
+  "description": "Omoda 5 T19C",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B0SC110531",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B0SC118984",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDD21B0SC118851",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDB21B6SC119220",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDD21B2SC203609",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDD21BXSC233649",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDD21B8SC245329",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVVDD21B8SC275771",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006534 (REC-006534 VIN list, 1,028 VINs)",
+  "model": "Jaecoo J7",
+  "year": 2025,
+  "description": "J7 (recall page title \"Jaecoo T35\"; 1,028 units = Drive.com.au J7 ECU-harness recall count)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B0TD210574",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2026,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B9SD599147",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2025,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B4SD378412",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2025,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B7SD155197",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2025,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24BXRDF04348",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2024,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B0RDB52980",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2024,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDD24B1RD660632",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2024,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LVTDB24B7RD567054",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006636 (REC-006636 VIN list, 5,556 VINs)",
+  "model": "Tiggo 8 Pro 2.0",
+  "year": 2024,
+  "description": "Tiggo 8 Pro 2.0",
+  "user_supplied": false
+ },
+ {
+  "vin": "LPE19W2A3TF304620",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2026,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A4TF214747",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2026,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A6TF126010",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2026,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2AXSF373643",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2025,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A4SF249092",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2025,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A3SF193419",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2025,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A3SF146245",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2025,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LPE19W2A2SF062997",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006728 (REC-006728 VIN list, 32,009 VINs)",
+  "model": "Shark 6",
+  "year": 2025,
+  "description": "Shark 6",
+  "user_supplied": false,
+  "make": "BYD"
+ },
+ {
+  "vin": "LGXCE4CBXN2131695",
+  "source": "https://ancap.com.au/safety-ratings/byd/atto-3/e5634a (\"built from 21 November 2022 (after VIN LGXCE4CBXN2131695)\")",
+  "model": "Atto 3",
+  "year": 2022,
+  "description": "Atto 3 Standard/Extended Range (ANCAP boundary VIN)",
+  "user_supplied": false,
+  "make": "BYD"
  }
 ]
