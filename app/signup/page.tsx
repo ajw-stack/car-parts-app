@@ -40,6 +40,8 @@ export default function SignupPage() {
     // Supabase answers a sign-up for an already-registered email with a user that has no
     // identities and sends no email. Say so, instead of "check your email".
     if (data.user && (data.user.identities?.length ?? 0) === 0) { setExists(true); return; }
+    // With email confirmation switched off, Supabase signs the user in straight away.
+    if (data.session) { location.href = "/pricing"; return; }
     setDone(true);
   }
 
