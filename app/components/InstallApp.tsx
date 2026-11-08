@@ -8,7 +8,7 @@ import { useState, useSyncExternalStore } from "react";
  * iPhone has no install API, so it shows the Share > Add to Home Screen steps instead.
  * Hidden on desktop and when the app is already installed.
  */
-type Mode = "hidden" | "prompt" | "ios" | "manual";
+type Mode = "hidden" | "prompt" | "ios" | "manual" | "inapp";
 type PromptEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
 type W = Window & { __elrocoInstall?: PromptEvent | null };
 
@@ -19,6 +19,8 @@ function getMode(): Mode {
     (navigator as Navigator & { standalone?: boolean }).standalone === true;
   if (standalone) return "hidden";
   const ua = navigator.userAgent;
+  // In-app browsers (Messenger, Facebook, Instagram, TikTok, LinkedIn, Snapchat, Line, Android webviews) cannot install apps.
+  if (/FBAN|FBAV|FB_IAB|Messenger|Instagram|musical_ly|TikTok|LinkedInApp|Snapchat|Line\/|; wv\)/i.test(ua)) return "inapp";
   const ios = /iphone|ipad|ipod/i.test(ua) || (/macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
   if (ios) return "ios";
   if (!/android|mobile/i.test(ua)) return "hidden";
@@ -52,7 +54,9 @@ export default function InstallApp({ variant }: { variant: "menu" | "card" }) {
   }
 
   const steps =
-    mode === "ios"
+    mode === "inapp"
+      ? ["This page is open inside another app (such as Messenger or Facebook), which cannot install apps.", "Tap the menu (⋯ or ⋮) at the top of the screen and choose Open in browser (or Open in Chrome / Safari).", "Then tap Install the app again."]
+      : mode === "ios"
       ? ["Open elroco.com.au in Safari.", "Tap the Share button (the square with an arrow pointing up).", "Scroll down and tap Add to Home Screen, then Add."]
       : ["Tap the ⋮ menu at the top right of Chrome.", "Tap Install app (or Add to Home screen).", "Tap Install."];
 
