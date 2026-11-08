@@ -25,8 +25,17 @@ export async function POST(req: NextRequest) {
 
   const s = stripe();
 
-  // Reuse the Stripe customer if we have one, otherwise create it and remember it.
+  // Reuse the Stripe customer if we have one, otherwise create it and remember it. A saved id
+  // that this Stripe account does not know (e.g. left over from sandbox testing) is replaced.
   let customerId = row?.stripe_customer_id ?? null;
+  if (customerId) {
+    try {
+      const existing = await s.customers.retrieve(customerId);
+      if ((existing as { deleted?: boolean }).deleted) customerId = null;
+    } catch {
+      customerId = null;
+    }
+  }
   if (!customerId) {
     const customer = await s.customers.create({ email: user.email, metadata: { user_id: user.id } });
     customerId = customer.id;

@@ -54,7 +54,7 @@ function AccountBody() {
     setError(null); setBusy(true);
     const { data: { session } } = await supabase.auth.getSession();
     const res = await fetch("/api/billing/portal", { method: "POST", headers: { Authorization: `Bearer ${session?.access_token ?? ""}` } });
-    const data = await res.json();
+    const data = await res.json().catch(() => ({}));
     setBusy(false);
     if (!res.ok || !data.url) { setError(data.error ?? "Could not open billing."); return; }
     location.href = data.url;
@@ -64,7 +64,7 @@ function AccountBody() {
     setError(null); setBusy(true);
     const { data: { session } } = await supabase.auth.getSession();
     const res = await fetch("/api/billing/start-now", { method: "POST", headers: { Authorization: `Bearer ${session?.access_token ?? ""}` } });
-    const data = await res.json();
+    const data = await res.json().catch(() => ({}));
     if (!res.ok || !data.ok) { setBusy(false); setError(data.error ?? "Could not start the subscription."); return; }
     location.href = "/account";
   }
