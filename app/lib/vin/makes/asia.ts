@@ -28,6 +28,56 @@ const MAZDA: Record<string, Hit> = {
   UR: ["BT-50", "UR"], UN: ["BT-50", "UN (UP/UR family)"],
 };
 
+// Mazda descriptor (added 2026-11-09). Two sources agree for each code below:
+// [M] Mazda CX-5 KE bodyshop manual VIN section (AU sample "JM0 KE107100": 6 body, 7 dummy,
+//     8 engine "7 = 2.0 L SKYACTIV-G, 2 = 2.2 L SKYACTIV-D"; JM8 table "2 = 2WD, 4 = 4WD,
+//     W = Station Wagon, 7 = 2.0 L");
+// [R] Mazda recall VIN lists on vehiclerecalls.gov.au (REC-000869..899) — e.g. the 2.2 diesel
+//     recall REC-894 lists only engine digit 2; the 2.5 petrol recall REC-890 only engine L
+//     (KF4WL, BP2HL, BP2SL); [C] parts-catalogue type codes (KF2W7 2.0, KF4WL 2.5 AWD,
+//     KF4W2 2.2 D AWD, DK2W7 / DK4W7).
+// Newer carlines (KF, TC, DK, BP, ND, DJ, DL) use the JM8-style layout: 6 = drive, 7 = body,
+// 8 = engine. Older carlines (KE, GJ, GL, BM, BN) use digit codes with the engine in 8.
+// Held back (single source): older-layout 3 = 2.5; S = 1.5 diesel; A = 1.5 petrol; H/S body;
+// position 9 transmission; plant letters; BT-50.
+const MAZDA_NEW_LAYOUT = new Set(["KF", "TC", "DK", "BP", "ND", "DJ", "DL"]);
+const MAZDA_OLD_LAYOUT = new Set(["KE", "GJ", "GL", "BM", "BN"]);
+const MAZDA_DRIVE: Record<string, string> = { "2": "2WD", "4": "AWD" };
+const MAZDA_BODY: Record<string, string> = { W: "Wagon / SUV" };
+const MAZDA_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
+  "7": { name: "2.0L SKYACTIV-G petrol (PE)", litres: "2.0", fuel: "Petrol" },
+  "2": { name: "2.2L SKYACTIV-D diesel (SH)", litres: "2.2", fuel: "Diesel" },
+};
+const MAZDA_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: string }> = {
+  ...MAZDA_ENGINE,
+  L: { name: "2.5L SKYACTIV-G petrol (PY family)", litres: "2.5", fuel: "Petrol" },
+};
+
+function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  const code = vin.slice(3, 5);
+  const fill = (e?: { name: string; litres: string; fuel: string }) => {
+    if (e) Object.assign(s, { engine: e.name, engineLitres: e.litres, engineCylinders: "4", fuel: e.fuel });
+  };
+  if (MAZDA_NEW_LAYOUT.has(code)) {
+    const drive = MAZDA_DRIVE[vin[5]] ?? null; if (drive) s.drive = drive;
+    const body = MAZDA_BODY[vin[6]] ?? null; if (body) s.body = body;
+    const eng = MAZDA_ENGINE_NEW[vin[7]]; fill(eng);
+    return [
+      seg(6, 6, vin, "Drive", drive),
+      seg(7, 7, vin, "Body", body, body ? {} : { note: "This Mazda body letter is not yet confirmed." }),
+      seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
+    ];
+  }
+  if (MAZDA_OLD_LAYOUT.has(code)) {
+    const eng = MAZDA_ENGINE[vin[7]]; fill(eng);
+    return [
+      seg(6, 7, vin, "Body / descriptor", null, { note: "Mazda sub-code — not decoded." }),
+      seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
+    ];
+  }
+  return [seg(6, 8, vin, "Body / engine / grade", null, { note: "Mazda sub-code — no published table; not decoded." })];
+}
+
 export const mazda: MakeRule = {
   id: "mazda", make: "Mazda", wmis: ["JM0", "JMZ", "JM1", "MM0", "MM6", "MM7", "MM8"],
   checkDigit: "no", modelYear: "no",
@@ -38,7 +88,7 @@ export const mazda: MakeRule = {
     return {
       segments: [
         seg(4, 5, vin, "Model code", h ? `${h[0]} (${h[1]})` : null),
-        seg(6, 8, vin, "Body / engine / grade", null, { note: "Mazda sub-code — no published table; not decoded." }),
+        ...mazdaDescriptor(vin, s),
         seg(9, 9, vin, "Check digit", "Not used by Mazda on Australian-delivered vehicles", { status: "standard" }),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "Mazda does not encode the model year here on Australian-delivered cars (usually 0)." }),
       ],
