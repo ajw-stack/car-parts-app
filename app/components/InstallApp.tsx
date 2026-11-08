@@ -8,7 +8,7 @@ import { useState, useSyncExternalStore } from "react";
  * iPhone has no install API, so it shows the Share > Add to Home Screen steps instead.
  * Hidden on desktop and when the app is already installed.
  */
-type Mode = "hidden" | "prompt" | "ios" | "manual" | "inapp";
+type Mode = "hidden" | "prompt" | "ios" | "manual" | "inapp" | "samsung";
 type PromptEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
 type W = Window & { __elrocoInstall?: PromptEvent | null };
 
@@ -23,6 +23,9 @@ function getMode(): Mode {
   if (/FBAN|FBAV|FB_IAB|Messenger|Instagram|musical_ly|TikTok|LinkedInApp|Snapchat|Line\/|; wv\)/i.test(ua)) return "inapp";
   const ios = /iphone|ipad|ipod/i.test(ua) || (/macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
   if (ios) return "ios";
+  // Samsung Internet packages installed apps with an old Android target, which Google Play
+  // Protect now blocks ("Unsafe app blocked"). Send those users to Chrome instead.
+  if (/SamsungBrowser/i.test(ua)) return "samsung";
   if (!/android|mobile/i.test(ua)) return "hidden";
   return (window as W).__elrocoInstall ? "prompt" : "manual";
 }
@@ -54,7 +57,9 @@ export default function InstallApp({ variant }: { variant: "menu" | "card" }) {
   }
 
   const steps =
-    mode === "inapp"
+    mode === "samsung"
+      ? ["Samsung Internet cannot install the Elroco app on newer phones (Google Play Protect blocks it).", "Open elroco.com.au in Google Chrome instead.", "Tap Install the app there, then Install."]
+      : mode === "inapp"
       ? ["This page is open inside another app (such as Messenger or Facebook), which cannot install apps.", "Tap the menu (⋯ or ⋮) at the top of the screen and choose Open in browser (or Open in Chrome / Safari).", "Then tap Install the app again."]
       : mode === "ios"
       ? ["Open elroco.com.au in Safari.", "Tap the Share button (the square with an arrow pointing up).", "Scroll down and tap Add to Home Screen, then Add."]
