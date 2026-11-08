@@ -8,7 +8,7 @@ import { ADMIN_COOKIE, verifyAdminCookie } from "./app/lib/auth/adminCookie";
  */
 const ALLOW_PREFIXES = [
   "/coming-soon", "/decode", "/pricing", "/account", "/login", "/signup", "/forgot-password", "/reset-password", "/auth/confirm",
-  "/terms", "/privacy", "/refunds", "/contact",
+  "/terms", "/privacy", "/refunds", "/contact", "/install",
   "/admin", "/capture",
   "/api/vin", "/api/billing", "/api/admin", "/api/makes", "/api/parts", "/api/vehicles", "/api/capture-users",
   "/_next", "/icon.svg", "/sw.js", "/manifest", "/apple-touch-icon",

@@ -26,6 +26,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://elroco.com.au"),
+  applicationName: "Elroco",
+  appleWebApp: { capable: true, title: "Elroco", statusBarStyle: "black" },
   title: {
     default: "Elroco — VIN Decoder for Australian vehicles",
     template: "%s — Elroco",

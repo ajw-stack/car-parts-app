@@ -8,11 +8,11 @@ import { useState, useSyncExternalStore } from "react";
  * iPhone has no install API, so it shows the Share > Add to Home Screen steps instead.
  * Hidden on desktop and when the app is already installed.
  */
-type Mode = "hidden" | "prompt" | "ios" | "manual" | "inapp" | "samsung";
+export type Mode = "hidden" | "prompt" | "ios" | "manual" | "inapp" | "samsung";
 type PromptEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
 type W = Window & { __elrocoInstall?: PromptEvent | null };
 
-function getMode(): Mode {
+export function getMode(): Mode {
   if (typeof window === "undefined") return "hidden";
   const standalone =
     window.matchMedia?.("(display-mode: standalone)").matches ||
@@ -30,13 +30,21 @@ function getMode(): Mode {
   return (window as W).__elrocoInstall ? "prompt" : "manual";
 }
 
-function subscribe(cb: () => void) {
+export function subscribe(cb: () => void) {
   window.addEventListener("elroco-install-ready", cb);
   window.addEventListener("appinstalled", cb);
   return () => {
     window.removeEventListener("elroco-install-ready", cb);
     window.removeEventListener("appinstalled", cb);
   };
+}
+
+const isAndroid = () => typeof navigator !== "undefined" && /android/i.test(navigator.userAgent);
+
+/** Android only: reopen this site's install page in Chrome (works from Messenger, Facebook, Samsung Internet). */
+export function openInChrome() {
+  const fallback = encodeURIComponent(`${location.origin}/install`);
+  location.href = `intent://${location.host}/install#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${fallback};end`;
 }
 
 export default function InstallApp({ variant }: { variant: "menu" | "card" }) {
@@ -96,6 +104,11 @@ export default function InstallApp({ variant }: { variant: "menu" | "card" }) {
               {steps.map((s) => <li key={s}>{s}</li>)}
             </ol>
             <p className="mt-3 text-xs text-gray-500">The Elroco icon then appears on your home screen.</p>
+            {(mode === "inapp" || mode === "samsung") && isAndroid() && (
+              <button onClick={openInChrome} className="mt-4 w-full rounded-xl border border-gray-300 px-4 py-3 text-sm font-semibold text-[#111827]">
+                Open in Chrome
+              </button>
+            )}
             <button onClick={() => setHelp(false)} className="mt-5 w-full rounded-xl bg-[#02070d] px-4 py-3 text-sm font-semibold text-white">
               Got it
             </button>
