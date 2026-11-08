@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
 import { COMING_SOON } from "../lib/billing/config";
+import AdminOnly from "./AdminLink";
 
 export default function SideMenu({
   open,
@@ -97,16 +98,7 @@ export default function SideMenu({
           </nav>
 
           <div className="mt-auto border-t border-[#1c2750]">
-            <a
-              href="/capture"
-              className="flex items-center gap-3 p-4 text-white/85 hover:text-white hover:bg-[#1c2750]"
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 shrink-0">
-                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
-                <circle cx="12" cy="13" r="4" />
-              </svg>
-              Capture
-            </a>
+            <AdminOnly>
             <a
               href="/admin"
               className="flex items-center gap-3 p-4 text-white/85 hover:text-white hover:bg-[#1c2750]"
@@ -118,6 +110,7 @@ export default function SideMenu({
               </svg>
               Admin
             </a>
+            </AdminOnly>
           </div>
         </div>
       </div>

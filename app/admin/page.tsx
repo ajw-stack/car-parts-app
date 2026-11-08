@@ -447,6 +447,7 @@ idx === active
 
 export default function AdminPage() {
   const router = useRouter();
+  const [authorised, setAuthorised] = useState(false);
   useEffect(() => {
     let mounted = true;
 
@@ -456,7 +457,16 @@ export default function AdminPage() {
 
       if (!data.session) {
         router.replace("/login");
+        return;
       }
+      // Signed in is not enough: anyone can create an account. Admin role only.
+      const { data: profile } = await supabase.from("profiles").select("role").eq("id", data.session.user.id).maybeSingle();
+      if (!mounted) return;
+      if (profile?.role !== "admin") {
+        router.replace("/");
+        return;
+      }
+      setAuthorised(true);
     }
 
     guard();
@@ -1121,6 +1131,11 @@ brandRef.current?.focus();
     setFPosition("");
     setFNotes("");
   }
+
+if (!authorised) {
+  return <div className="min-h-screen bg-[#F8FAFC]" />;
+}
+
 
 return (
   <div className="min-h-screen flex flex-col bg-[#F3F4F6]">

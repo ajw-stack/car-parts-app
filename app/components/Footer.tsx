@@ -1,4 +1,5 @@
 ﻿import { COMING_SOON } from "../lib/billing/config";
+import AdminOnly from "./AdminLink";
 
 const COLUMNS = COMING_SOON
   ? [
@@ -159,8 +160,9 @@ export default function Footer() {
       {/* Bottom bar — stacked on mobile, single row on desktop */}
       <div className="bg-[#02070d] px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
 
-        {/* Row 1 on mobile: admin + capture icons + copyright */}
+        {/* Row 1 on mobile: admin icon (admins only) + copyright */}
         <div className="flex items-center gap-3">
+          <AdminOnly>
           <a
             href="/admin"
             title="Admin"
@@ -172,17 +174,7 @@ export default function Footer() {
               <path d="M15.5 7.5L17 6l2 2-1.5 1.5" />
             </svg>
           </a>
-
-          <a
-            href="/capture"
-            title="Capture"
-            className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors shrink-0"
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-              <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-          </a>
+          </AdminOnly>
 
           <span className="text-xs text-white/40">
             © {new Date().getFullYear()} Elroco. All rights reserved.
