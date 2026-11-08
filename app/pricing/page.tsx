@@ -79,15 +79,13 @@ function PricingBody() {
               {busy ? "Opening checkout…" : signedIn ? `Start my ${PLAN.trialDays}-day free trial` : "Create an account to start the trial"}
             </button>
 
-            {signedIn && (
-              <button
-                onClick={() => startTrial(true)}
-                disabled={busy}
-                className="mt-2 w-full rounded-xl border border-gray-200 px-4 py-3 text-sm font-semibold text-[#111827] hover:border-gray-400 disabled:opacity-40 transition-colors"
-              >
-                Skip the trial and subscribe now
-              </button>
-            )}
+            <button
+              onClick={() => startTrial(true)}
+              disabled={busy || signedIn === null}
+              className="mt-2 w-full rounded-xl border border-gray-200 px-4 py-3 text-sm font-semibold text-[#111827] hover:border-gray-400 disabled:opacity-40 transition-colors"
+            >
+              Skip the trial and subscribe now
+            </button>
 
             {/* Auto-renewal disclosure: shown before the card is collected (ACCC guidance). */}
             <p className="mt-4 text-xs text-gray-600 leading-relaxed">
