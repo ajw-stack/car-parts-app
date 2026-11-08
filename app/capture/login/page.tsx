@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "../../lib/supabaseClient";
+import PasswordInput from "../../components/PasswordInput";
 
 export default function CaptureLoginPage() {
   const router = useRouter();
@@ -76,8 +77,8 @@ export default function CaptureLoginPage() {
             autoComplete="email"
             className="w-full rounded-2xl border border-[#D1D5DB] bg-white px-4 py-4 text-base text-[#111111] placeholder:text-zinc-400 focus:border-[#CC0000] focus:outline-none"
           />
-          <input
-            type="password"
+          <PasswordInput
+            iconClassName="text-gray-400 hover:text-gray-600"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
@@ -99,6 +100,10 @@ export default function CaptureLoginPage() {
           >
             {loading ? "Signing in..." : "Sign in"}
           </button>
+
+          <p className="text-center text-sm">
+            <a href="/forgot-password" className="text-zinc-500 hover:text-[#CC0000] transition-colors">Forgot password?</a>
+          </p>
         </form>
       </div>
     </div>

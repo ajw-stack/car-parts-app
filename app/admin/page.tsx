@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import { supabase } from "../lib/supabaseClient";
 import { formatYearTo } from "../lib/formatYear";
 import { useRouter } from "next/navigation";
+import PasswordInput from "../components/PasswordInput";
 
 const DISPLAY_GROUPS = [
   "Brakes", "Cooling", "Engine Parts", "Belts & Timing Parts", "Oil & Fluids",
@@ -482,6 +483,7 @@ export default function AdminPage() {
   }, [router]);
 
   async function handleLogout() {
+    await fetch("/api/admin/session", { method: "DELETE" }).catch(() => {});
     await supabase.auth.signOut();
     router.replace("/login");
   }
@@ -1222,8 +1224,9 @@ return (
                 required
                 className="flex-1 rounded-xl border border-[#1c2750] bg-[#0e1530] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
               />
-              <input
-                type="password"
+              <PasswordInput
+                wrapperClassName="flex-1"
+                iconClassName="text-zinc-500 hover:text-white"
                 value={newCapturePassword}
                 onChange={(e) => setNewCapturePassword(e.target.value)}
                 placeholder="Password (min 6 chars)"

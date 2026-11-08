@@ -111,6 +111,15 @@ export async function getBillingStatus(user: User | null): Promise<BillingStatus
   };
   if (!user) return base;
 
+  // Admins decode without a subscription or limits.
+  const { data: profile } = await supabaseAdmin.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role === "admin") {
+    base.status = "admin";
+    base.entitled = true;
+    base.reason = "ok";
+    return base;
+  }
+
   const row = await getSubscriptionRow(user.id);
   if (!row) return base;
 

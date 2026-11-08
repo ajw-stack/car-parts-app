@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
+import PasswordInput from "../components/PasswordInput";
 
 function LoginForm() {
   const router       = useRouter();
@@ -54,8 +55,8 @@ function LoginForm() {
         <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
           Password
         </label>
-        <input
-          type="password"
+        <PasswordInput
+          iconClassName="text-gray-400 hover:text-gray-600"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           autoComplete="current-password"
@@ -65,6 +66,10 @@ function LoginForm() {
           style={{ color: '#000000', backgroundColor: '#ffffff' }}
         />
       </div>
+
+      <p className="-mt-2 text-right text-sm">
+        <a href="/forgot-password" className="text-gray-600 hover:text-[#CC0000] transition-colors">Forgot password?</a>
+      </p>
 
       {error && (
         <div className="rounded-xl border border-red-800 bg-red-900/20 px-4 py-3 text-sm text-red-400">

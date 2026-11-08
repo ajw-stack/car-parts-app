@@ -5,6 +5,7 @@ import type { DecodedVehicle, DecodeResult } from "../lib/vin/types";
 import type { VinBreakdown } from "../lib/vin/engine";
 import { supabase } from "../lib/supabaseClient";
 import { COMING_SOON, PLAN } from "../lib/billing/config";
+import { useGated } from "../lib/auth/useIsAdmin";
 
 interface Props {
   enableSave?: boolean;
@@ -26,6 +27,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
   const [saved, setSaved] = useState(false);
   const [decoding, startDecode] = useTransition();
   const [upgrading, setUpgrading] = useState(false);
+  const gated = useGated(COMING_SOON);
 
   const handleDecode = () => {
     setError(null);
@@ -193,7 +195,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       {breakdown && <BreakdownTable breakdown={breakdown} />}
 
       {/* Find Parts CTA (parts catalogue is not public yet) */}
-      {vehicle && COMING_SOON && (
+      {vehicle && gated && (
         <div className="rounded-xl bg-[#02070d] px-6 py-4">
           <p className="font-semibold text-white text-sm">Parts matching is coming soon</p>
           <p className="text-xs text-white/50 mt-0.5">
@@ -201,7 +203,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
           </p>
         </div>
       )}
-      {vehicle && !COMING_SOON && (
+      {vehicle && !gated && (
         <a
           href={`/?q=${encodeURIComponent([vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" "))}`}
           className="block rounded-xl bg-[#02070d] px-6 py-4 flex items-center justify-between gap-4"

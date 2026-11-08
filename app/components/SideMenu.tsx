@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
 import { COMING_SOON } from "../lib/billing/config";
 import AdminOnly from "./AdminLink";
+import { useGated } from "../lib/auth/useIsAdmin";
 
 export default function SideMenu({
   open,
@@ -14,6 +15,7 @@ export default function SideMenu({
 }) {
   const startX = useRef<number | null>(null);
   const [vehiclesOpen, setVehiclesOpen] = useState(false);
+  const gated = useGated(COMING_SOON);
 
   return (
     <>
@@ -40,7 +42,7 @@ export default function SideMenu({
         <div className="h-full flex flex-col overflow-y-auto">
           <nav className="flex flex-col pt-2">
             <a href="/" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
-            {COMING_SOON ? (
+            {gated ? (
               <>
                 <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN Decoder</a>
                 <a href="/pricing" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Pricing</a>
@@ -51,7 +53,7 @@ export default function SideMenu({
             )}
 
             {/* Vehicles collapsible (hidden while the catalogue is not public) */}
-            {!COMING_SOON && (<>
+            {!gated && (<>
             <button
               onClick={() => setVehiclesOpen(!vehiclesOpen)}
               className="flex items-center justify-between p-4 text-white/85 hover:text-white hover:bg-[#1c2750] w-full text-left"

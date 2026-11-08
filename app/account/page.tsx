@@ -70,6 +70,7 @@ function AccountBody() {
   }
 
   async function signOut() {
+    await fetch("/api/admin/session", { method: "DELETE" }).catch(() => {});
     await supabase.auth.signOut();
     router.replace("/");
   }

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
+import PasswordInput from "../components/PasswordInput";
 
 export default function SignupPage() {
   const router = useRouter();
@@ -89,8 +90,8 @@ export default function SignupPage() {
                 <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
                   Password
                 </label>
-                <input
-                  type="password"
+                <PasswordInput
+                  iconClassName="text-zinc-500 hover:text-white"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   autoComplete="new-password"
@@ -104,8 +105,8 @@ export default function SignupPage() {
                 <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
                   Confirm Password
                 </label>
-                <input
-                  type="password"
+                <PasswordInput
+                  iconClassName="text-zinc-500 hover:text-white"
                   value={confirm}
                   onChange={(e) => setConfirm(e.target.value)}
                   autoComplete="new-password"

@@ -4,17 +4,17 @@ import { useState, useRef } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
 import SideMenu from "./SideMenu";
 import { COMING_SOON } from "../lib/billing/config";
+import { useGated } from "../lib/auth/useIsAdmin";
 
 const POPULAR = ["Toyota", "Mazda", "Ford", "Holden", "Hyundai", "Nissan", "Honda", "Subaru"];
 
-// While the site is gated to the VIN decoder, the nav only shows what is reachable.
-const NAV_LINKS = COMING_SOON
-  ? [
+// While the site is gated to the VIN decoder, the nav only shows what is reachable (admins see everything).
+const GATED_LINKS = [
       { label: "VIN Decoder", href: "/decode" },
       { label: "Pricing", href: "/pricing" },
       { label: "Account", href: "/account" },
-    ]
-  : [
+    ];
+const FULL_LINKS = [
       { label: "Categories", href: "/categories" },
       { label: "Parts Search", href: "/parts-guide" },
       { label: "VIN Decoder", href: "/decode" },
@@ -22,6 +22,8 @@ const NAV_LINKS = COMING_SOON
     ];
 
 export default function Header() {
+  const gated = useGated(COMING_SOON);
+  const NAV_LINKS = gated ? GATED_LINKS : FULL_LINKS;
   const [menuOpen, setMenuOpen] = useState(false);
   const [vehiclesOpen, setVehiclesOpen] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -75,7 +77,7 @@ export default function Header() {
             </a>
 
             {/* Vehicles mega-dropdown (hidden while the catalogue is not public) */}
-            {!COMING_SOON && (
+            {!gated && (
             <div
               className="relative"
               onMouseEnter={openVehicles}
