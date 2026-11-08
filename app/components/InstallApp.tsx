@@ -58,7 +58,7 @@ export default function InstallApp({ variant }: { variant: "menu" | "card" }) {
 
   const steps =
     mode === "samsung"
-      ? ["Samsung Internet cannot install the Elroco app on newer phones (Google Play Protect blocks it).", "Open elroco.com.au in Google Chrome instead.", "Tap Install the app there, then Install."]
+      ? ["Samsung Internet cannot install the Elroco app on newer phones (Google Play Protect blocks it).", "Open elroco.com.au in Google Chrome and tap Install the app there.", "Or, to stay in Samsung Internet: tap ⋮ (or ≡), then Add page to, then Home screen. That adds an Elroco shortcut."]
       : mode === "inapp"
       ? ["This page is open inside another app (such as Messenger or Facebook), which cannot install apps.", "Tap the menu (⋯ or ⋮) at the top of the screen and choose Open in browser (or Open in Chrome / Safari).", "Then tap Install the app again."]
       : mode === "ios"

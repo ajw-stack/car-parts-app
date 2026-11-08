@@ -15,6 +15,13 @@ const ALLOW_PREFIXES = [
 ];
 
 export async function proxy(req: NextRequest) {
+  // Samsung Internet installs web apps with an outdated Android package that Google Play
+  // Protect blocks as "Unsafe app". Hide the manifest from it so it offers no install;
+  // Samsung users install through Chrome (or add a plain home-screen shortcut).
+  if (req.nextUrl.pathname.startsWith("/manifest") && /SamsungBrowser/i.test(req.headers.get("user-agent") ?? "")) {
+    return new NextResponse(null, { status: 404 });
+  }
+
   const gated = (process.env.NEXT_PUBLIC_COMING_SOON ?? "true") !== "false";
   if (!gated) return NextResponse.next();
   // Admins (signed cookie set by /api/admin/session) see the whole site.
