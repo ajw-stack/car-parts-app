@@ -191,6 +191,66 @@ const NISSAN: Record<string, Hit> = {
   F15: ["Juke", "F15"],
 };
 
+// Nissan international layout (added 2026-11-09): 4 body, 5 engine (meaningful only within one
+// chassis code), 6 drive / cab spec, 7-9 chassis code, 10 market (A = Australia).
+// Sources: Wikibooks Nissan VIN codes (rest-of-world format) and auto.ru's Nissan VIN guide for
+// the layout; Total Engines (Australian parts catalogue listing every AU variant by Nissan code,
+// totalengines.com.au/Vehicles/Nissan/...) for each variant group, corroborated by Australian
+// recall VIN ranges (REC-002832, REC-005268, PRA 2016/15590, Takata), GoAuto VIN prefixes and real
+// AU VINs. Only high-confidence groups are listed; others stay undecoded.
+type NV = { body?: string; engine?: string; litres?: string; fuel?: string; drive?: string };
+const NISSAN_GROUP: Record<string, NV> = {
+  // Navara D40 (Spain, VSK)
+  "D40:CVN": { body: "Dual cab", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel", drive: "4WD" },
+  "D40:CLN": { engine: "4.0L V6 petrol (VQ40DE)", litres: "4.0", fuel: "Petrol", drive: "4WD" },
+  "D40:CLA": { engine: "4.0L V6 petrol (VQ40DE)", litres: "4.0", fuel: "Petrol", drive: "2WD" },
+  // Navara D40 (Thailand, MNT)
+  "D40:ACU": { body: "Single cab", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel" },
+  "D40:NCU": { body: "King cab", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel" },
+  "D40:VCU": { body: "Dual cab", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel", drive: "4WD" },
+  "D40:VCG": { body: "Dual cab", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel", drive: "2WD" },
+  // X-Trail
+  "T30:TBN": { body: "Wagon", engine: "2.5L petrol (QR25DE)", litres: "2.5", fuel: "Petrol", drive: "4WD" },
+  "T30:TEN": { body: "Wagon", engine: "2.2L turbo diesel (YD22)", litres: "2.2", fuel: "Diesel", drive: "4WD" },
+  "T31:TAN": { body: "Wagon", engine: "2.5L petrol (QR25DE)", litres: "2.5", fuel: "Petrol", drive: "4WD" },
+  "T31:TCN": { body: "Wagon", engine: "2.0L turbo diesel (M9R)", litres: "2.0", fuel: "Diesel", drive: "4WD" },
+  "T31:TBA": { body: "Wagon", engine: "2.0L petrol (MR20DE)", litres: "2.0", fuel: "Petrol", drive: "2WD" },
+  "T32:TBN": { body: "Wagon", engine: "2.5L petrol (QR25DE)", litres: "2.5", fuel: "Petrol", drive: "4WD" },
+  "T32:TBA": { body: "Wagon", engine: "2.5L petrol (QR25DE)", litres: "2.5", fuel: "Petrol", drive: "2WD" },
+  "T32:TAA": { body: "Wagon", engine: "2.0L petrol (MR20DD)", litres: "2.0", fuel: "Petrol", drive: "2WD" },
+  "T32:TCA": { body: "Wagon", engine: "1.6L turbo diesel (R9M)", litres: "1.6", fuel: "Diesel", drive: "2WD" },
+  "T32:TCN": { body: "Wagon", engine: "1.6L turbo diesel (R9M)", litres: "1.6", fuel: "Diesel", drive: "4WD" },
+  "T32:TFN": { body: "Wagon", engine: "2.0L turbo diesel (M9R)", litres: "2.0", fuel: "Diesel", drive: "4WD" },
+  // Patrol, Pathfinder, Qashqai, Pulsar, Micra
+  "Y62:TAN": { body: "Wagon", engine: "5.6L V8 petrol (VK56VD)", litres: "5.6", fuel: "Petrol", drive: "4WD" },
+  "R51:JLW": { body: "Wagon", engine: "4.0L V6 petrol (VQ40DE)", litres: "4.0", fuel: "Petrol" },
+  "R51:JVW": { body: "Wagon", engine: "2.5L turbo diesel (YD25DDTi)", litres: "2.5", fuel: "Diesel" },
+  "R51:JAW": { body: "Wagon", engine: "3.0L V6 turbo diesel (V9X)", litres: "3.0", fuel: "Diesel" },
+  "J11:FBA": { body: "Hatch / SUV", engine: "2.0L petrol (MR20DD)", litres: "2.0", fuel: "Petrol", drive: "2WD" },
+  "B17:BAA": { body: "Sedan", engine: "1.8L petrol (MRA8DE)", litres: "1.8", fuel: "Petrol" },
+  "B17:BCA": { body: "Sedan", engine: "1.6L turbo petrol (MR16DDT)", litres: "1.6", fuel: "Petrol" },
+  "K13:FBU": { body: "Hatch", engine: "1.2L petrol (HR12DE)", litres: "1.2", fuel: "Petrol" },
+  "K13:FAU": { body: "Hatch", engine: "1.5L petrol (HR15DE)", litres: "1.5", fuel: "Petrol" },
+};
+const NISSAN_D22_BODY: Record<string, string> = { A: "Single cab", B: "King cab", C: "Dual cab" };
+const NISSAN_D23_BODY: Record<string, string> = { C: "Dual cab", B: "King cab", D: "Single cab" };
+const NISSAN_D23_ENGINE: Record<string, NV> = {
+  A: { engine: "2.5L petrol (QR25DE)", litres: "2.5", fuel: "Petrol" },
+  B: { engine: "2.3L turbo diesel (YS23)", litres: "2.3", fuel: "Diesel" },
+};
+
+function nissanVariant(vin: string): NV | null {
+  const code = vin.slice(6, 9), grp = vin.slice(3, 6);
+  const g = NISSAN_GROUP[`${code}:${grp}`];
+  if (g) return g;
+  if (code === "D22") { const b = NISSAN_D22_BODY[vin[3]]; return b ? { body: b } : null; }
+  if (code === "D23") {
+    const b = NISSAN_D23_BODY[vin[3]], e = NISSAN_D23_ENGINE[vin[4]];
+    return b || e ? { ...(e ?? {}), ...(b ? { body: b } : {}) } : null;
+  }
+  return null;
+}
+
 export const nissan: MakeRule = {
   id: "nissan", make: "Nissan", wmis: ["JN1", "JN6", "JN8", "MNT", "VSK", "SJN", "MDH", "MHB"],
   checkDigit: "no", modelYear: "no",
@@ -198,9 +258,16 @@ export const nissan: MakeRule = {
     const s: Partial<VinSummary> = { make: "Nissan" };
     const h = NISSAN[vin.slice(6, 9)];
     if (h) { s.model = h[0]; s.series = h[1]; }
+    const v = nissanVariant(vin);
+    if (v) {
+      if (v.body) s.body = v.body;
+      if (v.engine) Object.assign(s, { engine: v.engine, engineLitres: v.litres, fuel: v.fuel });
+      if (v.drive) s.drive = v.drive;
+    }
+    const desc = v ? [v.body, v.engine, v.drive].filter(Boolean).join(", ") : null;
     return {
       segments: [
-        seg(4, 6, vin, "Body / engine / grade", null, { note: "Nissan sub-code — not decoded." }),
+        seg(4, 6, vin, "Body / engine / drive", desc, desc ? {} : { note: "This Nissan variant group is not yet confirmed." }),
         seg(7, 9, vin, "Chassis code (model / generation)", h ? `${h[0]} (${h[1]})` : null, {
           note: "On export Nissans the chassis code runs up to position 9, so there is no check digit.",
         }),
