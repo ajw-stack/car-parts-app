@@ -29,9 +29,6 @@ export default function ComingSoonPage() {
             <a href="/pricing" className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[#02070d] hover:bg-white/85 transition-colors">
               Start your {PLAN.trialDays}-day trial
             </a>
-            <a href="/decode" className="rounded-xl border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:border-white hover:bg-white/10 transition-colors">
-              Open the VIN decoder
-            </a>
           </div>
         </section>
 
