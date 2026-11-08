@@ -21,10 +21,10 @@ export default function ComingSoonPage() {
             The VIN decoder is open now.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/pricing" className="rounded-xl bg-[#CC0000] px-6 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] transition-colors">
+            <a href="/pricing" className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[#02070d] hover:bg-white/85 transition-colors">
               Start your {PLAN.trialDays}-day trial
             </a>
-            <a href="/decode" className="rounded-xl border border-white/20 px-6 py-3 text-sm font-semibold text-white hover:border-white/50 transition-colors">
+            <a href="/decode" className="rounded-xl border border-white/40 px-6 py-3 text-sm font-semibold text-white hover:border-white hover:bg-white/10 transition-colors">
               Open the VIN decoder
             </a>
           </div>

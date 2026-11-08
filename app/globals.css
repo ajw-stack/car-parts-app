@@ -24,19 +24,21 @@ main {
   color: #0e1530;
 }
 
-/* Clean neutral link style */
-a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
-}
+/* Clean neutral link style. In the base layer so Tailwind text-* classes on a link win. */
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-a:hover {
-  text-decoration: none;
-}
+  a:hover {
+    text-decoration: none;
+  }
 
-button {
-  cursor: pointer;
+  button {
+    cursor: pointer;
+  }
 }
 
 /* Force dark native form controls (Windows/Chrome especially) */
