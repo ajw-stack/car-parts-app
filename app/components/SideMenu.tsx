@@ -89,7 +89,7 @@ export default function SideMenu({
               </div>
             )}
 
-            <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN &amp; Rego Decoder</a>
+            <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN Decoder</a>
             <a href="/categories" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Categories</a>
             <a href="/parts-guide" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Parts Search</a>
             </>)}

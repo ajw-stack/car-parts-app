@@ -127,7 +127,6 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
               </h3>
               {vehicle.trim && <p className="text-sm text-white/60 mt-0.5">{vehicle.trim}</p>}
             </div>
-            <ConfidenceBadge level={vehicle.confidence} />
           </div>
 
           {/* Fields grid */}
@@ -142,14 +141,6 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
             <Field label="Transmission" value={vehicle.transmission} />
             <Field label="Country"      value={toTitleCase(vehicle.plantCountry ?? vehicle.countryOfManufacture)} />
           </div>
-
-          {vehicle.confidence !== "high" && (
-            <div className="px-5 py-3 bg-amber-50 border-t border-amber-100">
-              <p className="text-xs text-amber-700">
-                Some fields couldn't be decoded — common for older or AU-delivered vehicles.
-              </p>
-            </div>
-          )}
 
           {/* Save to garage */}
           {enableSave && (
@@ -221,19 +212,6 @@ function Field({ label, value }: { label: string; value: string | null }) {
       <dt className="text-[10px] font-semibold uppercase tracking-wider text-gray-400">{label}</dt>
       <dd className="mt-0.5 text-sm font-medium text-[#111827]">{value}</dd>
     </div>
-  );
-}
-
-function ConfidenceBadge({ level }: { level: "high" | "partial" | "low" }) {
-  const cls = {
-    high:    "bg-emerald-500/20 text-emerald-300",
-    partial: "bg-amber-500/20 text-amber-300",
-    low:     "bg-white/10 text-white/50",
-  }[level];
-  return (
-    <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${cls}`}>
-      {level} confidence
-    </span>
   );
 }
 

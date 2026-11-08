@@ -37,7 +37,7 @@ const COLUMNS = COMING_SOON
         heading: "Help & Support",
         links: [
           { label: "Parts Search", href: "/parts-guide" },
-          { label: "VIN & Rego Decoder", href: "/decode" },
+          { label: "VIN Decoder", href: "/decode" },
           { label: "Browse Categories", href: "/categories" },
         ],
       },

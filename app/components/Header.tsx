@@ -17,7 +17,7 @@ const NAV_LINKS = COMING_SOON
   : [
       { label: "Categories", href: "/categories" },
       { label: "Parts Search", href: "/parts-guide" },
-      { label: "VIN & Rego", href: "/decode" },
+      { label: "VIN Decoder", href: "/decode" },
       { label: "My Garage", href: "/garage" },
     ];
 
