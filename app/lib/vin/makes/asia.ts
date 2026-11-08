@@ -262,7 +262,11 @@ const KIA_PLANT: Record<string, string> = { "5": "Hwaseong, Korea", "6": "Korea"
 function hyundaiLine(vin: string): Hit | null {
   const l = vin[3], body = vin[5];
   if (vin.startsWith("KMH")) {
-    if (l === "D") return body === "4" ? ["Elantra", "HD / MD / AD"] : ["i30", "FD / GD"];
+    if (l === "D") {
+      if (body === "4") return ["Elantra", "HD / MD / AD"];
+      // i30: FD carries a letter at position 5 (B SX, C SLX/SR), GD a digit (2 Active, 3 Elite/SR).
+      return /[A-Z]/.test(vin[4]) ? ["i30", "FD"] : /[0-9]/.test(vin[4]) ? ["i30", "GD"] : ["i30", "FD / GD"];
+    }
     if (l === "H") return ["i30", "PD"];
     if (l === "J") return ["Tucson / ix35", "Tucson family"];
     if (l === "K") return ["Kona", "OS"];
@@ -318,6 +322,44 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
     default: return null;
   }
 }
+// Hyundai engine letter (position 8), added 2026-11-09. Per model line; two sources each:
+// Australian recall VIN lists on vehiclerecalls.gov.au (model/engine-specific recalls, ~500k VINs)
+// + auction/dealer listings with VIN and engine, or the Wikibooks Hyundai (US Part 565) table.
+// i30 FD vs GD share the letter E for different engines: FD has a letter at position 5 (B/C),
+// GD a digit (2/3).
+function hyundaiEngine(vin: string, year: number | null): Eng | null {
+  const c = vin[7], y = year ?? 0;
+  const pre = vin.slice(0, 4);
+  if (pre === "KMHD" && vin[5] !== "4") {                       // i30 FD / GD
+    if (/[A-Z]/.test(vin[4])) return c === "E" ? E("2.0L petrol (Beta)", "2.0", "Petrol") : null;
+    if (/[0-9]/.test(vin[4])) return c === "E" ? E("1.8L petrol (Nu MPi)", "1.8", "Petrol") : null;
+    return null;
+  }
+  if (pre === "KMHD" && vin[5] === "4" && y >= 2016) {          // Elantra AD
+    return ({ F: E("2.0L petrol (Nu)", "2.0", "Petrol"), B: E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null;
+  }
+  if (pre === "KMHH") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : null;   // i30 PD
+  if (pre === "KMHJ" || pre === "TMAJ") {                        // ix35 (to 2015) / Tucson TL
+    return ({
+      C: E("2.4L petrol", "2.4", "Petrol"), V: E("2.0L turbo diesel (CRDi)", "2.0", "Diesel"), F: E("2.0L petrol (GDi)", "2.0", "Petrol"),
+      "4": E("2.0L petrol (GDi)", "2.0", "Petrol"), A: E("2.0L turbo diesel (CRDi)", "2.0", "Diesel"),
+    } as Record<string, Eng>)[c] ?? null;
+  }
+  if (pre === "KMHK") {                                           // Kona OS / SX2
+    return ({
+      A: E("2.0L petrol", "2.0", "Petrol"), "5": E("1.6L turbo petrol", "1.6", "Petrol"), G: E("Electric", "", "Electric"),
+      C: E("2.0L turbo petrol (Kona N)", "2.0", "Petrol"),
+      B: E("2.0L petrol", "2.0", "Petrol"), "3": E("1.6L turbo petrol", "1.6", "Petrol"), "1": E("1.6L petrol hybrid", "1.6", "Hybrid"),
+    } as Record<string, Eng>)[c] ?? null;
+  }
+  return null;
+}
+// Hyundai position 9 on Australian-delivered cars from model year 2010 (recall VIN lists with
+// build dates + listings): transmission and driven wheels.
+const HYUNDAI_TRANS: Record<string, [trans: string, drive: string]> = {
+  L: ["Manual", "2WD"], M: ["Automatic", "2WD"], S: ["Automatic", "AWD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD"],
+};
+
 // Kia position 9 on Australian-delivered cars = transmission + driven wheels (both dealers agree).
 const KIA_TRANS: Record<string, [trans: string, drive: string]> = {
   M: ["Automatic", "2WD"], S: ["Automatic", "AWD / 4WD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD / 4WD"],
@@ -337,8 +379,8 @@ function koreanDecode(
     const plant = plants[vin[10]] ?? null; s.plant = plant;
     const eng = engine ? engine(vin, y) : null;
     if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel });
-    // Position-9 transmission letters are evidenced on 2015-and-later Kias only.
-    const tr = trans && (y ?? 0) >= 2015 ? trans[vin[8]] : undefined;
+    // Position-9 transmission letters: evidenced on 2015+ Kias and 2010+ Hyundais.
+    const tr = trans && (y ?? 0) >= (make === "Kia" ? 2015 : 2010) ? trans[vin[8]] : undefined;
     if (tr) { s.transmission = tr[0]; s.drive = tr[1]; }
     return {
       segments: [
@@ -363,7 +405,7 @@ function koreanDecode(
 export const hyundai: MakeRule = {
   id: "hyundai", make: "Hyundai", wmis: ["KMH", "KMF", "KMJ", "KM8", "TMA", "MAL", "NLH", "5NP"],
   checkDigit: "no", modelYear: "yes",
-  decode: koreanDecode("Hyundai", hyundaiLine, HYUNDAI_PLANT),
+  decode: koreanDecode("Hyundai", hyundaiLine, HYUNDAI_PLANT, hyundaiEngine, HYUNDAI_TRANS),
 };
 export const kia: MakeRule = {
   id: "kia", make: "Kia", wmis: ["KNA", "KNC", "KND", "KNE", "U5Y", "U6Y", "MS0"],
