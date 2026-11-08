@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { SUPPORT_EMAIL } from "../lib/billing/config";
 
-export const metadata = { title: "Privacy Policy — Elroco" };
+export const metadata = { title: "Privacy Policy" };
 
 const UPDATED = "22 October 2026";
 

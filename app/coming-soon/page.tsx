@@ -4,8 +4,9 @@ import { PLAN } from "../lib/billing/config";
 import InstallApp from "../components/InstallApp";
 
 export const metadata = {
-  title: "Elroco — VIN Decoder for Australian vehicles",
-  description: "Decode any Australian-delivered VIN. The full Elroco parts catalogue is coming soon.",
+  title: { absolute: "Elroco — VIN Decoder for Australian vehicles" },
+  alternates: { canonical: "/" },
+  description: "Decode any Australian-delivered VIN: make, model, series, engine, body and build plant. The full Elroco parts catalogue is coming soon.",
 };
 
 export default function ComingSoonPage() {

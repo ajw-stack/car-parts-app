@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { PLAN, SUPPORT_EMAIL } from "../lib/billing/config";
 
-export const metadata = { title: "Refund Policy — Elroco" };
+export const metadata = { title: "Refund Policy" };
 
 export default function RefundsPage() {
   return (

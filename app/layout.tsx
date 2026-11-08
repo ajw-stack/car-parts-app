@@ -25,16 +25,26 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Elroco — Vehicle Parts Catalogue",
-  description: "The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.",
+  metadataBase: new URL("https://elroco.com.au"),
+  title: {
+    default: "Elroco — VIN Decoder for Australian vehicles",
+    template: "%s — Elroco",
+  },
+  description: "Decode any Australian-delivered VIN: make, model, series, engine, body and build plant. The full Elroco parts catalogue is coming soon.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: "/apple-touch-icon.png"
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Elroco — Vehicle Parts Catalogue",
-    description: "The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.",
+    title: "Elroco — VIN Decoder for Australian vehicles",
+    description: "Decode any Australian-delivered VIN: make, model, series, engine, body and build plant.",
     siteName: "Elroco",
+    url: "https://elroco.com.au",
+    locale: "en_AU",
+    type: "website",
   },
 };
 

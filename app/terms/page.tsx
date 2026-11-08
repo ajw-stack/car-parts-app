@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { PLAN, SUPPORT_EMAIL } from "../lib/billing/config";
 
-export const metadata = { title: "Terms of Service — Elroco" };
+export const metadata = { title: "Terms of Service" };
 
 const UPDATED = "22 October 2026";
 

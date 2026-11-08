@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import { SUPPORT_EMAIL } from "../lib/billing/config";
 
 export const metadata = {
-  title: "Contact — Elroco",
+  title: "Contact",
   description: "Contact Elroco support about the VIN decoder, your account or your subscription.",
 };
 

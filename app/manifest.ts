@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Elroco',
     short_name: 'Elroco',
-    description: 'The vehicle parts catalogue for mechanics, trade professionals and enthusiasts.',
+    description: 'VIN decoder for Australian-delivered vehicles. The Elroco parts catalogue is coming soon.',
     start_url: '/',
     display: 'standalone',
     background_color: '#02070D',
