@@ -20,11 +20,7 @@ export default function ComingSoonPage() {
           >
             Elroco
           </p>
-          <h1 className="mt-6 text-4xl font-bold text-white tracking-tight">The parts catalogue is coming soon.</h1>
-          <p className="mt-4 text-base text-white/60 max-w-xl mx-auto">
-            A vehicle-first parts catalogue for Australian mechanics, trade and enthusiasts is on its way.
-            The VIN decoder is open now.
-          </p>
+          <h1 className="mt-6 text-4xl font-bold text-white tracking-tight">Parts catalogue coming soon.</h1>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <a href="/pricing" className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[#02070d] hover:bg-white/85 transition-colors">
               Start your {PLAN.trialDays}-day trial
