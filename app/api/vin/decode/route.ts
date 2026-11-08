@@ -4,6 +4,7 @@ import { decodeVin, vehicleFromBreakdown } from "../../../lib/vinDecoder";
 import { decodeVinPositions } from "../../../lib/vin/engine";
 import { vinFingerprint } from "../../../lib/vinFingerprint";
 import type { DecodeResult } from "../../../lib/vin/types";
+import { getUserFromRequest, getBillingStatus, reasonMessage, recordDecode } from "../../../lib/billing/entitlement";
 
 export const dynamic = "force-dynamic";
 
@@ -11,6 +12,19 @@ export async function GET(req: NextRequest) {
   const vin = req.nextUrl.searchParams.get("vin")?.trim().toUpperCase();
   if (!vin || vin.length !== 17) {
     return NextResponse.json<DecodeResult>({ ok: false, error: "A valid 17-character VIN is required." }, { status: 400 });
+  }
+
+  // Subscription gate: signed in, subscription active or trialing, and under the usage limits.
+  const user = await getUserFromRequest(req);
+  const billing = await getBillingStatus(user);
+  if (!billing.entitled || !user) {
+    const status = billing.reason === "not_signed_in" ? 401
+      : billing.reason === "no_subscription" || billing.reason === "subscription_inactive" ? 402
+      : 429;
+    return NextResponse.json(
+      { ok: false, error: reasonMessage(billing), billing: { reason: billing.reason, status: billing.status } },
+      { status },
+    );
   }
 
   const fp = vinFingerprint(vin);
@@ -36,6 +50,7 @@ export async function GET(req: NextRequest) {
     // Local rules win over whatever the cached vPIC-era record says.
     const local = vehicleFromBreakdown(breakdown);
     const merged = { ...cached.raw_json, ...Object.fromEntries(Object.entries(local).filter(([, v]) => v != null)), vin };
+    await recordDecode(user.id, vin);
     return NextResponse.json<DecodeResult>({ ok: true, vehicle: merged, breakdown });
   }
 
@@ -54,5 +69,6 @@ export async function GET(req: NextRequest) {
     )
     .then(() => {});
 
+  await recordDecode(user.id, vin);
   return NextResponse.json<DecodeResult>(result);
 }

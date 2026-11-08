@@ -5,6 +5,10 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import VinDecoder from "../components/VinDecoder";
 import RegoLookup from "../components/RegoLookup";
+import { COMING_SOON } from "../lib/billing/config";
+
+// The rego lookup stays hidden until the data broker is confirmed live.
+const REGO_ENABLED = !COMING_SOON;
 
 export default function DecodePage() {
   const [tab, setTab] = useState<"vin" | "rego">("vin");
@@ -15,12 +19,14 @@ export default function DecodePage() {
 
       {/* Hero */}
       <div className="bg-[#02070d] px-4 pt-12 pb-10 text-center">
-        <h1 className="text-3xl font-bold text-white tracking-tight">VIN &amp; Rego Decoder</h1>
+        <h1 className="text-3xl font-bold text-white tracking-tight">{REGO_ENABLED ? "VIN & Rego Decoder" : "VIN Decoder"}</h1>
         <p className="mt-2 text-sm text-white/50">
-          Decode any vehicle identification number or Australian registration plate
+          {REGO_ENABLED
+            ? "Decode any vehicle identification number or Australian registration plate"
+            : "Decode any 17-character vehicle identification number, built for Australian-delivered vehicles"}
         </p>
 
-        <div className="mt-8 inline-flex rounded-full bg-white/10 p-1">
+        <div className={`mt-8 inline-flex rounded-full bg-white/10 p-1 ${REGO_ENABLED ? "" : "hidden"}`}>
           {(["vin", "rego"] as const).map((t) => (
             <button
               key={t}

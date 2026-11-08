@@ -3,15 +3,23 @@
 import { useState, useRef } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
 import SideMenu from "./SideMenu";
+import { COMING_SOON } from "../lib/billing/config";
 
 const POPULAR = ["Toyota", "Mazda", "Ford", "Holden", "Hyundai", "Nissan", "Honda", "Subaru"];
 
-const NAV_LINKS = [
-  { label: "Categories", href: "/categories" },
-  { label: "Parts Search", href: "/parts-guide" },
-  { label: "VIN & Rego", href: "/decode" },
-  { label: "My Garage", href: "/garage" },
-];
+// While the site is gated to the VIN decoder, the nav only shows what is reachable.
+const NAV_LINKS = COMING_SOON
+  ? [
+      { label: "VIN Decoder", href: "/decode" },
+      { label: "Pricing", href: "/pricing" },
+      { label: "Account", href: "/account" },
+    ]
+  : [
+      { label: "Categories", href: "/categories" },
+      { label: "Parts Search", href: "/parts-guide" },
+      { label: "VIN & Rego", href: "/decode" },
+      { label: "My Garage", href: "/garage" },
+    ];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -66,7 +74,8 @@ export default function Header() {
               Home
             </a>
 
-            {/* Vehicles mega-dropdown */}
+            {/* Vehicles mega-dropdown (hidden while the catalogue is not public) */}
+            {!COMING_SOON && (
             <div
               className="relative"
               onMouseEnter={openVehicles}
@@ -117,6 +126,7 @@ export default function Header() {
                 </div>
               )}
             </div>
+            )}
 
             {/* Static links */}
             {NAV_LINKS.map((l) => (

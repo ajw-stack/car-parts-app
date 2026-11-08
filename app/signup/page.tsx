@@ -32,7 +32,7 @@ export default function SignupPage() {
     const { error: err } = await supabase.auth.signUp({
       email: email.trim(),
       password,
-      options: { emailRedirectTo: `${location.origin}/garage` },
+      options: { emailRedirectTo: `${location.origin}/pricing` },
     });
     setLoading(false);
 

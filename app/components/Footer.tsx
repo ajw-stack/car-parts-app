@@ -1,33 +1,61 @@
-﻿const COLUMNS = [
-  {
-    heading: "About Us",
-    links: [
-      { label: "Our Story", href: "/about" },
-      { label: "The Catalogue", href: "/categories" },
-    ],
-  },
-  {
-    heading: "Help & Support",
-    links: [
-      { label: "Parts Search", href: "/parts-guide" },
-      { label: "VIN & Rego Decoder", href: "/decode" },
-      { label: "Browse Categories", href: "/categories" },
-    ],
-  },
-  {
-    heading: "Terms & Conditions",
-    links: [
-      { label: "Terms of Use", href: "/terms" },
-      { label: "Privacy Policy", href: "/privacy" },
-    ],
-  },
-  {
-    heading: "Contact Us",
-    links: [
-      { label: "Get in Touch", href: "/contact" },
-    ],
-  },
-];
+﻿import { COMING_SOON } from "../lib/billing/config";
+
+const COLUMNS = COMING_SOON
+  ? [
+      {
+        heading: "VIN Decoder",
+        links: [
+          { label: "Decode a VIN", href: "/decode" },
+          { label: "Pricing", href: "/pricing" },
+          { label: "Your Account", href: "/account" },
+        ],
+      },
+      {
+        heading: "Terms & Conditions",
+        links: [
+          { label: "Terms of Service", href: "/terms" },
+          { label: "Privacy Policy", href: "/privacy" },
+          { label: "Refund Policy", href: "/refunds" },
+        ],
+      },
+      {
+        heading: "Contact Us",
+        links: [
+          { label: "Get in Touch", href: "/contact" },
+        ],
+      },
+    ]
+  : [
+      {
+        heading: "About Us",
+        links: [
+          { label: "Our Story", href: "/about" },
+          { label: "The Catalogue", href: "/categories" },
+        ],
+      },
+      {
+        heading: "Help & Support",
+        links: [
+          { label: "Parts Search", href: "/parts-guide" },
+          { label: "VIN & Rego Decoder", href: "/decode" },
+          { label: "Browse Categories", href: "/categories" },
+        ],
+      },
+      {
+        heading: "Terms & Conditions",
+        links: [
+          { label: "Terms of Use", href: "/terms" },
+          { label: "Privacy Policy", href: "/privacy" },
+          { label: "Refund Policy", href: "/refunds" },
+        ],
+      },
+      {
+        heading: "Contact Us",
+        links: [
+          { label: "Get in Touch", href: "/contact" },
+        ],
+      },
+    ];
 
 const SOCIALS = [
   {

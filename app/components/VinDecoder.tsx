@@ -3,17 +3,23 @@
 import { useState, useTransition } from "react";
 import type { DecodedVehicle, DecodeResult } from "../lib/vin/types";
 import type { VinBreakdown } from "../lib/vin/engine";
+import { supabase } from "../lib/supabaseClient";
+import { COMING_SOON } from "../lib/billing/config";
 
 interface Props {
   enableSave?: boolean;
   onSaved?: (vehicle: DecodedVehicle, nickname?: string) => void | Promise<void>;
 }
 
+type GateReason = "not_signed_in" | "no_subscription" | "subscription_inactive" | "trial_limit" | "daily_limit" | "monthly_limit";
+type GatedResult = DecodeResult & { billing?: { reason: GateReason; status: string } };
+
 export default function VinDecoder({ enableSave = false, onSaved }: Props) {
   const [vin, setVin] = useState("");
   const [vehicle, setVehicle] = useState<DecodedVehicle | null>(null);
   const [breakdown, setBreakdown] = useState<VinBreakdown | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [gate, setGate] = useState<GateReason | null>(null);
   const [warning, setWarning] = useState<string | null>(null);
   const [nickname, setNickname] = useState("");
   const [saving, setSaving] = useState(false);
@@ -22,15 +28,19 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
 
   const handleDecode = () => {
     setError(null);
+    setGate(null);
     setWarning(null);
     setVehicle(null);
     setBreakdown(null);
     setSaved(false);
     startDecode(async () => {
-      const res = await fetch(`/api/vin/decode?vin=${encodeURIComponent(vin)}`);
-      const data = (await res.json()) as DecodeResult;
+      const { data: { session } } = await supabase.auth.getSession();
+      const headers: HeadersInit = session?.access_token ? { Authorization: `Bearer ${session.access_token}` } : {};
+      const res = await fetch(`/api/vin/decode?vin=${encodeURIComponent(vin)}`, { headers });
+      const data = (await res.json()) as GatedResult;
       if (data.breakdown?.valid) setBreakdown(data.breakdown);
       if (!data.ok || !data.vehicle) {
+        if (data.billing?.reason) setGate(data.billing.reason);
         setError(data.error ?? "Decode failed.");
         return;
       }
@@ -86,10 +96,23 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
         </div>
       )}
 
-      {/* Error */}
+      {/* Error / subscription gate */}
       {error && (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-          {error}
+        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700 space-y-2">
+          <p>{error}</p>
+          {gate === "not_signed_in" && (
+            <p>
+              <a href={`/login?next=${encodeURIComponent("/decode")}`} className="font-semibold underline">Sign in</a>
+              {" or "}
+              <a href="/signup" className="font-semibold underline">create an account</a>
+            </p>
+          )}
+          {(gate === "no_subscription" || gate === "subscription_inactive") && (
+            <p><a href="/pricing" className="font-semibold underline">See the plan and start your trial</a></p>
+          )}
+          {(gate === "trial_limit" || gate === "daily_limit" || gate === "monthly_limit") && (
+            <p><a href="/account" className="font-semibold underline">View your account</a></p>
+          )}
         </div>
       )}
 
@@ -152,8 +175,16 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       {/* Position-by-position breakdown */}
       {breakdown && <BreakdownTable breakdown={breakdown} />}
 
-      {/* Find Parts CTA */}
-      {vehicle && (
+      {/* Find Parts CTA (parts catalogue is not public yet) */}
+      {vehicle && COMING_SOON && (
+        <div className="rounded-xl bg-[#02070d] px-6 py-4">
+          <p className="font-semibold text-white text-sm">Parts matching is coming soon</p>
+          <p className="text-xs text-white/50 mt-0.5">
+            The Elroco parts catalogue for this vehicle will open here when the full site launches.
+          </p>
+        </div>
+      )}
+      {vehicle && !COMING_SOON && (
         <a
           href={`/?q=${encodeURIComponent([vehicle.year, vehicle.make, vehicle.model].filter(Boolean).join(" "))}`}
           className="block rounded-xl bg-[#02070d] px-6 py-4 flex items-center justify-between gap-4"

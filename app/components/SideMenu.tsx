@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
+import { COMING_SOON } from "../lib/billing/config";
 
 export default function SideMenu({
   open,
@@ -38,9 +39,18 @@ export default function SideMenu({
         <div className="h-full flex flex-col overflow-y-auto">
           <nav className="flex flex-col pt-2">
             <a href="/" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Home</a>
+            {COMING_SOON ? (
+              <>
+                <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN Decoder</a>
+                <a href="/pricing" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Pricing</a>
+                <a href="/account" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Account</a>
+              </>
+            ) : (
             <a href="/saved-lists" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">My Garage</a>
+            )}
 
-            {/* Vehicles collapsible */}
+            {/* Vehicles collapsible (hidden while the catalogue is not public) */}
+            {!COMING_SOON && (<>
             <button
               onClick={() => setVehiclesOpen(!vehiclesOpen)}
               className="flex items-center justify-between p-4 text-white/85 hover:text-white hover:bg-[#1c2750] w-full text-left"
@@ -82,6 +92,7 @@ export default function SideMenu({
             <a href="/decode" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">VIN &amp; Rego Decoder</a>
             <a href="/categories" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Categories</a>
             <a href="/parts-guide" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Parts Search</a>
+            </>)}
             <a href="/contact" className="p-4 text-white/85 hover:text-white hover:bg-[#1c2750]">Contact</a>
           </nav>
 
