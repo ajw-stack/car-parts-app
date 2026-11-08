@@ -48,6 +48,13 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${michroma.variable}`}>
         {children}
         <Script
+          id="install-prompt"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.addEventListener('beforeinstallprompt',function(e){window.__elrocoInstall=e;window.dispatchEvent(new Event('elroco-install-ready'));});window.addEventListener('appinstalled',function(){window.__elrocoInstall=null;});`,
+          }}
+        />
+        <Script
           id="register-sw"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{

@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { MAKES, makeSlug } from "../lib/makes";
 import { COMING_SOON } from "../lib/billing/config";
 import AdminOnly from "./AdminLink";
+import InstallApp from "./InstallApp";
 import { useGated } from "../lib/auth/useIsAdmin";
 
 export default function SideMenu({
@@ -100,6 +101,7 @@ export default function SideMenu({
           </nav>
 
           <div className="mt-auto border-t border-[#1c2750]">
+            <InstallApp variant="menu" />
             <AdminOnly>
             <a
               href="/admin"

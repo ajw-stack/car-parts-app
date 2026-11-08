@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { PLAN } from "../lib/billing/config";
+import InstallApp from "../components/InstallApp";
 
 export const metadata = {
   title: "Elroco — VIN Decoder for Australian vehicles",
@@ -40,6 +41,8 @@ export default function ComingSoonPage() {
           <Card title="Model, series, engine, plant" text="Make, model, series code, engine, body, drive, transmission and build plant where the VIN carries them." />
           <Card title={`${PLAN.monthlyDecodes} decodes a month`} text={`${PLAN.priceLabel} a month after a ${PLAN.trialDays}-day trial. Cancel any time from your account.`} />
         </section>
+
+        <InstallApp variant="card" />
       </main>
 
       <Footer />
