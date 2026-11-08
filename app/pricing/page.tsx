@@ -61,7 +61,7 @@ function PricingBody() {
 
           <ul className="px-6 py-5 space-y-2 text-sm text-[#111827]">
             <li>✓ Up to {PLAN.monthlyDecodes} VIN decodes a month</li>
-            <li>✓ Australian-market decoding rules, position by position</li>
+            <li>✓ Australian-market decoding</li>
             <li>✓ {PLAN.trialDays}-day free trial with {PLAN.trialDecodes} decodes included</li>
             <li>✓ Cancel from your account page in two clicks</li>
           </ul>
