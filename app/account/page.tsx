@@ -60,6 +60,15 @@ function AccountBody() {
     location.href = data.url;
   }
 
+  async function startNow() {
+    setError(null); setBusy(true);
+    const { data: { session } } = await supabase.auth.getSession();
+    const res = await fetch("/api/billing/start-now", { method: "POST", headers: { Authorization: `Bearer ${session?.access_token ?? ""}` } });
+    const data = await res.json();
+    if (!res.ok || !data.ok) { setBusy(false); setError(data.error ?? "Could not start the subscription."); return; }
+    location.href = "/account";
+  }
+
   async function signOut() {
     await supabase.auth.signOut();
     router.replace("/");
@@ -113,6 +122,14 @@ function AccountBody() {
           </dl>
 
           <div className="px-6 pb-6 flex flex-col gap-2">
+            {s.status === "trialing" && (<>
+              <button onClick={startNow} disabled={busy} className="w-full rounded-xl bg-[#02070d] px-4 py-3 text-sm font-semibold text-white hover:bg-[#1c2750] disabled:opacity-40 transition-colors">
+                {busy ? "Starting…" : `Start my subscription now (${PLAN.priceLabel})`}
+              </button>
+              <p className="text-xs text-gray-500 -mt-1 mb-1">
+                Ends your trial today. {PLAN.priceLabel} is charged now and your {PLAN.monthlyDecodes} decodes a month start straight away.
+              </p>
+            </>)}
             {active || s.status === "past_due" || s.status === "unpaid" || s.status === "canceled" ? (
               <button onClick={openPortal} disabled={busy} className="w-full rounded-xl bg-[#02070d] px-4 py-3 text-sm font-semibold text-white hover:bg-[#1c2750] disabled:opacity-40 transition-colors">
                 {busy ? "Opening…" : "Manage billing (update card, invoices, cancel)"}

@@ -7,7 +7,8 @@ export const dynamic = "force-dynamic";
 
 /**
  * POST /api/billing/checkout  (Authorization: Bearer <supabase access token>)
- * Creates a Stripe Checkout session for the monthly plan with a card-up-front trial.
+ * Creates a Stripe Checkout session for the monthly plan with a card-up-front trial,
+ * or without the trial when the body is { "skipTrial": true }.
  * Returns { url } for the browser to redirect to.
  */
 export async function POST(req: NextRequest) {
@@ -35,8 +36,10 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // One trial per account: a returning subscriber pays from day one.
-  const giveTrial = !row?.trial_used;
+  // One trial per account: a returning subscriber pays from day one. A new subscriber may
+  // also choose to skip the trial and pay today ({ "skipTrial": true }).
+  const body = (await req.json().catch(() => ({}))) as { skipTrial?: boolean };
+  const giveTrial = !row?.trial_used && !body.skipTrial;
   const submitText = giveTrial
     ? `Your ${PLAN.trialDays}-day free trial starts today and includes ${PLAN.trialDecodes} decodes. ${PLAN.priceLabel} per month is charged automatically when the trial ends unless you cancel first from your account page.`
     : `${PLAN.priceLabel} per month, charged today and then monthly until you cancel from your account page.`;

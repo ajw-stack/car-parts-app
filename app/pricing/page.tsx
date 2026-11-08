@@ -22,12 +22,16 @@ function PricingBody() {
     supabase.auth.getSession().then(({ data }) => setSignedIn(!!data.session));
   }, []);
 
-  async function startTrial() {
+  async function startTrial(skipTrial = false) {
     setError(null);
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) { location.href = `/signup?next=${encodeURIComponent("/pricing")}`; return; }
     setBusy(true);
-    const res = await fetch("/api/billing/checkout", { method: "POST", headers: { Authorization: `Bearer ${session.access_token}` } });
+    const res = await fetch("/api/billing/checkout", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${session.access_token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ skipTrial }),
+    });
     const data = await res.json();
     setBusy(false);
     if (!res.ok || !data.url) { setError(data.error ?? "Could not start checkout."); return; }
@@ -64,18 +68,29 @@ function PricingBody() {
 
           <div className="px-6 pb-6">
             <button
-              onClick={startTrial}
+              onClick={() => startTrial(false)}
               disabled={busy || signedIn === null}
               className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
             >
               {busy ? "Opening checkout…" : signedIn ? `Start my ${PLAN.trialDays}-day free trial` : "Create an account to start the trial"}
             </button>
 
+            {signedIn && (
+              <button
+                onClick={() => startTrial(true)}
+                disabled={busy}
+                className="mt-2 w-full rounded-xl border border-gray-200 px-4 py-3 text-sm font-semibold text-[#111827] hover:border-gray-400 disabled:opacity-40 transition-colors"
+              >
+                Skip the trial and subscribe now
+              </button>
+            )}
+
             {/* Auto-renewal disclosure: shown before the card is collected (ACCC guidance). */}
             <p className="mt-4 text-xs text-gray-600 leading-relaxed">
               <strong>How the trial works.</strong> You add a card today and nothing is charged for {PLAN.trialDays} days.
               Your trial ends on <strong suppressHydrationWarning>{trialEndsOn}</strong> and your subscription then starts automatically at {PLAN.priceLabel} a month,
               unless you cancel first from your account page. You will get an email with the trial end date when you sign up.
+              If you skip the trial, {PLAN.priceLabel} is charged today and your {PLAN.monthlyDecodes} decodes a month start straight away.
               If you are charged and did not mean to continue, email {SUPPORT_EMAIL} within {PLAN.refundDays} days for a full refund.
             </p>
 

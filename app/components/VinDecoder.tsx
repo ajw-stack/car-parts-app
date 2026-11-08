@@ -4,7 +4,7 @@ import { useState, useTransition } from "react";
 import type { DecodedVehicle, DecodeResult } from "../lib/vin/types";
 import type { VinBreakdown } from "../lib/vin/engine";
 import { supabase } from "../lib/supabaseClient";
-import { COMING_SOON } from "../lib/billing/config";
+import { COMING_SOON, PLAN } from "../lib/billing/config";
 
 interface Props {
   enableSave?: boolean;
@@ -25,6 +25,7 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [decoding, startDecode] = useTransition();
+  const [upgrading, setUpgrading] = useState(false);
 
   const handleDecode = () => {
     setError(null);
@@ -47,6 +48,17 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
       if (data.vehicle.rawErrors) setWarning(data.vehicle.rawErrors);
       setVehicle(data.vehicle);
     });
+  };
+
+  // End the trial early: charge the first month now, then decode again with the full allowance.
+  const handleStartNow = async () => {
+    setUpgrading(true);
+    const { data: { session } } = await supabase.auth.getSession();
+    const res = await fetch("/api/billing/start-now", { method: "POST", headers: { Authorization: `Bearer ${session?.access_token ?? ""}` } });
+    const data = (await res.json()) as { ok?: boolean; error?: string };
+    setUpgrading(false);
+    if (!res.ok || !data.ok) { setError(data.error ?? "Could not start the subscription."); setGate(null); return; }
+    handleDecode();
   };
 
   const handleSave = async () => {
@@ -109,6 +121,20 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
           )}
           {(gate === "no_subscription" || gate === "subscription_inactive") && (
             <p><a href="/pricing" className="font-semibold underline">See the plan and start your trial</a></p>
+          )}
+          {gate === "trial_limit" && (
+            <div className="pt-1 space-y-2">
+              <button
+                onClick={handleStartNow}
+                disabled={upgrading}
+                className="rounded-lg bg-[#02070d] px-4 py-2 text-sm font-semibold text-white hover:bg-[#1c2750] disabled:opacity-40 transition-colors"
+              >
+                {upgrading ? "Starting…" : `Start my subscription now (${PLAN.priceLabel})`}
+              </button>
+              <p className="text-xs text-red-700/80">
+                Ends your trial today: {PLAN.priceLabel} is charged to your card now and your {PLAN.monthlyDecodes} decodes a month start straight away.
+              </p>
+            </div>
           )}
           {(gate === "trial_limit" || gate === "daily_limit" || gate === "monthly_limit") && (
             <p><a href="/account" className="font-semibold underline">View your account</a></p>
