@@ -42,29 +42,29 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#02070d]">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-16">
         <div className="w-full max-w-sm">
 
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold text-white">Create your account</h1>
-            <p className="mt-2 text-sm text-zinc-400">
-              Save vehicles and find compatible parts instantly.
+            <h1 className="text-2xl font-bold text-black">Create your account</h1>
+            <p className="mt-2 text-sm text-gray-600">
+              Create an account to start using the Elroco VIN Decoder.
             </p>
           </div>
 
           {done ? (
-            <div className="rounded-2xl border border-emerald-800 bg-emerald-900/20 px-6 py-8 text-center space-y-3">
-              <p className="text-lg font-semibold text-white">Check your email</p>
-              <p className="text-sm text-zinc-400 leading-relaxed">
-                We&apos;ve sent a confirmation link to <span className="text-white">{email}</span>.
+            <div className="rounded-2xl border border-emerald-200 bg-emerald-50 px-6 py-8 text-center space-y-3">
+              <p className="text-lg font-semibold text-emerald-800">Check your email</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                We&apos;ve sent a confirmation link to <span className="font-semibold text-black">{email}</span>.
                 Click it to activate your account and you&apos;re good to go.
               </p>
               <a
                 href="/login"
-                className="mt-2 inline-block text-sm text-[#CC0000] hover:underline"
+                className="mt-2 inline-block text-sm font-medium text-black hover:text-[#CC0000]"
               >
                 Back to Sign In
               </a>
@@ -72,7 +72,7 @@ export default function SignupPage() {
           ) : (
             <form onSubmit={handleSignup} className="space-y-4">
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
                   Email
                 </label>
                 <input
@@ -82,42 +82,42 @@ export default function SignupPage() {
                   autoComplete="email"
                   required
                   placeholder="you@example.com"
-                  className="w-full rounded-xl border border-[#1c2750] bg-[#101628] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-black placeholder:text-gray-400 focus:border-[#02070d] focus:outline-none"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
                   Password
                 </label>
                 <PasswordInput
-                  iconClassName="text-zinc-500 hover:text-white"
+                  iconClassName="text-gray-400 hover:text-gray-700"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   autoComplete="new-password"
                   required
                   placeholder="Min. 6 characters"
-                  className="w-full rounded-xl border border-[#1c2750] bg-[#101628] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-black placeholder:text-gray-400 focus:border-[#02070d] focus:outline-none"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-1.5">
+                <label className="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1.5">
                   Confirm Password
                 </label>
                 <PasswordInput
-                  iconClassName="text-zinc-500 hover:text-white"
+                  iconClassName="text-gray-400 hover:text-gray-700"
                   value={confirm}
                   onChange={(e) => setConfirm(e.target.value)}
                   autoComplete="new-password"
                   required
                   placeholder="Re-enter password"
-                  className="w-full rounded-xl border border-[#1c2750] bg-[#101628] px-4 py-3 text-sm text-white placeholder:text-zinc-600 focus:border-[#CC0000] focus:outline-none"
+                  className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-black placeholder:text-gray-400 focus:border-[#02070d] focus:outline-none"
                 />
               </div>
 
               {error && (
-                <div className="rounded-xl border border-red-800 bg-red-900/20 px-4 py-3 text-sm text-red-400">
+                <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
                   {error}
                 </div>
               )}
@@ -125,14 +125,14 @@ export default function SignupPage() {
               <button
                 type="submit"
                 disabled={loading || !email || !password || !confirm}
-                className="w-full rounded-xl bg-[#CC0000] px-4 py-3 text-sm font-semibold text-white hover:bg-[#aa0000] disabled:opacity-40 transition-colors"
+                className="w-full rounded-xl bg-[#02070d] px-4 py-3 text-sm font-semibold text-white hover:bg-[#1c2750] disabled:opacity-40 transition-colors"
               >
                 {loading ? "Creating account…" : "Create Account"}
               </button>
 
-              <p className="text-center text-sm text-zinc-500">
+              <p className="text-center text-sm text-gray-600">
                 Already have an account?{" "}
-                <a href="/login" className="text-white hover:text-[#CC0000] transition-colors">
+                <a href="/login" className="font-medium text-black hover:text-[#CC0000] transition-colors">
                   Sign in
                 </a>
               </p>
