@@ -148,7 +148,7 @@ function AccountBody() {
         </div>
 
         <p className="text-xs text-gray-500 text-center">
-          Need help or a refund? Email {SUPPORT_EMAIL}. ·{" "}
+          Need help? Email {SUPPORT_EMAIL}. ·{" "}
           <button onClick={signOut} className="underline">Sign out</button>
         </p>
       </section>

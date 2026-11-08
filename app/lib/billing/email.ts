@@ -38,8 +38,6 @@ export function trialStartedEmail(trialEnd: string | null) {
       `for up to ${PLAN.monthlyDecodes} decodes a month. You can cancel at any time before then and pay nothing:`,
       `${SITE_URL}/account  ->  Manage billing  ->  Cancel plan`,
       ``,
-      `Refunds: if you are charged and did not mean to continue, email us within ${PLAN.refundDays} days for a full refund.`,
-      ``,
       `Questions: ${SUPPORT_EMAIL}`,
       `Elroco`,
     ].join("\n"),

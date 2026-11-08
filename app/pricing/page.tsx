@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { supabase } from "../lib/supabaseClient";
-import { PLAN, SUPPORT_EMAIL } from "../lib/billing/config";
+import { PLAN } from "../lib/billing/config";
 
 // The page is prerendered at build time, so the trial end date must be worked out in the
 // visitor's browser after load, never at build or module scope.
@@ -95,7 +95,6 @@ function PricingBody() {
               Your trial ends on <strong>{trialEndsOn ?? `${PLAN.trialDays} days from today`}</strong> and your subscription then starts automatically at {PLAN.priceLabel} a month,
               unless you cancel first from your account page. You will get an email with the trial end date when you sign up.
               If you skip the trial, {PLAN.priceLabel} is charged today and your {PLAN.monthlyDecodes} decodes a month start straight away.
-              If you are charged and did not mean to continue, email {SUPPORT_EMAIL} within {PLAN.refundDays} days for a full refund.
             </p>
 
             {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
