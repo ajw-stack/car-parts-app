@@ -27,7 +27,8 @@ export async function upsertSubscription(sub: Stripe.Subscription, userIdHint: s
       trial_end: tsToIso(sub.trial_end),
       current_period_start: tsToIso(period.start),
       current_period_end: tsToIso(period.end),
-      cancel_at_period_end: !!sub.cancel_at_period_end,
+      // Newer Stripe API versions record a portal cancellation as cancel_at (a date), not cancel_at_period_end.
+      cancel_at_period_end: !!sub.cancel_at_period_end || !!sub.cancel_at,
       trial_used: !!(existing?.trial_used || sub.trial_start),
       updated_at: new Date().toISOString(),
     },

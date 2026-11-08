@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
   try {
     const sub = await stripe().subscriptions.update(row.stripe_subscription_id, {
       trial_end: "now",
-      cancel_at_period_end: false,   // asking to pay now also undoes a cancellation made during the trial
+      cancel_at: "",   // asking to pay now also undoes a cancellation made during the trial
       proration_behavior: "none",
       payment_behavior: "error_if_incomplete",
     });
