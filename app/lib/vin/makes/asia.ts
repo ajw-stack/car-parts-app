@@ -107,6 +107,49 @@ const MITSUBISHI: Record<string, Hit> = {
   TH: ["Magna", "TH"], DB: ["380", "DB"],
 };
 
+// Triton (Thai-built, MMA/MMB, position 6 = K) — decoded one character at a time (added 2026-11-09).
+// Sources: Mitsubishi Triton 2006 service manual chassis-number table (Thailand market) and
+// Mitsubishi L200 MQ/MR 2020 service manual "Vehicle identification number"; corroborated by the
+// Takata recall VIN list PRA 2016/15523 (57,025 ML/MN VINs) and recall VIN ranges; single-cab
+// E/Y also by Manheim listings + Mitsubishi body-builder guides; 6G74 = 9 by two parts catalogues.
+// Held back: 5 = 4G64 petrol (one catalogue), Y at position 5, plant F, the 2024 MV, Pajero Sport.
+const TRITON_BODY: Record<string, string> = { J: "Double cab", C: "Club cab", E: "Single cab", Y: "Single cab" };
+const TRITON_TRANS_OLD: Record<string, string> = { N: "5-speed manual", R: "4-speed automatic" };   // ML/MN
+const TRITON_TRANS_NEW: Record<string, string> = { J: "6-speed manual", L: "6-speed automatic" };   // MQ/MR
+const TRITON_DRIVE_OLD: Record<string, string> = { A: "2WD", B: "4WD" };
+const TRITON_DRIVE_NEW: Record<string, string> = { K: "2WD high-rider", L: "4WD" };
+const TRITON_ENGINE_OLD: Record<string, { name: string; litres: string; fuel: string; cyl: string }> = {
+  "4": { name: "2.5L turbo diesel (4D56)", litres: "2.5", fuel: "Diesel", cyl: "4" },
+  "8": { name: "3.2L turbo diesel (4M41)", litres: "3.2", fuel: "Diesel", cyl: "4" },
+  "9": { name: "3.5L V6 petrol (6G74)", litres: "3.5", fuel: "Petrol", cyl: "6" },
+};
+const TRITON_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: string; cyl: string }> = {
+  "1": { name: "2.4L turbo diesel (4N15)", litres: "2.4", fuel: "Diesel", cyl: "4" },
+};
+const TRITON_PLANT: Record<string, string> = { D: "MMC Sittipol, Thailand", H: "Laem Chabang, Thailand" };
+
+function decodeTriton(vin: string, s: Partial<VinSummary>, series: string | null): VinSegment[] {
+  const newGen = vin[6] === "K" || vin[6] === "L";          // MQ/MR use K/L at position 7
+  const oldGen = vin[6] === "A" || vin[6] === "B";          // ML/MN use A/B
+  s.model = "Triton";
+  s.series = series ?? (newGen ? "MQ / MR" : oldGen ? "ML / MN" : null);
+  const body = TRITON_BODY[vin[3]] ?? null; if (body) s.body = body;
+  const trans = (newGen ? TRITON_TRANS_NEW : oldGen ? TRITON_TRANS_OLD : {})[vin[4]] ?? null; if (trans) s.transmission = trans;
+  const drive = (newGen ? TRITON_DRIVE_NEW : TRITON_DRIVE_OLD)[vin[6]] ?? null; if (drive) s.drive = drive;
+  const eng = (newGen ? TRITON_ENGINE_NEW : oldGen ? TRITON_ENGINE_OLD : {})[vin[7]];
+  if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel, engineCylinders: eng.cyl });
+  const plant = TRITON_PLANT[vin[10]] ?? null; if (plant) s.plant = plant;
+  const nc = (v: string | null, what: string) => (v ? {} : { note: `This Triton ${what} letter is not yet confirmed.` });
+  return [
+    seg(4, 4, vin, "Body / cab", body, nc(body, "body")),
+    seg(5, 5, vin, "Transmission", trans, nc(trans, "transmission")),
+    seg(6, 6, vin, "Vehicle line", "Triton"),
+    seg(7, 7, vin, "Drive", drive, nc(drive, "drive")),
+    seg(8, 8, vin, "Engine", eng?.name ?? null, nc(eng ? "x" : null, "engine")),
+    seg(9, 9, vin, "Check digit", "Not used (always 0 on Thai-built Tritons)", { status: "standard" }),
+  ];
+}
+
 export const mitsubishi: MakeRule = {
   id: "mitsubishi", make: "Mitsubishi", wmis: ["JMF", "JMY", "JMB", "JA4", "MMA", "MMB", "MMC", "MMT", "6MM"],
   checkDigit: "no", modelYear: "yes",
@@ -114,6 +157,14 @@ export const mitsubishi: MakeRule = {
     const s: Partial<VinSummary> = { make: "Mitsubishi" };
     const hit = prefixLookup(MITSUBISHI, vin.slice(3, 8));
     if (hit) { s.model = hit[1][0]; s.series = hit[1][1]; }
+    // Triton only: position 6 = K and position 7 a Triton drive letter (Pajero Sport also has K at 6, with S at 7).
+    if (/^MM[AB]/.test(vin) && vin[5] === "K" && "ABKL".includes(vin[6])) {
+      const triton = decodeTriton(vin, s, hit && hit[1][0] === "Triton" ? hit[1][1] : null);
+      const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
+      triton.push(seg(10, 10, vin, "Model year", y ? String(y) : null));
+      triton.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "This Triton plant letter is not yet confirmed." }));
+      return { segments: triton, summary: s };
+    }
     const len = hit ? Math.max(hit[0].length, 1) : 4;
     const out: VinSegment[] = [seg(4, 3 + len, vin, "Model / series code", hit ? `${hit[1][0]} (${hit[1][1]})` : null, {
       note: hit && hit[0].length <= 2 ? "Matched on the model-family prefix only; exact variant not confirmed." : undefined,
