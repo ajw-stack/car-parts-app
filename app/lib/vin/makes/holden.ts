@@ -88,6 +88,20 @@ const LUXURY_6G1: Record<string, string> = {
   Y: "Statesman", P: "SS V", C: "SS", B: "SV6", J: "Calais V", E: "SS V Redline", A: "International",
 };
 const CRUZE_TRIM_6G1: Record<string, string> = { D: "Equipe / CD", E: "CDX / SRi / SRi-V / Z-Series (shared code)" };
+// Cruze engine letters (position 8). Two independent sources agree (2026-11-09):
+// (1) Takata recall VIN list PRA 2018/16856 + engine-specific Cruze recall VIN ranges
+//     (PRA 2013/13702, 2012/13189, 2014/14199, 2013/13753, 2011/12941);
+// (2) 817 donor VIN + engine pairs from PartsClub, JCS Parts and Gumtree listings
+//     (e.g. "JH (8TH VIN = M)" on PartsClub ECU listings).
+// 5 = 1.8 only on model years 2011-13 (A-D); M = 1.8 from model year 2014 (E-G).
+const CRUZE_ENGINE: Record<string, { name: string; litres: string; cyl: string; fuel: string }> = {
+  "5": { name: "1.8L petrol (F18D4)", litres: "1.8", cyl: "4", fuel: "Petrol" },
+  M: { name: "1.8L petrol (F18D4)", litres: "1.8", cyl: "4", fuel: "Petrol" },
+  "8": { name: "1.4L turbo petrol (A14NET)", litres: "1.4", cyl: "4", fuel: "Petrol" },
+  N: { name: "1.6L turbo petrol (A16LET), SRi / SRi-V", litres: "1.6", cyl: "4", fuel: "Petrol" },
+  Y: { name: "2.0L turbo diesel (Z20S1)", litres: "2.0", cyl: "4", fuel: "Diesel" },
+};
+
 const BODY_6G1: Record<string, string> = {
   "0": "Cab chassis (One Tonner)", "1": "Coupe", "3": "Crewman (4-door utility)", "4": "Utility", "5": "Sedan", "8": "Wagon",
 };
@@ -128,7 +142,9 @@ function decode6G1(vin: string) {
     out.push(seg(6, 6, vin, "Body style", body));
     const rs = RESTRAINT_6G1[vin[6]] ?? null; s.restraint = rs;
     out.push(seg(7, 7, vin, "Restraint system", rs));
-    out.push(seg(8, 8, vin, "Engine", null, { note: "Cruze engine letters not yet confirmed." }));
+    const ce = CRUZE_ENGINE[vin[7]];
+    if (ce) Object.assign(s, { engine: ce.name, engineLitres: ce.litres, engineCylinders: ce.cyl, fuel: ce.fuel });
+    out.push(seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This Cruze engine letter is not yet confirmed." }));
   }
   if (!cruze) {
     const body = BODY_6G1[vin[5]] ?? null; s.body = body;

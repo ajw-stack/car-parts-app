@@ -15,6 +15,15 @@ const KL3_LINE: Record<string, [model: string, series: string]> = {
   D: ["Captiva", "CG (C100/C140)"],
   T: ["Barina", "TM (T300)"],
 };
+// KL3J (Korean-built Cruze) engine letter, position 8. Two sources agree: Cruze recall VIN
+// ranges (diesel R: "KL3JA69RJAK501774 to KL3JF69RJAK774710") and donor VIN + engine pairs
+// (PartsClub / JCS: KL3JA695JAK759650 1.8, KL3JA35MJFK040015 1.8 F18D4, KL3JA69RJAK771962
+// diesel Z20S1). Y is not confirmed on Korean-built Cruzes, so it is left undecoded.
+const KL3_CRUZE_ENGINE: Record<string, { name: string; litres: string; cyl: string; fuel: string }> = {
+  "5": { name: "1.8L petrol (F18D4)", litres: "1.8", cyl: "4", fuel: "Petrol" },
+  M: { name: "1.8L petrol (F18D4)", litres: "1.8", cyl: "4", fuel: "Petrol" },
+  R: { name: "2.0L turbo diesel (Z20S1)", litres: "2.0", cyl: "4", fuel: "Diesel" },
+};
 const GM_KOREA_PLANT: Record<string, string> = { B: "Bupyeong, Korea", K: "Gunsan, Korea", C: "Changwon, Korea" };
 
 export const holdenKorea: MakeRule = {
@@ -26,12 +35,20 @@ export const holdenKorea: MakeRule = {
     if (l) { s.model = l[0]; s.series = l[1]; }
     const y = resolveModelYear(vin[9], 2002, 2020); s.modelYear = y;
     const plant = GM_KOREA_PLANT[vin[10]] ?? null; s.plant = plant;
+    const ce = vin[3] === "J" ? KL3_CRUZE_ENGINE[vin[7]] : undefined;
+    if (ce) Object.assign(s, { engine: ce.name, engineLitres: ce.litres, engineCylinders: ce.cyl, fuel: ce.fuel });
+    const detail = vin[3] === "J"
+      ? [
+          seg(5, 7, vin, "Series / body / restraint", null, { note: "GM Korea detail codes are not published — not decoded." }),
+          seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This Cruze engine letter is not yet confirmed." }),
+        ]
+      : [seg(5, 8, vin, "Series / body / restraint / engine", null, { note: "GM Korea rest-of-world detail codes are not published — not decoded." })];
     return {
       segments: [
         seg(4, 4, vin, "Model line", l ? `${l[0]} (${l[1]})` : null, {
           note: vin[3] === "M" || vin[3] === "T" ? "Single Australian parts-trade source; not yet two-sourced." : undefined,
         }),
-        seg(5, 8, vin, "Series / body / restraint / engine", null, { note: "GM Korea rest-of-world detail codes are not published — not decoded." }),
+        ...detail,
         seg(9, 9, vin, "Check digit", "Not the North-American check-digit algorithm on these VINs", { status: "standard" }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),
         seg(11, 11, vin, "Assembly plant", plant),

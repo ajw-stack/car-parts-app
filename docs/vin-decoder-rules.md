@@ -75,12 +75,12 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - (b) Position 5, luxury level (Commodore): K Executive/Omega/SV6/SV8/SS (shared); L Berlina; X Calais; Z Caprice; Y Statesman; P SS V; C SS; B SV6; J Calais V; E SS V Redline; A International. Cruze: D Equipe/CD; E CDX/SRi/SRi-V/Z-Series (shared).
 - (c) Position 6, body (Commodore): 0 cab chassis; 1 coupe; 3 Crewman; 4 utility; 5 sedan; 8 wagon. Cruze: 5 sedan; 6 hatch.
 - (d) Position 7, restraint: 1 active belts; 2 driver and passenger airbags; 3 driver airbag; 4 driver, passenger and side airbags; E load-limiting belts, driver, passenger and side airbags.
-- (e) Position 8, engine (Commodore): A 3.8 Ecotec; R 3.8 supercharged (L67); 7 3.6 Alloytec 190 (LY7); 5 3.0 SIDI (LF1); 3 3.6 SIDI (LLT); V 3.6 SIDI (LFX); F 5.7 Gen III (LS1); U 6.0 (LS2); H 6.0 (L98); Y 6.0 (L77); W 6.2 (LS3). Cruze engine letters are not yet confirmed.
+- (e) Position 8, engine (Commodore): A 3.8 Ecotec; R 3.8 supercharged (L67); 7 3.6 Alloytec 190 (LY7); 5 3.0 SIDI (LF1); 3 3.6 SIDI (LLT); V 3.6 SIDI (LFX); F 5.7 Gen III (LS1); U 6.0 (LS2); H 6.0 (L98); Y 6.0 (L77); W 6.2 (LS3). Cruze (added 2026-11-09, two sources: Cruze recall VIN ranges + 817 wrecker/listing VIN-engine pairs): 5 1.8 F18D4 (model years 2011-13); M 1.8 F18D4 (2014-16); 8 1.4 turbo A14NET; N 1.6 turbo A16LET (SRi/SRi-V); Y 2.0 turbo diesel Z20S1. Not confirmed: 1.4 turbo letter for MY15-16; diesel letter after MY14.
 - (f) Position 9 is a check digit. Position 10 is the model year (2002–2017). Position 11: L Elizabeth.
 
 **Rule 15. Holden ZB Commodore, WMI W0V with position 4 = Z (Rüsselsheim, 2018–2020).** Position 5 trim: M LT; S RS/RS-V; X VXR; T Calais/Calais-V. Position 6 body: 6 liftback; 8 Sportwagon. Position 8 engine: C 2.0 turbo (FWD); D 3.6 V6 (AWD). Position 10 model year.
 
-**Rule 16. Holden, WMI KL3 (GM Korea).** Position 4 model: J Cruze (J300); D Captiva; M Barina Spark (M300, single-sourced); T Barina TM (T300, single-sourced). Positions 5–8 not decoded (not published). Position 9 is not a North-American check digit. Position 10 model year. Position 11 plant: B Bupyeong; K Gunsan; C Changwon.
+**Rule 16. Holden, WMI KL3 (GM Korea).** Position 4 model: J Cruze (J300); D Captiva; M Barina Spark (M300, single-sourced); T Barina TM (T300, single-sourced). Positions 5–8 not decoded (not published), except Cruze (J) position 8 engine: 5 and M 1.8 F18D4; R 2.0 turbo diesel Z20S1 (added 2026-11-09; Y not confirmed on KL3J). Position 9 is not a North-American check digit. Position 10 model year. Position 11 plant: B Bupyeong; K Gunsan; C Changwon.
 
 ### Division 2 — Ford, Jeep, Chrysler (`makes/ford-fca.ts`)
 
