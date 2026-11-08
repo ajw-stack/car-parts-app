@@ -7,7 +7,7 @@ import { ADMIN_COOKIE, verifyAdminCookie } from "./app/lib/auth/adminCookie";
  * goes to the coming-soon page. Set the env var to "false" to open the whole site.
  */
 const ALLOW_PREFIXES = [
-  "/coming-soon", "/decode", "/pricing", "/account", "/login", "/signup", "/forgot-password", "/reset-password",
+  "/coming-soon", "/decode", "/pricing", "/account", "/login", "/signup", "/forgot-password", "/reset-password", "/auth/confirm",
   "/terms", "/privacy", "/refunds", "/contact",
   "/admin", "/capture",
   "/api/vin", "/api/billing", "/api/admin", "/api/makes", "/api/parts", "/api/vehicles", "/api/capture-users",

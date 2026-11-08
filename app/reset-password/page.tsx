@@ -18,6 +18,14 @@ export default function ResetPasswordPage() {
   // client reads from the URL. Without that session the link has expired or was already used.
   useEffect(() => {
     let settled = false;
+    // Branded email links point here with ?token_hash=...&type=recovery (same domain as the sender).
+    const tokenHash = new URLSearchParams(location.search).get("token_hash");
+    if (tokenHash) {
+      settled = true;
+      supabase.auth.verifyOtp({ token_hash: tokenHash, type: "recovery" }).then(({ error }) => {
+        setStage(error ? "invalid" : "ready");
+      });
+    }
     const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
       if (event === "PASSWORD_RECOVERY" || (session && !settled)) {
         settled = true;
