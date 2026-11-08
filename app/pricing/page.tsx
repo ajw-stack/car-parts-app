@@ -94,7 +94,7 @@ function PricingBody() {
               <strong>How the trial works.</strong> You add a card today and nothing is charged for {PLAN.trialDays} days.
               Your trial ends on <strong>{trialEndsOn ?? `${PLAN.trialDays} days from today`}</strong> and your subscription then starts automatically at {PLAN.priceLabel} a month,
               unless you cancel first from your account page. You will get an email with the trial end date when you sign up.
-              You can also skip the trial and start your subscription instantly: {PLAN.priceLabel} is charged today and your {PLAN.monthlyDecodes} decodes a month are available straight away.
+              Alternatively, skip the trial and start your subscription today: {PLAN.priceLabel} is charged at sign-up and your {PLAN.monthlyDecodes} decodes a month are available instantly.
             </p>
 
             {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
