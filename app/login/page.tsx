@@ -72,7 +72,7 @@ function LoginForm() {
       </p>
 
       {error && (
-        <div className="rounded-xl border border-red-800 bg-red-900/20 px-4 py-3 text-sm text-red-400">
+        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
           {error}
         </div>
       )}
@@ -106,7 +106,7 @@ export default function LoginPage() {
           <div className="text-center mb-8">
             <h1 className="text-2xl font-bold text-black">Sign in</h1>
             <p className="mt-2 text-sm text-gray-600">
-              Access your garage and saved vehicles.
+              Sign in to use the Elroco VIN Decoder and manage your subscription.
             </p>
           </div>
 

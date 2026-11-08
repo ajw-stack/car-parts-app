@@ -1,20 +1,18 @@
 ﻿"use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Header from "../components/Header";
 import { supabase } from "../lib/supabaseClient";
 import PasswordInput from "../components/PasswordInput";
 
 export default function SignupPage() {
-  const router = useRouter();
-
   const [email, setEmail]       = useState("");
   const [password, setPassword] = useState("");
   const [confirm, setConfirm]   = useState("");
   const [loading, setLoading]   = useState(false);
   const [error, setError]       = useState<string | null>(null);
   const [done, setDone]         = useState(false);
+  const [exists, setExists]     = useState(false);
 
   async function handleSignup(e: React.FormEvent) {
     e.preventDefault();
@@ -30,7 +28,8 @@ export default function SignupPage() {
     }
 
     setLoading(true);
-    const { error: err } = await supabase.auth.signUp({
+    setExists(false);
+    const { data, error: err } = await supabase.auth.signUp({
       email: email.trim(),
       password,
       options: { emailRedirectTo: `${location.origin}/pricing` },
@@ -38,6 +37,9 @@ export default function SignupPage() {
     setLoading(false);
 
     if (err) { setError(err.message); return; }
+    // Supabase answers a sign-up for an already-registered email with a user that has no
+    // identities and sends no email. Say so, instead of "check your email".
+    if (data.user && (data.user.identities?.length ?? 0) === 0) { setExists(true); return; }
     setDone(true);
   }
 
@@ -55,7 +57,19 @@ export default function SignupPage() {
             </p>
           </div>
 
-          {done ? (
+          {exists ? (
+            <div className="rounded-2xl border border-amber-200 bg-amber-50 px-6 py-8 text-center space-y-3">
+              <p className="text-lg font-semibold text-amber-800">You already have an account</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                <span className="font-semibold text-black">{email.trim()}</span> is already registered. Sign in with your
+                existing password, or reset it if you have forgotten it.
+              </p>
+              <div className="flex flex-col gap-2 pt-2">
+                <a href="/login" className="rounded-xl bg-[#02070d] px-4 py-3 text-sm font-semibold text-white">Sign in</a>
+                <a href="/forgot-password" className="text-sm font-medium text-black hover:text-[#CC0000]">Reset my password</a>
+              </div>
+            </div>
+          ) : done ? (
             <div className="rounded-2xl border border-emerald-200 bg-emerald-50 px-6 py-8 text-center space-y-3">
               <p className="text-lg font-semibold text-emerald-800">Check your email</p>
               <p className="text-sm text-gray-700 leading-relaxed">
