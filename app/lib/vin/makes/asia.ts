@@ -220,17 +220,62 @@ function hyundaiLine(vin: string): Hit | null {
   }
   return null;
 }
+// Kia lines added / corrected 2026-11-09 from 235 VINs on two independent dealers' stock pages
+// (John Hughes Kia, Tynan Kia) + Wikibooks Kia VIN codes (US Part 565): KNAR is the Sorento MQ4
+// (not a Carnival), KNAN the Carnival KA4, KNAE Seltos, KNAB Picanto, KNCS the Tasman ute.
+// KNAP is shared: Sportage (QL, NQ5) and, with position 5 = H, the Sorento UM.
 function kiaLine(vin: string): Hit | null {
+  if (vin.startsWith("KNCS")) return ["Tasman", "TK"];
   if (!vin.startsWith("KNA")) return null;
   const l = vin[3];
   if (l === "F") return ["Cerato", "Cerato / Forte"];
-  if (l === "D") return ["Rio", "Rio"];
-  if (l === "P") return ["Sportage", "Sportage (Korean-built)"];
+  if (l === "D") return ["Rio / Stonic", "YB family"];
+  if (l === "P") return vin[4] === "H" ? ["Sorento", "UM"] : ["Sportage", "Sportage (Korean-built)"];
   if (l === "M") return ["Carnival", "Carnival"];
+  if (l === "N") return ["Carnival", "KA4"];
+  if (l === "R") return ["Sorento", "MQ4"];
+  if (l === "E") return ["Seltos", "Seltos"];
+  if (l === "B") return ["Picanto", "JA"];
   return null;
 }
 
-function koreanDecode(make: string, line: (v: string) => Hit | null, plants: Record<string, string>) {
+type Eng = { name: string; litres: string; fuel: string };
+const E = (name: string, litres: string, fuel: string): Eng => ({ name, litres, fuel });
+// Kia engine letter (position 8) — assigned per model line AND generation, so keyed by line and
+// model year. Only letters seen consistently at both dealers, or at one dealer plus the Wikibooks
+// Kia (US Part 565) table, are included.
+function kiaEngine(vin: string, year: number | null): Eng | null {
+  const line = vin.slice(0, 4), c = vin[7], y = year ?? 0;
+  switch (line) {
+    case "KNAB": return ({ "2": E("1.2L petrol", "1.2", "Petrol") } as Record<string, Eng>)[c] ?? null;
+    case "KNAD": return ({ "4": E("1.4L petrol", "1.4", "Petrol"), "7": E("1.0L turbo petrol", "1.0", "Petrol") } as Record<string, Eng>)[c] ?? null;
+    case "KNAE": return y >= 2020 && y <= 2025
+      ? ({ A: E("2.0L petrol", "2.0", "Petrol"), "2": E("1.6L turbo petrol", "1.6", "Petrol"), "7": E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null
+      : null;
+    case "KNAF":
+      if (y >= 2019) return ({ C: E("2.0L petrol", "2.0", "Petrol") } as Record<string, Eng>)[c] ?? null;      // Cerato BD
+      if (y >= 2013) return ({ "7": E("2.0L petrol", "2.0", "Petrol"), "6": E("1.8L petrol", "1.8", "Petrol") } as Record<string, Eng>)[c] ?? null; // Cerato YD
+      return null;
+    case "KNAN": return ({ A: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), B: E("2.2L turbo diesel", "2.2", "Diesel"), "3": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
+    case "KNAP":
+      if (vin[4] === "H") return ({ B: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null; // Sorento UM
+      if (y >= 2022) return ({ C: E("2.0L turbo diesel", "2.0", "Diesel"), D: E("2.0L petrol", "2.0", "Petrol"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid") } as Record<string, Eng>)[c] ?? null; // Sportage NQ5
+      if (y >= 2016) return ({ A: E("2.0L petrol", "2.0", "Petrol"), C: E("2.4L petrol", "2.4", "Petrol") } as Record<string, Eng>)[c] ?? null; // Sportage QL
+      return null;
+    case "KNAR": return ({ B: E("2.2L turbo diesel", "2.2", "Diesel"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), H: E("1.6L turbo petrol plug-in hybrid", "1.6", "Plug-in Hybrid") } as Record<string, Eng>)[c] ?? null;
+    case "KNCS": return ({ A: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null;
+    default: return null;
+  }
+}
+// Kia position 9 on Australian-delivered cars = transmission + driven wheels (both dealers agree).
+const KIA_TRANS: Record<string, [trans: string, drive: string]> = {
+  M: ["Automatic", "2WD"], S: ["Automatic", "AWD / 4WD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD / 4WD"],
+};
+
+function koreanDecode(
+  make: string, line: (v: string) => Hit | null, plants: Record<string, string>,
+  engine?: (v: string, year: number | null) => Eng | null, trans?: Record<string, [string, string]>,
+) {
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
     const h = line(vin);
@@ -239,6 +284,11 @@ function koreanDecode(make: string, line: (v: string) => Hit | null, plants: Rec
     const rs = RESTRAINT_HK[vin[6]] ?? null; s.restraint = rs;
     const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
     const plant = plants[vin[10]] ?? null; s.plant = plant;
+    const eng = engine ? engine(vin, y) : null;
+    if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel });
+    // Position-9 transmission letters are evidenced on 2015-and-later Kias only.
+    const tr = trans && (y ?? 0) >= 2015 ? trans[vin[8]] : undefined;
+    if (tr) { s.transmission = tr[0]; s.drive = tr[1]; }
     return {
       segments: [
         seg(4, 4, vin, "Model line", h ? `${h[0]} (${h[1]})` : null, {
@@ -247,8 +297,10 @@ function koreanDecode(make: string, line: (v: string) => Hit | null, plants: Rec
         seg(5, 5, vin, "Trim / specification", null, { note: "Varies by model and year — not decoded." }),
         seg(6, 6, vin, "Body type", body),
         seg(7, 7, vin, "Restraint system", rs),
-        seg(8, 8, vin, "Engine", null, { note: "Engine letters change meaning between generations — not decoded." }),
-        seg(9, 9, vin, "Check / production code", null, { note: "Not an ISO check digit on Australian-delivered Hyundai and Kia VINs (often a letter)." }),
+        seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "Engine letters change meaning between models and generations — this one is not yet confirmed." }),
+        tr
+          ? seg(9, 9, vin, "Transmission / drive", `${tr[0]}, ${tr[1]}`)
+          : seg(9, 9, vin, "Check / production code", null, { note: "Not an ISO check digit on Australian-delivered Hyundai and Kia VINs (often a letter)." }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),
         seg(11, 11, vin, "Assembly plant", plant),
       ],
@@ -265,5 +317,5 @@ export const hyundai: MakeRule = {
 export const kia: MakeRule = {
   id: "kia", make: "Kia", wmis: ["KNA", "KNC", "KND", "KNE", "U5Y", "U6Y", "MS0"],
   checkDigit: "no", modelYear: "yes",
-  decode: koreanDecode("Kia", kiaLine, KIA_PLANT),
+  decode: koreanDecode("Kia", kiaLine, KIA_PLANT, kiaEngine, KIA_TRANS),
 };

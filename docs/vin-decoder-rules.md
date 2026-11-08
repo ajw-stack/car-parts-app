@@ -128,7 +128,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - (e) Position 8: engine, not decoded (letters change meaning between generations).
 - (f) Position 9 is not an ISO check digit (often a letter).
 - (g) Position 10 model year.
-- (h) Position 11 plant. Hyundai: A Asan; C Jeonju; U Ulsan; W Gwangju; J Nošovice; M Chennai; Z İzmit. Kia: 5 Hwaseong; 6, 7 Korea; L Žilina.
+- (h) Position 11 plant. Hyundai: A Asan; C Jeonju; U Ulsan; W Gwangju; J Nošovice; M Chennai; Z İzmit. Kia: 5 Hwaseong; 6, 7 Korea; L Žilina. Kia additions (2026-11-09; 235 VINs from two independent dealers, John Hughes Kia and Tynan Kia, plus the Wikibooks Kia US Part 565 table): position 4 KNAR Sorento MQ4, KNAN Carnival KA4, KNAE Seltos, KNAB Picanto, KNAD Rio/Stonic, KNCS Tasman TK, KNAP Sportage (with position 5 H = Sorento UM). Position 8 engine is per line and generation (see kiaEngine in makes/asia.ts). Position 9 on 2015+ Kias: M auto 2WD, S auto AWD/4WD, V DCT 2WD, W DCT AWD.
 
 ### Division 5 — Subaru, Honda, Land Rover (`makes/japan-uk.ts`)
 
