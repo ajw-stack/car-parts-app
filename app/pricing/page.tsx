@@ -7,19 +7,23 @@ import Footer from "../components/Footer";
 import { supabase } from "../lib/supabaseClient";
 import { PLAN, SUPPORT_EMAIL } from "../lib/billing/config";
 
-// Computed once per page load (module scope, not during render) so the lint purity rule is satisfied.
-const TRIAL_ENDS_ON = new Date(Date.now() + PLAN.trialDays * 86_400_000)
+// The page is prerendered at build time, so the trial end date must be worked out in the
+// visitor's browser after load, never at build or module scope.
+const trialEndDate = () => new Date(Date.now() + PLAN.trialDays * 86_400_000)
   .toLocaleDateString("en-AU", { timeZone: "Australia/Melbourne", day: "numeric", month: "long" });
 
 function PricingBody() {
-  const trialEndsOn = TRIAL_ENDS_ON;
+  const [trialEndsOn, setTrialEndsOn] = useState<string | null>(null);
   const params = useSearchParams();
   const cancelled = params.get("checkout") === "cancelled";
   const [signedIn, setSignedIn] = useState<boolean | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => setSignedIn(!!data.session));
+    supabase.auth.getSession().then(({ data }) => {
+      setSignedIn(!!data.session);
+      setTrialEndsOn(trialEndDate());
+    });
   }, []);
 
   async function startTrial(skipTrial = false) {
@@ -88,7 +92,7 @@ function PricingBody() {
             {/* Auto-renewal disclosure: shown before the card is collected (ACCC guidance). */}
             <p className="mt-4 text-xs text-gray-600 leading-relaxed">
               <strong>How the trial works.</strong> You add a card today and nothing is charged for {PLAN.trialDays} days.
-              Your trial ends on <strong suppressHydrationWarning>{trialEndsOn}</strong> and your subscription then starts automatically at {PLAN.priceLabel} a month,
+              Your trial ends on <strong>{trialEndsOn ?? `${PLAN.trialDays} days from today`}</strong> and your subscription then starts automatically at {PLAN.priceLabel} a month,
               unless you cancel first from your account page. You will get an email with the trial end date when you sign up.
               If you skip the trial, {PLAN.priceLabel} is charged today and your {PLAN.monthlyDecodes} decodes a month start straight away.
               If you are charged and did not mean to continue, email {SUPPORT_EMAIL} within {PLAN.refundDays} days for a full refund.
