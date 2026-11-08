@@ -14,8 +14,13 @@ export default function ComingSoonPage() {
 
       <main className="flex-1">
         <section className="bg-[#02070d] px-4 pt-16 pb-14 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/40">Elroco</p>
-          <h1 className="mt-4 text-4xl font-bold text-white tracking-tight">The parts catalogue is coming soon.</h1>
+          <p
+            style={{ fontFamily: "var(--font-michroma, 'Michroma', sans-serif)", letterSpacing: "0.1em" }}
+            className="text-3xl uppercase text-white leading-none"
+          >
+            Elroco
+          </p>
+          <h1 className="mt-6 text-4xl font-bold text-white tracking-tight">The parts catalogue is coming soon.</h1>
           <p className="mt-4 text-base text-white/60 max-w-xl mx-auto">
             A vehicle-first parts catalogue for Australian mechanics, trade and enthusiasts is on its way.
             The VIN decoder is open now.
