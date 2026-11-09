@@ -3,12 +3,15 @@
 // Sources: Elroco VIN research 2026-09-29 — 24 real Australian VINs from grays.com.au listings
 // and user-supplied plates; cars101.com (Subaru platform letters); JLR VIN reference (Elroco folder).
 
-import { seg, type MakeRule, type VinSummary } from "../engine";
+import { seg, type MakeRule, type VinSegment, type VinSummary } from "../engine";
 import { resolveModelYear } from "../modelYear";
 
 type Chassis = Record<string, [model: string, series: string]>;
 
-function chassisDecode(make: string, table: Chassis, plants: (vin: string) => string | null, pos6to8Label: string) {
+function chassisDecode(
+  make: string, table: Chassis, plants: (vin: string) => string | null, pos6to8Label: string,
+  detail?: (vin: string, s: Partial<VinSummary>) => VinSegment[],
+) {
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
     const c = table[vin.slice(3, 5)];
@@ -20,7 +23,7 @@ function chassisDecode(make: string, table: Chassis, plants: (vin: string) => st
     return {
       segments: [
         seg(4, 5, vin, "Chassis code (model / generation)", c ? `${c[0]} (${c[1]})` : null),
-        seg(6, 8, vin, pos6to8Label, null, { note: "Grade and engine block — no published table; not decoded." }),
+        ...(detail ? detail(vin, s) : [seg(6, 8, vin, pos6to8Label, null, { note: "Grade and engine block — no published table; not decoded." })]),
         seg(10, 10, vin, "Model year", y ? String(y) : null, { note: "Cars built late in a calendar year often carry the next year's code." }),
         seg(11, 11, vin, "Assembly plant", plant),
       ],
@@ -45,6 +48,61 @@ const SUBARU: Chassis = {
   BN: ["Liberty", "BN (6th gen sedan)"], BS: ["Outback", "BS (5th gen)"], BT: ["Outback", "BT (6th gen)"],
   ZC: ["BRZ", "ZC (1st gen)"], ZD: ["BRZ", "ZD (2nd gen)"],
 };
+
+// Subaru positions 6-9 (added 2026-11-09). Source: Subaru's own "Meaning of V.I.N." table for
+// "Europe, Australia and general markets" (2004 Impreza manual, ID-4): 6 engine/drive, 7 steering,
+// 8 engine + transmission, 9 drive type (NOT a check digit), 11 plant G = Gunma. Checked against
+// 400,430 VINs from 45 Subaru Australia recall VIN lists (vehiclerecalls.gov.au) and 310 AU VIN +
+// variant pairs (CarsGuide, Cars24, Grays). Position 6 means different engines on different
+// chassis, so it is keyed by chassis. Only codes with two agreeing sources are listed.
+const SUBARU_ENGINE: Record<string, Record<string, string>> = {
+  GC: { "8": "2.0L petrol (EJ20)" },
+  GD: { "9": "2.0L petrol", A: "2.0L turbo petrol (WRX)", B: "2.0L turbo petrol (WRX STI)", E: "2.5L petrol (RS)" },
+  GG: { "9": "2.0L petrol", A: "2.0L turbo petrol (WRX)", B: "2.0L turbo petrol (WRX STI)", E: "2.5L petrol (RS)" },
+  GE: { "7": "2.0L petrol", E: "2.5L turbo petrol (WRX)" },
+  GH: { "7": "2.0L petrol", E: "2.5L turbo petrol (WRX)" },
+  GJ: { "7": "2.0L petrol (FB20)" }, GP: { "7": "2.0L petrol (FB20)" },
+  GK: { "7": "2.0L petrol" }, GT: { "7": "2.0L petrol" }, GU: { "7": "2.0L petrol" },
+  VA: { G: "2.0L turbo petrol (FA20 DIT)", F: "2.5L turbo petrol (WRX STI)" },
+  VB: { H: "2.4L turbo petrol (FA24 DIT)" }, VN: { H: "2.4L turbo petrol (FA24 DIT)" },
+  VM: { G: "2.0L turbo petrol (FA20 DIT)", "4": "1.6L turbo petrol (FB16 DIT)" },
+  SJ: { "5": "2.0L petrol (FB20)", "9": "2.5L petrol", G: "2.0L turbo petrol (XT)", D: "2.0L turbo diesel" },
+  SK: { "9": "2.5L petrol", E: "2.0L petrol hybrid (e-Boxer)" },
+  BL: { "9": "2.5L petrol (naturally aspirated or GT turbo)" }, BP: { "9": "2.5L petrol (naturally aspirated or GT turbo)" },
+  BM: { "9": "2.5L petrol (EJ25, naturally aspirated or GT turbo)", M: "2.5L petrol (FB25)", F: "3.6L petrol (EZ36)", D: "2.0L turbo diesel" },
+  BR: { "9": "2.5L petrol (EJ25, naturally aspirated or GT turbo)", M: "2.5L petrol (FB25)", F: "3.6L petrol (EZ36)", D: "2.0L turbo diesel" },
+  BN: { "9": "2.5L petrol", F: "3.6L petrol", D: "2.0L turbo diesel" },
+  BS: { "9": "2.5L petrol", F: "3.6L petrol", D: "2.0L turbo diesel" },
+  BT: { "9": "2.5L petrol", A: "2.4L turbo petrol (XT)" },
+  ZC: { "6": "2.0L petrol (FA20)" }, ZD: { "8": "2.4L petrol (FA24)" },
+};
+// Positions 8+9 together = engine-transmission pair.
+const SUBARU_TRANS: Record<string, string> = {
+  J3: "5-speed manual", R5: "4-speed automatic", D3: "5-speed manual", H3: "6-speed manual", S5: "4-speed automatic",
+  V5: "5-speed automatic", V3: "5-speed automatic", U3: "5-speed automatic", U6: "5-speed automatic",
+  "92": "CVT", C2: "CVT", C5: "CVT", A3: "6-speed manual", Z3: "6-speed manual", Z4: "6-speed manual",
+  Y5: "CVT", Y2: "CVT", "85": "CVT", "63": "6-speed manual", "81": "6-speed manual", "72": "6-speed automatic", L3: "CVT",
+};
+const SUBARU_CVT_ERA = new Set(["GT", "GK", "GU", "SK", "SL", "BT"]);   // L5 = CVT on these, 4-speed auto on older chassis
+
+function subaruDetail(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  const chassis = vin.slice(3, 5);
+  const eng = SUBARU_ENGINE[chassis]?.[vin[5]] ?? null;
+  if (eng) {
+    s.engine = eng;
+    const m = eng.match(/^(\d\.\d)L/); if (m) s.engineLitres = m[1];
+    s.fuel = /diesel/i.test(eng) ? "Diesel" : /hybrid/i.test(eng) ? "Hybrid" : "Petrol";
+  }
+  const pair = vin.slice(7, 9);
+  const trans = pair === "L5" ? (SUBARU_CVT_ERA.has(chassis) ? "CVT" : "4-speed automatic") : SUBARU_TRANS[pair] ?? null;
+  if (trans) s.transmission = trans;
+  const steer = vin[6] === "K" ? "Right-hand drive" : vin[6] === "L" ? "Left-hand drive" : null;
+  return [
+    seg(6, 6, vin, "Engine", eng, eng ? {} : { note: "This Subaru engine code is not yet confirmed for this chassis." }),
+    seg(7, 7, vin, "Steering", steer),
+    seg(8, 9, vin, "Engine / transmission", trans, trans ? { note: "Position 9 is part of this code, not a check digit." } : { note: "Not decoded. Position 9 is part of this code, not a check digit." }),
+  ];
+}
 
 // ── Honda (JHM/JHL Japan, MRH Thailand). Position 9 is a fixed 0, not a check digit. ──
 const HONDA: Chassis = {
@@ -72,8 +130,9 @@ const LAND_ROVER: Chassis = {
 const LR_PLANT: Record<string, string> = { A: "Solihull, UK", H: "Halewood, UK" };
 
 export const subaru: MakeRule = {
-  id: "subaru", make: "Subaru", wmis: ["JF1", "JF2"], checkDigit: "yes", modelYear: "yes",
-  decode: chassisDecode("Subaru", SUBARU, (v) => (v[10] === "G" ? "Gunma, Japan" : null), "Body / engine / restraint"),
+  // Position 9 is not a check digit on Australian Subarus (only 8.6% of 400,430 AU recall VINs pass — chance level).
+  id: "subaru", make: "Subaru", wmis: ["JF1", "JF2"], checkDigit: "no", modelYear: "yes",
+  decode: chassisDecode("Subaru", SUBARU, (v) => (v[10] === "G" ? "Gunma, Japan" : null), "Body / engine / restraint", subaruDetail),
 };
 export const honda: MakeRule = {
   id: "honda", make: "Honda", wmis: ["JHM", "JHL", "MRH"], checkDigit: "no", modelYear: "yes",

@@ -132,7 +132,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 ### Division 5 — Subaru, Honda, Land Rover (`makes/japan-uk.ts`)
 
-**Rule 28. Subaru, WMIs JF1, JF2.** Positions 4–5 chassis code (e.g. GC, GD, GE, GH, GJ, GP, GK, GT Impreza/XV; VA, VB WRX; SF–SK Forester; BD–BT Liberty/Outback; ZC, ZD BRZ). Positions 6–8 not decoded. Position 9 real check digit. Position 10 model year. Position 11: G Gunma, Japan.
+**Rule 28. Subaru, WMIs JF1, JF2.** Positions 4–5 chassis code (e.g. GC, GD, GE, GH, GJ, GP, GK, GT Impreza/XV; VA, VB WRX; SF–SK Forester; BD–BT Liberty/Outback; ZC, ZD BRZ). Positions 6–8 not decoded. Position 9 real check digit. Position 10 model year. Position 11: G Gunma, Japan. Corrected and extended 2026-11-09 (Subaru "Meaning of V.I.N." table for Europe/Australia/general markets + 400,430 Subaru Australia recall VINs + 310 AU listing pairs): position 9 is NOT a check digit (8.6% pass rate = chance); 6 engine per chassis (see SUBARU_ENGINE in makes/japan-uk.ts); 7 K = right-hand drive; 8-9 engine/transmission pair (J3 5MT, R5 4AT, D3 5MT, H3 6MT, S5 4AT, V3/V5 5AT, U3/U6 5AT, 92 CVT, C2/C5 CVT, A3 6MT, Z3/Z4 6MT diesel, Y2/Y5 CVT diesel, 85 CVT, 63 6MT, 81 6MT, 72 6AT, L3 CVT, L5 CVT on GT/GK/GU/SK/SL/BT and 4AT on older chassis); 11 G = Gunma.
 
 **Rule 29. Honda, WMIs JHM, JHL, MRH.** Positions 4–5 chassis code (RD, RE, RM, RW CR-V; EU, ES, FD, FB, FC, FK, FL Civic; GD, GE, GK Jazz; GM City; CL, CU Accord Euro; RA, RB, RC Odyssey; GH, RU HR-V). Positions 6–8 not decoded. Position 9 is a fixed 0, not a check digit. Position 10 model year. Position 11: P or T Thailand (MRH); C or S Japan (JH-).
 
