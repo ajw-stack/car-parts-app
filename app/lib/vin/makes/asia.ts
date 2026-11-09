@@ -43,7 +43,7 @@ const MAZDA: Record<string, Hit> = {
 const MAZDA_NEW_LAYOUT = new Set(["KF", "TC", "DK", "BP", "ND", "DJ", "DL"]);
 const MAZDA_OLD_LAYOUT = new Set(["KE", "GJ", "GL", "BM", "BN"]);
 const MAZDA_DRIVE: Record<string, string> = { "2": "2WD", "4": "AWD" };
-const MAZDA_BODY: Record<string, string> = { W: "Wagon / SUV" };
+const MAZDA_BODY: Record<string, string> = { W: "Wagon / SUV", H: "Hatch", S: "Sedan" };   // H/S added 2026-11-09 (recall lists + Cars4Us door counts)
 const MAZDA_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
   "7": { name: "2.0L SKYACTIV-G petrol (PE)", litres: "2.0", fuel: "Petrol" },
   "2": { name: "2.2L SKYACTIV-D diesel (SH)", litres: "2.2", fuel: "Diesel" },
@@ -51,7 +51,17 @@ const MAZDA_ENGINE: Record<string, { name: string; litres: string; fuel: string 
 const MAZDA_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: string }> = {
   ...MAZDA_ENGINE,
   L: { name: "2.5L SKYACTIV-G petrol (PY family)", litres: "2.5", fuel: "Petrol" },
+  // Added 2026-11-09: S = CX-3 1.5 diesel (recall REC-000882, all 1,627 VINs S, + listing);
+  // A = 1.5 petrol (Mazda2 DJ/DL: recall REC-892 + Cars4Us G15 listings).
+  S: { name: "1.5L SKYACTIV-D diesel", litres: "1.5", fuel: "Diesel" },
+  A: { name: "1.5L SKYACTIV-G petrol", litres: "1.5", fuel: "Petrol" },
 };
+// Older layout: 3 = 2.5 petrol confirmed on the Mazda3 BM/BN only (recall REC-890 + Cars4Us SP25 listing).
+const MAZDA_ENGINE_OLD_BM: Record<string, { name: string; litres: string; fuel: string }> = {
+  "3": { name: "2.5L SKYACTIV-G petrol (PY)", litres: "2.5", fuel: "Petrol" },
+};
+// Newer layout position 9: A = automatic, 6 = manual (recall REC-884 MX-5 automatic list + listings).
+const MAZDA_TRANS_NEW: Record<string, string> = { A: "Automatic", "6": "Manual" };
 
 function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
   const code = vin.slice(3, 5);
@@ -62,6 +72,7 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
     const drive = MAZDA_DRIVE[vin[5]] ?? null; if (drive) s.drive = drive;
     const body = MAZDA_BODY[vin[6]] ?? null; if (body) s.body = body;
     const eng = MAZDA_ENGINE_NEW[vin[7]]; fill(eng);
+    const tr = MAZDA_TRANS_NEW[vin[8]]; if (tr) s.transmission = tr;
     return [
       seg(6, 6, vin, "Drive", drive),
       seg(7, 7, vin, "Body", body, body ? {} : { note: "This Mazda body letter is not yet confirmed." }),
@@ -69,10 +80,18 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
     ];
   }
   if (MAZDA_OLD_LAYOUT.has(code)) {
-    const eng = MAZDA_ENGINE[vin[7]]; fill(eng);
+    const eng = MAZDA_ENGINE[vin[7]] ?? (code === "BM" || code === "BN" ? MAZDA_ENGINE_OLD_BM[vin[7]] : undefined); fill(eng);
     return [
       seg(6, 7, vin, "Body / descriptor", null, { note: "Mazda sub-code — not decoded." }),
       seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
+    ];
+  }
+  if (code === "UR" && vin[7] === "G") {
+    // BT-50 UR: G on the XT freestyle cab-chassis 3.2 auto (cars24) and the GT dual-cab 3.2 auto (Cars4Us).
+    Object.assign(s, { engine: "3.2L turbo diesel", engineLitres: "3.2", fuel: "Diesel", transmission: "Automatic" });
+    return [
+      seg(6, 7, vin, "Body / descriptor", null, { note: "Not decoded." }),
+      seg(8, 8, vin, "Engine / transmission", "3.2L turbo diesel, automatic"),
     ];
   }
   return [seg(6, 8, vin, "Body / engine / grade", null, { note: "Mazda sub-code — no published table; not decoded." })];
@@ -89,7 +108,9 @@ export const mazda: MakeRule = {
       segments: [
         seg(4, 5, vin, "Model code", h ? `${h[0]} (${h[1]})` : null),
         ...mazdaDescriptor(vin, s),
-        seg(9, 9, vin, "Check digit", "Not used by Mazda on Australian-delivered vehicles", { status: "standard" }),
+        MAZDA_NEW_LAYOUT.has(vin.slice(3, 5)) && MAZDA_TRANS_NEW[vin[8]]
+          ? seg(9, 9, vin, "Transmission", MAZDA_TRANS_NEW[vin[8]], { note: "Not a check digit on Mazdas." })
+          : seg(9, 9, vin, "Check digit", "Not used by Mazda on Australian-delivered vehicles", { status: "standard" }),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "Mazda does not encode the model year here on Australian-delivered cars (usually 0)." }),
       ],
       summary: s,
@@ -358,6 +379,8 @@ function hyundaiLine(vin: string): Hit | null {
     if (l === "K") return ["Kona", "OS"];
     if (l === "C") return ["Accent", "Accent"];
     if (l === "S") return ["Santa Fe", "Santa Fe"];
+    // KMHR = Venue (QX): recall REC-005535 (all KMHR...812) + Cars4Us listings (2026-11-09).
+    if (l === "R") return ["Venue", "QX"];
   }
   return null;
 }
@@ -394,16 +417,16 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
       ? ({ A: E("2.0L petrol", "2.0", "Petrol"), "2": E("1.6L turbo petrol", "1.6", "Petrol"), "7": E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null
       : null;
     case "KNAF":
-      if (y >= 2019) return ({ C: E("2.0L petrol", "2.0", "Petrol") } as Record<string, Eng>)[c] ?? null;      // Cerato BD
+      if (y >= 2019) return ({ C: E("2.0L petrol", "2.0", "Petrol"), "7": E("1.6L turbo petrol (GT)", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null;      // Cerato BD
       if (y >= 2013) return ({ "7": E("2.0L petrol", "2.0", "Petrol"), "6": E("1.8L petrol", "1.8", "Petrol") } as Record<string, Eng>)[c] ?? null; // Cerato YD
       return null;
     case "KNAN": return ({ A: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), B: E("2.2L turbo diesel", "2.2", "Diesel"), "3": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
     case "KNAP":
       if (vin[4] === "H") return ({ B: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null; // Sorento UM
       if (y >= 2022) return ({ C: E("2.0L turbo diesel", "2.0", "Diesel"), D: E("2.0L petrol", "2.0", "Petrol"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid") } as Record<string, Eng>)[c] ?? null; // Sportage NQ5
-      if (y >= 2016) return ({ A: E("2.0L petrol", "2.0", "Petrol"), C: E("2.4L petrol", "2.4", "Petrol") } as Record<string, Eng>)[c] ?? null; // Sportage QL
+      if (y >= 2016) return ({ A: E("2.0L petrol", "2.0", "Petrol"), C: E("2.4L petrol", "2.4", "Petrol"), "3": E("2.0L turbo diesel", "2.0", "Diesel") } as Record<string, Eng>)[c] ?? null; // Sportage QL
       return null;
-    case "KNAR": return ({ B: E("2.2L turbo diesel", "2.2", "Diesel"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), H: E("1.6L turbo petrol plug-in hybrid", "1.6", "Plug-in Hybrid") } as Record<string, Eng>)[c] ?? null;
+    case "KNAR": return ({ E: E("3.5L V6 petrol", "3.5", "Petrol"), B: E("2.2L turbo diesel", "2.2", "Diesel"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), H: E("1.6L turbo petrol plug-in hybrid", "1.6", "Plug-in Hybrid") } as Record<string, Eng>)[c] ?? null;
     case "KNCS": return ({ A: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null;
     default: return null;
   }
@@ -424,7 +447,8 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) {          // Elantra AD
     return ({ F: E("2.0L petrol (Nu)", "2.0", "Petrol"), B: E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null;
   }
-  if (pre === "KMHH") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : null;   // i30 PD
+  if (pre === "KMHH") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : c === "C" ? E("1.6L turbo petrol", "1.6", "Petrol") : null;   // i30 PD
+  if (pre === "KMHR") return c === "2" ? E("1.6L petrol", "1.6", "Petrol") : null;   // Venue
   if (pre === "KMHJ" || pre === "TMAJ") {                        // ix35 (to 2015) / Tucson TL
     return ({
       C: E("2.4L petrol", "2.4", "Petrol"), V: E("2.0L turbo diesel (CRDi)", "2.0", "Diesel"), F: E("2.0L petrol (GDi)", "2.0", "Petrol"),
@@ -440,6 +464,37 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
   }
   return null;
 }
+// Position 5 grade bands (added 2026-11-09). Two sources each: Australian listings from independent
+// sellers (John Hughes Kia, Tynan Kia, Cars4Us, JCS dealer sites, Carsguide, Toyota-used) and recall
+// VIN lists naming the variant. A band can cover several adjacent trims; it is not an exact trim.
+function hyundaiTrim(vin: string, year: number | null): string | null {
+  const pre = vin.slice(0, 4), c = vin[4], y = year ?? 0;
+  if (pre === "KMHD" && vin[5] !== "4") {
+    if (/[A-Z]/.test(c)) return c === "B" ? "SX" : null;                         // i30 FD
+    return ({ "2": "Active", "3": "Elite / SR" } as Record<string, string>)[c] ?? null;  // i30 GD
+  }
+  if (pre === "KMHD" && vin[5] === "4" && y >= 2016) return ({ "8": "2.0 grades (Active / Elite)", "0": "SR Turbo" } as Record<string, string>)[c] ?? null; // Elantra AD
+  if (pre === "KMHH") return ({ "3": "Go / Active / Elite / Premium", "5": "SR / N Line" } as Record<string, string>)[c] ?? null; // i30 PD
+  return null;
+}
+function kiaTrim(vin: string, year: number | null): string | null {
+  const line = vin.slice(0, 4), c = vin[4], y = year ?? 0;
+  const t = (m: Record<string, string>) => m[c] ?? null;
+  switch (line) {
+    case "KNAP":
+      if (c === "H") return null;                                                   // Sorento UM
+      if (y >= 2022) return t({ U: "S / SX", V: "SX+", X: "GT-Line" });           // Sportage NQ5
+      if (y >= 2016) return t({ M: "Si / Si Premium / S", N: "SLi", R: "GT-Line / Platinum" }); // Sportage QL
+      return null;
+    case "KNAR": return t({ G: "S / Sport", H: "Sport+ / GT-Line" });            // Sorento MQ4
+    case "KNAN": return t({ B: "S", C: "Si / Platinum / Sport+ / GT-Line" });     // Carnival KA4
+    case "KNAF": return y >= 2019 ? t({ "2": "S / Sport", "3": "Sport+", "4": "GT" }) : null; // Cerato BD
+    case "KNAE": return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
+    case "KNAB": return t({ "3": "GT-Line" });                                    // Picanto
+    default: return null;
+  }
+}
+
 // Hyundai position 9 on Australian-delivered cars from model year 2010 (recall VIN lists with
 // build dates + listings): transmission and driven wheels.
 const HYUNDAI_TRANS: Record<string, [trans: string, drive: string]> = {
@@ -454,6 +509,7 @@ const KIA_TRANS: Record<string, [trans: string, drive: string]> = {
 function koreanDecode(
   make: string, line: (v: string) => Hit | null, plants: Record<string, string>,
   engine?: (v: string, year: number | null) => Eng | null, trans?: Record<string, [string, string]>,
+  trim?: (v: string, year: number | null) => string | null,
 ) {
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
@@ -464,6 +520,8 @@ function koreanDecode(
     const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
     const plant = plants[vin[10]] ?? null; s.plant = plant;
     const eng = engine ? engine(vin, y) : null;
+    const grade = trim ? trim(vin, y) : null;
+    if (grade) s.trim = grade;
     if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel });
     // Position-9 transmission letters: evidenced on 2015+ Kias and 2010+ Hyundais.
     const tr = trans && (y ?? 0) >= (make === "Kia" ? 2015 : 2010) ? trans[vin[8]] : undefined;
@@ -473,7 +531,7 @@ function koreanDecode(
         seg(4, 4, vin, "Model line", h ? `${h[0]} (${h[1]})` : null, {
           note: h?.[1].includes("pattern") ? "Identified by matching other Australian VINs; not yet two-sourced." : undefined,
         }),
-        seg(5, 5, vin, "Trim / specification", null, { note: "Varies by model and year — not decoded." }),
+        seg(5, 5, vin, "Trim / specification", grade, grade ? { note: "A grade band: one letter can cover several adjacent trims." } : { note: "Varies by model and year — not decoded." }),
         seg(6, 6, vin, "Body type", body),
         seg(7, 7, vin, "Restraint system", rs),
         seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "Engine letters change meaning between models and generations — this one is not yet confirmed." }),
@@ -491,10 +549,10 @@ function koreanDecode(
 export const hyundai: MakeRule = {
   id: "hyundai", make: "Hyundai", wmis: ["KMH", "KMF", "KMJ", "KM8", "TMA", "MAL", "NLH", "5NP"],
   checkDigit: "no", modelYear: "yes",
-  decode: koreanDecode("Hyundai", hyundaiLine, HYUNDAI_PLANT, hyundaiEngine, HYUNDAI_TRANS),
+  decode: koreanDecode("Hyundai", hyundaiLine, HYUNDAI_PLANT, hyundaiEngine, HYUNDAI_TRANS, hyundaiTrim),
 };
 export const kia: MakeRule = {
   id: "kia", make: "Kia", wmis: ["KNA", "KNC", "KND", "KNE", "U5Y", "U6Y", "MS0"],
   checkDigit: "no", modelYear: "yes",
-  decode: koreanDecode("Kia", kiaLine, KIA_PLANT, kiaEngine, KIA_TRANS),
+  decode: koreanDecode("Kia", kiaLine, KIA_PLANT, kiaEngine, KIA_TRANS, kiaTrim),
 };

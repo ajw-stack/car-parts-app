@@ -25,7 +25,7 @@ const BATTERY: Record<string, string> = {
 };
 const MOTOR: Record<string, Record<string, string>> = {
   "3": { A: "Single motor", B: "Dual motor, Long Range AWD", C: "Dual motor, Performance", J: "Single motor",
-         K: "Dual motor, Long Range AWD", R: "Single motor", S: "Single motor, rear-wheel drive", T: "Dual motor, Performance" },
+         K: "Dual motor, Long Range AWD", L: "Dual motor, Performance", R: "Single motor", S: "Single motor, rear-wheel drive", T: "Dual motor, Performance" },
   Y: { J: "Single motor", K: "Dual motor, Long Range AWD", L: "Dual motor, Performance", R: "Single motor", S: "Single motor, rear-wheel drive" },
   S: { "1": "Single motor", "2": "Dual motor", "3": "Single motor, Performance", "4": "Dual motor, Performance", "5": "Dual motor", "6": "Tri motor" },
   X: { "2": "Dual motor", "4": "Dual motor, Performance", "5": "Dual motor", "6": "Tri motor" },

@@ -36,8 +36,14 @@ export const holdenKorea: MakeRule = {
     const y = resolveModelYear(vin[9], 2002, 2020); s.modelYear = y;
     const plant = GM_KOREA_PLANT[vin[10]] ?? null; s.plant = plant;
     // Captiva (D / C lines): U = 2.4 petrol LE9 (PartsClub donor VINs + Coastwide listing, 2026-11-09).
+    // Captiva: 5 = 3.0 V6 LFW, 6 = 2.2 diesel (PartsClub donor VINs, second source 2026-11-09).
+    const CAPTIVA_ENGINE: Record<string, { name: string; litres: string; cyl: string; fuel: string }> = {
+      U: { name: "2.4L petrol (LE9)", litres: "2.4", cyl: "4", fuel: "Petrol" },
+      "5": { name: "3.0L V6 petrol (LFW)", litres: "3.0", cyl: "6", fuel: "Petrol" },
+      "6": { name: "2.2L turbo diesel", litres: "2.2", cyl: "4", fuel: "Diesel" },
+    };
     const ce = vin[3] === "J" ? KL3_CRUZE_ENGINE[vin[7]]
-      : (vin[3] === "D" || vin[3] === "C") && vin[7] === "U" ? { name: "2.4L petrol (LE9)", litres: "2.4", cyl: "4", fuel: "Petrol" }
+      : vin[3] === "D" || vin[3] === "C" ? CAPTIVA_ENGINE[vin[7]]
       : undefined;
     if (ce) Object.assign(s, { engine: ce.name, engineLitres: ce.litres, engineCylinders: ce.cyl, fuel: ce.fuel });
     const detail = vin[3] === "J" || ((vin[3] === "D" || vin[3] === "C") && ce)
