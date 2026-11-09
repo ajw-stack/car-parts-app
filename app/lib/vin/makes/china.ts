@@ -43,6 +43,10 @@ function chinaRule(opts: {
   table: Record<string, Group>; groupTo: number; makeOf?: (vin: string) => string;
   /** Optional decoder for position 7 (MG powertrain class). */
   pos7?: (vin: string) => { label: string; fuel?: string; engine?: string } | null;
+  /** Optional plant decoder for position 11. */
+  plant?: (vin: string) => string | null;
+  /** The maker files position 11 as the first character of the serial number, not a plant code. */
+  pos11Serial?: boolean;
 }): MakeRule {
   return {
     id: opts.id, make: opts.make, wmis: opts.wmis,
@@ -57,6 +61,8 @@ function chinaRule(opts: {
       }
       const y = resolveModelYear(vin[9], opts.years[0], opts.years[1]);
       s.modelYear = y;
+      const plant = opts.plant?.(vin) ?? null;
+      if (plant) s.plant = plant;
       const notes = [
         g?.single ? "Single-sourced." : null,
         g?.note ?? null,
@@ -81,7 +87,14 @@ function chinaRule(opts: {
             status: "standard",
             note: "A model year, not a build date. Late-year builds often carry the next year's letter.",
           }),
-          seg(11, 11, vin, "Assembly plant", null, { note: `${make} plant letters are not published — not decoded.` }),
+          opts.pos11Serial
+            ? seg(11, 11, vin, "Serial number (first character)", null, {
+                status: "filler",
+                note: "Chery's own type-approval filings list positions 11–17 as the production number, so this is not a plant code.",
+              })
+            : seg(11, 11, vin, "Assembly plant", plant, plant ? {} : {
+                note: opts.plant ? "This plant letter is not yet confirmed." : `${make} plant letters are not published — not decoded.`,
+              }),
         ],
         summary: s,
       };
@@ -158,7 +171,17 @@ const GWM: Record<string, Group> = {
   LGWFGSA6: { model: "Tank 500", series: "Tank 500 Hybrid", drive: "4x4", fuel: "Hybrid", body: "SUV", single: true },
 };
 // Make is always "GWM" (Great Wall Motor); the Haval and Tank brands are carried in the model name.
-export const gwm = chinaRule({ id: "gwm", make: "GWM", wmis: ["LGW"], years: [2006, 2030], table: GWM, groupTo: 8 });
+// GWM plant letters (added 2026-11-09). Sources: two GWM factory manuals (Cannon/Poer English service
+// manual p. 22, Tank 300 Russian manual p. 25), the Haval H6 Russian repair manual p. 10, and EAEU
+// type approvals (OTTS) ТС RU Е-CN.МТ02.01121 (Haval M6), .01107 (Tank 300), .01007 (Poer/Cannon).
+// M is left out: one manual says Jingmen, the other Rizhao.
+const GWM_PLANT: Record<string, string> = {
+  A: "Great Wall Motor main plant, China", B: "GWM Second Assembly Plant, China", C: "GWM Third Assembly Plant, China",
+  D: "GWM Fourth Assembly Plant, China", E: "GWM Fifth Assembly Plant, China",
+  F: "Tianjin (Haval) Branch, China", H: "Xushui Assembly Plant (Baoding), China", J: "Chongqing Branch, China",
+  K: "Taizhou Branch (Jiangsu), China", L: "Pinghu Branch (Zhejiang), China",
+};
+export const gwm = chinaRule({ id: "gwm", make: "GWM", wmis: ["LGW"], years: [2006, 2030], table: GWM, groupTo: 8, plant: (v) => GWM_PLANT[v[10]] ?? null });
 
 // ── BYD (WMIs LGX, LC0, LPE) — Code Rule 34E. Group = positions 4–8; the WMI is part of the key
 // because the same group (e.g. CE4CB) means Atto 3 under LGX and Dolphin under LC0. ──
@@ -188,6 +211,8 @@ const CHERY: Record<string, Group> = {
 };
 export const chery = chinaRule({
   id: "chery", make: "Chery", wmis: ["LVV", "LVT", "LNN", "LVU"], years: [2008, 2030], table: CHERY, groupTo: 8,
+  // Chery EAEU type approvals (Tiggo 4 T3X, Exeed VX, Jaecoo J7): "поз. 11–17: production number".
+  pos11Serial: true,
   makeOf: (vin) => {
     const m = lookup(CHERY, vin)?.model ?? "";
     return m.startsWith("Jaecoo") ? "Jaecoo" : m.startsWith("Omoda") ? "Omoda" : "Chery";

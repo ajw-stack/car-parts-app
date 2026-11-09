@@ -210,7 +210,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 4. Hyundai position-4 letter Y (R = Venue since 2026-11-09), KMF commercial models; Kia position-4 R (one source says Sorento) and KNC (possibly Tasman).
 5. Division 7 (Rules 34A–34G):
    - (a) no Australian VIN with the model stated found yet for MG5, ZS Hybrid+, HS Hybrid+, MG3 Hybrid+, Cyberster, LDV V80, eT60, eDeliver 9 (separately from Deliver 9), GWM Ora, Tank 300, Cannon Alpha, Haval H7/H8, BYD Seal U, Seal 6, Chery Tiggo 9, 2011–15 Chery J1/J3/J11, or any Berlin-built (XP7) Tesla;
-   - (b) plant letters (position 11) for MG, LDV, GWM, BYD and the Chery group;
+   - (b) plant letters (position 11) for MG, LDV and BYD, and GWM M;
    - (c) Tesla positions 5–7 on all Australian cars, and position 8 on Shanghai-built cars (RWD / Long Range / Performance cannot yet be told apart from the VIN);
    - (d) shared code groups that cannot name one model: LDV LSK G4AL1 (G10 or MIFA), BYD LGX CD4C4 (Sealion 6 or 8 AWD), Chery LVV DB21B (four models).
 6. BMW type codes beyond Rule 33(a); Mercedes-Benz plant letters.
@@ -223,4 +223,6 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - Mercedes-Benz passenger cars: A-D Sindelfingen, F Bremen, J Rastatt, R East London, V Uusikaupunki, W Aguascalientes, X Graz; Sprinter (906/907/910): P Dusseldorf, N Ludwigsfelde. W1N/WDC SUVs only F and V (A/B there = Vance, not decoded).
 - Nissan US (5N1): C Smyrna. Nissan international format: positions 10-11 are a market-destination code, not a plant.
 - Suzuki: position 11 is always 0 on Australian VINs (~25,000 recall VINs) — not a plant code.
-- Not decoded (no confirmed source): China-built makes (GWM, BYD, Chery/Omoda/Jaecoo, MG, LDV; Volvo LYV B = Chengdu has one source only), Mazda (digits mean different things on different models), Toyota Thailand MR0, Ford 9BF, Isuzu G, Mahindra, SsangYong, Renault.
+- GWM (LGW; two GWM factory manuals + Haval H6 repair manual + EAEU type approvals ТС RU Е-CN.МТ02.01121/.01107/.01007): A GWM main plant, B 2nd, C 3rd, D 4th, E 5th assembly plant, F Tianjin (Haval) Branch, H Xushui, J Chongqing, K Taizhou, L Pinghu. M not decoded (manuals disagree: Jingmen or Rizhao).
+- Chery / Omoda / Jaecoo: Chery's own EAEU type approvals file positions 11–17 as the production number, so position 11 is not a plant code.
+- Not decoded (no confirmed source): BYD, MG, LDV (EAEU approvals exist but are paywalled); Geely LB3 B Baoji / G Changxing / S Xi'an have one source each; Volvo LYV B = Chengdu has one source only), Mazda (digits mean different things on different models), Toyota Thailand MR0, Ford 9BF, Isuzu G, Mahindra, SsangYong, Renault.
