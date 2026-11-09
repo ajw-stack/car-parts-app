@@ -74,7 +74,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - (a) Position 4, model: Y VY; Z VZ; E VE; F VF Commodore; K WK, L WL, M WM Statesman/Caprice; N WN Caprice; P Cruze (JG/JH).
 - (b) Position 5, luxury level (Commodore): K Executive/Omega/SV6/SV8/SS (shared); L Berlina; X Calais; Z Caprice; Y Statesman; P SS V; C SS; B SV6; J Calais V; E SS V Redline; A International. Cruze: D Equipe/CD; E CDX/SRi/SRi-V/Z-Series (shared).
 - (c) Position 6, body (Commodore): 0 cab chassis; 1 coupe; 3 Crewman; 4 utility; 5 sedan; 8 wagon. Cruze: 5 sedan; 6 hatch.
-- (d) Position 7, restraint: 1 active belts; 2 driver and passenger airbags; 3 driver airbag; 4 driver, passenger and side airbags; E load-limiting belts, driver, passenger and side airbags.
+- (d) Position 7, restraint: 5 six airbags (driver, passenger, front side, curtain; MY09 VE on, added 2026-11-09); 1 active belts; 2 driver and passenger airbags; 3 driver airbag; 4 driver, passenger and side airbags; E load-limiting belts, driver, passenger and side airbags.
 - (e) Position 8, engine (Commodore): A 3.8 Ecotec; R 3.8 supercharged (L67); 7 3.6 Alloytec 190 (LY7); 5 3.0 SIDI (LF1); 3 3.6 SIDI (LLT); V 3.6 SIDI (LFX); F 5.7 Gen III (LS1); U 6.0 (LS2); H 6.0 (L98); Y 6.0 (L77); W 6.2 (LS3). Cruze (added 2026-11-09, two sources: Cruze recall VIN ranges + 817 wrecker/listing VIN-engine pairs): 5 1.8 F18D4 (model years 2011-13); M 1.8 F18D4 (2014-16); 8 1.4 turbo A14NET; N 1.6 turbo A16LET (SRi/SRi-V); Y 2.0 turbo diesel Z20S1. Not confirmed: 1.4 turbo letter for MY15-16; diesel letter after MY14.
 - (f) Position 9 is a check digit. Position 10 is the model year (2002–2017). Position 11: L Elizabeth.
 
@@ -99,7 +99,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 ### Division 3 — Toyota, Lexus, Isuzu, private imports (`makes/toyota.ts`)
 
-**Rule 20. Toyota and Lexus (JTE, JTD, JTM, JTN, JTK, JTF, JT1–JT3, JT7, MR0–MR2, MHF, 6T1, 5TD, 4T1; Lexus JTH, JTJ, JT6, 2T2).**
+**Rule 20. Toyota and Lexus (JTE, JTD, JTM, JTN, JTK, JTF, JT1–JT3, JT7, MR0–MR2, MHF, 6T1, 5TD, 4T1; Lexus JTH, JTJ, JT6, 2T2).** Added 2026-11-09 (dealer/auction/wrecker VIN pairs + ACCC recall VIN tables or recall ranges): VDS 5CAAV RAV4 AXAL64R hybrid AWD, 5DABV AXAL62R hybrid 2WD, 5EAAV AXAP64R plug-in hybrid AWD; ER22E Corolla ZZE122; 53REH (MR0) Corolla E170 sedan; 11PJA (JT7) LandCruiser 100/105; BD192 (JTD) Lexus IS300 JCE10. Altona 6T1 positions 4-9: 53BK36 Camry ACV36, 53BK40 ACV40, 53XK36 MCV36, 53KK40 Aurion GSV40, 64AE96 Corolla AE96 liftback.
 - (a) Positions 4–8 are Toyota's model code. Confirmed codes: BH3FJ LandCruiser Prado 150; BR3FJ LandCruiser 70; LV71J LandCruiser 79 single cab; AAABJ LandCruiser 300; BU11F FJ Cruiser; BY29J Kluger XU20; BZ3FH Kluger GSU55 (US-built); BFREV RAV4 ASA44; B23HK Camry AXVH71; BD3FK Camry AVV50 (Altona); KU52E Corolla ZRE152; JW133 Yaris NCP12; KW3D3 Yaris NCP131; FZ22G and FZ… (MR0) HiLux N70. Lexus: BE262 IS350 GSE21.
 - (b) Position 8 alone names the car line where the full code is not listed: E Corolla; K Camry; J LandCruiser/Prado; V RAV4; G HiLux.
 - (c) Position 9 is a real check digit.

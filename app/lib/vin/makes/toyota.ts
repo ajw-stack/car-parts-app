@@ -23,6 +23,23 @@ const TOYOTA_VDS: Record<string, [model: string, series: string]> = {
   FZ22G: ["HiLux", "N70 (dual cab 4x4, 3.0 D-4D)"],
   JW133: ["Yaris", "NCP12"],
   KW3D3: ["Yaris", "NCP131"],
+  // Added 2026-11-09 (two sources each: dealer stock pages / auction listings / wrecker donor VINs
+  // + ACCC recall VIN tables or recall VIN ranges, and toyotamanuals.com.au model codes).
+  "5CAAV": ["RAV4", "AXAL64R (hybrid AWD)"],
+  "5DABV": ["RAV4", "AXAL62R (hybrid 2WD)"],
+  "5EAAV": ["RAV4", "AXAP64R (plug-in hybrid AWD)"],
+  ER22E: ["Corolla", "ZZE122 (1ZZ-FE 1.8)"],
+  "53REH": ["Corolla", "E170 sedan (Thai-built)"],
+  "11PJA": ["LandCruiser", "100 / 105 Series"],
+  BD192: ["Lexus IS", "IS300 (JCE10) sedan"],
+};
+// Altona-built (6T1) codes that need position 9 as well (positions 4–9).
+const ALTONA_6: Record<string, [model: string, series: string]> = {
+  "53BK36": ["Camry", "ACV36 (2AZ-FE 2.4)"],
+  "53BK40": ["Camry", "ACV40"],
+  "53XK36": ["Camry", "MCV36 (V6)"],
+  "53KK40": ["Aurion", "GSV40 (2GR-FE 3.5 V6)"],
+  "64AE96": ["Corolla", "AE96 liftback (7A-FE 1.8)"],
 };
 // Position 8 car line (Toyota global convention). Only letters also seen on Australian VINs.
 const TOYOTA_LINE: Record<string, string> = {
@@ -36,10 +53,14 @@ function toyotaFamily(make: string, table: Record<string, [string, string]>, lin
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
     const vds = vin.slice(3, 8);
-    let hit = table[vds];
+    let hit = (vin.startsWith("6T1") ? ALTONA_6[vin.slice(3, 9)] : undefined) ?? table[vds];
     if (!hit && vin.startsWith("MR0") && vds.startsWith("FZ")) hit = ["HiLux", "N70"];
     const line = lineTable[vin[7]] ?? null;
-    if (hit) { s.model = hit[0]; s.series = hit[1]; } else if (line) s.model = line;
+    if (hit) {
+      // A few Lexus models were issued Toyota WMIs (e.g. IS300 JCE10 under JTD).
+      if (hit[0].startsWith("Lexus ")) { s.make = "Lexus"; s.model = hit[0].slice(6); } else s.model = hit[0];
+      s.series = hit[1];
+    } else if (line) s.model = line;
     if (vin.startsWith("6T1")) s.plant = "Altona, Victoria";
     return {
       segments: [

@@ -35,12 +35,15 @@ export const holdenKorea: MakeRule = {
     if (l) { s.model = l[0]; s.series = l[1]; }
     const y = resolveModelYear(vin[9], 2002, 2020); s.modelYear = y;
     const plant = GM_KOREA_PLANT[vin[10]] ?? null; s.plant = plant;
-    const ce = vin[3] === "J" ? KL3_CRUZE_ENGINE[vin[7]] : undefined;
+    // Captiva (D / C lines): U = 2.4 petrol LE9 (PartsClub donor VINs + Coastwide listing, 2026-11-09).
+    const ce = vin[3] === "J" ? KL3_CRUZE_ENGINE[vin[7]]
+      : (vin[3] === "D" || vin[3] === "C") && vin[7] === "U" ? { name: "2.4L petrol (LE9)", litres: "2.4", cyl: "4", fuel: "Petrol" }
+      : undefined;
     if (ce) Object.assign(s, { engine: ce.name, engineLitres: ce.litres, engineCylinders: ce.cyl, fuel: ce.fuel });
-    const detail = vin[3] === "J"
+    const detail = vin[3] === "J" || ((vin[3] === "D" || vin[3] === "C") && ce)
       ? [
           seg(5, 7, vin, "Series / body / restraint", null, { note: "GM Korea detail codes are not published — not decoded." }),
-          seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This Cruze engine letter is not yet confirmed." }),
+          seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This engine letter is not yet confirmed." }),
         ]
       : [seg(5, 8, vin, "Series / body / restraint / engine", null, { note: "GM Korea rest-of-world detail codes are not published — not decoded." })];
     return {

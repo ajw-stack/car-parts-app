@@ -111,6 +111,9 @@ const RESTRAINT_6G1: Record<string, string> = {
   "2": "Active belts, driver and passenger airbags",
   "3": "Active belts, driver airbag",
   "4": "Active belts, driver, passenger and side airbags",
+  // Added 2026-11-09: '5' appears from MY09 VE, when six airbags became standard (Wikipedia VE
+  // MY09; JCS listing 6G1EK85799L340095 lists driver, passenger, head rows 1-2 and side row 1).
+  "5": "Active belts, driver and passenger airbags, front side and curtain airbags (six airbags)",
 };
 const ENGINE_6G1: Record<string, { name: string; litres: string; cyl: string }> = {
   A: { name: "3.8L Ecotec V6", litres: "3.8", cyl: "6" },
