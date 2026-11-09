@@ -49,6 +49,22 @@ const LEXUS_VDS: Record<string, [model: string, series: string]> = {
   BE262: ["IS", "IS350 (GSE21)"],
 };
 
+// Toyota / Lexus plant letters at position 11 (Japanese-built VINs with position 10 = 0, and US 5TD).
+// Sources (2026-11-09): Wikibooks VIN Codes pages + NHTSA vPIC decodes of Australian VINs + ~260 Australian recall VIN lists (vehiclerecalls.gov.au) showing the letter constant per model/plant.
+// Older all-numeric position-11 values are the lead digit of a per-plant serial block and are not
+// decoded, except 4 = Yoshiwara on the LandCruiser.
+const TOYOTA_PLANT: Record<string, string> = {
+  S: "Princeton, Indiana, USA", D: "Nagakusa, Japan", J: "Takaoka, Japan", K: "Hamura (Hino), Japan", A: "Motomachi, Japan",
+};
+function toyotaPlant(vin: string, model: string | null): string | null {
+  if (vin.startsWith("6T1")) return "Altona, Victoria";
+  if (vin.startsWith("5TD")) return vin[10] === "S" ? TOYOTA_PLANT.S : null;
+  if (!vin.startsWith("JT")) return null;
+  if (TOYOTA_PLANT[vin[10]] && vin[10] !== "S") return TOYOTA_PLANT[vin[10]];
+  if (vin[10] === "4" && model === "LandCruiser") return "Yoshiwara (Toyota Auto Body), Japan";
+  return null;
+}
+
 function toyotaFamily(make: string, table: Record<string, [string, string]>, lineTable: Record<string, string>) {
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
@@ -61,7 +77,7 @@ function toyotaFamily(make: string, table: Record<string, [string, string]>, lin
       if (hit[0].startsWith("Lexus ")) { s.make = "Lexus"; s.model = hit[0].slice(6); } else s.model = hit[0];
       s.series = hit[1];
     } else if (line) s.model = line;
-    if (vin.startsWith("6T1")) s.plant = "Altona, Victoria";
+    s.plant = toyotaPlant(vin, s.model ?? null);
     return {
       segments: [
         seg(4, 7, vin, "Body / engine / grade", hit ? `${hit[0]} ${hit[1]}` : null, {
@@ -72,7 +88,7 @@ function toyotaFamily(make: string, table: Record<string, [string, string]>, lin
           status: "filler",
           note: "Toyota and Lexus fill this with 0 on Australian-delivered cars. The build date is on the build or compliance plate.",
         }),
-        seg(11, 11, vin, "Assembly plant", vin.startsWith("6T1") ? "Altona, Victoria" : null),
+        seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "Not decoded: on older Japanese-built Toyotas this is the start of a per-plant serial block." }),
       ],
       summary: s,
     };
@@ -114,8 +130,11 @@ export const isuzu: MakeRule = {
         seg(7, 8, vin, "Series / engine", vin.slice(6, 8) === "85" ? "RG series (85)" : null),
         seg(9, 9, vin, "Body type", body, { note: "Isuzu uses position 9 for the body, not a check digit." }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),
+        // T = Isuzu Motors Co. (Thailand): Isuzu D-MAX parts catalogue p. P-5 ("PLANT T : IMCT (THAILAND)")
+        // + every MPA VIN in Australian recall lists.
+        seg(11, 11, vin, "Assembly plant", vin[10] === "T" ? "Isuzu Motors Co. (Thailand)" : null, vin[10] === "T" ? {} : { note: "Not yet confirmed." }),
       ],
-      summary: s,
+      summary: { ...s, plant: vin[10] === "T" ? "Isuzu Motors Co. (Thailand)" : null },
     };
   },
 };

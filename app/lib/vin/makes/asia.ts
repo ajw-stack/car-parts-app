@@ -173,7 +173,14 @@ export const mitsubishi: MakeRule = {
     const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
     out.push(seg(9, 9, vin, "Check digit", "Not used by Mitsubishi on Australian-delivered vehicles", { status: "standard" }));
     out.push(seg(10, 10, vin, "Model year", y ? String(y) : null));
-    if (vin.startsWith("6MM")) { s.plant = "Tonsley Park, South Australia"; out.push(seg(11, 11, vin, "Assembly plant", s.plant)); }
+    // Plant letters from Mitsubishi's own NHTSA filing (MC-10244842: "11. Assembly Plant H = Laem Chaban-3
+    // (Thailand) J = Nagoya-3 (Japan) U = Mizushima (Japan) Z = Okazaki (Japan)") + Australian recall lists.
+    const MITSU_PLANT: Record<string, string> = {
+      H: "Laem Chabang, Thailand", J: "Nagoya-3 (Pajero Manufacturing), Japan", U: "Mizushima, Japan", Z: "Okazaki, Japan",
+    };
+    if (vin.startsWith("6MM")) s.plant = "Tonsley Park, South Australia";
+    else s.plant = MITSU_PLANT[vin[10]] ?? null;
+    out.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "Not yet confirmed." }));
     return { segments: out, summary: s };
   },
 };
@@ -272,6 +279,9 @@ export const nissan: MakeRule = {
           note: "On export Nissans the chassis code runs up to position 9, so there is no check digit.",
         }),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "Fixed A on every Australian-delivered Nissan checked (1991–2022) — not a year." }),
+        // Positions 10-11 are Nissan's market-destination code on international-format VINs; the WMI
+        // names the plant country (Wikibooks Nissan international format + carlytics.eu + AU recall lists).
+        seg(11, 11, vin, "Market code", null, { status: "filler", note: "Part of Nissan's market-destination code, not a plant. The first three characters show the country of manufacture." }),
       ],
       summary: s,
     };
@@ -284,7 +294,15 @@ export const nissanUS: MakeRule = {
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Nissan" };
     if (vin.startsWith("5N1AR2")) { s.model = "Pathfinder"; s.series = "R52"; }
-    return { segments: [seg(4, 8, vin, "Model / body / engine (North-American layout)", s.model ? "Pathfinder (R52)" : null)], summary: s };
+    // C = Smyrna, Tennessee (Wikibooks "C Smyrna plant"; NHTSA vPIC on 5N1AR2MM0EC602711 "Smyrna Plant").
+    s.plant = vin[10] === "C" ? "Smyrna, Tennessee, USA" : null;
+    return {
+      segments: [
+        seg(4, 8, vin, "Model / body / engine (North-American layout)", s.model ? "Pathfinder (R52)" : null),
+        seg(11, 11, vin, "Assembly plant", s.plant, s.plant ? {} : { note: "Not yet confirmed." }),
+      ],
+      summary: s,
+    };
   },
 };
 
@@ -308,6 +326,7 @@ export const suzuki: MakeRule = {
         seg(4, 8, vin, "Model code", hit ? `${hit[1][0]} (${hit[1][1]})` : null),
         seg(9, 9, vin, "Check digit", "Not used by Suzuki on Australian-delivered vehicles", { status: "standard" }),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "Fixed 0 on every Australian-delivered Suzuki checked (1993–2023)." }),
+        seg(11, 11, vin, "Fixed character", null, { status: "filler", note: "Always 0 on Australian Suzukis (about 25,000 recall-list VINs from Japan, India and Hungary) — not a plant code." }),
       ],
       summary: s,
     };

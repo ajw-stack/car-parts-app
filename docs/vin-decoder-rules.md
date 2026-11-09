@@ -215,3 +215,12 @@ Each Division lists the WMIs it covers, then what each position means. Positions
    - (d) shared code groups that cannot name one model: LDV LSK G4AL1 (G10 or MIFA), BYD LGX CD4C4 (Sealion 6 or 8 AWD), Chery LVV DB21B (four models).
 6. BMW type codes beyond Rule 33(a); Mercedes-Benz plant letters.
 7. Engine and grade blocks for Mazda, Subaru, Honda, Land Rover, Nissan, Suzuki, Hyundai, Kia, GM Korea and Cruze — no published tables.
+
+**Plant codes, position 11 (added 2026-11-09).** Sources: Wikibooks VIN Codes pages, NHTSA vPIC decodes of Australian VINs, manufacturer documents where named, and ~260 Australian recall VIN lists showing each letter constant per model/plant.
+- Toyota/Lexus (JT*, position 10 = 0): S Princeton (5TD), D Nagakusa, J Takaoka, K Hamura (Hino), A Motomachi; 4 Yoshiwara on LandCruiser only. Other numeric values are per-plant serial blocks — not decoded. 6T1 = Altona.
+- Mitsubishi (non-Triton; Mitsubishi NHTSA filing MC-10244842): H Laem Chabang, J Nagoya-3 (Pajero Manufacturing), U Mizushima, Z Okazaki.
+- Isuzu MPA (Isuzu D-MAX parts catalogue p. P-5): T Isuzu Motors Co. (Thailand).
+- Mercedes-Benz passenger cars: A-D Sindelfingen, F Bremen, J Rastatt, R East London, V Uusikaupunki, W Aguascalientes, X Graz; Sprinter (906/907/910): P Dusseldorf, N Ludwigsfelde. W1N/WDC SUVs only F and V (A/B there = Vance, not decoded).
+- Nissan US (5N1): C Smyrna. Nissan international format: positions 10-11 are a market-destination code, not a plant.
+- Suzuki: position 11 is always 0 on Australian VINs (~25,000 recall VINs) — not a plant code.
+- Not decoded (no confirmed source): China-built makes (GWM, BYD, Chery/Omoda/Jaecoo, MG, LDV; Volvo LYV B = Chengdu has one source only), Mazda (digits mean different things on different models), Toyota Thailand MR0, Ford 9BF, Isuzu G, Mahindra, SsangYong, Renault.
