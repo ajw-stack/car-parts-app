@@ -41,6 +41,8 @@ function describe(g: Group): string {
 function chinaRule(opts: {
   id: string; make: string; wmis: string[]; years: [number, number];
   table: Record<string, Group>; groupTo: number; makeOf?: (vin: string) => string;
+  /** Optional decoder for position 7 (MG powertrain class). */
+  pos7?: (vin: string) => { label: string; fuel?: string; engine?: string } | null;
 }): MakeRule {
   return {
     id: opts.id, make: opts.make, wmis: opts.wmis,
@@ -65,7 +67,16 @@ function chinaRule(opts: {
           seg(4, opts.groupTo, vin, "Model / body / engine group", g ? describe(g) : null, {
             note: g ? notes : "This code group has not been seen on a recall list or listing with the model stated — not decoded.",
           }),
-          ...(opts.groupTo < 8 ? [seg(opts.groupTo + 1, 8, vin, "Descriptor (engine / restraint)", null, { note: "Not published by the manufacturer — not decoded." })] : []),
+          ...(opts.pos7 && opts.groupTo === 6
+            ? (() => {
+                const p7 = opts.pos7!(vin);
+                if (p7) { if (p7.fuel) s.fuel = p7.fuel; if (!s.engine) s.engine = p7.engine ?? p7.label; }
+                return [
+                  seg(7, 7, vin, "Powertrain class", p7?.label ?? null, p7 ? {} : { note: "Not yet confirmed." }),
+                  seg(8, 8, vin, "Descriptor", null, { note: "Always 9 on Australian MGs; meaning not published — not decoded." }),
+                ];
+              })()
+            : opts.groupTo < 8 ? [seg(opts.groupTo + 1, 8, vin, "Descriptor (engine / restraint)", null, { note: "Not published by the manufacturer — not decoded." })] : []),
           seg(10, 10, vin, "Model year", y ? String(y) : null, {
             status: "standard",
             note: "A model year, not a build date. Late-year builds often carry the next year's letter.",
@@ -87,8 +98,23 @@ const MG: Record<string, Group> = {
   LSJA24: { model: "HS", series: "HS / HS PHEV / HS +EV", body: "SUV" },
   LSJW24: { model: "MG6", note: "Recall lists cover MG6, MG6 GT and MG6 Plus without saying which code is which." },
   LSJW26: { model: "MG6", note: "Recall lists cover MG6, MG6 GT and MG6 Plus without saying which code is which." },
+  // Added 2026-11-09 from cars24.com.au listings (VIN + variant), one source each.
+  LSJA36: { model: "MG5", body: "Sedan", single: true },
+  LSJWS4: { model: "ZS", series: "2025 on", body: "SUV", single: true },
+  LSJWC4: { model: "QS", body: "SUV", single: true },
 };
-export const mg = chinaRule({ id: "mg", make: "MG", wmis: ["LSJ"], years: [2008, 2030], table: MG, groupTo: 6 });
+// MG position 7 = powertrain class (added 2026-11-09). Sources: Chinese MIIT type-approval filings
+// (first 8 VIN characters + engine code, via 17vin.com) and Australian recall lists / listings
+// (REC-005652 HS PHEV all LSJA2439; REC-006468 MG3 hybrid; cars24 VIN + variant + kW).
+// It is a capacity/powertrain class, not an exact engine: U covers both 1.5 naturally aspirated and 1.5 turbo.
+const MG_POS7: Record<string, { label: string; fuel?: string }> = {
+  "0": { label: "Battery electric", fuel: "Electric" },
+  "3": { label: "1.5L petrol hybrid / plug-in hybrid", fuel: "Hybrid" },
+  C: { label: "1.0–1.3L turbo petrol", fuel: "Petrol" },
+  U: { label: "1.5–1.6L petrol (naturally aspirated or turbo)", fuel: "Petrol" },
+  W: { label: "2.0L turbo petrol", fuel: "Petrol" },
+};
+export const mg = chinaRule({ id: "mg", make: "MG", wmis: ["LSJ"], years: [2008, 2030], table: MG, groupTo: 6, pos7: (v) => MG_POS7[v[6]] ?? null });
 
 // ── LDV (SAIC Maxus, WMIs LSF, LSH, LSK) — Code Rule 34C. Group = positions 4–8. ──
 const LDV: Record<string, Group> = {

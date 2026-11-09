@@ -169,7 +169,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - (d) Position 10 is an ISO model-year letter. It is a model year, not a build date (a GWM built 12/2022 carries P, 2023).
 - (e) Position 11 plant letters are not decoded: no source maps them, and the one published table contradicted real Australian VINs.
 
-**Rule 34B. MG, WMI LSJ.** Code group = positions 4–6: W74 ZS (including ZST and ZS EV); WH4 MG4 (single-sourced); WP4 MG3 3rd generation (2024–); Z14 MG3 2nd generation; A24 HS (including HS PHEV and HS +EV); W24 and W26 MG6 (MG6, MG6 GT, MG6 Plus — the recall lists do not say which is which).
+**Rule 34B. MG, WMI LSJ.** Code group = positions 4–6: W74 ZS (including ZST and ZS EV); WH4 MG4 (single-sourced); WP4 MG3 3rd generation (2024–); Z14 MG3 2nd generation; A24 HS (including HS PHEV and HS +EV); W24 and W26 MG6 (MG6, MG6 GT, MG6 Plus — the recall lists do not say which is which). Added 2026-11-09 (Chinese MIIT type-approval filings + AU recall lists + cars24 listings): position 7 powertrain class 0 battery electric, 3 1.5 hybrid/PHEV, C 1.0-1.3 turbo petrol, U 1.5-1.6 petrol (NA or turbo), W 2.0 turbo petrol; 8 always 9 on AU MGs (meaning unpublished). Groups LSJA36 MG5, LSJWS4 ZS 2025+, LSJWC4 QS (single-sourced).
 
 **Rule 34C. LDV (SAIC Maxus), WMIs LSF, LSH, LSK.** Code group = positions 4–8: LSF AM11C T60 (single-sourced); LSF A431J D90; LSF AL11x Deliver 9 (body not published); LSF AL120 Deliver 9 or eDeliver 9; LSH 14J7C Deliver 9 van; LSK G5G.. Deliver 9 Bus; LSK G4GL1 G10; LSK G4AL1 shared G10 or MIFA; LSK G48L1 MIFA.
 
@@ -179,7 +179,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 **Rule 34F. Chery, Omoda and Jaecoo, WMIs LVV, LVT, LNN, LVU.** The make is shown as Chery, Omoda or Jaecoo according to the model. Confirmed: LVT D.24B Tiggo 8 Pro / Pro Max; LVV DB21B shared Omoda 5, Tiggo 4 / 4 Pro, Tiggo 7 or Jaecoo J7 (make shown as Chery). Single-sourced: LVV DD21B Jaecoo J7 (recall REC-006534 calls it "Jaecoo T35"); LNN BBDEE Tiggo 8 Super Hybrid; LNN BBDEG Tiggo 4 Hybrid; LNN ABDBF Omoda E5; LVU GTBAD Jaecoo J5.
 
-**Rule 34G. Tesla, WMIs 5YJ (Fremont) and LRW (Shanghai).**
+**Rule 34G. Tesla, WMIs 5YJ (Fremont) and LRW (Shanghai).** Rewritten 2026-11-09 from Tesla service-manual VIN pages (Model 3, Y, S, X) + Part 565 + 85 AU listings: the tables DO apply to Shanghai and RHD cars. 5 body/RHD (3 F, Y H, S B, X D); 6 restraint (7, C); 7 battery (E NCA/ternary, F LFP, S-only H/S/V capacity); 8 motor per model (3: A/J/R single, S single RWD, B/K dual LR AWD, C/T dual Performance; Y: J/R single, S RWD, K LR AWD, L Performance; S 1-6; X 2/4/5/6); 10 = calendar build year on Shanghai cars; 11 F Fremont, C Shanghai, A Austin, B Berlin.
 - (a) Position 4, model line: S Model S; X Model X; 3 Model 3; Y Model Y (Tesla Part 565 filings; Australian recall lists).
 - (b) Positions 5–7 are not decoded. Australian right-hand-drive codes are not in Tesla's US tables, and Shanghai-built codes follow a different, unpublished scheme.
 - (c) Position 8, motor: on Fremont-built Model 3 only, A single motor, B dual motor, C dual motor Performance (Tesla's US Part 565 table; single-sourced for Australia because the recall lists do not state the trim). The US table is never applied to Shanghai-built cars.
