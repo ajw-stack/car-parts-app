@@ -81,6 +81,28 @@ const FCA_LINE: Record<string, [make: string, model: string, series: string]> = 
   CA: ["Chrysler", "300", "LX"],
 };
 const FCA_PLANT: Record<string, string> = { L: "Toledo, Ohio", C: "Jefferson North, Detroit", H: "Brampton, Ontario" };
+// Added 2026-11-09 from FCA / Chrysler Group NHTSA Part 565 VIN guides (2018 Truck/MPV, 2013 Truck/MPV,
+// 2012 Passenger Car) + NHTSA vPIC decodes of the Australian VINs. Codes are model-year specific, so
+// they are keyed by vehicle line and only cover the years those guides describe.
+const FCA_RESTRAINT: Record<string, string> = {
+  JW: "H: hydraulic brakes, GVWR 5,001–6,000 lb, front airbags and front-row side airbags",
+  JF: "R: GVWR 6,001–7,000 lb, front airbags and side airbags all rows",
+  CA: "C: front airbags and side airbags all rows",
+};
+const FCA_SERIES: Record<string, string> = {
+  JWK: "Wrangler JK Unlimited Sport, 4WD, 4-door, right-hand drive",
+  JFE: "Grand Cherokee WK2 Laredo, 4WD, right-hand drive",
+  CAT: "300 Limited, RWD, right-hand drive",
+  CAL: "300C (to March 2012), right-hand drive",
+  CAN: "300 SRT8, right-hand drive",
+  CAU: "300C (from March 2012), right-hand drive",
+  CAV: "300C Luxury, right-hand drive",
+};
+const FCA_ENGINE: Record<string, Record<string, string>> = {
+  JW: { G: "3.6L V6 petrol (Pentastar)" },
+  JF: { M: "3.0L V6 turbo diesel (EXF)" },
+  CA: { G: "3.6L V6 petrol (Pentastar, ERB)" },
+};
 
 export const fcaNorthAmerica: MakeRule = {
   id: "fca-north-america", make: "Jeep", wmis: ["1C4", "1J4", "1J8", "2C3", "1C3", "1C6", "3C4"],
@@ -90,13 +112,19 @@ export const fcaNorthAmerica: MakeRule = {
     const s: Partial<VinSummary> = { make: l?.[0] ?? (vin.startsWith("2C3") || vin.startsWith("1C3") ? "Chrysler" : "Jeep") };
     if (l) { s.model = l[1]; s.series = l[2]; }
     const plant = FCA_PLANT[vin[10]] ?? null; s.plant = plant;
+    const fe = FCA_ENGINE[vin.slice(4, 6)]?.[vin[7]];
+    if (fe) { s.engine = fe; s.fuel = /diesel/i.test(fe) ? "Diesel" : "Petrol"; s.engineLitres = fe.slice(0, 3); }
     return {
       segments: [
-        seg(4, 4, vin, "Restraint / brake class", null, { note: "North-American layout — not decoded locally." }),
+        seg(4, 4, vin, "Restraint / brake class", vin[3] === FCA_RESTRAINT[vin.slice(4, 6)]?.[0] ? FCA_RESTRAINT[vin.slice(4, 6)].slice(3) : null,
+          vin[3] === FCA_RESTRAINT[vin.slice(4, 6)]?.[0] ? {} : { note: "Not yet confirmed for this vehicle line." }),
         seg(5, 6, vin, "Vehicle line", l ? `${l[0]} ${l[1]} (${l[2]})` : null, {
           note: "Line codes confirmed from NHTSA decodes of Australian-delivered VINs.",
         }),
-        seg(7, 8, vin, "Series / body / engine", null, { note: "Not decoded locally; the NHTSA service fills these in." }),
+        seg(7, 7, vin, "Series / drive / steering", FCA_SERIES[vin.slice(4, 7)] ?? null,
+          FCA_SERIES[vin.slice(4, 7)] ? {} : { note: "Not yet confirmed for this vehicle line." }),
+        seg(8, 8, vin, "Engine", FCA_ENGINE[vin.slice(4, 6)]?.[vin[7]] ?? null,
+          FCA_ENGINE[vin.slice(4, 6)]?.[vin[7]] ? {} : { note: "Not yet confirmed for this vehicle line." }),
         seg(11, 11, vin, "Assembly plant", plant),
       ],
       summary: s,

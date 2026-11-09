@@ -44,7 +44,10 @@ function decodeVAG(make: string, platforms: Record<string, string>) {
       // Second-generation Amarok (2022 on), built by Ford at Silverton, South Africa.
       // Its positions 7–9 do not follow the classic two-letter platform + Z pattern.
       s.model = "Amarok"; s.series = "2nd generation (2022 on)";
-      out.push(seg(7, 9, vin, "Vehicle descriptor", null, { note: "WV4 (Ford-built Amarok) layout not yet published — not decoded." }));
+      // T1 = 2nd-gen Amarok model code on all 1,422 VINs in Australian recall lists REC-005829/005838/
+      // 006190/006441 ("all variants"); it does not split cab or engine. Position 9 is a real check digit.
+      out.push(seg(7, 8, vin, "Model code", vin.slice(6, 8) === "T1" ? "Amarok (2nd generation)" : null,
+        vin.slice(6, 8) === "T1" ? { note: "Does not identify the cab or engine." } : { note: "Not yet confirmed." }));
     } else {
       const p = platforms[vin.slice(6, 8)] ?? null;
       if (p) { s.model = p.replace(/\s*\(.*\)$/, "").split(" / ")[0]; s.series = p.match(/\(([^)]+)\)/)?.[1] ?? p; }
@@ -57,7 +60,9 @@ function decodeVAG(make: string, platforms: Record<string, string>) {
     // "8" is shared by Dresden and General Pacheco; the Argentine Amarok carries WMI 8AW.
     let plant: string | null = VW_PLANT[vin[10]] ?? null;
     if (vin[10] === "8") plant = vin.startsWith("8A") ? "General Pacheco, Argentina" : "Dresden, Germany";
-    if (vin.startsWith("WV4")) plant = null; // WV4 plant letters not yet confirmed (S on Australian samples).
+    // WV4: S = Silverton, South Africa (Ford) — 100% of Australian 2nd-gen Amarok recall VINs, and the
+    // Amarok is assembled exclusively at Ford Silverton. (S means Salzgitter on older VW Group VINs.)
+    if (vin.startsWith("WV4")) plant = vin[10] === "S" ? "Silverton, South Africa (Ford)" : null;
     s.plant = plant;
     out.push(seg(11, 11, vin, "Assembly plant", plant));
     return { segments: out, summary: s };

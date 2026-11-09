@@ -136,7 +136,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 **Rule 29. Honda, WMIs JHM, JHL, MRH.** Positions 4–5 chassis code (RD, RE, RM, RW CR-V; EU, ES, FD, FB, FC, FK, FL Civic; GD, GE, GK Jazz; GM City; CL, CU Accord Euro; RA, RB, RC Odyssey; GH, RU HR-V). Positions 6–8 not decoded. Position 9 is a fixed 0, not a check digit. Position 10 model year. Position 11: P or T Thailand (MRH); C or S Japan (JH-).
 
-**Rule 30. Land Rover, WMI SAL.** Positions 4–5 chassis code: CA Discovery Sport L550; RA Discovery L462; LA Discovery 3/4 L319; WA Range Rover Sport L494; LS Range Rover Sport L320; VA Evoque L538; GA Range Rover L405; ZA Velar L560; FA Freelander 2 L359; LD Defender classic. Position 9 check digit. Position 10 model year. Position 11: A Solihull; H Halewood.
+**Rule 30. Land Rover, WMI SAL.** Positions 4–5 chassis code: CA Discovery Sport L550; RA Discovery L462; LA Discovery 3/4 L319; WA Range Rover Sport L494; LS Range Rover Sport L320; VA Evoque L538; GA Range Rover L405; ZA Velar L560; FA Freelander 2 L359; LD Defender classic. Position 9 check digit. Position 10 model year. Position 11: A Solihull; H Halewood. Added 2026-11-09 (JLR US Part 565 charts + ~20,000 AU recall VINs incl. engine-specific recalls): position 6 2 = 5-door; 8 engine N 2.0 Ingenium diesel, K 3.0 V6 diesel, X 2.0 Ingenium petrol; 7 not decoded. Classic Defender (LD, lrman.ru + defender2.net): 6 H 110, 7 M 5-door station wagon, 8 S 2.4 Td4 EU4, 9 7 = RHD 6-speed manual (not a check digit).
 
 ### Division 6 — European makes (`makes/volkswagen.ts`, `makes/mercedes.ts`, `makes/others.ts`)
 
@@ -153,7 +153,7 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 - (b) Position 10 is not a model year; every Australian sample carries 2 (right-hand drive).
 - (c) Position 11 plant letters are not yet confirmed for Australian-delivered cars.
 
-**Rule 33. BMW, WMIs WBA, WBS, WBX, WBY.**
+**Rule 33. BMW, WMIs WBA, WBS, WBX, WBY.** Type codes confirmed 2026-11-09 (shop.bmw.co.uk fitment pages + AU recall VIN lists): FE42 E70 X5 3.0si N52; VA76 E90 320i N46; VC36 E90 320d M47N2; PN36 E90 LCI 320d N47; 3D36 F30 320d N47 (JU42 unconfirmed). Position 8 is always 0 on AU/European BMWs (347,831 of 347,832 AU recall VINs).
 - (a) Positions 4–7 are a type code. BMW publishes no table; only codes seen on real Australian listings are named: FE42 X5 E70; VC36 3 Series E90 320d; VA76, 3D36, PN36 3 Series; JU42 X5 (generation unconfirmed). Other codes are shown raw for lookup in the BMW parts catalogue.
 - (b) Position 10 is 0 on Australian and European BMWs — not a year.
 - (c) Position 11 plant: A, F, G, K Munich; B, C, D Dingolfing; E, J, P Regensburg; L Spartanburg; N Rosslyn.

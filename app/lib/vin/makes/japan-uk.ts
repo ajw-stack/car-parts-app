@@ -138,7 +138,41 @@ export const honda: MakeRule = {
   id: "honda", make: "Honda", wmis: ["JHM", "JHL", "MRH"], checkDigit: "no", modelYear: "yes",
   decode: chassisDecode("Honda", HONDA, hondaPlant, "Grade / engine"),
 };
+// Land Rover positions 6-8 (added 2026-11-09). Modern rest-of-world layout: 6 = doors, 8 = engine.
+// Sources: JLR US Part 565 charts (ORG12962, ORG15262, ORG13378) and ~20,000 Australian Land Rover
+// recall VINs, incl. engine-specific recalls (REC-001678 AJ21 2.0 diesel = 100% N; REC-001173
+// Ingenium 2.0 petrol = 100% X; REC-005703 L462). Position 7 is not decoded.
+const LR_ENGINE: Record<string, string> = {
+  N: "2.0L Ingenium turbo diesel (AJ20D)", K: "3.0L V6 turbo diesel (TDV6 / Td6)", X: "2.0L Ingenium turbo petrol (AJ20P)",
+};
+const LR_DOORS: Record<string, string> = { "2": "5-door wagon" };
+function landRoverDetail(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  if (vin.slice(3, 5) === "LD") {
+    // Classic Defender, older rest-of-world layout (lrman.ru Defender 2007 VIN codes + defender2.net):
+    // 6 wheelbase (H = 110), 7 body (M = 5-door station wagon), 8 engine (S = 2.4L Td4 EU4),
+    // 9 steering + gearbox (7 = RHD 6-speed manual) — not a check digit.
+    const wb = vin[5] === "H" ? "110" : null, body = vin[6] === "M" ? "5-door station wagon" : null;
+    const eng = vin[7] === "S" ? "2.4L turbo diesel (EU4)" : null;
+    const tr = vin[8] === "7" ? "Right-hand drive, 6-speed manual" : null;
+    if (body) s.body = body;
+    if (eng) Object.assign(s, { engine: eng, engineLitres: "2.4", fuel: "Diesel" });
+    if (tr) s.transmission = "6-speed manual";
+    return [
+      seg(6, 6, vin, "Wheelbase", wb), seg(7, 7, vin, "Body", body), seg(8, 8, vin, "Engine", eng),
+      seg(9, 9, vin, "Steering / transmission", tr, { note: "Not a check digit on the classic Defender." }),
+    ];
+  }
+  const doors = LR_DOORS[vin[5]] ?? null; if (doors) s.body = doors;
+  const eng = LR_ENGINE[vin[7]] ?? null;
+  if (eng) Object.assign(s, { engine: eng, engineLitres: eng.slice(0, 3), fuel: /diesel/i.test(eng) ? "Diesel" : "Petrol" });
+  return [
+    seg(6, 6, vin, "Body", doors, doors ? {} : { note: "Not yet confirmed." }),
+    seg(7, 7, vin, "Descriptor", null, { note: "Not decoded (almost always A on Australian cars)." }),
+    seg(8, 8, vin, "Engine", eng, eng ? {} : { note: "This Land Rover engine letter is not yet confirmed." }),
+  ];
+}
+
 export const landRover: MakeRule = {
-  id: "land-rover", make: "Land Rover", wmis: ["SAL"], checkDigit: "yes", modelYear: "yes",
-  decode: chassisDecode("Land Rover", LAND_ROVER, (v) => LR_PLANT[v[10]] ?? null, "Body / engine / restraint"),
+  id: "land-rover", make: "Land Rover", wmis: ["SAL"], checkDigit: "mixed", modelYear: "yes",
+  decode: chassisDecode("Land Rover", LAND_ROVER, (v) => LR_PLANT[v[10]] ?? null, "Body / engine / restraint", landRoverDetail),
 };

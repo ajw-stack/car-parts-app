@@ -64,12 +64,14 @@ export const holdenKorea: MakeRule = {
 // ── BMW (WBA/WBS/WBX/WBY) — positions 4–7 are a type code BMW has never published as a table.
 // Only type codes seen on real Australian listings are named. Position 10 is "0" (not a year)
 // on Australian and European BMWs; position 11 starts the 7-character short VIN (plant letter).
+// Type codes confirmed 2026-11-09: shop.bmw.co.uk fitment pages (model + engine + type code) and
+// Australian BMW recall VIN lists (REC-001588, REC-000138/140, REC-006035).
 const BMW_TYPE: Record<string, [model: string, series: string]> = {
-  FE42: ["X5", "E70"],
-  VC36: ["3 Series", "E90 (320d)"],
-  VA76: ["3 Series", "3 Series (listing)"],
-  "3D36": ["3 Series", "3 Series (listing)"],
-  PN36: ["3 Series", "3 Series (listing)"],
+  FE42: ["X5", "E70 3.0si (N52)"],
+  VC36: ["3 Series", "E90 320d (M47N2)"],
+  VA76: ["3 Series", "E90 320i (N46)"],
+  "3D36": ["3 Series", "F30 320d (N47)"],
+  PN36: ["3 Series", "E90 LCI 320d (N47)"],
   JU42: ["X5", "X5 (listing; generation unconfirmed)"],
 };
 const BMW_PLANT: Record<string, string> = {
@@ -93,7 +95,10 @@ export const bmw: MakeRule = {
           note: t ? "Type code seen on a real Australian listing." : "BMW does not publish its type-code table — look this code up in the BMW parts catalogue.",
           status: t ? "decoded" : "not-decoded",
         }),
-        seg(8, 8, vin, "Type code extension", null, { note: "Not decoded." }),
+        seg(8, 8, vin, "Type code extension", null, {
+          status: "filler",
+          note: "Always 0 on Australian and European BMWs (347,831 of 347,832 Australian recall VINs); only used on US-format VINs.",
+        }),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "BMW does not encode the model year on Australian and European VINs (0)." }),
         seg(11, 11, vin, "Assembly plant (start of 7-character short VIN)", plant),
       ],
