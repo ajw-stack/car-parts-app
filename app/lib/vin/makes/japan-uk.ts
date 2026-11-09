@@ -114,10 +114,66 @@ const HONDA: Chassis = {
   RA: ["Odyssey", "RA"], RB: ["Odyssey", "RB"], RC: ["Odyssey", "RC"],
   GH: ["HR-V", "GH (1st gen)"], RU: ["HR-V", "RU (2nd gen)"],
 };
+// Honda plant letters (2026-11-09): P = Ayutthaya (Honda City 3A Thai service manual); C = Sayama,
+// S = Suzuka, X = Yorii (Honda NHTSA Part 565 letters). T on MRH VINs is a Thai plant whose
+// location is not documented.
 function hondaPlant(vin: string): string | null {
-  if (vin.startsWith("MRH")) return vin[10] === "P" || vin[10] === "T" ? "Thailand (Honda Automobile Thailand)" : null;
-  if (vin.startsWith("JH")) return vin[10] === "C" || vin[10] === "S" ? "Japan" : null;
+  if (vin.startsWith("MRH")) return vin[10] === "P" ? "Ayutthaya, Thailand" : vin[10] === "T" ? "Thailand (Honda Automobile Thailand)" : null;
+  if (vin.startsWith("JH")) return ({ C: "Sayama, Japan", S: "Suzuka, Japan", X: "Yorii, Japan" } as Record<string, string>)[vin[10]] ?? null;
   return null;
+}
+
+// Honda positions 6-9 (added 2026-11-09). Layout from the Honda City 3A Thai service manual:
+// 6 chassis sub-number, 7 body + transmission, 8 grade, 9 fixed code. Grade/engine codes from
+// ~1,000 Australian VIN + variant pairs (Autotrader, Pickles, Cars24) and recall REC-000568 (Civic FD
+// VIN ranges by grade). Only high-confidence chassis are listed; CR-V RE/RM/RW codes do not
+// identify a single trim and are left out.
+const HONDA_BODY_TRANS: Record<string, string> = {
+  "5": "Sedan, manual", "6": "Sedan, automatic / CVT", "7": "5-door, manual", "8": "5-door, automatic / CVT",
+};
+const HONDA_GRADE: Record<string, Record<string, [grade: string, engine: string | null]>> = {
+  FD: { "155": ["VTi", "1.8L petrol (R18A1)"], "165": ["VTi", "1.8L petrol (R18A1)"], "157": ["VTi-L", "1.8L petrol (R18A1)"],
+        "167": ["VTi-L", "1.8L petrol (R18A1)"], "255": ["Sport", "2.0L petrol"], "265": ["Sport", "2.0L petrol"],
+        "362": ["Hybrid", "1.3L petrol hybrid"] },
+  FK: { "486": ["VTi-L", "1.5L turbo petrol"], "488": ["RS", "1.5L turbo petrol"], "489": ["VTi-LX", "1.5L turbo petrol"],
+        "585": ["VTi", "1.8L petrol"], "586": ["VTi-S", "1.8L petrol"] },
+  FC: { "166": ["VTi-L", "1.5L turbo petrol"], "168": ["RS", "1.5L turbo petrol"], "169": ["VTi-LX", "1.5L turbo petrol"],
+        "665": ["VTi", "1.8L petrol"], "666": ["VTi-S", "1.8L petrol"], "667": ["VTi-S", "1.8L petrol"] },
+  GK: { "575": ["VTi", "1.5L petrol"], "585": ["VTi", "1.5L petrol"], "586": ["VTi-S", "1.5L petrol"], "587": ["VTi-L", "1.5L petrol"] },
+  RU: { "583": ["VTi", "1.8L petrol"], "585": ["VTi-S", "1.8L petrol"], "587": ["VTi-L / VTi-LX", "1.8L petrol"],
+        "588": ["RS", "1.8L petrol"], "589": ["RS", "1.8L petrol"] },
+  RS: { "382": ["VTi X", null], "383": ["VTi X7", null], "385": ["VTi L", null], "386": ["VTi L7", null],
+        "485": ["VTi L AWD", null], "488": ["VTi LX AWD", null], "588": ["e:HEV RS", null] },
+  CU: { "254": ["Accord Euro (base)", "2.4L petrol (K24Z3)"], "264": ["Accord Euro (base)", "2.4L petrol (K24Z3)"],
+        "268": ["Luxury", "2.4L petrol (K24Z3)"] },
+  RC: { "183": ["VTi (Vi L7 from 2021)", null], "185": ["VTi-L (Vi LX7 from 2021)", null] },
+};
+// Position 9 became a real ISO check digit on newer lines (verified on recall VIN lists REC-006151,
+// REC-006727): CR-V RS, Accord CY, ZR-V RZ from launch; HR-V RV and Civic FL from model year 2025.
+function hondaUsesCheckDigit(vin: string, year: number | null): boolean {
+  const c = vin.slice(3, 5);
+  if (c === "RS" || c === "CY" || c === "RZ") return true;
+  return (c === "RV" || c === "FL") && (year ?? 0) >= 2025;
+}
+function hondaDetail(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  const chassis = vin.slice(3, 5);
+  const bt = HONDA_BODY_TRANS[vin[6]] ?? null;
+  if (bt) s.transmission = /manual/.test(bt) ? "Manual" : "Automatic / CVT";
+  const g = HONDA_GRADE[chassis]?.[vin.slice(5, 8)];
+  if (g) {
+    s.trim = g[0];
+    if (g[1]) { s.engine = g[1]; s.engineLitres = g[1].slice(0, 3); s.fuel = /hybrid/i.test(g[1]) ? "Hybrid" : "Petrol"; }
+  }
+  const y = resolveModelYear(vin[9], 1981);
+  const cd = hondaUsesCheckDigit(vin, y);
+  return [
+    seg(6, 6, vin, "Chassis sub-number", null, { status: "standard", note: "Part of Honda's model code with positions 4, 5, 7 and 8." }),
+    seg(7, 7, vin, "Body / transmission", bt),
+    seg(8, 8, vin, "Grade", g ? (g[1] ? `${g[0]}, ${g[1]}` : g[0]) : null, g ? {} : { note: "This grade code is not yet confirmed for this model." }),
+    cd
+      ? seg(9, 9, vin, "Check digit", "Real check digit on this model", { status: "standard" })
+      : seg(9, 9, vin, "Fixed code", "0 (not a check digit on this model)", { status: "standard" }),
+  ];
 }
 
 // ── Land Rover (SAL) ──
@@ -135,8 +191,8 @@ export const subaru: MakeRule = {
   decode: chassisDecode("Subaru", SUBARU, (v) => (v[10] === "G" ? "Gunma, Japan" : null), "Body / engine / restraint", subaruDetail),
 };
 export const honda: MakeRule = {
-  id: "honda", make: "Honda", wmis: ["JHM", "JHL", "MRH"], checkDigit: "no", modelYear: "yes",
-  decode: chassisDecode("Honda", HONDA, hondaPlant, "Grade / engine"),
+  id: "honda", make: "Honda", wmis: ["JHM", "JHL", "MRH"], checkDigit: "mixed", modelYear: "yes",
+  decode: chassisDecode("Honda", HONDA, hondaPlant, "Grade / engine", hondaDetail),
 };
 // Land Rover positions 6-8 (added 2026-11-09). Modern rest-of-world layout: 6 = doors, 8 = engine.
 // Sources: JLR US Part 565 charts (ORG12962, ORG15262, ORG13378) and ~20,000 Australian Land Rover
