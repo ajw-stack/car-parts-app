@@ -11,7 +11,7 @@ const ALLOW_PREFIXES = [
   "/terms", "/privacy", "/refunds", "/contact", "/install",
   "/admin", "/capture",
   "/api/vin", "/api/billing", "/api/admin", "/api/makes", "/api/parts", "/api/vehicles", "/api/capture-users",
-  "/_next", "/icon.svg", "/sw.js", "/manifest", "/apple-touch-icon",
+  "/_next", "/_vercel", "/icon.svg", "/sw.js", "/manifest", "/apple-touch-icon",
 ];
 
 export async function proxy(req: NextRequest) {

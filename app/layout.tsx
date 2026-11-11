@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Michroma } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -73,6 +74,8 @@ export default function RootLayout({
             __html: `if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');`,
           }}
         />
+        {/* Private visitor counts, shown only in the Vercel dashboard. */}
+        <Analytics />
       </body>
     </html>
   );
