@@ -5364,5 +5364,237 @@
   "year": 2024,
   "description": "2024 Chevrolet Silverado 1500 Zr2 - series T1 My24, variant 1500 Zr2, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
   "user_supplied": false
+ },
+ {
+  "vin": "LYVUZ10ACKB176091",
+  "make": "Volvo",
+  "model": "XC60",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001437 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001437-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC60 (second generation) T5 2.0 turbo petrol, Chengdu-built",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1UZA2ACJ1000796",
+  "make": "Volvo",
+  "model": "XC60",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001437 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001437-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC60 (second generation) T6 2.0 twincharged petrol, Torslanda-built",
+  "user_supplied": false
+ },
+ {
+  "vin": "LYVUZBUADLB440207",
+  "make": "Volvo",
+  "model": "XC60",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006319 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006319-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC60 T8 plug-in hybrid (recall names only T8 PHEV variants)",
+  "user_supplied": false
+ },
+ {
+  "vin": "LYVXZERR0RL200373",
+  "make": "Volvo",
+  "model": "XC40",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005877 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005877-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC40 Recharge twin motor AWD, MY2024",
+  "user_supplied": false
+ },
+ {
+  "vin": "LYVXZK9A0RL200317",
+  "make": "Volvo",
+  "model": "XC40",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005877 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005877-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC40 B4 mild hybrid, MY2024",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1XZ16ACL2270585",
+  "make": "Volvo",
+  "model": "XC40",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001441 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001441-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC40 T5 2.0 turbo petrol, MY2020",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1LF06A1R1181803",
+  "make": "Volvo",
+  "model": "XC90",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005861 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005861-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC90 (second generation) B6 mild hybrid",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1LFA2ACM1688834",
+  "make": "Volvo",
+  "model": "XC90",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001439 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001439-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "XC90 (second generation) T6",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV12ZEL80RS000766",
+  "make": "Volvo",
+  "model": "EX30",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005968 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005968-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "EX30 single motor RWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV12ZEK80RS012725",
+  "make": "Volvo",
+  "model": "EX30",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005968 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005968-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "EX30 twin motor AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1MVA8HDF2182875",
+  "make": "Volvo",
+  "model": "V40",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001436 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-001436-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "V40 (second generation, 2013-2019)",
+  "user_supplied": false
+ },
+ {
+  "vin": "YV1SW61S942357768",
+  "make": "Volvo",
+  "model": "V70",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-004833 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-004833-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "V70 (2001-2007) wagon, recall years 2003-2004",
+  "user_supplied": false
+ },
+ {
+  "vin": "YSMVSEDA1PL151684",
+  "make": "Polestar",
+  "model": "Polestar 2",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005743 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005743-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "Polestar 2 Long range Dual motor, MY2023",
+  "user_supplied": false
+ },
+ {
+  "vin": "YSMVSFEA9RL240992",
+  "make": "Polestar",
+  "model": "Polestar 2",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006078 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006078-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "Polestar 2 Long range Single motor RWD, MY2024",
+  "user_supplied": false
+ },
+ {
+  "vin": "YSMVSFDR1SL323006",
+  "make": "Polestar",
+  "model": "Polestar 2",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006363 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006363-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "Polestar 2 Long range Dual motor, MY2025",
+  "user_supplied": false
+ },
+ {
+  "vin": "YSMYKEAA0RB001138",
+  "make": "Polestar",
+  "model": "Polestar 3",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006379 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006379-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "Polestar 3 Long range Dual motor",
+  "user_supplied": false
+ },
+ {
+  "vin": "YSMYKEEB0SB020507",
+  "make": "Polestar",
+  "model": "Polestar 3",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006379 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006379-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "Polestar 3 Performance",
+  "user_supplied": false
+ },
+ {
+  "vin": "WMW12DJ0002P56692",
+  "make": "MINI",
+  "model": "Cooper SE",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006074 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006074-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "MINI Cooper SE (F56 electric hatch)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WMW12DJ0102T38481",
+  "make": "MINI",
+  "model": "Cooper SE",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005964 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005964-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "MINI (high-voltage battery recall; list titled Cooper S)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WMW22GA0207R05872",
+  "make": "MINI",
+  "model": "Countryman",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006091 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006091-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "U25 Countryman or F66 Cooper S (recall covers both)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WMW42GD0002X59439",
+  "make": "MINI",
+  "model": "Cooper",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006442 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006442-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "2025 Cooper S / Cooper C / Countryman / JCW (recall covers all)",
+  "user_supplied": false
+ },
+ {
+  "vin": "SADFA2AX0M1016296",
+  "make": "Jaguar",
+  "model": "E-Pace",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005955 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005955-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "E-Pace 2.0 Ingenium petrol",
+  "user_supplied": false
+ },
+ {
+  "vin": "SADFA2AX0M1017769",
+  "make": "Jaguar",
+  "model": "E-Pace",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006392 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006392-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "E-Pace 2.0 Ingenium petrol",
+  "user_supplied": false
+ },
+ {
+  "vin": "SADCA2AU0MA664858",
+  "make": "Jaguar",
+  "model": "F-Pace",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005491 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005491-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "F-Pace P400 3.0 Ingenium I6 MHEV",
+  "user_supplied": false
+ },
+ {
+  "vin": "SADCA2AX0MA665647",
+  "make": "Jaguar",
+  "model": "F-Pace",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005491 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005491-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "F-Pace 2.0 Ingenium petrol",
+  "user_supplied": false
+ },
+ {
+  "vin": "SADHA2A10K1F60561",
+  "make": "Jaguar",
+  "model": "I-Pace",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005700 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005700-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "I-Pace EV400",
+  "user_supplied": false
+ },
+ {
+  "vin": "SAJDB1AE1NCK79056",
+  "make": "Jaguar",
+  "model": "F-Type",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005493 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005493-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "F-Type coupe 5.0 V8 (recall covers F-Type, F-Pace, XE, XF)",
+  "user_supplied": false
+ },
+ {
+  "vin": "SAJDB5AE3NCK79244",
+  "make": "Jaguar",
+  "model": "F-Type",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005493 (VIN list https://web.archive.org/web/2026id_/https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-005493-VIN-List-1.csv) - Australian recall VIN list naming the model",
+  "description": "F-Type convertible 5.0 V8",
+  "user_supplied": false
+ },
+ {
+  "vin": "LYVUZ06A2PB215321",
+  "make": "Volvo",
+  "model": "XC60",
+  "source": "Supplied by the lead as a failing test VIN; model confirmed by AU recall REC-001437/REC-005553 LYVUZ pattern and vPIC plant B Chengdu",
+  "description": "XC60 B6 mild hybrid AWD, MY2023, Chengdu",
+  "user_supplied": true
  }
 ]
