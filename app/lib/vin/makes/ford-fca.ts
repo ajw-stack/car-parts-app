@@ -74,6 +74,22 @@ export const fordThailand: MakeRule = {
   checkDigit: "no", modelYear: "yes",
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Ford" };
+    // Ford-of-Europe layout (XX at positions 5–6): Everest, and Thai-built Focus / Fiesta. Position 10 is a
+    // body letter and position 11 the year of build there (Ford Transit VM and Ranger 2011.5 workshop
+    // manuals, section 100-01) — fixed 2026-11-13: this rule used to read position 10 as the year and
+    // labelled these cars "Ranger / Everest".
+    if (vin.slice(4, 6) === "XX") {
+      const c = yearCandidates(vin[10]).filter((yy) => yy >= 2001 && yy <= 2035);
+      const yb = c.length === 1 ? c[0] : null; s.modelYear = yb;
+      return {
+        segments: [
+          seg(4, 9, vin, "Model / body / plant (Ford-of-Europe layout)", null, { note: "This Thai-built Ford's model code is not yet confirmed from two sources." }),
+          seg(10, 10, vin, "Body / series letter", null, { note: "Not a year on this layout; not yet decoded." }),
+          seg(11, 11, vin, "Year of build", yb ? String(yb) : null, { status: "standard" }),
+        ],
+        summary: s,
+      };
+    }
     if (vin.startsWith("MNA") || vin.startsWith("MPB")) { s.model = "Ranger / Everest"; s.series = "Thai-built (AutoAlliance / FTM)"; }
     const y = resolveModelYear(vin[9], 1998); s.modelYear = y;
     return {

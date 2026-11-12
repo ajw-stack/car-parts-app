@@ -97,6 +97,15 @@ Each Division lists the WMIs it covers, then what each position means. Positions
 
 **Rule 19. North-American FCA layout, WMIs 1C4, 1J4, 1J8, 2C3, 1C3, 1C6, 3C4.** Positions 5–6 vehicle line: JW Jeep Wrangler Unlimited (JK); JF Jeep Grand Cherokee (WK2); CA Chrysler 300 (LX). Position 9 check digit. Position 10 model year. Position 11 plant: L Toledo; C Jefferson North, Detroit; H Brampton. Remaining fields come from vPIC (Rule 12).
 
+**Rule 19A. Ranger PX family / Next-Gen, Mustang, RAM, Chevrolet (`makes/ford-us-extra.ts`, added 2026-11-13).** Per-code sources in the file header.
+- Ranger (MNA, MPB, AFA; Ford Ranger 2011.5 workshop manual 100-01 in the Elroco folder + 532 carsguide listings): 4 airbags (B, D, L, U, W; C = Next-Gen), 5 M Thailand, 6 cab/body (A, B, E, F, 1, 2), 7 GVM class (PX family), 8 engine PX family (3 2.5 petrol, 0/2/8 2.2 diesel low/mid/high power, 5 3.2), 9 constant 0, 10 production year, 11 plant (W AutoAlliance, X FTM, J Silverton).
+- HELD BACK until a second independent source (carsguide listings only): PX engine 6 (2.0 bi-turbo), all Next-Gen engine codes, the PX / MkII / MkIII split by year, Everest code blocks, Mustang right-hand-drive codes except 2018–23 P, and the whole Ford-of-Europe model table (Focus, Fiesta, Kuga, Escape, Mondeo, Puma, Transit Custom — rule written but not registered). Their test VINs are parked in scripts/vin/fixtures-pending-ford.json.
+- Mustang (1FA): 2015–17 lines from Ford Part 565; engines F 5.0, H/D 2.3, 0 5.0 special; restraint 6 Fastback / T Convertible; plant 5 Flat Rock.
+- RAM (1C6, 3C6, 3C7; FCA VIN code guides 2021 and 2026 + NHTSA decodes — Australian RAMs keep the US VIN): GVWR/restraint, DT/DS/DJ/D2 lines with drive and cab, engines, plants. FCA trim names are US names (Australian Express decodes as Tradesman).
+- Chevrolet (1GC, 3GC, 1G1; GM VIN standards MY2022/2024): Silverado 1500/HD export 4x4, engines L87 6.2 / L5P 6.6, Corvette C8 coupe; plants. Trim is not in these VINs.
+- FIXED 2026-11-13 (Rule 18): the Thai Ford rule read position 10 as the year on Ford-of-Europe-layout VINs (Everest, Thai Focus/Fiesta) and called them "Ranger / Everest"; it now reads the build year from position 11 and leaves the model undecoded.
+- Not in these VINs (the app must ask): Ranger drive (4x2 Hi-Rider vs 4x4), gearbox, trim; Everest engine and drive; Mustang gearbox.
+
 ### Division 3 — Toyota, Lexus, Isuzu, private imports (`makes/toyota.ts`)
 
 **Rule 20. Toyota and Lexus (JTE, JTD, JTM, JTN, JTK, JTF, JT1–JT3, JT7, MR0–MR2, MHF, 6T1, 5TD, 4T1; Lexus JTH, JTJ, JT6, 2T2).** Added 2026-11-09 (dealer/auction/wrecker VIN pairs + ACCC recall VIN tables or recall ranges): VDS 5CAAV RAV4 AXAL64R hybrid AWD, 5DABV AXAL62R hybrid 2WD, 5EAAV AXAP64R plug-in hybrid AWD; ER22E Corolla ZZE122; 53REH (MR0) Corolla E170 sedan; 11PJA (JT7) LandCruiser 100/105; BD192 (JTD) Lexus IS300 JCE10. Altona 6T1 positions 4-9: 53BK36 Camry ACV36, 53BK40 ACV40, 53XK36 MCV36, 53KK40 Aurion GSV40, 64AE96 Corolla AE96 liftback.

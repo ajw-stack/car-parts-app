@@ -4599,5 +4599,770 @@
   "model": "Mulsanne",
   "description": "Bentley Mulsanne",
   "user_supplied": false
+ },
+ {
+  "vin": "MPBUMEF80JX205556",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14802041",
+  "model": "Ranger",
+  "year": 2019,
+  "description": "2019 Ford Ranger Xl 2.2 (4X4) - series Px Mkiii My19, variant Xl 2.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUM2F50DW173512",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14809796",
+  "model": "Ranger",
+  "year": 2013,
+  "description": "2013 Ford Ranger Xlt 3.2 (4X4) - series Px, variant Xlt 3.2 (4X4), Ute Tray, 4 Doors, 4 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMFF60RX652824",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14842996",
+  "model": "Ranger",
+  "year": 2025,
+  "description": "2025 Ford Ranger Sport 2.0 (4X4) - series Py My25.25, variant Sport 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBUMFF60LX292224",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14858008",
+  "model": "Ranger",
+  "year": 2020,
+  "description": "2020 Ford Ranger Xlt 2.0 (4X4) - series Px Mkiii My21.25, variant Xlt 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUM1F80FW404166",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14869213",
+  "model": "Ranger",
+  "year": 2015,
+  "description": "2015 Ford Ranger Xl 2.2 Hi-Rider (4X2) - series Px, variant Xl 2.2 Hi-Rider (4X2), Ute Tray, 4 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMFE10PX527099",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14904783",
+  "model": "Ranger",
+  "year": 2023,
+  "description": "2023 Ford Ranger Raptor 3.0 (4X4) - series Py My24, variant Raptor 3.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBUMEF50MX334342",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14977376",
+  "model": "Ranger",
+  "year": 2021,
+  "description": "2021 Ford Ranger Xl 3.2 (4X4) - series Px Mkiii My21.25, variant Xl 3.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMAF50JW827829",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14977381",
+  "model": "Ranger",
+  "year": 2018,
+  "description": "2018 Ford Ranger Xl 3.2 (4X4) - series Px Mkii My18, variant Xl 3.2 (4X4), Ute Tray, 2 Doors, 2 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMFF70RX649578",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15024412",
+  "model": "Ranger",
+  "year": 2024,
+  "description": "2024 Ford Ranger Sport 3.0 (4X4) - series Py My25.25, variant Sport 3.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACM1F70SW368617",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15027836",
+  "model": "Ranger",
+  "year": 2025,
+  "description": "2025 Ford Ranger Super Duty (4X4) - series My26, variant Super Duty (4X4), Ute Tray, 2 Doors, 4 Seats, drive Four Wheel Drive, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMFF50GW605869",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15030446",
+  "model": "Ranger",
+  "year": 2016,
+  "description": "2016 Ford Ranger Xls 3.2 (4X4) - series Px Mkii, variant Xls 3.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBUMFF50LX281190",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15036273",
+  "model": "Ranger",
+  "year": 2020,
+  "description": "2020 Ford Ranger Xlt 3.2 (4X4) - series Px Mkiii My20.25, variant Xlt 3.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCM2F60RX613636",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15047892",
+  "model": "Ranger",
+  "year": 2024,
+  "description": "2024 Ford Ranger Xlt 2.0 (4X4) - series Py My24.5, variant Xlt 2.0 (4X4), Ute Tray, 4 Doors, 4 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUM1F60MW189274",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15053669",
+  "model": "Ranger",
+  "year": 2022,
+  "description": "2022 Ford Ranger Xl 2.0 (4X4) - series Px Mkiii My21.75, variant Xl 2.0 (4X4), Ute Tray, 4 Doors, 4 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUM1F50KW057377",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15076088",
+  "model": "Ranger",
+  "year": 2019,
+  "description": "2019 Ford Ranger Xl 3.2 (4X4) - series Px Mkiii My19, variant Xl 3.2 (4X4), Ute Tray, 4 Doors, 4 Seats, drive 4X4, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMFF80EW320590",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15078385",
+  "model": "Ranger",
+  "year": 2014,
+  "description": "2014 Ford Ranger Xl 2.2 (4X4) - series Px, variant Xl 2.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2.2 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBUMFF80MX327316",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15086051",
+  "model": "Ranger",
+  "year": 2021,
+  "description": "2021 Ford Ranger Xl 2.2 Hi-Rider (4X2) - series Px Mkiii My21.75, variant Xl 2.2 Hi-Rider (4X2), Ute Tray, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMAF80HW743442",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15088786",
+  "model": "Ranger",
+  "year": 2017,
+  "description": "2017 Ford Ranger Xl 2.2 Hi-Rider (4X2) - series Px Mkii My17 Update, variant Xl 2.2 Hi-Rider (4X2), Ute Tray, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACMFF60NW244827",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15106197",
+  "model": "Ranger",
+  "year": 2022,
+  "description": "2022 Ford Ranger Xl 2.0 (4X4) - series Py My22, variant Xl 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACMFF70TW378424",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15143588",
+  "model": "Ranger",
+  "year": 2026,
+  "description": "2026 Ford Ranger Wolftrak 3.0 (4X4) - series Py My26.5, variant Wolftrak 3.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAWMAF50CW140130",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15165907",
+  "model": "Ranger",
+  "year": 2012,
+  "description": "2012 Ford Ranger Xl 3.2 (4X4) - series Px, variant Xl 3.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 5 cyl, 3.2 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACMEF60NW237127",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15194331",
+  "model": "Ranger",
+  "year": 2022,
+  "description": "2022 Ford Ranger Xl 2.0 (4X4) - series Py My22, variant Xl 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMAF60NX415869",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15245056",
+  "model": "Ranger",
+  "year": 2022,
+  "description": "2022 Ford Ranger Xl 2.0 (4X4) - series Py My22, variant Xl 2.0 (4X4), Ute Tray, 2 Doors, 2 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACMEF70SW366778",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15246076",
+  "model": "Ranger",
+  "year": 2025,
+  "description": "2025 Ford Ranger Super Duty (4X4) - series My26, variant Super Duty (4X4), Ute Tray, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNACMFE90NW263291",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15304145",
+  "model": "Ranger",
+  "year": 2022,
+  "description": "2022 Ford Ranger Xl 2.0 Hi-Rider (4X2) - series Py My22, variant Xl 2.0 Hi-Rider (4X2), Ute Tray, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAWMAE80FW454838",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15305598",
+  "model": "Ranger",
+  "year": 2015,
+  "description": "2015 Ford Ranger Xl 2.2 (4X4) - series Px, variant Xl 2.2 (4X4), Ute Tray, 2 Doors, 3 Seats, drive 4X4, engine 4 cyl, 2.2 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMFE90PX474846",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15322436",
+  "model": "Ranger",
+  "year": 2023,
+  "description": "2023 Ford Ranger Xl 2.0 Hi-Rider (4X2) - series Py My22, variant Xl 2.0 Hi-Rider (4X2), Ute Tray, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNALMAE80CW141185",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15323733",
+  "model": "Ranger",
+  "year": 2012,
+  "description": "2012 Ford Ranger Xl 2.2 (4X4) - series Px, variant Xl 2.2 (4X4), Ute Tray, 2 Doors, 3 Seats, drive 4X4, engine 4 cyl, 2.2 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMEF50DW191702",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15326017",
+  "model": "Ranger",
+  "year": 2013,
+  "description": "2013 Ford Ranger Xl 3.2 (4X4) - series Px, variant Xl 3.2 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 5 cyl, 3.2 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMEF90PX565506",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15339381",
+  "model": "Ranger",
+  "year": 2024,
+  "description": "2024 Ford Ranger Xl 2.0 Hi-Rider (4X2) - series Py My24, variant Xl 2.0 Hi-Rider (4X2), Ute Tray, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMAF90PX556426",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15340811",
+  "model": "Ranger",
+  "year": 2023,
+  "description": "2023 Ford Ranger Xl 2.0 Hi-Rider (4X2) - series Py My22, variant Xl 2.0 Hi-Rider (4X2), Ute Tray, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBUMEF60MX336603",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15353025",
+  "model": "Ranger",
+  "year": 2021,
+  "description": "2021 Ford Ranger Xlt 2.0 (4X4) - series Px Mkiii My21.25, variant Xlt 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAUMFF60MW192780",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15357312",
+  "model": "Ranger",
+  "year": 2021,
+  "description": "2021 Ford Ranger Xlt 2.0 Hi-Rider (4X2) - series Px Mkiii My21.25, variant Xlt 2.0 Hi-Rider (4X2), Ute Tray, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCMEF60SX697647",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15361456",
+  "model": "Ranger",
+  "year": 2025,
+  "description": "2025 Ford Ranger Xl 2.0 (4X4) - series Py My25.25, variant Xl 2.0 (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPBCM1F60RX575557",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15396549",
+  "model": "Ranger",
+  "year": 2024,
+  "description": "2024 Ford Ranger Xl 2.0 (4X4) - series Py My24, variant Xl 2.0 (4X4), Ute Tray, 2 Doors, 4 Seats, drive 4X4, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FARP8PF6R5147358",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15119897",
+  "model": "Mustang",
+  "year": 2025,
+  "description": "2025 Ford Mustang Gt 5.0 V8 - series Fo My25, variant Gt 5.0 V8, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8NF0L5135333",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15131227",
+  "model": "Mustang",
+  "year": 2020,
+  "description": "2020 Ford Mustang Gt 5.0 V8 - series Fn My20, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8NFXN5138744",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15269312",
+  "model": "Mustang",
+  "year": 2023,
+  "description": "2023 Ford Mustang Gt 5.0 V8 - series Fn My22.25, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8NFXT5105744",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15270677",
+  "model": "Mustang",
+  "year": 2025,
+  "description": "2025 Ford Mustang Gt 5.0 V8 - series Fo My25, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8UH5H5283328",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15276639",
+  "model": "Mustang",
+  "year": 2017,
+  "description": "2017 Ford Mustang 2.3 Gtdi - series Fm My17, variant 2.3 Gtdi, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8CF0G5213229",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15284527",
+  "model": "Mustang",
+  "year": 2015,
+  "description": "2015 Ford Mustang Fastback Gt 5.0 V8 - series Fm, variant Fastback Gt 5.0 V8, Coupe, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8NF1S5100611",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15292716",
+  "model": "Mustang",
+  "year": 2025,
+  "description": "2025 Ford Mustang Gt 5.0 V8 - series Fo My25, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8CF2H5206266",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15301522",
+  "model": "Mustang",
+  "year": 2016,
+  "description": "2016 Ford Mustang Fastback Gt 5.0 V8 - series Fm My17, variant Fastback Gt 5.0 V8, Coupe, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8E00T5580217",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15308991",
+  "model": "Mustang",
+  "year": 2026,
+  "description": "2026 Ford Mustang Dark Horse - series Fo My26, variant Dark Horse, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8LDXN5144089",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15319790",
+  "model": "Mustang",
+  "year": 2022,
+  "description": "2022 Ford Mustang 2.3 Gtdi - series Fn My22.25, variant 2.3 Gtdi, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8LD2P5102941",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15324476",
+  "model": "Mustang",
+  "year": 2023,
+  "description": "2023 Ford Mustang 2.3 Gtdi - series Fn My23, variant 2.3 Gtdi, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8TH3H5325719",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15333882",
+  "model": "Mustang",
+  "year": 2017,
+  "description": "2017 Ford Mustang Fastback 2.3 Gtdi - series Fm My17, variant Fastback 2.3 Gtdi, Coupe, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8UH3G5285383",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15334256",
+  "model": "Mustang",
+  "year": 2016,
+  "description": "2016 Ford Mustang 2.3 Gtdi - series Fm, variant 2.3 Gtdi, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8E0XM5580501",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15334817",
+  "model": "Mustang",
+  "year": 2021,
+  "description": "2021 Ford Mustang Mach 1 - series Fn My21.5, variant Mach 1, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8NF4M5150595",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15340975",
+  "model": "Mustang",
+  "year": 2022,
+  "description": "2022 Ford Mustang Gt 5.0 V8 - series Fn My22.25, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8NF6K5100259",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15345223",
+  "model": "Mustang",
+  "year": 2018,
+  "description": "2018 Ford Mustang Fastback Gt 5.0 V8 - series Fn, variant Fastback Gt 5.0 V8, Coupe, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8LD7M5108472",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15354663",
+  "model": "Mustang",
+  "year": 2021,
+  "description": "2021 Ford Mustang 2.3 Gtdi - series Fn My21.5, variant 2.3 Gtdi, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8PF7M5131846",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15358615",
+  "model": "Mustang",
+  "year": 2021,
+  "description": "2021 Ford Mustang Gt 5.0 V8 - series Fn My21.5, variant Gt 5.0 V8, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8FF3H5284635",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15359665",
+  "model": "Mustang",
+  "year": 2017,
+  "description": "2017 Ford Mustang Gt 5.0 V8 - series Fm My17, variant Gt 5.0 V8, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FA6P8NF4J5148373",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15359743",
+  "model": "Mustang",
+  "year": 2018,
+  "description": "2018 Ford Mustang Fastback Gt 5.0 V8 - series Fn, variant Fastback Gt 5.0 V8, Coupe, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8NF9R5147461",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15366419",
+  "model": "Mustang",
+  "year": 2024,
+  "description": "2024 Ford Mustang Gt 5.0 V8 - series Fo My25, variant Gt 5.0 V8, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FARP8PF9T5121747",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15388754",
+  "model": "Mustang",
+  "year": 2026,
+  "description": "2026 Ford Mustang Gt 5.0 V8 - series Fo My26, variant Gt 5.0 V8, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8E03R5581273",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15396809",
+  "model": "Mustang",
+  "year": 2024,
+  "description": "2024 Ford Mustang Dark Horse - series Fo My24.5, variant Dark Horse, Hatch, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1FATP8PF2J5149036",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15401337",
+  "model": "Mustang",
+  "year": 2018,
+  "description": "2018 Ford Mustang Gt 5.0 V8 - series Fn, variant Gt 5.0 V8, Convertible, 2 Doors, 4 Seats, drive Rear Wheel Drive, engine 8 cyl, 5 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFHT1NN209992",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/14942225",
+  "model": "1500",
+  "year": 2022,
+  "description": "2022 RAM 1500 Limited Rambox (Hybrid) - series (listing text garbled), variant Limited Rambox (Hybrid), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6RR7FT7KS502185",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15233119",
+  "model": "1500",
+  "year": 2019,
+  "description": "2019 RAM 1500 Express (4X4) - series My19, variant Express (4X4), Commercial, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFJT0NN334475",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15278527",
+  "model": "1500",
+  "year": 2022,
+  "description": "2022 RAM 1500 Laramie (Hybrid) - series Dt My22, variant Laramie (Hybrid), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFLP7SN751037",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15288613",
+  "model": "1500",
+  "year": 2025,
+  "description": "2025 RAM 1500 Rebel Hurricane - series Dt My25, variant Rebel Hurricane, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 6 cyl, 3 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6RR7KT1PS546728",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15318399",
+  "model": "1500",
+  "year": 2023,
+  "description": "2023 RAM 1500 Express - series Ds My23, variant Express, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFMT9PN615110",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15320238",
+  "model": "1500",
+  "year": 2023,
+  "description": "2023 RAM 1500 Big Horn (6-4 Tub) Mhev (4X4) - series Dt My24, variant Big Horn (6-4 Tub) Mhev (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFJP7SN679758",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15369483",
+  "model": "1500",
+  "year": 2025,
+  "description": "2025 RAM 1500 Laramie Sport So Hurricane - series Dt My26, variant Laramie Sport So Hurricane, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 6 cyl, 3 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6RR7LT0NS150110",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15376819",
+  "model": "1500",
+  "year": 2022,
+  "description": "2022 RAM 1500 Warlock Ii Rambox - series Ds My22, variant Warlock Ii Rambox, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine - Bullbar - Spotlights - Tow Pack - Factory Satellite Navigation - Dual Zone Cli (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFLT9NN308647",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15380581",
+  "model": "1500",
+  "year": 2023,
+  "description": "2023 RAM 1500 Limited Rambox (Hybrid) - series (listing text garbled), variant Limited Rambox (Hybrid), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFFT6RN182975",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15390785",
+  "model": "1500",
+  "year": 2024,
+  "description": "2024 RAM 1500 Big Horn (5-7 Tub) Mhev (4X4) - series Dt My23, variant Big Horn (5-7 Tub) Mhev (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 5.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFHP2TN208401",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15395892",
+  "model": "1500",
+  "year": 2026,
+  "description": "2026 RAM 1500 Limited Rambox Ho Hurricane - series Dt My26, variant Limited Rambox Ho Hurricane, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 22\" Premium Black Rims Fully Damped Tailgate with Power Up/Down Class-Exclusive  (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C6SRFGPXTN296406",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15395893",
+  "model": "1500",
+  "year": 2026,
+  "description": "2026 RAM 1500 Express Black Edition - series Dt My26, variant Express Black Edition, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine Power Output: 313 Kilowatts / 420 Horsepower Uconnect 5 with 8.4-inch Touchscree (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3C6UR5FL9MG509826",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/14924086",
+  "model": "2500",
+  "year": 2022,
+  "description": "2022 RAM 2500 Laramie - series , variant Laramie, , drive , engine  (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3C6UR5JL3LG181311",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15354607",
+  "model": "2500",
+  "year": 2021,
+  "description": "2021 RAM 2500 Laramie (4X4) - series Dj My22, variant Laramie (4X4), Ute Tray, 4 Doors, 6 Seats, drive 4X4, engine 6 cyl, 6.7 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3C6UR5CJ3TG350495",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15397188",
+  "model": "2500",
+  "year": 2026,
+  "description": "2026 RAM 2500 WARLOCK 4X4 - series , variant , Ute Tray, 4 Doors, 6 Seats, drive OTHER, engine 8 cyl, 6.4 L (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3C63R3SL5NG214794",
+  "make": "RAM",
+  "source": "https://www.carsguide.com.au/car/15214476",
+  "model": "3500",
+  "year": 2022,
+  "description": "2022 RAM 3500 LIMITED - series , variant , , drive , engine  (carsguide.com.au listing; Australian RHD remanufacture, US VIN)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1G1Y92D49R5127632",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/14975436",
+  "model": "Corvette",
+  "year": 2024,
+  "description": "2024 Chevrolet Corvette Stingray 3Lt - series C8 My24, variant Stingray 3Lt, Coupe, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1G1Y92D3XP5300188",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15323961",
+  "model": "Corvette",
+  "year": 2023,
+  "description": "2023 Chevrolet Corvette Z06 - series C8 My24, variant Z06, Coupe, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 8 cyl, 5.5 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1G1Y92D32R5609463",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15359109",
+  "model": "Corvette",
+  "year": 2024,
+  "description": "2024 Chevrolet Corvette Z06 - series C8 My24, variant Z06, Coupe, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 8 cyl, 5.5 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1G1Y92D4XP5137289",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15393347",
+  "model": "Corvette",
+  "year": 2023,
+  "description": "2023 Chevrolet Corvette Stingray 3Lt - series C8 My23, variant Stingray 3Lt, Coupe, 2 Doors, 2 Seats, drive Rear Wheel Drive, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3GCUY9EL4NG193869",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/14824403",
+  "model": "Silverado",
+  "year": 2022,
+  "description": "2022 Chevrolet Silverado 1500 Ltz Premium Tech Pack - series T1 My21.5, variant 1500 Ltz Premium Tech Pack, Ute Tray, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1GC4Y9EY9RF249825",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15283517",
+  "model": "Silverado",
+  "year": 2024,
+  "description": "2024 Chevrolet Silverado 1500 Ltz Premium Tech Pack - series T1 My23, variant 1500 Ltz Premium Tech Pack, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia) — NOTE: the listing calls it a 1500, but the VIN (GM + NHTSA vPIC) is a Silverado HD with the 6.6 L5P diesel; listing title is wrong.",
+  "user_supplied": false
+ },
+ {
+  "vin": "3GCUD9EL2PG183291",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15333917",
+  "model": "Silverado",
+  "year": 2023,
+  "description": "2023 Chevrolet Silverado 1500 Zr2 - series T1 My23, variant 1500 Zr2, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3GCUY9EL3MG246642",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15343027",
+  "model": "Silverado",
+  "year": 2021,
+  "description": "2021 Chevrolet Silverado 1500 Ltz Premium Tech Pack - series T1 My21.5, variant 1500 Ltz Premium Tech Pack, Ute Tray, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3GCUD9EL1RG165142",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15366061",
+  "model": "Silverado",
+  "year": 2023,
+  "description": "2023 Chevrolet Silverado 1500 Ltz Premium - series T1 My24, variant 1500 Ltz Premium, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
+ },
+ {
+  "vin": "3GCUD9EL8RG274519",
+  "make": "Chevrolet",
+  "source": "https://www.carsguide.com.au/car/15372984",
+  "model": "Silverado",
+  "year": 2024,
+  "description": "2024 Chevrolet Silverado 1500 Zr2 - series T1 My24, variant 1500 Zr2, Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 8 cyl, 6.2 L (carsguide.com.au listing; US VIN kept in Australia)",
+  "user_supplied": false
  }
 ]

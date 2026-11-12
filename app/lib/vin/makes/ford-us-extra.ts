@@ -56,17 +56,17 @@ const RG_ENGINE_PX: Record<string, Eng> = {
   "2": { name: "2.2L 4-cyl turbo diesel (mid-power version)", litres: "2.2", cyl: "4", fuel: "Diesel", note: "Ford workshop manual 100-01-11." },
   "8": { name: "2.2L 4-cyl turbo diesel (high-power version)", litres: "2.2", cyl: "4", fuel: "Diesel", note: "Ford workshop manual 100-01-11; Australian listings agree (e.g. carsguide 15244089, 14869766)." },
   "5": { name: "3.2L 5-cyl turbo diesel", litres: "3.2", cyl: "5", fuel: "Diesel", note: "Ford workshop manual 100-01-11; Australian listings agree (e.g. carsguide 15173346)." },
-  "6": { name: "2.0L 4-cyl bi-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "Not in the 2011 Ford table; confirmed by Australian listings (PX MkIII 2.0 Bi-Turbo)." },
 };
+// HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
+// second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
+// Pending: "6" = 2.0 bi-turbo diesel (PX MkIII).
 // Next-Gen (airbag letter C, 2022+): all from [CG]; 9 vs 6 split cross-checked with [SPEC]
 // (XL Hi-Rider 4x2 listings carry 9 and the spec sheet gives that variant only the single-turbo engine).
-const RG_ENGINE_NEXTGEN: Record<string, Eng> = {
-  "6": { name: "2.0L 4-cyl bi-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "Confirmed by Australian listings (XL/XLS/XLT/Sport/Wildtrak 2.0)." },
-  "9": { name: "2.0L 4-cyl single-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "Australian XL 2.0 Hi-Rider 4x2 listings; Ford 2026MY spec sheet gives that variant only the 2.0L Single Turbo (125 kW)." },
-  "7": { name: "3.0L V6 turbo diesel", litres: "3.0", cyl: "6", fuel: "Diesel", note: "Confirmed by Australian listings (XLT/Sport/Wildtrak/Platinum/Tremor/Super Duty 3.0)." },
-  "1": { name: "3.0L V6 (Ranger Raptor)", litres: "3.0", cyl: "6", fuel: null, note: "Every Australian listing with this code is a Ranger Raptor 3.0." },
-  "2": { name: "2.3L 4-cyl petrol plug-in hybrid (Ranger PHEV)", litres: "2.3", cyl: "4", fuel: "Petrol / plug-in hybrid", note: "Every Australian listing with this code is a Ranger PHEV (Silverton-built, WMI AFA)." },
-};
+// HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
+// second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
+// Pending Next-Gen engine codes: 6 = 2.0 bi-turbo, 9 = 2.0 single-turbo, 7 = 3.0 V6 diesel,
+// 1 = 3.0 V6 petrol (Raptor), 2 = 2.3 petrol PHEV.
+const RG_ENGINE_NEXTGEN: Record<string, Eng> = {};
 const RG_PLANT: Record<string, string> = {
   W: "AutoAlliance Thailand (Rayong)", // [FWM] 100-01-12
   X: "Ford Thailand Manufacturing (FTM)", // WMI MPB = Ford Thailand Manufacturing (Wikibooks Ford WMI list); X on every MPB listing
@@ -77,14 +77,9 @@ const RG_PLANT: Record<string, string> = {
  *  C, D, E → only "PX"; F → both "PX" and "PX MkII"; G, H → only "PX MkII"; J → both MkII and MkIII;
  *  K–N → only "PX MkIII". Engine 6 (2.0 bi-turbo) exists only in PX MkIII. */
 function pxSeries(year: number | null, eng: string): string | null {
-  if (!year) return null;
-  if (eng === "6") return "PX MkIII";
-  if (year >= 2011 && year <= 2014) return "PX";
-  if (year === 2015) return "PX or PX MkII (2015 change-over — check the build plate)";
-  if (year === 2016 || year === 2017) return "PX MkII";
-  if (year === 2018) return "PX MkII or PX MkIII (2018 change-over — check the build plate)";
-  if (year >= 2019 && year <= 2022) return "PX MkIII";
-  return null;
+  // The PX / PX MkII / PX MkIII split by production year comes from listings only — held back (see HOLD note).
+  void eng;
+  return year ? "PX family (PX, PX MkII or PX MkIII — check the build plate)" : null;
 }
 
 function isRangerLayout(vin: string): boolean {
@@ -170,7 +165,8 @@ function decodeEverest(vin: string, s: Partial<VinSummary>): VinSegment[] {
 /** Full replacement rule for Ford Thailand / South Africa Rangers and Everests (MNA, MPB, AFA). */
 export const fordRangerEverest: MakeRule = {
   id: "ford-ranger-everest", make: "Ford", wmis: ["MNA", "MPB", "AFA"],
-  match: (vin) => isRangerLayout(vin) || isEverestLayout(vin),
+  // Everest code blocks are listing-only for now (held back); Everests fall through to the generic Thai rule.
+  match: (vin) => isRangerLayout(vin),
   checkDigit: "no", modelYear: "no",
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Ford" };
@@ -179,8 +175,6 @@ export const fordRangerEverest: MakeRule = {
   },
 };
 
-// Keep helpers referenced so unused-import lint stays quiet when sections below are trimmed.
-void filler; void resolveModelYear;
 
 // ── Ford USA passenger cars (WMI 1FA): Mustang S550 / S650, Flat Rock ─────────────────────────
 // [F565] Ford Part 565 VIN decoders filed with NHTSA (vPIC manufacturer documents, Ford Motor Company):
@@ -197,17 +191,13 @@ const MUSTANG_LINE_2015_17: Record<string, string> = {
   // [F565 2016] + [VPIC] + [CG] (P8C/P8T as "Fastback GT 5.0 V8" / "Fastback 2.3 GTDi")
   C: "GT Fastback (Ford: GT Coupe)", F: "GT Convertible", T: "EcoBoost 2.3 Fastback (Ford: I4 Coupe)", U: "EcoBoost 2.3 Convertible (Ford: I4 Convertible)",
 };
+// HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
+// second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
+// Pending: 2018–23 N GT Fastback, L EcoBoost Fastback, E Mach 1; 2024+ N GT Fastback, P GT Convertible, E Dark Horse.
 const MUSTANG_LINE_RHD_2018_23: Record<string, string> = {
-  N: "GT Fastback, right-hand drive", // [CG] 15+ listings "Fastback GT 5.0 V8" / "GT 5.0 V8" with restraint 6
-  L: "EcoBoost 2.3 Fastback, right-hand drive", // [CG] 4 listings "2.3 GTDi", MY21–23
-  P: "GT Convertible, right-hand drive", // [VPIC] 1FATP8PF2J5149036 = GT Convertible; [CG] listings GT 5.0 with convertible restraint T
-  E: "Mach 1, right-hand drive", // [CG] 6 listings "Mach 1", MY21–22
+  P: "GT Convertible, right-hand drive", // [VPIC] 1FATP8PF2J5149036 = GT Convertible + [CG] listings
 };
-const MUSTANG_LINE_RHD_2024: Record<string, string> = {
-  N: "GT Fastback, right-hand drive", // [CG] 11 listings FO "GT 5.0 V8", 10 listed as fastback/hatch
-  P: "GT Convertible, right-hand drive", // [CG] 3 listings FO "GT 5.0 V8" Convertible
-  E: "Dark Horse, right-hand drive", // [CG] 2 listings FO "Dark Horse" (fastback)
-};
+const MUSTANG_LINE_RHD_2024: Record<string, string> = {};
 const MUSTANG_ENGINE: Record<string, [string, string, string]> = {
   F: ["5.0L V8 Ti-VCT petrol (Coyote)", "5.0", "8"], // [F565 2016, 2020] + [FSM 2024]
   H: ["2.3L 4-cyl turbo petrol (EcoBoost)", "2.3", "4"], // [F565 2016, 2020] + [FSM 2024]
@@ -230,7 +220,7 @@ export const fordUSCar: MakeRule = {
     const c = vin[6];
     let line: string | null = null; let lineNote = "";
     if (y && y <= 2017) { line = MUSTANG_LINE_2015_17[c] ?? null; lineNote = "Ford Part 565 filing (2016) and NHTSA decode."; }
-    else if (y && y <= 2023) { line = MUSTANG_LINE_RHD_2018_23[c] ?? null; lineNote = "Australian right-hand-drive code — confirmed from Australian listings; not in Ford's US filings."; }
+    else if (y && y <= 2023) { line = MUSTANG_LINE_RHD_2018_23[c] ?? null; lineNote = "Australian right-hand-drive code (NHTSA decode + Australian listings)."; }
     else if (y) { line = MUSTANG_LINE_RHD_2024[c] ?? null; lineNote = "Australian right-hand-drive code — confirmed from Australian listings; not in Ford's US filings."; }
     if (y) s.series = y <= 2017 ? "S550 (listed as FM in Australia)" : y <= 2023 ? "S550 update (listed as FN in Australia)" : "S650 (listed as FO in Australia)";
     if (line) { s.trim = line.split(",")[0]; s.body = /Convertible/.test(line) ? "Convertible" : /Fastback/.test(line) ? "Fastback (coupe)" : null; }
@@ -457,5 +447,92 @@ export const ram: MakeRule = {
       ],
       summary: s,
     };
+  },
+};
+
+// ── Chevrolet (GM North America): Silverado 1500 / HD remanufactured for Australia (GMSV / HSV),
+// Corvette C8 (factory right-hand drive). AU vehicles keep the US VIN.
+// [GM22] General Motors LLC "Vehicle Identification Numbering Standards", MY2022 (vPIC ORG20446),
+//        pages 34 (Silverado), 35 (Silverado LTD); [GM24] same, MY2024 (vPIC ORG22099), pages 14 (Corvette),
+//        29–30 (Silverado / Silverado HD); MY2019–2023 editions (ORG16929, ORG18718, ORG19096, ORG21907) list the
+//        same "Non-US, Non-Canada" chassis/series codes. Body style 43 = "Four (4) Door Crew Cab/Utility" (GM22/GM24).
+// [VPIC] NHTSA vPIC decodes of the Australian VINs. [CG] carsguide.com.au listings (VIN + series + variant).
+// GM gives every Australian (export) truck one series code "(Non-US, Non-Canada)" — trim (LTZ, ZR2 …)
+// is NOT in the VIN.
+const GM_ENGINE: Record<string, [string, string, string, string]> = {
+  "3GC:L": ["6.2L V8 petrol (L87)", "6.2", "8", "Petrol"], // [GM22] + [VPIC]
+  "1GC:Y": ["6.6L V8 turbo diesel (L5P Duramax)", "6.6", "8", "Diesel"], // [GM24] + [VPIC]
+  "1G1:4": ["6.2L V8 petrol (LT2)", "6.2", "8", "Petrol"], // [GM24] + [VPIC]
+  "1G1:3": ["5.5L V8 petrol (LT6, Z06)", "5.5", "8", "Petrol"], // [GM24] + [VPIC]
+};
+
+function silverado(vin: string, y: number | null): { model: string; series: string; drive: string } | null {
+  const ch = vin.slice(4, 6);
+  if (!y) return null;
+  if (vin.startsWith("3GC") && vin[3] === "U") {
+    // 1500, MY2019–2024 export codes [GM22, GM24 + 2019–2023 editions]; [VPIC] agrees (Silverado / Silverado LTD).
+    if (ch === "Y9" && y >= 2019 && y <= 2024) return { model: "Silverado 1500", series: y >= 2022 ? "T1 (pre-facelift body, sold as Silverado LTD)" : "T1", drive: "4WD" };
+    if (ch === "D9" && y >= 2022 && y <= 2024) return { model: "Silverado 1500", series: "T1 facelift (2022 update)", drive: "4WD" };
+  }
+  if (vin.startsWith("1GC") && "012345".includes(vin[3]) && ch === "Y9" && y >= 2020 && y <= 2024) {
+    return { model: "Silverado HD (2500 / 3500)", series: "T1 HD", drive: "4WD" }; // [GM24] p.30 + [VPIC] "Silverado HD"
+  }
+  return null;
+}
+const GM_HD_GVWR: Record<string, string> = {
+  // [GM24] p.30 (body style 03 regular / 43 crew / 53 extended)
+  "0": "Class H 9,001–10,000 lb, regular cab", "1": "Class H 9,001–10,000 lb, crew cab", "2": "Class H 9,001–10,000 lb, extended cab",
+  "3": "Class 3 10,001–14,000 lb, regular cab", "4": "Class 3 10,001–14,000 lb, crew cab", "5": "Class 3 10,001–14,000 lb, extended cab",
+};
+
+export const chevrolet: MakeRule = {
+  id: "chevrolet-gm-na", make: "Chevrolet", wmis: ["1GC", "3GC", "1G1"],
+  checkDigit: "yes", modelYear: "yes", years: [2010, 2035],
+  decode(vin) {
+    const y = resolveModelYear(vin[9], 2010, 2035);
+    const s: Partial<VinSummary> = { make: "Chevrolet", modelYear: y };
+    const wmi = vin.slice(0, 3);
+    const segs: VinSegment[] = [];
+    const eng = GM_ENGINE[`${wmi}:${vin[7]}`];
+    if (wmi === "1G1") {
+      // Corvette C8 [GM24] p.14: 4 line Y, 5 series 9 = Non-US/Non-Canada, 6 body, 7 restraint, 8 engine.
+      const c8 = vin[3] === "Y" && vin[4] === "9" && y !== null && y >= 2020 && y <= 2024; // GM editions read: 2020–2024
+      const confirmedYear = y !== null && y >= 2020 && y <= 2024;
+      if (c8) { s.model = "Corvette"; s.series = "C8"; s.drive = "RWD"; }
+      const body = c8 && confirmedYear && vin[5] === "2" ? "Coupe, 2-door (GM body 07)" : null; // [GM24] + [CG] coupe listings
+      if (body) s.body = body;
+      if (eng && c8) { s.engine = eng[0]; s.engineLitres = eng[1]; s.engineCylinders = eng[2]; s.fuel = eng[3]; }
+      if (c8 && vin[10] === "5") s.plant = "Bowling Green, Kentucky, USA";
+      segs.push(
+        seg(4, 5, vin, "Vehicle line / series", c8 ? "Chevrolet Corvette (C8), export (Non-US, Non-Canada) series" : null, c8
+          ? { note: "GM gives export Corvettes one series code; trim (1LT/2LT/3LT, Z06) is not in the VIN — the engine is." }
+          : { note: "Not confirmed." }),
+        seg(6, 6, vin, "Body style", body, body ? {} : { note: vin[5] === "3" ? "GM lists 3 as convertible; an Australian listing contradicts it, so not decoded." : "Not confirmed." }),
+        seg(7, 7, vin, "Restraint system", null, { note: "Not confirmed by two sources." }),
+        seg(8, 8, vin, "Engine", c8 && eng ? eng[0] : null, c8 && eng ? {} : { note: "Not confirmed." }),
+      );
+    } else {
+      const sv = silverado(vin, y);
+      if (sv) { s.model = sv.model; s.series = sv.series; s.drive = sv.drive; s.trim = null; }
+      const gv = wmi === "3GC" && vin[3] === "U" ? "Class F 7,001–8,000 lb GVWR, hydraulic brakes, crew cab" : wmi === "1GC" ? GM_HD_GVWR[vin[3]] ?? null : null;
+      if (gv && sv) s.body = /crew cab/.test(gv) ? "Crew cab pick-up" : null;
+      if (eng && sv) { s.engine = eng[0]; s.engineLitres = eng[1]; s.engineCylinders = eng[2]; s.fuel = eng[3]; }
+      const restraint = sv && vin[6] === "E" ? "Front airbags, front-seat side airbags, roof-side curtain airbags all rows (GM AY0)" : null; // [GM22, GM24] + [VPIC]
+      if (restraint) s.restraint = restraint;
+      const plant = sv ? ({ G: "Silao, Mexico", F: "Flint, Michigan, USA", Z: "Fort Wayne, Indiana, USA" } as Record<string, string>)[vin[10]] ?? null : null; // [GM22, GM24] + [VPIC]
+      if (plant) s.plant = plant;
+      segs.push(
+        seg(4, 4, vin, "GVWR / brakes / body style", sv ? gv : null, sv && gv ? {} : { note: "Not confirmed." }),
+        seg(5, 6, vin, "Chassis / series", sv ? `${sv.model}, ${sv.drive}, export (Non-US, Non-Canada) series` : null, sv
+          ? { note: "GM gives export trucks one series code; trim (LTZ, ZR2 …) is not in the VIN." }
+          : { note: "Not confirmed for this model year (GM filings read for MY2019–2024)." }),
+        seg(7, 7, vin, "Restraint system", restraint, restraint ? {} : { note: "Not confirmed." }),
+        seg(8, 8, vin, "Engine", sv && eng ? eng[0] : null, sv && eng ? {} : { note: "Not confirmed." }),
+        seg(11, 11, vin, "Assembly plant", plant),
+      );
+    }
+    segs.push(seg(10, 10, vin, "Model year", y ? String(y) : null, { status: "standard" }));
+    if (wmi === "1G1") segs.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null));
+    return { segments: segs, summary: s };
   },
 };

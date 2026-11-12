@@ -12,6 +12,7 @@ import { fcaNorthAmerica, fordAustralia, fordBrazil, fordThailand } from "./ford
 import { bmw, holdenKorea, renault } from "./others";
 import { byd, chery, gwm, ldv, mg } from "./china";
 import { tesla } from "./tesla";
+import { chevrolet, fordRangerEverest, fordUSCar, ram } from "./ford-us-extra";
 import { bentley, lamborghini, porsche, seat, skoda } from "./vag-extra";
 
 export const MAKE_RULES: MakeRule[] = [
@@ -21,7 +22,7 @@ export const MAKE_RULES: MakeRule[] = [
   subaru, honda, landRover,
   toyota, lexus, isuzu, privateImport,
   mazda, mitsubishi, nissan, nissanUS, suzuki, hyundai, kia,
-  fordAustralia, fordThailand, fordBrazil, fcaNorthAmerica,
+  fordAustralia, fordRangerEverest, ram, fordThailand, fordBrazil, fordUSCar, chevrolet, fcaNorthAmerica,
   holdenKorea, bmw, renault,
   mg, ldv, gwm, byd, chery, tesla,
   skoda, seat, porsche, lamborghini, bentley,

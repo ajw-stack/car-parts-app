@@ -39,7 +39,7 @@ const WMI_MAP: Record<string, string> = {
   MHF: "Toyota Indonesia", MHR: "Honda Indonesia", MHB: "Nissan Indonesia", MLC: "Suzuki Thailand",
   MLH: "Honda Thailand", MMA: "Mitsubishi Thailand", MMB: "Mitsubishi Thailand", MMC: "Mitsubishi Thailand",
   MMT: "Mitsubishi Thailand", MM0: "Mazda Thailand", MM8: "Mazda Thailand",
-  MNA: "Ford Thailand (Aus/NZ)", MNB: "Ford Thailand", MNT: "Nissan Thailand",
+  MNA: "Ford Thailand (Aus/NZ)", MNB: "Ford Thailand", MPB: "Ford Thailand", MNT: "Nissan Thailand",
   MPA: "Isuzu Thailand", MRH: "Honda Thailand", MR0: "Toyota Thailand",
   // Turkey
   NLA: "Honda Turkey", NLE: "Mercedes-Benz Türk", NLH: "Hyundai Assan",
@@ -136,7 +136,7 @@ const WMI_MAP: Record<string, string> = {
   "2HK": "Honda Canada", "2HM": "Hyundai Canada",
   "2T": "Toyota Canada",
   // Mexico
-  "3C4": "Chrysler Mexico", "3D3": "Dodge Mexico",
+  "3C4": "Chrysler Mexico", "3C6": "RAM", "3C7": "RAM", "3D3": "Dodge Mexico",
   "3FA": "Ford Mexico", "3G": "GM Mexico",
   "3H": "Honda Mexico", "3MZ": "Mazda Mexico",
   "3N": "Nissan Mexico", "3VW": "Volkswagen Mexico",
