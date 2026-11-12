@@ -158,6 +158,8 @@ const WMI_MAP: Record<string, string> = {
   // Added 2026-11-13 (Volvo/Polestar/Jaguar/MINI rule research: Part 565 filings + Wikibooks)
   LVY: "Volvo (China)", "7JR": "Volvo Cars USA", "7JD": "Volvo Cars USA", YSM: "Polestar", YSR: "Polestar",
   LPS: "Polestar (China)", "7SY": "Polestar (USA)", SAD: "Jaguar (SUV)", WMZ: "MINI",
+  // Added 2026-11-13 (Stellantis Europe rule research)
+  VR3: "Peugeot", VR7: "Citroën", ZN6: "Maserati (SUV)", ZAC: "Jeep (Italy / Poland)", VXF: "Fiat (vans)",
 };
 
 /** Look up a manufacturer by WMI (3-char or 2-char prefix). */

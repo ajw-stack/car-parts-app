@@ -13,7 +13,7 @@ type Fx = { vin: string; make?: string; model?: string; series?: string; year?: 
 const userVins = readFileSync(new URL("user-vins.txt", here), "utf8").split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
 const fixtures: Fx[] = existsSync(new URL("fixtures.json", here)) ? JSON.parse(readFileSync(new URL("fixtures.json", here), "utf8")) : [];
 
-const norm = (s: unknown) => String(s ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+const norm = (s: unknown) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 let pass = 0, fail = 0;
 const byMake: Record<string, { pass: number; fail: number }> = {};
 const failures: string[] = [];
@@ -28,7 +28,9 @@ function check(vin: string, fx?: Fx) {
   if (!s.make) problems.push("no make rule");
   if (!s.model && !s.series) problems.push("model/series not decoded");
   if (fx) {
-    if (fx.make && norm(s.make) !== norm(fx.make)) problems.push(`make ${s.make} ≠ ${fx.make}`);
+    // A decoded make may name two badges the VIN cannot tell apart (e.g. "Fiat / Abarth"); either one passes.
+    const makes = String(s.make ?? "").split("/").map(norm);
+    if (fx.make && !makes.includes(norm(fx.make))) problems.push(`make ${s.make} ≠ ${fx.make}`);
     // Model check: the first word of the listing's model name must appear in the decoded model/series.
     const want = norm(String(fx.model ?? "").split(/[\s/(-]/)[0]);
     if (want && !norm(`${s.model} ${s.series}`).includes(want)) problems.push(`model "${s.model} ${s.series ?? ""}" ≠ ${fx.model}`);

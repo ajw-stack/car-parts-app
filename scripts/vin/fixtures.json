@@ -5902,5 +5902,599 @@
   "year": 2013,
   "description": "2013 Ford Mondeo Zetec - series Mc, variant Zetec, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
   "user_supplied": false
+ },
+ {
+  "vin": "VF3M45GYWJL017627",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970184190/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "5008",
+  "year": 2018,
+  "description": "Peugeot 5008 P87 GT Line Wagon 7st 5dr Auto 6sp 1.6T [MY18]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3MJEHZRJL071746",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970194161/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "5008",
+  "year": 2018,
+  "description": "Peugeot 5008 P87 GT Wagon 7st 5dr Auto 8sp 2.0DT [MY19]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3USHPY8SJ557787",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970057543/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "2008",
+  "year": 2025,
+  "description": "Peugeot 2008 P24 GT Hybrid Wagon 5dr e-DCS 6sp 1.2T/16kW [MY25]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3CUHNZTHY041280",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970365702/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "2008",
+  "year": 2017,
+  "description": "Peugeot 2008 A94 Active Wagon 5dr Spts Auto 6sp 1.2T [MY18]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3LPHNYWES188623",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970355905/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "308",
+  "year": 2014,
+  "description": "Peugeot 308 T9 Allure Hatchback 5dr Spts Auto 6sp 1.2T [Oct]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF34CRHHADS101705",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970419525/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "308",
+  "year": 2013,
+  "description": "Peugeot 308 T7 Sportium Hatchback 5dr Spts Auto 6sp 2.0DT [MY13]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3KAHPY6SS023868",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970405126/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "3008",
+  "year": 2025,
+  "description": "Peugeot 3008 P64 GT Premium Hybrid Wagon 5dr e-DCS 6sp 1.2T/16kW [MY25]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3KAHPY0SS105210",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970425347/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "5008",
+  "year": 2025,
+  "description": "Peugeot 5008 P74 GT Premium Hybrid Wagon 7st 5dr e-DCS 6sp 1.2T/16kW [MY25]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3FRHNS2RY533425",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970056885/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "308",
+  "year": 2024,
+  "description": "Peugeot 308 P51 GT Premium Wagon 5dr Spts Auto 8sp 1.2T [MY24]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3FPHPY2RY636044",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970284151/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "408",
+  "year": 2024,
+  "description": "Peugeot 408 P54 GT Premium Hybrid Fastback 5dr e-DCS 6sp 1.2T/16kW [MY25]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR3EUHNS3MJ869143",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970218461/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Partner",
+  "year": 2022,
+  "description": "Peugeot Partner K9 City Van Low Roof SWB 4dr Spts Auto 8sp 1.2T [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3VLAHX1SZ013820",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970288906/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Expert",
+  "year": 2025,
+  "description": "Peugeot Expert K0 Pro Van Long 5dr Auto 8sp 2.0DT",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3YL3MFB12R24573",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970418364/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Boxer",
+  "year": 2021,
+  "description": "Peugeot Boxer X250 160 HDI Van Mid Roof LWB 5dr Man 6sp 2.0DT (Apr) [MY20]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3CCHNZTFT195335",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970243837/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "208",
+  "year": 2016,
+  "description": "Peugeot 208 A9 Access Hatchback 5dr Auto 6sp 1.2T [MY15]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF38D4HLADL011825",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970368139/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "508",
+  "year": 2013,
+  "description": "Peugeot 508 GT Sedan 4dr Spts Auto 6sp 2.2DT [MY13]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF3BUAFZHCZ810359",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970426821/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "4008",
+  "year": 2013,
+  "description": "Peugeot 4008 MY12 Active Wagon 5dr Man 5sp 2WD 2.0i",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF33CNFUF85064466",
+  "make": "Peugeot",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970356557/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "307",
+  "year": 2007,
+  "description": "Peugeot 307 T6 XS Hatchback 5dr Spts Auto 4sp 1.6i (Mar )",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR7A45GYVML011854",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970301250/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "C5 Aircross",
+  "year": 2021,
+  "description": "Citroen C5 Aircross C84 Shine Wagon 5dr Spts Auto 6sp 1.6T [MY21]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR7A45GFSNL046686",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970411113/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "C5 Aircross",
+  "year": 2022,
+  "description": "Citroen C5 Aircross C84 Sport Wagon 5dr Spts Auto 8sp 1.6T [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VR7BAHNSBPE084163",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970411116/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "C4",
+  "year": 2023,
+  "description": "Citroen C4 C41 Shine Hatchback 5dr Spts Auto 8sp 1.2T [MY24]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF7NCHNYTFY538067",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970406915/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "C4",
+  "year": 2015,
+  "description": "Citroen C4 B7 Seduction Hatchback 5dr Spts Auto 6sp 1.2T [MY15]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF7SA5GZMEW692343",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970457300/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "DS3",
+  "year": 2014,
+  "description": "Citroen DS3 DSport Hatchback 3dr Man 6sp 1.6T [MY14]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF77CNFUCDJ853717",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970197254/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Berlingo",
+  "year": 2013,
+  "description": "Citroen Berlingo L1 Van 3dr Man 5sp 1.6i [MY14]",
+  "user_supplied": false
+ },
+ {
+  "vin": "VF7GCKFWC94249525",
+  "make": "Citroen",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969532985/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Berlingo",
+  "year": 2006,
+  "description": "Citroen Berlingo Series II Van 3dr Man 5sp 1.4i",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3120000J077647",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970369163/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "500",
+  "year": 2013,
+  "description": "Fiat 500 Series 1 Pop Hatchback 3dr Man 5sp 1.2i",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3120000J995076",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970414876/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "500",
+  "year": 2018,
+  "description": "Fiat 500 Series 6 Pop Hatchback 3dr Man 5sp 1.2i [Feb]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFACF1BG1RJJ91941",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969894065/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "500",
+  "year": 2024,
+  "description": "Fiat 500 Dolcevita Hatchback 3dr Dualogic 5sp 1.2i",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3340000P385841",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970237527/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "500X",
+  "year": 2015,
+  "description": "Fiat 500X 334 Cross Plus Wagon 5dr Spts Auto 9sp AWD 1.4T [Jun]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA25000002V48261",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970167373/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Ducato",
+  "year": 2022,
+  "description": "Fiat Ducato Series 8 Van Mid Roof XLWB 4dr Auto 9sp 2.2DT [Apr]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA250009RMA41480",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970423060/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Ducato",
+  "year": 2024,
+  "description": "Fiat Ducato Series 9 Van Mid Roof LWB 4dr Auto 9sp 2.2DT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA24400007623523",
+  "make": "Fiat",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970029679/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Ducato",
+  "year": 2005,
+  "description": "Fiat Ducato Maxi Van High Roof LWB 3dr Man 5sp 2.8DT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3120000J988422",
+  "make": "Abarth",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970426155/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "595",
+  "year": 2018,
+  "description": "Abarth 595 Series 4 Competizione Hatchback 3dr Man 5sp 1.4T",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3120000JE19460",
+  "make": "Abarth",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970448624/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "595",
+  "year": 2020,
+  "description": "Abarth 595 Series 4 Competizione Hatchback 3dr Dualogic 5sp 1.4T",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFABF13H8NJF45535",
+  "make": "Abarth",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970412257/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "595",
+  "year": 2021,
+  "description": "Abarth 595 Series 5 Competizione Hatchback 3dr Dualogic 5sp 1.4T [MY21]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFABF13H6NJG83476",
+  "make": "Abarth",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970468988/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "695",
+  "year": 2022,
+  "description": "Abarth 695 Competizione Hatchback 3dr Man 5sp 1.4T [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFA3120000J417096",
+  "make": "Abarth",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970392360/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "695",
+  "year": 2016,
+  "description": "Abarth 695 Series 3 Biposto Hatchback 3dr Man 5sp 1.4T",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAREAEKNXH7530610",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970304216/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Giulia",
+  "year": 2017,
+  "description": "Alfa Romeo Giulia Super Sedan 4dr Spts Auto 8sp 2.0T [Nov]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAREAENV3R7692964",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969903227/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Giulia",
+  "year": 2025,
+  "description": "Alfa Romeo Giulia Series 5 Quadrifoglio Sedan 4dr Spts Auto 8sp 2.9TT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZARPAHJN4M7D12865",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970181364/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Stelvio",
+  "year": 2021,
+  "description": "Alfa Romeo Stelvio Series 2 Veloce Wagon 5dr Spts Auto 8sp AWD 2.0T (5 Year Warranty) [Feb]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZARPAHKVXK7C38511",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970371343/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Stelvio",
+  "year": 2018,
+  "description": "Alfa Romeo Stelvio Quadrifoglio Wagon 5dr Spts Auto 8sp AWD 2.9TT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZARNASDA2N3045972",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970172014/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Tonale",
+  "year": 2023,
+  "description": "Alfa Romeo Tonale Veloce Wagon 5dr DCT 7sp 1.5T/15kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZARPATAW4R3088391",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969726899/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Tonale",
+  "year": 2024,
+  "description": "Alfa Romeo Tonale Series 1 Ti Plug-In Hybrid Wagon 5dr Auto 6sp Q4 1.3T/90kW Hybrid [Jul]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAR94000007217665",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970446863/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Giulietta",
+  "year": 2014,
+  "description": "Alfa Romeo Giulietta Series 0 Distinctive JTD-M Hatchback 5dr TCT 6sp 2.0DT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAR9600000M163260",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970039610/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "4C",
+  "year": 2014,
+  "description": "Alfa Romeo 4C Coupe 2dr TCT 6sp 1.7T [Jul]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAA5AVAT0RJA42440",
+  "make": "Alfa Romeo",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970034792/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Junior",
+  "year": 2025,
+  "description": "Alfa Romeo Junior Series 0 Ibrida Wagon 5dr e-DCS 6sp FWD 1.2T/21kW [Mar]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZN6XU61D00X318471",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969545663/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Levante",
+  "year": 2018,
+  "description": "Maserati Levante M161 Wagon 5dr Spts Auto 8sp Q4 3.0TT (257kW) [MY19]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZN6AU61D00X405392",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970084917/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Levante",
+  "year": 2022,
+  "description": "Maserati Levante M161 GT Wagon 5dr Spts Auto 8sp Q4 2.0TeC [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZN6ZU61D00X376548",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970255823/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Levante",
+  "year": 2021,
+  "description": "Maserati Levante M161 Trofeo Wagon 5dr Spts Auto 8sp Q4 3.8TT [MY21]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZN6TU61D00X245815",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970288727/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Levante",
+  "year": 2017,
+  "description": "Maserati Levante M161 Wagon 5dr Spts Auto 8sp Q4 3.0DT [MY17]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMXS57D001339372",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970244086/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Ghibli",
+  "year": 2019,
+  "description": "Maserati Ghibli M157 GranSport Sedan 4dr Spts Auto 8sp 3.0TT [MY19]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMRS57D001093659",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970110955/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Ghibli",
+  "year": 2014,
+  "description": "Maserati Ghibli M157 S Sedan 4dr Spts Auto 8sp 3.0TT [MY15]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMPP56D001079283",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970380487/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Quattroporte",
+  "year": 2013,
+  "description": "Maserati Quattroporte M156 GTS Sedan 4dr Spts Auto 8sp 3.8TT [MY14]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMTP56D001158250",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969941531/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Quattroporte",
+  "year": 2015,
+  "description": "Maserati Quattroporte M156 Sedan 4dr Spts Auto 8sp 3.0DT [MY15]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMKL45D000058917",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970309401/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "GranTurismo",
+  "year": 2011,
+  "description": "Maserati GranTurismo M145 S Coupe 2dr Spts Auto 6sp 4.7i",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMBMVDB0RX453034",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969816672/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "GranTurismo",
+  "year": 2024,
+  "description": "Maserati GranTurismo M189 Trofeo Coupe 2dr Spts Auto 8sp AWD 3.0TT [MY24]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZN6PMDAA4S7466444",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970169008/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Grecale",
+  "year": 2025,
+  "description": "Maserati Grecale M182 Wagon 5dr Spts Auto 8sp Q4 2.0TeC [MY25]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZAMBX24D000397366",
+  "make": "Maserati",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970478312/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "MC20",
+  "year": 2022,
+  "description": "Maserati MC20 M240 Coupe 2dr SA DCT 8sp 3.0TT [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFF89FRD000242912",
+  "make": "Ferrari",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970411076/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Portofino",
+  "year": 2019,
+  "description": "Ferrari Portofino F164 Convertible 2dr DCT 7sp 3.9TT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFF98RND000271881",
+  "make": "Ferrari",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970342435/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Roma",
+  "year": 2021,
+  "description": "Ferrari Roma F169 Coupe 2dr DCT 8sp 3.9TT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFFLJ65D000177249",
+  "make": "Ferrari",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970473092/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "California",
+  "year": 2011,
+  "description": "Ferrari California F149 Convertible 2dr DCT 7sp 4.3i",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFF82YND000230728",
+  "make": "Ferrari",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970485319/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "GTC4Lusso",
+  "year": 2017,
+  "description": "Ferrari GTC4Lusso F151 T Shooting Brake 3dr DCT 7sp 3.9TT",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZFF06VTD000314082",
+  "make": "Ferrari",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970360624/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Purosangue",
+  "year": 2024,
+  "description": "Ferrari Purosangue F175 Wagon 5dr DCT 8sp 4WD 6.5i",
+  "user_supplied": false
+ },
+ {
+  "vin": "MCANJRCB4JFA14923",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970364447/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Compass",
+  "year": 2017,
+  "description": "Jeep Compass M6 Limited Wagon 5dr Auto 9sp 4x4 2.4i [MY18]",
+  "user_supplied": false
+ },
+ {
+  "vin": "MCANJPBB2MFA77366",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970225949/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Compass",
+  "year": 2021,
+  "description": "Jeep Compass M6 Launch Edition Wagon 5dr Auto 6sp FWD 2.4i [MY21]",
+  "user_supplied": false
+ },
+ {
+  "vin": "MCANJRDY2MFA82029",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970230985/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Compass",
+  "year": 2022,
+  "description": "Jeep Compass M6 Trailhawk Wagon 5dr Auto 9sp 4x4 2.0DT [MY22]",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZACNJAC50RJK90067",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970429513/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Avenger",
+  "year": 2024,
+  "description": "Jeep Avenger JJ Limited Wagon 5dr Auto 1sp FWD AC115kW [MY24]",
+  "user_supplied": false
  }
 ]
