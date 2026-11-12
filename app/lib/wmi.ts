@@ -155,6 +155,9 @@ const WMI_MAP: Record<string, string> = {
   "9BF": "Ford Brazil", "9BG": "Chevrolet Brazil",
   "9BM": "Mercedes-Benz Brazil", "9BR": "Toyota Brazil",
   "9BW": "Volkswagen Brazil",
+  // Added 2026-11-13 (Volvo/Polestar/Jaguar/MINI rule research: Part 565 filings + Wikibooks)
+  LVY: "Volvo (China)", "7JR": "Volvo Cars USA", "7JD": "Volvo Cars USA", YSM: "Polestar", YSR: "Polestar",
+  LPS: "Polestar (China)", "7SY": "Polestar (USA)", SAD: "Jaguar (SUV)", WMZ: "MINI",
 };
 
 /** Look up a manufacturer by WMI (3-char or 2-char prefix). */

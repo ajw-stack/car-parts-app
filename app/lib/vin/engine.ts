@@ -77,7 +77,7 @@ export interface VinBreakdown {
 
 // Make names for WMIs that have no rule file yet (outside the top 20 on Australian roads).
 const WMI_MAKE: Record<string, string> = {
-  MA1: "Mahindra", KPT: "SsangYong (KGM)", LYV: "Volvo", YV1: "Volvo", YV4: "Volvo",
+  MA1: "Mahindra", KPT: "SsangYong (KGM)",
   "9BF": "Ford", XP7: "Tesla",
 };
 
