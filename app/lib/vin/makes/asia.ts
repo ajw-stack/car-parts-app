@@ -141,7 +141,9 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
     // (motorvehiclewholesale listings; recall REC-000886 VIN list), so G does not give the gearbox.
     Object.assign(s, { engine: "3.2L turbo diesel", engineLitres: "3.2", fuel: "Diesel" });
     return [
-      seg(6, 7, vin, "Body / descriptor", null, { note: "Not decoded." }),
+      seg(6, 7, vin, "Fixed code", vin.slice(5, 7) === "0Y" ? "0Y on every BT-50 UR" : null, vin.slice(5, 7) === "0Y"
+        ? { status: "standard", note: "The same on 4x2 and 4x4, single and dual cab, manual and auto — it does not show cab, drive or gearbox." }
+        : { note: "Not decoded." }),
       seg(8, 8, vin, "Engine", "3.2L turbo diesel"),
     ];
   }
@@ -197,6 +199,9 @@ const TRITON_ENGINE_OLD: Record<string, { name: string; litres: string; fuel: st
   "4": { name: "2.5L turbo diesel (4D56)", litres: "2.5", fuel: "Diesel", cyl: "4" },
   "8": { name: "3.2L turbo diesel (4M41)", litres: "3.2", fuel: "Diesel", cyl: "4" },
   "9": { name: "3.5L V6 petrol (6G74)", litres: "3.5", fuel: "Petrol", cyl: "6" },
+  // 5 = 2.4 petrol 4G64 (added 2026-11-12: MMM Auto Centre donor VIN MMAJNKA509D009539 "2.4, 4G64, ML";
+  // Quick Auto Parts 2.4 petrol Triton fitment "VINs MMBENKA5, MMAENKA5, MMBJNKA5 & MMAJNKA5").
+  "5": { name: "2.4L petrol (4G64)", litres: "2.4", fuel: "Petrol", cyl: "4" },
 };
 const TRITON_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: string; cyl: string }> = {
   "1": { name: "2.4L turbo diesel (4N15)", litres: "2.4", fuel: "Diesel", cyl: "4" },
@@ -345,6 +350,19 @@ export const mitsubishi: MakeRule = {
       const j = decodeJmf(vin, s);
       if (j) { s.plant = MITSU_PLANT[vin[10]] ?? null; return tail(j); }
     }
+    if (vin.startsWith("6MMT") || vin.startsWith("6MMK")) {
+      // Magna (T) / Verada (K): same Australian layout as the 380 (Wikibooks "Australian production
+      // Mitsubishi's VIN format"); 8–9 42 = 4-door sedan on five sedan VINs TE–TW (wrecker listings).
+      // Positions 6 (engine / gearbox) and 7 (trim) are not yet two-sourced.
+      const body = vin.slice(7, 9) === "42" ? "4-door sedan" : null; if (body) s.body = body;
+      s.plant = "Tonsley Park, South Australia";
+      return tail([
+        seg(4, 5, vin, "Car line / series", s.model ? `${s.model} (${s.series})` : vin[3] === "K" ? "Verada" : "Magna"),
+        seg(6, 6, vin, "Engine / transmission", null, { note: "Not yet confirmed — the build plate shows the engine." }),
+        seg(7, 7, vin, "Trim", null, { note: "Not yet confirmed." }),
+        seg(8, 9, vin, "Body type", body, body ? { note: "Positions 8–9 are the body, so there is no check digit." } : { note: "Not yet confirmed." }),
+      ]);
+    }
     if (vin.startsWith("6MMDB")) {
       s.model = "380"; s.series = "DB"; s.plant = "Tonsley Park, South Australia";
       return tail(decode380(vin, s));
@@ -432,6 +450,14 @@ function nissanVariant(vin: string): NV | null {
   const code = vin.slice(6, 9), grp = vin.slice(3, 6);
   const g = NISSAN_GROUP[`${code}:${grp}`];
   if (g) return g;
+  if (code === "Y61") {
+    // Patrol GU: 4 body (T wagon, U utility / cab chassis), 5 engine (C 4.2 TD42 diesel, E 3.0 ZD30 diesel).
+    // patrol4x4.com VIN key ("T = Wagon, U = Pickup … E - Engine") + real AU VINs JN1TCSY61…(TD42),
+    // JN1TESY61…(3.0), JN1UENY61…(ZD30 cab chassis), JN1UCLY61…(ute). F (TB48) not yet two-sourced.
+    const b = ({ T: "Wagon", U: "Utility / cab chassis" } as Record<string, string>)[vin[3]];
+    const e = ({ C: { engine: "4.2L diesel (TD42)", litres: "4.2", fuel: "Diesel" }, E: { engine: "3.0L turbo diesel (ZD30)", litres: "3.0", fuel: "Diesel" } } as Record<string, NV>)[vin[4]];
+    return b || e ? { ...(e ?? {}), ...(b ? { body: b } : {}), drive: "4WD" } : null;
+  }
   if (code === "D22") { const b = NISSAN_D22_BODY[vin[3]]; return b ? { body: b } : null; }
   if (code === "D23") {
     const b = NISSAN_D23_BODY[vin[3]], e = NISSAN_D23_ENGINE[vin[4]];
@@ -621,7 +647,11 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
   if (pre === "KMHJ" || pre === "TMAJ") {                        // ix35 (to 2015) / Tucson TL
     return ({
       C: E("2.4L petrol", "2.4", "Petrol"), V: E("2.0L turbo diesel (CRDi)", "2.0", "Diesel"), F: E("2.0L petrol (GDi)", "2.0", "Petrol"),
-      "4": E("2.0L petrol (GDi)", "2.0", "Petrol"), A: E("2.0L turbo diesel (CRDi)", "2.0", "Diesel"),
+      // 4: one source says 2.0 GDi, another 2.0 MPi (different injectors) — shown as 2.0 petrol only.
+      "4": E("2.0L petrol (MPi or GDi — check the engine plate)", "2.0", "Petrol"), A: E("2.0L turbo diesel (CRDi, D4HA)", "2.0", "Diesel"),
+      // Added 2026-11-12 (Machter fitment VIN prefixes + Autotrader listings): 3 = 2.0 MPi G4NA (Czech-built),
+      // 2 = 1.6 turbo G4FJ.
+      "3": E("2.0L petrol (MPi, G4NA)", "2.0", "Petrol"), "2": E("1.6L turbo petrol (G4FJ)", "1.6", "Petrol"),
     } as Record<string, Eng>)[c] ?? null;
   }
   if (pre === "KMHK") {                                           // Kona OS / SX2
@@ -645,6 +675,8 @@ function hyundaiTrim(vin: string, year: number | null): string | null {
   }
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) return ({ "8": "2.0 grades (Active / Elite)", "0": "SR Turbo" } as Record<string, string>)[c] ?? null; // Elantra AD
   if (pre === "KMHH") return ({ "3": "Go / Active / Elite / Premium", "5": "SR / N Line" } as Record<string, string>)[c] ?? null; // i30 PD
+  // Tucson TL (2016 on): Machter fitment prefixes J2…/J3… + ~150 Autotrader listings.
+  if ((pre === "KMHJ" || pre === "TMAJ") && y >= 2016) return ({ "2": "Go / Active / Active X", "3": "Active X / Elite / Highlander" } as Record<string, string>)[c] ?? null;
   return null;
 }
 function kiaTrim(vin: string, year: number | null): string | null {

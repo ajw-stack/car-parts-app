@@ -22,12 +22,20 @@ const FORD_BODY: Record<string, [body: string, model: string]> = {
 // Position 8 plant: G Broadmeadows main line, L Broadmeadows secondary line (Wikibooks Ford "Australian
 // production location" + the archived Capri VIN page "always L = Broadmeadows").
 const FORD_AU_PLANT: Record<string, string> = { G: "Broadmeadows, Victoria", L: "Broadmeadows, Victoria (secondary line)" };
-// Two month-letter sets are both in use on real VINs; they do not overlap.
-const FORD_MONTH: Record<string, string> = {
-  C: "January", K: "February", D: "March", E: "April", L: "May", Y: "June",
-  M: "July", P: "August", B: "September", R: "October", A: "November", G: "December",
-  S: "July", T: "August", J: "September", U: "October",
-};
+// Build-month letter (position 12). Corrected 2026-11-12: Ford uses one 16-letter cycle
+// (C K D E L Y S T J U M P B R A G) that shifts by four letters each year and repeats every 4 years.
+// Sources: Wikibooks Ford "month codes" table (linked from its Ford Australia section) and the
+// digi-ron AU Falcon SPUD project per-year tables 1998–2002 (agree cell for cell). Checked on 7 dated
+// Australian VINs: 5 exact, 2 one month off (the VIN month can differ from the build plate by ~1 month).
+const FORD_MONTH_CYCLE = "CKDELYSTJUMPBRAG";
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+function fordMonth(letter: string, year: number | null): string | null {
+  if (!year) return null;
+  // Offset of January's letter in the cycle: years ≡ 0 mod 4 start at B (index 12), 1 → J (8), 2 → L (4), 3 → C (0).
+  const start = [12, 8, 4, 0][((year % 4) + 4) % 4];
+  for (let m = 0; m < 12; m++) if (FORD_MONTH_CYCLE[(start + m) % 16] === letter) return MONTHS[m];
+  return null;
+}
 
 export const fordAustralia: MakeRule = {
   id: "ford-australia", make: "Ford", wmis: ["6FP"],
@@ -42,7 +50,7 @@ export const fordAustralia: MakeRule = {
     const cands = yearCandidates(vin[10]).filter((y) => y >= 1989 && y <= 2016);
     const year = cands.length === 1 ? cands[0] : null;
     s.modelYear = year;
-    const month = FORD_MONTH[vin[11]] ?? null;
+    const month = fordMonth(vin[11], year);
     return {
       segments: [
         filler(4, 6, vin, "Filler (AAA) on every Ford Australia VIN."),
@@ -52,7 +60,7 @@ export const fordAustralia: MakeRule = {
           note: body ? "Ford Australia VINs use positions 9–10 for the body, so there is no check digit." : "Body code not in the confirmed table (SW, WA, CM, LW, AT).",
         }),
         seg(11, 11, vin, "Build year", year ? String(year) : null, { note: "Build year, not a model year." }),
-        seg(12, 12, vin, "Build month", month, { note: "Month letters confirmed on 1998–2002 and FG-era VINs; Ford rotated letter sets between years." }),
+        seg(12, 12, vin, "Build month", month, { note: "Ford's VIN month code; it can differ from the build plate by about one month." }),
         seg(13, 17, vin, "Production sequence number", vin.slice(12), { status: "standard" }),
       ],
       summary: { ...s, serial: vin.slice(12) },

@@ -88,7 +88,10 @@ function toyotaFamily(make: string, table: Record<string, [string, string]>, lin
           status: "filler",
           note: "Toyota and Lexus fill this with 0 on Australian-delivered cars. The build date is on the build or compliance plate.",
         }),
-        seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "Not decoded: on older Japanese-built Toyotas this is the start of a per-plant serial block." }),
+        // Numeric position 11 on JT VINs = a Japanese Toyota-group plant ("0-9 = TMC": Toyota 2006 VIN decoder
+        // in the Elroco folder; Wikibooks Toyota plant table "0-9 (All numeric) — Japan"); one digit does not name the plant.
+        seg(11, 11, vin, "Assembly plant", s.plant ?? (vin.startsWith("JT") && /[0-9]/.test(vin[10]) ? "Japan (Toyota group plant)" : null),
+          s.plant || (vin.startsWith("JT") && /[0-9]/.test(vin[10])) ? {} : { note: "Not yet confirmed." }),
       ],
       summary: s,
     };
