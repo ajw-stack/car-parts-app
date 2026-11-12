@@ -1106,7 +1106,7 @@
   "make": "Mitsubishi",
   "source": "requester-supplied real AU-road VIN, identified by author via 'XT_' prefix matching the confirmed XTGA(ASX)/XTGF(Outlander) family; exact model/trim NOT confirm",
   "year": 2012,
-  "description": "ASX or Outlander (XT/ZH platform, unconfirmed which) XTCW (probable pre-facelift trim) N/A N/A N/A ",
+  "description": "Outlander CW (Mitsubishi model code CW5W: 2.4 4B12, CVT, wagon) - per Mitsubishi Outlander service-manual VIN charts and HK recall 10000498",
   "user_supplied": true
  },
  {
@@ -1114,7 +1114,7 @@
   "make": "Mitsubishi",
   "source": "requester-supplied real AU-road VIN, identified by author via 'L_' prefix matching the confirmed LYV Pajero family; exact generation/trim NOT confirmed",
   "year": 2010,
-  "description": "Pajero (probable, unconfirmed generation) LTCX N/A N/A N/A ",
+  "description": "Lancer Sportback CX (model code CX4A: 2.0 4B11, CVT) - per Mitsubishi Lancer Sportback service-manual VIN charts",
   "user_supplied": true
  },
  {

@@ -174,8 +174,8 @@ export const mazda: MakeRule = {
 // ── Mitsubishi (JMF/JMY/JA4 Japan, MMA/MMB/MMC/MMT Thailand, 6MM Adelaide) ────────
 // Model code at 4–7/8; 9 is not a check digit; 10 IS a real model year (confirmed on 12+ AU VINs).
 const MITSUBISHI: Record<string, Hit> = {
-  XTGA: ["ASX", "XC"], XTGF: ["Outlander", "ZL"], XT: ["ASX / Outlander", "XA–ZL platform"],
-  LYV: ["Pajero", "NM–NS"], L: ["Pajero", "Pajero family"],
+  // XT / L prefix guesses removed 2026-11-12: position 4 is the body and 5 the transmission, so the
+  // model line is positions 6-7 (see decodeJmf). L is also used by the Lancer Sportback.
   SRCK: ["Lancer", "CE"], SNCY: ["Lancer", "CJ"],
   ENKA: ["Triton", "ML"], JNKB: ["Triton", "MN"], YLKK: ["Triton", "MR"], GUKS: ["Pajero Sport", "QE"],
   TH: ["Magna", "TH"], DB: ["380", "DB"],
@@ -188,7 +188,8 @@ const MITSUBISHI: Record<string, Hit> = {
 // E/Y also by Manheim listings + Mitsubishi body-builder guides; 6G74 = 9 by two parts catalogues.
 // Held back: 5 = 4G64 petrol (one catalogue), Y at position 5, plant F, the 2024 MV, Pajero Sport.
 const TRITON_BODY: Record<string, string> = { J: "Double cab", C: "Club cab", E: "Single cab", Y: "Single cab" };
-const TRITON_TRANS_OLD: Record<string, string> = { N: "5-speed manual", R: "4-speed automatic" };   // ML/MN
+// Y = 5-speed automatic added 2026-11-12 (Mitsubishi L200 EU service manuals 2011, 2013, 2015 VIN charts).
+const TRITON_TRANS_OLD: Record<string, string> = { N: "5-speed manual", R: "4-speed automatic", Y: "5-speed automatic" };   // ML/MN
 const TRITON_TRANS_NEW: Record<string, string> = { J: "6-speed manual", L: "6-speed automatic" };   // MQ/MR
 const TRITON_DRIVE_OLD: Record<string, string> = { A: "2WD", B: "4WD" };
 const TRITON_DRIVE_NEW: Record<string, string> = { K: "2WD high-rider", L: "4WD" };
@@ -200,7 +201,11 @@ const TRITON_ENGINE_OLD: Record<string, { name: string; litres: string; fuel: st
 const TRITON_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: string; cyl: string }> = {
   "1": { name: "2.4L turbo diesel (4N15)", litres: "2.4", fuel: "Diesel", cyl: "4" },
 };
-const TRITON_PLANT: Record<string, string> = { D: "MMC Sittipol, Thailand", H: "Laem Chabang, Thailand" };
+// D/F: the L200 EU manuals (2011, 2013, 2015) give "D Laemchabang-2, F Laemchabang-1"; the 2006 Thai manual
+// names D as MMC Sittipol (Mitsubishi's Thai company, which runs the Laem Chabang plants).
+const TRITON_PLANT: Record<string, string> = {
+  D: "Laem Chabang plant 2 (MMC Sittipol), Thailand", F: "Laem Chabang plant 1, Thailand", H: "Laem Chabang, Thailand",
+};
 
 function decodeTriton(vin: string, s: Partial<VinSummary>, series: string | null): VinSegment[] {
   const newGen = vin[6] === "K" || vin[6] === "L";          // MQ/MR use K/L at position 7
@@ -224,6 +229,93 @@ function decodeTriton(vin: string, s: Partial<VinSummary>, series: string | null
   ];
 }
 
+// ── Japan-built general-export layout (JMF/JMY/JMB), added 2026-11-12 ─────────────
+// Mitsubishi service-manual VIN charts (Pajero 2001 Europe, Pajero 2003 "General Export and Australia",
+// Pajero IV 2008/2010, Lancer 2008/2010, Lancer Sportback 2009/2010, Outlander 2008/2010/2012/2016/2019,
+// ASX 2013/2019, Evo VII), corroborated by the Hong Kong Transport Department recall list 10000498
+// (VIN prefixes per model code) and Australian listings. 4 body, 5 transmission, 6-7 model line,
+// 8 engine (per line), 9 sort (not a check digit). Positions 6-9 together are Mitsubishi's model code.
+type MEng = { name: string; litres: string; fuel: string; cyl: string };
+const ME = (name: string, litres: string, fuel: string, cyl: string): MEng => ({ name, litres, fuel, cyl });
+const JMF_LINE: Record<string, { model: string; series: string; engines: Record<string, MEng> }> = {
+  V7: { model: "Pajero", series: "V7 long wheelbase", engines: {
+    "5": ME("3.5L V6 petrol (6G74)", "3.5", "Petrol", "6"), "8": ME("3.2L turbo diesel (4M41)", "3.2", "Diesel", "4") } },
+  V9: { model: "Pajero", series: "V9 long wheelbase", engines: {
+    "7": ME("3.8L V6 petrol (6G75)", "3.8", "Petrol", "6"), "8": ME("3.2L turbo diesel (4M41)", "3.2", "Diesel", "4") } },
+  CY: { model: "Lancer", series: "CY sedan", engines: { "4": ME("2.0L petrol (4B11)", "2.0", "Petrol", "4") } },
+  CX: { model: "Lancer Sportback", series: "CX", engines: { "4": ME("2.0L petrol (4B11)", "2.0", "Petrol", "4") } },
+  CW: { model: "Outlander", series: "CW", engines: { "5": ME("2.4L petrol (4B12)", "2.4", "Petrol", "4") } },
+  GA: { model: "ASX", series: "GA", engines: { "2": ME("2.0L petrol (4B11)", "2.0", "Petrol", "4") } },
+  GF: { model: "Outlander", series: "GF", engines: {
+    "2": ME("2.0L petrol (4B11)", "2.0", "Petrol", "4"), "3": ME("2.4L petrol (4B12)", "2.4", "Petrol", "4"),
+    "7": ME("2.0L petrol (4J11)", "2.0", "Petrol", "4"), "8": ME("2.4L petrol (4J12 MIVEC)", "2.4", "Petrol", "4") } },
+};
+const JMF_TRANS: Record<string, string> = { N: "5-speed manual", R: "4-speed automatic", Y: "5-speed automatic", T: "CVT" };
+const JMF_SORT: Record<string, string> = { A: "Passenger car", W: "Station wagon" };
+function jmfBody(vin: string, line: string): string | null {
+  const b = vin[3];
+  if (b === "S") return "4-door sedan";
+  if (b === "X") return "4-door with tailgate";
+  if (b === "L") return line === "CX" ? "4-door with tailgate (Sportback)" : line === "V7" || line === "V9" ? "5-door" : null;
+  return null;
+}
+function decodeJmf(vin: string, s: Partial<VinSummary>): VinSegment[] | null {
+  const lineCode = vin.slice(5, 7), line = JMF_LINE[lineCode];
+  if (!line) return null;
+  s.model = line.model; s.series = line.series;
+  const body = jmfBody(vin, lineCode); if (body) s.body = body;
+  const trans = JMF_TRANS[vin[4]] ?? null; if (trans) s.transmission = trans;
+  const eng = line.engines[vin[7]];
+  if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel, engineCylinders: eng.cyl });
+  const sort = JMF_SORT[vin[8]] ?? null;
+  return [
+    seg(4, 4, vin, "Body style", body, body ? {} : { note: "Not yet confirmed." }),
+    seg(5, 5, vin, "Transmission", trans, trans ? {} : { note: "Not yet confirmed." }),
+    seg(6, 7, vin, "Model line", `${line.model} (${line.series})`),
+    seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This engine digit is not yet confirmed for this model line." }),
+    seg(9, 9, vin, "Vehicle type", sort, sort ? { note: "Not a check digit on Mitsubishis." } : { note: "Not a check digit; this letter is not yet confirmed." }),
+  ];
+}
+
+// Pajero Sport QE (Thai-built MMA, position 6 K, position 7 R/S): Pajero Sport 2016 and 2017 service-manual
+// supplements + Grays listings for the Australian test VINs.
+function decodePajeroSport(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  s.model = "Pajero Sport"; s.series = "QE";
+  const trans = vin[4] === "U" ? "8-speed automatic" : null; if (trans) s.transmission = trans;
+  const drive = vin[6] === "R" ? "2WD" : vin[6] === "S" ? "4WD" : null; if (drive) s.drive = drive;
+  const eng = vin[7] === "1";
+  if (eng) Object.assign(s, { engine: "2.4L turbo diesel (4N15)", engineLitres: "2.4", fuel: "Diesel", engineCylinders: "4" });
+  return [
+    seg(4, 4, vin, "Body", vin[3] === "G" ? "Wide fender" : null),
+    seg(5, 5, vin, "Transmission", trans),
+    seg(6, 6, vin, "Vehicle line", "Pajero Sport"),
+    seg(7, 7, vin, "Drive", drive),
+    seg(8, 8, vin, "Engine", eng ? "2.4L turbo diesel (4N15)" : null),
+    seg(9, 9, vin, "Fixed character", null, { status: "filler", note: "Mitsubishi's manual lists it as having no meaning (always 0)." }),
+  ];
+}
+
+// 380 DB (6MM): MMAL parts catalogue DB-06-39-G "Vehicle identification" + Wikibooks Mitsubishi layout.
+const DB_ENGINE: Record<string, string> = { "1": "3.8L V6 petrol, 5-speed manual", "4": "3.8L V6 petrol, 5-speed automatic" };
+const DB_GRADE: Record<string, string> = { D: "380 / ES", V: "VR-X (SX / VR-X on Series II/III)", X: "GT", H: "LS / LX" };
+function decode380(vin: string, s: Partial<VinSummary>): VinSegment[] {
+  const e = DB_ENGINE[vin[5]] ?? null;
+  if (e) Object.assign(s, { engine: "3.8L V6 petrol", engineLitres: "3.8", fuel: "Petrol", engineCylinders: "6",
+    transmission: vin[5] === "1" ? "5-speed manual" : "5-speed automatic" });
+  const g = DB_GRADE[vin[6]] ?? null; if (g) s.trim = g;
+  const body = vin.slice(7, 9) === "41" ? "4-door sedan" : null; if (body) s.body = body;
+  return [
+    seg(4, 5, vin, "Series", "380 (DB)"),
+    seg(6, 6, vin, "Engine / transmission", e, e ? {} : { note: "Not yet confirmed." }),
+    seg(7, 7, vin, "Grade", g, g ? {} : { note: "Not yet confirmed." }),
+    seg(8, 9, vin, "Body type", body, body ? { note: "Positions 8-9 are the body, so there is no check digit." } : { note: "Not yet confirmed." }),
+  ];
+}
+
+const MITSU_PLANT: Record<string, string> = {
+  H: "Laem Chabang, Thailand", J: "Nagoya-3 (Pajero Manufacturing), Japan", U: "Mizushima, Japan", Z: "Okazaki, Japan",
+};
+
 export const mitsubishi: MakeRule = {
   id: "mitsubishi", make: "Mitsubishi", wmis: ["JMF", "JMY", "JMB", "JA4", "MMA", "MMB", "MMC", "MMT", "6MM"],
   checkDigit: "no", modelYear: "yes",
@@ -239,6 +331,24 @@ export const mitsubishi: MakeRule = {
       triton.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "This Triton plant letter is not yet confirmed." }));
       return { segments: triton, summary: s };
     }
+    const tail = (out: VinSegment[]) => {
+      const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
+      out.push(seg(10, 10, vin, "Model year", y ? String(y) : null));
+      out.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "Not yet confirmed." }));
+      return { segments: out, summary: s };
+    };
+    if (/^MM[AB]/.test(vin) && vin[5] === "K" && (vin[6] === "R" || vin[6] === "S")) {
+      s.plant = MITSU_PLANT[vin[10]] ?? null;
+      return tail(decodePajeroSport(vin, s));
+    }
+    if (/^JM[FYB]/.test(vin)) {
+      const j = decodeJmf(vin, s);
+      if (j) { s.plant = MITSU_PLANT[vin[10]] ?? null; return tail(j); }
+    }
+    if (vin.startsWith("6MMDB")) {
+      s.model = "380"; s.series = "DB"; s.plant = "Tonsley Park, South Australia";
+      return tail(decode380(vin, s));
+    }
     const len = hit ? Math.max(hit[0].length, 1) : 4;
     const out: VinSegment[] = [seg(4, 3 + len, vin, "Model / series code", hit ? `${hit[1][0]} (${hit[1][1]})` : null, {
       note: hit && hit[0].length <= 2 ? "Matched on the model-family prefix only; exact variant not confirmed." : undefined,
@@ -247,11 +357,7 @@ export const mitsubishi: MakeRule = {
     const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
     out.push(seg(9, 9, vin, "Check digit", "Not used by Mitsubishi on Australian-delivered vehicles", { status: "standard" }));
     out.push(seg(10, 10, vin, "Model year", y ? String(y) : null));
-    // Plant letters from Mitsubishi's own NHTSA filing (MC-10244842: "11. Assembly Plant H = Laem Chaban-3
-    // (Thailand) J = Nagoya-3 (Japan) U = Mizushima (Japan) Z = Okazaki (Japan)") + Australian recall lists.
-    const MITSU_PLANT: Record<string, string> = {
-      H: "Laem Chabang, Thailand", J: "Nagoya-3 (Pajero Manufacturing), Japan", U: "Mizushima, Japan", Z: "Okazaki, Japan",
-    };
+    // Plant letters: Mitsubishi NHTSA filing MC-10244842 + the service-manual VIN charts + AU recall lists.
     if (vin.startsWith("6MM")) s.plant = "Tonsley Park, South Australia";
     else s.plant = MITSU_PLANT[vin[10]] ?? null;
     out.push(seg(11, 11, vin, "Assembly plant", s.plant ?? null, s.plant ? {} : { note: "Not yet confirmed." }));
