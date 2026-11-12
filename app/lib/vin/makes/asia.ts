@@ -60,6 +60,25 @@ const MAZDA_ENGINE_NEW: Record<string, { name: string; litres: string; fuel: str
 const MAZDA_ENGINE_OLD_BM: Record<string, { name: string; litres: string; fuel: string }> = {
   "3": { name: "2.5L SKYACTIV-G petrol (PY)", litres: "2.5", fuel: "Petrol" },
 };
+// Older "Australian specs" layout (KE, GJ, GL, BK, DE; added 2026-11-12): two Mazda manuals in the Elroco
+// folder (CX-5 KE and Mazda2 DE VIN pages): 6 body (1 = closed body), 7 dummy 0, 9 minor change code.
+// KE 3 = 2.5 petrol (Carlins JM0KE103200401861 engine PY…, easyauto123 KE1031 2.5); KE 9: 1 Series 1,
+// 2 Series 2 (manual + listing model codes KE1031/KE1032). BK R = 2.0 MZR-CD diesel (recall REC-003069
+// diesel VIN range + Carbids JM0BK10R… engine RF…).
+const MAZDA_OLD_BODY: Record<string, string> = { "1": "Closed body" };
+const MAZDA_KE_EXTRA: Record<string, { name: string; litres: string; fuel: string }> = {
+  "3": { name: "2.5L SKYACTIV-G petrol (PY)", litres: "2.5", fuel: "Petrol" },
+};
+const MAZDA_BK_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
+  R: { name: "2.0L MZR-CD turbo diesel (RF)", litres: "2.0", fuel: "Diesel" },
+};
+// Mazda3 BM/BN: the Mazda Australia model code (e.g. BM5438) is VIN positions 4-9. 7 body (4 hatch,
+// 2 sedan), 8 engine, 9 transmission (6 manual, 8 automatic). Dealer listings with VIN + body + gearbox
+// (Madman Motors, Carlins, Morrow Mazda, Car City, Southern VW) + mazda3revolution forum.
+const MAZDA_BM_BODY: Record<string, string> = { "4": "Hatch", "2": "Sedan" };
+const MAZDA_BM_TRANS: Record<string, string> = { "6": "Manual (6-speed)", "8": "Automatic (6-speed)" };
+// MX-5 NC: F = 2.0 (MX-5 Club of Victoria decoder sheet + MX-5 World registry VIN).
+// BT-50 UN: W = 2.5 WL-AT, E = 3.0 WE-AT turbo diesel (wrecker/dealer VINs + parts catalogues).
 // Newer layout position 9: A = automatic, 6 = manual (recall REC-884 MX-5 automatic list + listings).
 const MAZDA_TRANS_NEW: Record<string, string> = { A: "Automatic", "6": "Manual" };
 
@@ -79,19 +98,51 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
       seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
     ];
   }
-  if (MAZDA_OLD_LAYOUT.has(code)) {
-    const eng = MAZDA_ENGINE[vin[7]] ?? (code === "BM" || code === "BN" ? MAZDA_ENGINE_OLD_BM[vin[7]] : undefined); fill(eng);
+  if (code === "BM" || code === "BN") {
+    const eng = MAZDA_ENGINE[vin[7]] ?? MAZDA_ENGINE_OLD_BM[vin[7]]; fill(eng);
+    const body = MAZDA_BM_BODY[vin[6]] ?? null; if (body) s.body = body;
+    const tr = MAZDA_BM_TRANS[vin[8]] ?? null; if (tr) s.transmission = tr;
     return [
-      seg(6, 7, vin, "Body / descriptor", null, { note: "Mazda sub-code — not decoded." }),
+      seg(6, 6, vin, "Descriptor", null, { note: "Always 5 on Australian Mazda3 BM/BN; meaning not published." }),
+      seg(7, 7, vin, "Body", body, body ? {} : { note: "Not yet confirmed." }),
       seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
+      seg(9, 9, vin, "Transmission", tr, tr ? { note: "Not a check digit on Mazdas." } : { note: "Not yet confirmed." }),
+    ];
+  }
+  if (MAZDA_OLD_LAYOUT.has(code) || code === "BK" || code === "DE") {
+    const eng = code === "BK" ? MAZDA_BK_ENGINE[vin[7]] : MAZDA_ENGINE[vin[7]] ?? (code === "KE" ? MAZDA_KE_EXTRA[vin[7]] : undefined); fill(eng);
+    const body = MAZDA_OLD_BODY[vin[5]] ?? null;
+    const minor = code === "KE" ? ({ "1": "KE Series 1", "2": "KE Series 2" } as Record<string, string>)[vin[8]] ?? null : null;
+    if (minor) s.series = minor;
+    return [
+      seg(6, 6, vin, "Body", body, body ? {} : { note: "Not yet confirmed." }),
+      seg(7, 7, vin, "Dummy", null, { status: "filler", note: "Always 0 on Australian-spec Mazdas (Mazda workshop manual)." }),
+      seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "This Mazda engine code is not yet confirmed." }),
+      seg(9, 9, vin, "Minor change code", minor ?? vin[8], { status: minor ? undefined : "standard", note: "Mazda's facelift / update counter, not a check digit." }),
+    ];
+  }
+  if (code === "NC" && vin[7] === "F") {
+    Object.assign(s, { engine: "2.0L petrol (LF)", engineLitres: "2.0", fuel: "Petrol" });
+    return [
+      seg(6, 7, vin, "Body / descriptor", null, { note: "Not decoded." }),
+      seg(8, 8, vin, "Engine", "2.0L petrol (LF)"),
+    ];
+  }
+  if (code === "UN" && (vin[7] === "W" || vin[7] === "E")) {
+    const e = vin[7] === "W" ? { name: "2.5L turbo diesel (WL-AT)", litres: "2.5" } : { name: "3.0L turbo diesel (WE-AT)", litres: "3.0" };
+    Object.assign(s, { engine: e.name, engineLitres: e.litres, fuel: "Diesel" });
+    return [
+      seg(6, 7, vin, "Body / descriptor", null, { note: "Not decoded (same letter on every cab style)." }),
+      seg(8, 8, vin, "Engine", e.name),
     ];
   }
   if (code === "UR" && vin[7] === "G") {
-    // BT-50 UR: G on the XT freestyle cab-chassis 3.2 auto (cars24) and the GT dual-cab 3.2 auto (Cars4Us).
-    Object.assign(s, { engine: "3.2L turbo diesel", engineLitres: "3.2", fuel: "Diesel", transmission: "Automatic" });
+    // BT-50 UR: G = 3.2 turbo diesel. The same model code UR0YG1 appears on manual and automatic 3.2s
+    // (motorvehiclewholesale listings; recall REC-000886 VIN list), so G does not give the gearbox.
+    Object.assign(s, { engine: "3.2L turbo diesel", engineLitres: "3.2", fuel: "Diesel" });
     return [
       seg(6, 7, vin, "Body / descriptor", null, { note: "Not decoded." }),
-      seg(8, 8, vin, "Engine / transmission", "3.2L turbo diesel, automatic"),
+      seg(8, 8, vin, "Engine", "3.2L turbo diesel"),
     ];
   }
   return [seg(6, 8, vin, "Body / engine / grade", null, { note: "Mazda sub-code — no published table; not decoded." })];
@@ -104,13 +155,15 @@ export const mazda: MakeRule = {
     const s: Partial<VinSummary> = { make: "Mazda" };
     const h = MAZDA[vin.slice(3, 5)];
     if (h) { s.model = h[0]; s.series = h[1]; }
+    const desc = mazdaDescriptor(vin, s);
     return {
       segments: [
         seg(4, 5, vin, "Model code", h ? `${h[0]} (${h[1]})` : null),
-        ...mazdaDescriptor(vin, s),
-        MAZDA_NEW_LAYOUT.has(vin.slice(3, 5)) && MAZDA_TRANS_NEW[vin[8]]
-          ? seg(9, 9, vin, "Transmission", MAZDA_TRANS_NEW[vin[8]], { note: "Not a check digit on Mazdas." })
-          : seg(9, 9, vin, "Check digit", "Not used by Mazda on Australian-delivered vehicles", { status: "standard" }),
+        ...desc,
+        ...(desc.some((d) => d.from === 9) ? []
+          : MAZDA_NEW_LAYOUT.has(vin.slice(3, 5)) && MAZDA_TRANS_NEW[vin[8]]
+          ? [seg(9, 9, vin, "Transmission", MAZDA_TRANS_NEW[vin[8]], { note: "Not a check digit on Mazdas." })]
+          : [seg(9, 9, vin, "Check digit", "Not used by Mazda on Australian-delivered vehicles", { status: "standard" })]),
         seg(10, 10, vin, "Model year", null, { status: "filler", note: "Mazda does not encode the model year here on Australian-delivered cars (usually 0)." }),
       ],
       summary: s,
@@ -257,6 +310,8 @@ const NISSAN_GROUP: Record<string, NV> = {
   "J11:FBA": { body: "Hatch / SUV", engine: "2.0L petrol (MR20DD)", litres: "2.0", fuel: "Petrol", drive: "2WD" },
   "B17:BAA": { body: "Sedan", engine: "1.8L petrol (MRA8DE)", litres: "1.8", fuel: "Petrol" },
   "B17:BCA": { body: "Sedan", engine: "1.6L turbo petrol (MR16DDT)", litres: "1.6", fuel: "Petrol" },
+  // Altima L33 BCA: sedan 2.5 QR25DE CVT FWD (Auto Xchange WA listing MNTBCAL33A0000597 + Machter fitment).
+  "L33:BCA": { body: "Sedan", engine: "2.5L petrol (QR25DE), CVT", litres: "2.5", fuel: "Petrol", drive: "2WD" },
   "K13:FBU": { body: "Hatch", engine: "1.2L petrol (HR12DE)", litres: "1.2", fuel: "Petrol" },
   "K13:FAU": { body: "Hatch", engine: "1.5L petrol (HR15DE)", litres: "1.5", fuel: "Petrol" },
 };

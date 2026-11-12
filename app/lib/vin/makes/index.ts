@@ -8,7 +8,7 @@ import { mercedes } from "./mercedes";
 import { honda, landRover, subaru } from "./japan-uk";
 import { isuzu, lexus, privateImport, toyota } from "./toyota";
 import { hyundai, kia, mazda, mitsubishi, nissan, nissanUS, suzuki } from "./asia";
-import { fcaNorthAmerica, fordAustralia, fordThailand } from "./ford-fca";
+import { fcaNorthAmerica, fordAustralia, fordBrazil, fordThailand } from "./ford-fca";
 import { bmw, holdenKorea, renault } from "./others";
 import { byd, chery, gwm, ldv, mg } from "./china";
 import { tesla } from "./tesla";
@@ -20,7 +20,7 @@ export const MAKE_RULES: MakeRule[] = [
   subaru, honda, landRover,
   toyota, lexus, isuzu, privateImport,
   mazda, mitsubishi, nissan, nissanUS, suzuki, hyundai, kia,
-  fordAustralia, fordThailand, fcaNorthAmerica,
+  fordAustralia, fordThailand, fordBrazil, fcaNorthAmerica,
   holdenKorea, bmw, renault,
   mg, ldv, gwm, byd, chery, tesla,
 ];
