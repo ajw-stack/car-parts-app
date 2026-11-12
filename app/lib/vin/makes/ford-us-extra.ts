@@ -56,17 +56,31 @@ const RG_ENGINE_PX: Record<string, Eng> = {
   "2": { name: "2.2L 4-cyl turbo diesel (mid-power version)", litres: "2.2", cyl: "4", fuel: "Diesel", note: "Ford workshop manual 100-01-11." },
   "8": { name: "2.2L 4-cyl turbo diesel (high-power version)", litres: "2.2", cyl: "4", fuel: "Diesel", note: "Ford workshop manual 100-01-11; Australian listings agree (e.g. carsguide 15244089, 14869766)." },
   "5": { name: "3.2L 5-cyl turbo diesel", litres: "3.2", cyl: "5", fuel: "Diesel", note: "Ford workshop manual 100-01-11; Australian listings agree (e.g. carsguide 15173346)." },
+  // 6: every PX Ranger on the 10R80 transmission recalls REC-000320 / REC-006683 (~19,400 VINs) carries 6, and
+  // Ford pairs the 10-speed only with the new 2.0 bi-turbo (Fleet Auto News MY19 Ranger) + listings.
+  "6": { name: "2.0L 4-cyl bi-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "10R80 recall VIN lists REC-000320 / REC-006683 + Australian listings." },
 };
 // HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
 // second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
-// Pending: "6" = 2.0 bi-turbo diesel (PX MkIII).
+// Second sources found 2026-11-13 (Australian recall VIN lists, independent of the listings):
 // Next-Gen (airbag letter C, 2022+): all from [CG]; 9 vs 6 split cross-checked with [SPEC]
 // (XL Hi-Rider 4x2 listings carry 9 and the spec sheet gives that variant only the single-turbo engine).
 // HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
 // second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
-// Pending Next-Gen engine codes: 6 = 2.0 bi-turbo, 9 = 2.0 single-turbo, 7 = 3.0 V6 diesel,
-// 1 = 3.0 V6 petrol (Raptor), 2 = 2.3 petrol PHEV.
-const RG_ENGINE_NEXTGEN: Record<string, Eng> = {};
+// Next-Gen engines — listings + Australian recall VIN lists (2026-11-13):
+// 7: REC-006341 "3.0L Lion engine" — every Next-Gen Ranger on its 13,490-VIN list is 7.
+// 6: REC-005759 (2.0 Bi-Turbo e-Shifter software recall) — all 3,532 Next-Gen Rangers are 6.
+// 9: REC-006705 (MY26.5, built from 26 Nov 2025) — 6 drops to one vehicle and 9 rises to 1,654 as Ford replaced
+//    the bi-turbo with the revised single-turbo (MyNRMA MY26). 9 covers two engine versions (see note).
+// 2: REC-006572 (2.3 EcoBoost EGR) — all 44 Rangers are AFA…2 (PHEV, Silverton).
+// Held back: 1 (Raptor 3.0 V6 petrol) — only shown by elimination, no recall names it alone.
+const RG_ENGINE_NEXTGEN: Record<string, Eng> = {
+  "6": { name: "2.0L 4-cyl bi-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "Recall REC-005759 VIN list + Australian listings." },
+  "9": { name: "2.0L 4-cyl single-turbo diesel (two versions — check the build date)", litres: "2.0", cyl: "4", fuel: "Diesel",
+    note: "Recall REC-006705 VIN list + listings + MyNRMA. Parts warning: from MY26.5 (built from late Nov 2025) this is a revised engine with a timing chain and new fuel injection, replacing the earlier wet-belt single-turbo — engine parts differ, so confirm the build date." },
+  "7": { name: "3.0L V6 turbo diesel (Lion)", litres: "3.0", cyl: "6", fuel: "Diesel", note: "Recall REC-006341 (3.0L Lion engine) VIN list + Australian listings." },
+  "2": { name: "2.3L 4-cyl petrol plug-in hybrid (Ranger PHEV)", litres: "2.3", cyl: "4", fuel: "Petrol / plug-in hybrid", note: "Recall REC-006572 VIN list (2.3 EcoBoost; all Rangers on it are PHEVs) + listings." },
+};
 const RG_PLANT: Record<string, string> = {
   W: "AutoAlliance Thailand (Rayong)", // [FWM] 100-01-12
   X: "Ford Thailand Manufacturing (FTM)", // WMI MPB = Ford Thailand Manufacturing (Wikibooks Ford WMI list); X on every MPB listing
@@ -77,9 +91,16 @@ const RG_PLANT: Record<string, string> = {
  *  C, D, E → only "PX"; F → both "PX" and "PX MkII"; G, H → only "PX MkII"; J → both MkII and MkIII;
  *  K–N → only "PX MkIII". Engine 6 (2.0 bi-turbo) exists only in PX MkIII. */
 function pxSeries(year: number | null, eng: string): string | null {
-  // The PX / PX MkII / PX MkIII split by production year comes from listings only — held back (see HOLD note).
-  void eng;
-  return year ? "PX family (PX, PX MkII or PX MkIII — check the build plate)" : null;
+  // ANCAP (PX rating Mar 2014 – Aug 2015; PX II from 09/2015; PX III "introduced in 2018") + listings
+  // + the 10R80 recall lists (2.0 bi-turbo = MkIII only, including a few 2017-year builds).
+  if (!year) return null;
+  if (eng === "6") return "PX MkIII";
+  if (year >= 2011 && year <= 2014) return "PX";
+  if (year === 2015) return "PX or PX MkII (2015 change-over — check the build plate)";
+  if (year === 2016 || year === 2017) return "PX MkII";
+  if (year === 2018) return "PX MkII or PX MkIII (2018 change-over — check the build plate)";
+  if (year >= 2019 && year <= 2022) return "PX MkIII";
+  return null;
 }
 
 function isRangerLayout(vin: string): boolean {
@@ -148,13 +169,15 @@ function decodeEverest(vin: string, s: Partial<VinSummary>): VinSegment[] {
   let series = gen;
   if (gen === "UA / UA II" && year) {
     // Listing evidence: F, G, H only "UA"; J both; K–N only "UA II".
-    series = year <= 2017 ? "UA" : year === 2018 ? "UA or UA II (2018 change-over — check the build plate)" : "UA II";
+    // ANCAP: Everest introduced Oct 2015, updated (UA II) Aug 2018; REC-000320 shows a few 2017-year Everests
+    // already on the UA II 10-speed, so 2017 is shown as either.
+    series = year <= 2016 ? "UA" : year <= 2018 ? "UA or UA II (change-over — check the build plate)" : "UA II";
   }
   if (series) s.series = series;
   if (year) s.modelYear = year;
   return [
     seg(4, 10, vin, "Model / generation block", gen ? `Everest ${series}` : null, gen
-      ? { note: "Decoded as one block from Australian listings. Engine and drive are not carried in an Everest VIN." }
+      ? { note: "Decoded as one block (Australian recall VIN lists + listings). Engine and drive are not carried in an Everest VIN." }
       : { note: "Not a confirmed Everest code block." }),
     seg(11, 11, vin, "Year of production", year ? String(year) : null, { status: "standard" }),
     seg(12, 12, vin, "Month of production", null, { note: "Ford month letter; the letter table for these years is not confirmed." }),
@@ -165,8 +188,9 @@ function decodeEverest(vin: string, s: Partial<VinSummary>): VinSegment[] {
 /** Full replacement rule for Ford Thailand / South Africa Rangers and Everests (MNA, MPB, AFA). */
 export const fordRangerEverest: MakeRule = {
   id: "ford-ranger-everest", make: "Ford", wmis: ["MNA", "MPB", "AFA"],
-  // Everest code blocks are listing-only for now (held back); Everests fall through to the generic Thai rule.
-  match: (vin) => isRangerLayout(vin),
+  // Everest blocks confirmed 2026-11-13: AXXMAWA on every Everest in the 10R80 recalls (UA II), RXXMAWR on
+  // every Next-Gen Everest in REC-006341 / 005759 / 006358 / 006748.
+  match: (vin) => isRangerLayout(vin) || isEverestLayout(vin),
   checkDigit: "no", modelYear: "no",
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Ford" };
@@ -193,11 +217,19 @@ const MUSTANG_LINE_2015_17: Record<string, string> = {
 };
 // HELD BACK 2026-11-13 (lead): carsguide listings are one platform, so codes seen only there need a
 // second independent source (recall VIN lists, workshop manual, parts-catalogue VIN prefixes) before use.
-// Pending: 2018–23 N GT Fastback, L EcoBoost Fastback, E Mach 1; 2024+ N GT Fastback, P GT Convertible, E Dark Horse.
+// Still pending: 2018–23 L (EcoBoost Fastback) and E (Mach 1), 2019 V (Bullitt, by inference only).
+// Confirmed 2026-11-13 from Australian recall VIN lists REC-005468 / 006451 / 006471 / 006409 / 006712 / 006572,
+// each code always paired with the matching engine letter from Ford's own tables.
 const MUSTANG_LINE_RHD_2018_23: Record<string, string> = {
   P: "GT Convertible, right-hand drive", // [VPIC] 1FATP8PF2J5149036 = GT Convertible + [CG] listings
+  N: "GT Fastback, right-hand drive", // REC-005468: 1FA6P8NF, restraint 6 (Fastback) + engine F (GT)
 };
-const MUSTANG_LINE_RHD_2024: Record<string, string> = {};
+const MUSTANG_LINE_RHD_2024: Record<string, string> = {
+  N: "GT Fastback, right-hand drive", // REC-006712, always engine F (5.0 GT)
+  P: "GT Convertible, right-hand drive", // REC-006712, engine F with convertible restraint R
+  E: "Dark Horse, right-hand drive", // REC-006712, only ever engine 0 (Ford 2024 shop manual: Dark Horse 5.0)
+  L: "EcoBoost 2.3 Fastback, right-hand drive", // ~583 VINs 1FATP8LH; REC-006572 Mustangs are all L/H, "EcoBoost variants"
+};
 const MUSTANG_ENGINE: Record<string, [string, string, string]> = {
   F: ["5.0L V8 Ti-VCT petrol (Coyote)", "5.0", "8"], // [F565 2016, 2020] + [FSM 2024]
   H: ["2.3L 4-cyl turbo petrol (EcoBoost)", "2.3", "4"], // [F565 2016, 2020] + [FSM 2024]
@@ -221,7 +253,7 @@ export const fordUSCar: MakeRule = {
     let line: string | null = null; let lineNote = "";
     if (y && y <= 2017) { line = MUSTANG_LINE_2015_17[c] ?? null; lineNote = "Ford Part 565 filing (2016) and NHTSA decode."; }
     else if (y && y <= 2023) { line = MUSTANG_LINE_RHD_2018_23[c] ?? null; lineNote = "Australian right-hand-drive code (NHTSA decode + Australian listings)."; }
-    else if (y) { line = MUSTANG_LINE_RHD_2024[c] ?? null; lineNote = "Australian right-hand-drive code — confirmed from Australian listings; not in Ford's US filings."; }
+    else if (y) { line = MUSTANG_LINE_RHD_2024[c] ?? null; lineNote = "Australian right-hand-drive code (Australian recall VIN lists + listings)."; }
     if (y) s.series = y <= 2017 ? "S550 (listed as FM in Australia)" : y <= 2023 ? "S550 update (listed as FN in Australia)" : "S650 (listed as FO in Australia)";
     if (line) { s.trim = line.split(",")[0]; s.body = /Convertible/.test(line) ? "Convertible" : /Fastback/.test(line) ? "Fastback (coupe)" : null; }
     const e = MUSTANG_ENGINE[vin[7]];
@@ -277,21 +309,18 @@ export function fordEuropeMonth(yearOfManufacture: number | null, letter: string
 // block is shared. Each entry was seen on 2+ independent Australian listings [CG] with that model,
 // and none contradicted it.
 type EuModel = { model: string; series?: (y: number | null) => string | null; body4?: Record<string, string> };
+// Kept only where Wikibooks' position-9 model letters (or a recall list) agree with the listings; series
+// names came from listings only, so only the model is decoded. Removed as contested: GCB, GCH, GCD, WPC, MXB.
 const EU_BLOCK: Record<string, EuModel> = {
-  GCB: { model: "Focus", series: () => "LW (Saarlouis-built)" },
-  GCH: { model: "Focus", series: () => "SA (Mk4)" },
-  WPM: { model: "Kuga / Escape", body4: { A: "Kuga TF or Escape ZG (2013–2019 generation)", F: "Escape ZH (2020 on)" } },
-  WPC: { model: "Mondeo", series: () => "MD" },
-  GBB: { model: "Mondeo", series: () => "MB / MC (Genk-built)" },
-  ERK: { model: "Puma", series: () => "JK" },
-  MXJ: { model: "Fiesta", series: () => "WZ (Thai-built)" },
-  ARJ: { model: "Fiesta", series: () => "WT / WZ (Thai-built)" },
-  MXB: { model: "Focus", series: () => "LW (Thai-built)" },
-  MXC: { model: "Focus", series: () => "LZ (Thai-built)" },
-  MJD: { model: "Focus", series: () => "LS / LT / LV (South African-built)" },
-  GAJ: { model: "Fiesta", series: () => "WS / WQ (Cologne-built)" },
-  GAH: { model: "Fiesta", series: () => "WG (Cologne-built)" },
-  GCD: { model: "Kuga", series: () => "TE (Saarlouis-built)" },
+  WPM: { model: "Kuga / Escape" },
+  GBB: { model: "Mondeo" },
+  ERK: { model: "Puma" },
+  MXJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309 "FIESTA & RANGER"
+  ARJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309
+  MXC: { model: "Focus", series: () => "Thai-built" },
+  MJD: { model: "Focus", series: () => "South African-built" },
+  GAJ: { model: "Fiesta" },
+  GAH: { model: "Fiesta" },
 };
 
 function euYear(c: string): number | null {

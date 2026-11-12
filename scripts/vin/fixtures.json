@@ -5596,5 +5596,311 @@
   "source": "Supplied by the lead as a failing test VIN; model confirmed by AU recall REC-001437/REC-005553 LYVUZ pattern and vPIC plant B Chengdu",
   "description": "XC60 B6 mild hybrid AWD, MY2023, Chengdu",
   "user_supplied": true
+ },
+ {
+  "vin": "AFACMFF20SJ143370",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15272614",
+  "model": "Ranger",
+  "year": 2025,
+  "description": "2025 Ford Ranger Phev Stormtrak (4X4) - series Py My25.75, variant Phev Stormtrak (4X4), Ute Tray, 4 Doors, 5 Seats, drive 4X4, engine 4 cyl, 2.3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAMB14969",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14762889",
+  "model": "Everest",
+  "year": 2021,
+  "description": "2021 Ford Everest Trend (Rwd) - series Ua Ii My21.25, variant Trend (Rwd), SUV, 4 Doors, 7 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Auto Seq Sportshift (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAJA25592",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14806726",
+  "model": "Everest",
+  "year": 2018,
+  "description": "2018 Ford Everest Trend (4Wd 7 Seat) - series Ua Ii My19, variant Trend (4Wd 7 Seat), SUV, 4 Doors, 7 Seats, drive Four Wheel Drive, engine 4 cyl, 2 L, Auto Seq Sportshift (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWALD32047",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14898474",
+  "model": "Everest",
+  "year": 2020,
+  "description": "2020 Ford Everest Ambiente (Rwd) - series Ua Ii My20.75, variant Ambiente (Rwd), SUV, 4 Doors, 5 Seats, drive Rear Wheel Drive, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNARXXMAWRRK42642",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14929951",
+  "model": "Everest",
+  "year": 2024,
+  "description": "2024 Ford Everest Trend (4Wd) - series Ub My24.5, variant Trend (4Wd), SUV, 4 Doors, 7 Seats, drive Four Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNARXXMAWRNM25749",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15008484",
+  "model": "Everest",
+  "year": 2022,
+  "description": "2022 Ford Everest Ambiente (4X4) - series Ub My22, variant Ambiente (4X4), SUV, 4 Doors, 5 Seats, drive Four Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAKY16146",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15016351",
+  "model": "Everest",
+  "year": 2019,
+  "description": "2019 Ford Everest Trend (Rwd 7 Seat) - series Ua Ii My19.75, variant Trend (Rwd 7 Seat), SUV, 4 Doors, 7 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Auto Seq Sportshift (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAFU10596",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15033715",
+  "model": "Everest",
+  "year": 2015,
+  "description": "2015 Ford Everest Ambiente - series Ua, variant Ambiente, SUV, 4 Doors, 7 Seats, drive All Wheel Drive, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNARXXMAWRSC68180",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15042894",
+  "model": "Everest",
+  "year": 2025,
+  "description": "2025 Ford Everest Trend (4Wd) - series My25.50, variant Trend (4Wd), SUV, 4 Doors, 7 Seats, drive Four Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWANY93911",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15158139",
+  "model": "Everest",
+  "year": 2022,
+  "description": "2022 Ford Everest Trend (4Wd) - series Ua Ii My21.75, variant Trend (4Wd), SUV, 4 Doors, 7 Seats, drive Four Wheel Drive, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNARXXMAWRTS24947",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15193844",
+  "model": "Everest",
+  "year": 2026,
+  "description": "2026 Ford Everest Platinum (4Wd) - series My26, variant Platinum (4Wd), SUV, 4 Doors, 7 Seats, drive Four Wheel Drive, engine 6 cyl, 3 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAHM57363",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15294137",
+  "model": "Everest",
+  "year": 2017,
+  "description": "2017 Ford Everest Trend - series Ua My17, variant Trend, SUV, 4 Doors, 7 Seats, drive All Wheel Drive, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNARXXMAWRPD08118",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15306883",
+  "model": "Everest",
+  "year": 2023,
+  "description": "2023 Ford Everest Sport (Rwd) - series Ub My23.5, variant Sport (Rwd), SUV, 4 Doors, 7 Seats, drive Rear Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNAAXXMAWAGS14254",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15317284",
+  "model": "Everest",
+  "year": 2016,
+  "description": "2016 Ford Everest Trend - series Ua, variant Trend, SUV, 4 Doors, 7 Seats, drive All Wheel Drive, engine 5 cyl, 3.2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0AXXWPMAKY64037",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14731142",
+  "model": "Escape",
+  "year": 2019,
+  "description": "2019 Ford Escape Titanium (Awd) - series Zg My19.75, variant Titanium (Awd), SUV, 4 Doors, 5 Seats, drive All Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0FXXWPMFLS02460",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14840468",
+  "model": "Escape",
+  "year": 2021,
+  "description": "2021 Ford Escape Vignale (Awd) - series Zh My21.25, variant Vignale (Awd), SUV, 4 Doors, 5 Seats, drive All Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0ZXXTTGZKL65789",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15061184",
+  "model": "Transit Custom",
+  "year": 2019,
+  "description": "2019 Ford Transit Custom 340L (Lwb) - series Vn My19.75, variant 340L (Lwb), Commercial, 2 Doors, 3 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0YXXTTGYKM18222",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15268739",
+  "model": "Transit Custom",
+  "year": 2020,
+  "description": "2020 Ford Transit Custom 340L (Lwb) - series Vn My19.75, variant 340L (Lwb), Commercial, 2 Doors, 3 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPB3XXMXC3GG43084",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14932457",
+  "model": "Focus",
+  "year": 2016,
+  "description": "2016 Ford Focus Sport - series Lz, variant Sport, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "AFAUXXMJDU9A00584",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15299475",
+  "model": "Focus",
+  "year": 2009,
+  "description": "2009 Ford Focus Cl - series Lv, variant Cl, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "AFATXXMJDTAA00629",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15300785",
+  "model": "Focus",
+  "year": 2011,
+  "description": "2011 Ford Focus Lx - series Lv My11, variant Lx, Sedan, 4 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "AFACXXMJDC7L00172",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15349862",
+  "model": "Focus",
+  "year": 2007,
+  "description": "2007 Ford Focus Lx - series Ls, variant Lx, Sedan, 4 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "AFADXXMJDD8D00509",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15357161",
+  "model": "Focus",
+  "year": 2008,
+  "description": "2008 Ford Focus Lx - series Lt, variant Lx, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0HXXGAJH6B43961",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14455422",
+  "model": "Fiesta",
+  "year": 2006,
+  "description": "2006 Ford Fiesta Ghia - series Wq, variant Ghia, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.6 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNBJXXARJJCR84914",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14476734",
+  "model": "Fiesta",
+  "year": 2012,
+  "description": "2012 Ford Fiesta Cl - series Wt, variant Cl, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.6 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MPB8XXMXJ8HU74464",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14749581",
+  "model": "Fiesta",
+  "year": 2017,
+  "description": "2017 Ford Fiesta Sport - series Wz, variant Sport, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 3 cyl, 1 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNBAXXARJAAR21988",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14940752",
+  "model": "Fiesta",
+  "year": 2010,
+  "description": "2010 Ford Fiesta Lx - series Wt, variant Lx, Sedan, 4 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.6 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MNB8XXARJ8EU34793",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15059863",
+  "model": "Fiesta",
+  "year": 2014,
+  "description": "2014 Ford Fiesta Sport - series Wz, variant Sport, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 3 cyl, 1 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0JXXGAJJ8T80968",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15221589",
+  "model": "Fiesta",
+  "year": 2009,
+  "description": "2009 Ford Fiesta Lx - series Ws, variant Lx, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.4 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0GXXGAJG8Y85769",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15317521",
+  "model": "Fiesta",
+  "year": 2009,
+  "description": "2009 Ford Fiesta Cl - series Ws, variant Cl, Hatch, 3 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 1.4 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0JXXGAHJNL88552",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15339821",
+  "model": "Fiesta",
+  "year": 2022,
+  "description": "2022 Ford Fiesta St - series Wg My22, variant St, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 3 cyl, 1.5 L, Manual (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF02XXERK2MU76482",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/15230763",
+  "model": "Puma",
+  "year": 2021,
+  "description": "2021 Ford Puma St-Line - series Jk My22.25, variant St-Line, SUV, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 3 cyl, 1 L, Auto Dual Clutch (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0GXXGBBGEM76597",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14724564",
+  "model": "Mondeo",
+  "year": 2014,
+  "description": "2014 Ford Mondeo Lx Tdci - series Mc, variant Lx Tdci, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Direct Shift (carsguide.com.au listing)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WF0EXXGBBECS83226",
+  "make": "Ford",
+  "source": "https://www.carsguide.com.au/car/14870724",
+  "model": "Mondeo",
+  "year": 2013,
+  "description": "2013 Ford Mondeo Zetec - series Mc, variant Zetec, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
+  "user_supplied": false
  }
 ]
