@@ -4279,5 +4279,325 @@
   "description": "Atto 3 Standard/Extended Range (ANCAP boundary VIN)",
   "user_supplied": false,
   "make": "BYD"
+ },
+ {
+  "vin": "TMBMD9NS3K8040386",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003887 (REC-003887 - Volkswagen Group Australia Pty Ltd t/as Skoda Australia - SKODA KODIAQ; Australian recall VIN list)",
+  "model": "Kodiaq",
+  "description": "Skoda Kodiaq (NS, 1st generation)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBMD9NS6K8040124",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003887 (REC-003887 - Volkswagen Group Australia Pty Ltd t/as Skoda Australia - SKODA KODIAQ; Australian recall VIN list)",
+  "model": "Kodiaq",
+  "description": "Skoda Kodiaq (NS, 1st generation)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBMU9NS6N8011498",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005419 (REC-005419 - VOLKSWAGEN GROUP AUSTRALIA PTY LTD - SKODA Octavia, Superb and Kodiaq 2022; Australian recall VIN list)",
+  "model": "Kodiaq",
+  "description": "Skoda Kodiaq (NS) — listed under \"Octavia, Superb and Kodiaq\" recall, all VINs NS",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBEH61Z582208003",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001198 (REC-001198 - Skoda Australia - SKODA OCTAVIA 2007 - 2009; Australian recall VIN list)",
+  "model": "Octavia",
+  "description": "Skoda Octavia II (1Z)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBGK61Z892041163",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001198 (REC-001198 - Skoda Australia - SKODA OCTAVIA 2007 - 2009; Australian recall VIN list)",
+  "model": "Octavia",
+  "description": "Skoda Octavia II (1Z)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBKB93T5E9060131",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001200 (REC-001200 - Volkswagen Group Australia Pty Ltd t/as Skoda Australia - SKODA SUPERB II 2015 - 2018; Australian recall VIN list)",
+  "model": "Superb",
+  "description": "Skoda Superb II (3T)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBKF93TXF9010511",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001200 (REC-001200 - Volkswagen Group Australia Pty Ltd t/as Skoda Australia - SKODA SUPERB II 2015 - 2018; Australian recall VIN list)",
+  "model": "Superb",
+  "description": "Skoda Superb II (3T)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBME4NP1H7020714",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003777 (REC-003777 - Skoda Australia - SKODA SUPERB; Australian recall VIN list)",
+  "model": "Superb",
+  "description": "Skoda Superb III (NP)",
+  "user_supplied": false
+ },
+ {
+  "vin": "TMBFR6NJ8MZ072778",
+  "make": "Skoda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005025 (REC-005025 - VOLKSWAGEN GROUP AUSTRALIA PTY LTD - SKODA Fabia 2021; Australian recall VIN list)",
+  "model": "Fabia",
+  "description": "Skoda Fabia III (NJ)",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSSZZZK13RP005008",
+  "make": "Cupra",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006596 (REC-006596 - Volkswagen Group Australia Pty Ltd - Cupra Born 2022 - 2023; Australian recall VIN list)",
+  "model": "Born",
+  "description": "Cupra Born",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSSZZZK17PP034184",
+  "make": "Cupra",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006596 (REC-006596 - Volkswagen Group Australia Pty Ltd - Cupra Born 2022 - 2023; Australian recall VIN list)",
+  "model": "Born",
+  "description": "Cupra Born",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSSZZZKP4S1034448",
+  "make": "Cupra",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006614 (REC-006614 - Volkswagen Group Australia Pty Ltd - Cupra Terramar 2025; Australian recall VIN list)",
+  "model": "Terramar",
+  "description": "Cupra Terramar",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSSZZZKR6RA017985",
+  "make": "Cupra",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006687 (REC-006687 - Volkswagen Group Australia Pty Ltd - Cupra Tavascan 2024 - 2026; Australian recall VIN list)",
+  "model": "Tavascan",
+  "description": "Cupra Tavascan",
+  "user_supplied": false
+ },
+ {
+  "vin": "VSSZZZKMZNR060286",
+  "make": "Cupra",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005610 (REC-005610 - VOLKSWAGEN GROUP AUSTRALIA PTY LTD - Cupra Leon and Formentor 2021 - 2022; Australian recall VIN list)",
+  "model": "Formentor",
+  "description": "Cupra Formentor (KM) — recall covers Leon and Formentor; KM = Formentor per carsbat records",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP1ZZZ92ZDLA27807",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001147 (REC-001147 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE CAYENNE 2010 - 2016; Australian recall VIN list)",
+  "model": "Cayenne",
+  "description": "Porsche Cayenne 92A (958)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP1ZZZ92ZELA76918",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001147 (REC-001147 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE CAYENNE 2010 - 2016; Australian recall VIN list)",
+  "model": "Cayenne",
+  "description": "Porsche Cayenne 92A (958)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP1ZZZ95ZHLB08567",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001157 (REC-001157 - Porsche AG - PORSCHE MACAN 2013 - 2018; Australian recall VIN list)",
+  "model": "Macan",
+  "description": "Porsche Macan 95B",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP1ZZZ95ZHLB70995",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001157 (REC-001157 - Porsche AG - PORSCHE MACAN 2013 - 2018; Australian recall VIN list)",
+  "model": "Macan",
+  "description": "Porsche Macan 95B",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZ99ZNS264411",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005837 (REC-005837 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE 911 Carrera (992) 2021 - 2023; Australian recall VIN list)",
+  "model": "911",
+  "description": "Porsche 911 Carrera (992)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZ99ZNS266816",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005837 (REC-005837 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE 911 Carrera (992) 2021 - 2023; Australian recall VIN list)",
+  "model": "911",
+  "description": "Porsche 911 Carrera (992)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZY1ZNSA00200",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006030 (REC-006030 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE Taycan (Y1A / Y1B / Y1C) 2019 - 2024; Australian recall VIN list)",
+  "model": "Taycan",
+  "description": "Porsche Taycan (Y1A/Y1B/Y1C)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZY1ZPSA03185",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006030 (REC-006030 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE Taycan (Y1A / Y1B / Y1C) 2019 - 2024; Australian recall VIN list)",
+  "model": "Taycan",
+  "description": "Porsche Taycan (Y1A/Y1B/Y1C)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZYAZSL000677",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006455 (REC-006455 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE Panamera (YAA) 2023 - 2025; Australian recall VIN list)",
+  "model": "Panamera",
+  "description": "Porsche Panamera (YAA, 976)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZ97ZHL152813",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003870 (REC-003870 - Porsche AG - PORSCHE PANAMERA; Australian recall VIN list)",
+  "model": "Panamera",
+  "description": "Porsche Panamera 971",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP0ZZZ98ZJK251869",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001151 (REC-001151 - PORSCHE CARS AUSTRALIA PTY. LTD. - PORSCHE 718 Boxster (982) / 718 Cayman (982) 2016 - 2019; Australian recall VIN list)",
+  "model": "718",
+  "description": "Porsche 718 Boxster / 718 Cayman (982)",
+  "user_supplied": false
+ },
+ {
+  "vin": "WP1ZZZ9YZKDA60319",
+  "make": "Porsche",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001150 (REC-001150 - Porsche AG - PORSCHE CAYENNE 2017 - 2019; Australian recall VIN list)",
+  "model": "Cayenne",
+  "description": "Porsche Cayenne 9Y",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZPBEA1ZL4KLA02401",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000819 (REC-000819 - Automobili Lamborghini SpA - LAMBORGHINI URUS 2018 - 2019; Australian recall VIN list)",
+  "model": "Urus",
+  "description": "Lamborghini Urus",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZPBEA1ZL7KLA05003",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000819 (REC-000819 - Automobili Lamborghini SpA - LAMBORGHINI URUS 2018 - 2019; Australian recall VIN list)",
+  "model": "Urus",
+  "description": "Lamborghini Urus",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZHWEM6ZD4KLA08651",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000821 (REC-000821 - Automobili Lamborghini S.P.A. - LAMBORGHINI AVENTADOR SVJ 2018 - 2020; Australian recall VIN list)",
+  "model": "Aventador",
+  "description": "Lamborghini Aventador SVJ",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZHWEV4ZD1KLA07880",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000824 (REC-000824 - Automobili Lamborghini SpA - LAMBORGHINI AVENTADOR S 2017 - 2018; Australian recall VIN list)",
+  "model": "Aventador",
+  "description": "Lamborghini Aventador S",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZHWEF4ZF2PLA21924",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005834 (REC-005834 - Automobili Lamborghini S.P.A. - LAMBORGHINI Huracan 2022 - 2023; Australian recall VIN list)",
+  "model": "Huracán",
+  "description": "Lamborghini Huracán",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZHWEF5ZF5PLA23009",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005834 (REC-005834 - Automobili Lamborghini S.P.A. - LAMBORGHINI Huracan 2022 - 2023; Australian recall VIN list)",
+  "model": "Huracán",
+  "description": "Lamborghini Huracán",
+  "user_supplied": false
+ },
+ {
+  "vin": "ZHWEC1ZM6RLA01135",
+  "make": "Lamborghini",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006152 (REC-006152 - Automobili Lamborghini S.P.A. - LAMBORGHINI Revuelto 2024; Australian recall VIN list)",
+  "model": "Revuelto",
+  "description": "Lamborghini Revuelto",
+  "user_supplied": false
+ },
+ {
+  "vin": "SJAAB14V2HC014875",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003749 (REC-003749 - Bentley Motors Ltd - BENTLEY BENTAYGA; Australian recall VIN list)",
+  "model": "Bentayga",
+  "description": "Bentley Bentayga",
+  "user_supplied": false
+ },
+ {
+  "vin": "SJAAB14V5HC013476",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-003749 (REC-003749 - Bentley Motors Ltd - BENTLEY BENTAYGA; Australian recall VIN list)",
+  "model": "Bentayga",
+  "description": "Bentley Bentayga",
+  "user_supplied": false
+ },
+ {
+  "vin": "SCBCA13S3JC070074",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000071 (REC-000071 - Bentley Motors Limited - BENTLEY CONTINENTAL GT 2018 - 2019; Australian recall VIN list)",
+  "model": "Continental",
+  "description": "Bentley Continental GT (3rd generation)",
+  "user_supplied": false
+ },
+ {
+  "vin": "SCBCA13S7JC068926",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000071 (REC-000071 - Bentley Motors Limited - BENTLEY CONTINENTAL GT 2018 - 2019; Australian recall VIN list)",
+  "model": "Continental",
+  "description": "Bentley Continental GT (3rd generation)",
+  "user_supplied": false
+ },
+ {
+  "vin": "SCBDA33S7KC074677",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005632 (REC-005632 - Bentley Motors Limited - BENTLEY Continental GTC 2019 - 2020; Australian recall VIN list)",
+  "model": "Continental",
+  "description": "Bentley Continental GTC",
+  "user_supplied": false
+ },
+ {
+  "vin": "SCBB153SXNC004257",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005668 (REC-005668 - Bentley Motors Limited - BENTLEY Flying Spur 2021 - 2022; Australian recall VIN list)",
+  "model": "Flying Spur",
+  "description": "Bentley Flying Spur",
+  "user_supplied": false
+ },
+ {
+  "vin": "SCBBE63Y3GC002335",
+  "make": "Bentley",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000070 (REC-000070 - Bentley Motors Limited - BENTLEY MULSANNE & MULSANNE SPEED 2012 - 2018; Australian recall VIN list)",
+  "model": "Mulsanne",
+  "description": "Bentley Mulsanne",
+  "user_supplied": false
  }
 ]

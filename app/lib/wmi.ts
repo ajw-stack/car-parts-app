@@ -50,7 +50,7 @@ const WMI_MAP: Record<string, string> = {
   RF3: "Aeon Motor Taiwan",
   // UK
   SAL: "Land Rover", SAJ: "Jaguar", SAR: "Rover", SB1: "Toyota UK",
-  SBM: "McLaren", SCA: "Rolls-Royce", SCB: "Bentley", SCC: "Lotus",
+  SBM: "McLaren", SCA: "Rolls-Royce", SCB: "Bentley", SJA: "Bentley", SCC: "Lotus",
   SCF: "Aston Martin", SDB: "Peugeot UK", SFA: "Ford UK", SFD: "Alexander Dennis",
   SHH: "Honda UK", SHS: "Honda UK", SJN: "Nissan UK", SKF: "Vauxhall",
   SMT: "Triumph Motorcycles",
@@ -106,7 +106,7 @@ const WMI_MAP: Record<string, string> = {
   ZCG: "MV Agusta", ZDM: "Ducati", ZFF: "Ferrari",
   ZDF: "Ferrari Dino", ZD0: "Yamaha Italy", ZD4: "Aprilia",
   ZFA: "Fiat", ZFC: "Fiat VI", ZGU: "Moto Guzzi",
-  ZHW: "Lamborghini", ZJN: "Innocenti", ZKH: "Husqvarna Italy",
+  ZHW: "Lamborghini", ZPB: "Lamborghini", ZJN: "Innocenti", ZKH: "Husqvarna Italy",
   ZLA: "Lancia",
   // USA
   "1B3": "Dodge", "1C3": "Chrysler", "1C6": "Chrysler",

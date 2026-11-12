@@ -12,6 +12,7 @@ import { fcaNorthAmerica, fordAustralia, fordBrazil, fordThailand } from "./ford
 import { bmw, holdenKorea, renault } from "./others";
 import { byd, chery, gwm, ldv, mg } from "./china";
 import { tesla } from "./tesla";
+import { bentley, lamborghini, porsche, seat, skoda } from "./vag-extra";
 
 export const MAKE_RULES: MakeRule[] = [
   holden6H8, holden6G1, holdenZB,
@@ -23,6 +24,7 @@ export const MAKE_RULES: MakeRule[] = [
   fordAustralia, fordThailand, fordBrazil, fcaNorthAmerica,
   holdenKorea, bmw, renault,
   mg, ldv, gwm, byd, chery, tesla,
+  skoda, seat, porsche, lamborghini, bentley,
 ];
 
 export function findMakeRule(vin: string): MakeRule | null {

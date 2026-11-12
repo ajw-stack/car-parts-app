@@ -161,6 +161,8 @@ Added 2026-11-12 (Rules 24–25): Triton ML/MN position 8 5 = 2.4 4G64 petrol. M
 - (b) Position 10 is 0 on Australian and European BMWs — not a year.
 - (c) Position 11 plant: A, F, G, K Munich; B, C, D Dingolfing; E, J, P Regensburg; L Spartanburg; N Rosslyn.
 
+**Rule 33A. Skoda, SEAT/Cupra, Porsche, Lamborghini, Bentley (`makes/vag-extra.ts`, added 2026-11-13).** Full code tables and per-code sources are in the file header (Australian recall VIN lists ~34,000 VINs; Porsche, Lamborghini and Bentley NHTSA Part 565 filings; Stuttcars Porsche VIN PDF in the Elroco folder; Skoda's own VIN article; Wikibooks). Porsche: 4–6 ZZZ and 9 Z fillers; 7–8 + 12 = type number (911 to 992, Boxster/Cayman, Panamera, Cayenne, Macan, Taycan); 11 plant. Lamborghini (ZHW, ZPB): 4 market, 5 body/trim per line, 6 engine (Huracán also kW and drive), 7–8 model line, 9 check digit, 11 L Sant'Agata. Bentley (SCB, SJA): 4 body, 7–8 type (4V Bentayga, 3S, 3W, 3Y), 9 check digit, 11 C Crewe; position 5 engine and 6 restraint not decoded (AU letters differ from the US tables). Skoda (TMB): 7–8 model, 9 check digit, 11 plant; 4–6 not decoded (unpublished). SEAT/Cupra (VSS): 4–6 ZZZ, 7–8 model (Leon and Ateca shown as "SEAT / Cupra": the VIN does not say which badge). Not in these VINs (the app must ask): Porsche body/engine/gearbox/drive; Skoda and SEAT/Cupra engine, body, gearbox, drive; Bentley engine.
+
 **Rule 34. Renault, WMIs VF1, VF2.** Positions 4–6 model code: RFB Megane IV (single-sourced).
 
 ### Division 7 — China-built makes and Tesla (`makes/china.ts`, `makes/tesla.ts`)
