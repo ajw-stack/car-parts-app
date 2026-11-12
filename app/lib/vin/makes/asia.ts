@@ -437,6 +437,9 @@ function hyundaiLine(vin: string): Hit | null {
     // KMHR = Venue (QX): recall REC-005535 (all KMHR...812) + Cars4Us listings (2026-11-09).
     if (l === "R") return ["Venue", "QX"];
   }
+  // KMFY = Staria Load US4 (Cranbourne Hyundai KMFYFX71MVU279859 "STARIA LOAD US4"; Pennant Hills
+  // Hyundai KMFYFX71MVU281286 "Staria Load Diesel").
+  if (vin.startsWith("KMF") && vin[3] === "Y") return ["Staria Load", "US4"];
   return null;
 }
 // Kia lines added / corrected 2026-11-09 from 235 VINs on two independent dealers' stock pages
@@ -483,6 +486,8 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
       return null;
     case "KNAR": return ({ E: E("3.5L V6 petrol", "3.5", "Petrol"), B: E("2.2L turbo diesel", "2.2", "Diesel"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), H: E("1.6L turbo petrol plug-in hybrid", "1.6", "Plug-in Hybrid") } as Record<string, Eng>)[c] ?? null;
     case "KNCS": return ({ A: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null;
+    // Carnival VQ: 7 = 3.5 V6 petrol (Grand Carnival listings + recall REC-000790 "petrol vehicles" = all …817).
+    case "KNAM": return ({ "7": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
     default: return null;
   }
 }
@@ -496,12 +501,15 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
   const pre = vin.slice(0, 4);
   if (pre === "KMHD" && vin[5] !== "4") {                       // i30 FD / GD
     if (/[A-Z]/.test(vin[4])) return c === "E" ? E("2.0L petrol (Beta)", "2.0", "Petrol") : null;
-    if (/[0-9]/.test(vin[4])) return c === "E" ? E("1.8L petrol (Nu MPi)", "1.8", "Petrol") : null;
+    // GD H = 2.0 GDi (Hyundai GD shop manual "H : Gasoline engine 2.0 (Nu GDI)" + SR / SR Premium listings).
+    if (/[0-9]/.test(vin[4])) return c === "E" ? E("1.8L petrol (Nu MPi)", "1.8", "Petrol") : c === "H" ? E("2.0L petrol (Nu GDi)", "2.0", "Petrol") : null;
     return null;
   }
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) {          // Elantra AD
     return ({ F: E("2.0L petrol (Nu)", "2.0", "Petrol"), B: E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null;
   }
+  // Staria Load (KMFY): 1 = 2.2 CRDi diesel (Cranbourne Hyundai + Pennant Hills Hyundai stock, VIN + spec).
+  if (pre === "KMFY") return c === "1" ? E("2.2L turbo diesel (CRDi)", "2.2", "Diesel") : null;
   if (pre === "KMHH") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : c === "C" ? E("1.6L turbo petrol", "1.6", "Petrol") : null;   // i30 PD
   if (pre === "KMHR") return c === "2" ? E("1.6L petrol", "1.6", "Petrol") : null;   // Venue
   if (pre === "KMHJ" || pre === "TMAJ") {                        // ix35 (to 2015) / Tucson TL
@@ -525,7 +533,8 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
 function hyundaiTrim(vin: string, year: number | null): string | null {
   const pre = vin.slice(0, 4), c = vin[4], y = year ?? 0;
   if (pre === "KMHD" && vin[5] !== "4") {
-    if (/[A-Z]/.test(c)) return c === "B" ? "SX" : null;                         // i30 FD
+    // C = SLX (recall REC-003052 "FD i30 SX and SLX" VIN ranges + FD factory manual "C Super Deluxe (GLS)").
+    if (/[A-Z]/.test(c)) return ({ B: "SX", C: "SLX (some SR)" } as Record<string, string>)[c] ?? null;   // i30 FD
     return ({ "2": "Active", "3": "Elite / SR" } as Record<string, string>)[c] ?? null;  // i30 GD
   }
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) return ({ "8": "2.0 grades (Active / Elite)", "0": "SR Turbo" } as Record<string, string>)[c] ?? null; // Elantra AD
@@ -546,18 +555,25 @@ function kiaTrim(vin: string, year: number | null): string | null {
     case "KNAF": return y >= 2019 ? t({ "2": "S / Sport", "3": "Sport+", "4": "GT" }) : null; // Cerato BD
     case "KNAE": return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
     case "KNAB": return t({ "3": "GT-Line" });                                    // Picanto
+    case "KNCS": return t({ E: "X-Pro" });   // Tasman (listings + Great Western Kia stock page)
     default: return null;
   }
 }
 
 // Hyundai position 9 on Australian-delivered cars from model year 2010 (recall VIN lists with
 // build dates + listings): transmission and driven wheels.
+// From model year 2010 position 9 = driver side + transmission on non-US Hyundais and Kias (Hyundai GD
+// shop manual "L : RHD & MT, M : RHD & AT, N : RHD & MT+Transfer, S : RHD & AT+Transfer, T : RHD & CVT";
+// Kia Soul PS manual, same scheme; ~600,000 AU recall VINs, none passing the ISO check-digit test).
+// Up to model year 2009 Hyundai position 9 = R, right-hand drive (FD manual "P (LHD), R (RHD)" + 45,000 recall VINs).
 const HYUNDAI_TRANS: Record<string, [trans: string, drive: string]> = {
+  N: ["Manual", "AWD / 4WD (transfer case)"], T: ["CVT", "2WD"],
   L: ["Manual", "2WD"], M: ["Automatic", "2WD"], S: ["Automatic", "AWD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD"],
 };
 
 // Kia position 9 on Australian-delivered cars = transmission + driven wheels (both dealers agree).
 const KIA_TRANS: Record<string, [trans: string, drive: string]> = {
+  L: ["Manual", "2WD"], N: ["Manual", "AWD / 4WD (transfer case)"], T: ["CVT", "2WD"],
   M: ["Automatic", "2WD"], S: ["Automatic", "AWD / 4WD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD / 4WD"],
 };
 
@@ -578,8 +594,9 @@ function koreanDecode(
     const grade = trim ? trim(vin, y) : null;
     if (grade) s.trim = grade;
     if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, fuel: eng.fuel });
-    // Position-9 transmission letters: evidenced on 2015+ Kias and 2010+ Hyundais.
-    const tr = trans && (y ?? 0) >= (make === "Kia" ? 2015 : 2010) ? trans[vin[8]] : undefined;
+    // Position-9 transmission letters: model year 2010 on (both makes).
+    const tr = trans && (y ?? 0) >= 2010 ? trans[vin[8]] : undefined;
+    const rhdOld = make === "Hyundai" && y !== null && y <= 2009 && vin[8] === "R";
     if (tr) { s.transmission = tr[0]; s.drive = tr[1]; }
     return {
       segments: [
@@ -592,6 +609,7 @@ function koreanDecode(
         seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? {} : { note: "Engine letters change meaning between models and generations — this one is not yet confirmed." }),
         tr
           ? seg(9, 9, vin, "Transmission / drive", `${tr[0]}, ${tr[1]}`)
+          : rhdOld ? seg(9, 9, vin, "Steering side", "Right-hand drive", { note: "Not a check digit." })
           : seg(9, 9, vin, "Check / production code", null, { note: "Not an ISO check digit on Australian-delivered Hyundai and Kia VINs (often a letter)." }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),
         seg(11, 11, vin, "Assembly plant", plant),

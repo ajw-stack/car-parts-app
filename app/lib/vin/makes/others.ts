@@ -13,6 +13,7 @@ const KL3_LINE: Record<string, [model: string, series: string]> = {
   J: ["Cruze", "JG/JH (J300)"],
   M: ["Barina Spark", "MJ (M300)"],
   D: ["Captiva", "CG (C100/C140)"],
+  C: ["Captiva", "CG (C100/C140) — Captiva 7 / Series I"],   // Supercharge catalogue + listings (2026-11-12)
   T: ["Barina", "TM (T300)"],
 };
 // KL3J (Korean-built Cruze) engine letter, position 8. Two sources agree: Cruze recall VIN
@@ -41,17 +42,31 @@ export const holdenKorea: MakeRule = {
       U: { name: "2.4L petrol (LE9)", litres: "2.4", cyl: "4", fuel: "Petrol" },
       "5": { name: "3.0L V6 petrol (LFW)", litres: "3.0", cyl: "6", fuel: "Petrol" },
       "6": { name: "2.2L turbo diesel", litres: "2.2", cyl: "4", fuel: "Diesel" },
+      // Added 2026-11-12: Supercharge battery catalogue (engine per KL3 prefix) + VIN listings; R also
+      // recall REC-000472 "Captiva 2.0L Diesel".
+      F: { name: "2.4L petrol (Z24SED / LD9)", litres: "2.4", cyl: "4", fuel: "Petrol" },
+      "4": { name: "2.4L petrol (LE5)", litres: "2.4", cyl: "4", fuel: "Petrol" },
+      G: { name: "3.2L V6 petrol", litres: "3.2", cyl: "6", fuel: "Petrol" },
+      C: { name: "3.0L V6 petrol (LFW)", litres: "3.0", cyl: "6", fuel: "Petrol" },
+      R: { name: "2.0L turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel" },
     };
+    // Position 5 = drive + transmission on KL3 (≈200 AU listings + Supercharge drive labels): A FWD auto,
+    // F FWD manual, D AWD auto. Position 6 = 2 SUV on Captiva (same two sources).
+    const KL3_DRIVE: Record<string, [string, string]> = { A: ["FWD", "Automatic"], F: ["FWD", "Manual"], D: ["AWD", "Automatic"] };
+    const dt = KL3_DRIVE[vin[4]];
+    if (dt) { s.drive = dt[0]; s.transmission = dt[1]; }
+    const captiva = vin[3] === "D" || vin[3] === "C";
+    const kbody = captiva && vin[5] === "2" ? "SUV" : null; if (kbody) s.body = kbody;
     const ce = vin[3] === "J" ? KL3_CRUZE_ENGINE[vin[7]]
       : vin[3] === "D" || vin[3] === "C" ? CAPTIVA_ENGINE[vin[7]]
       : undefined;
     if (ce) Object.assign(s, { engine: ce.name, engineLitres: ce.litres, engineCylinders: ce.cyl, fuel: ce.fuel });
-    const detail = vin[3] === "J" || ((vin[3] === "D" || vin[3] === "C") && ce)
-      ? [
-          seg(5, 7, vin, "Series / body / restraint", null, { note: "GM Korea detail codes are not published — not decoded." }),
-          seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This engine letter is not yet confirmed." }),
-        ]
-      : [seg(5, 8, vin, "Series / body / restraint / engine", null, { note: "GM Korea rest-of-world detail codes are not published — not decoded." })];
+    const detail = [
+      seg(5, 5, vin, "Drive / transmission", dt ? `${dt[0]}, ${dt[1]}` : null, dt ? {} : { note: "Not yet confirmed." }),
+      seg(6, 6, vin, "Body", kbody, kbody ? {} : { note: "Not yet confirmed for this model." }),
+      seg(7, 7, vin, "Descriptor", null, { note: "Varies by model; meaning not published — not decoded." }),
+      seg(8, 8, vin, "Engine", ce?.name ?? null, ce ? {} : { note: "This engine letter is not yet confirmed." }),
+    ];
     return {
       segments: [
         seg(4, 4, vin, "Model line", l ? `${l[0]} (${l[1]})` : null, {
