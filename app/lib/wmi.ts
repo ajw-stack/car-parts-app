@@ -160,6 +160,8 @@ const WMI_MAP: Record<string, string> = {
   LPS: "Polestar (China)", "7SY": "Polestar (USA)", SAD: "Jaguar (SUV)", WMZ: "MINI",
   // Added 2026-11-13 (Stellantis Europe rule research)
   VR3: "Peugeot", VR7: "Citroën", ZN6: "Maserati (SUV)", ZAC: "Jeep (Italy / Poland)", VXF: "Fiat (vans)",
+  // Added 2026-11-19 (Genesis rule research)
+  KMT: "Genesis", KMU: "Genesis (SUV)",
 };
 
 /** Look up a manufacturer by WMI (3-char or 2-char prefix). */

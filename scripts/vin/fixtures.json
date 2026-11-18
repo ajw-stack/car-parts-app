@@ -6496,5 +6496,275 @@
   "year": 2024,
   "description": "Jeep Avenger JJ Limited Wagon 5dr Auto 1sp FWD AC115kW [MY24]",
   "user_supplied": false
+ },
+ {
+  "vin": "MA1NY2NWPS2D55935",
+  "make": "Mahindra",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1NY2NWPS2D55935 (MAHINDRA XUV 3XO, VTA-065084, build 04/2025, 82 kW)",
+  "model": "XUV 3XO",
+  "year": 2025,
+  "description": "XUV 3XO 1.2L 3-cyl turbo petrol, 6-speed automatic, FWD (user test VIN; RAV build 04/2025)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1NH2ZFFP6A78175",
+  "make": "Mahindra",
+  "source": "https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-005764 (XUV700 AX7, AX7L 2023 VIN list)",
+  "model": "XUV700",
+  "year": 2023,
+  "description": "XUV700 AX7 / AX7L 2.0L turbo petrol automatic FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1NH2ZFFS6B55019",
+  "make": "Mahindra",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1NH2ZFFS6B55019 (MAHINDRA XUV 700, VTA-060924, build 02/2025, 149 kW); https://www.brightonmahindra.com.au/cars/new-black-2025-mahindra-xuv700-xuv700-01 (via mahindra.com.au/all-stock/)",
+  "model": "XUV700",
+  "year": 2025,
+  "description": "XUV700 AX7L 2.0L turbo petrol 6-speed automatic FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1TK4YGTT6077324",
+  "make": "Mahindra",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1TK4YGTT6077324 (MAHINDRA SCORPIO-N, VTA-060829, build 10/2025, 129 kW); https://www.heartland.com.au/cars/demo-stealth-black-2025-mahindra-scorpio-m077324 (via mahindra.com.au/all-stock/)",
+  "model": "Scorpio",
+  "year": 2025,
+  "description": "Scorpio (Scorpio-N) Z8L+ 2.2L turbo-diesel 6-speed automatic 4x4",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1TK4YGTP6C99346",
+  "make": "Mahindra",
+  "source": "https://www.autotrader.com.au/car/15030972/mahindra/scorpio-n/wa/dianella/suv ('2023 Mahindra Scorpio-N Z8', 4 cyl, 2.2 L, Automatic, 4X4, Diesel)",
+  "model": "Scorpio",
+  "year": 2023,
+  "description": "Scorpio-N Z8 2.2L turbo-diesel automatic 4x4",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1RE2VG2M2F11902",
+  "make": "Mahindra",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1RE2VG2M2F11902 (MAHINDRA S5 SERIES, VTA-035403, build 06/2021,  kW); https://www.drive.com.au/cars-for-sale/car/969692991/ (Single Cab, Traytop, Manual, 2179 cc diesel)",
+  "model": "Pik-Up",
+  "year": 2021,
+  "description": "Pik-Up S6+ single cab tray 2.2L mHawk diesel manual 2WD",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1RC4XWPP2035134",
+  "make": "Mahindra",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1RC4XWPP2035134 (MAHINDRA S5 SERIES, VTA-035403, build 08/2022,  kW); https://www.timboonmotorsmahindra.com.au/cars/demo-red-rage-2023-mahindra-pik-up-2941 (via mahindra.com.au/all-stock/: \"MY23 S11 Utility Dual Cab 4dr Spts Auto 6sp 4x4 2.2DT\")",
+  "model": "Pik-Up",
+  "year": 2022,
+  "description": "Pik-Up S11 double cab 4x4 2.2L mHawk diesel 6-speed automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1RC4VG2H2E44513",
+  "make": "Mahindra",
+  "source": "https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-005572 (Pik-Up S5 Series 2017-2019; variant DOUBLE CAB 4WD (RC4VG))",
+  "model": "Pik-Up",
+  "year": 2017,
+  "description": "Pik-Up S5 Series double cab 4WD 2.2L mHawk diesel manual (RC4VG)",
+  "user_supplied": false
+ },
+ {
+  "vin": "MA1RE4VG2N2E12000",
+  "make": "Mahindra",
+  "source": "https://www.autotrader.com.au/car/15364170/mahindra/pik-up/wa/wangara/single-cab ('2021 Mahindra PIK-UP 4Wd S6+', 4 cyl, 2.2 L, Manual, Four Wheel Drive, Diesel); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=MA1RE4VG2N2E12000 (MAHINDRA S5 SERIES, VTA-035403, build 05/2022,  kW)",
+  "model": "Pik-Up",
+  "year": 2022,
+  "description": "Pik-Up S6+ single cab 4WD 2.2L diesel manual",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT50B1ESMP078560",
+  "make": "SsangYong",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPT50B1ESMP078560 (SSANGYONG Y400, VTA-048879, build 11/2021, 149 kW)",
+  "model": "Rexton",
+  "year": 2021,
+  "description": "Rexton Y450 2.2L turbo-diesel automatic 4WD (user test VIN; RAV build 11/2021)",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT50B1ESPP102355",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15303931/ssangyong/rexton/nsw/homebush/suv ('2023 Ssangyong Rexton Ultimate Sport Pack (4Wd)', 4 cyl, 2.2 L, Automatic, Four Wheel Drive, Diesel); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPT50B1ESPP102355 (SSANGYONG Y400, VTA-048879, build 09/2023, 149 kW)",
+  "model": "Rexton",
+  "year": 2023,
+  "description": "Rexton Y461 Ultimate Sport Pack 2.2L diesel automatic 4WD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPAY61EESPP197338",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15406515/ssangyong/musso-xlv/wa/wangara/dual-cab ('2022 Ssangyong Musso XLV Ultimate Lux', 4 cyl, 2.2 L, Automatic, Four Wheel Drive, Diesel); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPAY61EESPP197338 (SSANGYONG Q200, VTA-049402, build 11/2022, 133 kW)",
+  "model": "Musso",
+  "year": 2022,
+  "description": "Musso XLV Ultimate Lux Q250 2.2L diesel automatic 4x4",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPAYA1EESRP232372",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15268413/ssangyong/musso/qld/pinkenba/dual-cab ('2024 Ssangyong Musso Ultimate', 4 cyl, 2.2 L, Automatic, Four Wheel Drive, Diesel); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPAYA1EESRP232372 (SSANGYONG Q200, VTA-049402, build 01/2024, 133 kW)",
+  "model": "Musso",
+  "year": 2024,
+  "description": "Musso Ultimate Q261 2.2L diesel automatic 4x4",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT70A1YSPP086699",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15371178/ssangyong/korando/vic/berwick/suv ('2023 Ssangyong Korando Ex', 4 cyl, 1.5 L, Automatic, Front Wheel Drive, Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPT70A1YSPP086699 (SSANGYONG C300, VTA-050361, build 02/2023, 120 kW)",
+  "model": "Korando",
+  "year": 2023,
+  "description": "Korando C300 EX 1.5L turbo petrol automatic FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT70A1USMP065227",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15409992/ssangyong/korando/wa/osborne-park/suv ('2022 Ssangyong Korando Ultimate (Awd)', 4 cyl, 1.6 L, Automatic, All Wheel Drive, Diesel); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPT70A1USMP065227 (SSANGYONG C300, VTA-050361, build 12/2021, 100 kW)",
+  "model": "Korando",
+  "year": 2022,
+  "description": "Korando C300 Ultimate 1.6L diesel automatic AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT30B1USJP264801",
+  "make": "SsangYong",
+  "source": "https://www.autotrader.com.au/car/15117188/ssangyong/tivoli/vic/ringwood/suv ('2019 Ssangyong Tivoli Ultimate (Awd)', 4 cyl, 1.6 L, Automatic, All Wheel Drive, Diesel); Recall https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-001201 (Korando / Tivoli VIN list includes this VIN)",
+  "model": "Tivoli",
+  "year": 2019,
+  "description": "Tivoli X100 Ultimate 1.6L diesel automatic AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPTF0A1RSTP128827",
+  "make": "KGM",
+  "source": "https://www.autotrader.com.au/car/15330170/kgm/actyon/qld/townsville-city/suv ('2026 KGM Actyon HYBRID K60 F', 4 cyl, 1.5 L, Constantly Variable Transmissi, FWD, Premium Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPTF0A1RSTP128827 (KGM CWJ, VTA-064724, build 10/2025, 110 kW)",
+  "model": "Actyon",
+  "year": 2026,
+  "description": "Actyon J120 K60 1.5L turbo petrol hybrid FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPTF0A1YSTP134497",
+  "make": "KGM",
+  "source": "https://www.autotrader.com.au/car/15365462/kgm/torres/vic/south-morang/suv ('2026 KGM Torres ADVENTURE F', 4 cyl, 1.5 L, Sports Automatic, FWD, Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPTF0A1YSTP134497 (SSANGYONG C300, VTA-050361, build 12/2025, 120 kW)",
+  "model": "Torres",
+  "year": 2026,
+  "description": "Torres J100 Adventure 1.5L turbo petrol automatic FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPT10A12STP027379",
+  "make": "KGM",
+  "source": "https://www.autotrader.com.au/car/15067437/kgm/torres/qld/townsville-city/suv ('2026 KGM Torres EVX F', , , FWD, Electric); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPT10A12STP027379 (SSANGYONG UK, VTA-064204, build 12/2025, 152 kW)",
+  "model": "Torres EVX",
+  "year": 2026,
+  "description": "Torres EVX electric 152 kW FWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KPA1A1E3STP010477",
+  "make": "KGM",
+  "source": "https://www.autotrader.com.au/car/15056913/kgm/musso-ev/sa/christies-beach/dual-cab ('2026 KGM Musso Ev Awd', , , All Wheel Drive, Electric); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KPA1A1E3STP010477 (KGM OK, VTA-065524, build 12/2025, 304 kW)",
+  "model": "Musso EV",
+  "year": 2026,
+  "description": "Musso EV dual-motor AWD 304 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTG341AMPU118822",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15238493/genesis/g70/wa/welshpool/sedan ('2022 Genesis G70 2.0T', 4 cyl, 2 L, Electronic Automatic, Rear Wheel Drive, Premium Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTG341AMPU118822 (Genesis IK, VTA-049012, build 12/2022, 179 kW)",
+  "model": "G70",
+  "year": 2022,
+  "description": "G70 IK 2.0T RWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTG541EMSU159701",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15299236/genesis/g70/sa/morphett-vale/sedan ('2025 Genesis G70 3.3T Sport Lux', 6 cyl, 3.3 L, Automatic, Rear Wheel Drive, Premium Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTG541EMSU159701 (Genesis IK, VTA-049012, build 03/2025, 274 kW)",
+  "model": "G70",
+  "year": 2025,
+  "description": "G70 IK 3.3T Sport Lux RWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTGB41DSPU180863",
+  "make": "Genesis",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTGB41DSPU180863 (Genesis RG3, VTA-050814, build 01/2023, 279 kW); Recall https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-005715 (G80 RG3 / GV80 / GV60 / GV70 VIN list includes this VIN)",
+  "model": "G80",
+  "year": 2023,
+  "description": "G80 RG3 3.5T AWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTGE411RNU001903",
+  "make": "Genesis",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTGE411RNU001903 (Genesis RG3, VTA-050814, build 01/2022, 272 kW); Recall https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-005574 (G80 EV RG3 list)",
+  "model": "G80",
+  "year": 2022,
+  "description": "Electrified G80 (RG3 EV) AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTHC81DSLU025730",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15392545/genesis/gv80/wa/forrestdale/suv ('2020 Genesis GV80 3.0D Awd', 6 cyl, 3 L, Electronic Automatic, All Wheel Drive, Diesel)",
+  "model": "GV80",
+  "year": 2020,
+  "description": "GV80 JX1 3.0D AWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTHB61CSTU328462",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/14940515/genesis/gv80/vic/elsternwick/suv ('2025 Genesis GV80 3.5T Awd Lux Coupe', 6 cyl, 3.5 L, Electronic Automatic, All Wheel Drive, Premium Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTHB61CSTU328462 (GENESIS JX1, VTA-050818, build 12/2025, 279 kW)",
+  "model": "GV80",
+  "year": 2025,
+  "description": "GV80 Coupe 3.5T AWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTMA81BSSU196598",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15304586/genesis/gv70/wa/welshpool/suv ('2024 Genesis GV70 2.5T Awd Signature Sport', 4 cyl, 2.5 L, Electronic Automatic, All Wheel Drive, Premium Unleaded Petrol); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTMA81BSSU196598 (Genesis JK1, VTA-051321, build 08/2024, 224 kW)",
+  "model": "GV70",
+  "year": 2024,
+  "description": "GV70 JK1 2.5T AWD Signature Sport automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTMA81BMNU047726",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15377341/genesis/gv70/wa/bentley/suv ('2021 Genesis GV70 2.5T', 4 cyl, 2.5 L, Electronic Automatic, Rear Wheel Drive, Premium Unleaded Petrol)",
+  "model": "GV70",
+  "year": 2021,
+  "description": "GV70 JK1 2.5T RWD automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTMA811RSU009831",
+  "make": "Genesis",
+  "source": "https://www.autotrader.com.au/car/15284971/genesis/gv70/sa/morphett-vale/suv ('2025 Genesis GV70 Electrified Sig. Perf.', , , All Wheel Drive, Electric); RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTMA811RSU009831 (Genesis JK1, VTA-051321, build 03/2025, 360 kW)",
+  "model": "GV70",
+  "year": 2025,
+  "description": "Electrified GV70 AWD",
+  "user_supplied": false
+ },
+ {
+  "vin": "KMTKE81BRNU007132",
+  "make": "Genesis",
+  "source": "RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=KMTKE81BRNU007132 (Genesis JW1, VTA-060077, build 06/2022, 360 kW); Recall https://web.archive.org/web/2026/https://www.vehiclerecalls.gov.au/recalls/rec-005698 (GV60-only list)",
+  "model": "GV60",
+  "year": 2022,
+  "description": "GV60 JW1 Performance AWD electric",
+  "user_supplied": false
  }
 ]

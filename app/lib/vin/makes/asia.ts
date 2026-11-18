@@ -704,7 +704,7 @@ function kiaTrim(vin: string, year: number | null): string | null {
 // shop manual "L : RHD & MT, M : RHD & AT, N : RHD & MT+Transfer, S : RHD & AT+Transfer, T : RHD & CVT";
 // Kia Soul PS manual, same scheme; ~600,000 AU recall VINs, none passing the ISO check-digit test).
 // Up to model year 2009 Hyundai position 9 = R, right-hand drive (FD manual "P (LHD), R (RHD)" + 45,000 recall VINs).
-const HYUNDAI_TRANS: Record<string, [trans: string, drive: string]> = {
+export const HYUNDAI_TRANS: Record<string, [trans: string, drive: string]> = {
   N: ["Manual", "AWD / 4WD (transfer case)"], T: ["CVT", "2WD"],
   L: ["Manual", "2WD"], M: ["Automatic", "2WD"], S: ["Automatic", "AWD"], V: ["Dual-clutch automatic", "2WD"], W: ["Dual-clutch automatic", "AWD"],
 };
