@@ -39,6 +39,8 @@ function fordMonth(letter: string, year: number | null): string | null {
 
 export const fordAustralia: MakeRule = {
   id: "ford-australia", make: "Ford", wmis: ["6FP"],
+  // South African Rangers also use 6FP but in the Ford-of-Europe layout (XX at 5–6) — those go to fordEurope.
+  match: (vin) => vin.slice(4, 6) !== "XX",
   checkDigit: "no", modelYear: "no",
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Ford" };

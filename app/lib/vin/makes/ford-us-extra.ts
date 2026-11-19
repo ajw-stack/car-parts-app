@@ -126,15 +126,26 @@ function decodeRanger(vin: string, s: Partial<VinSummary>): VinSegment[] {
   const nextGen = vin[3] === "C";
   s.make = "Ford"; s.model = "Ranger";
   const year = (() => { const c = yearCandidates(vin[9]).filter((y) => y >= 2011 && y <= 2035); return c.length === 1 ? c[0] : null; })();
-  const engTable = nextGen ? RG_ENGINE_NEXTGEN : RG_ENGINE_PX;
+  // A non-C airbag letter on a 2023+ build (e.g. MNB…U…9, REC-006358) is a Next-Gen-era vehicle for another
+  // market: the PX tables do not apply, so only body, year and plant are decoded (added 2026-11-20).
+  const otherMarketNextGen = !nextGen && year !== null && year >= 2023;
+  // MNC = left-hand-drive export markets (Ford Ranger 2011.5 workshop manual 100-01-10; Wikibooks Ford WMIs);
+  // position 10 may be a MODEL year there (100-01-12), so the series is only given when ±1 year agrees.
+  const lhd = vin.startsWith("MNC");
+  const engTable = nextGen ? RG_ENGINE_NEXTGEN : otherMarketNextGen ? {} : RG_ENGINE_PX;
   const eng = engTable[vin[7]];
   if (eng) { s.engine = eng.name; s.engineLitres = eng.litres; s.engineCylinders = eng.cyl; if (eng.fuel) s.fuel = eng.fuel; }
-  s.series = nextGen ? "Next-Gen (listed as PY in Australia)" : pxSeries(year, vin[7]);
+  const pxs = (y: number | null) => pxSeries(y, vin[7]);
+  s.series = nextGen ? "Next-Gen (listed as PY in Australia)"
+    : otherMarketNextGen ? null
+    : lhd && year !== null && !(pxs(year - 1) === pxs(year) && pxs(year + 1) === pxs(year)) ? "PX family (check the build plate)"
+    : pxs(year);
+  if (lhd && s.series) s.series += " — left-hand-drive export build (MNC)";
   const body = RG_BODY[vin[5]];
   if (body) s.body = body[0];
-  const airbag = nextGen ? null : RG_AIRBAG[vin[3]] ?? null;
+  const airbag = nextGen || otherMarketNextGen ? null : RG_AIRBAG[vin[3]] ?? null;
   if (airbag) s.restraint = airbag;
-  const gvm = nextGen ? null : RG_GVM[vin[6]] ?? null;
+  const gvm = nextGen || otherMarketNextGen ? null : RG_GVM[vin[6]] ?? null;
   const plant = RG_PLANT[vin[10]] ?? null;
   if (plant) s.plant = plant;
   if (year) s.modelYear = year;
@@ -147,7 +158,9 @@ function decodeRanger(vin: string, s: Partial<VinSummary>): VinSegment[] {
     seg(7, 7, vin, "GVM class", gvm, nextGen ? { note: "Next-Gen Rangers use E and F here as well; not confirmed as the same GVM bands, so not decoded." } : gvm ? {} : { note: "Not in the Ford table." }),
     seg(8, 8, vin, "Engine", eng?.name ?? null, eng ? { note: eng.note } : { note: "Engine code not confirmed for this Ranger generation." }),
     { from: 9, to: 9, chars: vin[8], label: "Constant", value: "0 (Ford Thailand constant — not a check digit)", status: "standard" },
-    seg(10, 10, vin, "Year of production", year ? String(year) : null, { status: "standard", note: "Ford: for Australia this is the PRODUCTION year, not a model year (workshop manual 100-01-12)." }),
+    seg(10, 10, vin, "Year of production", year ? String(year) : null, { status: "standard", note: lhd
+      ? "Left-hand-drive export market (MNC): Ford says this can be a MODEL year, so the build year may differ by one. Right-hand-drive steering and dash parts will not fit."
+      : "Ford: for Australia this is the PRODUCTION year, not a model year (workshop manual 100-01-12)." }),
     seg(11, 11, vin, "Assembly plant", plant),
     { from: 12, to: 17, chars: vin.slice(11), label: "Production sequence number", value: vin.slice(11), status: "standard" },
   ];
@@ -159,7 +172,13 @@ function decodeRanger(vin: string, s: Partial<VinSummary>): VinSegment[] {
 // https://easyauto123.com.au/buy/used-cars/details/used-car-report/MNAAXXMAWAHU42924),
 // "RXXMAWR" on every Next-Gen (UB) Everest (2022 on). Engine and drive are NOT in these VINs
 // (2.0 bi-turbo, 3.2 5-cyl, 3.0 V6; RWD/4WD all share the same block).
-const EVEREST_BLOCK: Record<string, string> = { AXXMAWA: "UA / UA II", RXXMAWR: "Next-Gen (listed as UB in Australia)" };
+const EVEREST_BLOCK: Record<string, string> = {
+  AXXMAWA: "UA / UA II", RXXMAWR: "Next-Gen (listed as UB in Australia)",
+  // Silverton-built Everest (added 2026-11-20): model line W = Everest (Thai blocks), M + J = Ford Southern Africa
+  // Silverton (Ford Ranger workshop manual 100-01 + Wikibooks); on Ranger/Everest recalls REC-000320 / REC-006683;
+  // Ford SA built the Everest at Silverton from Oct 2016 (cars.co.za, engineeringnews.co.za).
+  JXXMJWJ: "UA / UA II (South African-built)",
+};
 
 function decodeEverest(vin: string, s: Partial<VinSummary>): VinSegment[] {
   const gen = EVEREST_BLOCK[vin.slice(3, 10)] ?? null;
@@ -187,7 +206,7 @@ function decodeEverest(vin: string, s: Partial<VinSummary>): VinSegment[] {
 
 /** Full replacement rule for Ford Thailand / South Africa Rangers and Everests (MNA, MPB, AFA). */
 export const fordRangerEverest: MakeRule = {
-  id: "ford-ranger-everest", make: "Ford", wmis: ["MNA", "MPB", "AFA"],
+  id: "ford-ranger-everest", make: "Ford", wmis: ["MNA", "MPB", "AFA", "MNC"],
   // Everest blocks confirmed 2026-11-13: AXXMAWA on every Everest in the 10R80 recalls (UA II), RXXMAWR on
   // every Next-Gen Everest in REC-006341 / 005759 / 006358 / 006748.
   match: (vin) => isRangerLayout(vin) || isEverestLayout(vin),
@@ -320,6 +339,10 @@ const EU_BLOCK: Record<string, EuModel> = {
   ERK: { model: "Puma" },
   MXJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309 "FIESTA & RANGER"
   ARJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309
+  // Silverton-built Ranger (added 2026-11-20): Ford Ranger 2011.5 workshop manual 100-01 "Unique VIN – Manufactured
+  // in FMSA" (7 M, 8 J Silverton, 11 year of manufacture) + Ranger-only recall REC-000307 (6FP…XXMJ2) / REC-000309
+  // (AFA…XXMJ2) + Japanese parts-catalogue "6FP#MJ2 / AFA#MJ2 Ranger RHD". Engine is NOT in this layout.
+  MJ2: { model: "Ranger", series: (y) => { const p = pxSeries(y, ""); return p ? `${p} (South African-built)` : "PX family (South African-built)"; } },
   MXC: { model: "Focus", series: () => "Thai-built" },
   MJD: { model: "Focus", series: () => "South African-built" },
   GAJ: { model: "Fiesta" },
@@ -332,7 +355,7 @@ function euYear(c: string): number | null {
 }
 
 export const fordEurope: MakeRule = {
-  id: "ford-europe", make: "Ford", wmis: ["WF0", "NM0", "MNB", "MPB", "AFA"],
+  id: "ford-europe", make: "Ford", wmis: ["WF0", "NM0", "MNB", "MPB", "AFA", "6FP"],
   // MPB / AFA also carry Rangers in another layout; this rule only takes Ford-of-Europe-layout VINs
   // that are not Everests (Everest is decoded by fordRangerEverest).
   match: (vin) => vin.slice(4, 6) === "XX" && !isEverestLayout(vin),
@@ -515,9 +538,16 @@ function silverado(vin: string, y: number | null): { model: string; series: stri
     // 1500, MY2019–2024 export codes [GM22, GM24 + 2019–2023 editions]; [VPIC] agrees (Silverado / Silverado LTD).
     if (ch === "Y9" && y >= 2019 && y <= 2024) return { model: "Silverado 1500", series: y >= 2022 ? "T1 (pre-facelift body, sold as Silverado LTD)" : "T1", drive: "4WD" };
     if (ch === "D9" && y >= 2022 && y <= 2024) return { model: "Silverado 1500", series: "T1 facelift (2022 update)", drive: "4WD" };
+    // MY2025–26 export code K9 = 4x4 (GM VIN standards 2025 ORG24917 p.30, 2026 ORG26694 p.26) + NHTSA decode
+    // of 3GCUK9EL0SG307251 + carsguide "T1 MY25" listings — added 2026-11-20.
+    if (ch === "K9" && y >= 2025 && y <= 2026) return { model: "Silverado 1500", series: "T1 facelift (2022 update)", drive: "4WD" };
   }
   if (vin.startsWith("1GC") && "012345".includes(vin[3]) && ch === "Y9" && y >= 2020 && y <= 2024) {
     return { model: "Silverado HD (2500 / 3500)", series: "T1 HD", drive: "4WD" }; // [GM24] p.30 + [VPIC] "Silverado HD"
+  }
+  // MY2025–26 HD export code K9 (GM 2025 p.31, 2026 p.27) + NHTSA decode of 1GC1K9EY7TF273519.
+  if (vin.startsWith("1GC") && "012345".includes(vin[3]) && ch === "K9" && y >= 2025 && y <= 2026) {
+    return { model: "Silverado HD (2500 / 3500)", series: "T1 HD", drive: "4WD" };
   }
   return null;
 }
@@ -538,8 +568,9 @@ export const chevrolet: MakeRule = {
     const eng = GM_ENGINE[`${wmi}:${vin[7]}`];
     if (wmi === "1G1") {
       // Corvette C8 [GM24] p.14: 4 line Y, 5 series 9 = Non-US/Non-Canada, 6 body, 7 restraint, 8 engine.
-      const c8 = vin[3] === "Y" && vin[4] === "9" && y !== null && y >= 2020 && y <= 2024; // GM editions read: 2020–2024
-      const confirmedYear = y !== null && y >= 2020 && y <= 2024;
+      // GM editions read: 2020–2026 (MY2025 ORG24917 p.13, MY2026 ORG26694 p.12 keep Y9 = export Corvette).
+      const c8 = vin[3] === "Y" && vin[4] === "9" && y !== null && y >= 2020 && y <= 2026;
+      const confirmedYear = y !== null && y >= 2020 && y <= 2026;
       if (c8) { s.model = "Corvette"; s.series = "C8"; s.drive = "RWD"; }
       const body = c8 && confirmedYear && vin[5] === "2" ? "Coupe, 2-door (GM body 07)" : null; // [GM24] + [CG] coupe listings
       if (body) s.body = body;
@@ -567,7 +598,7 @@ export const chevrolet: MakeRule = {
         seg(4, 4, vin, "GVWR / brakes / body style", sv ? gv : null, sv && gv ? {} : { note: "Not confirmed." }),
         seg(5, 6, vin, "Chassis / series", sv ? `${sv.model}, ${sv.drive}, export (Non-US, Non-Canada) series` : null, sv
           ? { note: "GM gives export trucks one series code; trim (LTZ, ZR2 …) is not in the VIN." }
-          : { note: "Not confirmed for this model year (GM filings read for MY2019–2024)." }),
+          : { note: "Not confirmed for this model year (GM filings read for MY2019–2026)." }),
         seg(7, 7, vin, "Restraint system", restraint, restraint ? {} : { note: "Not confirmed." }),
         seg(8, 8, vin, "Engine", sv && eng ? eng[0] : null, sv && eng ? {} : { note: "Not confirmed." }),
         seg(11, 11, vin, "Assembly plant", plant),

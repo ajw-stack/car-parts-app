@@ -324,3 +324,37 @@ export const ssangyong: MakeRule = {
 };
 
 export const MISC_EXTRA_RULES: MakeRule[] = [mahindra, ssangyong, genesis];
+
+
+// ── Genesis G80 (DH), 2017–2020, sold with Hyundai KMH VINs (added 2026-11-20) ─────────────────────────
+// Recall REC-001597 (make GENESIS, model G80, 124 units) — every VIN is KMHGN41EM(J|K)U…; Wikibooks Hyundai:
+// position 4 "G = … Genesis G80 2017-2019 (KMH)", engine "E = 3.8 Lambda II RS GDI V6 … Genesis G80 17-20";
+// Australia sold the G80 with the 3.8 only (carsguide 2018/2019 price pages; GoAuto 2017). Position 9 M =
+// automatic RWD (Hyundai GD shop manual). B (3.3 turbo) and D (3.3) were never sold here — not decoded.
+export const genesisDH: MakeRule = {
+  id: "genesis-dh-hyundai-vin", make: "Genesis", wmis: ["KMH"],
+  match: (vin) => vin[3] === "G" && vin[4] === "N" && vin[5] === "4" && (vin[8] === "M" || vin[8] === "S")
+    && ["H", "J", "K", "L"].includes(vin[9]),
+  checkDigit: "no", modelYear: "yes", years: [2017, 2020],
+  decode(vin) {
+    const y = resolveModelYear(vin[9], 2017, 2020);
+    const s: Partial<VinSummary> = { make: "Genesis", model: "G80", series: "DH", body: "4-door sedan", modelYear: y };
+    const e = vin[7] === "E";
+    if (e) Object.assign(s, { engine: "3.8L V6 petrol (Lambda II GDI)", engineLitres: "3.8", engineCylinders: "6", fuel: "Petrol" });
+    const rwd = vin[8] === "M";
+    if (rwd) Object.assign(s, { transmission: "Automatic", drive: "RWD" });
+    if (vin[10] === "U") s.plant = "Ulsan, Korea";
+    return {
+      segments: [
+        seg(4, 5, vin, "Model line", "Genesis G80 (DH)", { note: "Sold with a Hyundai VIN (KMH)." }),
+        seg(6, 6, vin, "Body type", "4-door sedan"),
+        seg(7, 7, vin, "Restraint system", null, { note: "Not decoded." }),
+        seg(8, 8, vin, "Engine", e ? "3.8L V6 petrol (Lambda II GDI)" : null, e ? {} : { note: "Not an Australian G80 engine code." }),
+        seg(9, 9, vin, "Transmission / drive", rwd ? "Automatic, RWD" : null, rwd ? {} : { note: "Not confirmed for Australia." }),
+        seg(10, 10, vin, "Model year", y ? String(y) : null, { status: "standard" }),
+        seg(11, 11, vin, "Assembly plant", s.plant ?? null),
+      ],
+      summary: s,
+    };
+  },
+};

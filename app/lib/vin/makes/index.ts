@@ -14,7 +14,7 @@ import { byd, chery, gwm, ldv, mg } from "./china";
 import { tesla } from "./tesla";
 import { deepal, gac, geely, leapmotor, smart, xpeng, zeekr } from "./china-extra";
 import { daihatsu, jeepMelfi } from "./jeep-daihatsu";
-import { genesis, mahindra, ssangyong } from "./misc-extra";
+import { genesis, genesisDH, mahindra, ssangyong } from "./misc-extra";
 import { alfaRomeo, citroen, ferrari, fiat, jeepEurope, maserati, peugeot } from "./stellantis-eu";
 import { jaguar, mini, polestar, volvo } from "./euro-extra";
 import { chevrolet, fordEurope, fordRangerEverest, fordUSCar, ram } from "./ford-us-extra";
@@ -26,7 +26,7 @@ export const MAKE_RULES: MakeRule[] = [
   mercedes,
   subaru, honda, landRover,
   toyota, lexus, isuzu, privateImport,
-  mazda, mitsubishi, nissan, nissanUS, suzuki, hyundai, kia,
+  mazda, mitsubishi, nissan, nissanUS, suzuki, genesisDH, hyundai, kia,
   fordAustralia, fordRangerEverest, fordEurope, ram, fordThailand, fordBrazil, fordUSCar, chevrolet, jeepMelfi, fcaNorthAmerica,
   holdenKorea, bmw, renault,
   mg, ldv, gwm, byd, chery, tesla,
