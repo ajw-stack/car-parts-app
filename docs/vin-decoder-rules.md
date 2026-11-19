@@ -181,6 +181,8 @@ Added 2026-11-12 (Rules 24–25): Triton ML/MN position 8 5 = 2.4 4G64 petrol. M
 
 **Added 2026-11-20 (owner-flagged VINs).** Ford Mondeo (Ford-of-Europe block GBB): positions 4 and 10 body D sedan / E hatch / G wagon (Ford Mondeo 2007.5 workshop manual 100-01 + VIN/body listings); series by body + build year (GoAuto + Wikipedia: MA Oct 2007–Aug 2009 sedan and hatch only; MB wagon and hatch from Jul 2009; MC from Nov 2010; change-over years shown as both). VW platform 3C from model year 2017 = Passat B8 only (recall REC-001397 sheets + CC production ended 2016); body (sedan / wagon / Alltrack) is not in the VIN. Honda Odyssey RC position 6 '1' = RC1, 2.4 K24W petrol FWD (tc-v.com + nengun + Australian wreckers).
 
+Kia Carnival KNAM: VQ to MY2014, YP from MY2015 (Wikibooks Kia + Grays YP listing); YP position 8 1 = 3.3 V6 GDi G6DH, A = 2.2 diesel D4HB; position 5 B = S, C = Si/SLi/Platinum (wrecker and dealer listings on independent sites). Mazda6 GH follows the older Australian-spec layout: 8 5 = 2.5 L5-VE, 2 = 2.2 diesel R2; 9 1 = GH Series 1, 2 = Series 2; body not in the VIN. Mazda3 BK 8 3 = 2.3, F = 2.0. On Japan-built Mazdas positions 4–9 are the Mazda Australia model code (e.g. GH1052). Open: GG '3' covers both 2.3 and the MPS 2.3 turbo (not decoded); DE 'Y' 1.5 and BL/CX-7 codes have one source; the Mazda2 DE manual says position 10 is a model year on Australian-spec DE — check against real DE VINs.
+
 **Rule 34. Renault, WMIs VF1, VF2.** Positions 4–6 model code: RFB Megane IV (single-sourced).
 
 ### Division 7 — China-built makes and Tesla (`makes/china.ts`, `makes/tesla.ts`)

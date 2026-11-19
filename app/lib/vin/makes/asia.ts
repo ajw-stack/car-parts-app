@@ -71,6 +71,16 @@ const MAZDA_KE_EXTRA: Record<string, { name: string; litres: string; fuel: strin
 };
 const MAZDA_BK_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
   R: { name: "2.0L MZR-CD turbo diesel (RF)", litres: "2.0", fuel: "Diesel" },
+  // Added 2026-11-20: 3 = 2.3 petrol SP23 (autosale.net.au BK1031 + onlycars BK1031), F = 2.0 petrol
+  // (BK10F1/F2 listings on several dealers' own sites + onlycars). Positions 4–9 = Mazda Australia model code.
+  "3": { name: "2.3L petrol (L3)", litres: "2.3", fuel: "Petrol" },
+  F: { name: "2.0L petrol (LF)", litres: "2.0", fuel: "Petrol" },
+};
+// Mazda6 GH (2008–2012): 5 = 2.5 petrol L5-VE (MMM Auto Centre donor VIN + WS Car Sales GH1052),
+// 2 = 2.2 MZR-CD diesel R2 (City Motor Auction report + BCP wreck listing). F not confirmed for Australia.
+const MAZDA_GH_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
+  "5": { name: "2.5L petrol (L5-VE)", litres: "2.5", fuel: "Petrol" },
+  "2": { name: "2.2L MZR-CD turbo diesel (R2)", litres: "2.2", fuel: "Diesel" },
 };
 // Mazda3 BM/BN: the Mazda Australia model code (e.g. BM5438) is VIN positions 4-9. 7 body (4 hatch,
 // 2 sedan), 8 engine, 9 transmission (6 manual, 8 automatic). Dealer listings with VIN + body + gearbox
@@ -109,10 +119,14 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
       seg(9, 9, vin, "Transmission", tr, tr ? { note: "Not a check digit on Mazdas." } : { note: "Not yet confirmed." }),
     ];
   }
-  if (MAZDA_OLD_LAYOUT.has(code) || code === "BK" || code === "DE") {
-    const eng = code === "BK" ? MAZDA_BK_ENGINE[vin[7]] : MAZDA_ENGINE[vin[7]] ?? (code === "KE" ? MAZDA_KE_EXTRA[vin[7]] : undefined); fill(eng);
+  if (MAZDA_OLD_LAYOUT.has(code) || code === "BK" || code === "DE" || code === "GH") {
+    const eng = code === "BK" ? MAZDA_BK_ENGINE[vin[7]] : code === "GH" ? MAZDA_GH_ENGINE[vin[7]]
+      : MAZDA_ENGINE[vin[7]] ?? (code === "KE" ? MAZDA_KE_EXTRA[vin[7]] : undefined); fill(eng);
     const body = MAZDA_OLD_BODY[vin[5]] ?? null;
-    const minor = code === "KE" ? ({ "1": "KE Series 1", "2": "KE Series 2" } as Record<string, string>)[vin[8]] ?? null : null;
+    // Minor change code: KE Series 1/2; GH Series 1 (GH1051, MY08–09) / Series 2 (GH1052, MY10–12) per dealer
+    // listings showing the Mazda Australia model code next to the VIN.
+    const minor = code === "KE" ? ({ "1": "KE Series 1", "2": "KE Series 2" } as Record<string, string>)[vin[8]] ?? null
+      : code === "GH" ? ({ "1": "GH Series 1", "2": "GH Series 2" } as Record<string, string>)[vin[8]] ?? null : null;
     if (minor) s.series = minor;
     return [
       seg(6, 6, vin, "Body", body, body ? {} : { note: "Not yet confirmed." }),
@@ -585,7 +599,12 @@ function kiaLine(vin: string): Hit | null {
   if (l === "F") return ["Cerato", "Cerato / Forte"];
   if (l === "D") return ["Rio / Stonic", "YB family"];
   if (l === "P") return vin[4] === "H" ? ["Sorento", "UM"] : ["Sportage", "Sportage (Korean-built)"];
-  if (l === "M") return ["Carnival", "Carnival"];
+  // KNAM: Carnival VQ to MY2014, YP from MY2015 (Wikibooks Kia "Sedona [YP] 2015-2021" + Grays
+  // KNAMB811MF6065233 "2015 Kia Carnival S YP", build 2015-01) — added 2026-11-20.
+  if (l === "M") {
+    const y = resolveModelYear(vin[9], 1981);
+    return ["Carnival", y === null ? "VQ / YP" : y >= 2015 ? "YP" : "VQ"];
+  }
   if (l === "N") return ["Carnival", "KA4"];
   if (l === "R") return ["Sorento", "MQ4"];
   if (l === "E") return ["Seltos", "Seltos"];
@@ -619,7 +638,11 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
     case "KNAR": return ({ E: E("3.5L V6 petrol", "3.5", "Petrol"), B: E("2.2L turbo diesel", "2.2", "Diesel"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), H: E("1.6L turbo petrol plug-in hybrid", "1.6", "Plug-in Hybrid") } as Record<string, Eng>)[c] ?? null;
     case "KNCS": return ({ A: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null;
     // Carnival VQ: 7 = 3.5 V6 petrol (Grand Carnival listings + recall REC-000790 "petrol vehicles" = all …817).
-    case "KNAM": return ({ "7": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
+    case "KNAM":
+      // YP (2015 on): 1 = 3.3 V6 GDi G6DH (Wikibooks Kia + STwins wrecker VINs + The Yard WA), A = 2.2 diesel
+      // D4HB (STwins wrecker VINs + Adelaide City GWM listing + eBay donor VIN) — added 2026-11-20.
+      if (y >= 2015) return ({ "1": E("3.3L V6 petrol (GDi, G6DH)", "3.3", "Petrol"), A: E("2.2L turbo diesel (D4HB)", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null;
+      return ({ "7": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
     default: return null;
   }
 }
@@ -690,6 +713,8 @@ function kiaTrim(vin: string, year: number | null): string | null {
       return null;
     case "KNAR": return t({ G: "S / Sport", H: "Sport+ / GT-Line" });            // Sorento MQ4
     case "KNAN": return t({ B: "S", C: "Si / Platinum / Sport+ / GT-Line" });     // Carnival KA4
+    // Carnival YP: B = S, C = Si / SLi / Platinum (Grays, The Yard WA, Lin Autos, Car Matars, Daniels, Adelaide City GWM).
+    case "KNAM": return y >= 2015 ? t({ B: "S", C: "Si / SLi / Platinum" }) : null;
     case "KNAF": return y >= 2019 ? t({ "2": "S / Sport", "3": "Sport+", "4": "GT" }) : null; // Cerato BD
     case "KNAE": return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
     case "KNAB": return t({ "3": "GT-Line" });                                    // Picanto
