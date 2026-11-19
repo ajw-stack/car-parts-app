@@ -6766,5 +6766,104 @@
   "year": 2022,
   "description": "GV60 JW1 Performance AWD electric",
   "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000FPC32852",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/969906801/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Renegade",
+  "year": 2015,
+  "description": "Jeep Renegade BU Limited Hatchback 5dr DDCT 6sp 1.4T [MY15]",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000GPD96736",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970099776/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Renegade",
+  "year": 2016,
+  "description": "Jeep Renegade BU Sport Hatchback 5dr DDCT 6sp 1.4T [MY16]",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000GPD58653",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970294436/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Renegade",
+  "year": 2017,
+  "description": "Jeep Renegade BU Sport Hatchback 5dr DDCT 6sp 1.4T [MY17] (VIN year code G = 2016)",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000GPD51577",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970375959/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Renegade",
+  "year": 2016,
+  "description": "Jeep Renegade BU Sport Hatchback 5dr DDCT 6sp 1.4T [MY16]",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000GPD14302",
+  "make": "Jeep",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970454556/ (drive.com.au dealer listing: VIN + RedBook variant)",
+  "model": "Renegade",
+  "year": 2016,
+  "description": "Jeep Renegade BU 75th Anniversary Hatchback 5dr DDCT 6sp 1.4T [MY16]",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000HPF91857",
+  "make": "Jeep",
+  "source": "https://www.pickles.com.au/used/details/print-view/61884290 (Pickles stock 61884290: build date 06/2017, CP 01/2018)",
+  "model": "Renegade",
+  "year": 2017,
+  "description": "Jeep Renegade BU MY17 Limited, 1.4L, 6-speed dual-clutch automatic",
+  "user_supplied": false
+ },
+ {
+  "vin": "1C4BU0000GPD49374",
+  "make": "Jeep",
+  "source": "https://carbids.com.au/c/allbids-car-auctions/small-cars/6-2017-jeep-renegade-trailhawk-awd-bu-my17-4d-wagon-black-turbo-24-1551593 (Carbids lot 1551593, titled 6/2017)",
+  "model": "Renegade",
+  "year": 2016,
+  "description": "Jeep Renegade Trailhawk (AWD) BU MY17 4d Wagon, 2.4L 4-cyl petrol, 9-speed automatic (VIN year code G = 2016)",
+  "user_supplied": false
+ },
+ {
+  "vin": "JDAM100S000551053",
+  "make": "Daihatsu",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2003/daihatsu/sirion/hatchback/m100rs/517241 (shopforcars.com.au dealer listing, Victoria Park; checked live 2026-11-19)",
+  "model": "Sirion",
+  "year": 2003,
+  "description": "Daihatsu Sirion M100RS Hatchback, 989 cc 3-cyl petrol, 5-speed manual",
+  "user_supplied": false
+ },
+ {
+  "vin": "JDAM100S000500079",
+  "make": "Daihatsu",
+  "source": "https://www.australiancar.reviews/recalls-faults-daihatsu-m100-sirion-1998-05/ (first VIN of the 1999 Australian recall range, = REC-004565 https://www.vehiclerecalls.gov.au/recalls/rec-004565)",
+  "model": "Sirion",
+  "year": 1998,
+  "description": "Daihatsu Sirion M100 (recall range built April 1998 – March 1999)",
+  "user_supplied": false
+ },
+ {
+  "vin": "JDAM100S000525616",
+  "make": "Daihatsu",
+  "source": "https://www.australiancar.reviews/recalls-faults-daihatsu-m100-sirion-1998-05/ (last VIN of the 1999 Australian recall range, = REC-004565 https://www.vehiclerecalls.gov.au/recalls/rec-004565)",
+  "model": "Sirion",
+  "year": 1999,
+  "description": "Daihatsu Sirion M100 (recall range built April 1998 – March 1999)",
+  "user_supplied": false
+ },
+ {
+  "vin": "JDAJ102G000507953",
+  "make": "Daihatsu",
+  "source": "https://www.shopforcars.com.au/vehicledetail/2001/daihatsu/terios/suv/sx_sx/906910 (Lloyds Auctions lot listed on shopforcars.com.au; listing expired by 2026-11-19 — VIN, year and model taken from the search-engine copy of the page)",
+  "model": "Terios",
+  "year": 2001,
+  "description": "Daihatsu Terios SX (2001) — listing gave no engine/drive detail",
+  "user_supplied": false
  }
 ]
