@@ -6865,5 +6865,725 @@
   "year": 2001,
   "description": "Daihatsu Terios SX (2001) — listing gave no engine/drive detail",
   "user_supplied": false
+ },
+ {
+  "vin": "HACAALB3XT1K05288",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312787/gac/aion-v/nsw/coffs-harbour/suv (listing: '2026 Gac Aion V Luxury', series Ay5-Eu, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB3XT1K05288 (VTA-065478, model AY5-EU, 150 kW)",
+  "model": "Aion V",
+  "year": 2026,
+  "description": "Gac Aion V Luxury — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Aion AY5-EU 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB36S1K02175",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/14999888/gac/aion-v/qld/capalaba/suv (listing: '2025 Gac Aion V Luxury', series Ay5-Eu, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB36S1K02175 (VTA-065478, model AY5-EU, 150 kW)",
+  "model": "Aion V",
+  "year": 2025,
+  "description": "Gac Aion V Luxury — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Aion AY5-EU 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB37T1K05247",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15213680/gac/aion-v/vic/bundoora/suv (listing: '2026 Gac Aion V Luxury', series Ay5-Eu, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB37T1K05247 (VTA-065478, model AY5-EU, 150 kW)",
+  "model": "Aion V",
+  "year": 2026,
+  "description": "Gac Aion V Luxury — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Aion AY5-EU 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB36T1K05384",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15410541/gac/aion-v/nsw/port-macquarie/suv (listing: '2026 Gac Aion V LUXURY F', series , FWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB36T1K05384 (VTA-065478, model AY5-EU, 150 kW)",
+  "model": "Aion V",
+  "year": 2026,
+  "description": "Gac Aion V LUXURY F — SUV, 4 Doors, 5 Seats, FWD; RAV: Aion AY5-EU 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB30T3F12587",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15379739/gac/aion-ut/nsw/castle-hill/hatchback (listing: '2026 Gac Aion Ut Premium', series Ay2-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB30T3F12587 (VTA-065886, model AY2, 150 kW)",
+  "model": "Aion Ut",
+  "year": 2026,
+  "description": "Gac Aion Ut Premium — Hatch, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC AY2 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB36T3F11931",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312791/gac/aion-ut/nsw/coffs-harbour/hatchback (listing: '2026 Gac Aion Ut Premium', series Ay2-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB36T3F11931 (VTA-065886, model AY2, 150 kW)",
+  "model": "Aion Ut",
+  "year": 2026,
+  "description": "Gac Aion Ut Premium — Hatch, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC AY2 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB37T3F13574",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15347240/gac/aion-ut/nsw/north-gosford/hatchback (listing: '2026 Gac Aion Ut Premium', series Ay2-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB37T3F13574 (VTA-065886, model AY2, 150 kW)",
+  "model": "Aion Ut",
+  "year": 2026,
+  "description": "Gac Aion Ut Premium — Hatch, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC AY2 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HACAALB37T3F12151",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312792/gac/aion-ut/nsw/coffs-harbour/hatchback (listing: '2026 Gac Aion Ut Luxury', series Ay2-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HACAALB37T3F12151 (VTA-065886, model AY2, 150 kW)",
+  "model": "Aion Ut",
+  "year": 2026,
+  "description": "Gac Aion Ut Luxury — Hatch, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC AY2 150 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCA2C41RS158844",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCA2C41RS158844 (VTA-063797, model HC11 = smart #3, 315 kW, build 07/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 BRABUS AWD 315 kW (RAV HC11, build 07/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCA2C49RS130273",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCA2C49RS130273 (VTA-063797, model HC11 = smart #3, 315 kW, build 06/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 BRABUS AWD 315 kW (RAV HC11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCA2C44RS130259",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCA2C44RS130259 (VTA-063797, model HC11 = smart #3, 315 kW, build 06/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 BRABUS AWD 315 kW (RAV HC11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCR1C47RS130243",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCR1C47RS130243 (VTA-063797, model HC11 = smart #3, 200 kW, build 06/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 RWD 200 kW (RAV HC11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCR1C45RS131049",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCR1C45RS131049 (VTA-063797, model HC11 = smart #3, 200 kW, build 06/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 RWD 200 kW (RAV HC11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESCR1C40RS130276",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESCR1C40RS130276 (VTA-063797, model HC11 = smart #3, 200 kW, build 06/2024)",
+  "model": "#3",
+  "year": 2024,
+  "description": "smart #3 RWD 200 kW (RAV HC11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXA2C4XRS160268",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXA2C4XRS160268 (VTA-063884, model HX11 = smart #1, 315 kW, build 07/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 BRABUS AWD 315 kW (RAV HX11, build 07/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXA2C48RS159846",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXA2C48RS159846 (VTA-063884, model HX11 = smart #1, 315 kW, build 07/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 BRABUS AWD 315 kW (RAV HX11, build 07/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXA2C40RS128848",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXA2C40RS128848 (VTA-063884, model HX11 = smart #1, 315 kW, build 06/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 BRABUS AWD 315 kW (RAV HX11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXR1C4XRS159835",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXR1C4XRS159835 (VTA-063884, model HX11 = smart #1, 200 kW, build 07/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 RWD 200 kW (RAV HX11, build 07/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXR1C44RS128838",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXR1C44RS128838 (VTA-063884, model HX11 = smart #1, 200 kW, build 06/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 RWD 200 kW (RAV HX11, build 06/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "HESXR1C49RS161852",
+  "make": "smart",
+  "source": "https://www.vehiclerecalls.gov.au/sites/default/files/recall-files/REC-006233-VIN-List-1.csv (recall REC-006233, smart #1 and #3) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=HESXR1C49RS161852 (VTA-063884, model HX11 = smart #1, 200 kW, build 07/2024)",
+  "model": "#1",
+  "year": 2024,
+  "description": "smart #1 RWD 200 kW (RAV HX11, build 07/2024)",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHAXRB095247",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15297014/xpeng/g6/vic/port-melbourne/suv (listing: '2024 Xpeng G6 Standard', series , Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHAXRB095247 (VTA-064130, model G6, 190 kW)",
+  "model": "G6",
+  "year": 2024,
+  "description": "Xpeng G6 Standard — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: XPENG G6 190 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHA8SB138781",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15297436/xpeng/g6/vic/berwick/suv (listing: '2025 Xpeng G6 Standard', series , Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHA8SB138781 (VTA-064130, model G6, 190 kW)",
+  "model": "G6",
+  "year": 2025,
+  "description": "Xpeng G6 Standard — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: XPENG G6 190 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHA7SB126590",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15324430/xpeng/g6/wa/bibra-lake/suv (listing: '2025 Xpeng G6 Standard', series , Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHA7SB126590 (VTA-064130, model G6, 190 kW)",
+  "model": "G6",
+  "year": 2025,
+  "description": "Xpeng G6 Standard — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: XPENG G6 190 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHA2SB137786",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15336487/xpeng/g6/nsw/chullora/suv (listing: '2025 Xpeng G6 Long Range', series , Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHA2SB137786 (VTA-064130, model G6, 210 kW)",
+  "model": "G6",
+  "year": 2025,
+  "description": "Xpeng G6 Long Range — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: XPENG G6 210 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHC5TB054744",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15363954/xpeng/x9/nsw/port-macquarie/people-mover (listing: '2026 Xpeng X9 Awd Performance', series , All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHC5TB054744 (VTA-066164, model H93, 395 kW)",
+  "model": "X9",
+  "year": 2026,
+  "description": "Xpeng X9 Awd Performance — People Mover, 5 Doors, 7 Seats, All Wheel Drive; RAV: XPENG H93 395 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHC9TB051345",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15364055/xpeng/x9/wa/maddington/people-mover (listing: '2026 Xpeng X9 Awd Performance', series , All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHC9TB051345 (VTA-066164, model H93, 395 kW)",
+  "model": "X9",
+  "year": 2026,
+  "description": "Xpeng X9 Awd Performance — People Mover, 5 Doors, 7 Seats, All Wheel Drive; RAV: XPENG H93 395 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHC2TB053504",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15367507/xpeng/x9/vic/elsternwick/people-mover (listing: '2026 Xpeng X9 Awd Performance', series , All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHC2TB053504 (VTA-066164, model H93, 395 kW)",
+  "model": "X9",
+  "year": 2026,
+  "description": "Xpeng X9 Awd Performance — People Mover, 5 Doors, 7 Seats, All Wheel Drive; RAV: XPENG H93 395 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L1NNSGHC1TB051372",
+  "make": "Xpeng",
+  "source": "https://www.autotrader.com.au/car/15329460/xpeng/x9/nsw/coffs-harbour/people-mover (listing: '2026 Xpeng X9 Fwd Standard Range', series , Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L1NNSGHC1TB051372 (VTA-066164, model H93, 255 kW)",
+  "model": "X9",
+  "year": 2026,
+  "description": "Xpeng X9 Fwd Standard Range — People Mover, 5 Doors, 7 Seats, Front Wheel Drive; RAV: XPENG H93 255 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TBX2019SF305314",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15398497/zeekr/x/qld/bundamba/suv (listing: '2024 Zeekr X (Rwd)', series Bx1E My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TBX2019SF305314 (VTA-064018, model BXE, 200 kW)",
+  "model": "X",
+  "year": 2024,
+  "description": "Zeekr X (Rwd) — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: ZEEKR BXE 200 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TBX2019SF303272",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15189716/zeekr/x/wa/victoria-park/suv (listing: '2024 Zeekr X (Rwd)', series Bx1E My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TBX2019SF303272 (VTA-064018, model BXE, 200 kW)",
+  "model": "X",
+  "year": 2024,
+  "description": "Zeekr X (Rwd) — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: ZEEKR BXE 200 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TBX2013SF303350",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15117591/zeekr/x/wa/victoria-park/suv (listing: '2024 Zeekr X (Rwd)', series Bx1E My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TBX2013SF303350 (VTA-064018, model BXE, 200 kW)",
+  "model": "X",
+  "year": 2024,
+  "description": "Zeekr X (Rwd) — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: ZEEKR BXE 200 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TBX2039SF304729",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15326693/zeekr/x/wa/victoria-park/suv (listing: '2024 Zeekr X (Awd)', series Bx1E My24, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TBX2039SF304729 (VTA-064018, model BXE, 315 kW)",
+  "model": "X",
+  "year": 2024,
+  "description": "Zeekr X (Awd) — SUV, 5 Doors, 5 Seats, All Wheel Drive; RAV: ZEEKR BXE 315 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TBX2SCXTF205075",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15405122/zeekr/x/vic/airport-west/suv (listing: '2026 Zeekr X (Awd)', series Bx1E My24, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TBX2SCXTF205075 (VTA-065155, model BXE, 365 kW)",
+  "model": "X",
+  "year": 2026,
+  "description": "Zeekr X (Awd) — SUV, 5 Doors, 5 Seats, All Wheel Drive; RAV: ZEEKR BXE 365 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB3VY028258",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15360416/geely/ex5/nsw/blacktown/suv (listing: '2026 Geely EX5 Inspire Extended Range', series E24 My27, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TE21SB3VY028258 (VTA-064481, model E245, 160 kW)",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 Inspire Extended Range — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely E245 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB9VY029107",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15353008/geely/ex5/nsw/blacktown/suv (listing: '2026 Geely EX5 Inspire Extended Range', series E24 My27, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TE21SB9VY029107 (VTA-064481, model E245, 160 kW)",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 Inspire Extended Range — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely E245 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SBXVY028256",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15353003/geely/ex5/nsw/blacktown/suv (listing: '2026 Geely EX5 Inspire Extended Range', series E24 My27, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TE21SBXVY028256 (VTA-064481, model E245, 160 kW)",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 Inspire Extended Range — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely E245 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB6VY007551",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15384898/geely/ex5/nsw/albion-park-rail/suv (listing: '2026 Geely EX5 Complete Extended Range', series E24 My27, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TE21SB6VY007551 (VTA-064481, model E245, 160 kW)",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 Complete Extended Range — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely E245 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TEF604XSP951893",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15241258/zeekr/009/wa/victoria-park/people-mover (listing: '2024 Zeekr 009 Awd (6 Seat)', series Ef1E My25, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TEF604XSP951893 (VTA-064361, model EF2, 450 kW)",
+  "model": "009",
+  "year": 2024,
+  "description": "Zeekr 009 Awd (6 Seat) — People Mover, 4 Doors, 6 Seats, All Wheel Drive; RAV: ZEEKR EF2 450 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TZA1S48TN015090",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15405550/zeekr/7x/wa/victoria-park/suv (listing: '2025 Zeekr 7X Performance Awd', series Cx1E, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TZA1S48TN015090 (VTA-065421, model G00, 475 kW)",
+  "model": "7X",
+  "year": 2025,
+  "description": "Zeekr 7X Performance Awd — SUV, 4 Doors, 5 Seats, All Wheel Drive; RAV: ZEEKR G00 475 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TZA1S42TN004909",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15408675/zeekr/7x/wa/kingsley/suv (listing: '2025 Zeekr 7X Performance Awd', series Cx1E, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TZA1S42TN004909 (VTA-065421, model G00, 475 kW)",
+  "model": "7X",
+  "year": 2025,
+  "description": "Zeekr 7X Performance Awd — SUV, 4 Doors, 5 Seats, All Wheel Drive; RAV: ZEEKR G00 475 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TZA1S49TN035705",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15410471/zeekr/7x/wa/canning-vale/suv (listing: '2026 Zeekr 7X Performance Awd', series Cx1E, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TZA1S49TN035705 (VTA-065421, model G00, 475 kW)",
+  "model": "7X",
+  "year": 2026,
+  "description": "Zeekr 7X Performance Awd — SUV, 4 Doors, 5 Seats, All Wheel Drive; RAV: ZEEKR G00 475 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TZA1S54TN031344",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15353849/zeekr/7x/vic/berwick/suv (listing: '2026 Zeekr 7X Long Range Rwd', series Cx1E, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TZA1S54TN031344 (VTA-065421, model G00, 310 kW)",
+  "model": "7X",
+  "year": 2026,
+  "description": "Zeekr 7X Long Range Rwd — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: ZEEKR G00 310 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TZA1S55TN009045",
+  "make": "Zeekr",
+  "source": "https://www.autotrader.com.au/car/15364078/zeekr/7x/wa/maddington/suv (listing: '2025 Zeekr 7X Long Range Rwd', series Cx1E, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=L6TZA1S55TN009045 (VTA-065421, model G00, 310 kW)",
+  "model": "7X",
+  "year": 2025,
+  "description": "Zeekr 7X Long Range Rwd — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: ZEEKR G00 310 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3EH20F3VX010525",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15403458/geely/ex2/nsw/blacktown/hatchback (listing: '2026 Geely Ex2 Inspire', series E27, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3EH20F3VX010525 (VTA-066283, model E22H, 85 kW)",
+  "model": "Ex2",
+  "year": 2026,
+  "description": "Geely Ex2 Inspire — Hatch, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: Geely E22H 85 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3EH20F8VX004428",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15390915/geely/ex2/tas/launceston/hatchback (listing: '2026 Geely Ex2 Inspire', series E27, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3EH20F8VX004428 (VTA-066283, model E22H, 85 kW)",
+  "model": "Ex2",
+  "year": 2026,
+  "description": "Geely Ex2 Inspire — Hatch, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: Geely E22H 85 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3EH20F7VX000516",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15302578/geely/ex2/tas/launceston/hatchback (listing: '2026 Geely Ex2 Inspire', series E27, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3EH20F7VX000516 (VTA-066283, model E22H, 85 kW)",
+  "model": "Ex2",
+  "year": 2026,
+  "description": "Geely Ex2 Inspire — Hatch, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: Geely E22H 85 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3EH20F0VX009641",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15388795/geely/ex2/nsw/blacktown/hatchback (listing: '2026 Geely Ex2 Complete', series E27, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3EH20F0VX009641 (VTA-066283, model E22H, 60 kW)",
+  "model": "Ex2",
+  "year": 2026,
+  "description": "Geely Ex2 Complete — Hatch, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: Geely E22H 60 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SD9VH316125",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15403866/geely/starray-em-i/nsw/blacktown/suv (listing: '2026 Geely Starray Em-I Inspire', series P145 My26, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SD9VH316125 (VTA-065413, model P145, 193 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely P145 193 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SD0TH357840",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15386461/geely/starray-em-i/vic/balwyn/suv (listing: '2026 Geely Starray Em-I Inspire', series P145 My26, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SD0TH357840 (VTA-065413, model P145, 193 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely P145 193 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SD5VH310418",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15342785/geely/starray-em-i/tas/launceston/suv (listing: '2026 Geely Starray Em-I Inspire', series P145 My26, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SD5VH310418 (VTA-065413, model P145, 193 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely P145 193 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SD4VH304867",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15342106/geely/starray-em-i/qld/mackay/suv (listing: '2026 Geely Starray Em-I Complete', series P145 My27, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SD4VH304867 (VTA-065413, model P145, 193 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Complete — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: Geely P145 193 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SP4VH314891",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15403451/geely/starray-em-i/nsw/blacktown/suv (listing: '2026 Geely Starray Em-I Inspire Awd', series P145 My27, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SP4VH314891 (VTA-065413, model P145, 313 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire Awd — SUV, 5 Doors, 5 Seats, All Wheel Drive; RAV: Geely P145 313 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SP7VH314996",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15348799/geely/starray-em-i/nsw/coffs-harbour/suv (listing: '2026 Geely Starray Em-I Inspire Awd', series P145 My27, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SP7VH314996 (VTA-065413, model P145, 313 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire Awd — SUV, 5 Doors, 5 Seats, All Wheel Drive; RAV: Geely P145 313 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LB3P11SP1VH314881",
+  "make": "Geely",
+  "source": "https://www.autotrader.com.au/car/15348797/geely/starray-em-i/nsw/coffs-harbour/suv (listing: '2026 Geely Starray Em-I Inspire Awd', series P145 My27, All Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LB3P11SP1VH314881 (VTA-065413, model P145, 313 kW)",
+  "model": "Starray EM-i",
+  "year": 2026,
+  "description": "Geely Starray Em-I Inspire Awd — SUV, 5 Doors, 5 Seats, All Wheel Drive; RAV: Geely P145 313 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LFZ63AN52RD075131",
+  "make": "Leapmotor",
+  "source": "https://www.autotrader.com.au/car/15385564/leapmotor/c10/qld/geebung/suv (listing: '2024 Leapmotor C10 Style', series My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LFZ63AN52RD075131 (VTA-064263, model B11, 160 kW)",
+  "model": "C10",
+  "year": 2024,
+  "description": "Leapmotor C10 Style — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: LEAPMOTOR B11 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LFZ93AN91SD112871",
+  "make": "Leapmotor",
+  "source": "https://www.autotrader.com.au/car/15395205/leapmotor/c10/vic/coburg-north/suv (listing: '2025 Leapmotor C10 Design Reev', series My25, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LFZ93AN91SD112871 (VTA-064263, model B11, 158 kW)",
+  "model": "C10",
+  "year": 2025,
+  "description": "Leapmotor C10 Design Reev — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: LEAPMOTOR B11 158 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LFZ93AN97SD112888",
+  "make": "Leapmotor",
+  "source": "https://www.autotrader.com.au/car/15385383/leapmotor/c10/sa/thebarton/suv (listing: '2025 Leapmotor C10 Design Reev', series My25, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LFZ93AN97SD112888 (VTA-064263, model B11, 158 kW)",
+  "model": "C10",
+  "year": 2025,
+  "description": "Leapmotor C10 Design Reev — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: LEAPMOTOR B11 158 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LFZ93AN95SD112887",
+  "make": "Leapmotor",
+  "source": "https://www.autotrader.com.au/car/15171596/leapmotor/c10/vic/bundoora/suv (listing: '2025 Leapmotor C10 Design Reev', series My25, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LFZ93AN95SD112887 (VTA-064263, model B11, 158 kW)",
+  "model": "C10",
+  "year": 2025,
+  "description": "Leapmotor C10 Design Reev — SUV, 4 Doors, 5 Seats, Rear Wheel Drive; RAV: LEAPMOTOR B11 158 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LFZA5AE26TE010066",
+  "make": "Leapmotor",
+  "source": "https://www.autotrader.com.au/car/15370384/leapmotor/b10/qld/southport/suv (listing: '2026 Leapmotor B10 STYLE R', series , RWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LFZA5AE26TE010066 (VTA-065599, model A12, 160 kW)",
+  "model": "B10",
+  "year": 2026,
+  "description": "Leapmotor B10 STYLE R — SUV, 4 Doors, 5 Seats, RWD; RAV: LEAPMOTOR A12 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L21T3284460",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15295223/gac/emzoom/sa/gawler/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L21T3284460 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L23T3278966",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15295225/gac/emzoom/sa/gawler/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L23T3278966 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L25T3284512",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15298569/gac/emzoom/sa/gawler/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L25T3284512 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L26T3284504",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15411526/gac/emzoom/nsw/castle-hill/suv (listing: '2026 Gac Emzoom', series , ) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L26T3284504 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom — , drive not stated; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L87T3273256",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312789/gac/emzoom/nsw/coffs-harbour/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L87T3273256 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L82T3273293",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312797/gac/emzoom/nsw/coffs-harbour/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L82T3273293 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGHT1L88T3273251",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312801/gac/emzoom/nsw/coffs-harbour/suv (listing: '2026 Gac Emzoom Gl', series A79-G, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGHT1L88T3273251 (VTA-065570, model A79-G, 125 kW)",
+  "model": "Emzoom",
+  "year": 2026,
+  "description": "Gac Emzoom Gl — SUV, 5 Doors, 5 Seats, Front Wheel Drive; RAV: GAC A79-G 125 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGMB1S52T1085829",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/14999935/gac/m8/qld/capalaba/people-mover (listing: '2025 Gac M8 Gl', series A88, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGMB1S52T1085829 (VTA-065550, model A88 (PHEV), 140 kW)",
+  "model": "M8",
+  "year": 2025,
+  "description": "Gac M8 Gl — People Mover, 5 Doors, 7 Seats, Front Wheel Drive; RAV: GAC A88 (PHEV) 140 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGMB1S85T1090114",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15410542/gac/m8/nsw/port-macquarie/othercar (listing: '2026 Gac M8 PHEV LUXURY F', series , FWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGMB1S85T1090114 (VTA-065550, model A88 (PHEV), 189 kW)",
+  "model": "M8",
+  "year": 2026,
+  "description": "Gac M8 PHEV LUXURY F — OtherCar, 4 Doors, 7 Seats, FWD; RAV: GAC A88 (PHEV) 189 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGMB1S80T1085435",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/14999887/gac/m8/qld/capalaba/van (listing: '2025 Gac M8 PHEV LUXURY F', series , FWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGMB1S80T1085435 (VTA-065550, model A88 (PHEV), 189 kW)",
+  "model": "M8",
+  "year": 2025,
+  "description": "Gac M8 PHEV LUXURY F — Commercial, 4 Doors, 7 Seats, FWD; RAV: GAC A88 (PHEV) 189 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGMB1S88S1088453",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/15312798/gac/m8/nsw/coffs-harbour/van (listing: '2026 Gac M8 PHEV LUXURY F', series , FWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGMB1S88S1088453 (VTA-065550, model A88 (PHEV), 189 kW)",
+  "model": "M8",
+  "year": 2026,
+  "description": "Gac M8 PHEV LUXURY F — Commercial, 4 Doors, 7 Seats, FWD; RAV: GAC A88 (PHEV) 189 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LMGMB1S85T1085785",
+  "make": "GAC",
+  "source": "https://www.autotrader.com.au/car/14999931/gac/m8/qld/capalaba/people-mover (listing: '2025 Gac M8 Gx', series A88, Front Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LMGMB1S85T1085785 (VTA-065550, model A88 (PHEV), 140 kW)",
+  "model": "M8",
+  "year": 2025,
+  "description": "Gac M8 Gx — People Mover, 5 Doors, 7 Seats, Front Wheel Drive; RAV: GAC A88 (PHEV) 140 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3E0M8SF604618",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15219032/deepal/s07/nt/winnellie/suv (listing: '2025 Deepal S07 Rwd', series My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3E0M8SF604618 (VTA-064127, model C673, 160 kW)",
+  "model": "S07",
+  "year": 2025,
+  "description": "Deepal S07 Rwd — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: DEEPAL C673 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3E0MXSF605298",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15223784/deepal/s07/nt/stuart-park/suv (listing: '2025 Deepal S07 Rwd', series My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3E0MXSF605298 (VTA-064127, model C673, 160 kW)",
+  "model": "S07",
+  "year": 2025,
+  "description": "Deepal S07 Rwd — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: DEEPAL C673 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3E0M0SF606279",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15223780/deepal/s07/nt/stuart-park/suv (listing: '2025 Deepal S07 Rwd', series My24, Rear Wheel Drive) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3E0M0SF606279 (VTA-064127, model C673, 160 kW)",
+  "model": "S07",
+  "year": 2025,
+  "description": "Deepal S07 Rwd — SUV, 5 Doors, 5 Seats, Rear Wheel Drive; RAV: DEEPAL C673 160 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3E1E4TK500059",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15219043/deepal/e07/nt/winnellie/pickup (listing: '2026 Deepal E07 R', series , RWD) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3E1E4TK500059 (VTA-065176, model SC6501, 252 kW)",
+  "model": "E07",
+  "year": 2026,
+  "description": "Deepal E07 R — Ute Tray, 4 Doors, 5 Seats, RWD; RAV: DEEPAL SC6501 252 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3G0Y5TK500188",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15326614/deepal/e07/nt/stuart-park/pickup (listing: '2026 Deepal E07 PERFORMANCE 4WD', series , FOUR_BY_FOUR) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3G0Y5TK500188 (VTA-065176, model SC6501, 440 kW)",
+  "model": "E07",
+  "year": 2026,
+  "description": "Deepal E07 PERFORMANCE 4WD — Ute Tray, 4 Doors, 5 Seats, FOUR_BY_FOUR; RAV: DEEPAL SC6501 440 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "LS6C3G0Y3TK500254",
+  "make": "Deepal",
+  "source": "https://www.autotrader.com.au/car/15326613/deepal/e07/nt/stuart-park/pickup (listing: '2026 Deepal E07 PERFORMANCE 4WD', series , FOUR_BY_FOUR) + RAV https://www.rover.infrastructure.gov.au/RAVPublicSearch?vinno=LS6C3G0Y3TK500254 (VTA-065176, model SC6501, 440 kW)",
+  "model": "E07",
+  "year": 2026,
+  "description": "Deepal E07 PERFORMANCE 4WD — Ute Tray, 4 Doors, 5 Seats, FOUR_BY_FOUR; RAV: DEEPAL SC6501 440 kW",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB4VY019763",
+  "make": "Geely",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970387498/ (drive.com.au listing: 2026 Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY27])",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY27]",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB3VY015669",
+  "make": "Geely",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970268461/ (drive.com.au listing: 2026 Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY27])",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY27]",
+  "user_supplied": false
+ },
+ {
+  "vin": "L6TE21SB3VY012545",
+  "make": "Geely",
+  "source": "https://www.drive.com.au/cars-for-sale/car/970354724/ (drive.com.au listing: 2026 Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY26])",
+  "model": "EX5",
+  "year": 2026,
+  "description": "Geely EX5 E245 Inspire Extended Range Wagon 5dr Reduction Gear 1sp 160kW [MY26]",
+  "user_supplied": false
  }
 ]

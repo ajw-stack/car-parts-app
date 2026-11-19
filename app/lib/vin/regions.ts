@@ -19,6 +19,8 @@ const RULES: Rule[] = [
   ["K", "F", "K", "Israel"],
   ["K", "L", "R", "South Korea"],
   ["L", "A", "0", "China"],
+  // H was re-allocated to China (Wikibooks WMI list "H = China"; smart HES and GAC Aion HAC VINs) — 2026-11-20.
+  ["H", "A", "0", "China"],
   ["M", "A", "E", "India"],
   ["M", "F", "K", "Indonesia"],
   ["M", "L", "R", "Thailand"],
@@ -67,8 +69,8 @@ const RULES: Rule[] = [
 ];
 
 export function regionOf(c1: string): string {
-  if ("ABCDEFGH".includes(c1)) return "Africa";
-  if ("JKLMNPR".includes(c1)) return "Asia";
+  if ("ABCDEFG".includes(c1)) return "Africa";
+  if ("HJKLMNPR".includes(c1)) return "Asia";
   if ("STUVWXYZ".includes(c1)) return "Europe";
   if ("12345".includes(c1)) return "North America";
   if ("67".includes(c1)) return "Oceania";

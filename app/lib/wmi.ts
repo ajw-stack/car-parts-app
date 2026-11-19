@@ -162,6 +162,8 @@ const WMI_MAP: Record<string, string> = {
   VR3: "Peugeot", VR7: "Citroën", ZN6: "Maserati (SUV)", ZAC: "Jeep (Italy / Poland)", VXF: "Fiat (vans)",
   // Added 2026-11-19 (Genesis rule research)
   KMT: "Genesis", KMU: "Genesis (SUV)",
+  // Added 2026-11-20 (newer Chinese brands: RAV approval holders + Wikibooks WMI list)
+  L6T: "Geely / Zeekr", LB3: "Geely", HES: "smart", LFZ: "Leapmotor", L1N: "Xpeng", LS6: "Changan / Deepal", LMG: "GAC", HAC: "GAC Aion",
 };
 
 /** Look up a manufacturer by WMI (3-char or 2-char prefix). */

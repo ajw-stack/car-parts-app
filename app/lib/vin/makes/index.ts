@@ -12,6 +12,7 @@ import { fcaNorthAmerica, fordAustralia, fordBrazil, fordThailand } from "./ford
 import { bmw, holdenKorea, renault } from "./others";
 import { byd, chery, gwm, ldv, mg } from "./china";
 import { tesla } from "./tesla";
+import { deepal, gac, geely, leapmotor, smart, xpeng, zeekr } from "./china-extra";
 import { daihatsu, jeepMelfi } from "./jeep-daihatsu";
 import { genesis, mahindra, ssangyong } from "./misc-extra";
 import { alfaRomeo, citroen, ferrari, fiat, jeepEurope, maserati, peugeot } from "./stellantis-eu";
@@ -33,6 +34,7 @@ export const MAKE_RULES: MakeRule[] = [
   volvo, polestar, mini, jaguar,
   peugeot, citroen, fiat, alfaRomeo, maserati, ferrari, jeepEurope,
   mahindra, ssangyong, genesis, daihatsu,
+  geely, zeekr, smart, leapmotor, xpeng, deepal, gac,
 ];
 
 export function findMakeRule(vin: string): MakeRule | null {

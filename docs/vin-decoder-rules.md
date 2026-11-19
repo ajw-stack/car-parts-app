@@ -217,6 +217,8 @@ Older Model S / X (added 2026-11-12; Tesla NHTSA Part 565 filings ORG8047, ORG91
 
 ---
 
+**Rule 34H. Geely, Zeekr, smart, Leapmotor, Xpeng, Deepal/Changan, GAC/Aion (`makes/china-extra.ts`, added 2026-11-20).** WMIs L6T (Geely and Zeekr, split by code group), LB3, HES, LFZ, L1N, LS6, LMG, HAC. Each code group (positions 4–8) is tied to a model by listing VINs checked one by one against the Australian Government Register of Approved Vehicles (approval, maker's model code, kW, fuel); drive and kW only where press or maker pages agree. smart positions 6–7: R1 RWD 200 kW, A2 BRABUS AWD 315 kW (recall REC-006233 VINs + RAV). GAC Aion V vs Aion UT share positions 4–8 and are told apart by position 11 (observed on 62 RAV-checked VINs). All carry a real check digit and model year; plant not decoded. Not in these VINs (the app must ask): trim, battery size; Geely EX2 power; Xpeng G6 drive and range; Xpeng X9 drive; GAC M8 power. Also 2026-11-20: VINs starting H are now allocated to China (regions.ts).
+
 ## Part 4 — Testing
 
 **Rule 35. Test set.** The decoder is tested against:
