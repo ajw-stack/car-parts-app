@@ -160,6 +160,7 @@ function hondaDetail(vin: string, s: Partial<VinSummary>): VinSegment[] {
   const bt = HONDA_BODY_TRANS[vin[6]] ?? null;
   if (bt) s.transmission = /manual/.test(bt) ? "Manual" : "Automatic / CVT";
   const g = HONDA_GRADE[chassis]?.[vin.slice(5, 8)];
+  if (chassis === "RC" && vin[5] === "1") Object.assign(s, { engine: "2.4L petrol (K24W)", engineLitres: "2.4", fuel: "Petrol", drive: "FWD" });
   if (g) {
     s.trim = g[0];
     if (g[1]) { s.engine = g[1]; s.engineLitres = g[1].slice(0, 3); s.fuel = /hybrid/i.test(g[1]) ? "Hybrid" : "Petrol"; }
@@ -167,7 +168,11 @@ function hondaDetail(vin: string, s: Partial<VinSummary>): VinSegment[] {
   const y = resolveModelYear(vin[9], 1981);
   const cd = hondaUsesCheckDigit(vin, y);
   return [
-    seg(6, 6, vin, "Chassis sub-number", null, { status: "standard", note: "Part of Honda's model code with positions 4, 5, 7 and 8." }),
+    // Odyssey RC: positions 4–6 = Honda model type. RC1 = 2.4 K24W petrol FWD (tc-v.com "DBA-RC1 … Front … K24W";
+    // nengun "RC2 is the four wheel drive version"; Australian wreckers list AU cars as RC1 K24W) — added 2026-11-20.
+    chassis === "RC" && vin[5] === "1"
+      ? seg(6, 6, vin, "Model type", "RC1 — 2.4L petrol (K24W), front-wheel drive")
+      : seg(6, 6, vin, "Chassis sub-number", null, { status: "standard", note: "Part of Honda's model code with positions 4, 5, 7 and 8." }),
     seg(7, 7, vin, "Body / transmission", bt),
     seg(8, 8, vin, "Grade", g ? (g[1] ? `${g[0]}, ${g[1]}` : g[0]) : null, g ? {} : { note: "This grade code is not yet confirmed for this model." }),
     cd

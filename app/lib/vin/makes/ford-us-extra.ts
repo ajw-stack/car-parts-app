@@ -313,7 +313,10 @@ type EuModel = { model: string; series?: (y: number | null) => string | null; bo
 // names came from listings only, so only the model is decoded. Removed as contested: GCB, GCH, GCD, WPC, MXB.
 const EU_BLOCK: Record<string, EuModel> = {
   WPM: { model: "Kuga / Escape" },
-  GBB: { model: "Mondeo" },
+  // Body letters (positions 4 and 10) from Ford's Mondeo 2007.5 workshop manual 100-01 ("D 4 Door, E 5 Door,
+  // G Wagon") + VIN/body pairs (B-Parts, carsbat). Series from GoAuto + Wikipedia: Australia's MA (Oct 2007 –
+  // Aug 2009) was sedan and hatch only; the wagon came with the MB (Jul 2009, sedan dropped); MC from Nov 2010.
+  GBB: { model: "Mondeo", body4: {} },
   ERK: { model: "Puma" },
   MXJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309 "FIESTA & RANGER"
   ARJ: { model: "Fiesta", series: () => "Thai-built" },   // recall REC-000309
@@ -339,7 +342,17 @@ export const fordEurope: MakeRule = {
     const blk = EU_BLOCK[vin.slice(6, 9)];
     const y = euYear(vin[10]);
     let model: string | null = null; let series: string | null = null;
-    if (blk) {
+    let body: string | null = null;
+    if (blk && vin.slice(6, 9) === "GBB") {
+      body = ({ D: "Sedan (4-door)", E: "Hatch (5-door)", G: "Wagon" } as Record<string, string>)[vin[3]] ?? null;
+      model = "Mondeo";
+      if (y) {
+        if (vin[3] === "D") series = "MA";
+        else if (vin[3] === "G") series = y <= 2009 ? "MB" : y === 2010 ? "MB or MC (2010 change-over — check the build plate)" : y <= 2014 ? "MC" : null;
+        else if (vin[3] === "E") series = y <= 2008 ? "MA" : y === 2009 ? "MA or MB (2009 change-over — check the build plate)" : y === 2010 ? "MB or MC (2010 change-over — check the build plate)" : y <= 2014 ? "MC" : null;
+      }
+      if (body) s.body = body;
+    } else if (blk) {
       if (blk.body4) { const b = blk.body4[vin[3]]; if (b) { model = blk.model; series = b; } }
       else { model = blk.model; series = blk.series?.(y) ?? null; }
     }
@@ -353,14 +366,14 @@ export const fordEurope: MakeRule = {
     const month = fordEuropeMonth(y, vin[11]);
     return {
       segments: [
-        seg(4, 4, vin, "Body type", null, { note: "Ford body letters differ by model line; not decoded." }),
+        seg(4, 4, vin, "Body type", body, body ? {} : { note: "Ford body letters differ by model line; not decoded for this model." }),
         filler(5, 6, vin, "Constant XX on Ford-of-Europe-layout VINs (Ford workshop manual)."),
         seg(7, 7, vin, "Product source", src, src ? {} : { note: "Not confirmed by two sources." }),
         seg(8, 8, vin, "Assembly plant", plant, plant ? {} : { note: "Plant letter depends on position 7; not confirmed by two sources for this pair." }),
         seg(9, 9, vin, "Model line", model ? `${model}${series ? ` — ${series}` : ""}` : null, model
-          ? { note: "Decoded from positions 7–9 (and 4) together, matched against Australian listings." }
+          ? { note: "Decoded from positions 7–9 together (Ford's VIN tables and Australian listings agree)." }
           : { note: "Model-line letters are reused between eras; this block is not confirmed." }),
-        seg(10, 10, vin, "Body type (repeat)", null, { note: "Repeats position 4; not decoded." }),
+        seg(10, 10, vin, "Body type (repeat)", body, body ? { note: "Repeats position 4." } : { note: "Repeats position 4; not decoded." }),
         seg(11, 11, vin, "Year of manufacture", y ? String(y) : null, { status: "standard", note: "Year the vehicle was built (Ford manual), not a model year." }),
         seg(12, 12, vin, "Month of manufacture", month, month ? {} : { note: "Ford month letters confirmed for 2006–2015 builds only." }),
         { from: 13, to: 17, chars: vin.slice(12), label: "Production sequence number", value: vin.slice(12), status: "standard" },

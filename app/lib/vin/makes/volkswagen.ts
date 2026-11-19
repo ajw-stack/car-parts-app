@@ -49,7 +49,12 @@ function decodeVAG(make: string, platforms: Record<string, string>) {
       out.push(seg(7, 8, vin, "Model code", vin.slice(6, 8) === "T1" ? "Amarok (2nd generation)" : null,
         vin.slice(6, 8) === "T1" ? { note: "Does not identify the cab or engine." } : { note: "Not yet confirmed." }));
     } else {
-      const p = platforms[vin.slice(6, 8)] ?? null;
+      let p = platforms[vin.slice(6, 8)] ?? null;
+      // 3C from model year 2017 (H) on can only be a Passat B8: the CC ended in 2016 (replaced by the
+      // Arteon, platform 3H) — Australian recall REC-001397 "Passat" sheet holds WVWZZZ3CZ…J… VINs while
+      // its Arteon sheet is all 3H; Wikipedia VW CC production 2008–2016 (added 2026-11-20).
+      const vy = resolveModelYear(vin[9], 1980);
+      if (vin.slice(6, 8) === "3C" && vy !== null && vy >= 2017) p = "Passat 8 (B8 — sedan, wagon or Alltrack)";
       if (p) { s.model = p.replace(/\s*\(.*\)$/, "").split(" / ")[0]; s.series = p.match(/\(([^)]+)\)/)?.[1] ?? p; }
       out.push(seg(7, 8, vin, "Platform / model", p));
       if (vin[8] === "Z") out.push(filler(9, 9, vin, "Filler — no check digit on rest-of-world VW Group VINs."));
