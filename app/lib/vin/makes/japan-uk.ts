@@ -146,7 +146,13 @@ const HONDA_GRADE: Record<string, Record<string, [grade: string, engine: string 
         "485": ["VTi L AWD", null], "488": ["VTi LX AWD", null], "588": ["e:HEV RS", null] },
   CU: { "254": ["Accord Euro (base)", "2.4L petrol (K24Z3)"], "264": ["Accord Euro (base)", "2.4L petrol (K24Z3)"],
         "268": ["Luxury", "2.4L petrol (K24Z3)"] },
-  RC: { "183": ["VTi (Vi L7 from 2021)", null], "185": ["VTi-L (Vi LX7 from 2021)", null] },
+  // RC 183 removed 2026-11-20: a cars24 listing shows a 183 VIN as VTi-L, contradicting "VTi".
+  RC: { "185": ["VTi-L (Vi LX7 from 2021)", null] },
+  // CR-V RW (added 2026-11-20; Autotrader + cars24 + drive.com.au): grade bands, not single trims.
+  RW: { "184": ["VTi / VTi-L7 (2WD)", "1.5L turbo petrol"], "185": ["VTi-S / VTi X / VTi 7 / +Sport (2WD)", "1.5L turbo petrol"],
+        "285": ["VTi-S / VTi-L / VTi-LX (AWD)", "1.5L turbo petrol"], "382": ["Vi (2WD)", "2.0L petrol"] },
+  // City GM (added 2026-11-20; Autotrader + cars24): 654 VTi manual, 664 VTi, 668 VTi-L.
+  GM: { "654": ["VTi", "1.5L petrol"], "664": ["VTi", "1.5L petrol"], "668": ["VTi-L", "1.5L petrol"] },
 };
 // Position 9 became a real ISO check digit on newer lines (verified on recall VIN lists REC-006151,
 // REC-006727): CR-V RS, Accord CY, ZR-V RZ from launch; HR-V RV and Civic FL from model year 2025.

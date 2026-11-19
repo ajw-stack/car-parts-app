@@ -271,9 +271,24 @@ export const polestar: MakeRule = {
 // ─── MINI (WMW / WMZ) ───────────────────────────────────────────────────────────────────────────────
 // BMW-group layout: positions 4–7 type code, 8 = 0, 9 check digit, 10 = 0 (no year), 11 plant.
 // Position 8 and 10 are 0 on all 1,529 Australian MINI recall VINs, and every one passes the check digit.
-const MINI_TYPE: Record<string, [string, string, string]> = {
+// [model, series, fuel or "", body or ""]
+const MINI_TYPE: Record<string, [string, string, string, string]> = {
   // [AU] REC-006074 "MINI Cooper SE" + REC-005964 / REC-005966 (high-voltage battery recalls, only fitted to the SE).
-  "12DJ": ["Cooper SE", "F56 Electric 3-door hatch", "Electric"],
+  "12DJ": ["Cooper SE", "F56 Electric 3-door hatch", "Electric", "3-door hatch"],
+  // Added 2026-11-20: recall lists REC-006091 / REC-006442 VINs looked up on the Register of Approved Vehicles
+  // (three VINs per code agree on model and power). Fuel only where RAV states it.
+  "12GA": ["Countryman", "U25, 115 kW", "Petrol", ""],
+  "22GA": ["Countryman", "U25, 150 kW", "", ""],
+  "32GA": ["Countryman", "U25, 233 kW", "Petrol", ""],
+  "42GA": ["Countryman", "U25, 150 kW (tare 1,865 kg)", "", ""],
+  "52GA": ["Countryman", "U25, 230 kW (tare 2,000 kg)", "", ""],
+  "12GD": ["Cooper", "F66, 115 kW, 4 seats", "", ""],
+  "22GD": ["Cooper", "F66, 150 kW, 4 seats", "", ""],
+  "32GD": ["Cooper", "F66, 170 kW, 4 seats", "", ""],
+  "42GD": ["Cooper", "F65, 115 kW, 5 seats", "", ""],
+  "52GD": ["Cooper", "F65, 150 kW, 5 seats", "", ""],
+  "12GX": ["Cooper Convertible", "F67, 120 kW", "", "Convertible"],
+  "22GX": ["Cooper Convertible", "F67, 150 kW", "", "Convertible"],
 };
 
 export const mini: MakeRule = {
@@ -282,12 +297,12 @@ export const mini: MakeRule = {
   decode(vin) {
     const s: Partial<VinSummary> = { make: "MINI" };
     const t = MINI_TYPE[vin.slice(3, 7)];
-    if (t) { s.model = t[0]; s.series = t[1]; s.fuel = t[2]; s.body = "3-door hatch"; }
+    if (t) { s.model = t[0]; s.series = t[1]; if (t[2]) s.fuel = t[2]; if (t[3]) s.body = t[3]; }
     return {
       segments: [
         seg(4, 7, vin, "Type code", t ? `${t[0]} (${t[1]})` : `Type ${vin.slice(3, 7)}`, {
           status: t ? "decoded" : "not-decoded",
-          note: t ? "Two separate Australian recall lists." : "BMW does not publish the MINI type-code table — look this code up in the MINI parts catalogue.",
+          note: t ? "Australian recall lists + the Register of Approved Vehicles." : "BMW does not publish the MINI type-code table — look this code up in the MINI parts catalogue.",
         }),
         seg(8, 8, vin, "Type code extension", null, { status: "filler", note: "Always 0 on Australian MINIs (1,529 of 1,529 recall VINs), as on Australian BMWs." }),
         seg(9, 9, vin, "Check digit", "Real check digit", { status: "standard" }),

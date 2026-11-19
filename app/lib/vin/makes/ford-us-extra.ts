@@ -73,13 +73,14 @@ const RG_ENGINE_PX: Record<string, Eng> = {
 // 9: REC-006705 (MY26.5, built from 26 Nov 2025) — 6 drops to one vehicle and 9 rises to 1,654 as Ford replaced
 //    the bi-turbo with the revised single-turbo (MyNRMA MY26). 9 covers two engine versions (see note).
 // 2: REC-006572 (2.3 EcoBoost EGR) — all 44 Rangers are AFA…2 (PHEV, Silverton).
-// Held back: 1 (Raptor 3.0 V6 petrol) — only shown by elimination, no recall names it alone.
 const RG_ENGINE_NEXTGEN: Record<string, Eng> = {
   "6": { name: "2.0L 4-cyl bi-turbo diesel", litres: "2.0", cyl: "4", fuel: "Diesel", note: "Recall REC-005759 VIN list + Australian listings." },
   "9": { name: "2.0L 4-cyl single-turbo diesel (two versions — check the build date)", litres: "2.0", cyl: "4", fuel: "Diesel",
     note: "Recall REC-006705 VIN list + listings + MyNRMA. Parts warning: from MY26.5 (built from late Nov 2025) this is a revised engine with a timing chain and new fuel injection, replacing the earlier wet-belt single-turbo — engine parts differ, so confirm the build date." },
   "7": { name: "3.0L V6 turbo diesel (Lion)", litres: "3.0", cyl: "6", fuel: "Diesel", note: "Recall REC-006341 (3.0L Lion engine) VIN list + Australian listings." },
   "2": { name: "2.3L 4-cyl petrol plug-in hybrid (Ranger PHEV)", litres: "2.3", cyl: "4", fuel: "Petrol / plug-in hybrid", note: "Recall REC-006572 VIN list (2.3 EcoBoost; all Rangers on it are PHEVs) + listings." },
+  // 1: seven recall-list VINs all return RAV approval VTA-060296 "Ranger 3R … ICE - Petrol Power 292" (2026-11-20).
+  "1": { name: "3.0L V6 twin-turbo petrol (Ranger Raptor), 292 kW", litres: "3.0", cyl: "6", fuel: "Petrol", note: "Register of Approved Vehicles (Ranger 3R, 292 kW petrol) + Australian listings." },
 };
 const RG_PLANT: Record<string, string> = {
   W: "AutoAlliance Thailand (Rayong)", // [FWM] 100-01-12
@@ -242,6 +243,8 @@ const MUSTANG_LINE_2015_17: Record<string, string> = {
 const MUSTANG_LINE_RHD_2018_23: Record<string, string> = {
   P: "GT Convertible, right-hand drive", // [VPIC] 1FATP8PF2J5149036 = GT Convertible + [CG] listings
   N: "GT Fastback, right-hand drive", // REC-005468: 1FA6P8NF, restraint 6 (Fastback) + engine F (GT)
+  // L: RAV (VTA-047158 "Mustang 1 … 236 kW") + listings confirm the EcoBoost; body not separately proven.
+  L: "EcoBoost 2.3, right-hand drive",
 };
 const MUSTANG_LINE_RHD_2024: Record<string, string> = {
   N: "GT Fastback, right-hand drive", // REC-006712, always engine F (5.0 GT)

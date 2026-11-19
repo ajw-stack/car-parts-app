@@ -622,16 +622,24 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
   switch (line) {
     case "KNAB": return ({ "2": E("1.2L petrol", "1.2", "Petrol") } as Record<string, Eng>)[c] ?? null;
     case "KNAD": return ({ "4": E("1.4L petrol", "1.4", "Petrol"), "7": E("1.0L turbo petrol", "1.0", "Petrol") } as Record<string, Eng>)[c] ?? null;
-    case "KNAE": return y >= 2020 && y <= 2025
-      ? ({ A: E("2.0L petrol", "2.0", "Petrol"), "2": E("1.6L turbo petrol", "1.6", "Petrol"), "7": E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null
-      : null;
+    case "KNAE":
+      // Seltos SP3 (MY2026 on): 1 = 1.6 petrol hybrid (RAV VTA-066461 "SP3 … HEV - Petrol Power 112" + drive.com.au
+      // listing; carsauce: the 2026 range is hybrid-only) — added 2026-11-20.
+      if (y >= 2026) return c === "1" ? E("1.6L petrol hybrid", "1.6", "Hybrid") : null;
+      return y >= 2020 && y <= 2025
+        ? ({ A: E("2.0L petrol", "2.0", "Petrol"), "2": E("1.6L turbo petrol", "1.6", "Petrol"), "7": E("1.6L turbo petrol", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null
+        : null;
     case "KNAF":
       if (y >= 2019) return ({ C: E("2.0L petrol", "2.0", "Petrol"), "7": E("1.6L turbo petrol (GT)", "1.6", "Petrol") } as Record<string, Eng>)[c] ?? null;      // Cerato BD
       if (y >= 2013) return ({ "7": E("2.0L petrol", "2.0", "Petrol"), "6": E("1.8L petrol", "1.8", "Petrol") } as Record<string, Eng>)[c] ?? null; // Cerato YD
+      // Cerato TD (2009–2013): 2 = 2.0 petrol G4KD (recall REC-006105 "all variants": 18,832 of 18,832 VINs carry 2;
+      // australiancar.reviews TD review) — added 2026-11-20.
+      if (y >= 2009) return c === "2" ? E("2.0L petrol (G4KD)", "2.0", "Petrol") : null;
       return null;
     case "KNAN": return ({ A: E("1.6L turbo petrol hybrid", "1.6", "Hybrid"), B: E("2.2L turbo diesel", "2.2", "Diesel"), "3": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
     case "KNAP":
-      if (vin[4] === "H") return ({ B: E("2.2L turbo diesel", "2.2", "Diesel") } as Record<string, Eng>)[c] ?? null; // Sorento UM
+      // Sorento UM: B 2.2 diesel, 4 3.3 V6 (MY15–17), 5 3.5 V6 (MY18 on) — Autotrader + drive.com.au listings (2026-11-20).
+      if (vin[4] === "H") return ({ B: E("2.2L turbo diesel", "2.2", "Diesel"), "4": E("3.3L V6 petrol", "3.3", "Petrol"), "5": E("3.5L V6 petrol", "3.5", "Petrol") } as Record<string, Eng>)[c] ?? null;
       if (y >= 2022) return ({ C: E("2.0L turbo diesel", "2.0", "Diesel"), D: E("2.0L petrol", "2.0", "Petrol"), G: E("1.6L turbo petrol hybrid", "1.6", "Hybrid") } as Record<string, Eng>)[c] ?? null; // Sportage NQ5
       if (y >= 2016) return ({ A: E("2.0L petrol", "2.0", "Petrol"), C: E("2.4L petrol", "2.4", "Petrol"), "3": E("2.0L turbo diesel", "2.0", "Diesel") } as Record<string, Eng>)[c] ?? null; // Sportage QL
       return null;
@@ -698,6 +706,8 @@ function hyundaiTrim(vin: string, year: number | null): string | null {
   }
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) return ({ "8": "2.0 grades (Active / Elite)", "0": "SR Turbo" } as Record<string, string>)[c] ?? null; // Elantra AD
   if (pre === "KMHH") return ({ "3": "Go / Active / Elite / Premium", "5": "SR / N Line" } as Record<string, string>)[c] ?? null; // i30 PD
+  // Venue: B = Go, C = Active / Elite (Autotrader + cars24 + easyauto123 dealer stock) — added 2026-11-20.
+  if (pre === "KMHR") return ({ B: "Go", C: "Active / Elite" } as Record<string, string>)[c] ?? null;
   // Tucson TL (2016 on): Machter fitment prefixes J2…/J3… + ~150 Autotrader listings.
   if ((pre === "KMHJ" || pre === "TMAJ") && y >= 2016) return ({ "2": "Go / Active / Active X", "3": "Active X / Elite / Highlander" } as Record<string, string>)[c] ?? null;
   return null;
@@ -716,9 +726,14 @@ function kiaTrim(vin: string, year: number | null): string | null {
     // Carnival YP: B = S, C = Si / SLi / Platinum (Grays, The Yard WA, Lin Autos, Car Matars, Daniels, Adelaide City GWM).
     case "KNAM": return y >= 2015 ? t({ B: "S", C: "Si / SLi / Platinum" }) : null;
     case "KNAF": return y >= 2019 ? t({ "2": "S / Sport", "3": "Sport+", "4": "GT" }) : null; // Cerato BD
-    case "KNAE": return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
+    case "KNAE":
+      if (y >= 2026) return t({ B: "S" });   // Seltos SP3 (drive.com.au + Autotrader); E / L not yet two-sourced
+      return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
+    // Rio YB facelift (MY21 on): B = S, C = Sport / SX; Stonic: A = S, 6 = Sport, D = GT-Line (Autotrader + drive.com.au).
+    case "KNAD": return t({ A: "Stonic S", "6": "Stonic Sport", D: "Stonic GT-Line", ...(y >= 2021 ? { B: "Rio S", C: "Rio Sport / SX" } : {}) });
     case "KNAB": return t({ "3": "GT-Line" });                                    // Picanto
-    case "KNCS": return t({ E: "X-Pro" });   // Tasman (listings + Great Western Kia stock page)
+    // Tasman: B = S / SX, D = X-Line, E = X-Pro, F = SX+ (Autotrader + drive.com.au listings; recall REC-006557).
+    case "KNCS": return t({ B: "S / SX", D: "X-Line", E: "X-Pro", F: "SX+" });
     default: return null;
   }
 }
