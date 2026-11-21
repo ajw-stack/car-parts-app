@@ -245,6 +245,10 @@ const MUSTANG_LINE_RHD_2018_23: Record<string, string> = {
   N: "GT Fastback, right-hand drive", // REC-005468: 1FA6P8NF, restraint 6 (Fastback) + engine F (GT)
   // L: RAV (VTA-047158 "Mustang 1 … 236 kW") + listings confirm the EcoBoost; body not separately proven.
   L: "EcoBoost 2.3, right-hand drive",
+  // Added 2026-11-22: E (2021, engine 0) = Mach 1 — autotrader + australianmusclecarsales listings, recall REC-005862
+  // (701 VINs; Australia's allocation was 700). V (2019) = Bullitt — autotrader + JustCars, recall REC-006443 (489 VINs).
+  E: "Mach 1, right-hand drive",
+  V: "Bullitt, right-hand drive",
 };
 const MUSTANG_LINE_RHD_2024: Record<string, string> = {
   N: "GT Fastback, right-hand drive", // REC-006712, always engine F (5.0 GT)
@@ -352,6 +356,21 @@ const EU_BLOCK: Record<string, EuModel> = {
   GAH: { model: "Fiesta" },
 };
 
+// Model + body by block and position-4 letter (added 2026-11-22). Sources: Ford Focus 2004.75 / C-MAX 2003.75
+// workshop manuals 100-01 ("VIN position 9 – Model: D Focus"; "GC Saarlouis, WP Valencia") + Pickles auction
+// records (VIN + series + body) + autotrader listings. Wikibooks' generic position-9 letters do NOT fit these VINs.
+const EU_LETTER: Record<string, Record<string, [model: string, series: string, body: string]>> = {
+  GCB: { K: ["Focus", "LW (German-built)", "Hatch"], M: ["Focus", "LW (German-built)", "Sedan"] },
+  GCD: { P: ["Focus", "LV / Mk2 (German-built)", "Hatch (5-door)"], R: ["Kuga", "TE", "SUV"] },
+  GCH: { N: ["Focus", "SA", "Hatch"] },
+  WPC: { E: ["Mondeo", "MD", "Hatch"], F: ["Mondeo", "MD", "Wagon"] },
+  MXB: { "1": ["Focus", "LW / LW MkII (Thai-built — build date decides)", "Hatch"], "2": ["Focus", "LW / LW MkII (Thai-built — build date decides)", "Sedan"] },
+  GCC: { "5": ["Focus", "LZ (German-built)", "Hatch"] },
+  MXC: { "3": ["Focus", "LZ (Thai-built)", "Hatch"] },
+  MJD: { C: ["Focus", "LS / LT (South African-built)", "Sedan"], D: ["Focus", "LS / LT (South African-built)", "Hatch"],
+         T: ["Focus", "LV (South African-built)", "Sedan"], U: ["Focus", "LV (South African-built)", "Hatch"] },
+};
+
 function euYear(c: string): number | null {
   const ys = yearCandidates(c).filter((y) => y >= 2000 && y <= 2030);
   return ys.length === 1 ? ys[0] : null;
@@ -369,7 +388,10 @@ export const fordEurope: MakeRule = {
     const y = euYear(vin[10]);
     let model: string | null = null; let series: string | null = null;
     let body: string | null = null;
-    if (blk && vin.slice(6, 9) === "GBB") {
+    const el = EU_LETTER[vin.slice(6, 9)]?.[vin[3]];
+    if (el) {
+      [model, series, body] = el; s.body = body;
+    } else if (blk && vin.slice(6, 9) === "GBB") {
       body = ({ D: "Sedan (4-door)", E: "Hatch (5-door)", G: "Wagon" } as Record<string, string>)[vin[3]] ?? null;
       model = "Mondeo";
       if (y) {
@@ -575,7 +597,10 @@ export const chevrolet: MakeRule = {
       const c8 = vin[3] === "Y" && vin[4] === "9" && y !== null && y >= 2020 && y <= 2026;
       const confirmedYear = y !== null && y >= 2020 && y <= 2026;
       if (c8) { s.model = "Corvette"; s.series = "C8"; s.drive = "RWD"; }
-      const body = c8 && confirmedYear && vin[5] === "2" ? "Coupe, 2-door (GM body 07)" : null; // [GM24] + [CG] coupe listings
+      // Body 3 = convertible (retractable hardtop): GM VIN standards + the dealer text and RAV tare (1638 kg vs 1601 kg
+      // for coupes) on 1G1Y93D40T5108142 — added 2026-11-22.
+      const body = c8 && confirmedYear && vin[5] === "2" ? "Coupe, 2-door (GM body 07)"
+        : c8 && confirmedYear && vin[5] === "3" ? "Convertible (retractable hardtop)" : null;
       if (body) s.body = body;
       if (eng && c8) { s.engine = eng[0]; s.engineLitres = eng[1]; s.engineCylinders = eng[2]; s.fuel = eng[3]; }
       if (c8 && vin[10] === "5") s.plant = "Bowling Green, Kentucky, USA";

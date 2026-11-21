@@ -437,6 +437,13 @@ export const jeepEurope: MakeRule = {
     const s: Partial<VinSummary> = { make: "Jeep" };
     const india = vin.startsWith("MCA");
     if (india) { s.model = "Compass"; s.series = "MP / M6 (India-built)"; }
+    // ZAC model blocks (positions 4–8), added 2026-11-22: autotrader listings + the Register of Approved Vehicles by VIN.
+    const zac = !india ? ({
+      NJAC5: { model: "Avenger", series: "Electric, 115 kW (RAV 'FH1')", fuel: "Electric", drive: "FWD" },
+      NJECA: { model: "Compass", series: "MV mild hybrid, FWD, 96 kW (RAV 'COMPASS MV MA')", fuel: "Petrol MHEV", drive: "FWD" },
+      PJFCW: { model: "Compass", series: "MV 4xe plug-in hybrid, 132 kW (RAV 'Compass MV MC')", fuel: "Plug-in Hybrid", drive: "AWD" },
+    } as Record<string, { model: string; series: string; fuel: string; drive: string }>)[vin.slice(3, 8)] : undefined;
+    if (zac) { s.model = zac.model; s.series = zac.series; s.fuel = zac.fuel; s.drive = zac.drive; }
     const e = india && vin[7] === "B" ? E("2.4L petrol (Tigershark MultiAir)", "2.4", "4", "Petrol") : undefined;
     applyEngine(s, e);
     const y = resolveModelYear(vin[9], 2014, 2039); s.modelYear = y;
@@ -444,8 +451,8 @@ export const jeepEurope: MakeRule = {
     s.plant = plant;
     return {
       segments: [
-        seg(4, 7, vin, "Model line / drive / series", india ? "Compass (MP / M6)" : null, {
-          note: india ? "Drive and trim letters in 6–7 are not published for India-built VINs." : "ZAC model letters not two-sourced yet (Avenger, Compass, Renegade share this WMI).",
+        seg(4, 7, vin, "Model line / drive / series", india ? "Compass (MP / M6)" : zac ? `${zac.model} — ${zac.series}` : null, {
+          note: india ? "Drive and trim letters in 6–7 are not published for India-built VINs." : zac ? "Positions 4–8 read as one block." : "This ZAC block is not two-sourced yet (Avenger, Compass, Renegade share this WMI).",
         }),
         seg(8, 8, vin, "Engine", e?.name ?? null, e ? {} : { note: "Engine letter not two-sourced yet." }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),

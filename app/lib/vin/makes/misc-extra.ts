@@ -260,6 +260,8 @@ export const genesis: MakeRule = {
 interface SLine { model: string; series: string; from: number; note: string }
 const SY_LINE: Record<string, SLine> = {
   KPT5: { model: "Rexton", series: "Y400 family (Y400 / Y450 / Y461 / Y470)", from: 2017, note: "RAV model 'Y400' (VTA-048879) + Autotrader Rexton (40 VINs)" },
+  // Korando C200 (added 2026-11-22): Pickles KPTB0A1SS… "C200 S … 2 Ltr Diesel" + autotrader KPTB0B1S… listings.
+  KPTB: { model: "Korando", series: "C200", from: 2011, note: "Pickles C200 listing + autotrader Korando C200" },
   KPT7: { model: "Korando", series: "C300", from: 2019, note: "RAV model 'C300' (VTA-050361) + recall REC-001201 (Korando / Tivoli list) + Autotrader Korando" },
   KPT3: { model: "Tivoli", series: "X100", from: 2015, note: "Recall REC-001201 (Korando / Tivoli list: only KPT7… and KPT3… VINs) + Autotrader Tivoli" },
   KPTF: { model: "Torres / Actyon", series: "J100 Torres or J120 Actyon (same VIN codes)", from: 2024, note: "RAV (VTA-050361 / VTA-064724) + Autotrader: Torres and Actyon both carry KPTF0A1…" },
@@ -273,6 +275,8 @@ interface SEng { name: string; litres: string; cyl: string; fuel: string; drive?
 const SY_ENGINE: Record<string, { lines: string[]; e: SEng }> = {
   E: { lines: ["KPT5", "KPAY"], e: { name: "2.2L 4-cyl turbo-diesel", litres: "2.2", cyl: "4", fuel: "Diesel",
     note: "RAV 'ICE diesel' (Musso 133 kW; Rexton 149 kW, some 2025-26 Rextons 133 kW) + Autotrader '4 cyl, 2.2 L, diesel'. The power tune is not in the VIN." } },
+  S: { lines: ["KPTB"], e: { name: "2.0L 4-cyl turbo-diesel", litres: "2.0", cyl: "4", fuel: "Diesel",
+    note: "Pickles 'C200 S … 2 Ltr Diesel' + autotrader Korando C200 diesel listings" } },
   U: { lines: ["KPT7", "KPT3"], e: { name: "1.6L 4-cyl turbo-diesel", litres: "1.6", cyl: "4", fuel: "Diesel",
     note: "RAV 100 kW (Korando) + Autotrader '1.6 L diesel' (Korando and Tivoli) + recall REC-001201 (fuel line, all U)" } },
   Y: { lines: ["KPT7", "KPTF"], e: { name: "1.5L 4-cyl turbo petrol, 120 kW", litres: "1.5", cyl: "4", fuel: "Petrol",

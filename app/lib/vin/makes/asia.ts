@@ -637,7 +637,9 @@ function kiaEngine(vin: string, year: number | null): Eng | null {
   const line = vin.slice(0, 4), c = vin[7], y = year ?? 0;
   switch (line) {
     case "KNAB": return ({ "2": E("1.2L petrol", "1.2", "Petrol") } as Record<string, Eng>)[c] ?? null;
-    case "KNAD": return ({ "4": E("1.4L petrol", "1.4", "Petrol"), "7": E("1.0L turbo petrol", "1.0", "Petrol") } as Record<string, Eng>)[c] ?? null;
+    // 1 = 1.0 T-GDi on MY19–20 Rio GT-Line (Pickles engine G3LE + easyauto123 + autotrader) — added 2026-11-22.
+    case "KNAD": return ({ "4": E("1.4L petrol", "1.4", "Petrol"), "7": E("1.0L turbo petrol", "1.0", "Petrol"),
+      ...(y >= 2019 && y <= 2020 ? { "1": E("1.0L turbo petrol (T-GDi, G3LE)", "1.0", "Petrol") } : {}) } as Record<string, Eng>)[c] ?? null;
     case "KNAE":
       // Seltos SP3 (MY2026 on): 1 = 1.6 petrol hybrid (RAV VTA-066461 "SP3 … HEV - Petrol Power 112" + drive.com.au
       // listing; carsauce: the 2026 range is hybrid-only) — added 2026-11-20.
@@ -743,10 +745,13 @@ function kiaTrim(vin: string, year: number | null): string | null {
     case "KNAM": return y >= 2015 ? t({ B: "S", C: "Si / SLi / Platinum" }) : null;
     case "KNAF": return y >= 2019 ? t({ "2": "S / Sport", "3": "Sport+", "4": "GT" }) : null; // Cerato BD
     case "KNAE":
-      if (y >= 2026) return t({ B: "S" });   // Seltos SP3 (drive.com.au + Autotrader); E / L not yet two-sourced
+      // Seltos SP3: B = S (drive.com.au + autotrader), E = GT-Line (Tynan Kia stock + autotrader; RAV) — L Sport and
+      // C Sport+ not yet two-sourced.
+      if (y >= 2026) return t({ B: "S", E: "GT-Line" });
       return y >= 2020 && y <= 2025 ? t({ P: "S / Sport", R: "Sport+ / GT-Line" }) : null; // Seltos SP2
     // Rio YB facelift (MY21 on): B = S, C = Sport / SX; Stonic: A = S, 6 = Sport, D = GT-Line (Autotrader + drive.com.au).
-    case "KNAD": return t({ A: "Stonic S", "6": "Stonic Sport", D: "Stonic GT-Line", ...(y >= 2021 ? { B: "Rio S", C: "Rio Sport / SX" } : {}) });
+    // Rio YB E = GT-Line (MY19 on: autotrader + Pickles + easyauto123) — added 2026-11-22.
+    case "KNAD": return t({ A: "Stonic S", "6": "Stonic Sport", D: "Stonic GT-Line", ...(y >= 2019 ? { E: "Rio GT-Line" } : {}), ...(y >= 2021 ? { B: "Rio S", C: "Rio Sport / SX" } : {}) });
     case "KNAB": return t({ "3": "GT-Line" });                                    // Picanto
     // Tasman: B = S / SX, D = X-Line, E = X-Pro, F = SX+ (Autotrader + drive.com.au listings; recall REC-006557).
     case "KNCS": return t({ B: "S / SX", D: "X-Line", E: "X-Pro", F: "SX+" });
