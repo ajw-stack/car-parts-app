@@ -193,6 +193,8 @@ const LAND_ROVER: Chassis = {
   WA: ["Range Rover Sport", "L494"], LS: ["Range Rover Sport", "L320"],
   VA: ["Range Rover Evoque", "L538"], GA: ["Range Rover", "L405"], ZA: ["Range Rover Velar", "L560"],
   FA: ["Freelander 2", "L359"], LD: ["Defender", "Classic 90/110"],
+  // Added 2026-11-22 (Pickles listings + Register of Approved Vehicles).
+  EA: ["Defender", "L663"], "1A": ["Range Rover Sport", "L461"],
 };
 const LR_PLANT: Record<string, string> = { A: "Solihull, UK", H: "Halewood, UK" };
 

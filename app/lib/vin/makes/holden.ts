@@ -114,18 +114,33 @@ const RESTRAINT_6G1: Record<string, string> = {
   // Added 2026-11-09: '5' appears from MY09 VE, when six airbags became standard (Wikipedia VE
   // MY09; JCS listing 6G1EK85799L340095 lists driver, passenger, head rows 1-2 and side row 1).
   "5": "Active belts, driver and passenger airbags, front side and curtain airbags (six airbags)",
+  // VF (added 2026-11-22): VF/WN factory workshop manual VIN table (Elroco folder, pp. 121–123) + NHTSA vPIC decodes
+  // of Elizabeth-built 6G3 Chevrolet SS / Caprice VINs.
+  R: "Front, side, knee and full-length curtain airbags (VF)",
+  U: "Front, side, knee and front-row curtain airbags (VF)",
 };
+// VF position 5 (added 2026-11-22): only codes in the VF/WN workshop manual table AND seen on Australian listings.
+// Other VF letters are not decoded (the older shared table gives wrong names on VF, e.g. A, L, P).
+const LUXURY_VF: Record<string, string> = { A: "Evoke", C: "SS", E: "SS-V (incl. Redline)", H: "Calais" };
 const ENGINE_6G1: Record<string, { name: string; litres: string; cyl: string }> = {
   A: { name: "3.8L Ecotec V6", litres: "3.8", cyl: "6" },
   R: { name: "3.8L supercharged Ecotec V6 (L67)", litres: "3.8", cyl: "6" },
   "7": { name: "3.6L Alloytec 190 V6 (LY7)", litres: "3.6", cyl: "6" },
-  "5": { name: "3.0L SIDI V6 (LF1)", litres: "3.0", cyl: "6" },
-  "3": { name: "3.6L SIDI V6 (LLT)", litres: "3.6", cyl: "6" },
-  V: { name: "3.6L SIDI V6 (LFX)", litres: "3.6", cyl: "6" },
+  // Corrected 2026-11-22 (VF/WN workshop manual "3 RPO LFX", "5 RPO LFW"; vPIC 6G3…3 = LFX; Pickles engine
+  // numbers: LFX on …E3… VE II/VF, LLT on …EV… VE, LFW on …E5… VE II/VF). 3 and V were swapped; 5 is LFW, not LF1.
+  "5": { name: "3.0L SIDI V6 (LFW)", litres: "3.0", cyl: "6" },
+  "3": { name: "3.6L SIDI V6 (LFX)", litres: "3.6", cyl: "6" },
+  V: { name: "3.6L SIDI V6 (LLT)", litres: "3.6", cyl: "6" },
+  // Added 2026-11-22: 4 = LWR 3.6 LPG (manual + "Evoke (LPG)" listings); 2 = 6.0 V8 (manual L77 + vPIC; on VE it
+  // appears on manual SS too, so only "6.0 V8" is claimed); B = 3.6 Alloytec LE0 175 kW (VIN guide + Pickles LE0).
+  "4": { name: "3.6L V6 LPG (LWR)", litres: "3.6", cyl: "6" },
+  "2": { name: "6.0L V8", litres: "6.0", cyl: "8" },
+  B: { name: "3.6L Alloytec V6 (LE0)", litres: "3.6", cyl: "6" },
   F: { name: "5.7L Gen III V8 (LS1)", litres: "5.7", cyl: "8" },
   U: { name: "6.0L V8 (LS2)", litres: "6.0", cyl: "8" },
   H: { name: "6.0L V8 (L98)", litres: "6.0", cyl: "8" },
-  Y: { name: "6.0L V8 (L77)", litres: "6.0", cyl: "8" },
+  // Disputed 2026-11-22: the VIN guide says L77, GM's 6G2 NHTSA filing says L76 (the two differ in AFM hardware).
+  Y: { name: "6.0L V8 (L76 or L77 — check the engine plate)", litres: "6.0", cyl: "8" },
   W: { name: "6.2L V8 (LS3)", litres: "6.2", cyl: "8" },
 };
 
@@ -136,7 +151,10 @@ function decode6G1(vin: string) {
   s.series = m?.series ?? null; s.model = m?.model ?? null;
   out.push(seg(4, 4, vin, "Model", m ? `${m.series} ${m.model}` : null));
   const cruze = vin[3] === "P";
-  const lux = cruze ? CRUZE_TRIM_6G1[vin[4]] ?? null : LUXURY_6G1[vin[4]] ?? null;
+  const vf = vin[3] === "F";
+  let lux: string | null = cruze ? CRUZE_TRIM_6G1[vin[4]] ?? null : vf ? LUXURY_VF[vin[4]] ?? null : LUXURY_6G1[vin[4]] ?? null;
+  // A coupe (body 1) with luxury letter X is a Monaro, not a Calais (e.g. VZ Monaro CV8 6G1ZX14F…).
+  if (!cruze && vin[5] === "1" && vin[4] === "X") lux = null;
   s.trim = lux;
   out.push(seg(5, 5, vin, cruze ? "Trim tier" : "Luxury level", lux));
   if (cruze) {
@@ -154,7 +172,8 @@ function decode6G1(vin: string) {
     out.push(seg(6, 6, vin, "Body style", body));
     const rs = RESTRAINT_6G1[vin[6]] ?? null; s.restraint = rs;
     out.push(seg(7, 7, vin, "Restraint system", rs));
-    const eng = ENGINE_6G1[vin[7]];
+    // F = LS1 only on VY/VZ; on VE it has been seen on a 3.0 (one VIN), so it is not decoded there.
+    const eng = vin[7] === "F" && !(vin[3] === "Y" || vin[3] === "Z") ? undefined : ENGINE_6G1[vin[7]];
     if (eng) Object.assign(s, { engine: eng.name, engineLitres: eng.litres, engineCylinders: eng.cyl });
     out.push(seg(8, 8, vin, "Engine", eng?.name ?? null));
   }

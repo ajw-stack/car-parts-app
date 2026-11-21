@@ -22,7 +22,8 @@ function prefixLookup(table: Record<string, Hit>, text: string): [string, Hit] |
 const MAZDA: Record<string, Hit> = {
   KE: ["CX-5", "KE"], KF: ["CX-5", "KF"], DE: ["Mazda2", "DE"], DJ: ["Mazda2", "DJ"], DK: ["CX-3", "DK"],
   BK: ["Mazda3", "BK"], BL: ["Mazda3", "BL"], BM: ["Mazda3", "BM"], BN: ["Mazda3", "BN"], BP: ["Mazda3", "BP"],
-  GG: ["Mazda6", "GG"], GH: ["Mazda6", "GH"], GJ: ["Mazda6", "GJ"], GL: ["Mazda6", "GL"],
+  GG: ["Mazda6", "GG"], GY: ["Mazda6", "GY wagon"], GH: ["Mazda6", "GH"], GJ: ["Mazda6", "GJ"], GL: ["Mazda6", "GL"],
+  ER: ["CX-7", "ER"],   // added 2026-11-22 (Pickles + autotrader)
   TB: ["CX-9", "TB"], TC: ["CX-9", "TC"], CU: ["Tribute", "CU"],
   NA: ["MX-5", "NA"], NB: ["MX-5", "NB"], NC: ["MX-5", "NC"], ND: ["MX-5", "ND"],
   UR: ["BT-50", "UR"], UN: ["BT-50", "UN (UP/UR family)"],
@@ -78,6 +79,15 @@ const MAZDA_BK_ENGINE: Record<string, { name: string; litres: string; fuel: stri
 };
 // Mazda6 GH (2008–2012): 5 = 2.5 petrol L5-VE (MMM Auto Centre donor VIN + WS Car Sales GH1052),
 // 2 = 2.2 MZR-CD diesel R2 (City Motor Auction report + BCP wreck listing). F not confirmed for Australia.
+const MAZDA_OLD_EXTRA: Record<string, Record<string, { name: string; litres: string; fuel: string }>> = {
+  // Pickles engine numbers + autotrader grades (2026-11-22). GG/GY '3': no GG MPS VIN found, so the turbo MPS
+  // is not ruled out — named both ways.
+  GG: { "3": { name: "2.3L petrol (L3; the MPS 2.3 turbo is not ruled out — check)", litres: "2.3", fuel: "Petrol" } },
+  GY: { "3": { name: "2.3L petrol (L3)", litres: "2.3", fuel: "Petrol" } },
+  DE: { Y: { name: "1.5L petrol (ZY)", litres: "1.5", fuel: "Petrol" } },
+  BL: { F: { name: "2.0L petrol (LF)", litres: "2.0", fuel: "Petrol" }, L: { name: "2.5L petrol (L5)", litres: "2.5", fuel: "Petrol" } },
+  ER: { "3": { name: "2.3L turbo petrol (L3, 4x4)", litres: "2.3", fuel: "Petrol" }, L: { name: "2.5L petrol (L5, FWD Classic)", litres: "2.5", fuel: "Petrol" } },
+};
 const MAZDA_GH_ENGINE: Record<string, { name: string; litres: string; fuel: string }> = {
   "5": { name: "2.5L petrol (L5-VE)", litres: "2.5", fuel: "Petrol" },
   "2": { name: "2.2L MZR-CD turbo diesel (R2)", litres: "2.2", fuel: "Diesel" },
@@ -119,8 +129,9 @@ function mazdaDescriptor(vin: string, s: Partial<VinSummary>): VinSegment[] {
       seg(9, 9, vin, "Transmission", tr, tr ? { note: "Not a check digit on Mazdas." } : { note: "Not yet confirmed." }),
     ];
   }
-  if (MAZDA_OLD_LAYOUT.has(code) || code === "BK" || code === "DE" || code === "GH") {
+  if (MAZDA_OLD_LAYOUT.has(code) || code === "BK" || code === "DE" || code === "GH" || code in MAZDA_OLD_EXTRA) {
     const eng = code === "BK" ? MAZDA_BK_ENGINE[vin[7]] : code === "GH" ? MAZDA_GH_ENGINE[vin[7]]
+      : code in MAZDA_OLD_EXTRA ? MAZDA_OLD_EXTRA[code][vin[7]]
       : MAZDA_ENGINE[vin[7]] ?? (code === "KE" ? MAZDA_KE_EXTRA[vin[7]] : undefined); fill(eng);
     const body = MAZDA_OLD_BODY[vin[5]] ?? null;
     // Minor change code: KE Series 1/2; GH Series 1 (GH1051, MY08–09) / Series 2 (GH1052, MY10–12) per dealer
@@ -369,11 +380,14 @@ export const mitsubishi: MakeRule = {
       // Mitsubishi's VIN format"); 8–9 42 = 4-door sedan on five sedan VINs TE–TW (wrecker listings).
       // Positions 6 (engine / gearbox) and 7 (trim) are not yet two-sourced.
       const body = vin.slice(7, 9) === "42" ? "4-door sedan" : null; if (body) s.body = body;
+      const mtrim = ({ D: "Executive / ES (base grade)", A: "Advance / Solara" } as Record<string, string>)[vin[6]]; if (mtrim) s.trim = mtrim;
       s.plant = "Tonsley Park, South Australia";
       return tail([
         seg(4, 5, vin, "Car line / series", s.model ? `${s.model} (${s.series})` : vin[3] === "K" ? "Verada" : "Magna"),
         seg(6, 6, vin, "Engine / transmission", null, { note: "Not yet confirmed — the build plate shows the engine." }),
-        seg(7, 7, vin, "Trim", null, { note: "Not yet confirmed." }),
+        // D = base grade (Executive / ES), A = Advance / Solara (Pickles TL ES + autotrader TH/TJ/TW listings, 2026-11-22).
+        seg(7, 7, vin, "Trim", ({ D: "Executive / ES (base grade)", A: "Advance / Solara" } as Record<string, string>)[vin[6]] ?? null,
+          ({ D: 1, A: 1 } as Record<string, number>)[vin[6]] ? {} : { note: "Not yet confirmed." }),
         seg(8, 9, vin, "Body type", body, body ? { note: "Positions 8–9 are the body, so there is no check digit." } : { note: "Not yet confirmed." }),
       ]);
     }
@@ -469,7 +483,9 @@ function nissanVariant(vin: string): NV | null {
     // patrol4x4.com VIN key ("T = Wagon, U = Pickup … E - Engine") + real AU VINs JN1TCSY61…(TD42),
     // JN1TESY61…(3.0), JN1UENY61…(ZD30 cab chassis), JN1UCLY61…(ute). F (TB48) not yet two-sourced.
     const b = ({ T: "Wagon", U: "Utility / cab chassis" } as Record<string, string>)[vin[3]];
-    const e = ({ C: { engine: "4.2L diesel (TD42)", litres: "4.2", fuel: "Diesel" }, E: { engine: "3.0L turbo diesel (ZD30)", litres: "3.0", fuel: "Diesel" } } as Record<string, NV>)[vin[4]];
+    // B = 4.5 petrol TB45, D = 2.8 diesel RD28 added 2026-11-22 (Pickles engine numbers + autotrader listings).
+    const e = ({ C: { engine: "4.2L diesel (TD42)", litres: "4.2", fuel: "Diesel" }, E: { engine: "3.0L turbo diesel (ZD30)", litres: "3.0", fuel: "Diesel" },
+      B: { engine: "4.5L petrol (TB45)", litres: "4.5", fuel: "Petrol" }, D: { engine: "2.8L diesel (RD28)", litres: "2.8", fuel: "Diesel" } } as Record<string, NV>)[vin[4]];
     return b || e ? { ...(e ?? {}), ...(b ? { body: b } : {}), drive: "4WD" } : null;
   }
   if (code === "D22") { const b = NISSAN_D22_BODY[vin[3]]; return b ? { body: b } : null; }
