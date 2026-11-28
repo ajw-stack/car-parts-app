@@ -33,6 +33,32 @@ const VW_PLANT: Record<string, string> = {
   "9": "Września, Poland",
 };
 
+// Audi Sport (WMI WUA, quattro GmbH) type codes on rest-of-world VINs — added 2026-11-28. Each code seen on
+// Australian VINs from two independent sellers (automarkets dealer/Retro Rides/Collecting Cars pages, old.com.au,
+// gemcars, vasliprestige, drive.com.au, MyMoto); S models carry WAU, not WUA (AU S6/SQ8 VINs + Audi's 2024 NHTSA
+// VIN sheet). The VIN does NOT separate RS6 from RS7, nor standard from performance (same 4G/F2 code, mixed serials).
+// kW: GoAuto + CarExpert (C7), Audi AU magazine 14 Sep 2023 + CarExpert (C8). Evidence: scratchpad wua/wua_findings.md.
+// The 8J TT RS uses WMI TRU, not WUA. Codes 8U, 8K, 8T, FV, 8P, 8D, 4B, 4F are single-source and not decoded.
+interface WuaModel { label: string; model: string; series: string; engine?: string; litres?: string; cyl?: string; note?: string }
+const WUA_RS: Record<string, WuaModel> = {
+  "4G": { label: "RS 6 Avant or RS 7 Sportback (C7)", model: "RS 6 Avant / RS 7 Sportback", series: "C7",
+    engine: "4.0L TFSI twin-turbo V8", litres: "4.0", cyl: "8",
+    note: "The VIN can't tell RS 6 from RS 7, or standard (412 kW, to early 2016) from performance (445 kW, Australian launch April 2016) — check the badge or build sticker." },
+  F2: { label: "RS 6 Avant or RS 7 Sportback (C8)", model: "RS 6 Avant / RS 7 Sportback", series: "C8",
+    engine: "4.0L TFSI twin-turbo V8 (mild hybrid)", litres: "4.0", cyl: "8",
+    note: "The VIN can't tell RS 6 from RS 7, or standard (441 kW, from 2020) from performance (463 kW, from late 2023) — check the badge or build sticker." },
+  "8V": { label: "RS 3 (8V)", model: "RS 3", series: "8V", engine: "2.5L TFSI 5-cylinder turbo", litres: "2.5", cyl: "5" },
+  GY: { label: "RS 3 (8Y)", model: "RS 3", series: "8Y", engine: "2.5L TFSI 5-cylinder turbo", litres: "2.5", cyl: "5" },
+  F4: { label: "RS 4 Avant (B9)", model: "RS 4 Avant", series: "B9", engine: "2.9L TFSI twin-turbo V6", litres: "2.9", cyl: "6" },
+  "8E": { label: "RS 4 (B7)", model: "RS 4", series: "B7", engine: "4.2L V8", litres: "4.2", cyl: "8" },
+  F5: { label: "RS 5 Coupe or Sportback (B9)", model: "RS 5", series: "B9", engine: "2.9L TFSI twin-turbo V6", litres: "2.9", cyl: "6",
+    note: "Coupe or Sportback is not shown by the VIN." },
+  F3: { label: "RS Q3 (F3)", model: "RS Q3", series: "F3" },
+  F1: { label: "RS Q8", model: "RS Q8", series: "4M" },
+  "42": { label: "R8 (Type 42)", model: "R8", series: "Type 42", note: "V8 or V10 is not shown by the VIN." },
+  FX: { label: "R8 (Type 4S)", model: "R8", series: "Type 4S" },
+};
+
 function decodeVAG(make: string, platforms: Record<string, string>) {
   return (vin: string) => {
     const s: Partial<VinSummary> = { make };
@@ -56,7 +82,12 @@ function decodeVAG(make: string, platforms: Record<string, string>) {
       const vy = resolveModelYear(vin[9], 1980);
       if (vin.slice(6, 8) === "3C" && vy !== null && vy >= 2017) p = "Passat 8 (B8 — sedan, wagon or Alltrack)";
       if (p) { s.model = p.replace(/\s*\(.*\)$/, "").split(" / ")[0]; s.series = p.match(/\(([^)]+)\)/)?.[1] ?? p; }
-      out.push(seg(7, 8, vin, "Platform / model", p));
+      const rs = vin.startsWith("WUA") ? WUA_RS[vin.slice(6, 8)] : undefined;
+      if (rs) {
+        s.model = rs.model; s.series = rs.series;
+        if (rs.engine) Object.assign(s, { engine: rs.engine, engineLitres: rs.litres, engineCylinders: rs.cyl, fuel: "Petrol" });
+        out.push(seg(7, 8, vin, "Platform / model", `${rs.label}${rs.engine ? ", " + rs.engine : ""}`, rs.note ? { note: rs.note } : {}));
+      } else out.push(seg(7, 8, vin, "Platform / model", p));
       if (vin[8] === "Z") out.push(filler(9, 9, vin, "Filler — no check digit on rest-of-world VW Group VINs."));
     }
     const y = resolveModelYear(vin[9], 1980);
@@ -91,6 +122,7 @@ export const AUDI_PLATFORM: Record<string, string> = {
   "8E": "A4 (B6/B7)", "8H": "A4 Cabriolet (B6/B7)", "8K": "A4 (B8)", "8W": "A4 (B9)",
   "8T": "A5 (8T)", "8F": "A5 Cabriolet (8F)", F5: "A5 (F5)",
   "4B": "A6 (C5)", "4F": "A6 (C6)", "4G": "A6 / A7 (C7)", "4A": "A6 (C8)",
+  F2: "A6 / A7 (C8)",   // added 2026-11-28: AU WUAZZZF2… RS 6/7 C8 VINs + Audi's 2024 NHTSA VIN sheet (A6/S6/A7/S7 = F2)
   "4E": "A8 (D3)", "4H": "A8 (D4)", "4N": "A8 (D5)",
   "8U": "Q3 (8U)", F3: "Q3 (F3)", GA: "Q2 (GA)",
   "8R": "Q5 (8R)", FY: "Q5 (FY)", "4L": "Q7 (4L)", "4M": "Q7 / Q8 (4M)",
@@ -99,7 +131,7 @@ export const AUDI_PLATFORM: Record<string, string> = {
 
 export const audi: MakeRule = {
   id: "audi", make: "Audi",
-  wmis: ["WAU", "WA1", "WUA", "TRU"],
+  wmis: ["WAU", "WA1", "WUA", "TRU"],   // WUA = Audi Sport (RS models, R8) — see WUA_RS
   checkDigit: "no", modelYear: "yes", years: [1980, new Date().getFullYear() + 1],
   decode: decodeVAG("Audi", AUDI_PLATFORM),
 };

@@ -7657,5 +7657,95 @@
   "year": 2015,
   "description": "2015 Ford Mondeo Titanium - series Md, variant Titanium, Hatch, 5 Doors, 5 Seats, drive Front Wheel Drive, engine 4 cyl, 2 L, Automatic (carsguide.com.au listing)",
   "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZ4GXGN903927",
+  "make": "Audi",
+  "source": "Owner-supplied: the owner states this car is an RS 7 Sportback (2026-11-28)",
+  "model": "RS7",
+  "year": 2016,
+  "description": "Audi RS7",
+  "user_supplied": true
+ },
+ {
+  "vin": "WUAZZZ4G4EN901636",
+  "make": "Audi",
+  "source": "https://old.com.au/car-for-sale/audi-rs7-6369/",
+  "model": "RS7",
+  "year": 2014,
+  "description": "Audi RS7",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZ4G3GN902019",
+  "make": "Audi",
+  "source": "https://www.automarkets.com.au/listing/2016-audi-rs7-used-7028e8f5-508d-4a80-8aa7-b5792f339233",
+  "model": "RS7",
+  "year": 2016,
+  "description": "Audi RS7",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZ4G7HN901652",
+  "make": "Audi",
+  "source": "vasliprestige.com.au listing (2016 MY17 RS6 Performance), via scratchpad wua/wua_findings.md",
+  "model": "RS6",
+  "year": 2017,
+  "description": "Audi RS6",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZ4G9FN902167",
+  "make": "Audi",
+  "source": "gemcars.com.au listing (RS6 Avant Performance 4G MY16), via wua_findings.md",
+  "model": "RS6",
+  "year": 2015,
+  "description": "Audi RS6",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZF24NN904666",
+  "make": "Audi",
+  "source": "automarkets.com.au (AutoHaus Hamilton) RS6 Wagon 4K MY22, via wua_findings.md",
+  "model": "RS6",
+  "year": 2022,
+  "description": "Audi RS6",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZ8V3GA905597",
+  "make": "Audi",
+  "source": "https://old.com.au/carlistings/audi-rs3-7066/",
+  "model": "RS3",
+  "year": 2016,
+  "description": "Audi RS3",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZGY1TA900338",
+  "make": "Audi",
+  "source": "https://www.automarkets.com.au/listing/2025-audi-rs3-used-26c55dee-14c1-4fd5-9002-075fb131887a",
+  "model": "RS3",
+  "year": 2025,
+  "description": "Audi RS3",
+  "user_supplied": false
+ },
+ {
+  "vin": "WUAZZZFX6L7901832",
+  "make": "Audi",
+  "source": "https://www.automarkets.com.au/listing/2020-audi-r8-v10-plus-f5515e9a-6551-4524-9f5e-bfca33b0f83f",
+  "model": "R8",
+  "year": 2020,
+  "description": "Audi R8",
+  "user_supplied": false
+ },
+ {
+  "vin": "WAUZZZ4G2HN053111",
+  "make": "Audi",
+  "source": "AU S6 C7 listing (negative case: S models are WAU), via wua_findings.md",
+  "model": "A6",
+  "year": 2017,
+  "description": "Audi A6",
+  "user_supplied": false
  }
 ]
