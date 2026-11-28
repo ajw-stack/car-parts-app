@@ -27,6 +27,8 @@ export default function VinFeedbackAdmin() {
     const { data, error } = await q;
     if (error) setError(error.message); else setRows((data ?? []) as Report[]);
   }, [filter]);
+  // load() only sets state after the network round-trip, so this does not cascade renders.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { if (admin) load(); }, [admin, load]);
 
   const update = async (id: string, patch: Partial<Report>) => {
