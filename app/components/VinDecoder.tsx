@@ -6,6 +6,7 @@ import type { VinBreakdown } from "../lib/vin/engine";
 import { supabase } from "../lib/supabaseClient";
 import { COMING_SOON, PLAN } from "../lib/billing/config";
 import { useGated } from "../lib/auth/useIsAdmin";
+import VinFeedback from "./VinFeedback";
 
 interface Props {
   enableSave?: boolean;
@@ -193,6 +194,9 @@ export default function VinDecoder({ enableSave = false, onSaved }: Props) {
 
       {/* Position-by-position breakdown */}
       {breakdown && <BreakdownTable breakdown={breakdown} />}
+
+      {/* User report: wrong or incomplete decode (only once a decode was attempted and not blocked by billing) */}
+      {(vehicle || breakdown) && !gate && <VinFeedback key={breakdown?.vin ?? vehicle?.vin} vin={breakdown?.vin ?? vin} />}
 
       {/* Find Parts CTA (parts catalogue is not public yet) */}
       {vehicle && gated && (
