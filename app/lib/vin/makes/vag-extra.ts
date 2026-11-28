@@ -341,6 +341,10 @@ const SKODA_MODEL: Record<string, [model: string, series: string]> = {
   NU: ["Karoq", "Karoq (NU)"],            // [SKB] + [CZR] Cebia reports
   NP: ["Superb", "Superb III (NP)"],      // [AU] REC-003777 (Superb only) + [CBT]
   NX: ["Octavia", "Octavia IV (NX)"],     // [SKS] + [AU] REC-005899
+  // Added 2026-11-28 (Pickles, MyMoto, recall lists; scratchpad audit_vag): NW shared by Scala and Kamiq.
+  NW: ["Scala / Kamiq", "Scala or Kamiq (NW — the VIN does not say which)"],
+  PJ: ["Fabia", "Fabia IV (PJ)"],         // MyMoto + REC-005790 (116 VINs)
+  PS: ["Kodiaq", "Kodiaq (PS, 2nd generation)"], // REC-006554 (Kodiaq only, 696 VINs) + Perth City Prestige listing
 };
 // [SKS] "0 to 4 … Mladá Boleslav … 5 to 9 Kvasiny … not a strict rule" and "Y … Mladá Boleslav";
 // [YCS] agrees on 0–4, 5 and 9 but gives 7–8 as Vrchlabí, so 6–8 are left undecoded.

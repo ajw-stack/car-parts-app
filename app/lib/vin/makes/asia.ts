@@ -6,7 +6,7 @@
 // Hyundai VIN system guide (Elroco folder) for the body and restraint digits.
 
 import { seg, type MakeRule, type VinSegment, type VinSummary } from "../engine";
-import { resolveModelYear } from "../modelYear";
+import { resolveModelYear, yearCandidates } from "../modelYear";
 
 type Hit = [model: string, series: string];
 
@@ -26,7 +26,7 @@ const MAZDA: Record<string, Hit> = {
   ER: ["CX-7", "ER"],   // added 2026-11-22 (Pickles + autotrader)
   TB: ["CX-9", "TB"], TC: ["CX-9", "TC"], CU: ["Tribute", "CU"],
   NA: ["MX-5", "NA"], NB: ["MX-5", "NB"], NC: ["MX-5", "NC"], ND: ["MX-5", "ND"],
-  UR: ["BT-50", "UR"], UN: ["BT-50", "UN (UP/UR family)"],
+  UR: ["BT-50", "UR"], UN: ["Bravo / BT-50", "UN — sold as the Bravo until late 2006, then the BT-50 (build date decides)"],
 };
 
 // Mazda descriptor (added 2026-11-09). Two sources agree for each code below:
@@ -400,9 +400,13 @@ export const mitsubishi: MakeRule = {
       note: hit && hit[0].length <= 2 ? "Matched on the model-family prefix only; exact variant not confirmed." : undefined,
     })];
     if (3 + len < 8) out.push(seg(4 + len, 8, vin, "Body / engine / grade", null, { note: "Not decoded." }));
-    const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
+    // Without a model the 30-year cycle can't be settled (P = 1993 or 2023): a 1993 Triton MJ and Lancer CC decoded as
+    // 2023 (coverage run 2026-11-28). Both candidates are shown instead.
+    const cand = yearCandidates(vin[9]).filter((v) => v >= 1981 && v <= new Date().getFullYear() + 1);
+    const y = hit ? resolveModelYear(vin[9], 1981) : cand.length === 1 ? cand[0] : null; s.modelYear = y;
     out.push(seg(9, 9, vin, "Check digit", "Not used by Mitsubishi on Australian-delivered vehicles", { status: "standard" }));
-    out.push(seg(10, 10, vin, "Model year", y ? String(y) : null));
+    out.push(seg(10, 10, vin, "Model year", y ? String(y) : cand.length > 1 ? cand.join(" or ") : null,
+      !y && cand.length > 1 ? { note: "The model is not decoded, so the 30-year year cycle can't be settled — check the build plate." } : {}));
     // Plant letters: Mitsubishi NHTSA filing MC-10244842 + the service-manual VIN charts + AU recall lists.
     if (vin.startsWith("6MM")) s.plant = "Tonsley Park, South Australia";
     else s.plant = MITSU_PLANT[vin[10]] ?? null;
@@ -591,7 +595,9 @@ function hyundaiLine(vin: string): Hit | null {
       // i30: FD carries a letter at position 5 (B SX, C SLX/SR), GD a digit (2 Active, 3 Elite/SR).
       return /[A-Z]/.test(vin[4]) ? ["i30", "FD"] : /[0-9]/.test(vin[4]) ? ["i30", "GD"] : ["i30", "FD / GD"];
     }
-    if (l === "H") return ["i30", "PD"];
+    // KMHH is shared (fixed 2026-11-28): body 5 = i30 PD hatch; body 8 = Kona SX2 (2023 on) — 15 Pickles listings
+    // + recall lists REC-005931 / REC-006734 (16,000+ Kona VINs, all KMHH…8…). Body 6 (Tiburon GK) single-source: not decoded.
+    if (l === "H") return body === "5" ? ["i30", "PD"] : body === "8" && (resolveModelYear(vin[9], 1980) ?? 0) >= 2023 ? ["Kona", "SX2"] : null;
     if (l === "J") return ["Tucson / ix35", "Tucson family"];
     if (l === "K") return ["Kona", "OS"];
     if (l === "C") return ["Accent", "Accent"];
@@ -691,7 +697,7 @@ function hyundaiEngine(vin: string, year: number | null): Eng | null {
   }
   // Staria Load (KMFY): 1 = 2.2 CRDi diesel (Cranbourne Hyundai + Pennant Hills Hyundai stock, VIN + spec).
   if (pre === "KMFY") return c === "1" ? E("2.2L turbo diesel (CRDi)", "2.2", "Diesel") : null;
-  if (pre === "KMHH") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : c === "C" ? E("1.6L turbo petrol", "1.6", "Petrol") : null;   // i30 PD
+  if (pre === "KMHH" && vin[5] === "5") return c === "E" ? E("2.0L petrol", "2.0", "Petrol") : c === "C" ? E("1.6L turbo petrol", "1.6", "Petrol") : null;   // i30 PD
   if (pre === "KMHR") return c === "2" ? E("1.6L petrol", "1.6", "Petrol") : null;   // Venue
   if (pre === "KMHJ" || pre === "TMAJ") {                        // ix35 (to 2015) / Tucson TL
     return ({
@@ -723,7 +729,7 @@ function hyundaiTrim(vin: string, year: number | null): string | null {
     return ({ "2": "Active", "3": "Elite / SR" } as Record<string, string>)[c] ?? null;  // i30 GD
   }
   if (pre === "KMHD" && vin[5] === "4" && y >= 2016) return ({ "8": "2.0 grades (Active / Elite)", "0": "SR Turbo" } as Record<string, string>)[c] ?? null; // Elantra AD
-  if (pre === "KMHH") return ({ "3": "Go / Active / Elite / Premium", "5": "SR / N Line" } as Record<string, string>)[c] ?? null; // i30 PD
+  if (pre === "KMHH" && vin[5] === "5") return ({ "3": "Go / Active / Elite / Premium", "5": "SR / N Line" } as Record<string, string>)[c] ?? null; // i30 PD
   // Venue: B = Go, C = Active / Elite (Autotrader + cars24 + easyauto123 dealer stock) — added 2026-11-20.
   if (pre === "KMHR") return ({ B: "Go", C: "Active / Elite" } as Record<string, string>)[c] ?? null;
   // Tucson TL (2016 on): Machter fitment prefixes J2…/J3… + ~150 Autotrader listings.

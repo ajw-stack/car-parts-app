@@ -40,7 +40,7 @@ const WMI_MAP: Record<string, string> = {
   MLH: "Honda Thailand", MMA: "Mitsubishi Thailand", MMB: "Mitsubishi Thailand", MMC: "Mitsubishi Thailand",
   MMT: "Mitsubishi Thailand", MM0: "Mazda Thailand", MM8: "Mazda Thailand",
   MNA: "Ford Thailand (Aus/NZ)", MNB: "Ford Thailand", MPB: "Ford Thailand", MNT: "Nissan Thailand",
-  MPA: "Isuzu Thailand", MRH: "Honda Thailand", MR0: "Toyota Thailand",
+  MPA: "Isuzu Thailand", MP2: "Isuzu Thailand (Mazda BT-50)", MRH: "Honda Thailand", MR0: "Toyota Thailand",
   // Turkey
   NLA: "Honda Turkey", NLE: "Mercedes-Benz Türk", NLH: "Hyundai Assan",
   NM0: "Ford Turkey", NM4: "Tofaş", NMT: "Toyota Turkey",

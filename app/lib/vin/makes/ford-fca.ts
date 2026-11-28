@@ -92,8 +92,13 @@ export const fordThailand: MakeRule = {
         summary: s,
       };
     }
-    if (vin.startsWith("MNA") || vin.startsWith("MPB")) { s.model = "Ranger / Everest"; s.series = "Thai-built (AutoAlliance / FTM)"; }
     const y = resolveModelYear(vin[9], 1998); s.modelYear = y;
+    // The Thai-built ute was sold in Australia as the Courier (PH) until the PJ Ranger in 2006 (Pickles 'Courier PH'
+    // MNALSFE4…6… listing, 2026-11-28), so 2006-and-earlier VINs name both.
+    if (vin.startsWith("MNA") || vin.startsWith("MPB")) {
+      s.model = y !== null && y <= 2006 ? "Courier / Ranger" : "Ranger / Everest";
+      s.series = y !== null && y <= 2006 ? "Courier PH (to 2006) or Ranger PJ — Thai-built (AutoAlliance)" : "Thai-built (AutoAlliance / FTM)";
+    }
     return {
       segments: [
         seg(4, 8, vin, "Model / cab / engine", s.model ? `${s.model} — detail not decoded` : null, {

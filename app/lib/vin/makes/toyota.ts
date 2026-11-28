@@ -13,7 +13,9 @@ const TOYOTA_VDS: Record<string, [model: string, series: string]> = {
   BR3FJ: ["LandCruiser", "70 Series"],
   LV71J: ["LandCruiser", "79 Series single cab"],
   BU11F: ["FJ Cruiser", "GSJ15"],
-  BY29J: ["Kluger", "XU20"],
+  // Disputed 2026-11-28: two Pickles KZJ120R Prado listings with 1KZ engine numbers (an engine the Kluger never had)
+  // carry BY29J; the earlier Kluger label had no second source.
+  BY29J: ["LandCruiser Prado", "120 Series (KZJ120R) per engine numbers — an earlier listing said Kluger; check the build plate"],
   AAABJ: ["LandCruiser", "300 Series (FJA300)"],
   BFREV: ["RAV4", "ASA44"],
   // Disputed 2026-11-22: Pickles + Grays say AXVH71R hybrid, five autotrader dealer listings say ASV70R petrol.
@@ -22,7 +24,7 @@ const TOYOTA_VDS: Record<string, [model: string, series: string]> = {
   BD3FK: ["Camry", "AVV50 (hybrid, Altona-built)"],
   BZ3FH: ["Kluger", "GSU55 (US-built)"],
   FZ22G: ["HiLux", "N70 (dual cab 4x4, 3.0 D-4D)"],
-  JW133: ["Yaris", "NCP12"],
+  JW133: ["Echo", "NCP12 (sold in Australia as the Echo)"],   // renamed 2026-11-28: Pickles 'Echo NCP10R' listings; AU name
   // Corrected 2026-11-22: KW3D3 is the NCP130R 1.3 (2NZ-FE) — 12 Pickles engine numbers 2NZ + 31 autotrader rows.
   KW3D3: ["Yaris", "XP130 1.3 (2NZ-FE) (NCP130R)"],
   // Added 2026-11-09 (two sources each: dealer stock pages / auction listings / wrecker donor VINs
@@ -190,14 +192,17 @@ function toyotaFamily(make: string, table: Record<string, [string, string]>, lin
         const cab = ({ B: "Single cab", C: "Extra / space cab", D: "Double cab" } as Record<string, string>)[vin[7]];
         if (cab) s.body = cab;
       }
-    } else if (line) s.model = line;
+    } else if (line && !/^(6T1|MR[012]|MHF|JT7|JTF)/.test(vin)) s.model = line;
+    // The position-8 car-line fallback is not used on Altona (6T1), Thai/Indonesian (MR0–MR2, MHF) or JT7/JTF
+    // commercial VINs: real listings showed it naming an Aurion "Camry", a HiLux RZN149R "Corolla" and a HiAce LH184
+    // "LandCruiser" (coverage run 2026-11-28).
     s.plant = toyotaPlant(vin, s.model ?? null);
     return {
       segments: [
         seg(4, 7, vin, "Body / engine / grade", hit ? `${hit[0]} ${hit[1]}` : null, {
           note: hit ? "Positions 4–8 together match a confirmed Australian model code." : "Not decoded — no confirmed match for this model code.",
         }),
-        seg(8, 8, vin, "Car line", line ?? (hit ? hit[0] : null)),
+        seg(8, 8, vin, "Car line", hit ? hit[0] : /^(6T1|MR[012]|MHF|JT7|JTF)/.test(vin) ? null : line),
         seg(10, 10, vin, "Model year", null, {
           status: "filler",
           note: "Toyota and Lexus fill this with 0 on Australian-delivered cars. The build date is on the build or compliance plate.",
@@ -232,18 +237,46 @@ const ISUZU_CHASSIS: Record<string, [model: string, drive: string]> = {
 };
 const ISUZU_BODY: Record<string, string> = { J: "Utility / cab chassis", G: "Wagon" };
 
+// MP2 = Mazda BT-50 (TF), built by Isuzu in Thailand on the D-MAX RG platform (added 2026-11-28): 24 Pickles listings +
+// recall lists REC-005070 / 005839 / 005965 / 006056 (all MP2TF… VINs, all BT-50 TF). Position 10 does NOT track
+// the build year (N on 07/2020 – 11/2022 builds), so no model year is read.
+export const mazdaBt50Tf: MakeRule = {
+  id: "mazda-bt50-tf", make: "Mazda", wmis: ["MP2"],
+  checkDigit: "no", modelYear: "no",
+  decode(vin) {
+    const c = ISUZU_CHASSIS[vin.slice(3, 6)];
+    const s: Partial<VinSummary> = { make: "Mazda", model: c ? "BT-50" : null, series: c ? "TF" : null, drive: c ? c[1] : null,
+      plant: vin[10] === "T" ? "Isuzu Motors Co. (Thailand)" : null };
+    const body = ISUZU_BODY[vin[8]] ?? null; s.body = body;
+    return {
+      segments: [
+        seg(4, 6, vin, "Chassis code (model / drive)", c ? `BT-50 TF ${c[1]} (${vin.slice(3, 6)}, Isuzu D-MAX platform)` : null),
+        seg(7, 8, vin, "Series / engine", null, { note: "Not yet confirmed." }),
+        seg(9, 9, vin, "Body type", body),
+        seg(10, 10, vin, "Model year", null, { status: "filler", note: "Not a model year on the BT-50 TF — the build date is on the build plate." }),
+        seg(11, 11, vin, "Assembly plant", s.plant ?? null),
+      ],
+      summary: s,
+    };
+  },
+};
+
 export const isuzu: MakeRule = {
   id: "isuzu", make: "Isuzu", wmis: ["MPA", "MP1", "JAA", "JAL"],
   checkDigit: "no", modelYear: "yes",
   decode(vin) {
     const s: Partial<VinSummary> = { make: "Isuzu" };
     const c = ISUZU_CHASSIS[vin.slice(3, 6)];
-    if (c) { s.model = c[0]; s.drive = c[1]; s.series = vin.slice(3, 6) + vin.slice(6, 8); }
-    const body = ISUZU_BODY[vin[8]] ?? null; s.body = body;
     const y = resolveModelYear(vin[9], 1981); s.modelYear = y;
+    // Before the 2008 Isuzu Ute launch, Australian TF/RA utes on JAA/MPA VINs were sold as the Holden Rodeo
+    // (6 Pickles listings 2000–2007, incl. a 01/2000 JAATFR25 — before the D-MAX existed). Added 2026-11-28.
+    const rodeo = c && c[0] === "D-MAX" && y !== null && y <= 2007;
+    if (c) { s.model = rodeo ? "Rodeo" : c[0]; s.drive = c[1]; s.series = (rodeo ? (y >= 2003 ? "RA " : "TF ") : "") + vin.slice(3, 6) + vin.slice(6, 8); }
+    if (rodeo) s.make = "Holden";
+    const body = ISUZU_BODY[vin[8]] ?? null; s.body = body;
     return {
       segments: [
-        seg(4, 6, vin, "Chassis code (model / drive)", c ? `${c[0]} ${c[1]} (${vin.slice(3, 6)})` : null),
+        seg(4, 6, vin, "Chassis code (model / drive)", c ? `${rodeo ? "Holden Rodeo (Isuzu-built)" : c[0]} ${c[1]} (${vin.slice(3, 6)})` : null),
         seg(7, 8, vin, "Series / engine", vin.slice(6, 8) === "85" ? "RG series (85)" : null),
         seg(9, 9, vin, "Body type", body, { note: "Isuzu uses position 9 for the body, not a check digit." }),
         seg(10, 10, vin, "Model year", y ? String(y) : null),

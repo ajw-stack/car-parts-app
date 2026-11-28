@@ -44,7 +44,7 @@ const SUBARU: Chassis = {
   BD: ["Liberty", "BD (2nd gen sedan)"], BG: ["Liberty / Outback", "BG (2nd gen wagon)"],
   BE: ["Liberty", "BE (3rd gen sedan)"], BH: ["Liberty / Outback", "BH (3rd gen wagon)"],
   BL: ["Liberty", "BL (4th gen sedan)"], BP: ["Liberty / Outback", "BP (4th gen wagon)"],
-  BM: ["Liberty", "BM (5th gen sedan)"], BR: ["Outback", "BR (4th gen)"],
+  BM: ["Liberty", "BM (5th gen sedan)"], BR: ["Liberty / Outback", "BR (Liberty wagon or 4th-gen Outback — the VIN does not say which)"],
   BN: ["Liberty", "BN (6th gen sedan)"], BS: ["Outback", "BS (5th gen)"], BT: ["Outback", "BT (6th gen)"],
   ZC: ["BRZ", "ZC (1st gen)"], ZD: ["BRZ", "ZD (2nd gen)"],
 };

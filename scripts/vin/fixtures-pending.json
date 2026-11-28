@@ -1,0 +1,1882 @@
+[
+ {
+  "vin": "WAUZZZF82MN019623",
+  "make": "Audi",
+  "source": "automarkets.com.au (seller: collectingcars), https://www.automarkets.com.au/listing/2021-audi-s8-ba89425e-93e4-41ad-9055-e91852044ae8",
+  "model": "A8",
+  "year": 2021,
+  "description": "A8 D5 (F8) -- listing: 2021 Audi S8 - WAUZZZF82MN019623 Canterbury, VIC",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ A8"
+ },
+ {
+  "vin": "WAUZZZFWXT7900930",
+  "make": "Audi",
+  "source": "autosportsgroup.com.au (dealer group), https://autosportsgroup.com.au/867200-1881690-audi-rsetrongt-2026/",
+  "model": "e-tron GT",
+  "year": 2026,
+  "description": "e-tron GT (FW) -- listing: 2026 Audi RS e-tron GT (No Badge) series F83 build 04/2026 MY26",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ e-tron GT"
+ },
+ {
+  "vin": "WAUZZZGF3SA081971",
+  "make": "Audi",
+  "source": "autosportsgroup.com.au (dealer group), https://autosportsgroup.com.au/53553-1875160-audi-q6etron-2025/",
+  "model": "Q6 e-tron",
+  "year": 2025,
+  "description": "Q6 e-tron (GF) -- listing: 2025 Audi Q6 e-tron (No Badge) series GF build 07/2025 MY25",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Q6 e-tron"
+ },
+ {
+  "vin": "WV1ZZZEB4SH025473",
+  "make": "Volkswagen",
+  "source": "autosportsgroup.com.au (dealer group), https://autosportsgroup.com.au/f025473-1632411-volkswagen-idbuzzcargo-2024/",
+  "model": "ID. Buzz Cargo",
+  "year": 2025,
+  "description": "ID. Buzz Cargo (EB) -- listing: 2025 Volkswagen ID. Buzz Cargo BEV550 series EBN build 01/2025 MY25",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ ID. Buzz Cargo"
+ },
+ {
+  "vin": "WV2ZZZ7HZ6H071272",
+  "make": "Volkswagen",
+  "source": "automarkets.com.au (seller: burnsandco), https://www.automarkets.com.au/listing/x-d528d59d-7634-458c-a01c-eea1d4b03f22",
+  "model": "Multivan / Kombi",
+  "year": 2008,
+  "description": "T5/T6.1 Multivan/Kombi (7H) -- listing: 2008 Volkswagen Kombi Beach Diesel Automatic Van Melbourne, VIC",
+  "user_supplied": false,
+  "pending_reason": "year 2006 ≠ 2008"
+ },
+ {
+  "vin": "WV2ZZZEB2SH053963",
+  "make": "Volkswagen",
+  "source": "autosportsgroup.com.au (dealer group), https://autosportsgroup.com.au/v438628-1688181-volkswagen-idbuzz-2025/",
+  "model": "ID. Buzz",
+  "year": 2025,
+  "description": "ID. Buzz (EB) -- listing: 2025 Volkswagen ID. Buzz GTX series EB build 05/2025 MY25",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ ID. Buzz"
+ },
+ {
+  "vin": "WV3ZZZSZZM9010726",
+  "make": "Volkswagen",
+  "source": "pickles.com.au, https://www.pickles.com.au/used/details/cars/2021-volkswagen-crafter/62476574",
+  "model": "Crafter",
+  "year": 2021,
+  "description": "Crafter 2 cab-chassis (SZ) -- listing: 2021 Volkswagen Crafter SY1 [SY1 MY21 35 TDI340 Box Body Single Cab LWB 2dr Auto 8sp FWD 1045kg 2.0DT (3.55T GVM)]",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Crafter"
+ },
+ {
+  "vin": "WVGZZZ7LZBDO49081",
+  "make": "Volkswagen",
+  "source": "automarkets.com.au (seller: collectingcars), https://www.automarkets.com.au/listing/2008-volkswagen-touareg-r50-3-cb43bc46-b53b-454a-90c8-32b9b25f56bc",
+  "model": "Touareg",
+  "year": 2008,
+  "description": "Touareg 1 (7L) -- listing: 2008 Volkswagen Touareg R50 - WVGZZZ7LZBDO49081 Bondi, NSW",
+  "user_supplied": false,
+  "pending_reason": "A VIN cannot contain the letters I, O or Q.; no country; WMI not recognised; no make rule; model/series not decoded; make null ≠ Volkswagen; model \"null \" ≠ Touareg"
+ },
+ {
+  "vin": "JT731RN8509031337",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1996 Toyota Hilux' https://www.pickles.com.au/used/details/cars/1996-toyota-hilux/62428003 (listing text: CP: 02/1996,Toyota,Hilux,Ute,Manual,4 Cyl,Unleaded,540462 (Kms. Showing on Odometer),Colour: White,Unregistered WA,VIN: JT731RN8509031337,Sold with No Plates,WO)",
+  "model": "HiLux",
+  "year": 1996,
+  "description": "Toyota Hilux Ute; compliance 1996-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "JT733LNG700004654",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1998 Toyota Hilux' https://www.pickles.com.au/used/details/cars/1998-toyota-hilux/62483793 (listing text: CP: 02/1998,Built: 01/1998,Toyota,Hilux,LN167R,Utility Dual Cab,4 doors,Manual,Engine #: 5L4499573,3 Ltr,4 Cyl,Diesel,Multi-Point Injection,5 Gears,407455 (Kms.)",
+  "model": "HiLux",
+  "year": 1998,
+  "description": "Toyota Hilux LN167R; built 1998-01; compliance 1998-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "JTFVM526500003427",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2000 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2000-toyota-hilux/62460579 (listing text: CP: 11/2000,Built: 10/2000,Toyota,Hilux,RZN154R,Utility Extended Cab,4 seats,2 doors,Manual,Engine #: 3RZ2462263,2.7 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point)",
+  "model": "HiLux",
+  "year": 2000,
+  "description": "Toyota Hilux RZN154R; built 2000-10; compliance 2000-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "JTFDV696200020755",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2004 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2004-toyota-hilux/62487433 (listing text: CP: 03/2004,Built: 02/2004,Toyota,Hilux,KZN165R MY02 SR5,Utility Dual Cab,4 doors,Manual,Engine #: 1KZ1103476,3 Ltr,4 Cyl,Diesel,Multi-Point Injection,5 Gears,4)",
+  "model": "HiLux",
+  "year": 2004,
+  "description": "Toyota Hilux KZN165R MY02 SR5; built 2004-02; compliance 2004-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "MR0FU29G604001433",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2005 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2005-toyota-hilux/62485668 (listing text: CP: 09/2005,Built: 08/2005,Toyota,Hilux,GGN25R MY05 SR5,Utility Dual Cab,4 doors,Automatic,4 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,28438)",
+  "model": "HiLux",
+  "year": 2005,
+  "description": "Toyota Hilux GGN25R MY05 SR5; built 2005-08; compliance 2005-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "MR0EB3CD600811075",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2016 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2016-toyota-hilux/62490157 (listing text: CP: 07/2016,Built: 07/2016,Toyota,Hilux,GUN122R Workmate,Utility Dual Cab,5 seats,4 doors,Manual,Engine #: 2GD4111546,2.4 Ltr,4 Cyl,Diesel,Direct Injection,5 Ge)",
+  "model": "HiLux",
+  "year": 2016,
+  "description": "Toyota Hilux GUN122R Workmate; built 2016-07; compliance 2016-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "MR0EB3DD000550251",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001279 (AU Government recall VIN list REC-001279-VIN-List-1.xlsx; recall title 'REC-001279 - Toyota Motor Corporation - Toyota HILUX 2019 - 2021')",
+  "model": "HiLux",
+  "year": null,
+  "description": "Toyota HILUX 2019 - 2021 (recall VIN list; build range per recall title 2019-2021; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "6T154AEA20D809862",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1998 Toyota Corolla' https://www.pickles.com.au/used/details/cars/1998-toyota-corolla/62483154 (listing text: CP: 08/1998,Built: 08/1998,Toyota,Corolla,AE102R Conquest Seca,Liftback,5 doors,Automatic,Engine #: 7AH108197,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point In)",
+  "model": "Corolla",
+  "year": 1998,
+  "description": "Toyota Corolla AE102R Conquest Seca; built 1998-08; compliance 1998-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Corolla"
+ },
+ {
+  "vin": "JT764AEB200012150",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1999 Toyota Corolla' https://www.pickles.com.au/used/details/cars/1999-toyota-corolla/62493290 (listing text: CP: 09/1999,Built: 08/1999,Toyota,Corolla,AE112R Conquest,Liftback,5 doors,Automatic,Engine #: 7AH376173,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injecti)",
+  "model": "Corolla",
+  "year": 1999,
+  "description": "Toyota Corolla AE112R Conquest; built 1999-08; compliance 1999-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Corolla"
+ },
+ {
+  "vin": "JT711TJ8008000848",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1990 Toyota Landcruiser' https://www.pickles.com.au/used/details/cars/1990-toyota-landcruiser/62464332 (listing text: CP: 10/1990,Built: 10/1990,Toyota,Landcruiser,Wagon,Manual,6 Cyl,Diesel,584912 (Kms. Showing on Odometer),Colour: Grey,Rego. No: NP(AAB88F), Unregistered,VIN: J)",
+  "model": "LandCruiser",
+  "year": 1990,
+  "description": "Toyota Landcruiser Wagon; built 1990-10; compliance 1990-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ LandCruiser"
+ },
+ {
+  "vin": "JT721PJ7508000294",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1990 Toyota Landcruiser' https://www.pickles.com.au/used/details/cars/1990-toyota-landcruiser/62412395 (listing text: CP: 04/1990,Toyota,Landcruiser,Wagon,Manual,6 Cyl,Diesel,689149 (Kms. Showing on Odometer),Rego. No: NP(CDT14N), Unregistered NSW,VIN: JT721PJ7508000294,Sold wi)",
+  "model": "LandCruiser",
+  "year": 1990,
+  "description": "Toyota Landcruiser Wagon; compliance 1990-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ LandCruiser"
+ },
+ {
+  "vin": "JT731PJ7508532737",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1995 Toyota Landcruiser' https://www.pickles.com.au/used/details/cars/1995-toyota-landcruiser/62479394 (listing text: CP: 08/1995,Built: 08/1995,Toyota,Landcruiser,HZJ75RP,Utility Single Cab,3 seats,2 doors,Manual,4.2 Ltr,6 Cyl,Diesel,Multi-Point Injection,5 Gears,286239 (Kms. )",
+  "model": "LandCruiser",
+  "year": 1995,
+  "description": "Toyota Landcruiser HZJ75RP; built 1995-08; compliance 1995-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ LandCruiser"
+ },
+ {
+  "vin": "6T153SK200X041775",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1999 Toyota Camry' https://www.pickles.com.au/used/details/cars/1999-toyota-camry/62465322 (listing text: CP: CIRCA 1999,Built: 06/1999,Toyota,Camry,SXV20R CSi,Sedan,4 doors,Automatic,Engine #: 5S4281155,2.2 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Ge)",
+  "model": "Camry",
+  "year": 1999,
+  "description": "Toyota Camry SXV20R CSi; built 1999-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Camry"
+ },
+ {
+  "vin": "W0VZS6ED0J1178427",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2018 Holden Commodore' https://www.pickles.com.au/used/details/cars/2018-holden-commodore/62367783 (listing text: CP: 10/2018,Built: 08/2018,Holden,Commodore,ZB MY18 RS,Liftback,5 seats,5 doors,Sports Automatic,Engine #: LGX181210655,3.6 Ltr,6 Cyl,Petrol - Unleaded ULP,Dire)",
+  "model": "Commodore",
+  "year": 2018,
+  "description": "Holden Commodore ZB MY18 RS; built 2018-08; compliance 2018-10",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "W0VZS6EC0J1153115",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2019 Holden Commodore' https://www.pickles.com.au/used/details/cars/2019-holden-commodore/62464618 (listing text: CP: 07/2019,Holden,Commodore,ZB MY19.5 RS,Liftback,5 doors,Sports Automatic,Engine #: T2180738GMZX0813,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct Injection,9 Gears)",
+  "model": "Commodore",
+  "year": 2019,
+  "description": "Holden Commodore ZB MY19.5 RS; compliance 2019-07",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "W0VZT6EG4J1015335",
+  "make": "Holden",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000536 (AU Government recall VIN list REC-000536-VIN-List-1.xlsx; recall title 'REC-000536 - GM Holden Pty Ltd - Holden COMMODORE 2018 - 2020')",
+  "model": "Commodore",
+  "year": null,
+  "description": "Holden COMMODORE 2018 - 2020 (recall VIN list; build range per recall title 2018-2020; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "JMFMJ5V20PJ009452",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '1994 Mitsubishi Triton' https://www.pickles.com.au/used/details/cars/1994-mitsubishi-triton/62465342 (listing text: CP: 01/1994,Mitsubishi,Triton,Cab Chassis Single Cab,2 doors,Manual,Engine #: 4D56GC8590,2.5 Ltr,4 Cyl,Diesel,Multi-Point Injection,5 Gears,315563 (Kms. Showing)",
+  "model": "Triton",
+  "year": 1994,
+  "description": "Mitsubishi Triton Cab Chassis Single Cab; compliance 1994-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Triton"
+ },
+ {
+  "vin": "JT711VJ9500049260",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1998 Toyota Landcruiser Prado' https://www.pickles.com.au/used/details/cars/1998-toyota-landcruiser-prado/62491518 (listing text: CP: 11/1998,Built: 10/1998,Toyota,Landcruiser Prado,VZJ95R GXL,Wagon,5 doors,Automatic,Engine #: 0718754,3.4 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injecti)",
+  "model": "LandCruiser Prado",
+  "year": 1998,
+  "description": "Toyota Landcruiser Prado VZJ95R GXL; built 1998-10; compliance 1998-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ LandCruiser Prado"
+ },
+ {
+  "vin": "JT711VJ9500057633",
+  "make": "Toyota",
+  "source": "grays.com listing '1999 Toyota Landcruiser Prado RV6 Auto 4WD Petrol SUV' https://www.grays.com/lot/0027-23503070/motor-vehicles-motor-cycles/1999-toyota-landcruiser-prado-rv6-auto-4wd-petrol-suv",
+  "model": "LandCruiser Prado",
+  "year": 1999,
+  "description": "Toyota Landcruiser Prado RV6 Auto 4WD Petrol SUV; built 1999; compliance 04/1999",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ LandCruiser Prado"
+ },
+ {
+  "vin": "JN1T33TB6A0001709",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '2023 Nissan X-Trail' https://www.pickles.com.au/used/details/cars/2023-nissan-x-trail/62489680 (listing text: CP: 08/2023,Built: 05/2023,Nissan,X-Trail,Wagon,Automatic,Engine #: 107924C,4 Cyl,Hybrid,43410 (Kms. Showing on Odometer),Colour: Blue,Rego. No: NP(DPC33H), Unr)",
+  "model": "X-Trail",
+  "year": 2023,
+  "description": "Nissan X-Trail Wagon; built 2023-05; compliance 2023-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X-Trail"
+ },
+ {
+  "vin": "JF2SLGKW5TG031961",
+  "make": "Subaru",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006737 (AU Government recall VIN list REC-006737-VIN-List-1.csv; recall title 'REC-006737 - SUBARU (AUST) PTY LTD - SUBARU SUBARU FORESTER HYBRID AWD 2026')",
+  "model": "Forester",
+  "year": null,
+  "description": "SUBARU SUBARU FORESTER HYBRID AWD 2026 (recall VIN list; build range per recall title 2026-2026; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Forester"
+ },
+ {
+  "vin": "JMFXRCU5W5U002003",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2004 Mitsubishi Outlander' https://www.pickles.com.au/used/details/cars/2004-mitsubishi-outlander/62455296 (listing text: CP: 12/2004,Built: 09/2004,Mitsubishi,Outlander,ZF LS,Wagon,5 doors,Sports Automatic,Engine #: 4G69KN9740,2.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Inject)",
+  "model": "Outlander",
+  "year": 2004,
+  "description": "Mitsubishi Outlander ZF LS; built 2004-09; compliance 2004-12",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Outlander"
+ },
+ {
+  "vin": "JMFXRCU5W5U005709",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2005 Mitsubishi Outlander' https://www.pickles.com.au/used/details/cars/2005-mitsubishi-outlander/62486942 (listing text: CP: 06/2005,Mitsubishi,Outlander,ZF LS,Wagon,5 doors,Sports Automatic,Engine #: 4G69LC8298,2.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,286)",
+  "model": "Outlander",
+  "year": 2005,
+  "description": "Mitsubishi Outlander ZF LS; compliance 2005-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Outlander"
+ },
+ {
+  "vin": "JMFXDGG3WLZ001875",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2021 Mitsubishi Outlander' https://www.pickles.com.au/used/details/cars/2021-mitsubishi-outlander/62410138 (listing text: CP: 05/2021,Built: 05/2021,Mitsubishi,Outlander,ZL MY21 ES,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: 4B12S61Y61,2.4 Ltr,4 Cyl,Petrol - Un)",
+  "model": "Outlander",
+  "year": 2021,
+  "description": "Mitsubishi Outlander ZL MY21 ES; built 2021-05; compliance 2021-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Outlander"
+ },
+ {
+  "vin": "JMFXTGM4WNZ000101",
+  "make": "Mitsubishi",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005476 (AU Government recall VIN list REC-005476-VIN-List-1.csv; recall title 'REC-005476 - MITSUBISHI MOTORS AUSTRALIA LIMITED - MITSUBISHI OUTLANDER 2021 - 2022')",
+  "model": "Outlander",
+  "year": null,
+  "description": "MITSUBISHI OUTLANDER 2021 - 2022 (recall VIN list; build range per recall title 2021-2022; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Outlander"
+ },
+ {
+  "vin": "JTDKW963X05151248",
+  "make": "Toyota",
+  "source": "grays.com listing '2010 Toyota Yaris YR Auto Petrol Hatch' https://www.grays.com/lot/0036-23503120/motor-vehicles-motor-cycles/2010-toyota-yaris-yr-auto-petrol-hatch",
+  "model": "Yaris",
+  "year": 2010,
+  "description": "Toyota Yaris YR Auto Petrol Hatch; built 2010; compliance 05/2010",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Yaris"
+ },
+ {
+  "vin": "JTDKAAA3601002639",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2021 Toyota Yaris' https://www.pickles.com.au/used/details/cars/2021-toyota-yaris/62448196 (listing text: CP: 03/2021,Built: 02/2021,Toyota,Yaris,MXPA10R ZR,Hatchback,5 seats,5 doors,Constantly Variable Transmission,Engine #: M15AY144163,1.5 Ltr,3 Cyl,Petrol - Unlea)",
+  "model": "Yaris",
+  "year": 2021,
+  "description": "Toyota Yaris MXPA10R ZR; built 2021-02; compliance 2021-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Yaris"
+ },
+ {
+  "vin": "JTEEP21A900183303",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2006 Toyota Kluger' https://www.pickles.com.au/used/details/cars/2006-toyota-kluger/62489421 (listing text: CP: 07/2006,Built: 06/2006,Toyota,Kluger,MCU28R MY06 CV,Wagon,5 doors,Automatic,3.3 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,327997 (Kms. S)",
+  "model": "Kluger",
+  "year": 2006,
+  "description": "Toyota Kluger MCU28R MY06 CV; built 2006-06; compliance 2006-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Kluger"
+ },
+ {
+  "vin": "JTEES41AX02215481",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2013 Toyota Kluger' https://www.pickles.com.au/used/details/cars/2013-toyota-kluger/62453357 (listing text: CP: 03/2013,Toyota,Kluger,GSU45R KX-R,Wagon,5 doors,Sports Automatic,Engine #: 2GRJ721909,3.5 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,5740)",
+  "model": "Kluger",
+  "year": 2013,
+  "description": "Toyota Kluger GSU45R KX-R; compliance 2013-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Kluger"
+ },
+ {
+  "vin": "TMAJ381ASHJ235845",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2016 Hyundai Tucson' https://www.pickles.com.au/used/details/cars/2016-hyundai-tucson/62452483 (listing text: CP: 08/2016,Built: 06/2016,Hyundai,Tucson,TLe MY17 Highlander,Wagon,5 seats,5 doors,Sports Automatic,Engine #: D4HAGZ180139,2 Ltr,4 Cyl,Diesel,Direct Injection,)",
+  "model": "Tucson",
+  "year": 2016,
+  "description": "Hyundai Tucson TLe MY17 Highlander; built 2016-06; compliance 2016-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tucson"
+ },
+ {
+  "vin": "MRHRS5886SP020691",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2025 Honda CR-V' https://www.pickles.com.au/used/details/cars/2025-honda-cr-v/62480403 (listing text: CP: 11/2025,Built: 01/2025,Honda,CR-V,RS MY25 e:HEV RS,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: LFC21401923,2 Ltr,4 Cyl,Petrol - Unleade)",
+  "model": "CR-V",
+  "year": 2025,
+  "description": "Honda CR-V RS MY25 e:HEV RS; built 2025-01; compliance 2025-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CR-V"
+ },
+ {
+  "vin": "MRHRS4886RP010425",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2023 Honda CR-V' https://www.pickles.com.au/used/details/cars/2023-honda-cr-v/62424984 (listing text: CP: 11/2023,Built: 10/2023,Honda,CR-V,RS MY24 VTi LX,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: L15C21164010,1.5 Ltr,4 Cyl,Petrol - Unlead)",
+  "model": "CR-V",
+  "year": 2023,
+  "description": "Honda CR-V RS MY24 VTi LX; built 2023-10; compliance 2023-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CR-V"
+ },
+ {
+  "vin": "JM0DY10Y100111787",
+  "make": "Mazda",
+  "source": "grays.com listing '2004 Mazda 2 Neo Man Petrol Hatch' https://www.grays.com/lot/0032-23503070/motor-vehicles-motor-cycles/2004-mazda-2-neo-man-petrol-hatch",
+  "model": "Mazda2",
+  "year": 2004,
+  "description": "Mazda 2 Neo Man Petrol Hatch; built 2004; compliance 11/2004",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mazda2"
+ },
+ {
+  "vin": "MMMTFS85JAH527720",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2010 Holden Colorado' https://www.pickles.com.au/used/details/cars/2010-holden-colorado/62481837 (listing text: CP: 04/2010,Holden,Colorado,RC MY10 LX,Cab Chassis Single Cab,2 doors,Manual,Engine #: 4JJ1HB7417,3 Ltr,4 Cyl,Diesel,Multi-Point Injection,5 Gears,Odometer not )",
+  "model": "Colorado",
+  "year": 2010,
+  "description": "Holden Colorado RC MY10 LX; compliance 2010-04",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised; no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Colorado"
+ },
+ {
+  "vin": "MMMTFR27HAH514990",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2010 Holden Colorado' https://www.pickles.com.au/used/details/cars/2010-holden-colorado/62455541 (listing text: CP: 02/2010,Built: 01/2010,Holden,Colorado,RC MY10 LT-R,Utility Dual Cab,5 seats,4 doors,Automatic,3.6 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 G)",
+  "model": "Colorado",
+  "year": 2010,
+  "description": "Holden Colorado RC MY10 LT-R; built 2010-01; compliance 2010-02",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised; no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Colorado"
+ },
+ {
+  "vin": "MMU148MK0GH641100",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2016 Holden Colorado' https://www.pickles.com.au/used/details/cars/2016-holden-colorado/62489988 (listing text: CP: 04/2016,Built: 02/2016,Holden,Colorado,RG MY16 LTZ,Utility Dual Cab,4 doors,Sports Automatic,Engine #: FXHG160561083,2.8 Ltr,4 Cyl,Diesel,Direct Injection,6)",
+  "model": "Colorado",
+  "year": 2016,
+  "description": "Holden Colorado RG MY16 LTZ; built 2016-02; compliance 2016-04",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised; no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Colorado"
+ },
+ {
+  "vin": "MMU148CK0GH612349",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2015 Holden Colorado' https://www.pickles.com.au/used/details/cars/2015-holden-colorado/62425729 (listing text: CP: 09/2015,Holden,Colorado,RG MY16 LS,Utility Dual Cab,4 doors,Sports Automatic,Engine #: FXHG152101111,2.8 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,253188 (K)",
+  "model": "Colorado",
+  "year": 2015,
+  "description": "Holden Colorado RG MY16 LS; compliance 2015-09",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised; no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Colorado"
+ },
+ {
+  "vin": "JMFDRCJ2AXU000628",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '1998 Mitsubishi Lancer' https://www.pickles.com.au/used/details/cars/1998-mitsubishi-lancer/62491381 (listing text: CP: 10/1998,Built: 07/1998,Mitsubishi,Lancer,CE GLI,Coupe,2 doors,Automatic,Engine #: 4G15XK9152,1.5 Ltr,4 Cyl,Petrol,4 Gears,Odometer not visible,Colour: Blue,)",
+  "model": "Lancer",
+  "year": 1998,
+  "description": "Mitsubishi Lancer CE GLI; built 1998-07; compliance 1998-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Lancer"
+ },
+ {
+  "vin": "JMFSRCS6A5U001588",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2004 Mitsubishi Lancer' https://www.pickles.com.au/used/details/cars/2004-mitsubishi-lancer/62476603 (listing text: CP: 09/2004,Built: 07/2004,Mitsubishi,Lancer,CH MY05 ES,Sedan,4 doors,Automatic,Engine #: 4G94PT0731,2 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 G)",
+  "model": "Lancer",
+  "year": 2004,
+  "description": "Mitsubishi Lancer CH MY05 ES; built 2004-07; compliance 2004-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Lancer"
+ },
+ {
+  "vin": "JMFSNCS6A4U002808",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2004 Mitsubishi Lancer' https://www.pickles.com.au/used/details/cars/2004-mitsubishi-lancer/62468624 (listing text: CP: 03/2004,Built: 02/2004,Mitsubishi,Lancer,CH MY05 ES,Sedan,4 doors,Manual,Engine #: 4G94QC3186,2 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gear)",
+  "model": "Lancer",
+  "year": 2004,
+  "description": "Mitsubishi Lancer CH MY05 ES; built 2004-02; compliance 2004-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Lancer"
+ },
+ {
+  "vin": "JHMEG86400S315672",
+  "make": "Honda",
+  "source": "pickles.com.au listing '1995 Honda Civic' https://www.pickles.com.au/used/details/cars/1995-honda-civic/62468152 (listing text: CP: 07/1995,Built: 06/1995,Honda,Civic,EG GLI,Sedan,4 doors,Automatic,Engine #: D15B74717578,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,1)",
+  "model": "Civic",
+  "year": 1995,
+  "description": "Honda Civic EG GLI; built 1995-06; compliance 1995-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Civic"
+ },
+ {
+  "vin": "JHMEK1440YS205323",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2000 Honda Civic' https://www.pickles.com.au/used/details/cars/2000-honda-civic/62487776 (listing text: CP: 02/2000,Built: 02/2000,Honda,Civic,EK CXi,Hatchback,3 doors,Automatic,Engine #: D16YA1404680,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gea)",
+  "model": "Civic",
+  "year": 2000,
+  "description": "Honda Civic EK CXi; built 2000-02; compliance 2000-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Civic"
+ },
+ {
+  "vin": "SHHFK2840FU300548",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2015 Honda Civic' https://www.pickles.com.au/used/details/cars/2015-honda-civic/62488195 (listing text: CP: 04/2015,Honda,Civic,9th Gen MY15 VTi-S,Hatchback,5 doors,Sports Automatic,Engine #: R18Z44004886,1.8 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injection,5 )",
+  "model": "Civic",
+  "year": 2015,
+  "description": "Honda Civic 9th Gen MY15 VTi-S; compliance 2015-04",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Honda; model \"null \" ≠ Civic"
+ },
+ {
+  "vin": "KNAJA523525125986",
+  "make": "Kia",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000773 (AU Government recall VIN list REC-000773-VIN-List-1.csv; recall title 'REC-000773 - KIA AUSTRALIA PTY LTD - KIA Sportage (JA) 2001 - 2002')",
+  "model": "Sportage",
+  "year": null,
+  "description": "KIA Sportage (JA) 2001 - 2002 (recall VIN list; build range per recall title 2001-2002; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sportage"
+ },
+ {
+  "vin": "KNAJE552387484553",
+  "make": "Kia",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000781 (AU Government recall VIN list REC-000781-VIN-List-1.xlsx; recall title 'REC-000781 - Kia Motors Australia - KIA SPORTAGE 2007 - 2009')",
+  "model": "Sportage",
+  "year": null,
+  "description": "KIA SPORTAGE 2007 - 2009 (recall VIN list; build range per recall title 2007-2009; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sportage"
+ },
+ {
+  "vin": "U5YPC81BMEL438440",
+  "make": "Kia",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005597 (AU Government recall VIN list REC-005597-VIN-List-1.csv; recall title 'REC-005597 - KIA AUSTRALIA PTY LTD - KIA SLe Sportage 2014 - 2015')",
+  "model": "Sportage",
+  "year": null,
+  "description": "KIA SLe Sportage 2014 - 2015 (recall VIN list; build range per recall title 2014-2015; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sportage"
+ },
+ {
+  "vin": "JSAZCEDS300119632",
+  "make": "Suzuki",
+  "source": "pickles.com.au listing '2024 Suzuki Swift' https://www.pickles.com.au/used/details/cars/2024-suzuki-swift/62454470 (listing text: CP: 06/2024,Built: 03/2024,Suzuki,Swift,Hatchback,Automatic,Petrol,13712 (Kms. Showing on Odometer),Colour: White,Rego. No: 2AJ2ZC VIC,VIN: JSAZCEDS300119632,So)",
+  "model": "Swift",
+  "year": 2024,
+  "description": "Suzuki Swift Hatchback; built 2024-03; compliance 2024-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Swift"
+ },
+ {
+  "vin": "JT721UHB100035338",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1999 Toyota Hiace' https://www.pickles.com.au/used/details/cars/1999-toyota-hiace/62486967 (listing text: CP: 08/1999,Built: 07/1999,Toyota,Hiace,RZH113R,Van,4 doors,Manual,Engine #: 2RZ2110164,2.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,428727)",
+  "model": "HiAce",
+  "year": 1999,
+  "description": "Toyota Hiace RZH113R; built 1999-07; compliance 1999-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "JT721UHB105005779",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2004 Toyota Hiace' https://www.pickles.com.au/used/details/cars/2004-toyota-hiace/62470315 (listing text: CP: CIRCA 2004,Built: 11/2004,Toyota,Hiace,RZH113R,Van,4 doors,Manual,Engine #: 2RZ2374458,2.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,401)",
+  "model": "HiAce",
+  "year": 2004,
+  "description": "Toyota Hiace RZH113R; built 2004-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "6ZZCTRH2000152468",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006133 (AU Government recall VIN list REC-006133-VIN-List-1.csv; recall title 'REC-006133 - Andrew Coxon - Toyota Hiace Mobility 2004')",
+  "model": "HiAce",
+  "year": null,
+  "description": "Toyota Hiace Mobility 2004 (recall VIN list; build range per recall title 2004-2004; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "no country; WMI not recognised; no make rule; model/series not decoded; make null ≠ Toyota; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "6ZZGTRH2000245035",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006133 (AU Government recall VIN list REC-006133-VIN-List-1.csv; recall title 'REC-006133 - Andrew Coxon - Toyota Hiace Mobility 2004')",
+  "model": "HiAce",
+  "year": null,
+  "description": "Toyota Hiace Mobility 2004 (recall VIN list; build range per recall title 2004-2004; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "no country; WMI not recognised; no make rule; model/series not decoded; make null ≠ Toyota; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "6ZZ0TRH2000196627",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006133 (AU Government recall VIN list REC-006133-VIN-List-1.csv; recall title 'REC-006133 - Andrew Coxon - Toyota Hiace Mobility 2004')",
+  "model": "HiAce",
+  "year": null,
+  "description": "Toyota Hiace Mobility 2004 (recall VIN list; build range per recall title 2004-2004; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "no country; WMI not recognised; no make rule; model/series not decoded; make null ≠ Toyota; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "6ZZCKDH2068047653",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006199 (AU Government recall VIN list REC-006199-VIN-List-1.csv; recall title 'REC-006199 - ZHUO XING ENTERPRISE PTY LTD - Toyota Hiace Mobility 2009 - 2017')",
+  "model": "HiAce",
+  "year": null,
+  "description": "Toyota Hiace Mobility 2009 - 2017 (recall VIN list; build range per recall title 2009-2017; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "no country; WMI not recognised; no make rule; model/series not decoded; make null ≠ Toyota; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "JHMCD56400C212029",
+  "make": "Honda",
+  "source": "pickles.com.au listing '1996 Honda Accord' https://www.pickles.com.au/used/details/cars/1996-honda-accord/62397033 (listing text: CP: 06/1996,Built: 05/1996,Honda,Accord,VTi,Sedan,4 doors,Automatic,Engine #: F22B13002525,2.2 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,113)",
+  "model": "Accord",
+  "year": 1996,
+  "description": "Honda Accord VTi; built 1996-05; compliance 1996-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Accord"
+ },
+ {
+  "vin": "MRHCM66803P031158",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2004 Honda Accord' https://www.pickles.com.au/used/details/cars/2004-honda-accord/62471017 (listing text: CP: 03/2004,Built: 11/2003,Honda,Accord,Sedan,4 doors,Automatic,Engine #: J30A41802652,3 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,Odometer )",
+  "model": "Accord",
+  "year": 2003,
+  "description": "Honda Accord Sedan; built 2003-11; compliance 2004-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Accord"
+ },
+ {
+  "vin": "MRHCR2630DP040554",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2013 Honda Accord' https://www.pickles.com.au/used/details/cars/2013-honda-accord/62486408 (listing text: CP: 08/2013,Built: 05/2013,Honda,Accord,Sedan,Automatic,4 Cyl,Petrol - Unleaded ULP,234279 (Kms. Showing on Odometer),Colour: White,Unregistered,VIN: MRHCR2630D)",
+  "model": "Accord",
+  "year": 2013,
+  "description": "Honda Accord Sedan; built 2013-05; compliance 2013-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Accord"
+ },
+ {
+  "vin": "MRHCY2676RP050099",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2024 Honda Accord' https://www.pickles.com.au/used/details/cars/2024-honda-accord/62480494 (listing text: CP: 07/2024,Built: 05/2024,Honda,Accord,11th Gen MY24 e:HEV RS,Sedan,5 seats,4 doors,Constantly Variable Transmission,Engine #: LFC61060318,2 Ltr,4 Cyl,Petrol -)",
+  "model": "Accord",
+  "year": 2024,
+  "description": "Honda Accord 11th Gen MY24 e:HEV RS; built 2024-05; compliance 2024-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Accord"
+ },
+ {
+  "vin": "MRHCV3650KP020019",
+  "make": "Honda",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000589 (AU Government recall VIN list REC-000589-VIN-List-1.xlsx; recall title 'REC-000589 - Honda Australia Pty Ltd - Honda ACCORD HYBRID 2019')",
+  "model": "Accord",
+  "year": null,
+  "description": "Honda ACCORD HYBRID 2019 (recall VIN list; build range per recall title 2019-2019; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Accord"
+ },
+ {
+  "vin": "KMHP3811SSU131361",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2025 Hyundai Santa Fe' https://www.pickles.com.au/used/details/cars/2025-hyundai-santa-fe/62482722 (listing text: CP: 06/2025,Built: 05/2025,Hyundai,Santa Fe,MX5.V1 MY25 Hybrid Elite,Wagon,7 seats,5 doors,Automatic,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Direct Injection,6 Gear)",
+  "model": "Santa Fe",
+  "year": 2025,
+  "description": "Hyundai Santa Fe MX5.V1 MY25 Hybrid Elite; built 2025-05; compliance 2025-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Santa Fe"
+ },
+ {
+  "vin": "KMHP3811STU171947",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2026 Hyundai Santa Fe' https://www.pickles.com.au/used/details/cars/2026-hyundai-santa-fe/62472840 (listing text: CP: 01/2026,Built: 12/2025,Hyundai,Santa Fe,MX5.V2 MY26 Hybrid Calligraphy,Wagon,5 doors,Automatic,Engine #: G4FTSU682054,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Di)",
+  "model": "Santa Fe",
+  "year": 2025,
+  "description": "Hyundai Santa Fe MX5.V2 MY26 Hybrid Calligraphy; built 2025-12; compliance 2026-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Santa Fe"
+ },
+ {
+  "vin": "KMHP3811SSU057128",
+  "make": "Hyundai",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006072 (AU Government recall VIN list REC-006072-VIN-List-1.csv; recall title 'REC-006072 - Hyundai Motor Company - HYUNDAI Santa Fe (MX5) 2024')",
+  "model": "Santa Fe",
+  "year": null,
+  "description": "HYUNDAI Santa Fe (MX5) 2024 (recall VIN list; build range per recall title 2024-2024; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Santa Fe"
+ },
+ {
+  "vin": "SJNTAAJ12A1144719",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '2023 Nissan QASHQAI' https://www.pickles.com.au/used/details/cars/2023-nissan-qashqai/62478914 (listing text: CP: 01/2023,Built: 07/2022,Nissan,QASHQAI,J12 MY23 ST-L,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: HR13473172A,1.3 Ltr,4 Cyl,Petrol - Prem)",
+  "model": "QASHQAI",
+  "year": 2022,
+  "description": "Nissan QASHQAI J12 MY23 ST-L; built 2022-07; compliance 2023-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ QASHQAI"
+ },
+ {
+  "vin": "SJNTAAJ12A1347559",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '2023 Nissan QASHQAI' https://www.pickles.com.au/used/details/cars/2023-nissan-qashqai/62482430 (listing text: CP: 11/2023,Built: 09/2023,Nissan,QASHQAI,J12 MY23 ST+,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: HR13DDT622138A,1.3 Ltr,4 Cyl,Petrol - Pr)",
+  "model": "QASHQAI",
+  "year": 2023,
+  "description": "Nissan QASHQAI J12 MY23 ST+; built 2023-09; compliance 2023-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ QASHQAI"
+ },
+ {
+  "vin": "SJNTAAJ12A1465575",
+  "make": "Nissan",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006308 (AU Government recall VIN list REC-006308-VIN-List-1.csv; recall title 'REC-006308 - NISSAN MOTOR CO. (AUSTRALIA) PTY. LTD. - NISSAN J12 Qashqai 2022 - 2024')",
+  "model": "Qashqai",
+  "year": null,
+  "description": "NISSAN J12 Qashqai 2022 - 2024 (recall VIN list; build range per recall title 2022-2024; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Qashqai"
+ },
+ {
+  "vin": "KMHBT51BR9U917084",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2009 Hyundai Getz' https://www.pickles.com.au/used/details/cars/2009-hyundai-getz/62478526 (listing text: CP: CIRCA 2009,Hyundai,Getz,TB MY09 SX,Hatchback,5 doors,Automatic,Engine #: G4ED9324801,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,10861)",
+  "model": "Getz",
+  "year": 2009,
+  "description": "Hyundai Getz TB MY09 SX",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Getz"
+ },
+ {
+  "vin": "KMHBT31BR6U150148",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2006 Hyundai Getz' https://www.pickles.com.au/used/details/cars/2006-hyundai-getz/62473762 (listing text: CP: CIRCA 2006,Built: 05/2006,Hyundai,Getz,TB MY06,Hatchback,3 doors,Automatic,Engine #: G4ED64882683,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,)",
+  "model": "Getz",
+  "year": 2006,
+  "description": "Hyundai Getz TB MY06; built 2006-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Getz"
+ },
+ {
+  "vin": "6T1BK3FK80X252664",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2016 Toyota Aurion' https://www.pickles.com.au/used/details/cars/2016-toyota-aurion/62491308 (listing text: CP: 02/2016,Built: 02/2016,Toyota,Aurion,GSV50R AT-X,Sedan,4 doors,Sports Automatic,Engine #: 2GRK181100,3.5 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injecti)",
+  "model": "Aurion",
+  "year": 2016,
+  "description": "Toyota Aurion GSV50R AT-X; built 2016-02; compliance 2016-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Aurion"
+ },
+ {
+  "vin": "KNAUP752346525677",
+  "make": "Kia",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000771 (AU Government recall VIN list REC-000771-VIN-List-1.csv; recall title 'REC-000771 - KIA AUSTRALIA PTY LTD - KIA Carnival (UP) 2003 - 2004')",
+  "model": "Carnival",
+  "year": null,
+  "description": "KIA Carnival (UP) 2003 - 2004 (recall VIN list; build range per recall title 2003-2004; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Carnival"
+ },
+ {
+  "vin": "W0L0TGF485G043570",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2005 Holden Astra' https://www.pickles.com.au/used/details/cars/2005-holden-astra/62484520 (listing text: CP: 03/2005,Built: 12/2004,Holden,Astra,TS MY05 Classic,Hatchback,5 doors,Manual,Engine #: Z18XE20EH0152,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injecti)",
+  "model": "Astra",
+  "year": 2004,
+  "description": "Holden Astra TS MY05 Classic; built 2004-12; compliance 2005-03",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Astra"
+ },
+ {
+  "vin": "W0L0AHL3565199828",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2006 Holden Astra' https://www.pickles.com.au/used/details/cars/2006-holden-astra/62487733 (listing text: CP: 08/2006,Holden,Astra,AH MY06 CDX,Wagon,5 doors,Manual,Engine #: Z18XE20HH6956,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,237591 (Kms.)",
+  "model": "Astra",
+  "year": 2006,
+  "description": "Holden Astra AH MY06 CDX; compliance 2006-08",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Astra"
+ },
+ {
+  "vin": "W0LPF2E91FG053210",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2015 Holden Astra' https://www.pickles.com.au/used/details/cars/2015-holden-astra/62379474 (listing text: CP: 05/2015,Built: 02/2015,Holden,Astra,PJ MY15.5 GTC,Hatchback,3 doors,Automatic,1.6 Ltr,4 Cyl,Petrol - Premium ULP,Direct Injection,6 Gears,152580 (Kms. Showi)",
+  "model": "Astra",
+  "year": 2015,
+  "description": "Holden Astra PJ MY15.5 GTC; built 2015-02; compliance 2015-05",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Astra"
+ },
+ {
+  "vin": "W0LBF6EH1HG135949",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2017 Holden Astra' https://www.pickles.com.au/used/details/cars/2017-holden-astra/62488679 (listing text: CP: 06/2017,Holden,Astra,Hatchback,Automatic,4 Cyl,Petrol,92719 (Kms. Showing on Odometer),Colour: Blue,Rego. No: NP(GB2817), Unregistered NSW,VIN: W0LBF6EH1HG1)",
+  "model": "Astra",
+  "year": 2017,
+  "description": "Holden Astra Hatchback; compliance 2017-06",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Astra"
+ },
+ {
+  "vin": "W0LBF6EH6HG099384",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2017 Holden Astra' https://www.pickles.com.au/used/details/cars/2017-holden-astra/62489677 (listing text: CP: 04/2017,Built: 02/2017,Holden,Astra,BK MY17 RS,Hatchback,5 doors,Sports Automatic,Engine #: B1170337GXUX0753,1.6 Ltr,4 Cyl,Petrol - Premium ULP,Direct Injec)",
+  "model": "Astra",
+  "year": 2017,
+  "description": "Holden Astra BK MY17 RS; built 2017-02; compliance 2017-04",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Astra"
+ },
+ {
+  "vin": "JHMRV3807VS200124",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2026 Honda HR-V' https://www.pickles.com.au/used/details/cars/2026-honda-hr-v/62444476 (listing text: CP: 05/2026,Built: 04/2026,Honda,HR-V,MY27 Vi X,Wagon,5 doors,Constantly Variable Transmission,Engine #: 6000143,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point)",
+  "model": "HR-V",
+  "year": 2026,
+  "description": "Honda HR-V MY27 Vi X; built 2026-04; compliance 2026-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HR-V"
+ },
+ {
+  "vin": "JHMRV5800NS228767",
+  "make": "Honda",
+  "source": "pickles.com.au listing '2024 Honda HR-V' https://www.pickles.com.au/used/details/cars/2024-honda-hr-v/62473105 (listing text: CP: 04/2024,Built: 02/2024,Honda,HR-V,MY22 e:HEV L,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: LEC31028769,1.5 Ltr,4 Cyl,Petrol - Unleaded )",
+  "model": "HR-V",
+  "year": 2024,
+  "description": "Honda HR-V MY22 e:HEV L; built 2024-02; compliance 2024-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HR-V; year 2022 ≠ 2024"
+ },
+ {
+  "vin": "W0L0SBF68W4047167",
+  "make": "Holden",
+  "source": "pickles.com.au listing '1997 Holden Barina' https://www.pickles.com.au/used/details/cars/1997-holden-barina/62476345 (listing text: CP: 12/1997,Holden,Barina,SB Swing,Hatchback,5 doors,Automatic,Engine #: C14SE02GK6652,1.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,166676 )",
+  "model": "Barina",
+  "year": 1997,
+  "description": "Holden Barina SB Swing; compliance 1997-12",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Barina"
+ },
+ {
+  "vin": "W0L0XCF6824048395",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2001 Holden Barina' https://www.pickles.com.au/used/details/cars/2001-holden-barina/62480378 (listing text: CP: 12/2001,Holden,Barina,XC,Hatchback,5 doors,Automatic,Engine #: 638622826,1.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,162821 (Kms. Show)",
+  "model": "Barina",
+  "year": 2001,
+  "description": "Holden Barina XC; compliance 2001-12",
+  "user_supplied": false,
+  "pending_reason": "no make rule; model/series not decoded; make null ≠ Holden; model \"null \" ≠ Barina"
+ },
+ {
+  "vin": "KL3SA696E7B092819",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2006 Holden Barina' https://www.pickles.com.au/used/details/cars/2006-holden-barina/62485102 (listing text: CP: 10/2006,Holden,Barina,TK MY07,Sedan,4 doors,Automatic,Engine #: F16D3781619K,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,Odometer not )",
+  "model": "Barina",
+  "year": 2006,
+  "description": "Holden Barina TK MY07; compliance 2006-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Barina"
+ },
+ {
+  "vin": "1J8G858N74Y151728",
+  "make": "Jeep",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000721 (AU Government recall VIN list REC-000721-VIN-List-1.csv; recall title 'REC-000721 - Chrysler Australia Pty Ltd - JEEP Grand Cherokee (WG) 2000 - 2004')",
+  "model": "Grand Cherokee",
+  "year": null,
+  "description": "JEEP Grand Cherokee (WG) 2000 - 2004 (recall VIN list; build range per recall title 2000-2004; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Grand Cherokee"
+ },
+ {
+  "vin": "1C4RJKNG7P8726178",
+  "make": "Jeep",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005696 (AU Government recall VIN list REC-005696-VIN-List-1.csv; recall title 'REC-005696 - STELLANTIS (AUSTRALIA AND NEW ZEALAND) PTY LTD - JEEP WL Grand Cherokee 2021 - 2023')",
+  "model": "Grand Cherokee",
+  "year": null,
+  "description": "JEEP WL Grand Cherokee 2021 - 2023 (recall VIN list; build range per recall title 2021-2023; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Grand Cherokee"
+ },
+ {
+  "vin": "JN1BCAN15A0544551",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '1999 Nissan Pulsar' https://www.pickles.com.au/used/details/cars/1999-nissan-pulsar/62388073 (listing text: CP: 10/1999,Nissan,Pulsar,N15 S2 LX,Sedan,4 doors,Automatic,Engine #: GA16111733C,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,Odometer not)",
+  "model": "Pulsar",
+  "year": 1999,
+  "description": "Nissan Pulsar N15 S2 LX; compliance 1999-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Pulsar"
+ },
+ {
+  "vin": "KNAJC523855358194",
+  "make": "Kia",
+  "source": "pickles.com.au listing '2005 Kia Sorento' https://www.pickles.com.au/used/details/cars/2005-kia-sorento/62484064 (listing text: CP: 01/2005,Built: 07/2004,Kia,Sorento,BL MY05 EX,Wagon,5 doors,Sports Automatic,Engine #: G6CU4987876,3.5 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection)",
+  "model": "Sorento",
+  "year": 2004,
+  "description": "Kia Sorento BL MY05 EX; built 2004-07; compliance 2005-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sorento"
+ },
+ {
+  "vin": "KNAKU814SD5393735",
+  "make": "Kia",
+  "source": "pickles.com.au listing '2013 Kia Sorento' https://www.pickles.com.au/used/details/cars/2013-kia-sorento/62477329 (listing text: CP: 01/2013,Kia,Sorento,XM MY13 SLi,Wagon,5 doors,Sports Automatic,Engine #: D4HBCH074285,2.2 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,219771 (Kms. Showing on )",
+  "model": "Sorento",
+  "year": 2013,
+  "description": "Kia Sorento XM MY13 SLi; compliance 2013-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sorento"
+ },
+ {
+  "vin": "KNAKU814SC5190997",
+  "make": "Kia",
+  "source": "pickles.com.au listing '2011 Kia Sorento' https://www.pickles.com.au/used/details/cars/2011-kia-sorento/62379648 (listing text: CP: 05/2011,Kia,Sorento,XM MY11 SLi,Wagon,5 doors,Sports Automatic,Engine #: D4HBBH022177,2.2 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,Odometer not visible,Col)",
+  "model": "Sorento",
+  "year": 2011,
+  "description": "Kia Sorento XM MY11 SLi; compliance 2011-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sorento"
+ },
+ {
+  "vin": "KNAKU814ND5361475",
+  "make": "Kia",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005589 (AU Government recall VIN list REC-005589-VIN-List-1.csv; recall title 'REC-005589 - KIA AUSTRALIA PTY LTD - KIA XM Sorento 2012 - 2014')",
+  "model": "Sorento",
+  "year": null,
+  "description": "KIA XM Sorento 2012 - 2014 (recall VIN list; build range per recall title 2012-2014; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Sorento"
+ },
+ {
+  "vin": "JM0DM2W7A00257952",
+  "make": "Mazda",
+  "source": "pickles.com.au listing '2024 Mazda CX-30' https://www.pickles.com.au/used/details/cars/2024-mazda-cx-30/62484559 (listing text: CP: 06/2024,Built: 05/2024,Mazda,CX-30,DM2W7A G20 Evolve,Wagon,5 seats,5 doors,Sports Automatic,Engine #: PE21992074,2 Ltr,4 Cyl,Petrol,Direct Injection,6 Gears)",
+  "model": "CX-30",
+  "year": 2024,
+  "description": "Mazda CX-30 DM2W7A G20 Evolve; built 2024-05; compliance 2024-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CX-30"
+ },
+ {
+  "vin": "JM0DM2W7A00221587",
+  "make": "Mazda",
+  "source": "pickles.com.au listing '2023 Mazda CX-30' https://www.pickles.com.au/used/details/cars/2023-mazda-cx-30/62421167 (listing text: CP: 04/2023,Built: 04/2023,Mazda,CX-30,DM2W7A G20 Evolve,Wagon,5 seats,5 doors,Sports Automatic,Engine #: PE21848189,2 Ltr,4 Cyl,Petrol,Direct Injection,6 Gears)",
+  "model": "CX-30",
+  "year": 2023,
+  "description": "Mazda CX-30 DM2W7A G20 Evolve; built 2023-04; compliance 2023-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CX-30"
+ },
+ {
+  "vin": "WBAFB32000LN89288",
+  "make": "BMW",
+  "source": "grays.com listing '2003 BMW X5  Petrol' https://www.grays.com/lot/0034-23503120/motor-vehicles-motor-cycles/2003-bmw-x5-petrol",
+  "model": "X5",
+  "year": 2003,
+  "description": "BMW X5 Petrol; built 2003; compliance 12/2003",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "WBAFF02080L293308",
+  "make": "BMW",
+  "source": "grays.com listing '2009 BMW X5 xDrive35d AWD SUV' https://www.grays.com/lot/0037-23503070/motor-vehicles-motor-cycles/2009-bmw-x5-xdrive35d-awd-suv",
+  "model": "X5",
+  "year": 2009,
+  "description": "BMW X5 xDrive35d AWD SUV; built 2009; compliance 2010",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "WBAKT420200W35125",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2017 BMW X5' https://www.pickles.com.au/used/details/cars/2017-bmw-x5/62489203 (listing text: CP: 06/2017,Built: 03/2017,BMW,X5,F15 sDrive25d,Wagon,5 doors,Automatic,Engine #: 72379894,2 Ltr,4 Cyl,Diesel,Direct Injection,8 Gears,Odometer not visible,Colo)",
+  "model": "X5",
+  "year": 2017,
+  "description": "BMW X5 F15 sDrive25d; built 2017-03; compliance 2017-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "WBAKR620100M99547",
+  "make": "BMW",
+  "source": "grays.com listing '2015 BMW X5 xDrive50i AWD 7 Seat SUV' https://www.grays.com/lot/0022-23503120/motor-vehicles-motor-cycles/2015-bmw-x5-xdrive50i-awd-7-seat-suv",
+  "model": "X5",
+  "year": 2015,
+  "description": "BMW X5 xDrive50i AWD 7 Seat SUV; built 2015; compliance 05/2015",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "WBACR620509R66937",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2024 BMW X5' https://www.pickles.com.au/used/details/cars/2024-bmw-x5/62456360 (listing text: CP: 07/2024,Built: 02/2023,BMW,X5,G05 xDrive40i M Sport,Wagon,5 seats,5 doors,Sports Automatic,Engine #: 24757035,3 Ltr,6 Cyl,Petrol - Premium ULP,Direct Inject)",
+  "model": "X5",
+  "year": 2023,
+  "description": "BMW X5 G05 xDrive40i M Sport; built 2023-02; compliance 2024-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "WBATA620009D18027",
+  "make": "BMW",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005071 (AU Government recall VIN list REC-005071-VIN-List-1.csv; recall title 'REC-005071 - BMW Australia Limited - BMW X5 2020')",
+  "model": "X5",
+  "year": null,
+  "description": "BMW X5 2020 (recall VIN list; build range per recall title 2020-2020; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X5"
+ },
+ {
+  "vin": "JTNKY3BX201013495",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2018 Toyota C-HR' https://www.pickles.com.au/used/details/cars/2018-toyota-c-hr/62440766 (listing text: CP: 11/2018,Built: 10/2018,Toyota,C-HR,NGX10R Koba,Wagon,5 doors,Constantly Variable Transmission,Engine #: 8NRU277053,1.2 Ltr,4 Cyl,Petrol - Premium ULP,Direct)",
+  "model": "C-HR",
+  "year": 2018,
+  "description": "Toyota C-HR NGX10R Koba; built 2018-10; compliance 2018-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ C-HR"
+ },
+ {
+  "vin": "JTNKY3BX301010301",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2018 Toyota C-HR' https://www.pickles.com.au/used/details/cars/2018-toyota-c-hr/62474136 (listing text: CP: 07/2018,Built: 06/2018,Toyota,C-HR,NGX10R Koba,Wagon,5 doors,Constantly Variable Transmission,Engine #: 8NRU232044,1.2 Ltr,4 Cyl,Petrol - Premium ULP,Direct)",
+  "model": "C-HR",
+  "year": 2018,
+  "description": "Toyota C-HR NGX10R Koba; built 2018-06; compliance 2018-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ C-HR"
+ },
+ {
+  "vin": "JTNLY3FX101009503",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001645 (AU Government recall VIN list REC-001645-VIN-List-1.csv; recall title 'REC-001645 - TOYOTA MOTOR CORPORATION AUSTRALIA LIMITED - Toyota C-HR 2019 - 2021')",
+  "model": "C-HR",
+  "year": null,
+  "description": "Toyota C-HR 2019 - 2021 (recall VIN list; build range per recall title 2019-2021; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ C-HR"
+ },
+ {
+  "vin": "JTNK93BX001015467",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2023 Toyota C-HR' https://www.pickles.com.au/used/details/cars/2023-toyota-c-hr/62437277 (listing text: CP: 08/2023,Built: 07/2023,Toyota,C-HR,ZYX10R Koba,Wagon,5 doors,Constantly Variable Transmission,Engine #: 2ZR2X06230,1.8 Ltr,4 Cyl,Hybrid,Multi-Point Injectio)",
+  "model": "C-HR",
+  "year": 2023,
+  "description": "Toyota C-HR ZYX10R Koba; built 2023-07; compliance 2023-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ C-HR"
+ },
+ {
+  "vin": "JT743LHJ401009469",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2002 Toyota Hiace' https://www.pickles.com.au/used/details/cars/2002-toyota-hiace/62486125 (listing text: CP: 04/2002,Built: 03/2002,Toyota,Hiace,LH184R Commuter,Bus,10 seats,4 doors,Automatic,Engine #: 5L5207717,3 Ltr,4 Cyl,Diesel,Multi-Point Injection,4 Gears,1419)",
+  "model": "HiAce",
+  "year": 2002,
+  "description": "Toyota Hiace LH184R Commuter; built 2002-03; compliance 2002-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "JTFSS22P200002185",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2005 Toyota Hiace' https://www.pickles.com.au/used/details/cars/2005-toyota-hiace/62463485 (listing text: CP: CIRCA 2005,Toyota,Hiace,KDH222R Commuter,Bus,5 doors,Automatic,4 Cyl,Diesel,Odometer not visible,Colour: White,Rego. No: CN85VR NSW,Rego expiry: 19/07/2027,)",
+  "model": "HiAce",
+  "year": 2005,
+  "description": "Toyota Hiace KDH222R Commuter",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiAce"
+ },
+ {
+  "vin": "W0VZT6EC0J1126638",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2019 Holden Calais' https://www.pickles.com.au/used/details/cars/2019-holden-calais/62474610 (listing text: CP: 06/2019,Holden,Calais,ZB MY19.5,Liftback,5 doors,Sports Automatic,Engine #: T1180108GMZX0071,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct Injection,9 Gears,15646)",
+  "model": "Commodore",
+  "year": 2019,
+  "description": "Holden Calais ZB MY19.5; compliance 2019-06",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "KMFWBX7JMBU379888",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2011 Hyundai iLoad' https://www.pickles.com.au/used/details/cars/2011-hyundai-iload/62488417 (listing text: CP: 09/2011,Built: 06/2011,Hyundai,iLoad,TQ-V MY11,Van Dual Cab,3 seats,5 doors,Sports Automatic,Engine #: D4CBB854106,2.5 Ltr,4 Cyl,Diesel,Direct Injection,5 G)",
+  "model": "iLoad",
+  "year": 2011,
+  "description": "Hyundai iLoad TQ-V MY11; built 2011-06; compliance 2011-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ iLoad"
+ },
+ {
+  "vin": "KMFWBX7JMBU357036",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2011 Hyundai iLoad' https://www.pickles.com.au/used/details/cars/2011-hyundai-iload/61036646 (listing text: CP: 04/2011,Built: 03/2011,Hyundai,iLoad,TQ-V MY11,Van,3 seats,5 doors,Sports Automatic,Engine #: D4CBB817148,2.5 Ltr,4 Cyl,Diesel,Direct Injection,5 Gears,5798)",
+  "model": "iLoad",
+  "year": 2011,
+  "description": "Hyundai iLoad TQ-V MY11; built 2011-03; compliance 2011-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ iLoad"
+ },
+ {
+  "vin": "KMFWBX7RLHU855830",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2016 Hyundai iLoad' https://www.pickles.com.au/used/details/cars/2016-hyundai-iload/62487321 (listing text: CP: 09/2016,Built: 07/2016,Hyundai,iLoad,TQ3-V Series II MY17,Van,5 doors,Manual,Engine #: G4KGGA845009,2.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injectio)",
+  "model": "iLoad",
+  "year": 2016,
+  "description": "Hyundai iLoad TQ3-V Series II MY17; built 2016-07; compliance 2016-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ iLoad"
+ },
+ {
+  "vin": "KMFWBX7KLJU958205",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2018 Hyundai iLoad' https://www.pickles.com.au/used/details/cars/2018-hyundai-iload/62433216 (listing text: CP: 01/2018,Built: 10/2017,Hyundai,iLoad,Van,3 seats,5 doors,Manual,Engine #: D4CBH398130,2.5 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,110885 (Kms. Showing on )",
+  "model": "iLoad",
+  "year": 2017,
+  "description": "Hyundai iLoad Van; built 2017-10; compliance 2018-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ iLoad"
+ },
+ {
+  "vin": "MALBB31CLCM025639",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2011 Hyundai i20' https://www.pickles.com.au/used/details/cars/2011-hyundai-i20/62481505 (listing text: CP: 08/2011,Hyundai,i20,PB MY12 Active,Hatchback,3 doors,Manual,Engine #: G4FABW327562,1.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Gears,144212 )",
+  "model": "i20",
+  "year": 2011,
+  "description": "Hyundai i20 PB MY12 Active; compliance 2011-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ i20"
+ },
+ {
+  "vin": "MALBB31CLCM029667",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2012 Hyundai i20' https://www.pickles.com.au/used/details/cars/2012-hyundai-i20/62492807 (listing text: CP: 05/2012,Built: 03/2012,Hyundai,i20,PB MY12 Active,Hatchback,3 doors,Manual,Engine #: G4FACU479637,1.4 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,)",
+  "model": "i20",
+  "year": 2012,
+  "description": "Hyundai i20 PB MY12 Active; built 2012-03; compliance 2012-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ i20"
+ },
+ {
+  "vin": "NLHBU51FLNZ006863",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2023 Hyundai i20' https://www.pickles.com.au/used/details/cars/2023-hyundai-i20/62487895 (listing text: CP: 01/2023,Built: 08/2022,Hyundai,i20,BC3.V1 MY22 N,Hatchback,5 doors,Manual,Engine #: G4FVMZ168369,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Direct Injection,6 Gear)",
+  "model": "i20",
+  "year": 2022,
+  "description": "Hyundai i20 BC3.V1 MY22 N; built 2022-08; compliance 2023-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ i20"
+ },
+ {
+  "vin": "NLHBU51FLNZ002510",
+  "make": "Hyundai",
+  "source": "pickles.com.au listing '2022 Hyundai i20' https://www.pickles.com.au/used/details/cars/2022-hyundai-i20/62488688 (listing text: CP: 02/2022,Built: 10/2021,Hyundai,i20,BC3.V1 MY22 N,Hatchback,5 doors,Manual,Engine #: G4FVMZ046323,1.6 Ltr,4 Cyl,Petrol - Unleaded ULP,Direct Injection,6 Gear)",
+  "model": "i20",
+  "year": 2021,
+  "description": "Hyundai i20 BC3.V1 MY22 N; built 2021-10; compliance 2022-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ i20"
+ },
+ {
+  "vin": "W1K2060422R035425",
+  "make": "Mercedes-Benz",
+  "source": "pickles.com.au listing '2022 Mercedes-Benz C-Class' https://www.pickles.com.au/used/details/cars/2022-mercedes-benz-c-class/62490073 (listing text: CP: 10/2022,Built: 03/2022,Mercedes-Benz,C-Class,W206 C200,Sedan,4 doors,Sports Automatic,Engine #: 254915V0031280,1.5 Ltr,4 Cyl,Petrol - Premium ULP,Direct Inj)",
+  "model": "C-Class",
+  "year": 2022,
+  "description": "Mercedes-Benz C-Class W206 C200; built 2022-03; compliance 2022-10",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "W1K2060422R041431",
+  "make": "Mercedes-Benz",
+  "source": "pickles.com.au listing '2022 Mercedes-Benz C-Class' https://www.pickles.com.au/used/details/cars/2022-mercedes-benz-c-class/62424837 (listing text: CP: 06/2022,Built: 03/2022,Mercedes-Benz,C-Class,W206 C200,Sedan,4 doors,Sports Automatic,Engine #: 254915V0057341,1.5 Ltr,4 Cyl,Petrol - Premium ULP,Direct Inj)",
+  "model": "C-Class",
+  "year": 2022,
+  "description": "Mercedes-Benz C-Class W206 C200; built 2022-03; compliance 2022-06",
+  "user_supplied": false,
+  "pending_reason": "WMI not recognised"
+ },
+ {
+  "vin": "WBAPE12080WJ86304",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2008 BMW X3' https://www.pickles.com.au/used/details/cars/2008-bmw-x3/62487504 (listing text: CP: 12/2008,BMW,X3,E83 MY09 xDrive20d Lifestyle,Wagon,5 doors,Automatic,Engine #: 81556973,2 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,213275 (Kms. Showing on O)",
+  "model": "X3",
+  "year": 2008,
+  "description": "BMW X3 E83 MY09 xDrive20d Lifestyle; compliance 2008-12",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBAPE12050WJ87829",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2009 BMW X3' https://www.pickles.com.au/used/details/cars/2009-bmw-x3/62489621 (listing text: CP: 09/2009,BMW,X3,E83 MY09 xDrive20d Lifestyle,Wagon,5 doors,Automatic,Engine #: 80957190N47D20A,2 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,265367 (Kms. Showi)",
+  "model": "X3",
+  "year": 2009,
+  "description": "BMW X3 E83 MY09 xDrive20d Lifestyle; compliance 2009-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBAPA72000WB65884",
+  "make": "BMW",
+  "source": "grays.com listing '2004 BMW X3  Petrol' https://www.grays.com/lot/0002-23503120/motor-vehicles-motor-cycles/2004-bmw-x3-petrol",
+  "model": "X3",
+  "year": 2004,
+  "description": "BMW X3 Petrol; built 2004; compliance 09/2005",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBAWZ520300T61181",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2017 BMW X3' https://www.pickles.com.au/used/details/cars/2017-bmw-x3/62485996 (listing text: CP: 04/2017,BMW,X3,F25 LCI xDrive20d,Wagon,5 doors,Automatic,Engine #: 60329793,2 Ltr,4 Cyl,Diesel,Direct Injection,8 Gears,187148 (Kms. Showing on Odometer),Co)",
+  "model": "X3",
+  "year": 2017,
+  "description": "BMW X3 F25 LCI xDrive20d; compliance 2017-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBAWY32000L685551",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2012 BMW X3' https://www.pickles.com.au/used/details/cars/2012-bmw-x3/62480137 (listing text: CP: 07/2012,Built: 05/2012,BMW,X3,F25 MY12 xDrive20d,Wagon,5 doors,Automatic,Engine #: 72368137,2 Ltr,4 Cyl,Diesel,Direct Injection,8 Gears,158591 (Kms. Showing)",
+  "model": "X3",
+  "year": 2012,
+  "description": "BMW X3 F25 MY12 xDrive20d; built 2012-05; compliance 2012-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBATY56080N116976",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2021 BMW X3' https://www.pickles.com.au/used/details/cars/2021-bmw-x3/62463766 (listing text: CP: 09/2021,Built: 07/2021,BMW,X3,G01 xDrive30i M Sport,Wagon,5 seats,5 doors,Sports Automatic,Engine #: 12946442,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct Inject)",
+  "model": "X3",
+  "year": 2021,
+  "description": "BMW X3 G01 xDrive30i M Sport; built 2021-07; compliance 2021-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "WBA32GP0009Y53979",
+  "make": "BMW",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-006396 (AU Government recall VIN list REC-006396-VIN-List-1.csv; recall title 'REC-006396 - B M W AUSTRALIA LTD. - BMW X3 2024 - 2025')",
+  "model": "X3",
+  "year": null,
+  "description": "BMW X3 2024 - 2025 (recall VIN list; build range per recall title 2024-2025; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X3"
+ },
+ {
+  "vin": "JMFXDGL3WRZ000908",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2023 Mitsubishi Eclipse Cross' https://www.pickles.com.au/used/details/cars/2023-mitsubishi-eclipse-cross/62476826 (listing text: CP: CIRCA 2023,Built: 12/2023,Mitsubishi,Eclipse Cross,YB MY24 PHEV ES,Wagon,5 doors,Automatic,Engine #: Y32312200281,2.4 Ltr,4 Cyl,Hybrid,1 Gears,11178 (Kms. S)",
+  "model": "Eclipse Cross",
+  "year": 2023,
+  "description": "Mitsubishi Eclipse Cross YB MY24 PHEV ES; built 2023-12",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Eclipse Cross"
+ },
+ {
+  "vin": "JMFXTGK1WRZ004236",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2024 Mitsubishi Eclipse Cross' https://www.pickles.com.au/used/details/cars/2024-mitsubishi-eclipse-cross/62458243 (listing text: CP: 10/2024,Built: 06/2024,Mitsubishi,Eclipse Cross,YB MY24 ES,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: 4B40KC8264,1.5 Ltr,4 Cyl,Petrol )",
+  "model": "Eclipse Cross",
+  "year": 2024,
+  "description": "Mitsubishi Eclipse Cross YB MY24 ES; built 2024-06; compliance 2024-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Eclipse Cross"
+ },
+ {
+  "vin": "LGWFFVA5XSH852481",
+  "make": "GWM",
+  "source": "pickles.com.au listing '2026 GWM Haval H6' https://www.pickles.com.au/used/details/cars/2026-gwm-haval-h6/62449868 (listing text: CP: 02/2026,Built: 12/2025,GWM,Haval H6,B01 Ultra PHEV,Wagon,5 doors,Constantly Variable Transmission,Engine #: 2538A560788,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,)",
+  "model": "Haval H6",
+  "year": 2025,
+  "description": "GWM Haval H6 B01 Ultra PHEV; built 2025-12; compliance 2026-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Haval H6"
+ },
+ {
+  "vin": "JTDBT133200025221",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '1999 Toyota Echo' https://www.pickles.com.au/used/details/cars/1999-toyota-echo/62474510 (listing text: CP: CIRCA 1999,Built: 11/1999,Toyota,Echo,NCP12R,Sedan,4 doors,Automatic,Engine #: 1NZ1116910,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,)",
+  "model": "Echo",
+  "year": 1999,
+  "description": "Toyota Echo NCP12R; built 1999-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Echo"
+ },
+ {
+  "vin": "JTDKW133900199357",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2003 Toyota Echo' https://www.pickles.com.au/used/details/cars/2003-toyota-echo/62486781 (listing text: CP: CIRCA 2003,Built: 06/2003,Toyota,Echo,NCP10R MY03,Hatchback,5 doors,Automatic,Engine #: 2NZ2738550,1.3 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection)",
+  "model": "Echo",
+  "year": 2003,
+  "description": "Toyota Echo NCP10R MY03; built 2003-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Echo"
+ },
+ {
+  "vin": "KL3BA7689KB910999",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2019 Holden Trax' https://www.pickles.com.au/used/details/cars/2019-holden-trax/62475586 (listing text: CP: 05/2019,Built: 04/2019,Holden,Trax,TJ MY19 LT,Wagon,5 seats,5 doors,Automatic,Engine #: B14NET191050272,1.4 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injec)",
+  "model": "Trax",
+  "year": 2019,
+  "description": "Holden Trax TJ MY19 LT; built 2019-04; compliance 2019-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Trax"
+ },
+ {
+  "vin": "KL3BA7689JB539847",
+  "make": "Holden",
+  "source": "pickles.com.au listing '2018 Holden Trax' https://www.pickles.com.au/used/details/cars/2018-holden-trax/62482523 (listing text: CP: 01/2018,Built: 09/2017,Holden,Trax,TJ MY18 LTZ,Wagon,5 doors,Automatic,Engine #: B14NET172470481,1.4 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injection,6 )",
+  "model": "Trax",
+  "year": 2017,
+  "description": "Holden Trax TJ MY18 LTZ; built 2017-09; compliance 2018-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Trax"
+ },
+ {
+  "vin": "JSAGJB74V00107591",
+  "make": "Suzuki",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001621 (AU Government recall VIN list REC-001621-VIN-List-1.xlsx; recall title 'REC-001621 - Suzuki Australia Pty Ltd - SUZUKI JIMNY 2018')",
+  "model": "Jimny",
+  "year": null,
+  "description": "SUZUKI JIMNY 2018 (recall VIN list; build range per recall title 2018-2018; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Jimny"
+ },
+ {
+  "vin": "JSAGJB74V00170071",
+  "make": "Suzuki",
+  "source": "pickles.com.au listing '2021 Suzuki Jimny' https://www.pickles.com.au/used/details/cars/2021-suzuki-jimny/62472524 (listing text: CP: 06/2021,Built: 04/2021,Suzuki,Jimny,JB74,Hardtop,4 seats,3 doors,Automatic,Engine #: K15B1133165,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4)",
+  "model": "Jimny",
+  "year": 2021,
+  "description": "Suzuki Jimny JB74; built 2021-04; compliance 2021-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Jimny"
+ },
+ {
+  "vin": "JSAGJB74V00147430",
+  "make": "Suzuki",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001611 (AU Government recall VIN list REC-001611-VIN-List-1.xlsx; recall title 'REC-001611 - Suzuki Australia Pty Ltd - SUZUKI JIMNY 2020 - 2021')",
+  "model": "Jimny",
+  "year": null,
+  "description": "SUZUKI JIMNY 2020 - 2021 (recall VIN list; build range per recall title 2020-2021; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Jimny"
+ },
+ {
+  "vin": "WBAVL92030VX84821",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2013 BMW X1' https://www.pickles.com.au/used/details/cars/2013-bmw-x1/62471319 (listing text: CP: 06/2013,Built: 04/2013,BMW,X1,E84 LCI sDrive20i,Wagon,5 seats,5 doors,Sports Automatic,Engine #: A5850502N20B20A,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct Inj)",
+  "model": "X1",
+  "year": 2013,
+  "description": "BMW X1 E84 LCI sDrive20i; built 2013-04; compliance 2013-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBA32AA0505U82248",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2022 BMW X1' https://www.pickles.com.au/used/details/cars/2022-bmw-x1/62472747 (listing text: CP: 03/2022,Built: 12/2021,BMW,X1,F48 LCI sDrive18i,Wagon,5 doors,Sports Automatic Dual Clutch,Engine #: 30996650,1.5 Ltr,3 Cyl,Petrol - Premium ULP,Direct Inje)",
+  "model": "X1",
+  "year": 2021,
+  "description": "BMW X1 F48 LCI sDrive18i; built 2021-12; compliance 2022-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBAHT720705J93750",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2017 BMW X1' https://www.pickles.com.au/used/details/cars/2017-bmw-x1/62472600 (listing text: CP: 06/2017,Built: 05/2017,BMW,X1,F48 sDrive18d,Wagon,5 seats,5 doors,Sports Automatic,Engine #: 63829974,2 Ltr,4 Cyl,Diesel,Direct Injection,8 Gears,117100 (Km)",
+  "model": "X1",
+  "year": 2017,
+  "description": "BMW X1 F48 sDrive18d; built 2017-05; compliance 2017-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBAHU320005G13597",
+  "make": "BMW",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-000135 (AU Government recall VIN list REC-000135-VIN-List-1.xlsx; recall title 'REC-000135 - BMW Group Australia Ltd - BMW X1 WAGON 2016 - 2017')",
+  "model": "X1",
+  "year": null,
+  "description": "BMW X1 WAGON 2016 - 2017 (recall VIN list; build range per recall title 2016-2017; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBA22EE0505088665",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2024 BMW X1' https://www.pickles.com.au/used/details/cars/2024-bmw-x1/62456989 (listing text: CP: 10/2024,Built: 08/2024,BMW,X1,U11 sDrive18i,Wagon,5 seats,5 doors,Sports Automatic Dual Clutch,Engine #: 32167618,1.5 Ltr,3 Cyl,Petrol - Premium ULP,Direct )",
+  "model": "X1",
+  "year": 2024,
+  "description": "BMW X1 U11 sDrive18i; built 2024-08; compliance 2024-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBA22EE0405039800",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2024 BMW X1' https://www.pickles.com.au/used/details/cars/2024-bmw-x1/62447743 (listing text: CP: 10/2024,Built: 07/2024,BMW,X1,U11 sDrive18i,Wagon,5 seats,5 doors,Sports Automatic Dual Clutch,Engine #: 35807580,1.5 Ltr,3 Cyl,Petrol - Premium ULP,Direct )",
+  "model": "X1",
+  "year": 2024,
+  "description": "BMW X1 U11 sDrive18i; built 2024-07; compliance 2024-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "WBA52EE0705V02378",
+  "make": "BMW",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005748 (AU Government recall VIN list REC-005748-VIN-List-1.csv; recall title 'REC-005748 - B M W AUSTRALIA LTD. - BMW X1 2022')",
+  "model": "X1",
+  "year": null,
+  "description": "BMW X1 2022 (recall VIN list; build range per recall title 2022-2022; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ X1"
+ },
+ {
+  "vin": "MNTFBAC11A0022557",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '2012 Nissan Tiida' https://www.pickles.com.au/used/details/cars/2012-nissan-tiida/62479733 (listing text: CP: 03/2012,Built: 02/2012,Nissan,Tiida,C11 S3 ST,Hatchback,5 doors,Automatic,Engine #: MR18083801R,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 )",
+  "model": "Tiida",
+  "year": 2012,
+  "description": "Nissan Tiida C11 S3 ST; built 2012-02; compliance 2012-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tiida"
+ },
+ {
+  "vin": "MNTFBAC11A0008737",
+  "make": "Nissan",
+  "source": "pickles.com.au listing '2008 Nissan Tiida' https://www.pickles.com.au/used/details/cars/2008-nissan-tiida/62492695 (listing text: CP: 04/2008,Nissan,Tiida,C11 MY07 ST,Hatchback,5 doors,Automatic,Engine #: MR18028231R,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,179509 )",
+  "model": "Tiida",
+  "year": 2008,
+  "description": "Nissan Tiida C11 MY07 ST; compliance 2008-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tiida"
+ },
+ {
+  "vin": "JSAFTD62V00107184",
+  "make": "Suzuki",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001271 (AU Government recall VIN list REC-001271-VIN-List-1.xlsx; recall title 'REC-001271 - SUZUKI AUSTRALIA PTY LTD - SUZUKI GRAND VITARA 1998 - 1999')",
+  "model": "Grand Vitara",
+  "year": null,
+  "description": "SUZUKI GRAND VITARA 1998 - 1999 (recall VIN list; build range per recall title 1998-1999; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Grand Vitara"
+ },
+ {
+  "vin": "JSAFTD62V00107393",
+  "make": "Suzuki",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001271 (AU Government recall VIN list REC-001271-VIN-List-1.xlsx; recall title 'REC-001271 - SUZUKI AUSTRALIA PTY LTD - SUZUKI GRAND VITARA 1998 - 1999')",
+  "model": "Grand Vitara",
+  "year": null,
+  "description": "SUZUKI GRAND VITARA 1998 - 1999 (recall VIN list; build range per recall title 1998-1999; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Grand Vitara"
+ },
+ {
+  "vin": "YV1DZ8256C2326986",
+  "make": "Volvo",
+  "source": "pickles.com.au listing '2012 Volvo XC60' https://www.pickles.com.au/used/details/cars/2012-volvo-xc60/62460639 (listing text: CP: 06/2012,Built: 03/2012,Volvo,XC60,DZ MY12 D5 R-Design,Wagon,5 doors,Sports Automatic,Engine #: 1135504,2.4 Ltr,5 Cyl,Diesel,Direct Injection,6 Gears,187165 )",
+  "model": "XC60",
+  "year": 2012,
+  "description": "Volvo XC60 DZ MY12 D5 R-Design; built 2012-03; compliance 2012-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ XC60"
+ },
+ {
+  "vin": "WBAVG76080NL62756",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2008 BMW 3 Series' https://www.pickles.com.au/used/details/cars/2008-bmw-3-series/62482922 (listing text: CP: 04/2008,BMW,3 Series,E90 MY08 320i Executive,Sedan,4 doors,Sports Automatic,Engine #: A102110N4B20BD,2 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injection,)",
+  "model": "3 Series",
+  "year": 2008,
+  "description": "BMW 3 Series E90 MY08 320i Executive; compliance 2008-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ 3 Series"
+ },
+ {
+  "vin": "WBA5F300208C75764",
+  "make": "BMW",
+  "source": "pickles.com.au listing '2022 BMW 3 Series' https://www.pickles.com.au/used/details/cars/2022-bmw-3-series/62426222 (listing text: CP: 11/2022,Built: 06/2022,BMW,3 Series,G20 320i M Sport,Sedan,4 doors,Sports Automatic,Engine #: 18306755,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct Injection,8 G)",
+  "model": "3 Series",
+  "year": 2022,
+  "description": "BMW 3 Series G20 320i M Sport; built 2022-06; compliance 2022-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ 3 Series"
+ },
+ {
+  "vin": "1C4PJXJN3SW588555",
+  "make": "Jeep",
+  "source": "pickles.com.au listing '2025 Jeep Wrangler' https://www.pickles.com.au/used/details/cars/2025-jeep-wrangler/62444810 (listing text: CP: 08/2025,Built: 03/2025,Jeep,Wrangler,JL MY25 Rubicon,Hardtop,2 doors,Automatic,Engine #: NSW588555,2 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injection,8 )",
+  "model": "Wrangler",
+  "year": 2025,
+  "description": "Jeep Wrangler JL MY25 Rubicon; built 2025-03; compliance 2025-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Wrangler"
+ },
+ {
+  "vin": "1C4HJXMG3PW660654",
+  "make": "Jeep",
+  "source": "pickles.com.au listing '2023 Jeep Wrangler' https://www.pickles.com.au/used/details/cars/2023-jeep-wrangler/62460496 (listing text: CP: 07/2023,Built: 03/2023,Jeep,Wrangler,JL MY23 Unlimited Rubicon,Hardtop,4 doors,Automatic,Engine #: GPW660654,3.6 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point)",
+  "model": "Wrangler",
+  "year": 2023,
+  "description": "Jeep Wrangler JL MY23 Unlimited Rubicon; built 2023-03; compliance 2023-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Wrangler"
+ },
+ {
+  "vin": "JMFMRCJ2A3U000590",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2002 Mitsubishi Mirage' https://www.pickles.com.au/used/details/cars/2002-mitsubishi-mirage/62485100 (listing text: CP: 12/2002,Built: 11/2002,Mitsubishi,Mirage,CE MY02,Hatchback,3 doors,Automatic,Engine #: 4G15CJ5777,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,)",
+  "model": "Mirage",
+  "year": 2002,
+  "description": "Mitsubishi Mirage CE MY02; built 2002-11; compliance 2002-12",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mirage"
+ },
+ {
+  "vin": "MMAXTA03AEH002549",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2013 Mitsubishi Mirage' https://www.pickles.com.au/used/details/cars/2013-mitsubishi-mirage/62474224 (listing text: CP: 02/2013,Built: 01/2013,Mitsubishi,Mirage,LA MY14 ES,Hatchback,5 doors,Constantly Variable Transmission,Engine #: 3A92UAL6638,1.2 Ltr,3 Cyl,Petrol - Unleaded)",
+  "model": "Mirage",
+  "year": 2013,
+  "description": "Mitsubishi Mirage LA MY14 ES; built 2013-01; compliance 2013-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mirage"
+ },
+ {
+  "vin": "MMAXTA03AFH001758",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2015 Mitsubishi Mirage' https://www.pickles.com.au/used/details/cars/2015-mitsubishi-mirage/62483115 (listing text: CP: 06/2015,Built: 10/2014,Mitsubishi,Mirage,LA MY15 ES,Hatchback,5 doors,Constantly Variable Transmission,Engine #: 3A92UBY2301,1.2 Ltr,3 Cyl,Petrol - Unleaded)",
+  "model": "Mirage",
+  "year": 2014,
+  "description": "Mitsubishi Mirage LA MY15 ES; built 2014-10; compliance 2015-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mirage"
+ },
+ {
+  "vin": "MMASTA13AGH000348",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2016 Mitsubishi Mirage' https://www.pickles.com.au/used/details/cars/2016-mitsubishi-mirage/62485338 (listing text: CP: 06/2016,Built: 02/2016,Mitsubishi,Mirage,LA MY16 ES,Sedan,4 doors,Constantly Variable Transmission,Engine #: 3A92UDA3869,1.2 Ltr,3 Cyl,Petrol - Unleaded ULP)",
+  "model": "Mirage",
+  "year": 2016,
+  "description": "Mitsubishi Mirage LA MY16 ES; built 2016-02; compliance 2016-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mirage"
+ },
+ {
+  "vin": "MMASTA13AGH000329",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '2016 Mitsubishi Mirage' https://www.pickles.com.au/used/details/cars/2016-mitsubishi-mirage/62479704 (listing text: CP: 03/2016,Mitsubishi,Mirage,LA MY16 ES,Sedan,4 doors,Constantly Variable Transmission,Engine #: 3A92UDA3829,1.2 Ltr,3 Cyl,Petrol - Unleaded ULP,Multi-Point In)",
+  "model": "Mirage",
+  "year": 2016,
+  "description": "Mitsubishi Mirage LA MY16 ES; compliance 2016-03",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Mirage"
+ },
+ {
+  "vin": "JTDKBAB350L007315",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2021 Toyota Yaris Cross' https://www.pickles.com.au/used/details/cars/2021-toyota-yaris-cross/62226123 (listing text: CP: CIRCA 2021,Built: 11/2021,Toyota,Yaris Cross,Hatchback,Automatic,Odometer not visible,Colour: Burnt,Rego. No: NP(EQS92L), Unregistered NSW,VIN: JTDKBAB350L0)",
+  "model": "Yaris Cross",
+  "year": 2021,
+  "description": "Toyota Yaris Cross Hatchback; built 2021-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Yaris Cross"
+ },
+ {
+  "vin": "JTDKBAB3801023620",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2025 Toyota Yaris Cross' https://www.pickles.com.au/used/details/cars/2025-toyota-yaris-cross/62475817 (listing text: CP: 06/2025,Built: 04/2025,Toyota,Yaris Cross,MXPJ10R GX,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: M15AZ311278,1.5 Ltr,3 Cyl,Petrol - Unl)",
+  "model": "Yaris Cross",
+  "year": 2025,
+  "description": "Toyota Yaris Cross MXPJ10R GX; built 2025-04; compliance 2025-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Yaris Cross"
+ },
+ {
+  "vin": "WMWSV32070T671976",
+  "make": "Mini",
+  "source": "pickles.com.au listing '2013 Mini Hatch' https://www.pickles.com.au/used/details/cars/2013-mini-hatch/62484494 (listing text: CP: 07/2013,Built: 05/2013,Mini,Hatch,R56 LCI Cooper S,Hatchback,4 seats,3 doors,Sports Automatic,Engine #: B073J505N18B16A,1.6 Ltr,4 Cyl,Petrol - Premium ULP,M)",
+  "model": "Hatch",
+  "year": 2013,
+  "description": "Mini Hatch R56 LCI Cooper S; built 2013-05; compliance 2013-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Hatch"
+ },
+ {
+  "vin": "WMWSV32080TY80224",
+  "make": "Mini",
+  "source": "pickles.com.au listing '2010 Mini Hatch' https://www.pickles.com.au/used/details/cars/2010-mini-hatch/62487656 (listing text: CP: 05/2010,Built: 03/2010,Mini,Hatch,R56 MY10 Cooper S,Hatchback,3 doors,Sports Automatic,Engine #: B269I690N18B16A,1.6 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Po)",
+  "model": "Hatch",
+  "year": 2010,
+  "description": "Mini Hatch R56 MY10 Cooper S; built 2010-03; compliance 2010-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Hatch"
+ },
+ {
+  "vin": "WMWXM520703A55413",
+  "make": "Mini",
+  "source": "pickles.com.au listing '2015 Mini Hatch' https://www.pickles.com.au/used/details/cars/2015-mini-hatch/62485869 (listing text: CP: CIRCA 2015,Mini,Hatch,F56 LCI Cooper,Hatchback,3 doors,Sports Automatic Dual Clutch,Engine #: F2261178,1.5 Ltr,3 Cyl,Petrol - Premium ULP,Direct Injection,7)",
+  "model": "Hatch",
+  "year": 2015,
+  "description": "Mini Hatch F56 LCI Cooper",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Hatch"
+ },
+ {
+  "vin": "WMWXU92020TX53383",
+  "make": "Mini",
+  "source": "pickles.com.au listing '2019 Mini Hatch' https://www.pickles.com.au/used/details/cars/2019-mini-hatch/62409877 (listing text: CP: 05/2019,Built: 03/2019,Mini,Hatch,F55 LCI Cooper S,Hatchback,5 doors,Sports Automatic Dual Clutch,Engine #: H341K111,2 Ltr,4 Cyl,Petrol - Premium ULP,Direct)",
+  "model": "Hatch",
+  "year": 2019,
+  "description": "Mini Hatch F55 LCI Cooper S; built 2019-03; compliance 2019-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Hatch"
+ },
+ {
+  "vin": "WMW32DH0402S70465",
+  "make": "Mini",
+  "source": "pickles.com.au listing '2022 Mini Hatch' https://www.pickles.com.au/used/details/cars/2022-mini-hatch/62446727 (listing text: CP: 07/2022,Built: 04/2022,Mini,Hatch,F56 LCI-2 Cooper Classic,Hatchback,4 seats,3 doors,Sports Automatic Dual Clutch,Engine #: H230P090,1.5 Ltr,3 Cyl,Petrol - )",
+  "model": "Hatch",
+  "year": 2022,
+  "description": "Mini Hatch F56 LCI-2 Cooper Classic; built 2022-04; compliance 2022-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Hatch"
+ },
+ {
+  "vin": "MR0KA3FS100209815",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2019 Toyota Fortuner' https://www.pickles.com.au/used/details/cars/2019-toyota-fortuner/62448614 (listing text: CP: 04/2019,Built: 03/2019,Toyota,Fortuner,GUN156R GXL,Wagon,5 doors,Automatic,Engine #: 1GDA290087,2.8 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,176321 (Kms. S)",
+  "model": "Fortuner",
+  "year": 2019,
+  "description": "Toyota Fortuner GUN156R GXL; built 2019-03; compliance 2019-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Fortuner"
+ },
+ {
+  "vin": "MR0DA3FS100003760",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2019 Toyota Fortuner' https://www.pickles.com.au/used/details/cars/2019-toyota-fortuner/62482690 (listing text: CP: 09/2019,Built: 09/2019,Toyota,Fortuner,GUN156R GX,Wagon,7 seats,5 doors,Automatic,Engine #: 1GDA352400,2.8 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,263401 )",
+  "model": "Fortuner",
+  "year": 2019,
+  "description": "Toyota Fortuner GUN156R GX; built 2019-09; compliance 2019-09",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Fortuner"
+ },
+ {
+  "vin": "LSJW94U99RG032903",
+  "make": "MG",
+  "source": "pickles.com.au listing '2024 MG HS' https://www.pickles.com.au/used/details/cars/2024-mg-hs/62466591 (listing text: CP: 12/2024,Built: 05/2024,MG,HS,Wagon,4 Cyl,Petrol,27355 (Kms. Showing on Odometer),Colour: Black,Rego. No: 016MA5 NSW,VIN: LSJW94U99RG032903,Serial No: Y,Sold)",
+  "model": "HS",
+  "year": 2024,
+  "description": "MG HS Wagon; built 2024-05; compliance 2024-12",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HS"
+ },
+ {
+  "vin": "WF0EXXTTFE5U47815",
+  "make": "Ford",
+  "source": "pickles.com.au listing '2005 Ford Transit' https://www.pickles.com.au/used/details/cars/2005-ford-transit/62430578 (listing text: CP: 04/2005,Built: 04/2005,Ford,Transit,VJ,Bus,3 seats,5 doors,Seq. Manual Auto-Single Clutch,Engine #: DOFA5U47815,2.4 Ltr,4 Cyl,Diesel,Multi-Point Injection,5)",
+  "model": "Transit",
+  "year": 2005,
+  "description": "Ford Transit VJ; built 2005-04; compliance 2005-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Transit"
+ },
+ {
+  "vin": "WF0EXXGBFE2B31648",
+  "make": "Ford",
+  "source": "pickles.com.au listing '2002 Ford Transit' https://www.pickles.com.au/used/details/cars/2002-ford-transit/62431178 (listing text: CP: 11/2002,Ford,Transit,Bus,12 seats,Manual,4 Cyl,5 Gears,189347 (Kms. Showing on Odometer),Colour: White,Unregistered NSW,VIN: WF0EXXGBFE2B31648,Sold with No )",
+  "model": "Transit",
+  "year": 2002,
+  "description": "Ford Transit Bus; compliance 2002-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Transit"
+ },
+ {
+  "vin": "WF0DXXTTFDCT24606",
+  "make": "Ford",
+  "source": "pickles.com.au listing '2013 Ford Transit' https://www.pickles.com.au/used/details/cars/2013-ford-transit/62407223 (listing text: CP: 02/2013,Built: 01/2013,Ford,Transit,VM MY13,Bus,12 seats,5 doors,Manual,Engine #: CVRDCT24606,2.2 Ltr,4 Cyl,Diesel,Direct Injection,6 Gears,173084 (Kms. Sho)",
+  "model": "Transit",
+  "year": 2013,
+  "description": "Ford Transit VM MY13; built 2013-01; compliance 2013-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Transit"
+ },
+ {
+  "vin": "JTDKB20U600069115",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2004 Toyota Prius' https://www.pickles.com.au/used/details/cars/2004-toyota-prius/62466596 (listing text: CP: 05/2004,Built: 04/2004,Toyota,Prius,NHW20R,Liftback,5 doors,Constantly Variable Transmission,Engine #: 1NZ3132191,1.5 Ltr,4 Cyl,Hybrid,1 Gears,199214 (Kms. )",
+  "model": "Prius",
+  "year": 2004,
+  "description": "Toyota Prius NHW20R; built 2004-04; compliance 2004-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Prius"
+ },
+ {
+  "vin": "JTDKB22U700069797",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2004 Toyota Prius' https://www.pickles.com.au/used/details/cars/2004-toyota-prius/62482540 (listing text: CP: 04/2004,Toyota,Prius,NHW20R,Liftback,5 doors,Constantly Variable Transmission,Engine #: 1NZ3133694,1.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection)",
+  "model": "Prius",
+  "year": 2004,
+  "description": "Toyota Prius NHW20R; compliance 2004-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Prius"
+ },
+ {
+  "vin": "JTDKN36U601949620",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2015 Toyota Prius' https://www.pickles.com.au/used/details/cars/2015-toyota-prius/62485689 (listing text: CP: 04/2015,Toyota,Prius,ZVW30R,Liftback,5 doors,Constantly Variable Transmission,Engine #: 2ZR6396797,1.8 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injection,)",
+  "model": "Prius",
+  "year": 2015,
+  "description": "Toyota Prius ZVW30R; compliance 2015-04",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Prius"
+ },
+ {
+  "vin": "JTDKN36U301717749",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2013 Toyota Prius' https://www.pickles.com.au/used/details/cars/2013-toyota-prius/62487277 (listing text: CP: 08/2013,Toyota,Prius,ZVW30R MY12,Liftback,5 doors,Constantly Variable Transmission,Engine #: 2ZR5865043,1.8 Ltr,4 Cyl,Petrol - Premium ULP,Multi-Point Injec)",
+  "model": "Prius",
+  "year": 2013,
+  "description": "Toyota Prius ZVW30R MY12; compliance 2013-08",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Prius"
+ },
+ {
+  "vin": "JTDKB3FU403094218",
+  "make": "Toyota",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-001667 (AU Government recall VIN list REC-001667-VIN-List-1.csv; recall title 'REC-001667 - TOYOTA MOTOR CORPORATION AUSTRALIA LIMITED - Toyota Prius ZVW50 2020 - 2021')",
+  "model": "Prius",
+  "year": null,
+  "description": "Toyota Prius ZVW50 2020 - 2021 (recall VIN list; build range per recall title 2020-2021; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Prius"
+ },
+ {
+  "vin": "JTEGD52M107152128",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2017 Toyota Tarago' https://www.pickles.com.au/used/details/cars/2017-toyota-tarago/62446377 (listing text: CP: 07/2017,Built: 06/2017,Toyota,Tarago,ACR50R GLX,Wagon,8 seats,5 doors,Constantly Variable Transmission,Engine #: 2AZ4A96303,2.4 Ltr,4 Cyl,Petrol - Unleaded )",
+  "model": "Tarago",
+  "year": 2017,
+  "description": "Toyota Tarago ACR50R GLX; built 2017-06; compliance 2017-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tarago"
+ },
+ {
+  "vin": "JTEGD52M607054650",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2007 Toyota Tarago' https://www.pickles.com.au/used/details/cars/2007-toyota-tarago/62483023 (listing text: CP: 11/2007,Toyota,Tarago,GSR50R GLI,Wagon,5 doors,Sports Automatic,Engine #: 2AZ2875449,3.5 Ltr,6 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,6 Gears,Odome)",
+  "model": "Tarago",
+  "year": 2007,
+  "description": "Toyota Tarago GSR50R GLI; compliance 2007-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tarago"
+ },
+ {
+  "vin": "JM0KG2WLA00405786",
+  "make": "Mazda",
+  "source": "pickles.com.au listing '2023 Mazda CX-8' https://www.pickles.com.au/used/details/cars/2023-mazda-cx-8/62380343 (listing text: CP: 11/2023,Built: 11/2023,Mazda,CX-8,KG2WLA G25 Sport,Wagon,7 seats,5 doors,Sports Automatic,Engine #: PY22254095,2.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Direct In)",
+  "model": "CX-8",
+  "year": 2023,
+  "description": "Mazda CX-8 KG2WLA G25 Sport; built 2023-11; compliance 2023-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CX-8"
+ },
+ {
+  "vin": "JM0KG2WLA00352728",
+  "make": "Mazda",
+  "source": "pickles.com.au listing '2021 Mazda CX-8' https://www.pickles.com.au/used/details/cars/2021-mazda-cx-8/62211763 (listing text: CP: 05/2021,Mazda,CX-8,KG2WLA Touring,Wagon,5 doors,Sports Automatic,Engine #: PY31310999,2.5 Ltr,4 Cyl,Petrol - Unleaded ULP,Direct Injection,6 Gears,Odometer )",
+  "model": "CX-8",
+  "year": 2021,
+  "description": "Mazda CX-8 KG2WLA Touring; compliance 2021-05",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ CX-8"
+ },
+ {
+  "vin": "JM0BG106200165705",
+  "make": "Mazda",
+  "source": "pickles.com.au listing '1995 Mazda 323' https://www.pickles.com.au/used/details/cars/1995-mazda-323/62485303 (listing text: CP: 01/1995,Built: 12/1994,Mazda,323,Sedan,4 doors,Manual,4 Cyl,Petrol - Unleaded ULP,5 Gears,Odometer not visible,Colour: Green,Rego. No: NP(968PV2), Unregiste)",
+  "model": "323",
+  "year": 1994,
+  "description": "Mazda 323 Sedan; built 1994-12; compliance 1995-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ 323"
+ },
+ {
+  "vin": "VF1VY0C0VFC561756",
+  "make": "Renault",
+  "source": "pickles.com.au listing '2015 Renault Koleos' https://www.pickles.com.au/used/details/cars/2015-renault-koleos/62444946 (listing text: CP: 06/2015,Built: 04/2015,Renault,Koleos,H45 PHASE III MY15 Bose Premium,Wagon,5 seats,5 doors,Constantly Variable Transmission,Engine #: 2TRA703F026628,2.5 Lt)",
+  "model": "Koleos",
+  "year": 2015,
+  "description": "Renault Koleos H45 PHASE III MY15 Bose Premium; built 2015-04; compliance 2015-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Koleos"
+ },
+ {
+  "vin": "VF1VY0C0VBC353608",
+  "make": "Renault",
+  "source": "pickles.com.au listing '2011 Renault Koleos' https://www.pickles.com.au/used/details/cars/2011-renault-koleos/62492903 (listing text: CP: 06/2011,Built: 01/2011,Renault,Koleos,H45 MY11 Dynamique,Wagon,5 doors,Constantly Variable Transmission,Engine #: P062301,2.5 Ltr,4 Cyl,Petrol - Premium ULP)",
+  "model": "Koleos",
+  "year": 2011,
+  "description": "Renault Koleos H45 MY11 Dynamique; built 2011-01; compliance 2011-06",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Koleos"
+ },
+ {
+  "vin": "VF1RZG003H0271540",
+  "make": "Renault",
+  "source": "pickles.com.au listing '2018 Renault Koleos' https://www.pickles.com.au/used/details/cars/2018-renault-koleos/62459151 (listing text: CP: 01/2018,Renault,Koleos,HZG Zen,Wagon,5 doors,Constantly Variable Transmission,Engine #: F018699,2.5 Ltr,4 Cyl,Petrol,Multi-Point Injection,1 Gears,234356 (K)",
+  "model": "Koleos",
+  "year": 2018,
+  "description": "Renault Koleos HZG Zen; compliance 2018-01",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Koleos"
+ },
+ {
+  "vin": "1J4FJB8S21L527900",
+  "make": "Jeep",
+  "source": "pickles.com.au listing '2001 Jeep Cherokee' https://www.pickles.com.au/used/details/cars/2001-jeep-cherokee/62466114 (listing text: CP: 07/2001,Jeep,Cherokee,Wagon,Automatic,Engine #: 1L527900,6 Cyl,Petrol,Odometer not visible,Colour: Black,Rego. No: NP(DO49WV), Unregistered NSW,VIN: 1J4FJB8)",
+  "model": "Cherokee",
+  "year": 2001,
+  "description": "Jeep Cherokee Wagon; compliance 2001-07",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Cherokee"
+ },
+ {
+  "vin": "SALYA2AY9RA372551",
+  "make": "Land Rover",
+  "source": "https://www.vehiclerecalls.gov.au/recalls/rec-005802 (AU Government recall VIN list REC-005802-VIN-List-1.csv; recall title 'REC-005802 - JAGUAR LAND ROVER AUSTRALIA PTY LTD - LAND ROVER RANGE ROVER VELAR AND DEFENDER 2022 - 2023')",
+  "model": "Defender",
+  "year": null,
+  "description": "LAND ROVER RANGE ROVER VELAR AND DEFENDER 2022 - 2023 (recall VIN list; build range per recall title 2022-2023; trim/year not stated per VIN)",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Defender"
+ },
+ {
+  "vin": "MR033UNE907001760",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2000 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2000-toyota-hilux/62408903 (listing text: CP: 10/2000,Built: 08/2000,Toyota,Hilux,RZN149R,Utility Dual Cab,4 doors,Automatic,Engine #: 3RZ2396709,2.7 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injectio)",
+  "model": "HiLux",
+  "year": 2000,
+  "description": "Toyota Hilux RZN149R; built 2000-08; compliance 2000-10",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "MR033UNE907004812",
+  "make": "Toyota",
+  "source": "pickles.com.au listing '2002 Toyota Hilux' https://www.pickles.com.au/used/details/cars/2002-toyota-hilux/62454028 (listing text: CP: 11/2002,Built: 10/2002,Toyota,Hilux,RZN149R MY02,Utility Dual Cab,4 doors,Automatic,2.7 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,4 Gears,256746)",
+  "model": "HiLux",
+  "year": 2002,
+  "description": "Toyota Hilux RZN149R MY02; built 2002-10; compliance 2002-11",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ HiLux"
+ },
+ {
+  "vin": "JMFCC7S41PJ018644",
+  "make": "Mitsubishi",
+  "source": "pickles.com.au listing '1994 Mitsubishi Lancer' https://www.pickles.com.au/used/details/cars/1994-mitsubishi-lancer/62363712 (listing text: CP: 02/1994,Built: 12/1993,Mitsubishi,Lancer,CC GSR,Sedan,5 seats,4 doors,Manual,Engine #: CB9801,1.8 Ltr,4 Cyl,Petrol - Unleaded ULP,Multi-Point Injection,5 Ge)",
+  "model": "Lancer",
+  "year": 1993,
+  "description": "Mitsubishi Lancer CC GSR; built 1993-12; compliance 1994-02",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Lancer"
+ },
+ {
+  "vin": "KMHHN61FR7U261268",
+  "make": "Hyundai",
+  "source": "grays.com listing '2007 Hyundai Tiburon  Petrol' https://www.grays.com/lot/0013-23503120/motor-vehicles-motor-cycles/2007-hyundai-tiburon-petrol",
+  "model": "Tiburon",
+  "year": 2007,
+  "description": "Hyundai Tiburon Petrol; built 2007; compliance 06/2007",
+  "user_supplied": false,
+  "pending_reason": "model/series not decoded; model \"null \" ≠ Tiburon"
+ }
+]

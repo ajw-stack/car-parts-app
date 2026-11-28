@@ -6,7 +6,7 @@ import { holden6G1, holden6H8, holdenZB } from "./holden";
 import { audi, volkswagen } from "./volkswagen";
 import { mercedes } from "./mercedes";
 import { honda, landRover, subaru } from "./japan-uk";
-import { isuzu, lexus, privateImport, toyota } from "./toyota";
+import { isuzu, lexus, mazdaBt50Tf, privateImport, toyota } from "./toyota";
 import { hyundai, kia, mazda, mitsubishi, nissan, nissanUS, suzuki } from "./asia";
 import { fcaNorthAmerica, fordAustralia, fordBrazil, fordThailand } from "./ford-fca";
 import { bmw, holdenKorea, renault } from "./others";
@@ -25,7 +25,7 @@ export const MAKE_RULES: MakeRule[] = [
   volkswagen, audi,
   mercedes,
   subaru, honda, landRover,
-  toyota, lexus, isuzu, privateImport,
+  toyota, lexus, isuzu, mazdaBt50Tf, privateImport,
   mazda, mitsubishi, nissan, nissanUS, suzuki, genesisDH, hyundai, kia,
   fordAustralia, fordRangerEverest, fordEurope, ram, fordThailand, fordBrazil, fordUSCar, chevrolet, jeepMelfi, fcaNorthAmerica,
   holdenKorea, bmw, renault,

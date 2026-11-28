@@ -30,7 +30,8 @@ function check(vin: string, fx?: Fx) {
   if (fx) {
     // A decoded make may name two badges the VIN cannot tell apart (e.g. "Fiat / Abarth"); either one passes.
     const makes = String(s.make ?? "").split("/").map(norm);
-    if (fx.make && !makes.includes(norm(fx.make))) problems.push(`make ${s.make} ≠ ${fx.make}`);
+    // A fixture may also name two badges (a listing that says "SEAT / Cupra"); any overlap passes.
+    if (fx.make && !String(fx.make).split("/").map(norm).some((m) => makes.includes(m))) problems.push(`make ${s.make} ≠ ${fx.make}`);
     // Model check: the first word of the listing's model name must appear in the decoded model/series.
     const want = norm(String(fx.model ?? "").split(/[\s/(-]/)[0]);
     if (want && !norm(`${s.model} ${s.series}`).includes(want)) problems.push(`model "${s.model} ${s.series ?? ""}" ≠ ${fx.model}`);
